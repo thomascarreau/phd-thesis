@@ -1,0 +1,140 @@
+\appendix
+\chapter{Energy density of a relativistic electron gas}\label{appendix:epse}
+
+We give here the derivation of the energy density of a relativistic electron
+gas of density $n_e$ at zero temperature.
+
+From $\approx 10^{14}$ g/cm$^3$, electrons are essentially free. In this
+case, the energy density is given by
+%
+\begin{equation}
+  \varepsilon_e = \frac{c}{\pi^2}\int_{k=0}^{k_{e}} dk k^2 
+  \sqrt{\hbar^2 k^2 + m_e^2c^2},
+\end{equation}
+%
+$c$ being the speed of light, $\hbar$ the reduced Planck constant, and $m_e$
+the electron mass. The electron Fermi wave number $k_e$ is related to the
+electron density via $k_e = (3\pi^2n_e)^{1/3}$. Making a simple variable, 
+$x = \hbar k/(m_ec)$, we can rewrite the energy density as
+%
+\begin{equation}
+  \varepsilon_e = \frac{m_e^4c^5}{\pi^2\hbar^3}\xi(x_r)
+\end{equation}
+%
+with $x_r = \hbar k_e/(m_ec)$ and
+%
+\begin{equation}
+  \xi = \int_{x=0}^{x_r} dx x^2\sqrt{x^2+1}.
+\end{equation}
+%
+Integrating by parts, it follows
+%
+\begin{eqnarray}
+  \xi &=& \left[\frac{x^3}{3}\sqrt{x^2 + 1}\right]_0^{x_r} -
+  \int_0^{x_r}dx\frac{x^4}{3\sqrt{x^2+1}}\notag\\
+  3\xi &=& x_r^3\sqrt{x_r^2+1} - \int_0^{x_r}dx x^2 \left(\frac{x^2+1}{\sqrt{x^2
+  + 1}} - \frac{1}{\sqrt{x^2+1}}\right)\notag\\
+        4\xi &=& x_r^3\sqrt{x_r^2+1} + \int_0^{x_r}dx \frac{x^2}{\sqrt{x^2+1}}.
+\end{eqnarray}
+%
+We have
+%
+\begin{equation}
+  \frac{d}{dx}\left(x\sqrt{x^2 + 1}\right) = \sqrt{x^2+1} + \frac{x^2}{\sqrt{x^2+1}},
+\end{equation}
+%
+and
+%
+\begin{equation}
+  \frac{d}{dx}\left[\ln(x + \sqrt{x^2+1})\right] = \sqrt{x^2+1} -
+  \frac{x^2}{\sqrt{x^2+1}}.
+\end{equation}
+%
+thus,
+%
+\begin{equation}
+  \frac{1}{2}\frac{d}{dx}\left[x\sqrt{x^2+1} -
+  \ln\left(x+\sqrt{x^2+1}\right)\right] = \frac{x^2}{\sqrt{x^2+1}}.
+\end{equation}
+%
+Hence,
+%
+\begin{equation}
+  4\xi = x_r^3\sqrt{x_r^2+1} + \frac{1}{2}\left[x\sqrt{x^2+1} -
+  \ln\left(x+\sqrt{x^2+1}\right)\right]_0^{x_r},
+\end{equation}
+%
+which finally gives
+%
+\begin{equation}
+  \varepsilon_e(n_e) = \frac{m_e^4c^5}{8\pi^2\hbar^3}\left[x_r(2x_r^2 +
+  1)\gamma_r - \ln(x_r + \gamma_r)\right], 
+\end{equation}
+%
+where we have introduced the parameter parameter $\gamma_r = \sqrt{x_r^2+1}$.
+
+\chapter{Neutron and proton chemical potentials in the metamodel}\label{appendix:mutau}
+
+From the metamodeling of the nuclear matter energy, Eq.~\ref{eq:meta}, we give 
+here the complete expressions of the neutron and proton chemical potentials
+for a homogeneous system characterized by a neutron density $n_n$ and proton
+density $n_p$ at zero temperature. Let us introduce the variables 
+$x=(n-n_{sat})/(3n_{sat})$ and $\delta = (n_n - n_p)/n$, $n=n_n+n_p$ being the
+total baryon density.
+
+The neutron chemical potential, with the rest mass energy $m_nc^2$, is given by
+%
+\begin{eqnarray}
+  \mu_{HM,n} &=& e_{HM}(n_n,n_p) + n\left(\frac{\partial
+  e_{HM}}{\partial n_n}\right)_{n_p} + m_nc^2\\
+  \mu_{HM,n} &=& e_{HM}(n,\delta) + \frac{1+3x}{3}\left(\frac{\partial
+  e_{HM}}{\partial x}\right)_\delta + (1 - \delta)\left(\frac{\partial
+e_{HM}}{\partial \delta}\right)_x + m_n c^2.
+\end{eqnarray}
+%
+Equivalently, the proton chemical potential is given by
+%
+\begin{equation}
+  \mu_{HM,p} = e_{HM}(n,\delta) + \frac{1+3x}{3}\left(\frac{\partial
+  e_{HM}}{\partial x}\right)_\delta - (1 + \delta)\left(\frac{\partial
+e_{HM}}{\partial \delta}\right)_x + m_p c^2.
+\end{equation}
+%
+We first go through the derivative with respect to $x$, yielding
+%
+\begin{eqnarray}
+  \left(\frac{\partial e_{HM}}{\partial x}\right)_\delta &=&  
+  \frac{5}{1+3x}t_{HM}^{FG}(n,\delta) \notag\\
+                                                         &&-
+  \frac{3}{1+3x}\frac{1}{2}t_{sat}^{FG}(1+3x)^{2/3}
+  \left[(1+\delta)^{5/3}+(1-\delta)^{5/3}\right]\notag\\
+                                                         &&+
+  \sum_{\alpha \geq 0}
+  (v_\alpha^{is} + v_\alpha^{iv}\delta^2)\frac{1}{\alpha!}\left(\alpha
+  x^{\alpha-1}u_\alpha(x) + x^\alpha \frac{du_\alpha}{dx}\right).
+\end{eqnarray}
+%
+Let us notice that is gives the expression for the total pressure,
+%
+\begin{eqnarray}
+  P_{HM}(n,\delta) &=& n^2\left(\frac{\partial e_{HM}}{\partial
+  n}\right)_\delta\\
+  &=& \frac{1}{3}n_{sat}(1+3x)^2\left(\frac{\partial e_{HM}}{\partial
+  x}\right)_\delta.
+\end{eqnarray}
+%
+We now turn to the derivative with respect to the asymmetry $\delta$,
+%
+\begin{eqnarray}
+  \left(\frac{\partial e_{HM}}{\partial \delta}\right)_x &=&
+  \frac{1}{2}t_{sat}^{FG}(1+3x)^{5/3}\left[(1+\delta)^{5/3} 
+  - (1-\delta)^{5/3}\right]\notag\\
+                                                         &&+ 
+  \frac{5}{6}t_{sat}^{FG}(1+3x)^{2/3}\left[(1+\delta)^{2/3}\frac{m}{m_n^*} -
+  (1-\delta)^{2/3}\frac{m}{m_p^*}\right]\notag\\
+                                                         &&+
+  2\delta \sum_{\alpha \geq 0}v_\alpha^{iv}\frac{x^\alpha}{\alpha!}u_\alpha(x).
+\end{eqnarray}
+%
+
+\chapter{Total pressure in the inner crust}\label{appendix:presic}

@@ -1,0 +1,37 @@
+%% Fonts
+\usepackage[utf8]{inputenc} % Frenchs characters
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage{lmodern} % High quality fonts
+
+%% Style
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true, 
+urlcolor=black, linkcolor=black, citecolor=Blue]{hyperref}
+\usepackage[top=4cm, bottom=4cm, headheight=15pt]{geometry} % Geometry
+\usepackage{fancyhdr} % Line under chapter name at the top of the page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[ER]{\nouppercase\leftmark}
+\fancyhead[OL]{\nouppercase\rightmark}
+\fancyhead[EL,OR]{\thepage}
+
+%% Figures
+\usepackage{graphicx} % Figures
+
+%% Tables
+\usepackage{booktabs} % For using \toprule commands instead of \hline
+
+%% Maths
+\usepackage{amssymb, amsmath} % General
+\usepackage{bm} % Bold
+
+%% Bibliography
+\usepackage[maxnames=3, 
+style=alphabetic,
+hyperref,
+isbn=false,
+doi=true,
+url=false,
+eprint=true,
+backend=biber]{biblatex}
+\addbibresource{references.bib}

@@ -1,0 +1,45 @@
+% *****************************************************************************
+%     PhDThesis_CARREAU.tex
+%
+% Author: Thomas Carreau
+% Last edit: 15/02/2019
+%
+% *****************************************************************************
+
+%%%% CLASS ====================================================================
+
+\documentclass[a4paper, 11pt, twoside]{book}
+
+%%%% PACKAGES =================================================================
+
+\input{sections/packages}
+
+%%%% DOCUMENT =================================================================
+
+\begin{document}
+
+\input{sections/prestarting}
+
+% \input{sections/introduction}
+
+\input{sections/chapter1}
+
+% \input{sections/chapter2}
+
+% \input{sections/chapter3}
+
+% \input{sections/conclusion}
+
+\input{sections/appendices}
+
+%% old bib style
+% \addcontentsline{toc}{chapter}{Bibliography}
+% \bibliographystyle{alpha}
+% \bibliography{references}
+
+\printbibliography[
+heading=bibintoc,
+title={Bibliography}
+]
+
+\end{document}
