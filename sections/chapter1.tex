@@ -1,10 +1,8 @@
 % *****************************************************************************
 %     sections/chapter1.tex
 %
-% Last edit: 21/02
+% Last edit: 05/03
 % *****************************************************************************
-
-\def\edit{\textcolor{red}}
 
 \chapter{Structure and equation of state of cold non-accreting neutron stars}
 
@@ -54,8 +52,8 @@ The plan of the chapter is as follows. In Section~\ref{sec:ocrust_gs}, the
 ground state of the outer crust is determined by application of the 
 method introduced by Baym, Pethick, and Sutherland (BPS)~\cite{BPS}, using 
 experimental masses~\cite{Huang2017} supplemented by 
-state-of-the-art microscopic theoretical mass tables. Section
-\ref{sec:icrust_gs} is devoted to the determination of the inner-crust ground 
+state-of-the-art microscopic theoretical mass tables. 
+Section \ref{sec:icrust_gs} is devoted to the determination of the inner-crust ground 
 state using a compressible liquid drop model (CLDM) based on the metamodeling
 technique \cite{Margueron2018a,Carreau2019cc}. The phase transition 
 from the solid crust to the liquid core, occuring at some $\approx 1$ km from the 
@@ -187,8 +185,7 @@ $x_r = \hbar k_e/(m_ec)$ the relativity parameter, and $\gamma_r =
   k_e = (3\pi^2n_e)^{1/3}.
 \end{equation}
 %
-The derivation of Eq.~(\ref{eq:eel}) is given in Appendix
-\ref{appendix:epse}.\\
+The derivation of Eq.~(\ref{eq:eel}) is given in Appendix \ref{appendix:epse}.\\
 Above $10^7$ g/cm$^3$, $x_r \gg 1$, thus electrons can be considered 
 ultrarelativistic and Eq.~(\ref{eq:eel}) becomes
 %
@@ -419,12 +416,15 @@ The ground-state composition and EoS of the outer crust of a cold non-accreting
 NS is reported in Table \ref{table:ocrust}. The upper part of the table, 
 $n_B < 3.84 \times 10^{-5}$ fm$^{-3}$, \edit{corresponding to $\rho_B < 6.39 \times
 10^{10}$ g/cm$^3$}, is exclusively determined by experimental 
-data from the AME2016~\cite{Huang2017}. \edit{Let us notice that the maximum density 
-  at which experimentally studied nucleus $^{80}$Zn was present was found to be 
-  slightly lower in
-\cite{Haensel1994}, $\rho_B = 5.44 \times 10^{10}$ g/cm$^3$.} From
-$3.84\times 10^{-5}$ fm$^{-3}$, matter becomes so neutron rich that the nuclear masses 
-cannot be measured experimentally for now, thus a model dependence is expected 
+data from the AME2016~\cite{Huang2017}. \edit{Let us notice that the maximum
+  mass density at which experimentally studied nucleus $^{80}$Zn was present 
+  was found to be slightly lower in \cite{Haensel1994}, 
+  $\rho_B = 5.44 \times 10^{10}$ g/cm$^3$. This is due to the fact that the 
+  determination of this value of density depends on the mass formula used, here
+  HFB-24, for the neutron rich nuclides present in the bottom layers of the
+outer crust.} From $3.84\times 10^{-5}$ 
+fm$^{-3}$, matter becomes so neutron rich that the nuclear masses cannot be measured 
+experimentally for now, thus a model dependence is expected 
 to arise because the nuclear masses have to be extrapolated from laboratory nuclei. The
 nuclear mass model used to calculated the ground state here is
 HFB-24~\cite{Goriely2013}, constructed from the BSk24 functional following the
@@ -472,8 +472,10 @@ original calculation of BPS~\cite{BPS}. Also, it is reported
 in~\cite{Pearson2018} that $^{79}$Co is favored over $^{76}$Ni, found
 for HFB-22 and HFB-25, in the case where the recent mass excess measurements
 of~\cite{Welker2017} are accounted for. This highlights the importance
-of measuring the mass of odd-nuclei. The presence of odd-nuclei could affect
-magnetic properties of the outer crust.\\
+of measuring the mass of odd-nuclei. \edit{The presence of odd-nuclei in the
+  outer crust of NS could lead to phase transitions, for instance ferromagnetic, 
+  at low temperature. In return, it could generate a magnetic field and alter 
+  the existing field, and so the electron gas.}\\
 It can also be observed in Table~\ref{table:ocrust} that the proton fraction 
 $Y_p = Z/A$ always decreases with increasing depth. The
 neutronization of matter can be understood by the following reason. Neglecting 
@@ -508,16 +510,16 @@ Eq.~(\ref{eq:eeur}),
 \end{equation}
 %
 Therefore, the electron chemical potential $\mu_e$ scales as $P^{1/4}$ ($P \propto
-n_e^{4/3}$). Then it appears that, with increasing pressure, it is favorable
-in the energetic point of view to decrease the proton fraction $Y_p = Z/A$ in
+n_e^{4/3}$). Then it appears that, with increasing pressure, it is
+energetically favorable to decrease the proton fraction $Y_p = Z/A$ in
 order to compensate the increase in the term $M'(A,Z)c^2/A$.\\
 The neutron chemical potential monotonously increases with increasing density 
 and at $n_B = 2.56\times 10^{-4}$ fm$^{-3}$, corresponding to $P = 4.87\times
 10^{-4}$ MeV/fm$^{-3}$, the neutron drip is finally
 reached. It should be mentioned that the neutron drip density as well as
-pressure depend of the mass model, here chosen to be HFB-24.
+pressure depend on the mass model, here chosen to be HFB-24.
 
-\begin{figure}[htbp]
+\begin{figure}[!t]
 \begin{center}
   \includegraphics[width=0.8\linewidth]{figures/ocrust_model.pdf}
 \end{center}
@@ -529,19 +531,21 @@ outer crust]{Variation with baryon density $n_B$ of the equilibrium value of
 \end{figure}
 
 The model dependence of the composition in the bottom layers of the outer crust 
-(bottom part of Table~\ref{table:ocrust}) is seen in
+(bottom part of Table~\ref{table:ocrust}) can be seen in
 Figure~\ref{fig:ocrust_model}, where we represent the proton number $Z$ and the
 neutron number $N$ as a function of the baryon density $n_B$ for four different
-mass models: HFB-14~\cite{Goriely2007}, HFB-24, HFB-26~\cite{Goriely2013}, and
-the FRDM~\cite{Moller1995} that supplement the experimental data. The model
-dependence is exhibited from $n_B \approx 2.5\times 10^{-5}$ fm$^{-3}$. We 
-recover similar sequences of nuclides between the different mass models, with
+mass models that reproduce with comparable accuracy the present experimental
+mass information: HFB-14~\cite{Goriely2007}, HFB-24, HFB-26~\cite{Goriely2013}, 
+and the FRDM~\cite{Moller1995} that supplement the experimental data. The model
+dependence is observed from $n_B \approx 2.5\times 10^{-5}$ fm$^{-3}$, where
+the experimental mass data are not available. We 
+recover similar sequences of nuclides with the different mass models, with
 the strong shell effect associated to $N=50$ at low density and $N=82$ in the
 bottom layers. A thin layer with $N=52$ is also found for HFB-24 and HFB-26 just before the
 transition to $N=82$. While this transition occurs in the vicinity of $\approx 8\times
 10^{-5}$ fm$^{-3}$ for HFB-24, HFB-26, and the FRDM, it is found to happen at
 approximately $4\times 10^{-5}$ fm$^{-3}$ for HFB-14. Different nuclides are 
-found at the neutron drip, depending on the model: $^{124}$Sr is found for
+found close to the neutron drip, depending on the model: $^{124}$Sr is found for
 HFB-24, $^{126}$Sr for HFB-26, $^{120}$Kr for HFB-14, and $^{122}$Kr for the FRDM. 
 The neutron drip density $n_{ND}$ and pressure $P_{ND}$ slightly depends on 
 the model as well. These values are reported in Table~\ref{table:drip}.
@@ -612,15 +616,6 @@ phase transition from the solid crust to the liquid core is investigated
 in~\ref{subsec:ccfromc}.
 
 \subsection{Modeling the nuclear energy}\label{subsec:nucenergy}
-
-\begin{figure}[!t]
-\begin{center}
-  \includegraphics[width=0.9\linewidth]{figures/icrust_wscell.pdf}
-\end{center}
-\caption[Cartoon of a Wigner-Seitz cell in the inner crust]{Schematic 
-  representation of a spherical unit cell (left) and of 
-density profiles within it (right) in the inner crust.}\label{fig:icrust_wscell}
-\end{figure}
 
 % composition ws cell:
 Once the neutron dripline is reached, neutron start to drip out of nuclei but
