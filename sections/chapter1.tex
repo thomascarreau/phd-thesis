@@ -585,10 +585,10 @@ FRDM~\cite{Moller1995}.}\label{fig:ocrust_pres}
 The variation of pressure with baryon density, namely the EoS, is shown in
 Fig.~\ref{fig:ocrust_pres} for the four mass models. The selected models give 
 the same value of pressure up to $\approx 2.5\times10^{-5}$ fm$^{-3}$, as it is 
-the case for the composition. Above, we can perceive the small effect of the 
-model, in particular at the transitions from a layer to another at which the 
-pressure stays constant, but where a discontinuity is observed in the 
-density.
+the case for the composition. At higher densities, we can perceive the small 
+effect of the model, in particular at the transitions from a layer to another 
+at which the pressure stays constant, but where a discontinuity is observed in 
+the density.
 
 % -----------------------------------------------------------------------------
 
@@ -619,10 +619,21 @@ in~\ref{subsec:ccfromc}.
 
 % composition ws cell:
 Once the neutron dripline is reached, neutron start to drip out of nuclei but
-stay confined in the WS cell because of the intense gravitational pressure,
-whereas they would have evaporate in the laboratory. In the regime of the inner
+stay confined in the WS cell because of the gravitational pressure,
+whereas they would have been emitted in the laboratory. In the regime of the inner
 crust, we thus have, in each unit cell, a cluster immersed in an electron sea, 
 and an ambient neutron gas.
+
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/clustering.pdf}
+\end{center}
+\caption[\edit{r-cluster and e-cluster representations}]{\edit{Wood-Saxon 
+    density profiles, for arbitrary values, within a WS cell in the free 
+neutron regime. Blue dashed lines correspond to the cluster density (left,
+r-cluster; right, e-cluster), and orange dotted lines to the gas density. The
+total density profile is represented in gray solid lines.}}\label{fig:clustering}
+\end{figure}
 
 There is an ambiguity regarding the characterization of the cluster-gas
 interface. One should ask whether the neutron gas penetrate the cluster or not.
@@ -644,7 +655,14 @@ single-particle developments. Indeed, in very neutron-rich clusters, beyond the
 neutron dripline, the bound states are occupied as well as the resonant and
 continuum states. All the unbound single-particle states that are occupied thus
 represents the neutron gas, characterized by a quasihomogeneous spatial 
-distribution, the continuum wave functions being very similar to plane waves.\\
+distribution, the continuum wave functions being very similar to plane waves.
+\edit{The difference between the two representations is illustrated in 
+Fig.~\ref{fig:clustering}. The cluster and gas density profiles are 
+plotted along the WS cell radius in the r-cluster representation (left) and
+e-cluster representation (right) using Woods-Saxon profiles with arbitrary
+values. Woods-Saxon functions are known to give a good description of 
+medium-mass and heavy nuclei density profiles, and are commonly used in
+Thomas-Fermi (TF) and extended Thomas-Fermi (ETF) calculations.}\\
 One can benefit from the advantage of both representations through the simple
 geometric relations
 %
@@ -667,15 +685,15 @@ corresponds to the proton single-particle field at the cell
 surface~\cite{Pearson2018}. However, if nonspherical shapes are considered 
 then it is found that protons remain in the cluster for most models.
 
-At zero temperature and in the classical treatment, we therefore write 
-the WS cell energy $E_{WS}$ in the r-cluster representation as
+At zero temperature, we write the WS cell energy $E_{WS}$ in the r-cluster 
+representation as
 %
 \begin{equation}
   E_{WS} = E_{cl} + V_{WS}\varepsilon_e +
   (V_{WS}-V_{cl})\varepsilon_g + Z_{WS}(m_p - m_n)c^2 + A_{WS}m_nc^2\label{eq:ews_icrust}
 \end{equation}
 %
-where $\varepsilon_g$ represents the energy density of the ambient neutron gas
+where $\varepsilon_g$ represents the energy density of the surrounding neutron gas
 of density $n_g$, $V_{cl}=A/n_0$ the volume of the cluster, $V_{WS}$ that of
 the WS cell, and $E_{cl}$ the energy of the cluster. The total number of
 protons $Z_{WS}$ and nucleons $A_{WS}$ inside the WS cell are given respectively by
@@ -993,7 +1011,7 @@ matter to nuclei in order to take into account for their finite surface, within
 the CLD approximation, originally
 introduced in~\cite{BBP}. This approach is 
 expected to be less accurate than microscopic Hartree-Fock
-(HF)~\cite{Negele1973} or extended Thomas-Fermi (ETF)~\cite{Onsi2008} 
+(HF)~\cite{Negele1973} or (ETF)~\cite{Onsi2008} 
 calculations since quantum effects are neglected, 
 though it proved its worth in the past by giving surprisingly good
 results, see for example~\cite{BBP,Lattimer1991,Douchin2000a,Douchin2001}. 
@@ -1072,7 +1090,7 @@ encountered in the inner crust. Indeed, no experimental data exist on the
 surface energy of nuclei beyond the dripline, which is in-medium modified by 
 the presence of the neutron gas~\cite{Douchin2000b}.
 We use the expression originally proposed by Ravenhall \textit{et
-al.}~\cite{Ravenhall1983} on the basis of Thomas-Fermi (TF) calculations at
+al.}~\cite{Ravenhall1983} on the basis of TF calculations at
 extreme isospin ratios, and later employed in different works on neutron star
 crust and supernovae modeling within the 
 CLD approximation~\cite{Lattimer1991,Newton2012,Lorenz1993}:

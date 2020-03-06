@@ -219,6 +219,9 @@ INPUT ./figures/ocrust_model.pdf
 INPUT figures/ocrust_pres.pdf
 INPUT ./figures/ocrust_pres.pdf
 INPUT ./figures/ocrust_pres.pdf
+INPUT figures/clustering.pdf
+INPUT ./figures/clustering.pdf
+INPUT ./figures/clustering.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT figures/mm_accuracy.pdf
