@@ -657,12 +657,14 @@ continuum states. All the unbound single-particle states that are occupied thus
 represents the neutron gas, characterized by a quasihomogeneous spatial 
 distribution, the continuum wave functions being very similar to plane waves.
 \edit{The difference between the two representations is illustrated in 
-Fig.~\ref{fig:clustering}. The cluster and gas density profiles are 
-plotted along the WS cell radius in the r-cluster representation (left) and
-e-cluster representation (right) using Woods-Saxon profiles with arbitrary
-values. Woods-Saxon functions are known to give a good description of 
+Fig.~\ref{fig:clustering}. The cluster and gas density profiles, described by
+Woods-Saxon profiles with arbitrary values, are plotted along the WS cell 
+radius in the r-cluster representation (left) and e-cluster representation 
+(right). Woods-Saxon profiles are known to give a good description of 
 medium-mass and heavy nuclei density profiles, and are commonly used in
-Thomas-Fermi (TF) and extended Thomas-Fermi (ETF) calculations.}\\
+Thomas-Fermi (TF) and extended Thomas-Fermi (ETF) 
+calculations \cite{Onsi2008,Pearson2018}. In both representations, the total
+density profile (solid gray line) is the same.}\\
 One can benefit from the advantage of both representations through the simple
 geometric relations
 %
@@ -738,11 +740,13 @@ EoS from effective forces~\cite{Chabanat1998}. This second approach is very
 practical because of translational invariance but suffers from the possible 
 introduction of artificial correlations among the parameter space. In the 
 following we present the metamodeling 
-technique~\cite{Margueron2018a,Margueron2018b}, which is another approach for 
-calculating the energy per nucleon of homogeneous nuclear matter.
-
-% description of parameter space of metamodeling:
-Nuclear experiments give us knowledge on the properties of nuclear
+technique~\cite{Margueron2018a,Margueron2018b}. As we will see, this technique
+allows to parametrize in a simple analytical way the energy per nucleon
+obtained in the different ab initio or effective approaches, as well as
+interpolate continuously between them. By largely exploring the parameter space
+of this metamodel (or model of models), constraints coming from experimental
+measurements can be directly implemented. Indeed, nuclear experiments give us 
+knowledge on the properties of nuclear
 matter around the saturation density of symmetric nuclear matter $n_{sat}$,
 which is roughly the density of laboratory nuclei. For
 instance, the isoscalar Giant Monopole Resonance energy is correlated
@@ -813,7 +817,12 @@ derivative order $N=2$, we obtain
   + \delta^2 (E_{sym} + L_{sym}x +\frac{1}{2}K_{sym}x^2),
 \end{equation}
 %
-with $x = (n-n_{sat})/(3n_{sat})$ a function of the density.
+with $x = (n-n_{sat})/(3n_{sat})$ a function of the density. \edit{However, we 
+  should stress already that $N=2$ is not sufficient for describing the EoS at 
+  subsaturation densities, and even less for suprasaturation densities. 
+  High-order parameters $Q_{sat(sym)}$ and $Z_{sat(sym)}$ are essential and 
+  carry the largest uncertainty as far as the bulk part of the EoS is 
+concerned.}
 
 In a mean field approach, we can treat nucleons as independent
 particles, thus the kinetic part of the energy per particle of nuclear matter 
@@ -842,7 +851,7 @@ parametrized as ($q=n,p$)
 with $\tau_3 = 1$ ($\tau_3 = -1$) for neutrons (protons).
 Two additional parameters $\kappa_{sat}$ and $\kappa_{sym}$, related to the 
 effective mass $m_{sat}^*$ and isospin splitting $\Delta m_{sat}^*$ at 
-saturation density, are introduced. They are defined at $n = n_{sat}$ as
+saturation density, are then introduced. They are defined at $n = n_{sat}$ as
 %
 \begin{eqnarray}
   \kappa_{sat} &=& \frac{m}{m_{sat}^*} - 1,\\
@@ -850,9 +859,16 @@ saturation density, are introduced. They are defined at $n = n_{sat}$ as
 \end{eqnarray}
 %
 
-In order to fasten the series convergence, the $\delta^{5/3}$ dependence is 
-therefore added by decomposing the energy per particle into a potential and 
-kinetic part, yielding
+\edit{In principle, it is possible to reproduce any EoS model with a Taylor
+  expansion, considering an infinite number of parameters,
+  $N\rightarrow\infty$, however the convergence would be very slow. In order to 
+  fasten the series convergence, one can add extra functional dependencies, 
+  which correspond to the true EoS in the limit of simplistic cases 
+  (independent particles, zero density limit), but which allow, by judicious
+  choices of empirical parameters, to reproduce with precision realistic 
+functionals.}
+\edit{In this regard}, the $\delta^{5/3}$ dependence is added by decomposing 
+the energy per particle into a potential and kinetic part, yielding
 %
 \begin{equation}
   e^N_{HM}(x,\delta) = t_{HM}^{FG}(n,\delta) +
@@ -867,8 +883,8 @@ in the parameter $x$ at $n = n_{sat}$,
   \delta^2v_\alpha^{iv})\frac{x^\alpha}{\alpha!}\label{eq:elfa}.
 \end{equation}
 %
-The quadratic approximation for the potential energy has been
-made in Eq.~(\ref{eq:elfa}), as suggested by microscopic calculations 
+The quadratic approximation for the isospin dependence of the potential energy 
+has been made in Eq.~(\ref{eq:elfa}), as suggested by microscopic calculations 
 in~\cite{Vidana2009}. The coefficients $v_\alpha^{is}$ and $v_\alpha^{iv}$ are
 mapped to the empirical parameters following
 %
@@ -901,7 +917,7 @@ and isovector parameters:
 \end{eqnarray}
 %
 
-Let us notice in Eq.~(\ref{eq:elfa}) that the energy per particle does not 
+Let us notice from Eq.~(\ref{eq:elfa}) that the energy per particle does not 
 converge to zero at zero density. This artifact, arising from the nature of the 
 series expansion, can be fixed by introducing an exponential correction 
 $u^N_\alpha(x)$ in the potential energy, 
@@ -917,7 +933,9 @@ the expression of which is
   u_\alpha^N(x) = 1 - (-3x)^{N+1-\alpha}\exp(-b(1+3x)),\label{eq:corr}
 \end{equation}
 %
-with $b=10\ln(2)$, the low-density parameter.
+where we have introduced an extra low-density parameter $b$. It was shown in
+\cite{Antic2019} that for most applications this parameter can be fixed to a
+constant, $b=10\ln(2)$.
 
 Let us now turn to the derivatives of the energy. The expression of the 
 symmetry energy, Eq.~(\ref{eq:esym}), reads
@@ -948,9 +966,10 @@ The complete analytical expression of $\mu_{HM,q}$ is given in Appendix
 %
 
 There are two main advantages that come with the metamodeling technique.\\
-Firstly, It is flexible enough to reproduce every existing energy functional of 
+Firstly, It is flexible enough to reproduce the different existing energy functional of 
 nuclear matter with very good accuracy up to $n \approx 2-3n_{sat}$, and even higher
-densities with the ELFd technique~\cite{Margueron2018a}. Since very often the
+densities with a proper redefinition of the third and fourth order 
+parameters~\cite{Margueron2018a}. Since very often the
 parameters of the model to be mimicked do not coincide with the empirical
 parameters, we derive the latter by calculating the derivatives of the energy 
 per particle in nuclear matter at saturation density, following
@@ -970,9 +989,8 @@ calculation with the exact functional (metamodel).}\label{fig:mm_accuracy}
 \end{figure}
 %
 In Fig.~\ref{fig:mm_accuracy} is demonstrated the accuracy of the metamodeling
-technique for the SLy4~\cite{Chabanat1998} functional with Taylor expansion order $N=4$, which is
-the maximum order that can be reached giving the present day knowledge on empirical
-parameters. In the top panel, the energy per nucleon is calculated 
+technique for the SLy4~\cite{Chabanat1998} functional with a Taylor expansion order $N=4$. 
+In the top panel, the energy per nucleon is calculated 
 using the metamodeling technique (dashed lines) and the exact functional (black
 solid lines). A tiny deviation is observed at low density for the SNM, but 
 overall a very good agreement is observed between the metamodel (labeled
@@ -981,25 +999,28 @@ the relative error is represented for
 SNM and PNM. We can see that the error goes up to $10\%$ for SNM at $n \approx
 0.01$ fm$^{-3}$ and rapidly drops to $0\%$ at $n \approx 0.07$
 fm$^{-3}$. At $n \approx 2n_{sat}$, a deviation appears due the extrapolation far
-from the saturation point. The deviation at low density could be reduced by 
+from the saturation point. The deviation at low density can be reduced by 
 adjusting the parameter $b$ entering in the low-density correction,
-Eq.~(\ref{eq:corr}). However,
+Eq.~(\ref{eq:corr}) \cite{Antic2019}. However,
 this small deviation is not expected to cause any issue for the determination
 of the inner crust ground state. Indeed, the relative error for PNM is lower 
 that $2\%$ at most, and, in the inner crust, the matter inside nuclei is very 
 neutron rich and the ambient nucleon gas is exclusively constituted of free
-neutrons.\\
+neutrons. \edit{This ability of mimicking existing realistic functionals will 
+  allow us to easily compare predictions of astrophysical observables of 
+different popular models.}\\
 Another asset of the metamodeling technique is that no correlation is assumed
 a priori among the empirical parameters due to the nature of the
 series expansion. Therefore, all density dependences of the
 nuclear EoS can be explored. In addition, it allows us to vary each empirical 
-parameter independently of the others to carry out statistical analysis. 
-In that sense, a sensitivity study on
-the nuclear EoS in performed in~\cite{Margueron2018a} in order to observe which
-parameters are the most influential. The conclusion was that the lowest order
-empirical parameters which require to be better constrained -- either from
-nuclear experiments or astrophysical observations -- are $Q_{sat}$ in 
-the isoscalar channel, and $L_{sym}$ and $K_{sym}$ in the isovector one.
+parameter independently of the others to carry out complete statistical 
+analysis using Bayesian inference. 
+% In that sense, a sensitivity study on
+% the nuclear EoS in performed in~\cite{Margueron2018a} in order to observe which
+% parameters are the most influential. The conclusion was that the lowest order
+% empirical parameters which require to be better constrained -- either from
+% nuclear experiments or astrophysical observations -- are $Q_{sat}$ in 
+% the isoscalar channel, and $L_{sym}$ and $K_{sym}$ in the isovector one.
 
 \subsubsection{From homogeneous nuclear matter to finite nuclei in the CLD 
 approximation}
@@ -1007,13 +1028,13 @@ approximation}
 % need to expand the model to account for the finite surface of nuclei:
 We now turn to the modeling of the energy of clusters present in the inner crust
 of cold neutron stars. We propose to extend the metamodeling of infinite nuclear 
-matter to nuclei in order to take into account for their finite surface, within 
+matter to nuclei in order to take into account their surface properties, within 
 the CLD approximation, originally
 introduced in~\cite{BBP}. This approach is 
 expected to be less accurate than microscopic Hartree-Fock
 (HF)~\cite{Negele1973} or (ETF)~\cite{Onsi2008} 
 calculations since quantum effects are neglected, 
-though it proved its worth in the past by giving surprisingly good
+though it proved its quality in the past by giving surprisingly good
 results, see for example~\cite{BBP,Lattimer1991,Douchin2000a,Douchin2001}. 
 In particular, it
 appears that most of the macroscopic observables related to neutron stars, such 
@@ -1022,17 +1043,16 @@ qualitative evaluation of it is sufficient in that case.
 % advantages and disadvantages:
 The compressible liquid drop model (CLDM) comes with multiple advantages. It is
 very fast from the computational point of view since the energy does not require
-to be integrated all along the cell radius (assuming spherical geometry).
-For this reason, it is powerful for complete statistical analysis such as the one 
-presented in the next chapter. It is also a model that is easily tweakable, giving 
+to be integrated all along the cell volume.
+For this reason, it is powerful for complete statistical analyses such as the one 
+presented in the next chapter. It is also a model that is \edit{flexible}, giving 
 us the opportunity to account for different geometries for example, as we 
 consider in \ref{subsec:pasta}. Last but not 
 least, because of the artificial decomposition of the nuclear cluster as a 
 bulk term, a surface term, and a Coulomb term, we are able to identify the
 contributions of the different terms. For all these reasons, the CLDM is
 considered as a suitable alternative to semiclassical ETF and microscopic 
-HF treatments, that would require strong approximations to calculate the
-surface energy~\cite{BBP,Ravenhall1972}, and that suffer from technical
+HF treatments, that additionally does not suffer from technical
 complications such as the definition of boundary conditions~\cite{Newton2009}.
 
 In the CLD approximation, the energy of the cluster reads
@@ -1062,7 +1082,8 @@ the factor $3/5 \times 3/2 = 9/10$ entering in the lattice term can be
 replaced by the Mandelung constant for a body-centered cubic lattice, $C_M =
 0.895929255682$ (see Table 2.4 of~\cite{Haensel2007}).\\
 The bulk term is taken from the metamodel, keeping the same empirical parameters
-as for the calculation of the neutron gas energy, in order to be consistent. 
+as for the calculation of the neutron gas energy, thus insuring consistency
+between the crust and the core treatment. 
 The bulk energy is evaluated at $n_0$, the average density inside the cluster, 
 and $I$, its global asymmetry.
 
@@ -1083,7 +1104,7 @@ different to that of symmetric nuclei. In addition, it does not account for
 the interaction of the nuclear surface with the outside neutron gas, yielding 
 $\sigma \rightarrow 0$ as $I\rightarrow 1$. 
 This leads us to consider another parametrization for $\sigma$ which would 
-depend on the asymmetry $I$ as well as consider the interaction with the gas.
+depend on the asymmetry $I$ and consider the interaction with the gas.
 It should be mentioned that the exact value of $\sigma(I)$ is model dependent, 
 and the uncertainty is particularly important for extreme isospin values 
 encountered in the inner crust. Indeed, no experimental data exist on the 
@@ -1128,8 +1149,9 @@ curvature energy comes two parameters added as extra dimensions to
 the surface parameter space, $\bm{S} = \{\sigma_0, b_s, \sigma_{0,c}, \beta,
 p\}$. 
 % procedure to estimate the surface parameters:
-The first four parameters are fit to experimental masses from the
-AME2016~\cite{Huang2017} for a fixed value of the parameter $p$. This parameter 
+For a given model of uniform matter, that is each given set of empirical
+parameters, the first four parameters can be fitted to experimental masses from 
+the AME2016~\cite{Huang2017} for a fixed value of the parameter $p$. This parameter 
 is not adjusted as the other parameters because it controls the surface tension 
 at extreme isospin whereas experimental data are available up to $I \approx 0.3$ 
 only, thus we want to avoid poor extrapolations of $\sigma$. The value of $p$ 
@@ -1154,7 +1176,10 @@ popular models, SLy4~\cite{Chabanat1998} and DD-ME$\delta$~\cite{RocaMaza2011},
 in the CLD approximation. Different values for the parameter $p$ are displayed 
 in that figure. It is seen that $p$ determines the behavior of the surface
 tension for extreme isospin values, and cannot be accessed from experimental
-nuclear physics data. In particular, from $I \approx 0.3$, we observe that a 
+nuclear physics data. \edit{In addition, since the selected popular models contain
+parameters that are adjusted to the same data, we cannot cannot consider their
+predictions at high isospin as reliable. For these reasons, we will keep $p$ as 
+a free parameter.} In particular, from $I \approx 0.3$, we observe that a 
 larger value of $p$ leads to larger surface energy at fixed asymmetry. The
 model dependence of the surface tension is also observed in that figure and is
 particularly highlighted at low asymmetry where experimental measurements can 
@@ -1180,12 +1205,12 @@ from microscopic calculations in the WS cell~\cite{Ravenhall1983}.
 The variational method for the calculation of the inner crust ground state
 with the CLDM was introduced in the pioneering work of BBP 
 in their classical paper~\cite{BBP}. Since then, huge progress has been
-made in constraining the nucleon-nucleon (NN) interaction. In that sense, subsequent 
-works using the same formalism with CLDM based on more realistic nuclear 
-functionals followed. For instance we can mention the popular calculations of 
-Douchin and Haensel (DH)~\cite{Douchin2000a, Douchin2000b} with the SLy4 effective 
-force~\cite{Chabanat1998}. Naturally, we use the same variational method as
-BBP, and we present it in the following.
+made in constraining the nucleon-nucleon (NN) effective interaction. For this 
+reason, subsequent works using the same formalism with CLDM based on more 
+realistic nuclear functionals followed. For instance we can mention the popular 
+calculations of Douchin and Haensel (DH)~\cite{Douchin2000a, Douchin2000b} with 
+the SLy4 effective force~\cite{Chabanat1998}. Following those works, we use the 
+same variational method as BBP, and we present it in the following.
 
 Using the Lagrange multipliers method, the ground state of the inner crust is
 obtained by minimizing the zero-temperature free
@@ -1272,7 +1297,7 @@ curvature, and the Coulomb energy are involved in this first equilibrium
 condition.
 
 % min wrt ng
-Minimizing with respect to the neutron gas density $n_g$, one obtain:
+Minimizing with respect to the neutron gas density $n_g$, one obtains:
 %
 \begin{eqnarray}
   \frac{\partial \mathcal{L}}{\partial n_g}\bigg|_{A,I,n_0,n_p} &=& 0 \notag\\
@@ -1465,8 +1490,11 @@ method~\cite{Broyden1965}, which is similar to the popular Newton's method. In
 Broyden's method, the 16 partial derivatives entering in the $4\times 4$ Jacobian 
 matrix are replaced with finite differences. While the derivatives can be
 evaluated analytically from the CLD expressions with ease, using finite
-differences makes it easy to explore the effect of the different corrections 
-entering in the WS cell energy at finite temperature. The Jacobian matrix 
+differences makes it \edit{easier to identify the effect of the different 
+contributions entering in the WS cell energy. In particular, we will see in
+Chapter 3 that, at finite temperature, several corrections should be considered
+it one wants to precisely estimate the crystallization temperature of the 
+crust.} The Jacobian matrix 
 is not computed at each iteration but is only evaluated at the first iteration 
 then simply rank-one updated. In order to avoid an unreliable estimation of the
 equilibrium composition $\{A_{eq},I_{eq},n_{0,eq}$, $n_{p,eq},n_{g,eq}\}$ due to
@@ -1481,8 +1509,8 @@ get a physical value. Finally, let us mention that as for Newton's
 method, Broyden's method requires an initial guess for the composition.
 
 We proceed as follows. The calculation starts at the neutron drip density
-$n_{ND}$. Naturally, the initial guess for the composition coincide with the
-last solution for the ground state of the outer crust, with reasonable values 
+$n_{ND}$. \edit{A natural choice for the initial guess is to take} the last 
+  solution for the ground state of the outer crust, with reasonable values 
 $A_{guess} = 36$, $I_{guess} = 0.3$, $n_{0,guess} = 0.15$ fm$^{-3}$, and 
 $n_{g,guess} = 10^{-6}$ fm$^{-3}$. Then, the proton density is calculated
 as
@@ -1526,7 +1554,7 @@ of the equilibrium composition of the inner crust. The empirical parameters
 entering in the bulk part of the CLDM energy correspond to the BSk24 effective 
 force~\cite{Goriely2013}, and the surface parameter $p$ is fixed at the
 educated value $p=3$, which appears to be a reasonable value for Skyrme-type 
-functionals, as we observe in~\ref{subsec:ccfromc}.
+functionals, as we will discuss in~\ref{subsec:ccfromc}.
  
 It is found that the number of nucleons inside the cluster $A$ as well as inside 
 the WS cell $A_{WS}$ monotonously increases with increasing density, going up 
@@ -1550,7 +1578,7 @@ ratios.
 
 The variation with baryon density of the equilibrium value of $Z$ is also 
 represented in Fig.~\ref{fig:compo_icrust_bsk24}. We find $Z \approx$ 40 all
-along the inner crust with $p=3$, which is surprisingly in a good agreement with 
+along the inner crust with $p=3$, which is in a surprisingly good agreement with 
 microscopic results. In particular, in the early work of Negele and Vautherin
 (NV)~\cite{Negele1973} is derived a set of nonlinear equations for the single
 particle wave functions of nucleons, using the density-matrix expansion for a
@@ -1574,7 +1602,7 @@ at the neutron drip point to $\approx 0.03$ at the edge of the crust. With
 increasing density, clusters also becomes more and more asymmetric, $I$ going
 up to $\approx 0.85$ in the bottom layers.
 
-Cluster are found to be more and more dilute with $n_B$ increasing. At the
+Clusters are found to be more and more dilute with $n_B$ increasing. At the
 neutron drip density, we get $n_0 \approx 0.145$ fm$^{-3}$, which is close to the
 saturation density of SNM of the BSk24 functional, $n_{sat} = 0.1578$ 
 fm$^{-3}$. At the CC interface, the cluster density is as low as $n_0
@@ -1629,7 +1657,7 @@ crust. We demonstrate in Appendix \ref{appendix:presic} that the total
 pressure, defined by the first law of thermodynamics as
 %
 \begin{equation}
-  P = {n_B}^2\frac{de_{WS}}{dn_B},\label{eq:icpres}
+  P = {n_B^2}\frac{de_{WS}}{dn_B},\label{eq:icpres}
 \end{equation}
 %
 can be expressed as
@@ -1642,7 +1670,7 @@ at the equilibrium composition,
 where $P_L$ is the lattice contribution to the total pressure. Using this
 expression rather than finite differences to estimate the derivative,
 Eq.~(\ref{eq:icpres}), is more reliable and has the advantage to be faster from the
-computational point of view. In addition, it allows to identify the different
+computational point of view. In addition, it allows identifying the different
 contributions to the pressure. In the inner crust, the pressure is no longer 
 dominated by the relativistic electron gas but by the ambient neutron 
 gas~\cite{Carreau2017}. At subnuclear densities, we observe that the EoS is 
@@ -1673,7 +1701,7 @@ persistence of $Z=40$ while it is not considered as a magic number in ordinary
 nuclei.\\
 A more suitable alternative is to calculate shell corrections using the
 Strutinsky method \cite{Onsi2008}. 
-It is just as well that Strutinsky shell corrections have been calculated 
+\edit{Fortunately}, Strutinsky shell corrections \edit{were} calculated 
 for modern BSk functionals, and are tabulated in~\cite{Pearson2018} (see
 Supplementary data). We therefore add these corrections on top of the CLD 
 energy for the corresponding models.
@@ -1769,7 +1797,7 @@ minimum at $Z=40$, and the energy difference between the two minima is of
 the order of $10^{-3}$ MeV~\cite{Pearson2019}.
 
 Let us recall that surface and curvature parameters $\sigma_0$, $b_s$, 
-$\sigma_{0c}$, and $\beta$ are so far fit to experimental masses of nearly 
+$\sigma_{0c}$, and $\beta$ are so far fitted to experimental masses of nearly 
 symmetric nuclei from the AME2016~\cite{Huang2017} with a fixed value of the
 parameter $p$ that governs the behavior of the surface tension at extreme
 isospin values. 
@@ -1780,9 +1808,9 @@ approach, but overall in a better description of spherical nuclei.
 However, we face an issue when adding Strutinsky shell corrections to
 the CLD energy, since we do not want to double-count the shell energy. To
 address this problem, we fit the surface and curvature parameters to the ETF 
-results for each functional, keeping the parameter $p$ fixed to the value
-$p=3$~\cite{Carreau2019}, which gives an accurate reproduction of the 
-CC transition points obtained in~\cite{Pearson2019}.
+results for each functional~\cite{PearsonPriv}, keeping the parameter $p$ fixed 
+to the value $p=3$~\cite{Carreau2019}, which gives an accurate reproduction of 
+the CC transition points obtained in~\cite{Pearson2019}.
 
 \subsection{Nonspherical pasta phases}\label{subsec:pasta}
 
@@ -1792,11 +1820,11 @@ nuclei are almost close enough to touch each other, and thus
 the lattice energy significantly reduces the Coulomb energy. Consequently,
 matter could in principle arrange itself into exotic structures, sometimes
 referred to as nuclear ``pasta''.
-In particular, from the moment the volume fraction exceeds 1/2, it is expected 
-that nuclei turn inside out, therefore forming neutron bubbles 
+In particular, from the density at which the volume fraction exceeds 1/2, it is 
+expected that nuclei turn inside out, therefore forming neutron bubbles 
 immersed in a proton-rich phase (the former cluster)~\cite{BBP}. Furthermore, 
-molecular dynamics simulations, in which we let a large number of 
-interacting nucleons evolving in a very large box, predict the appearance of 
+molecular dynamics simulations, in which a large number of 
+interacting nucleons are let evolving in a very large box, predict the appearance of 
 complex structures for $Y_p \approx 0.1$, which is comparable to the typical 
 value in the bottom layers of the inner crust of neutron 
 stars~\cite{Watanabe2003}. It should be stressed that these exotic phases of 
@@ -1870,7 +1898,7 @@ the cluster (hole) radius/half-width,
   = 0,\label{eq:rpasta}
 \end{equation}
 %
-which has be solve numerically. Let us notice that, neglecting the 
+which has to be solved numerically. Let us notice that, neglecting the 
 curvature term, the virial theorem reduces 
 to $\varepsilon_{surf} = 2\varepsilon_{Coul}$, thus the expression of the 
 $r$ is analytical,
@@ -1931,8 +1959,7 @@ energy density (all the shapes are very close), in a region where the matter is
 extremely neutron rich, thus
 where the nuclear surface tension is poorly constrained. In particular, we 
 observed that varying the value of the surface parameter $p$ can affect the 
-sequence of pasta phases. In this way, we can get closer to the conclusion of
-these studies.
+sequence of pasta phases.
 
 \subsection{Crust-core transition from the crust side}\label{subsec:ccfromc}
 
@@ -2415,7 +2442,7 @@ very precisely, and that it can be used to carry out reliable statistical
 analysis since no artificial correlations are introduced a priori among the 
 empirical parameters. The parametrization of surface tension was suggested from
 microscopic calculations in the free neutron regime~\cite{Ravenhall1983}, and
-surface and curvature parameters are fit to experimental masses. We have used 
+surface and curvature parameters are fitted to experimental masses. We have used 
 the CLDM to calculate the ground state of the inner crust, which is obtained by
 minimizing the energy density of matter at constant baryon density under the
 condition of overall charge neutrality. We have therefore derived a system of

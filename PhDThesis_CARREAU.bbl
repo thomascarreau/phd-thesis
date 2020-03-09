@@ -14619,6 +14619,30 @@
       \verb https://doi.org/10.1093/mnras/stz800
       \endverb
     \endentry
+    \entry{PearsonPriv}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0c8a56d8fc55dc0c200b53fae767dfc6}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université libre de Bruxelles}%
+      }
+      \strng{namehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
+      \strng{fullhash}{0c8a56d8fc55dc0c200b53fae767dfc6}
+      \strng{bibnamehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
+      \strng{authorbibnamehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
+      \strng{authornamehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
+      \strng{authorfullhash}{0c8a56d8fc55dc0c200b53fae767dfc6}
+      \field{labelalpha}{Pea19}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{howpublished}{{Private communication}}
+      \field{year}{2019}
+    \endentry
     \entry{Pethick1995}{article}{}
       \name{author}{2}{}{%
         {{hash=10e8bf6100d6ce795cc5d29e17933374}{%
@@ -14699,56 +14723,6 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/037594749400506I
-      \endverb
-    \endentry
-    \entry{Ravenhall1972}{article}{}
-      \name{author}{3}{}{%
-        {{hash=38a5ebf43ef644867d446659c643489e}{%
-           family={Ravenhall},
-           familyi={R\bibinitperiod},
-           given={D.\bibnamedelimi G.},
-           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=e32d40d80d5d71e79c2bfa88e6b39059}{%
-           family={Bennett},
-           familyi={B\bibinitperiod},
-           given={C.\bibnamedelimi D.},
-           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=10e8bf6100d6ce795cc5d29e17933374}{%
-           family={Pethick},
-           familyi={P\bibinitperiod},
-           given={C.\bibnamedelimi J.},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{b765bc1706cc3c7ae4de126c9dd84c5f}
-      \strng{fullhash}{b765bc1706cc3c7ae4de126c9dd84c5f}
-      \strng{bibnamehash}{b765bc1706cc3c7ae4de126c9dd84c5f}
-      \strng{authorbibnamehash}{b765bc1706cc3c7ae4de126c9dd84c5f}
-      \strng{authornamehash}{b765bc1706cc3c7ae4de126c9dd84c5f}
-      \strng{authorfullhash}{b765bc1706cc3c7ae4de126c9dd84c5f}
-      \field{labelalpha}{RBP72}
-      \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{15}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{4}
-      \field{title}{{Nuclear} {Surface} {Energy} and {Neutron}-{Star} {Matter}}
-      \field{volume}{28}
-      \field{year}{1972}
-      \field{pages}{978\bibrangedash 981}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.28.978
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.28.978
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.28.978
       \endverb
     \endentry
     \entry{RocaMaza2011}{article}{}

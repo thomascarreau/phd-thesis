@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.21)  6 MAR 2020 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.21)  9 MAR 2020 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1019,15 +1019,15 @@ File: figures/clustering.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/clustering.pdf  used on input line 629.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [17 <./figures/clustering.pdf>] [18]
-Overfull \hbox (2.11453pt too wide) in paragraph at lines 754--774
+Overfull \hbox (2.11453pt too wide) in paragraph at lines 758--778
  [] 
  []
 
 [19] [20] [21]
-<figures/mm_accuracy.pdf, id=561, 462.52798pt x 346.89601pt>
+<figures/mm_accuracy.pdf, id=564, 462.52798pt x 346.89601pt>
 File: figures/mm_accuracy.pdf Graphic file (type pdf)
 <use figures/mm_accuracy.pdf>
-Package pdftex.def Info: figures/mm_accuracy.pdf  used on input line 961.
+Package pdftex.def Info: figures/mm_accuracy.pdf  used on input line 980.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [22]
 Underfull \vbox (badness 4954) has occurred while \output is active []
@@ -1036,7 +1036,7 @@ Underfull \vbox (badness 4954) has occurred while \output is active []
 <figures/surfenpersurfnuc.pdf, id=629, 462.52798pt x 346.89601pt>
 File: figures/surfenpersurfnuc.pdf Graphic file (type pdf)
 <use figures/surfenpersurfnuc.pdf>
-Package pdftex.def Info: figures/surfenpersurfnuc.pdf  used on input line 1141.
+Package pdftex.def Info: figures/surfenpersurfnuc.pdf  used on input line 1163.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
  [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1045,91 +1045,88 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1302 \end{eqnarray}
+l.1327 \end{eqnarray}
                      ] [29] [30]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1458.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1483.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<figures/compo_icrust_bsk24.pdf, id=742, 578.16pt x 433.62pt>
+) [31]
+<figures/compo_icrust_bsk24.pdf, id=752, 578.16pt x 433.62pt>
 File: figures/compo_icrust_bsk24.pdf Graphic file (type pdf)
 <use figures/compo_icrust_bsk24.pdf>
-Package pdftex.def Info: figures/compo_icrust_bsk24.pdf  used on input line 1512.
+Package pdftex.def Info: figures/compo_icrust_bsk24.pdf  used on input line 1540.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
- [31] [32 <./figures/compo_icrust_bsk24.pdf>]
-<figures/eos_icrust.pdf, id=786, 462.52798pt x 346.89601pt>
+ [32 <./figures/compo_icrust_bsk24.pdf>]
+<figures/eos_icrust.pdf, id=787, 462.52798pt x 346.89601pt>
 File: figures/eos_icrust.pdf Graphic file (type pdf)
 <use figures/eos_icrust.pdf>
-Package pdftex.def Info: figures/eos_icrust.pdf  used on input line 1603.
+Package pdftex.def Info: figures/eos_icrust.pdf  used on input line 1631.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [33]
 Underfull \vbox (badness 2951) has occurred while \output is active []
 
  [34 <./figures/eos_icrust.pdf>] [35]
-<figures/shcorr_bsk24.pdf, id=844, 462.52798pt x 346.89601pt>
+<figures/shcorr_bsk24.pdf, id=845, 462.52798pt x 346.89601pt>
 File: figures/shcorr_bsk24.pdf Graphic file (type pdf)
 <use figures/shcorr_bsk24.pdf>
-Package pdftex.def Info: figures/shcorr_bsk24.pdf  used on input line 1723.
+Package pdftex.def Info: figures/shcorr_bsk24.pdf  used on input line 1751.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
-<figures/icrust_compo_bsk.pdf, id=846, 462.52798pt x 346.89601pt>
+<figures/icrust_compo_bsk.pdf, id=847, 462.52798pt x 346.89601pt>
 File: figures/icrust_compo_bsk.pdf Graphic file (type pdf)
 <use figures/icrust_compo_bsk.pdf>
-Package pdftex.def Info: figures/icrust_compo_bsk.pdf  used on input line 1746.
+Package pdftex.def Info: figures/icrust_compo_bsk.pdf  used on input line 1774.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [36 <./figures/shcorr_bsk24.pdf>] [37 <./figures/icrust_compo_bsk.pdf>] [38]
-<figures/pasta.pdf, id=935, 462.52798pt x 346.89601pt>
+<figures/pasta.pdf, id=938, 462.52798pt x 346.89601pt>
 File: figures/pasta.pdf Graphic file (type pdf)
 <use figures/pasta.pdf>
-Package pdftex.def Info: figures/pasta.pdf  used on input line 1896.
+Package pdftex.def Info: figures/pasta.pdf  used on input line 1924.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [39] [40 <./figures/pasta.pdf>] [41]
-<figures/sly4_nt.pdf, id=997, 462.52798pt x 346.89601pt>
+<figures/sly4_nt.pdf, id=999, 462.52798pt x 346.89601pt>
 File: figures/sly4_nt.pdf Graphic file (type pdf)
 <use figures/sly4_nt.pdf>
-Package pdftex.def Info: figures/sly4_nt.pdf  used on input line 2009.
+Package pdftex.def Info: figures/sly4_nt.pdf  used on input line 2036.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
 
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
  [42 <./figures/sly4_nt.pdf>]
-<figures/cctp_lsym.pdf, id=1035, 462.52798pt x 346.89601pt>
+<figures/cctp_lsym.pdf, id=1037, 462.52798pt x 346.89601pt>
 File: figures/cctp_lsym.pdf Graphic file (type pdf)
 <use figures/cctp_lsym.pdf>
-Package pdftex.def Info: figures/cctp_lsym.pdf  used on input line 2057.
+Package pdftex.def Info: figures/cctp_lsym.pdf  used on input line 2084.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 1867) has occurred while \output is active []
 
  [43 <./figures/cctp_lsym.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 2106.
+(Font)              <12> on input line 2133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2106.
+(hyperref)                removing `math shift' on input line 2133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 2106.
+(hyperref)                removing `\mu' on input line 2133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2106.
+(hyperref)                removing `math shift' on input line 2133.
 
 [44]
-<figures/ocore.pdf, id=1097, 462.52798pt x 346.89601pt>
+<figures/ocore.pdf, id=1099, 462.52798pt x 346.89601pt>
 File: figures/ocore.pdf Graphic file (type pdf)
 <use figures/ocore.pdf>
-Package pdftex.def Info: figures/ocore.pdf  used on input line 2192.
+Package pdftex.def Info: figures/ocore.pdf  used on input line 2219.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [45] [46 <./figures/ocore.pdf>]
-<figures/unified.pdf, id=1150, 491.436pt x 346.89601pt>
+<figures/unified.pdf, id=1152, 491.436pt x 346.89601pt>
 File: figures/unified.pdf Graphic file (type pdf)
 <use figures/unified.pdf>
-Package pdftex.def Info: figures/unified.pdf  used on input line 2303.
+Package pdftex.def Info: figures/unified.pdf  used on input line 2330.
 (pdftex.def)             Requested size: 376.42575pt x 265.72392pt.
  [47]
 Underfull \vbox (badness 4886) has occurred while \output is active []
@@ -1189,17 +1186,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
  15064 strings out of 492982
- 244706 string characters out of 6134896
- 1196068 words of memory out of 5000000
+ 244700 string characters out of 6134896
+ 1195629 words of memory out of 5000000
  18100 multiletter control sequences out of 15000+600000
  83022 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,45p,4539b,1298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,45p,4539b,1300s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (64 pages, 789080 bytes).
+Output written on PhDThesis_CARREAU.pdf (64 pages, 790173 bytes).
 PDF statistics:
- 1556 PDF objects out of 1728 (max. 8388607)
- 1398 compressed objects within 14 object streams
+ 1557 PDF objects out of 1728 (max. 8388607)
+ 1399 compressed objects within 14 object streams
  306 named destinations out of 1000 (max. 500000)
  311 words of extra memory for PDF output out of 10000 (max. 10000000)
 
