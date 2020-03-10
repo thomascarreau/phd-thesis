@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.21)  9 MAR 2020 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.21)  10 MAR 2020 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -837,21 +837,21 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
  (./PhDThesis_CARREAU.aux)
 \openout1 = `PhDThesis_CARREAU.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 24.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -880,7 +880,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -888,9 +888,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  (./PhDThesis_CARREAU.out) (./PhDThesis_CARREAU.out)
 \@outlinefile=\write5
 \openout5 = `PhDThesis_CARREAU.out'.
@@ -938,8 +938,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'PhDThesis_CARREAU.bbl' found.
 (./PhDThesis_CARREAU.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
  (./sections/prestarting.tex (./PhDThesis_CARREAU.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -1050,94 +1050,92 @@ l.1327 \end{eqnarray}
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1483.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [31]
-<figures/compo_icrust_bsk24.pdf, id=752, 578.16pt x 433.62pt>
+)
+<figures/compo_icrust_bsk24.pdf, id=743, 578.16pt x 433.62pt>
 File: figures/compo_icrust_bsk24.pdf Graphic file (type pdf)
 <use figures/compo_icrust_bsk24.pdf>
-Package pdftex.def Info: figures/compo_icrust_bsk24.pdf  used on input line 1540.
+Package pdftex.def Info: figures/compo_icrust_bsk24.pdf  used on input line 1538.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
- [32 <./figures/compo_icrust_bsk24.pdf>]
+ [31] [32 <./figures/compo_icrust_bsk24.pdf>]
 <figures/eos_icrust.pdf, id=787, 462.52798pt x 346.89601pt>
 File: figures/eos_icrust.pdf Graphic file (type pdf)
 <use figures/eos_icrust.pdf>
-Package pdftex.def Info: figures/eos_icrust.pdf  used on input line 1631.
+Package pdftex.def Info: figures/eos_icrust.pdf  used on input line 1629.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [33]
 Underfull \vbox (badness 2951) has occurred while \output is active []
 
  [34 <./figures/eos_icrust.pdf>] [35]
-<figures/shcorr_bsk24.pdf, id=845, 462.52798pt x 346.89601pt>
+<figures/shcorr_bsk24.pdf, id=846, 462.52798pt x 346.89601pt>
 File: figures/shcorr_bsk24.pdf Graphic file (type pdf)
 <use figures/shcorr_bsk24.pdf>
-Package pdftex.def Info: figures/shcorr_bsk24.pdf  used on input line 1751.
+Package pdftex.def Info: figures/shcorr_bsk24.pdf  used on input line 1750.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
-<figures/icrust_compo_bsk.pdf, id=847, 462.52798pt x 346.89601pt>
+ [36 <./figures/shcorr_bsk24.pdf>]
+<figures/icrust_compo_bsk.pdf, id=877, 462.52798pt x 346.89601pt>
 File: figures/icrust_compo_bsk.pdf Graphic file (type pdf)
 <use figures/icrust_compo_bsk.pdf>
-Package pdftex.def Info: figures/icrust_compo_bsk.pdf  used on input line 1774.
+Package pdftex.def Info: figures/icrust_compo_bsk.pdf  used on input line 1775.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [36 <./figures/shcorr_bsk24.pdf>] [37 <./figures/icrust_compo_bsk.pdf>] [38]
-<figures/pasta.pdf, id=938, 462.52798pt x 346.89601pt>
+ [37 <./figures/icrust_compo_bsk.pdf>] [38]
+<figures/pasta.pdf, id=942, 462.52798pt x 346.89601pt>
 File: figures/pasta.pdf Graphic file (type pdf)
 <use figures/pasta.pdf>
-Package pdftex.def Info: figures/pasta.pdf  used on input line 1924.
+Package pdftex.def Info: figures/pasta.pdf  used on input line 1929.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [39] [40 <./figures/pasta.pdf>] [41]
-<figures/sly4_nt.pdf, id=999, 462.52798pt x 346.89601pt>
+<figures/sly4_nt.pdf, id=1006, 462.52798pt x 346.89601pt>
 File: figures/sly4_nt.pdf Graphic file (type pdf)
 <use figures/sly4_nt.pdf>
-Package pdftex.def Info: figures/sly4_nt.pdf  used on input line 2036.
+Package pdftex.def Info: figures/sly4_nt.pdf  used on input line 2042.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
 
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
  [42 <./figures/sly4_nt.pdf>]
-<figures/cctp_lsym.pdf, id=1037, 462.52798pt x 346.89601pt>
+<figures/cctp_lsym.pdf, id=1045, 462.52798pt x 346.89601pt>
 File: figures/cctp_lsym.pdf Graphic file (type pdf)
 <use figures/cctp_lsym.pdf>
-Package pdftex.def Info: figures/cctp_lsym.pdf  used on input line 2084.
+Package pdftex.def Info: figures/cctp_lsym.pdf  used on input line 2094.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 1867) has occurred while \output is active []
 
  [43 <./figures/cctp_lsym.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 2133.
+(Font)              <12> on input line 2145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2133.
+(hyperref)                removing `math shift' on input line 2145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 2133.
+(hyperref)                removing `\mu' on input line 2145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2133.
+(hyperref)                removing `math shift' on input line 2145.
 
 [44]
-<figures/ocore.pdf, id=1099, 462.52798pt x 346.89601pt>
+<figures/ocore.pdf, id=1104, 462.52798pt x 346.89601pt>
 File: figures/ocore.pdf Graphic file (type pdf)
 <use figures/ocore.pdf>
-Package pdftex.def Info: figures/ocore.pdf  used on input line 2219.
+Package pdftex.def Info: figures/ocore.pdf  used on input line 2233.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [45] [46 <./figures/ocore.pdf>]
-<figures/unified.pdf, id=1152, 491.436pt x 346.89601pt>
+ [45] [46 <./figures/ocore.pdf>] [47]
+<figures/unified.pdf, id=1173, 491.436pt x 346.89601pt>
 File: figures/unified.pdf Graphic file (type pdf)
 <use figures/unified.pdf>
-Package pdftex.def Info: figures/unified.pdf  used on input line 2330.
+Package pdftex.def Info: figures/unified.pdf  used on input line 2362.
 (pdftex.def)             Requested size: 376.42575pt x 265.72392pt.
- [47]
-Underfull \vbox (badness 4886) has occurred while \output is active []
-
- [48 <./figures/unified.pdf>]
+ [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
-Underfull \vbox (badness 2042) has occurred while \output is active []
-
- [50] (./sections/appendices.tex [51] [52
+ [49 <./figures/unified.pdf>] [50]) (./sections/appendices.tex [51] [52
 
 ]
 Appendix A.
@@ -1152,51 +1150,56 @@ Appendix C.
 ] [58
 
 ]
-Overfull \hbox (12.57996pt too wide) in paragraph at lines 47--47
+Overfull \hbox (12.57996pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 B. P. Ab-bott et al. ``Prop-er-ties of the Bi-nary Neu-tron Star Merger GW170817''.
  []
 
 [59]
-Overfull \hbox (2.49072pt too wide) in paragraph at lines 47--47
+Overfull \hbox (2.49072pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 Carreau, Thomas, Gul-minelli, Francesca, and Mar-gueron, Jérôme. ``Bayesian
  []
 
-[60] [61]
-Overfull \hbox (16.18066pt too wide) in paragraph at lines 47--47
+[60] [61] [62]
+Overfull \hbox (16.18066pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 P. Möller and J.R. Nix. ``Nu-clear masses from a uni-fied macroscopic-microscopic
  []
 
-[62] [63]
-Overfull \hbox (16.02777pt too wide) in paragraph at lines 47--47
+[63]
+Overfull \hbox (16.02777pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 X. Roca-Maza et al. ``Rel-a-tivis-tic mean-field in-ter-ac-tion with density-dependent
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
 [64]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+Overfull \hbox (13.81113pt too wide) in paragraph at lines 48--48
+[]\T1/lmr/m/n/10.95 Nobutoshi Ya-su-take, Toshiki Maruyama, and Toshi-taka Tat-sumi. ``Hot hadron-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+[65]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./PhDThesis_CARREAU.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `PhDThesis_CARREAU.out' has not changed.
 (rerunfilecheck)             Checksum: 988E57F982614B3FEEE94A0275D2E710;2504.
 Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 \openout1 = `PhDThesis_CARREAU.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 15064 strings out of 492982
- 244700 string characters out of 6134896
- 1195629 words of memory out of 5000000
- 18100 multiletter control sequences out of 15000+600000
+ 15087 strings out of 492982
+ 245468 string characters out of 6134896
+ 1204777 words of memory out of 5000000
+ 18115 multiletter control sequences out of 15000+600000
  83022 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,45p,4539b,1300s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (64 pages, 790173 bytes).
+Output written on PhDThesis_CARREAU.pdf (65 pages, 796786 bytes).
 PDF statistics:
- 1557 PDF objects out of 1728 (max. 8388607)
- 1399 compressed objects within 14 object streams
- 306 named destinations out of 1000 (max. 500000)
+ 1589 PDF objects out of 1728 (max. 8388607)
+ 1429 compressed objects within 15 object streams
+ 314 named destinations out of 1000 (max. 500000)
  311 words of extra memory for PDF output out of 10000 (max. 10000000)
 
