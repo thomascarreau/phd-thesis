@@ -1153,17 +1153,49 @@ p\}$.
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/surf_fit.pdf}
 \end{center}
-\caption[\edit{Blabla}]{\edit{Blablabla}}\label{fig:surf_fit}
+\caption[\edit{Fit of surface and curvature parameters}]{\edit{Left: Goodness 
+    of fit (color scale) as described 
+    by the reduced $\chi^2$, in the space of the surface parameters 
+    $(\sigma_0,b_s)$ for the BSk24 CLDM with fixed value of the $p$ parameter, 
+$p=3$, for optimized curvature parameters $\sigma_{0c}$ and $\beta$. The orange 
+point indicates the optimal value. Right: Weight $\exp(-\chi^2_\nu/2)$ as a 
+function of the parameter $p$, calculated for the optimal value of
+$(\sigma_0,b_s,\sigma_{0c},\beta)$, for the selected 
+CLDM: BSk24, SLy4, BSk22, and DD-ME$\delta$.}}\label{fig:surf_fit}
 \end{figure}
 %
 For a given model of uniform matter, that is each given set of empirical
 parameters, the first four parameters can be fitted to experimental masses from 
-the AME2016~\cite{Huang2017} for a fixed value of the parameter $p$. This parameter 
-is not adjusted as the other parameters because it controls the surface tension 
-at extreme isospin whereas experimental data are available up to $I \approx 0.3$ 
-only, thus we want to avoid poor extrapolations of $\sigma$. The value of $p$ 
-is selected around $p=3$, which is the value used in the popular Lattimer and 
-Swesty EoS~\cite{Lattimer1991}.
+the AME2016~\cite{Huang2017} for a fixed value of the parameter $p$. \edit{The
+  quality of reproduction of the experimental nuclear binding energy
+  $E_{\text{AME2016}}$ is measured by the reduced $\chi^2$, defined as
+  %
+  \begin{equation}
+    \chi^2_\nu = \frac{\chi^2}{\nu} = \frac{1}{\nu}
+    \sum_i\left(\frac{E_{cl}^{(i)}/A^{(i)}-E_{\text{AME2016}}^{(i)}/A^{(i)}}
+  {\sigma^{(i)}}\right)^2,
+  \end{equation}
+  %
+  where $\nu$ is the number of degrees of freedom, and the denominator
+  corresponds to the systematic theoretical error, 0.1 MeV/$A$, such as to have
+  $\chi^2_{min} \approx 1$ over the parameter space 
+  sample \cite{Dobaczewski2014}.\\
+  This point can be clearly understood by inspection of the left panel of
+Fig.~\ref{fig:surf_fit}, which shows the value of the weight function 
+$\exp(-\chi^2_\nu/2)$, that is the goodness of fit, in the 
+$(\sigma_0,b_s)$ plane, for the BSk24 CLDM with 
+$p=3$, and curvature parameters already adjusted to experimental data. It is
+seen that the weight function is strongly peaked to the orange point, which
+indicates the optimal value for the parameters $\sigma_0$ and $b_s$.
+Conversely, we observe in the right panel of Fig.~\ref{fig:surf_fit} that the 
+error estimator $\chi^2_\nu$ is insensitive to the choice of the parameter $p$ 
+in a range going from 2 to 4, for four representative functionals. This is
+understood from the fact that $p$ modifies the asymmetry dependence of the
+surface energy only for extreme values of $I$ where nuclear data are not
+available.} This parameter 
+is \edit{therefore} not adjusted as the other parameters, in order to avoid 
+poor extrapolations of $\sigma$. The value of $p$ is selected around $p=3$, 
+which is the value used in the popular Lattimer and Swesty EoS~\cite{Lattimer1991}.
 %
 \begin{figure}[!t]
 \begin{center}

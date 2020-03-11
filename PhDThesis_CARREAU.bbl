@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global}
+  \sortlist[entry]{anyt/global/}
     \entry{GW1}{article}{}
       \name{author}{1150}{}{%
         {{hash=c08a0521200b2425a2a6d7e9d8ef4617}{%
@@ -5791,13 +5791,11 @@
       }
       \strng{namehash}{c36379e29825b93f8fbca77d692016c5}
       \strng{fullhash}{a2ebdb39fa6a1560e4a593be387582cf}
-      \strng{bibnamehash}{c36379e29825b93f8fbca77d692016c5}
-      \strng{authorbibnamehash}{c36379e29825b93f8fbca77d692016c5}
       \strng{authornamehash}{c36379e29825b93f8fbca77d692016c5}
       \strng{authorfullhash}{a2ebdb39fa6a1560e4a593be387582cf}
       \field{labelalpha}{Abb+18}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{16}
@@ -5810,9 +5808,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevLett.121.161101
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.161101
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.161101
@@ -11580,13 +11575,11 @@
       }
       \strng{namehash}{c36379e29825b93f8fbca77d692016c5}
       \strng{fullhash}{5f5a8ec9b010baf8a3f8cae18d794fec}
-      \strng{bibnamehash}{c36379e29825b93f8fbca77d692016c5}
-      \strng{authorbibnamehash}{c36379e29825b93f8fbca77d692016c5}
       \strng{authornamehash}{c36379e29825b93f8fbca77d692016c5}
       \strng{authorfullhash}{5f5a8ec9b010baf8a3f8cae18d794fec}
       \field{labelalpha}{Abb+19}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -11599,9 +11592,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevX.9.011001
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevX.9.011001
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevX.9.011001
@@ -11729,13 +11719,11 @@
       }
       \strng{namehash}{838fc9c3c8a029a29d6bbd6ad9e4de30}
       \strng{fullhash}{29dd9d2b61a46d962386406764cc1352}
-      \strng{bibnamehash}{838fc9c3c8a029a29d6bbd6ad9e4de30}
-      \strng{authorbibnamehash}{838fc9c3c8a029a29d6bbd6ad9e4de30}
       \strng{authornamehash}{838fc9c3c8a029a29d6bbd6ad9e4de30}
       \strng{authorfullhash}{29dd9d2b61a46d962386406764cc1352}
       \field{labelalpha}{Ant+13}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Introduction Neutron stars with masses above 1.8 solar masses (M☉), possess extreme gravitational fields, which may give rise to phenomena outside general relativity. These strong-field deviations lack experimental confrontation, because they become observable only in tight binaries containing a high-mass pulsar and where orbital decay resulting from emission of gravitational waves can be tested. Understanding the origin of such a system would also help to answer fundamental questions of close-binary evolution. Artist{’}s impression of the PSR J0348+0432 system. The compact pulsar (with beams of radio emission) produces a strong distortion of spacetime (illustrated by the green mesh). Conversely, spacetime around its white-dwarf companion (in light blue) is substantially less curved. According to relativistic theories of gravity, the binary system is subject to energy loss by gravitational waves. Methods We report on radio-timing observations of the pulsar J0348+0432 and phase-resolved optical spectroscopy of its white-dwarf companion, which is in a 2.46-hour orbit. We used these to derive the component masses and orbital parameters, infer the system{’}s motion, and constrain its age. Results We find that the white dwarf has a mass of 0.172 {\textpm} 0.003 M☉, which, combined with orbital velocity measurements, yields a pulsar mass of 2.01 {\textpm} 0.04 M☉. Additionally, over a span of 2 years, we observed a significant decrease in the orbital period, P˙bobs=-8.6{\textpm}1.4 μs year-1 in our radio-timing data. Discussion Pulsar J0348+0432 is only the second neutron star with a precisely determined mass of 2 M☉ and independently confirms the existence of such massive neutron stars in nature. For these masses and orbital period, general relativity predicts a significant orbital decay, which matches the observed value, P˙bobs/P˙bGR=1.05{\textpm}0.18. The pulsar has a gravitational binding energy 60\% higher than other known neutron stars in binaries where gravitational-wave damping has been detected. Because the magnitude of strong-field deviations generally depends nonlinearly on the binding energy, the measurement of orbital decay transforms the system into a gravitational laboratory for an as-yet untested gravity regime. The consistency of the observed orbital decay with general relativity therefore supports its validity, even for such extreme gravity-matter couplings, and rules out strong-field phenomena predicted by physically well-motivated alternatives. Moreover, our result supports the use of general relativity{–}based templates for the detection of gravitational waves from merger events with advanced ground-based detectors. Lastly, the system provides insight into pulsar-spin evolution after mass accretion. Because of its short merging time scale of 400 megayears, the system is a direct channel for the formation of an ultracompact x-ray binary, possibly leading to a pulsar-planet system or the formation of a black hole. Because of their extremely high densities, massive neutron stars can be used to test gravity. Based on spectroscopy of its white dwarf companion, Antoniadis et al. (p. 448) identified a millisecond pulsar as a neutron star twice as heavy as the Sun. The observed binary{’}s orbital decay is consistent with that predicted by general relativity, ruling out previously untested strong-field phenomena predicted by alternative theories. The binary system has a peculiar combination of properties and poses a challenge to our understanding of stellar evolution. Many physically motivated extensions to general relativity (GR) predict substantial deviations in the properties of spacetime surrounding massive neutron stars. We report the measurement of a 2.01 {\textpm} 0.04 solar mass (M☉) pulsar in a 2.46-hour orbit with a 0.172 {\textpm} 0.003 M☉ white dwarf. The high pulsar mass and the compact orbit make this system a sensitive laboratory of a previously untested strong-field gravity regime. Thus far, the observed orbital decay agrees with GR, supporting its validity even for the extreme conditions present in the system. The resulting constraints on deviations support the use of GR-based templates for ground-based gravitational wave detectors. Additionally, the system strengthens recent constraints on the properties of dense matter and provides insight to binary stellar astrophysics and pulsar recycling.}
@@ -11751,17 +11739,14 @@
       \verb{eprint}
       \verb https://science.sciencemag.org/content/340/6131/1233232.full.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://science.sciencemag.org/content/340/6131/1233232
-      \endverb
       \verb{url}
       \verb https://science.sciencemag.org/content/340/6131/1233232
       \endverb
     \endentry
     \entry{Antic2019}{article}{}
       \name{author}{4}{}{%
-        {{hash=230b8e4b62cb9a6bd86dfb5ce1f55174}{%
-           family={Anti{ć}},
+        {{hash=5a4f4e3e8a41b11c4d893fc3819ccc7c}{%
+           family={Antić},
            familyi={A\bibinitperiod},
            given={Sofija},
            giveni={S\bibinitperiod}}}%
@@ -11784,15 +11769,13 @@
       \list{publisher}{1}{%
         {{IOP} Publishing}%
       }
-      \strng{namehash}{144fe715e1500e8b8f3896147ac36e46}
-      \strng{fullhash}{1f36fdf5ee814010c3cc318b78660807}
-      \strng{bibnamehash}{144fe715e1500e8b8f3896147ac36e46}
-      \strng{authorbibnamehash}{144fe715e1500e8b8f3896147ac36e46}
-      \strng{authornamehash}{144fe715e1500e8b8f3896147ac36e46}
-      \strng{authorfullhash}{1f36fdf5ee814010c3cc318b78660807}
+      \strng{namehash}{ada5137a8b9da88a54822879dc25f353}
+      \strng{fullhash}{33d388de8ff8afe673c00f8e194cb0cb}
+      \strng{authornamehash}{ada5137a8b9da88a54822879dc25f353}
+      \strng{authorfullhash}{33d388de8ff8afe673c00f8e194cb0cb}
       \field{labelalpha}{Ant+19}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The influence of the uncertainties of the equation of state empirical parameters on the neutron stars crust-core phase transition is explored within a meta-modeling approach, in which the energy per particle is expanded as a Taylor series in density and asymmetry around the saturation point. The phase transition point is estimated from the intersection of the spinodal instability region for dynamical fluctuations with the chemical equilibrium curve. Special attention is paid to the inclusion of high-order parameters of the Taylor series and their influence on the transition point. An uncorrelated prior distribution is considered for the empirical parameters, with bulk properties constrained through effective field theory predictions, while the surface parameters are controlled from a fit of nuclear masses using the extended Thomas Fermi approximation. The results show that the isospin dependent curvature K sym and skewness Q sym have the most significant correlations with the transition point, along with the well known influence of the L sym parameter. The estimated density and pressure of the crust-core transition are n t  = (0.071 ± 0.011) fm−3 and P t  = (0.294 ±0.102) MeV fm−3.}
@@ -11806,9 +11789,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1088/1361-6471/ab1a51
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088%2F1361-6471%2Fab1a51
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1361-6471%2Fab1a51
@@ -11837,13 +11817,11 @@
       }
       \strng{namehash}{c51d9cfc7438147bbc91d84d28639107}
       \strng{fullhash}{c51d9cfc7438147bbc91d84d28639107}
-      \strng{bibnamehash}{c51d9cfc7438147bbc91d84d28639107}
-      \strng{authorbibnamehash}{c51d9cfc7438147bbc91d84d28639107}
       \strng{authornamehash}{c51d9cfc7438147bbc91d84d28639107}
       \strng{authorfullhash}{c51d9cfc7438147bbc91d84d28639107}
       \field{labelalpha}{APR98}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -11856,9 +11834,6 @@
       \range{pages}{25}
       \verb{doi}
       \verb 10.1103/PhysRevC.58.1804
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.58.1804
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.58.1804
@@ -11907,13 +11882,11 @@
       }
       \strng{namehash}{fbb59ba66f747c9141dd8ec63fe3a2c3}
       \strng{fullhash}{0731fb2db907bd8591ee60b7b36f6fff}
-      \strng{bibnamehash}{fbb59ba66f747c9141dd8ec63fe3a2c3}
-      \strng{authorbibnamehash}{fbb59ba66f747c9141dd8ec63fe3a2c3}
       \strng{authornamehash}{fbb59ba66f747c9141dd8ec63fe3a2c3}
       \strng{authorfullhash}{0731fb2db907bd8591ee60b7b36f6fff}
       \field{labelalpha}{Aud+12}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper is the first of two articles (Part I and Part II) that presents the results of the new atomic mass evaluation, Ame2012. It includes complete information on the experimental input data (including not used and rejected ones), as well as details on the evaluation procedures used to derive the tables with recommended values given in the second part. This article describes the evaluation philosophy and procedures that were implemented in the selection of specific nuclear reaction, decay and mass-spectrometer results. These input values were entered in the least-squares adjustment procedure for determining the best values for the atomic masses and their uncertainties. Calculation procedures and particularities of the Ame are then described. All accepted and rejected data, including outweighed ones, are presented in a tabular format and compared with the adjusted values (obtained using the adjustment procedure). Differences with the previous Ame2003 evaluation are also discussed and specific information is presented for several cases that may be of interest to various Ame users. The second Ame2012 article, the last one in this issue, gives a table with recommended values of atomic masses, as well as tables and graphs of derived quantities, along with the list of references used in both this Ame2012 evaluation and the Nubase2012 one (the first paper in this issue).}
@@ -11927,9 +11900,6 @@
       \range{pages}{316}
       \verb{doi}
       \verb 10.1088/1674-1137/36/12/002
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088%2F1674-1137%2F36%2F12%2F002
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1674-1137%2F36%2F12%2F002
@@ -11973,13 +11943,11 @@
       }
       \strng{namehash}{7da25f98d43587cd53b611195575e810}
       \strng{fullhash}{7f571f7a48d0257cb78fd2c2c4abf4d4}
-      \strng{bibnamehash}{7da25f98d43587cd53b611195575e810}
-      \strng{authorbibnamehash}{7da25f98d43587cd53b611195575e810}
       \strng{authornamehash}{7da25f98d43587cd53b611195575e810}
       \strng{authorfullhash}{7f571f7a48d0257cb78fd2c2c4abf4d4}
       \field{labelalpha}{Ava+08}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -11992,9 +11960,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.78.015802
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.78.015802
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.78.015802
@@ -12028,13 +11993,11 @@
       }
       \strng{namehash}{013fbd0265587d5f3d4cc27f53ccf75e}
       \strng{fullhash}{b20e2919c340912e14cf1bb1c7aa0aa3}
-      \strng{bibnamehash}{013fbd0265587d5f3d4cc27f53ccf75e}
-      \strng{authorbibnamehash}{013fbd0265587d5f3d4cc27f53ccf75e}
       \strng{authornamehash}{013fbd0265587d5f3d4cc27f53ccf75e}
       \strng{authorfullhash}{b20e2919c340912e14cf1bb1c7aa0aa3}
       \field{labelalpha}{Ava+10}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -12047,9 +12010,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.82.055807
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.82.055807
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.82.055807
@@ -12085,13 +12045,11 @@
       }
       \strng{namehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{fullhash}{07c55a044fe02fa2bd06f2681c939977}
-      \strng{bibnamehash}{82eefe4ab6503112e658fddccd2b52d5}
-      \strng{authorbibnamehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{authornamehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{authorfullhash}{07c55a044fe02fa2bd06f2681c939977}
       \field{labelalpha}{Bay+19}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{42}
@@ -12133,13 +12091,11 @@
       }
       \strng{namehash}{0bdafa87ea571e524606460c28f01070}
       \strng{fullhash}{0bdafa87ea571e524606460c28f01070}
-      \strng{bibnamehash}{0bdafa87ea571e524606460c28f01070}
-      \strng{authorbibnamehash}{0bdafa87ea571e524606460c28f01070}
       \strng{authornamehash}{0bdafa87ea571e524606460c28f01070}
       \strng{authorfullhash}{0bdafa87ea571e524606460c28f01070}
       \field{labelalpha}{BBP71}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The matter in neutron stars is essentially in its ground state and ranges in density up to and beyond 3 × 1014 g/cm3, the density of nuclear matter. Here we determine the constitution of the ground state of matter and its equation of state in the regime from 4.3 × 1011 g/cm3 where free neutrons begin to “drip” out of the nuclei, up to densities ≈ 5 × 1014 g/cm3, where standard nuclear-matter theory is still reliable. We describe the energy of nuclei in the free neutron regime by a compressible liquid-drop model designed to take into account three important features: (i) as the density increases, the bulk nuclear matter inside the nuclei, and the pure neutron gas outside the nuclei become more and more alike; (ii) the presence of the neutron gas reduces the nuclear surface energy; and (iii) the Coulomb interaction between nuclei, which keeps the nuclei in a lattice, becomes significant as the spacing between nuclei becomes comparable to the nuclear radius. We find that nuclei survive in the matter up to a density ∼ 2.4 × 1014 g/cm3; below this point we find no tendency for the protons to leave the nuclei. The transition between the phase with nuclei and the liquid phase at higher densities occurs as follows. The nuclei grow in size until they begin to touch; the remaining density inhomogeneity smooths out with increasing density until it disappears at about 3 × 1014 g/cm3 in a first-order transition. It is shown that the uniform liquid is unstable against density fluctuations below this density; the wave-length of the most unstable density fluctuation is close to the limiting lattice constant in the nuclear phase.}
@@ -12153,9 +12109,6 @@
       \range{pages}{47}
       \verb{doi}
       \verb https://doi.org/10.1016/0375-9474(71)90281-8
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/0375947471902818
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/0375947471902818
@@ -12181,13 +12134,11 @@
       }
       \strng{namehash}{78971a2325ca0c91dece5cabdd162cc6}
       \strng{fullhash}{c20a1775533b124d7928f66dfc532d4d}
-      \strng{bibnamehash}{78971a2325ca0c91dece5cabdd162cc6}
-      \strng{authorbibnamehash}{78971a2325ca0c91dece5cabdd162cc6}
       \strng{authornamehash}{78971a2325ca0c91dece5cabdd162cc6}
       \strng{authorfullhash}{c20a1775533b124d7928f66dfc532d4d}
       \field{labelalpha}{Bed+12}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}
@@ -12198,9 +12149,6 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1051/0004-6361/201118560
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1051/0004-6361/201118560
       \endverb
       \verb{url}
       \verb https://doi.org/10.1051/0004-6361/201118560
@@ -12226,13 +12174,11 @@
       }
       \strng{namehash}{2c6f9adf077d0e75212ba6c4fececc47}
       \strng{fullhash}{2c6f9adf077d0e75212ba6c4fececc47}
-      \strng{bibnamehash}{2c6f9adf077d0e75212ba6c4fececc47}
-      \strng{authorbibnamehash}{2c6f9adf077d0e75212ba6c4fececc47}
       \strng{authornamehash}{2c6f9adf077d0e75212ba6c4fececc47}
       \strng{authorfullhash}{2c6f9adf077d0e75212ba6c4fececc47}
       \field{labelalpha}{BPS71}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Astrophys. J.}
@@ -12258,13 +12204,11 @@
       }
       \strng{namehash}{21ba2489e0d1d1df86d3d46690ec8840}
       \strng{fullhash}{21ba2489e0d1d1df86d3d46690ec8840}
-      \strng{bibnamehash}{21ba2489e0d1d1df86d3d46690ec8840}
-      \strng{authorbibnamehash}{21ba2489e0d1d1df86d3d46690ec8840}
       \strng{authornamehash}{21ba2489e0d1d1df86d3d46690ec8840}
       \strng{authorfullhash}{21ba2489e0d1d1df86d3d46690ec8840}
       \field{labelalpha}{Bro65}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00255718, 10886842}
@@ -12275,9 +12219,6 @@
       \field{year}{1965}
       \field{pages}{577\bibrangedash 593}
       \range{pages}{17}
-      \verb{urlraw}
-      \verb http://www.jstor.org/stable/2003941
-      \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/2003941
       \endverb
@@ -12300,13 +12241,11 @@
       }
       \strng{namehash}{2e2134e800c0dfd451df7a4533e3f343}
       \strng{fullhash}{2e2134e800c0dfd451df7a4533e3f343}
-      \strng{bibnamehash}{2e2134e800c0dfd451df7a4533e3f343}
-      \strng{authorbibnamehash}{2e2134e800c0dfd451df7a4533e3f343}
       \strng{authornamehash}{2e2134e800c0dfd451df7a4533e3f343}
       \strng{authorfullhash}{2e2134e800c0dfd451df7a4533e3f343}
       \field{labelalpha}{BW39}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -12319,9 +12258,6 @@
       \range{pages}{25}
       \verb{doi}
       \verb 10.1103/PhysRev.56.426
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRev.56.426
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.56.426
@@ -12357,13 +12293,11 @@
       }
       \strng{namehash}{3725df2463c7bc1df8f7aa240d11f72a}
       \strng{fullhash}{db33db7f1ab2aa686a4978396c02f90d}
-      \strng{bibnamehash}{3725df2463c7bc1df8f7aa240d11f72a}
-      \strng{authorbibnamehash}{3725df2463c7bc1df8f7aa240d11f72a}
       \strng{authornamehash}{3725df2463c7bc1df8f7aa240d11f72a}
       \strng{authorfullhash}{db33db7f1ab2aa686a4978396c02f90d}
       \field{labelalpha}{Car+19}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.HE}
@@ -12387,13 +12321,11 @@
       }
       \strng{namehash}{5961818af5d6ed76e79c4b8aae45bb02}
       \strng{fullhash}{5961818af5d6ed76e79c4b8aae45bb02}
-      \strng{bibnamehash}{5961818af5d6ed76e79c4b8aae45bb02}
-      \strng{authorbibnamehash}{5961818af5d6ed76e79c4b8aae45bb02}
       \strng{authornamehash}{5961818af5d6ed76e79c4b8aae45bb02}
       \strng{authorfullhash}{5961818af5d6ed76e79c4b8aae45bb02}
       \field{labelalpha}{Car17}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{howpublished}{\url{https://github.com/thomascarreau/NSEoS}}
@@ -12413,13 +12345,11 @@
       }
       \strng{namehash}{5961818af5d6ed76e79c4b8aae45bb02}
       \strng{fullhash}{5961818af5d6ed76e79c4b8aae45bb02}
-      \strng{bibnamehash}{5961818af5d6ed76e79c4b8aae45bb02}
-      \strng{authorbibnamehash}{5961818af5d6ed76e79c4b8aae45bb02}
       \strng{authornamehash}{5961818af5d6ed76e79c4b8aae45bb02}
       \strng{authorfullhash}{5961818af5d6ed76e79c4b8aae45bb02}
       \field{labelalpha}{Car17}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -12445,13 +12375,11 @@
       }
       \strng{namehash}{3c14cfcd4dd5dfa8287605cb97ed333d}
       \strng{fullhash}{3c14cfcd4dd5dfa8287605cb97ed333d}
-      \strng{bibnamehash}{3c14cfcd4dd5dfa8287605cb97ed333d}
-      \strng{authorbibnamehash}{3c14cfcd4dd5dfa8287605cb97ed333d}
       \strng{authornamehash}{3c14cfcd4dd5dfa8287605cb97ed333d}
       \strng{authorfullhash}{3c14cfcd4dd5dfa8287605cb97ed333d}
       \field{labelalpha}{CF16}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -12464,9 +12392,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.94.065802
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.94.065802
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.94.065802
@@ -12486,13 +12411,11 @@
       }
       \strng{namehash}{2eef3e3a64ac337c7f9ac93cf6a16b7e}
       \strng{fullhash}{2eef3e3a64ac337c7f9ac93cf6a16b7e}
-      \strng{bibnamehash}{2eef3e3a64ac337c7f9ac93cf6a16b7e}
-      \strng{authorbibnamehash}{2eef3e3a64ac337c7f9ac93cf6a16b7e}
       \strng{authornamehash}{2eef3e3a64ac337c7f9ac93cf6a16b7e}
       \strng{authorfullhash}{2eef3e3a64ac337c7f9ac93cf6a16b7e}
       \field{labelalpha}{CGM19}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Eur. Phys. J. A}
@@ -12504,9 +12427,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1140/epja/i2019-12884-1
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1140/epja/i2019-12884-1
       \endverb
       \verb{url}
       \verb https://doi.org/10.1140/epja/i2019-12884-1
@@ -12540,13 +12460,11 @@
       }
       \strng{namehash}{98d597f287d13c3b8de270be4157a3d3}
       \strng{fullhash}{4d7f28c14f763a53f835bb2349e405fb}
-      \strng{bibnamehash}{98d597f287d13c3b8de270be4157a3d3}
-      \strng{authorbibnamehash}{98d597f287d13c3b8de270be4157a3d3}
       \strng{authornamehash}{98d597f287d13c3b8de270be4157a3d3}
       \strng{authorfullhash}{4d7f28c14f763a53f835bb2349e405fb}
       \field{labelalpha}{Cha+07}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -12559,9 +12477,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.75.055806
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.75.055806
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.75.055806
@@ -12597,13 +12512,11 @@
       }
       \strng{namehash}{f9857f23bcd2515d8fcdd1b9e16e94b4}
       \strng{fullhash}{56493b2add50ba8a0e734fa0fd702446}
-      \strng{bibnamehash}{f9857f23bcd2515d8fcdd1b9e16e94b4}
-      \strng{authorbibnamehash}{f9857f23bcd2515d8fcdd1b9e16e94b4}
       \strng{authornamehash}{f9857f23bcd2515d8fcdd1b9e16e94b4}
       \strng{authorfullhash}{56493b2add50ba8a0e734fa0fd702446}
       \field{labelalpha}{Cha+98}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In a first paper Skyrme effective forces were revisited in order to improve their isospin properties away from the β stability line. In this paper, these forces are specifically adjusted to reproduce finite nuclei properties. Spin-orbit terms and center of mass correlations are analyzed. New Skyrme parametrizations are proposed and some of their spectroscopic properties are presented, e.g. S2n, S2p and r.m.s. radii for different isotopic and isotonic series.}
@@ -12617,9 +12530,6 @@
       \range{pages}{26}
       \verb{doi}
       \verb https://doi.org/10.1016/S0375-9474(98)00180-8
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947498001808
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947498001808
@@ -12635,13 +12545,11 @@
       }
       \strng{namehash}{58cee00305d286bb1435b99d737dbaf8}
       \strng{fullhash}{58cee00305d286bb1435b99d737dbaf8}
-      \strng{bibnamehash}{58cee00305d286bb1435b99d737dbaf8}
-      \strng{authorbibnamehash}{58cee00305d286bb1435b99d737dbaf8}
       \strng{authornamehash}{58cee00305d286bb1435b99d737dbaf8}
       \strng{authorfullhash}{58cee00305d286bb1435b99d737dbaf8}
       \field{labelalpha}{Cha06}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The inner layers of a neutron star crust, composed of a Coulomb lattice of neutron rich nuclear clusters immersed in a sea of “free” superfluid neutrons, are closely analogous to periodic condensed matter systems such as electronic, photonic or phononic crystals. Applying methods from solid state physics to the neutron star context, it has been recently shown that Bragg scattering leads to a strong renormalization of the neutron mass in the bottom layers of the crust. Knowledge of this effective mass throughout the crust is essential in order to understand the dynamical properties of the neutron superfluid and the origin of pulsar glitches. The purpose of the present work is to evaluate this effective mass in the outermost layers of the inner crust, near the drip point ρdrip∼4×1011 gcm−3. The results are compared with the case of electrons in ordinary solids and as an example the corresponding effective electron mass in copper is calculated.}
@@ -12655,9 +12563,6 @@
       \range{pages}{16}
       \verb{doi}
       \verb https://doi.org/10.1016/j.nuclphysa.2006.04.010
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947406001771
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947406001771
@@ -12683,13 +12588,11 @@
       }
       \strng{namehash}{8a252b4d784312d0a27aa9851e5d2db3}
       \strng{fullhash}{8a252b4d784312d0a27aa9851e5d2db3}
-      \strng{bibnamehash}{8a252b4d784312d0a27aa9851e5d2db3}
-      \strng{authorbibnamehash}{8a252b4d784312d0a27aa9851e5d2db3}
       \strng{authornamehash}{8a252b4d784312d0a27aa9851e5d2db3}
       \strng{authorfullhash}{8a252b4d784312d0a27aa9851e5d2db3}
       \field{labelalpha}{DCG07}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Because of the presence of a liquid-gas phase transition in nuclear matter, compact-star matter can present a region of instability against the formation of clusters. We investigate this phase separation in a matter composed of neutrons, protons and electrons, within a Skyrme–Lyon mean-field approach. Matter instability and phase properties are characterized through the study of the free-energy curvature. The effect of β-equilibrium is also analyzed in detail, and we show that the opacity to neutrinos has an influence on the presence of clusterized matter in finite-temperature proto-neutron stars.}
@@ -12703,9 +12606,6 @@
       \range{pages}{23}
       \verb{doi}
       \verb https://doi.org/10.1016/j.nuclphysa.2007.03.006
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947407002321
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947407002321
@@ -12726,13 +12626,11 @@
       }
       \strng{namehash}{e5a0c1d03ff23cf3f2c5841abdac30e4}
       \strng{fullhash}{e5a0c1d03ff23cf3f2c5841abdac30e4}
-      \strng{bibnamehash}{e5a0c1d03ff23cf3f2c5841abdac30e4}
-      \strng{authorbibnamehash}{e5a0c1d03ff23cf3f2c5841abdac30e4}
       \strng{authornamehash}{e5a0c1d03ff23cf3f2c5841abdac30e4}
       \strng{authorfullhash}{e5a0c1d03ff23cf3f2c5841abdac30e4}
       \field{labelalpha}{DH00}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The boundary between the solid crust, assumed to be in complete thermodynamic equilibrium (cold catalyzed matter), and the liquid core of a neutron star is studied using Skyrme SLy effective N–N interactions. An approximate value of the density at the inner edge of the crust is obtained from the threshold for the instability of homogeneous npe matter with respect to small periodic density perturbations. Calculations of the bottom layer of the crust are performed within the Compressible Liquid Drop Model. Spherical nuclei are energetically preferred over exotic ones (cylinders, plates, tubes, bubbles), down to the inner edge of the crust, found at ρedge=0.08fm−3.}
@@ -12746,9 +12644,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb https://doi.org/10.1016/S0370-2693(00)00672-9
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0370269300006729
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0370269300006729
@@ -12766,13 +12661,11 @@
       }
       \strng{namehash}{509062eebf2f06bf765755f00389e7a1}
       \strng{fullhash}{509062eebf2f06bf765755f00389e7a1}
-      \strng{bibnamehash}{509062eebf2f06bf765755f00389e7a1}
-      \strng{authorbibnamehash}{509062eebf2f06bf765755f00389e7a1}
       \strng{authornamehash}{509062eebf2f06bf765755f00389e7a1}
       \strng{authorfullhash}{509062eebf2f06bf765755f00389e7a1}
       \field{labelalpha}{DH01}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}
@@ -12784,9 +12677,6 @@
       \range{pages}{17}
       \verb{doi}
       \verb 10.1051/0004-6361:20011402
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1051/0004-6361:20011402
       \endverb
       \verb{url}
       \verb https://doi.org/10.1051/0004-6361:20011402
@@ -12812,13 +12702,11 @@
       }
       \strng{namehash}{585cb722fdbb61c768d399e47a77cd3a}
       \strng{fullhash}{585cb722fdbb61c768d399e47a77cd3a}
-      \strng{bibnamehash}{585cb722fdbb61c768d399e47a77cd3a}
-      \strng{authorbibnamehash}{585cb722fdbb61c768d399e47a77cd3a}
       \strng{authornamehash}{585cb722fdbb61c768d399e47a77cd3a}
       \strng{authorfullhash}{585cb722fdbb61c768d399e47a77cd3a}
       \field{labelalpha}{DHM00}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The properties of nuclear surface, including lowest order curvature terms, below and above the neutron drip point, are studied using recent SLy Skyrme models of the effective nucleon–nucleon interaction. Calculations are performed using the Extended Thomas–Fermi description of the energy functional, with variational determination of the surface density profiles. Numerical results are compared with those obtained for older Skyrme forces, and applied in the Compressible Liquid Drop Model calculations of neutron rich nuclei in ground state of neutron-star crust. Five possible types of nuclear structures are considered, characterized by spherical, cylindrical, and plane nuclear matter–neutron gas interface. Spherical nuclei are energetically preferred, down to the limiting density marking the transition into a homogeneous nucleon–electron liquid.}
@@ -12832,9 +12720,6 @@
       \range{pages}{28}
       \verb{doi}
       \verb https://doi.org/10.1016/S0375-9474(99)00397-8
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947499003978
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947499003978
@@ -12863,13 +12748,11 @@
       }
       \strng{namehash}{bda80c65c66df018a9e071560dcd9926}
       \strng{fullhash}{bda80c65c66df018a9e071560dcd9926}
-      \strng{bibnamehash}{bda80c65c66df018a9e071560dcd9926}
-      \strng{authorbibnamehash}{bda80c65c66df018a9e071560dcd9926}
       \strng{authornamehash}{bda80c65c66df018a9e071560dcd9926}
       \strng{authorfullhash}{bda80c65c66df018a9e071560dcd9926}
       \field{labelalpha}{DHS16}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -12882,9 +12765,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.93.054314
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.93.054314
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.93.054314
@@ -12910,13 +12790,11 @@
       }
       \strng{namehash}{43f3e3871614779e351b0cff5dc3a99a}
       \strng{fullhash}{43f3e3871614779e351b0cff5dc3a99a}
-      \strng{bibnamehash}{43f3e3871614779e351b0cff5dc3a99a}
-      \strng{authorbibnamehash}{43f3e3871614779e351b0cff5dc3a99a}
       \strng{authornamehash}{43f3e3871614779e351b0cff5dc3a99a}
       \strng{authorfullhash}{43f3e3871614779e351b0cff5dc3a99a}
       \field{labelalpha}{DMC08}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The nuclear-matter liquid–gas phase transition induces instabilities against finite-size density fluctuations. This has implications for both heavy-ion-collision and compact-star physics. In this paper, we study the clusterization properties of nuclear matter in a scenario of spinodal decomposition, comparing three different approaches: the quantal RPA, its semi-classical limit (Vlasov method), and a hydrodynamical framework. The predictions related to clusterization are qualitatively in good agreement varying the approach and the nuclear interaction. Nevertheless, it is shown that (i) the quantum effects reduce the instability zone, and disfavor short-wavelength fluctuations; (ii) large differences appear between the two semi-classical approaches, which correspond respectively to a collisionless (Vlasov) and local equilibrium description (hydrodynamics); (iii) the isospin-distillation effect is stronger in the local equilibrium framework; (iv) important variations between the predicted time-scales of cluster formation appear near the borders of the instability region.}
@@ -12931,13 +12809,56 @@
       \verb{doi}
       \verb https://doi.org/10.1016/j.nuclphysa.2008.05.015
       \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947408005721
-      \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947408005721
       \endverb
       \keyw{Asymmetric nuclear matter,Compact stars,Liquid–gas spinodal instabilities,Skyrme forces,Semi-classical theory,Random-phase approximation}
+    \endentry
+    \entry{Dobaczewski2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9e1debeec0e5bd6db94a79d98a41508e}{%
+           family={Dobaczewski},
+           familyi={D\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4ec609b4a89cb1a9a334b9dfa06076e6}{%
+           family={Nazarewicz},
+           familyi={N\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b22b09ad1de2993aec6d6c876c80eaed}{%
+           family={Reinhard},
+           familyi={R\bibinitperiod},
+           given={P-G},
+           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{23f5d5d87aaf3b2e02df0fa34cf709a1}
+      \strng{fullhash}{23f5d5d87aaf3b2e02df0fa34cf709a1}
+      \strng{authornamehash}{23f5d5d87aaf3b2e02df0fa34cf709a1}
+      \strng{authorfullhash}{23f5d5d87aaf3b2e02df0fa34cf709a1}
+      \field{labelalpha}{DNR14}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This guide offers suggestions/insights on uncertainty quantification of nuclear structure models. We discuss a simple approach to statistical-error estimates, strategies to assess systematic errors, and show how to uncover inter-dependences by correlation analysis. The basic concepts are illustrated through simple examples. By providing theoretical error bars on predicted quantities and using statistical methods to study correlations between observables, theory can significantly enhance the feedback between experiment and nuclear modeling.}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{month}{5}
+      \field{number}{7}
+      \field{title}{Error estimates of theoretical models: a guide}
+      \field{volume}{41}
+      \field{year}{2014}
+      \field{pages}{074001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0954-3899/41/7/074001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F0954-3899%2F41%2F7%2F074001
+      \endverb
     \endentry
     \entry{Ducoin2007b}{article}{}
       \name{author}{5}{}{%
@@ -12972,13 +12893,11 @@
       }
       \strng{namehash}{cf036e03340992c10f186a609667d3cd}
       \strng{fullhash}{b3d9d0bbeff7c894a45d8067b3586245}
-      \strng{bibnamehash}{cf036e03340992c10f186a609667d3cd}
-      \strng{authorbibnamehash}{cf036e03340992c10f186a609667d3cd}
       \strng{authornamehash}{cf036e03340992c10f186a609667d3cd}
       \strng{authorfullhash}{b3d9d0bbeff7c894a45d8067b3586245}
       \field{labelalpha}{Duc+07}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -12991,9 +12910,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.75.065805
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.75.065805
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.75.065805
@@ -13027,13 +12943,11 @@
       }
       \strng{namehash}{e17715a21ba5ddec8b7500b301231c43}
       \strng{fullhash}{849403cde2336b8e08c7b4b1edda9425}
-      \strng{bibnamehash}{e17715a21ba5ddec8b7500b301231c43}
-      \strng{authorbibnamehash}{e17715a21ba5ddec8b7500b301231c43}
       \strng{authornamehash}{e17715a21ba5ddec8b7500b301231c43}
       \strng{authorfullhash}{849403cde2336b8e08c7b4b1edda9425}
       \field{labelalpha}{Duc+11}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -13046,9 +12960,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.83.045810
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.83.045810
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.83.045810
@@ -13079,13 +12990,11 @@
       }
       \strng{namehash}{f8040b0943dd3c960e62ee68ae99fba7}
       \strng{fullhash}{cfb79bd264b0e0dde1d645167a8fdfb2}
-      \strng{bibnamehash}{f8040b0943dd3c960e62ee68ae99fba7}
-      \strng{authorbibnamehash}{f8040b0943dd3c960e62ee68ae99fba7}
       \strng{authornamehash}{f8040b0943dd3c960e62ee68ae99fba7}
       \strng{authorfullhash}{cfb79bd264b0e0dde1d645167a8fdfb2}
       \field{labelalpha}{Esp+11}
       \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The rotation of more than 700 pulsars has been monitored using the 76-m Lovell Telescope at Jodrell Bank. Here we report on a new search for glitches in the observations, revealing 128 new glitches in the rotation of 63 pulsars. Combining these new data with those already published, we present a data base containing 315 glitches in 102 pulsars. The data base was used to study the glitch activity among the pulsar population, finding that it peaks for pulsars with a characteristic age τc∼ 10 kyr and decreases for longer values of τc, disappearing for objects with τc \\&gt; 20 Myr. The glitch activity is also smaller in the very young pulsars (τc≲ 1 kyr). The cumulative effect of glitches, a collection of instantaneous spin-up events, acts to reduce the regular long-term spin-down rate of the star. The percentage of reversed by glitch activity was found to vary between 0.5 and 1.6 per cent for pulsars with spin-down rates between 10−14 and 3.2 × 10−11 Hz s−1, decreasing to less than 0.01 per cent at both higher and lower spin-down rates. These ratios are interpreted in terms of the amount of superfluid involved in the generation of glitches. In this context, the activity of the youngest pulsar studied, the Crab pulsar, may be explained by quake-like activity within the crust. Pulsars with low spin-down rates seem to exhibit mostly small glitches, matching well the decrease of their crustal superfluid.Through the analysis of glitch sizes, it was found that the particular glitching behaviour of PSR J0537−6910 and the Vela pulsar may be shared by most Vela-like pulsars. These objects present most of their glitches with characteristic frequency and frequency derivative jumps, occurring at regular intervals of time. Their behaviour is different from other glitching pulsars of similar characteristic age.}}
@@ -13103,9 +13012,6 @@
       \endverb
       \verb{eprint}
       \verb https://academic.oup.com/mnras/article-pdf/414/2/1679/3015039/mnras0414-1679.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1111/j.1365-2966.2011.18503.x
       \endverb
       \verb{url}
       \verb https://doi.org/10.1111/j.1365-2966.2011.18503.x
@@ -13134,13 +13040,11 @@
       }
       \strng{namehash}{c23a2ccc177e8b438d7378bb5536bd54}
       \strng{fullhash}{c23a2ccc177e8b438d7378bb5536bd54}
-      \strng{bibnamehash}{c23a2ccc177e8b438d7378bb5536bd54}
-      \strng{authorbibnamehash}{c23a2ccc177e8b438d7378bb5536bd54}
       \strng{authornamehash}{c23a2ccc177e8b438d7378bb5536bd54}
       \strng{authorfullhash}{c23a2ccc177e8b438d7378bb5536bd54}
       \field{labelalpha}{FMT49}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -13153,9 +13057,6 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1103/PhysRev.75.1561
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRev.75.1561
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.75.1561
@@ -13186,13 +13087,11 @@
       }
       \strng{namehash}{3ad33619d1d98c4860a312ff1c40b9c8}
       \strng{fullhash}{a2aa206e24a6a6e6393c50ec4e0de162}
-      \strng{bibnamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
-      \strng{authorbibnamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
       \strng{authornamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
       \strng{authorfullhash}{a2aa206e24a6a6e6393c50ec4e0de162}
       \field{labelalpha}{For+15}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.SR}
@@ -13253,13 +13152,11 @@
       }
       \strng{namehash}{3ad33619d1d98c4860a312ff1c40b9c8}
       \strng{fullhash}{bfcdd2b871a8e6d0bbb5e5d49868e376}
-      \strng{bibnamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
-      \strng{authorbibnamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
       \strng{authornamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
       \strng{authorfullhash}{bfcdd2b871a8e6d0bbb5e5d49868e376}
       \field{labelalpha}{For+16}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -13272,9 +13169,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.94.035804
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.94.035804
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.94.035804
@@ -13300,13 +13194,11 @@
       }
       \strng{namehash}{f7bb27ff5f28978852e6379ee3e2bb42}
       \strng{fullhash}{1b88d095fd93f68533a29a9ef400bb48}
-      \strng{bibnamehash}{f7bb27ff5f28978852e6379ee3e2bb42}
-      \strng{authorbibnamehash}{f7bb27ff5f28978852e6379ee3e2bb42}
       \strng{authornamehash}{f7bb27ff5f28978852e6379ee3e2bb42}
       \strng{authorfullhash}{1b88d095fd93f68533a29a9ef400bb48}
       \field{labelalpha}{Gan+14}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Eur. Phys. J. A}
@@ -13318,9 +13210,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1140/epja/i2014-14010-5
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1140/epja/i2014-14010-5
       \endverb
       \verb{url}
       \verb https://doi.org/10.1140/epja/i2014-14010-5
@@ -13349,13 +13238,11 @@
       }
       \strng{namehash}{4db493b8a0bf0d7d0c06f80a1b716678}
       \strng{fullhash}{4db493b8a0bf0d7d0c06f80a1b716678}
-      \strng{bibnamehash}{4db493b8a0bf0d7d0c06f80a1b716678}
-      \strng{authorbibnamehash}{4db493b8a0bf0d7d0c06f80a1b716678}
       \strng{authornamehash}{4db493b8a0bf0d7d0c06f80a1b716678}
       \strng{authorfullhash}{4db493b8a0bf0d7d0c06f80a1b716678}
       \field{labelalpha}{GCP13}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -13368,9 +13255,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.88.024308
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.88.024308
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.88.024308
@@ -13404,13 +13288,11 @@
       }
       \strng{namehash}{4aeb8c9de2637a2f7ad9ede85afa6494}
       \strng{fullhash}{b1cb41fe99eccb21c7890705fe7f4c59}
-      \strng{bibnamehash}{4aeb8c9de2637a2f7ad9ede85afa6494}
-      \strng{authorbibnamehash}{4aeb8c9de2637a2f7ad9ede85afa6494}
       \strng{authornamehash}{4aeb8c9de2637a2f7ad9ede85afa6494}
       \strng{authorfullhash}{b1cb41fe99eccb21c7890705fe7f4c59}
       \field{labelalpha}{Gon+17}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -13423,9 +13305,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.96.065806
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.96.065806
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.96.065806
@@ -13456,13 +13335,11 @@
       }
       \strng{namehash}{6c699b766ac96df52e07fb3b47e30d6f}
       \strng{fullhash}{d38f7d20480be4de0b45b07173974415}
-      \strng{bibnamehash}{6c699b766ac96df52e07fb3b47e30d6f}
-      \strng{authorbibnamehash}{6c699b766ac96df52e07fb3b47e30d6f}
       \strng{authornamehash}{6c699b766ac96df52e07fb3b47e30d6f}
       \strng{authorfullhash}{d38f7d20480be4de0b45b07173974415}
       \field{labelalpha}{Gor+05}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We have modified our best previous HFB mass model, HFB-8, to conform to the Friedman–Pandharipande calculation of neutron matter, achieving this simply by requiring that it be consistent with a nuclear-matter symmetry coefficient of J=30 MeV. The rms deviation of the data fit rises from 0.635 to 0.733 MeV, and while the changes in the predictions for the masses of highly neutron-rich nuclei are relatively small, some significant changes arise in the equation of state of neutron-star matter, both for the core and the inner crust. The new model, HFB-9, is to be preferred for both r-process calculations and neutron-star studies, and most particularly for calculations of an r-process arising from the decompression of initially cold neutron-star matter, where the transition from nuclear matter to nuclei needs to be modelled consistently. A correction for vacuum polarization is also made in the HFB-9 model.}
@@ -13476,9 +13353,6 @@
       \range{pages}{19}
       \verb{doi}
       \verb https://doi.org/10.1016/j.nuclphysa.2005.01.009
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947405000126
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947405000126
@@ -13507,13 +13381,11 @@
       }
       \strng{namehash}{60b69854d575022d6131386153aaeb71}
       \strng{fullhash}{60b69854d575022d6131386153aaeb71}
-      \strng{bibnamehash}{60b69854d575022d6131386153aaeb71}
-      \strng{authorbibnamehash}{60b69854d575022d6131386153aaeb71}
       \strng{authornamehash}{60b69854d575022d6131386153aaeb71}
       \strng{authorfullhash}{60b69854d575022d6131386153aaeb71}
       \field{labelalpha}{GPA12}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -13526,9 +13398,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.85.055808
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.85.055808
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.85.055808
@@ -13567,13 +13436,11 @@
       }
       \strng{namehash}{ec80774c9634741f8aa0a385cd825acb}
       \strng{fullhash}{468cb5ee0feaf7268b2d7f9f106a1340}
-      \strng{bibnamehash}{ec80774c9634741f8aa0a385cd825acb}
-      \strng{authorbibnamehash}{ec80774c9634741f8aa0a385cd825acb}
       \strng{authornamehash}{ec80774c9634741f8aa0a385cd825acb}
       \strng{authorfullhash}{468cb5ee0feaf7268b2d7f9f106a1340}
       \field{labelalpha}{Gra+17}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -13586,9 +13453,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.95.055807
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.95.055807
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.95.055807
@@ -13617,13 +13481,11 @@
       }
       \strng{namehash}{fc256bc4198b64a0bacb05e06f64c5b8}
       \strng{fullhash}{fc256bc4198b64a0bacb05e06f64c5b8}
-      \strng{bibnamehash}{fc256bc4198b64a0bacb05e06f64c5b8}
-      \strng{authorbibnamehash}{fc256bc4198b64a0bacb05e06f64c5b8}
       \strng{authornamehash}{fc256bc4198b64a0bacb05e06f64c5b8}
       \strng{authorfullhash}{fc256bc4198b64a0bacb05e06f64c5b8}
       \field{labelalpha}{GSP07}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -13636,9 +13498,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.75.064312
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.75.064312
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.75.064312
@@ -13659,13 +13518,11 @@
       }
       \strng{namehash}{f45b77c965e825c6f4e0f8576442d048}
       \strng{fullhash}{f45b77c965e825c6f4e0f8576442d048}
-      \strng{bibnamehash}{f45b77c965e825c6f4e0f8576442d048}
-      \strng{authorbibnamehash}{f45b77c965e825c6f4e0f8576442d048}
       \strng{authornamehash}{f45b77c965e825c6f4e0f8576442d048}
       \strng{authorfullhash}{f45b77c965e825c6f4e0f8576442d048}
       \field{labelalpha}{HP94}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{nucl-th}
@@ -13700,13 +13557,11 @@
       }
       \strng{namehash}{9e042b56df544e3ac27767dbff60c770}
       \strng{fullhash}{9e042b56df544e3ac27767dbff60c770}
-      \strng{bibnamehash}{9e042b56df544e3ac27767dbff60c770}
-      \strng{authorbibnamehash}{9e042b56df544e3ac27767dbff60c770}
       \strng{authornamehash}{9e042b56df544e3ac27767dbff60c770}
       \strng{authorfullhash}{9e042b56df544e3ac27767dbff60c770}
       \field{labelalpha}{HPY07}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Astrophys. Space Sci. Libr.}
@@ -13757,28 +13612,23 @@
       }
       \strng{namehash}{c8b49fbd7c8efeaa72f22b254f85856d}
       \strng{fullhash}{7baa2f7ccc57e102f6db0f8ceeeab6ef}
-      \strng{bibnamehash}{c8b49fbd7c8efeaa72f22b254f85856d}
-      \strng{authorbibnamehash}{c8b49fbd7c8efeaa72f22b254f85856d}
       \strng{authornamehash}{c8b49fbd7c8efeaa72f22b254f85856d}
       \strng{authorfullhash}{7baa2f7ccc57e102f6db0f8ceeeab6ef}
       \field{labelalpha}{Hua+17}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chinese Physics C}
       \field{month}{3}
       \field{number}{3}
-      \field{title}{The {AME}2016 atomic mass evaluation (I). {Evaluation} of input data; and adjustment procedures}
+      \field{title}{The {AME}2016 atomic mass evaluation ({I}). {Evaluation} of input data; and adjustment procedures}
       \field{volume}{41}
       \field{year}{2017}
       \field{pages}{030002}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1088/1674-1137/41/3/030002
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
@@ -13807,13 +13657,11 @@
       }
       \strng{namehash}{e7647fb016acdf14dd7e31d3035489d9}
       \strng{fullhash}{e7647fb016acdf14dd7e31d3035489d9}
-      \strng{bibnamehash}{e7647fb016acdf14dd7e31d3035489d9}
-      \strng{authorbibnamehash}{e7647fb016acdf14dd7e31d3035489d9}
       \strng{authornamehash}{e7647fb016acdf14dd7e31d3035489d9}
       \strng{authorfullhash}{e7647fb016acdf14dd7e31d3035489d9}
       \field{labelalpha}{LPT03}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -13826,9 +13674,6 @@
       \range{pages}{62}
       \verb{doi}
       \verb 10.1103/RevModPhys.75.1021
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/RevModPhys.75.1021
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/RevModPhys.75.1021
@@ -13857,13 +13702,11 @@
       }
       \strng{namehash}{3964f9dd0739005f0490de2382f31a94}
       \strng{fullhash}{3964f9dd0739005f0490de2382f31a94}
-      \strng{bibnamehash}{3964f9dd0739005f0490de2382f31a94}
-      \strng{authorbibnamehash}{3964f9dd0739005f0490de2382f31a94}
       \strng{authornamehash}{3964f9dd0739005f0490de2382f31a94}
       \strng{authorfullhash}{3964f9dd0739005f0490de2382f31a94}
       \field{labelalpha}{LRP93}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -13876,9 +13719,6 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1103/PhysRevLett.70.379
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.70.379
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.70.379
@@ -13902,13 +13742,11 @@
       }
       \strng{namehash}{3ead2d605e969767c85c2bc36523f312}
       \strng{fullhash}{3ead2d605e969767c85c2bc36523f312}
-      \strng{bibnamehash}{3ead2d605e969767c85c2bc36523f312}
-      \strng{authorbibnamehash}{3ead2d605e969767c85c2bc36523f312}
       \strng{authornamehash}{3ead2d605e969767c85c2bc36523f312}
       \strng{authorfullhash}{3ead2d605e969767c85c2bc36523f312}
       \field{labelalpha}{LS08}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -13921,9 +13759,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.78.028801
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.78.028801
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.78.028801
@@ -13944,13 +13779,11 @@
       }
       \strng{namehash}{cfb6d40e1fd219250bd87613854ef044}
       \strng{fullhash}{cfb6d40e1fd219250bd87613854ef044}
-      \strng{bibnamehash}{cfb6d40e1fd219250bd87613854ef044}
-      \strng{authorbibnamehash}{cfb6d40e1fd219250bd87613854ef044}
       \strng{authornamehash}{cfb6d40e1fd219250bd87613854ef044}
       \strng{authorfullhash}{cfb6d40e1fd219250bd87613854ef044}
       \field{labelalpha}{LS91}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nuclear Physics A}
@@ -13988,29 +13821,24 @@
       }
       \strng{namehash}{fa1324b1d54a027d748e7ee72ab36011}
       \strng{fullhash}{fa1324b1d54a027d748e7ee72ab36011}
-      \strng{bibnamehash}{fa1324b1d54a027d748e7ee72ab36011}
-      \strng{authorbibnamehash}{fa1324b1d54a027d748e7ee72ab36011}
       \strng{authornamehash}{fa1324b1d54a027d748e7ee72ab36011}
       \strng{authorfullhash}{fa1324b1d54a027d748e7ee72ab36011}
       \field{labelalpha}{MHG18}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
       \field{journaltitle}{Phys. Rev. C}
       \field{month}{2}
-      \field{title}{Equation of state for dense nucleonic matter from metamodeling. I. {Foundational} aspects}
+      \field{title}{Equation of state for dense nucleonic matter from metamodeling. {I}. {Foundational} aspects}
       \field{volume}{97}
       \field{year}{2018}
       \field{pages}{025805}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.97.025805
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.97.025805
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.97.025805
@@ -14039,13 +13867,11 @@
       }
       \strng{namehash}{fa1324b1d54a027d748e7ee72ab36011}
       \strng{fullhash}{fa1324b1d54a027d748e7ee72ab36011}
-      \strng{bibnamehash}{fa1324b1d54a027d748e7ee72ab36011}
-      \strng{authorbibnamehash}{fa1324b1d54a027d748e7ee72ab36011}
       \strng{authornamehash}{fa1324b1d54a027d748e7ee72ab36011}
       \strng{authorfullhash}{fa1324b1d54a027d748e7ee72ab36011}
       \field{labelalpha}{MHG18}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -14059,9 +13885,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.97.025806
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.97.025806
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.97.025806
@@ -14082,13 +13905,11 @@
       }
       \strng{namehash}{04aa655599fa51b2528b8a6900a9a93f}
       \strng{fullhash}{04aa655599fa51b2528b8a6900a9a93f}
-      \strng{bibnamehash}{04aa655599fa51b2528b8a6900a9a93f}
-      \strng{authorbibnamehash}{04aa655599fa51b2528b8a6900a9a93f}
       \strng{authornamehash}{04aa655599fa51b2528b8a6900a9a93f}
       \strng{authorfullhash}{04aa655599fa51b2528b8a6900a9a93f}
       \field{labelalpha}{MN88}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We calculate ground-state masses for 4678 nuclei ranging from 16O to 318122 by means of an improved version of the macroscopic-microscopic model employed in our 1981 mass calculation, which uses a Yukawa-plus-exponential model for the macroscopic term and a folded-Yukawa single-particle potential as starting point for the microscopic term. Some of the new features now incorporated are a new model for the average pairing strength, the solution of the microscopic pairing equations by use the Lipkin-Nogami method with approximate particle-number conservation, the use of experimental mass uncertainties in determining the model parameters, and an estimation of the theoretical error of the model by application of the maximum-likelihood method. Only five parameters are determined from least-squares fitting to the nuclear masses; the other constants in the model are taken from previous work with no adjustment. The resulting theoretical error in the calculated ground-state masses of 1593 nuclei ranging from 16O to 263106 is 0.832 MeV. We also extend the calculation to some additional nuclei in the heavy and superheavy region that were not considered in 1981. The present calculation represents an interim report ona project in which we plan to make further improvements and extend the region of nuclei considered to the neutron and proton drip lines.}
@@ -14102,9 +13923,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb https://doi.org/10.1016/0092-640X(88)90022-8
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/0092640X88900228
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/0092640X88900228
@@ -14135,13 +13953,11 @@
       }
       \strng{namehash}{fd7397f93d17eccbdd6dbac74030c151}
       \strng{fullhash}{8df0d46d42b2030749f2e36762b85a00}
-      \strng{bibnamehash}{fd7397f93d17eccbdd6dbac74030c151}
-      \strng{authorbibnamehash}{fd7397f93d17eccbdd6dbac74030c151}
       \strng{authornamehash}{fd7397f93d17eccbdd6dbac74030c151}
       \strng{authorfullhash}{8df0d46d42b2030749f2e36762b85a00}
       \field{labelalpha}{Mol+95}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We tabulate the atomic mass excesses and nuclear ground-state deformations of 8979 nuclei ranging from 16O to A = 339. The calculations are based on the finite-range droplet macroscopic model and the folded-Yukawa single-particle microscopic model. Relative to our 1981 mass table the current results are obtained with an improved macroscopic model, an improved pairing model with a new form for the effective-interaction pairing gap, and minimization of the ground-state energy with respect to additional shape degrees of freedom. The values of only nine constants are determined directly from a least-squares adjustment to the ground-state masses of 1654 nuclei ranging from 16O to 263106 and to 28 fission-barrier heights. The error of the mass model is 0.669 MeV for the entire region of nuclei considered, but is only 0.448 MeV for the region N ≥ 65.}
@@ -14155,9 +13971,6 @@
       \range{pages}{197}
       \verb{doi}
       \verb https://doi.org/10.1006/adnd.1995.1002
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0092640X85710029
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0092640X85710029
@@ -14178,13 +13991,11 @@
       }
       \strng{namehash}{eadc0c56ef4e64bbcb9465983bcb3da8}
       \strng{fullhash}{eadc0c56ef4e64bbcb9465983bcb3da8}
-      \strng{bibnamehash}{eadc0c56ef4e64bbcb9465983bcb3da8}
-      \strng{authorbibnamehash}{eadc0c56ef4e64bbcb9465983bcb3da8}
       \strng{authornamehash}{eadc0c56ef4e64bbcb9465983bcb3da8}
       \strng{authorfullhash}{eadc0c56ef4e64bbcb9465983bcb3da8}
       \field{labelalpha}{MS65}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{UCRL Report}
@@ -14208,13 +14019,11 @@
       }
       \strng{namehash}{a1688a2f5ec9b7c983a5d916bcc3f4e8}
       \strng{fullhash}{a1688a2f5ec9b7c983a5d916bcc3f4e8}
-      \strng{bibnamehash}{a1688a2f5ec9b7c983a5d916bcc3f4e8}
-      \strng{authorbibnamehash}{a1688a2f5ec9b7c983a5d916bcc3f4e8}
       \strng{authornamehash}{a1688a2f5ec9b7c983a5d916bcc3f4e8}
       \strng{authorfullhash}{a1688a2f5ec9b7c983a5d916bcc3f4e8}
       \field{labelalpha}{MS66}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A semi-empirical theory of nuclear masses and deformations is presented. The potential energy of a nucleus, considered as a function of N, Z and the nuclear shape, is assumed to be given by the liquid-drop model, modified by a shell correction. The shell correction is a simple function of N and Z and is supposed to disappear as the nucleus is distorted away from the spherical shape. The resulting semi-empirical expression for the nuclear deformation energy has seven adjustable parameters, four in the liquid-drop part and three in the shell correction. By making the deformation energy stationary with respect to distortions, the equilibrium deformations (i.e., the quadrupole moments) and the ground-state masses of nuclei are derived as functions of N and Z. In addition, from unstable shapes of equilibrium corresponding to saddle-point configurations, barrier energies for nuclear fission are deduced. The predictions of the theory are compared with some 1200 experimental nuclear masses, 240 quadrupole moments and 40 fission barriers. The results lead, on the one hand, to a re-assessment of the accuracy of the liquid-drop model and a firmer determination of its characteristic constants and, on the other, to a semi-quantitative understanding of the effects of shell structure on nuclear masses and deformations. A number of minor anomalies are isolated, one apparently related to the so-called Wigner term in the binding energy and one relevant for the understanding of fission barriers. Applications to the analysis of the centrifugal stretching of nuclei and to the possible existence of “islands of stability” in the region of super-heavy nuclei are mentioned.}
@@ -14228,9 +14037,6 @@
       \range{pages}{60}
       \verb{doi}
       \verb https://doi.org/10.1016/0029-5582(66)90639-0
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/0029558266906390
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/0029558266906390
@@ -14256,13 +14062,11 @@
       }
       \strng{namehash}{c495531b6408b6e65e13ff3a3fef70cc}
       \strng{fullhash}{c495531b6408b6e65e13ff3a3fef70cc}
-      \strng{bibnamehash}{c495531b6408b6e65e13ff3a3fef70cc}
-      \strng{authorbibnamehash}{c495531b6408b6e65e13ff3a3fef70cc}
       \strng{authornamehash}{c495531b6408b6e65e13ff3a3fef70cc}
       \strng{authorfullhash}{c495531b6408b6e65e13ff3a3fef70cc}
       \field{labelalpha}{MTC09}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{AIP Conference Proceedings}
@@ -14277,9 +14081,6 @@
       \endverb
       \verb{eprint}
       \verb https://aip.scitation.org/doi/pdf/10.1063/1.3141634
-      \endverb
-      \verb{urlraw}
-      \verb https://aip.scitation.org/doi/abs/10.1063/1.3141634
       \endverb
       \verb{url}
       \verb https://aip.scitation.org/doi/abs/10.1063/1.3141634
@@ -14308,13 +14109,11 @@
       }
       \strng{namehash}{0815942022f19314ed3fcabeb450bbeb}
       \strng{fullhash}{0815942022f19314ed3fcabeb450bbeb}
-      \strng{bibnamehash}{0815942022f19314ed3fcabeb450bbeb}
-      \strng{authorbibnamehash}{0815942022f19314ed3fcabeb450bbeb}
       \strng{authornamehash}{0815942022f19314ed3fcabeb450bbeb}
       \strng{authorfullhash}{0815942022f19314ed3fcabeb450bbeb}
       \field{labelalpha}{NGL12}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a systematic survey of the range of predictions of the neutron star inner crust composition, crust-core transition densities and pressures, and density range of the nuclear “pasta” phases at the bottom of the crust provided by the compressible liquid drop model in light of the current experimental and theoretical constraints on model parameters. Using a Skyrme-like model for nuclear matter, we construct baseline sequences of crust models by consistently varying the density dependence of the bulk symmetry energy at nuclear saturation density, L, under two conditions: (1) that the magnitude of the symmetry energy at saturation density J is held constant, and (2) J correlates with L under the constraint that the pure neutron matter (PNM) equation of state (EoS) satisfies the results of ab initio calculations at low densities. Such baseline crust models facilitate consistent exploration of the L dependence of crustal properties. The remaining surface energy and symmetric nuclear matter parameters are systematically varied around the baseline, and different functional forms of the PNM EoS at sub-saturation densities implemented, to estimate theoretical “error bars” for the baseline predictions. Inner crust composition and transition densities are shown to be most sensitive to the surface energy at very low proton fractions and to the behavior of the sub-saturation PNM EoS. Recent calculations of the energies of neutron drops suggest that the low-proton-fraction surface energy might be higher than predicted in Skyrme-like models, which our study suggests may result in a greatly reduced volume of pasta in the crust than conventionally predicted.}
@@ -14328,9 +14127,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1088/0067-0049/204/1/9
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088%2F0067-0049%2F204%2F1%2F9
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F0067-0049%2F204%2F1%2F9
@@ -14354,13 +14150,11 @@
       }
       \strng{namehash}{d39ec1b24d0108e7f9ee7fc31a76226e}
       \strng{fullhash}{d39ec1b24d0108e7f9ee7fc31a76226e}
-      \strng{bibnamehash}{d39ec1b24d0108e7f9ee7fc31a76226e}
-      \strng{authorbibnamehash}{d39ec1b24d0108e7f9ee7fc31a76226e}
       \strng{authornamehash}{d39ec1b24d0108e7f9ee7fc31a76226e}
       \strng{authorfullhash}{d39ec1b24d0108e7f9ee7fc31a76226e}
       \field{labelalpha}{NS09}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -14373,9 +14167,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.79.055801
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.79.055801
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.79.055801
@@ -14396,13 +14187,11 @@
       }
       \strng{namehash}{7488b8752fa49405b1d4a7741c1c91a7}
       \strng{fullhash}{7488b8752fa49405b1d4a7741c1c91a7}
-      \strng{bibnamehash}{7488b8752fa49405b1d4a7741c1c91a7}
-      \strng{authorbibnamehash}{7488b8752fa49405b1d4a7741c1c91a7}
       \strng{authornamehash}{7488b8752fa49405b1d4a7741c1c91a7}
       \strng{authorfullhash}{7488b8752fa49405b1d4a7741c1c91a7}
       \field{labelalpha}{NV73}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{An extremely simple form for the energy density of a nuclear many-body system derived from the two-body nucleon-nucleon interaction is used to determine the ground state configuration of matter at sub-nuclear density. As the baryon density is increased, nuclei become progressively more neutron rich until neutrons eventually escape, yielding a Coulomb lattice of bound neutron and proton clusters surrounded by a dilute neutron gas. The clusters enlarge and the lattice constant decreases with increasing density, approaching a completely uniform state near nuclear density.}
@@ -14416,9 +14205,6 @@
       \range{pages}{23}
       \verb{doi}
       \verb https://doi.org/10.1016/0375-9474(73)90349-7
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/0375947473903497
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/0375947473903497
@@ -14452,13 +14238,11 @@
       }
       \strng{namehash}{1b4ac9d20cc1854c991b49812681c81d}
       \strng{fullhash}{cfb0def2047085aaa628015b3856c4d8}
-      \strng{bibnamehash}{1b4ac9d20cc1854c991b49812681c81d}
-      \strng{authorbibnamehash}{1b4ac9d20cc1854c991b49812681c81d}
       \strng{authornamehash}{1b4ac9d20cc1854c991b49812681c81d}
       \strng{authorfullhash}{cfb0def2047085aaa628015b3856c4d8}
       \field{labelalpha}{Oer+17}
       \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -14471,9 +14255,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/RevModPhys.89.015007
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/RevModPhys.89.015007
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/RevModPhys.89.015007
@@ -14517,13 +14298,11 @@
       }
       \strng{namehash}{df8041550ddfcd74e0d8f932f8738ae0}
       \strng{fullhash}{bb0211796aa448aafd3c141e1c124f34}
-      \strng{bibnamehash}{df8041550ddfcd74e0d8f932f8738ae0}
-      \strng{authorbibnamehash}{df8041550ddfcd74e0d8f932f8738ae0}
       \strng{authornamehash}{df8041550ddfcd74e0d8f932f8738ae0}
       \strng{authorfullhash}{bb0211796aa448aafd3c141e1c124f34}
       \field{labelalpha}{Ons+08}
       \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -14536,9 +14315,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.77.065805
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.77.065805
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.77.065805
@@ -14572,13 +14348,11 @@
       }
       \strng{namehash}{980bd15e8bfce2b7915ace8f212e05e8}
       \strng{fullhash}{b90d46550f16055978e7c0505377ecda}
-      \strng{bibnamehash}{980bd15e8bfce2b7915ace8f212e05e8}
-      \strng{authorbibnamehash}{980bd15e8bfce2b7915ace8f212e05e8}
       \strng{authornamehash}{980bd15e8bfce2b7915ace8f212e05e8}
       \strng{authorfullhash}{b90d46550f16055978e7c0505377ecda}
       \field{labelalpha}{Pap+13}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -14591,9 +14365,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.88.045805
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.88.045805
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.88.045805
@@ -14622,13 +14393,11 @@
       }
       \strng{namehash}{5bde915ba251ba485535465bd62a5afa}
       \strng{fullhash}{5bde915ba251ba485535465bd62a5afa}
-      \strng{bibnamehash}{5bde915ba251ba485535465bd62a5afa}
-      \strng{authorbibnamehash}{5bde915ba251ba485535465bd62a5afa}
       \strng{authornamehash}{5bde915ba251ba485535465bd62a5afa}
       \strng{authorfullhash}{5bde915ba251ba485535465bd62a5afa}
       \field{labelalpha}{PCP20}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -14641,9 +14410,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.101.015802
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.101.015802
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.101.015802
@@ -14677,13 +14443,11 @@
       }
       \strng{namehash}{8a035ae4d5a62ffb2ea5c9979e015772}
       \strng{fullhash}{7ac3afbea7f7099b92839a353bcd699d}
-      \strng{bibnamehash}{8a035ae4d5a62ffb2ea5c9979e015772}
-      \strng{authorbibnamehash}{8a035ae4d5a62ffb2ea5c9979e015772}
       \strng{authornamehash}{8a035ae4d5a62ffb2ea5c9979e015772}
       \strng{authorfullhash}{7ac3afbea7f7099b92839a353bcd699d}
       \field{labelalpha}{Pea+12}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -14696,9 +14460,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.85.065803
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.85.065803
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.85.065803
@@ -14744,13 +14505,11 @@
       }
       \strng{namehash}{7f4d8e498c3ea01f478ac9d86415fd83}
       \strng{fullhash}{3508f4b45520318aeb0c4568dba40ab4}
-      \strng{bibnamehash}{7f4d8e498c3ea01f478ac9d86415fd83}
-      \strng{authorbibnamehash}{7f4d8e498c3ea01f478ac9d86415fd83}
       \strng{authornamehash}{7f4d8e498c3ea01f478ac9d86415fd83}
       \strng{authorfullhash}{3508f4b45520318aeb0c4568dba40ab4}
       \field{labelalpha}{Pea+18}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The theory of the nuclear energy-density functional is used to provide a unified and thermodynamically consistent treatment of all regions of cold non-accreting neutron stars. In order to assess the impact of our lack of complete knowledge of the density dependence of the symmetry energy on the constitution and the global structure of neutron stars, we employ four different functionals. All of them were precision fitted to essentially all the nuclear mass data with the Hartree–Fock–Bogoliubov method and two different neutron-matter equations of state based on realistic nuclear forces. For each functional, we calculate the composition, the pressure–density relation, and the chemical potentials throughout the star. We show that uncertainties in the symmetry energy can significantly affect the theoretical results for the composition and global structure of neutron stars. To facilitate astrophysical applications, we construct analytic fits to our numerical results.}}
@@ -14768,9 +14527,6 @@
       \endverb
       \verb{eprint}
       \verb https://academic.oup.com/mnras/article-pdf/481/3/2994/25817956/sty2413.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1093/mnras/sty2413
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/mnras/sty2413
@@ -14816,13 +14572,11 @@
       }
       \strng{namehash}{7f4d8e498c3ea01f478ac9d86415fd83}
       \strng{fullhash}{3508f4b45520318aeb0c4568dba40ab4}
-      \strng{bibnamehash}{7f4d8e498c3ea01f478ac9d86415fd83}
-      \strng{authorbibnamehash}{7f4d8e498c3ea01f478ac9d86415fd83}
       \strng{authornamehash}{7f4d8e498c3ea01f478ac9d86415fd83}
       \strng{authorfullhash}{3508f4b45520318aeb0c4568dba40ab4}
       \field{labelalpha}{Pea+19}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{The main feature of the correction is for a new magic number at Z = 138 to appear just below proton drip in the case of functional BSk25, in the density range from 0.077 fm−3 to 0.081 fm−3. Some related quantities, such as the numbers of free and clustered protons and neutrons in a Wigner-Seitz cell, have changed accordingly, while the changes in the numerical values of some other quantities, for example pressure, energy density, and proton number fraction, are negligibly small. The analytic fitting formulae described in Appendix C remain unchanged, with the new residuals of the same order of magnitude as originally. Although the numerical values of some of the fitted quantities have changed in the density ranges between the old and new values of the proton-drip densities, the fitting formulae reproduce these changes after the above-mentioned tabular values of the proton drip densities and Z have been fixed (the Fortran code that implements the fits, which is available at http://www.ioffe.ru/astro/NSG/BSk/, has been updated accordingly). The figure illustrates the changes in the equilibrium values of the proton and neutron numbers in a Wigner-Seitz cell and in a cluster.}}
@@ -14830,7 +14584,7 @@
       \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
       \field{month}{03}
       \field{number}{1}
-      \field{title}{{Erratum: {Unified} equations of state for cold non-accreting neutron stars with {Brussels}-{Montreal} functionals. I. {Role} of symmetry energy}}
+      \field{title}{{Erratum: {Unified} equations of state for cold non-accreting neutron stars with {Brussels}-{Montreal} functionals. {I}. {Role} of symmetry energy}}
       \field{volume}{486}
       \field{year}{2019}
       \field{pages}{768\bibrangedash 768}
@@ -14840,9 +14594,6 @@
       \endverb
       \verb{eprint}
       \verb https://academic.oup.com/mnras/article-pdf/486/1/768/28345283/stz800.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1093/mnras/stz800
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/mnras/stz800
@@ -14861,13 +14612,11 @@
       }
       \strng{namehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
       \strng{fullhash}{0c8a56d8fc55dc0c200b53fae767dfc6}
-      \strng{bibnamehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
-      \strng{authorbibnamehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
       \strng{authornamehash}{0c8a56d8fc55dc0c200b53fae767dfc6}
       \strng{authorfullhash}{0c8a56d8fc55dc0c200b53fae767dfc6}
       \field{labelalpha}{Pea19}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{howpublished}{{Private communication}}
       \field{year}{2019}
@@ -14887,13 +14636,11 @@
       }
       \strng{namehash}{56105518eb6e6b5f8210bc67a66920e4}
       \strng{fullhash}{56105518eb6e6b5f8210bc67a66920e4}
-      \strng{bibnamehash}{56105518eb6e6b5f8210bc67a66920e4}
-      \strng{authorbibnamehash}{56105518eb6e6b5f8210bc67a66920e4}
       \strng{authornamehash}{56105518eb6e6b5f8210bc67a66920e4}
       \strng{authorfullhash}{56105518eb6e6b5f8210bc67a66920e4}
       \field{labelalpha}{PR95}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Ann. Rev. Nucl. Part. Sci.}
@@ -14926,13 +14673,11 @@
       }
       \strng{namehash}{d5a22dd2a946f96cd499e02370a99743}
       \strng{fullhash}{d5a22dd2a946f96cd499e02370a99743}
-      \strng{bibnamehash}{d5a22dd2a946f96cd499e02370a99743}
-      \strng{authorbibnamehash}{d5a22dd2a946f96cd499e02370a99743}
       \strng{authornamehash}{d5a22dd2a946f96cd499e02370a99743}
       \strng{authorfullhash}{d5a22dd2a946f96cd499e02370a99743}
       \field{labelalpha}{PRL95}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The phase boundary between the liquid matter of the interior of a neutron star and the solid matter that comprises the crust is studied. The matter is assumed to consist of electrons and non-relativistic neutrons and protons in beta equilibrium. The characteristic used to identify the phase boundary is the onset of instability of the uniform matter against proton clustering, and it is examined for four interactions either used previously in astrophysical studies — Skyrme 1′, SkM and FPS - or proposed here as an improvement — FPS21. The relationship of this important property of neutron-star matter to the neutron-matter character of each interaction is explored. Characteristic densities associated with proton drip and with the liquid-gas boundary of one- and two-fluid models of the matter are compared with the instability density. Properties of some other effective interactions, relativistic and non-relativistic, are compared with those of the interactions discussed. The desirability of more calculations of neutron-matter properties, and of the utilization of those that do exist when formulsting dense-matter equations of state, is emphasized. For the improved interaction FPS21, the crust fraction of the moment of inertia of a neutron star is estimated.}
@@ -14946,9 +14691,6 @@
       \range{pages}{29}
       \verb{doi}
       \verb https://doi.org/10.1016/0375-9474(94)00506-I
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/037594749400506I
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/037594749400506I
@@ -14987,13 +14729,11 @@
       }
       \strng{namehash}{5a0bbf01d6acf5be222e697724f01839}
       \strng{fullhash}{72b0c78c3d839b5821d81d4f938e1ec6}
-      \strng{bibnamehash}{5a0bbf01d6acf5be222e697724f01839}
-      \strng{authorbibnamehash}{5a0bbf01d6acf5be222e697724f01839}
       \strng{authornamehash}{5a0bbf01d6acf5be222e697724f01839}
       \strng{authorfullhash}{72b0c78c3d839b5821d81d4f938e1ec6}
       \field{labelalpha}{Roc+11}
       \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -15006,9 +14746,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.84.054309
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.84.054309
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.84.054309
@@ -15034,13 +14771,11 @@
       }
       \strng{namehash}{5308f5e714b858664ff78ca34d1d81af}
       \strng{fullhash}{5308f5e714b858664ff78ca34d1d81af}
-      \strng{bibnamehash}{5308f5e714b858664ff78ca34d1d81af}
-      \strng{authorbibnamehash}{5308f5e714b858664ff78ca34d1d81af}
       \strng{authornamehash}{5308f5e714b858664ff78ca34d1d81af}
       \strng{authorfullhash}{5308f5e714b858664ff78ca34d1d81af}
       \field{labelalpha}{RPL83}
       \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The thermodynamic properties at finite temperatures of the plane interface between two phases of nuclear matter in equilibrium are examined theoretically, and explored numerically. The microscopic hamiltonian, the Skyrme I′ interaction, is used in the Thomas-Fermi approximation to obtain the finite-temperature extensions of earlier zero-temperature results which used the Hartree-Fock and Thomas-Fermi methods. Approximate analytic fits are given to the χi (proton fraction on the dense-matter side) dependence of the critical temperature, and to the T and χi dependences of the surface thermodynamic potentials, the density of surface neutrons, the surface entropy and the neutron and proton chemical potentials at phase equilibrium. These fits are an ingredient in a compressible liquid-drop nuclear model, the basis of an equation of state for hot, dense matter needed in certain astrophysical applications. The liquid-drop model is used here to construct an isolated, low-T nucleus, whose properties are compared with the original zero-T Hartree-Fock calculations which lead to the Skyrme I interaction, and with other mass formulae. The low-temperature expansion of the surface energy is compared with that obtained in other calculations. The nuclear level density at the Fermi surface, related to the low-T expansion of the entropy of the whole nucleus, is also discussed.}
@@ -15054,9 +14789,6 @@
       \range{pages}{21}
       \verb{doi}
       \verb https://doi.org/10.1016/0375-9474(83)90667-X
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/037594748390667X
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/037594748390667X
@@ -15092,13 +14824,11 @@
       }
       \strng{namehash}{37db87a87d3f818551866123ff71bf6c}
       \strng{fullhash}{45ae70e9ed3269b6c369dba0c50a95f3}
-      \strng{bibnamehash}{37db87a87d3f818551866123ff71bf6c}
-      \strng{authorbibnamehash}{37db87a87d3f818551866123ff71bf6c}
       \strng{authornamehash}{37db87a87d3f818551866123ff71bf6c}
       \strng{authorfullhash}{45ae70e9ed3269b6c369dba0c50a95f3}
       \field{labelalpha}{Sam+02}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In order to have more reliable predictions of nuclear masses at the neutron drip line, we here go beyond the recent mass formula HFBCS-1 and present a new mass formula, HFB-1, based on the Hartree–Fock–Bogoliubov method. As with the HFBCS-1 mass formula, we use a 10-parameter Skyrme force along with a 4-parameter δ-function pairing force and a 2-parameter phenomenological Wigner term. However, with the original HFBCS-1 Skyrme force (MSk7), the rms error becomes unacceptably large and a new force fit is required. With the isoscalar and isovector effective masses constrained to be equal, the remaining 15 degrees of freedom are fitted to the masses of all the 1754 measured nuclei with A⩾16, |N−Z|>2 given in the 1995 Audi–Wapstra compilation. The rms error with respect to the masses of all the 1888 measured nuclei with Z,N⩾8 is 0.764 MeV. A complete mass table, HFB-1 (available on the Web), has been constructed, giving all nuclei lying between the two drip lines over the range Z,N⩾8 and Z⩽120. A comparison between HFB-1 and HFBCS-1 mass tables shows that the HFBCS model is a very good approximation of the HFB theory, in particular for masses, the extrapolated masses never differing by more than 2 MeV below Z⩽110. We also find that the behaviour of shell gaps far away from the region of beta stability does not depend on whether the HFBCS or HFB methods are used, in particular, no quenching of astrophysical interest arises from replacing the BCS method by the Bogoliubov method.}
@@ -15112,9 +14842,6 @@
       \range{pages}{15}
       \verb{doi}
       \verb https://doi.org/10.1016/S0375-9474(01)01316-1
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0375947401013161
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947401013161
@@ -15149,28 +14876,23 @@
       }
       \strng{namehash}{f13831cbd53d2f74887e20cc4f8b4c47}
       \strng{fullhash}{bc994fec011eb72f0239f4a73cf1f8ff}
-      \strng{bibnamehash}{f13831cbd53d2f74887e20cc4f8b4c47}
-      \strng{authorbibnamehash}{f13831cbd53d2f74887e20cc4f8b4c47}
       \strng{authornamehash}{f13831cbd53d2f74887e20cc4f8b4c47}
       \strng{authorfullhash}{bc994fec011eb72f0239f4a73cf1f8ff}
       \field{labelalpha}{Vid+09}
       \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
       \field{journaltitle}{Phys. Rev. C}
       \field{month}{10}
-      \field{title}{Density dependence of the nuclear symmetry energy: A microscopic perspective}
+      \field{title}{Density dependence of the nuclear symmetry energy: {A} microscopic perspective}
       \field{volume}{80}
       \field{year}{2009}
       \field{pages}{045806}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.80.045806
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.80.045806
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.80.045806
@@ -15201,13 +14923,11 @@
       }
       \strng{namehash}{d08ad101e78a7ae2fc0c9419b280b5e8}
       \strng{fullhash}{07d49127f2df76d9aa3b5acd7b7ee6ee}
-      \strng{bibnamehash}{d08ad101e78a7ae2fc0c9419b280b5e8}
-      \strng{authorbibnamehash}{d08ad101e78a7ae2fc0c9419b280b5e8}
       \strng{authornamehash}{d08ad101e78a7ae2fc0c9419b280b5e8}
       \strng{authorfullhash}{07d49127f2df76d9aa3b5acd7b7ee6ee}
       \field{labelalpha}{Viñ+17}
       \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{Proceedings, Coordination Meeting on Advanced Aspects in Nuclear Structure and Reactions at Different Energy Scales: Arbanassi, Bulgaria, April 25-28, 2017}}
@@ -15247,13 +14967,11 @@
       }
       \strng{namehash}{0dafb9b455b448dcb9db608b4c93a81c}
       \strng{fullhash}{b8e9883f8e2da8afd77d09ea1710bd1c}
-      \strng{bibnamehash}{0dafb9b455b448dcb9db608b4c93a81c}
-      \strng{authorbibnamehash}{0dafb9b455b448dcb9db608b4c93a81c}
       \strng{authornamehash}{0dafb9b455b448dcb9db608b4c93a81c}
       \strng{authorfullhash}{b8e9883f8e2da8afd77d09ea1710bd1c}
       \field{labelalpha}{Wat+03}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -15266,9 +14984,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.68.035806
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.68.035806
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.68.035806
@@ -15372,13 +15087,11 @@
       }
       \strng{namehash}{132c1bd123843cfcef237abb8af09d59}
       \strng{fullhash}{46a33589fd2d3528db826f98e001d2c0}
-      \strng{bibnamehash}{132c1bd123843cfcef237abb8af09d59}
-      \strng{authorbibnamehash}{132c1bd123843cfcef237abb8af09d59}
       \strng{authornamehash}{132c1bd123843cfcef237abb8af09d59}
       \strng{authorfullhash}{46a33589fd2d3528db826f98e001d2c0}
       \field{labelalpha}{Wel+17}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{19}
@@ -15391,9 +15104,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevLett.119.192502
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.119.192502
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.119.192502
@@ -15422,13 +15132,11 @@
       }
       \strng{namehash}{eb986b99dfc6dfd4cc3c0437be199037}
       \strng{fullhash}{eb986b99dfc6dfd4cc3c0437be199037}
-      \strng{bibnamehash}{eb986b99dfc6dfd4cc3c0437be199037}
-      \strng{authorbibnamehash}{eb986b99dfc6dfd4cc3c0437be199037}
       \strng{authornamehash}{eb986b99dfc6dfd4cc3c0437be199037}
       \strng{authorfullhash}{eb986b99dfc6dfd4cc3c0437be199037}
       \field{labelalpha}{WFF88}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -15441,9 +15149,6 @@
       \range{pages}{28}
       \verb{doi}
       \verb 10.1103/PhysRevC.38.1010
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.38.1010
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.38.1010
@@ -15464,13 +15169,11 @@
       }
       \strng{namehash}{454153a9446cd783fe0fa8ec49272fc9}
       \strng{fullhash}{454153a9446cd783fe0fa8ec49272fc9}
-      \strng{bibnamehash}{454153a9446cd783fe0fa8ec49272fc9}
-      \strng{authorbibnamehash}{454153a9446cd783fe0fa8ec49272fc9}
       \strng{authornamehash}{454153a9446cd783fe0fa8ec49272fc9}
       \strng{authorfullhash}{454153a9446cd783fe0fa8ec49272fc9}
       \field{labelalpha}{WM11}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{nucl-th}
@@ -15499,13 +15202,11 @@
       }
       \strng{namehash}{ddf9d32d731cc5d8a50f4c76ffcb9b71}
       \strng{fullhash}{ddf9d32d731cc5d8a50f4c76ffcb9b71}
-      \strng{bibnamehash}{ddf9d32d731cc5d8a50f4c76ffcb9b71}
-      \strng{authorbibnamehash}{ddf9d32d731cc5d8a50f4c76ffcb9b71}
       \strng{authornamehash}{ddf9d32d731cc5d8a50f4c76ffcb9b71}
       \strng{authorfullhash}{ddf9d32d731cc5d8a50f4c76ffcb9b71}
       \field{labelalpha}{WS33}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -15518,9 +15219,6 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1103/PhysRev.43.804
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRev.43.804
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.43.804
@@ -15564,13 +15262,11 @@
       }
       \strng{namehash}{2d921683600f4d3b2c2108b1fbdcbe4c}
       \strng{fullhash}{80920ed57ae47bbc765055b4ca2250eb}
-      \strng{bibnamehash}{2d921683600f4d3b2c2108b1fbdcbe4c}
-      \strng{authorbibnamehash}{2d921683600f4d3b2c2108b1fbdcbe4c}
       \strng{authornamehash}{2d921683600f4d3b2c2108b1fbdcbe4c}
       \strng{authorfullhash}{80920ed57ae47bbc765055b4ca2250eb}
       \field{labelalpha}{Yas+14}
       \field{sortinit}{Y}
-      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -15583,9 +15279,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevC.89.065803
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevC.89.065803
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.89.065803
@@ -15614,13 +15307,11 @@
       }
       \strng{namehash}{6a340ffa96bdc7106c0d09b827726497}
       \strng{fullhash}{6a340ffa96bdc7106c0d09b827726497}
-      \strng{bibnamehash}{6a340ffa96bdc7106c0d09b827726497}
-      \strng{authorbibnamehash}{6a340ffa96bdc7106c0d09b827726497}
       \strng{authornamehash}{6a340ffa96bdc7106c0d09b827726497}
       \strng{authorfullhash}{6a340ffa96bdc7106c0d09b827726497}
       \field{labelalpha}{YMT09}
       \field{sortinit}{Y}
-      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{12}
@@ -15633,9 +15324,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevD.80.123009
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevD.80.123009
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.80.123009
@@ -15664,13 +15352,11 @@
       }
       \strng{namehash}{6a340ffa96bdc7106c0d09b827726497}
       \strng{fullhash}{6a340ffa96bdc7106c0d09b827726497}
-      \strng{bibnamehash}{6a340ffa96bdc7106c0d09b827726497}
-      \strng{authorbibnamehash}{6a340ffa96bdc7106c0d09b827726497}
       \strng{authornamehash}{6a340ffa96bdc7106c0d09b827726497}
       \strng{authorfullhash}{6a340ffa96bdc7106c0d09b827726497}
       \field{labelalpha}{YMT11}
       \field{sortinit}{Y}
-      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We study the quark-hadron mixed phase in proto-neutron stars with the finite-size effects. In the calculations of pasta structures appeared in the mixed phase, the Gibbs conditions require the pressure balance and chemical equilibrium between two phases besides the thermal equilibrium. We find that the region of the mixed phase is limited due to thermal instability. Moreover, we study the effects of neutrinos to the pasta structures. As a result, we find that the existence of neutrinos make the pasta structures unstable, too. These characteristic features of the hadron-quark mixed phase should be important for the middle stage of the evolutions of proto-neutron stars.}
@@ -15684,9 +15370,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1088/1742-6596/312/4/042027
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088%2F1742-6596%2F312%2F4%2F042027
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1742-6596%2F312%2F4%2F042027
@@ -15707,13 +15390,11 @@
       }
       \strng{namehash}{398cbaa1cc2afc94efcc9bd1945ba989}
       \strng{fullhash}{398cbaa1cc2afc94efcc9bd1945ba989}
-      \strng{bibnamehash}{398cbaa1cc2afc94efcc9bd1945ba989}
-      \strng{authorbibnamehash}{398cbaa1cc2afc94efcc9bd1945ba989}
       \strng{authornamehash}{398cbaa1cc2afc94efcc9bd1945ba989}
       \strng{authorfullhash}{398cbaa1cc2afc94efcc9bd1945ba989}
       \field{labelalpha}{ZH13}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.SR}
@@ -15731,7 +15412,7 @@
       \verb 1211.1231
       \endverb
     \endentry
-  \enddatalist
+  \endsortlist
 \endrefsection
 \endinput
 
