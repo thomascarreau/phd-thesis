@@ -227,6 +227,9 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT figures/mm_accuracy.pdf
 INPUT ./figures/mm_accuracy.pdf
 INPUT ./figures/mm_accuracy.pdf
+INPUT figures/surf_fit.pdf
+INPUT ./figures/surf_fit.pdf
+INPUT ./figures/surf_fit.pdf
 INPUT figures/surfenpersurfnuc.pdf
 INPUT ./figures/surfenpersurfnuc.pdf
 INPUT ./figures/surfenpersurfnuc.pdf
