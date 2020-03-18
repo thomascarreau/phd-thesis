@@ -2405,12 +2405,18 @@
     <bcf:citekey order="224">Oppenheimer1939</bcf:citekey>
     <bcf:citekey order="225">Haensel2007</bcf:citekey>
     <bcf:citekey order="226">Margueron2018a</bcf:citekey>
-    <bcf:citekey order="227">Demorest2010</bcf:citekey>
-    <bcf:citekey order="228">Cromartie2020</bcf:citekey>
-    <bcf:citekey order="229">Demorest2010</bcf:citekey>
-    <bcf:citekey order="230">Cromartie2020</bcf:citekey>
-    <bcf:citekey order="231">Demorest2010</bcf:citekey>
-    <bcf:citekey order="232">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="227">Goriely2007</bcf:citekey>
+    <bcf:citekey order="228">Long2004</bcf:citekey>
+    <bcf:citekey order="229">Sumiyoshi1995</bcf:citekey>
+    <bcf:citekey order="230">Goriely2007</bcf:citekey>
+    <bcf:citekey order="231">Long2004</bcf:citekey>
+    <bcf:citekey order="232">Sumiyoshi1995</bcf:citekey>
+    <bcf:citekey order="233">Demorest2010</bcf:citekey>
+    <bcf:citekey order="234">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="235">Demorest2010</bcf:citekey>
+    <bcf:citekey order="236">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="237">Demorest2010</bcf:citekey>
+    <bcf:citekey order="238">Cromartie2020</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

@@ -13848,6 +13848,56 @@
       \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
       \endverb
     \endentry
+    \entry{Long2004}{article}{}
+      \name{author}{4}{}{%
+        {{hash=99171f0127536c739fdd39c88c934c66}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Wenhui},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3ad247f9c30b728b8ea3a7663fa621a2}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c814a8deb18b31c18d5b44aacc25daa7}{%
+           family={Giai},
+           familyi={G\bibinitperiod},
+           given={Nguyen\bibnamedelima Van},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a0bbbe1e046e504cfe3f933c40a4c145}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Shan-Gui},
+           giveni={S\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a2a6a91c275ce79ac81fc2e89eb539b7}
+      \strng{fullhash}{9ae5dfb4f47b215aebd62c3a9dbecfd8}
+      \strng{authornamehash}{a2a6a91c275ce79ac81fc2e89eb539b7}
+      \strng{authorfullhash}{9ae5dfb4f47b215aebd62c3a9dbecfd8}
+      \field{labelalpha}{Lon+04}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{3}
+      \field{title}{New effective interactions in relativistic mean field theory with nonlinear terms and density-dependent meson-nucleon coupling}
+      \field{volume}{69}
+      \field{year}{2004}
+      \field{pages}{034319}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.69.034319
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.69.034319
+      \endverb
+    \endentry
     \entry{Lunney2003}{article}{}
       \name{author}{3}{}{%
         {{hash=81d4631ae0e5526fc8da2aaa2ef61216}{%
@@ -15101,6 +15151,47 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0375947401013161
       \endverb
       \keyw{Nuclear structure,Binding energies and masses,Hartree–Fock}
+    \endentry
+    \entry{Sumiyoshi1995}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6019e9fdbb08657268830ebeec33d40f}{%
+           family={Sumiyoshi},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=60d8eb0eec00ebf5454092da927828db}{%
+           family={Kuwabara},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=be5d7837d05e4ce7e39796b634b9b593}{%
+           family={Toki},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{536ee0c8942f81db2b2605394ec5e973}
+      \strng{fullhash}{536ee0c8942f81db2b2605394ec5e973}
+      \strng{authornamehash}{536ee0c8942f81db2b2605394ec5e973}
+      \strng{authorfullhash}{536ee0c8942f81db2b2605394ec5e973}
+      \field{labelalpha}{SKT95}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{number}{3}
+      \field{title}{Relativistic mean-field theory with non-linear $\sigma$ and $\omega$ terms for neutron stars and supernovae}
+      \field{volume}{581}
+      \field{year}{1995}
+      \field{pages}{725\bibrangedash 746}
+      \range{pages}{22}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0375-9474(94)00335-K
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/037594749400335K
+      \endverb
     \endentry
     \entry{Tolman1939}{article}{}
       \name{author}{1}{}{%

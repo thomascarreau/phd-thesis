@@ -15,15 +15,14 @@
 
 \subsection{Masses and radii} % 4
 
-% introduction: mass is the observable that is the most accessible for
-% astronomers.
-% -> mass with the Shapiro delay technique
+% obs
+% -> mass in binaries with the Shapiro delay technique
 % -> radius with Nicer, tidal, etc.
 
-% we can calculate masses and radii from the EoS (the only necessary input) by 
-% integration of the tov equation throughout the star (explain TOV equation)
-The NS masses and radii are given by the solution of the hydrostatic
-equilibrium equations in general relativity (GR) for spherical and nonrotating 
+% hydrostatic equilibrium in GR
+From the theoretical point of view, the NS masses and radii correspond to the 
+solution of the hydrostatic equilibrium equations, which are, in general 
+relativity (GR) for spherical and nonrotating 
 stars~\cite{Tolman1939,Oppenheimer1939},
 %
 \begin{eqnarray}
@@ -83,13 +82,41 @@ and $Z_{sat(sym)}$ in order to reproduce existing functionals at densities
 greater than $2n_{sat}$ with the metamodeling technique. This corresponds to
 the ELFd technique introduced in \cite{Margueron2018a}.
 
+\begin{table}[!t]
+\begin{center}
+\begin{tabular}{cccccc} 
+  \toprule
+  \toprule
+  Parameter & Unit & $N$ & BSk14 & PKDD & TM1\\
+  \midrule
+  $E_{sat}$ & MeV & 0         & -15.85 & -16.27  & -16.26 \\
+  $n_{sat}$ & fm$^{-3}$ & 1   & 0.1586 &  0.1495 & 0.1450 \\ 
+  $K_{sat}$ & MeV & 2         & 239    &  261    & 281    \\ 
+  $Q_{sat}$ & MeV & 3         & -359   &  -119   & -285   \\ 
+  $Z_{sat}$ & MeV & 4         & 1435   &  4213   & 2014   \\ 
+  $E_{sym}$ & MeV & 0         & 30.00  &  31.19  & 36.94  \\
+  $L_{sym}$ & MeV & 1         & 43.9   &  79.5   & 111.0  \\
+  $K_{sym}$ & MeV & 2         & -152   &  -50    & 34     \\
+  $Q_{sym}$ & MeV & 3         & 389    &  -28    & -67    \\
+  $Z_{sym}$ & MeV & 4         & -2191  &  -1315  & -1546  \\
+  $m_{sat}^*/m$ & &           & 0.80   &  0.65   & 0.71   \\
+  $\Delta m_{sat}^*/m$ & &    & 0.03   &  -0.08  & -0.09  \\
+  \bottomrule
+  \bottomrule
+\end{tabular}
+\end{center}
+\caption[Empirical parameters for BSk14, PKDD, and TM1]{Empirical parameter and 
+  associated unit and derivative order $N$ for BSk14 \cite{Goriely2007}, PKDD
+  \cite{Long2004}, and TM1~\cite{Sumiyoshi1995} functionals.}\label{table:newemppar}
+\end{table}
+
 \begin{figure}[!t]
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/mr_popular.pdf}
 \end{center}
 \caption[Mass-radius relation for several popular EoS]{Left: Mass-radius 
   relation for several popular EoS calculated
-  with the metamodeling technique. The black dotted line corresponds to the NS 
+  with the metamodeling technique. The black dotted line marks the NS 
 canonical mass, that is $1.4M_\odot$. The magenta band represents the measured 
 mass of J1614-2230, $(1.97 \pm 0.04)M_\odot$ \cite{Demorest2010}, and the 
 yellow band that of J0740+6620, $2.14_{-0.09}^{+0.10}M_\odot$ ($68.3\%$ 
@@ -105,7 +132,9 @@ and relativistic models PKDD and TM1, calculated within the metamodeling
 technique. A strong model dependence is observed, with radii of canonical NS 
 ranging from $R_{1.4}=11.5$ km for BSk14 to $R_{1.4}=14.5$ km for TM1. More
 specifically, it is seen that the radius is positively correlated to the slope 
-of the symmetry energy $L_{sym}$.\\
+of the symmetry energy $L_{sym}$. The value of the empirical parameters 
+associated to BSk14, TM1, and PKDD are reported in Table~\ref{table:newemppar}, 
+whereas those of BSk24 and SLy4 can be found in Table~\ref{table:emp_params}.\\
 The bands correspond to the measured masses of the two most massive
 pulsars observed to the present day. The mass of J1614-2230 was precisely 
 estimated to $(1.97\pm 0.04)M_\odot$~\cite{Demorest2010}, and the very recent
@@ -121,7 +150,9 @@ mass for this EoS, $2.05M_\odot$, is lower than that of J0740+6620. This
 outline the fact that measuring the mass of pulsars is important, because it 
 provides a strong constraint on the stellar matter EoS. Similarly, the NICER
 telescope is expected to provide, for years to come, a constraint on the NS
-radii with a precision of $5\%$.
+radii with a precision of $5\%$. Ultimately, in the ideal case where one could 
+accurately measure the mass and radius of one neutron star, it would be possible 
+to determine the EoS by positioning the point in the $M-R$ diagram.
 
 The mass-radius relation for the SLy4 EoS is represented in the right panel of
 Fig.~\ref{fig:mr_popular}. The solid orange line corresponds to $M(R)$ for the 
@@ -141,16 +172,60 @@ The black point marks the maximum mass for the SLy4 EoS, $M_{max} = 2.05M_\odot$
 Let us notice that the branch left to the point is unstable, 
 because from this point the mass decreases with central density increasing.
 
-% As mentionned in Chapter 1, a pricese estimation of the crust-core transition 
-% point is essential if one is interested in crustal properties. Explain how
-% crust thickness + FIGURE
+% crust thickness and mass
 As explained in Chapter 1, a precise estimation of the CC transition point is
-required as far as crustal properties are concerned. In particular, the crust
-thickness blabla.
+required as far as crustal properties are concerned. In particular, the
+transition pressure $P_t$ is essential for the determination of the thickness 
+and mass of the crust, given respectively by $l_{crust}=R-R_{core}$ and
+$M_{crust}=M-M_{core}$, with $R_{core}$ ($M_{core}$) the radius
+(mass) of the stellar core. Indeed, in order to caclulate the core radius and
+mass, which are involved in the calculation of the crustal observables, one has 
+to integrate the hydrostatic equilibrium equations, Eqs.~(\ref{eq:tov}) and 
+(\ref{eq:massbal}), from $r=0$ to $r=R_{core}$, defined as $P(r=R_{core})=P_t$.
 
-% Finally, a word about alternative theories of gravity (rainbow, f(R), etc.)
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/crustmassthick.pdf}
+\end{center}
+\caption[Crust thickness and mass for several popular EoS]{Crust thickness
+  $l_{crust}$ (upper panel) and mass $M_{crust}$ (lower panel) as a function of 
+  the NS mass $M$ for several popular EoS calculated within the metamodeling
+technique. The black dotted line marks the NS canonical mass, that is 
+$1.4M_\odot$.}\label{fig:crustmassthick}
+\end{figure}
+
+Fig.~\ref{fig:crustmassthick} shows the variation with NS mass of crust 
+thickness $l_{crust}$ and mass $M_{crust}$ for the same EoS as in 
+Fig.~\ref{fig:mr_popular}. As previously, the high-order empirical parameters
+are reevaluated to calculate the EoS entering into the TOV equation. However,
+the transition pressure is calculated using the values of $Q_{sat(sym)}$ and
+$Z_{sat(sym)}$ directly derived from the selected functionals. The reason is
+that, as showed in Fig.~\ref{fig:sly4_nt}, the determination of CC transition 
+point is sensitive to orders $N>2$.\\
+We find the interesting result that the crust is thicker for low-mass neutron 
+stars, and in consequence that the $M_{crust}$ drops continuously with 
+increasing NS mass. At $M=1.4M_\odot$ (black dotted line), we 
+observe that the crust is $\approx 1$ km thick, and that the crust mass is 
+approximately $0.02-0.04M_\odot$, which is $(1.5-3)\%$ of the total mass. Once
+again, a model dependence is observed. Nonetheless, the correlation of the 
+crust thickness with the slope of the symmetry energy is 
+not clear. In Fig.~\ref{fig:mr_popular}, we have seen that the radius of the 
+star is positively correlated with $L_{sym}$. In fact, the same is true for the 
+core radius, explaining why the correlations cancel in the crust 
+thickness $l_{crust} = R - R_{core}$.
 
 \subsection{Moment of inertia} % 2
+
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/moi_popular.pdf}
+\end{center}
+\caption[Crust thickness and mass for several popular EoS]{Normalized moment of
+  inertia $I/(MR^2)$ (upper panel) and fraction of crust moment of inertia
+  $I_{crust}/I$ (lower panel) as a function of the NS mass $M$ for several 
+  popular EoS calculated within the metamodeling technique. The black dotted 
+  line marks the NS canonical mass, that is $1.4M_\odot$.}\label{fig:moi_popular}
+\end{figure}
 
 % explain why are we interested in the determination of this observable
 % maybe compare approximations to the complete integration of the equation
