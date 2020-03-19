@@ -13429,6 +13429,75 @@
       \verb https://doi.org/10.1140/epja/i2014-14010-5
       \endverb
     \endentry
+    \entry{NICER}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0afbfbda04e821f38c7322c6ff5bb91e}{%
+           family={Gendreau},
+           familyi={G\bibinitperiod},
+           given={Keith\bibnamedelima C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2ec0488d2bfecb37112d4ca12ea0cb24}{%
+           family={Arzoumanian},
+           familyi={A\bibinitperiod},
+           given={Zaven},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8af25bf2b1cd74513a3be3420c60be27}{%
+           family={Okajima},
+           familyi={O\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=1b638324bced66672e1c7bb8bda3ec62}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Tadayuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3e3ad6b9446ba973d4fca9d9389db563}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Stephen\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ea94eaa3f791c2b969ae99a5d187aab5}{%
+           family={Herder},
+           familyi={H\bibinitperiod},
+           given={Jan-Willem\bibnamedelima A.},
+           giveni={J\bibinithyphendelim W\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={den},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{ab4663cf5fd0aa7db2abedd02159b64c}
+      \strng{fullhash}{ab4663cf5fd0aa7db2abedd02159b64c}
+      \strng{authornamehash}{ab4663cf5fd0aa7db2abedd02159b64c}
+      \strng{authorfullhash}{ab4663cf5fd0aa7db2abedd02159b64c}
+      \strng{editornamehash}{b32a1a7b9608767c2ee558285950c66d}
+      \strng{editorfullhash}{b32a1a7b9608767c2ee558285950c66d}
+      \field{labelalpha}{GAO12}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Space Telescopes and Instrumentation 2012: Ultraviolet to Gamma Ray}
+      \field{title}{{The Neutron star Interior Composition ExploreR (NICER): an Explorer mission of opportunity for soft x-ray timing spectroscopy}}
+      \field{volume}{8443}
+      \field{year}{2012}
+      \field{pages}{322\bibrangedash 329}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1117/12.926396
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1117/12.926396
+      \endverb
+      \keyw{astrophysics,international Space Station (ISS),neutron stars,timing,X-ray}
+    \endentry
     \entry{Goriely2013}{article}{}
       \name{author}{3}{}{%
         {{hash=26fe4672a2316ba7f696ac93b42cfedd}{%
@@ -15151,6 +15220,41 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0375947401013161
       \endverb
       \keyw{Nuclear structure,Binding energies and masses,Hartree–Fock}
+    \endentry
+    \entry{Shapiro1964}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d9409b7be22fcc81a937df53a148b3d6}{%
+           family={Shapiro},
+           familyi={S\bibinitperiod},
+           given={Irwin\bibnamedelima I.},
+           giveni={I\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d9409b7be22fcc81a937df53a148b3d6}
+      \strng{fullhash}{d9409b7be22fcc81a937df53a148b3d6}
+      \strng{authornamehash}{d9409b7be22fcc81a937df53a148b3d6}
+      \strng{authorfullhash}{d9409b7be22fcc81a937df53a148b3d6}
+      \field{labelalpha}{Sha64}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{26}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{12}
+      \field{title}{Fourth Test of General Relativity}
+      \field{volume}{13}
+      \field{year}{1964}
+      \field{pages}{789\bibrangedash 791}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.13.789
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.13.789
+      \endverb
     \endentry
     \entry{Sumiyoshi1995}{article}{}
       \name{author}{3}{}{%

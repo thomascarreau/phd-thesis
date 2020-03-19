@@ -2401,22 +2401,27 @@
     <bcf:citekey order="222">Ducoin2011</bcf:citekey>
     <bcf:citekey order="223">Wiringa1988</bcf:citekey>
     <bcf:citekey order="223">Douchin2001</bcf:citekey>
-    <bcf:citekey order="224">Tolman1939</bcf:citekey>
-    <bcf:citekey order="224">Oppenheimer1939</bcf:citekey>
-    <bcf:citekey order="225">Haensel2007</bcf:citekey>
-    <bcf:citekey order="226">Margueron2018a</bcf:citekey>
-    <bcf:citekey order="227">Goriely2007</bcf:citekey>
-    <bcf:citekey order="228">Long2004</bcf:citekey>
-    <bcf:citekey order="229">Sumiyoshi1995</bcf:citekey>
-    <bcf:citekey order="230">Goriely2007</bcf:citekey>
-    <bcf:citekey order="231">Long2004</bcf:citekey>
-    <bcf:citekey order="232">Sumiyoshi1995</bcf:citekey>
-    <bcf:citekey order="233">Demorest2010</bcf:citekey>
-    <bcf:citekey order="234">Cromartie2020</bcf:citekey>
-    <bcf:citekey order="235">Demorest2010</bcf:citekey>
-    <bcf:citekey order="236">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="224">Haensel2007</bcf:citekey>
+    <bcf:citekey order="225">Shapiro1964</bcf:citekey>
+    <bcf:citekey order="226">Demorest2010</bcf:citekey>
+    <bcf:citekey order="226">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="227">NICER</bcf:citekey>
+    <bcf:citekey order="228">Tolman1939</bcf:citekey>
+    <bcf:citekey order="228">Oppenheimer1939</bcf:citekey>
+    <bcf:citekey order="229">Haensel2007</bcf:citekey>
+    <bcf:citekey order="230">Margueron2018a</bcf:citekey>
+    <bcf:citekey order="231">Goriely2007</bcf:citekey>
+    <bcf:citekey order="232">Long2004</bcf:citekey>
+    <bcf:citekey order="233">Sumiyoshi1995</bcf:citekey>
+    <bcf:citekey order="234">Goriely2007</bcf:citekey>
+    <bcf:citekey order="235">Long2004</bcf:citekey>
+    <bcf:citekey order="236">Sumiyoshi1995</bcf:citekey>
     <bcf:citekey order="237">Demorest2010</bcf:citekey>
     <bcf:citekey order="238">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="239">Demorest2010</bcf:citekey>
+    <bcf:citekey order="240">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="241">Demorest2010</bcf:citekey>
+    <bcf:citekey order="242">Cromartie2020</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

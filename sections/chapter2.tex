@@ -8,6 +8,7 @@
 
 \section{From the equation of state to neutron star observables} % 0.75
 
+% Pulsars were identified to rotating NS which produce pulsed emission.
 % EoS microscopic -> one wants to evaluate macroscopic properties of the star,
 %   such as its mass or radius.
 % hydrostatic equilibrium
@@ -15,15 +16,32 @@
 
 \subsection{Masses and radii} % 4
 
-% obs
-% -> mass in binaries with the Shapiro delay technique
-% -> radius with Nicer, tidal, etc.
+% observations
+From the observational point of view, it is easier for astronomers to measure 
+the mass of a NS entering into a binary system. There are several types of
+binaries: X-ray binaries, double NS binaries, radio pulsar--white dwarf 
+binaries, and radio pulsar--nondegenerate star binaries. Depending on the type 
+of binary, different techniques are used to infer the NS 
+mass~\cite{Haensel2007}.
+% Shapiro delay effect - MSP
+For example, in a pulsar binary system, various phenomena, such as the 
+relativistic Shapiro delay~\cite{Shapiro1964}, can be measured via pulsar 
+timing, which consists of the regular monitoring of the rotation of a a pulsar 
+over long periods (years to decades). The relativistic Shapiro delay is a 
+phenomenon from which precise masses for both a millisecond pulsar and its 
+companion can be inferred~\cite{Demorest2010,Cromartie2020}. Let us notice 
+however that it is only observed in a small subset of high-precision, highly 
+inclined binary pulsar systems.\\
+% Measuring NS radii is less straightforward
+Measuring NS radii with high precision is a more challenging task, and it
+constitutes one of the goals of the ambitious NICER mission~\cite{NICER}. This
+observable can be extracted from the analysis of thermal emission from neutron 
+star surfaces, or X-ray emission from accreting neutron stars in binaries.
 
 % hydrostatic equilibrium in GR
-From the theoretical point of view, the NS masses and radii correspond to the 
+Theoretically, the NS masses and radii correspond to the 
 solution of the hydrostatic equilibrium equations, which are, in general 
-relativity (GR) for spherical and nonrotating 
-stars~\cite{Tolman1939,Oppenheimer1939},
+relativity for spherical and nonrotating stars~\cite{Tolman1939,Oppenheimer1939},
 %
 \begin{eqnarray}
   \frac{dP}{dr} &=& -\frac{G\rho_B m}{r^2}\left(1 + \frac{P}{\rho_B
@@ -49,10 +67,10 @@ related to the enclosed mass $m(r)$ through
 % description of the equations
 Eq.~(\ref{eq:tov}) is the so called Tolman-Oppenheimer-Volkoff (TOV) equation 
 of hydrostatic equilibrium. The integration of Eq.~(\ref{eq:massbal}) from
-$r=0$ to the boundary $r=R$, $R$ being the NS radius, gives the total mass
-$M=m(R)$ of 
-the star. Eq.~(\ref{eq:metric}) is a relativistic equation for the metric function 
-$\Phi(r)$. Here, we focus on solving Eqs.~(\ref{eq:tov}) and 
+$r=0$ to the boundary $r=R$, $R$ being the NS radius, gives the total
+gravitational mass $M=m(R)$ of the star. Eq.~(\ref{eq:metric}) is a 
+relativistic equation for the metric function $\Phi(r)$. Here, we focus on 
+solving Eqs.~(\ref{eq:tov}) and 
 (\ref{eq:massbal}), which gives the profiles $P(r)$, $\rho_B(r)$, and $m(r)$ 
 for a given EoS, $P(\rho_B)$, the determination of which was discussed in detail 
 in Chapter 1.
@@ -216,6 +234,13 @@ thickness $l_{crust} = R - R_{core}$.
 
 \subsection{Moment of inertia} % 2
 
+% explain why are we interested in the determination of this observable
+% maybe compare approximations to the complete integration of the equation
+% results
+% crust moment of inertia ('we will see in 2.3.3 that it is linked to blabla')
+% results
+Blablabla.
+
 \begin{figure}[!t]
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/moi_popular.pdf}
@@ -226,12 +251,6 @@ thickness $l_{crust} = R - R_{core}$.
   popular EoS calculated within the metamodeling technique. The black dotted 
   line marks the NS canonical mass, that is $1.4M_\odot$.}\label{fig:moi_popular}
 \end{figure}
-
-% explain why are we interested in the determination of this observable
-% maybe compare approximations to the complete integration of the equation
-% results
-% crust moment of inertia ('we will see in 2.3.3 that it is linked to blabla')
-% results
 
 \subsection{Tidal deformability} % 2
 
