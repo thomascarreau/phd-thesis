@@ -2422,6 +2422,10 @@
     <bcf:citekey order="240">Cromartie2020</bcf:citekey>
     <bcf:citekey order="241">Demorest2010</bcf:citekey>
     <bcf:citekey order="242">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="243">Hartle1967</bcf:citekey>
+    <bcf:citekey order="244">Stovall2013</bcf:citekey>
+    <bcf:citekey order="245">Espinoza2011</bcf:citekey>
+    <bcf:citekey order="246">Hartle1967</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

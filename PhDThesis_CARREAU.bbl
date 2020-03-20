@@ -13786,6 +13786,34 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.75.064312
       \endverb
     \endentry
+    \entry{Hartle1967}{article}{}
+      \name{author}{1}{}{%
+        {{hash=28fb46dde3fe84efd0bbafc925294c23}{%
+           family={{Hartle}},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{28fb46dde3fe84efd0bbafc925294c23}
+      \strng{fullhash}{28fb46dde3fe84efd0bbafc925294c23}
+      \strng{authornamehash}{28fb46dde3fe84efd0bbafc925294c23}
+      \strng{authorfullhash}{28fb46dde3fe84efd0bbafc925294c23}
+      \field{labelalpha}{Har67}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrophys. J.}
+      \field{month}{12}
+      \field{title}{{Slowly Rotating Relativistic Stars. I. Equations of Structure}}
+      \field{volume}{150}
+      \field{year}{1967}
+      \field{pages}{1005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/149400
+      \endverb
+    \endentry
     \entry{Haensel1994}{article}{}
       \name{author}{2}{}{%
         {{hash=2b9d426ab4c7fa817f2fb135f741d6cd}{%
@@ -15295,6 +15323,52 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/037594749400335K
+      \endverb
+    \endentry
+    \entry{Stovall2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=66309e04cc4619636051ebd570eb7fa3}{%
+           family={Stovall},
+           familyi={S\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=30690bc7755b7f1cd92182a2f678121f}{%
+           family={Lorimer},
+           familyi={L\bibinitperiod},
+           given={D\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7598bec55ed0f4ab76793a8ec56db25a}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={R\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{b99331947a76c248a56b82d29abc35a0}
+      \strng{fullhash}{b99331947a76c248a56b82d29abc35a0}
+      \strng{authornamehash}{b99331947a76c248a56b82d29abc35a0}
+      \strng{authorfullhash}{b99331947a76c248a56b82d29abc35a0}
+      \field{labelalpha}{SLL13}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Searches for millisecond pulsars (which we here loosely define as those with periods < 20 ms) in the galactic field have undergone a renaissance in the past five years. New or recently refurbished radio telescopes utilizing cooled receivers and state-of-the art digital data acquisition systems are carrying out surveys of the entire sky at a variety of radio frequencies. Targeted searches for millisecond pulsars in point sources identified by the Fermi Gamma-ray Space Telescope have proved phenomenally successful, with over 50 discoveries in the past five years. The current sample of millisecond pulsars now numbers almost 200 and, for the first time in 25 years, now outnumbers their counterparts in galactic globular clusters. While many of these searches are motivated to find pulsars which form part of pulsar timing arrays, a wide variety of interesting systems are now being found. Following a brief overview of the millisecond pulsar phenomenon, we describe these searches and present some of the highlights of the new discoveries in the past decade. We conclude with predictions and prospects for ongoing and future surveys.}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Searching for millisecond pulsars: surveys, techniques and prospects}
+      \field{volume}{30}
+      \field{year}{2013}
+      \field{pages}{224003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0264-9381/30/22/224003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F0264-9381%2F30%2F22%2F224003
       \endverb
     \endentry
     \entry{Tolman1939}{article}{}

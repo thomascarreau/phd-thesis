@@ -38,6 +38,14 @@ constitutes one of the goals of the ambitious NICER mission~\cite{NICER}. This
 observable can be extracted from the analysis of thermal emission from neutron 
 star surfaces, or X-ray emission from accreting neutron stars in binaries.
 
+In the following, we turn to the theoretical prediction of NS masses and radii. 
+The hydrostatic equilibrium equations in general relativity are first solved in 
+order to represent the mass-radius relation for several popular EoS, which are
+then confronted to NS mass measurements. The estimation of the crustal 
+thickness and mass is discussed afterwards.
+
+\subsubsection{Mass-radius relation}
+
 % hydrostatic equilibrium in GR
 Theoretically, the NS masses and radii correspond to the 
 solution of the hydrostatic equilibrium equations, which are, in general 
@@ -190,6 +198,7 @@ The black point marks the maximum mass for the SLy4 EoS, $M_{max} = 2.05M_\odot$
 Let us notice that the branch left to the point is unstable, 
 because from this point the mass decreases with central density increasing.
 
+\subsubsection{Crust thickness and mass}
 % crust thickness and mass
 As explained in Chapter 1, a precise estimation of the CC transition point is
 required as far as crustal properties are concerned. In particular, the
@@ -205,8 +214,8 @@ to integrate the hydrostatic equilibrium equations, Eqs.~(\ref{eq:tov}) and
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/crustmassthick.pdf}
 \end{center}
-\caption[Crust thickness and mass for several popular EoS]{Crust thickness
-  $l_{crust}$ (upper panel) and mass $M_{crust}$ (lower panel) as a function of 
+\caption[Crust thickness and mass versus NS mass for several popular EoS]{Crust 
+  thickness $l_{crust}$ (upper panel) and mass $M_{crust}$ (lower panel) as a function of 
   the NS mass $M$ for several popular EoS calculated within the metamodeling
 technique. The black dotted line marks the NS canonical mass, that is 
 $1.4M_\odot$.}\label{fig:crustmassthick}
@@ -232,32 +241,68 @@ star is positively correlated with $L_{sym}$. In fact, the same is true for the
 core radius, explaining why the correlations cancel in the crust 
 thickness $l_{crust} = R - R_{core}$.
 
-\subsection{Moment of inertia} % 2
+\subsection{Moment of inertia within the slow rotation approximation} % 2
 
-% explain why are we interested in the determination of this observable
-% maybe compare approximations to the complete integration of the equation
-% results
-% crust moment of inertia ('we will see in 2.3.3 that it is linked to blabla')
-% results
-Blablabla.
+We now turn to the calculation of the moment of inertia within the slow rotation 
+approximation~\cite{Hartle1967}. In 
+fact, this approximation is not only applicable to slowly rotating pulsars but 
+is also reliable for most of them. Indeed, while many observed pulsars show  
+rapid rotation~\cite{Stovall2013}, their structure is almost not altered by it 
+since centrifugal forces are small in comparison to the gravity, 
+$R^3\Omega^2/(GM) \ll 1$, $\Omega$ being the angular frequency. For instance, 
+let us consider a rapidly rotating pulsar with $\Omega = 1000$ s$^{-1}$ and 
+canonical values for its mass and radius, $M=1.4M_\odot$ and $R=10$ km. In that 
+case, we find $R^3\Omega^2/(GM) \approx 0.025$.
+
+In the following, we first calculate the total moment of inertia and the 
+fraction of it contained in the NS crust for several popular EoS. Then, we 
+explain the connection between the fraction of crust moment of inertia 
+and the glitch behavior exhibited by some pulsars~\cite{Espinoza2011}.
+
+\subsubsection{Total moment of inertia and fraction contained in the crust}
+
+In a slowly rotating NS, the total moment of inertia is given
+by~\cite{Hartle1967}
+%
+\begin{equation}
+  I = \frac{8\pi}{3}\int_0^R dr r^4\left(\rho_B +
+  \frac{P}{c^2}\right)\frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi},
+\end{equation}
+%
+where we have introduced the rotational drag function $\bar{\omega}(r)$, which
+satisfies
+%
+\begin{equation}
+  \frac{d}{dr}\left(r^4j\frac{d\tilde{\omega}}{dr}\right) =
+  -4r^3\tilde{\omega}\frac{dj}{dr},
+\end{equation}
+%
+with $\tilde{\omega} = \bar{\omega}/\Omega$ the unitless frequency.
+
+% same strategy as before (mass-radius) for determining the crust moment of
+%   inertia
 
 \begin{figure}[!t]
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/moi_popular.pdf}
 \end{center}
-\caption[Crust thickness and mass for several popular EoS]{Normalized moment of
+\caption[Normalized moment of inertia and fraction of crust moment of inertia
+versus NS mass for several popular EoS]{Normalized moment of
   inertia $I/(MR^2)$ (upper panel) and fraction of crust moment of inertia
   $I_{crust}/I$ (lower panel) as a function of the NS mass $M$ for several 
   popular EoS calculated within the metamodeling technique. The black dotted 
   line marks the NS canonical mass, that is $1.4M_\odot$.}\label{fig:moi_popular}
 \end{figure}
 
+\subsubsection{Connection to pulsar glitches}
+
 \subsection{Tidal deformability} % 2
 
-% observable of interest since gw170817 event
 % explain tidal deformability (dimless, lambda1-lambda2, lambda tilde...)
+% observable of interest since gw170817 event
 % derive equations from k2 love number
-% a word about I-love-Q relations?
+% figure
+% discussion
 
 \section{Bayesian modeling of the equation of state} % 0.75
 
