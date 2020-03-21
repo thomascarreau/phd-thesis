@@ -11597,6 +11597,56 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevX.9.011001
       \endverb
     \endentry
+    \entry{Andersson2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=28fbb8bba5b2bfc0bf7ec4524bba4a53}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b9c77986450bd863c708ec33b8f4b23f}{%
+           family={Glampedakis},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=06e99c5e7a53ad3b5c1bf655bab68e68}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi C.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e8e3ffea386f195d97fb0abeef7bca9e}{%
+           family={Espinoza},
+           familyi={E\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{70382c51812647c714ac63342a3cbadb}
+      \strng{fullhash}{c132d41e87bf8a7e6ffcdf89ae57fc53}
+      \strng{authornamehash}{70382c51812647c714ac63342a3cbadb}
+      \strng{authorfullhash}{c132d41e87bf8a7e6ffcdf89ae57fc53}
+      \field{labelalpha}{And+12}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{12}
+      \field{title}{Pulsar Glitches: The Crust is not Enough}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{241103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.241103
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.241103
+      \endverb
+    \endentry
     \entry{Antoniadis2013}{article}{}
       \name{author}{22}{}{%
         {{hash=0f9d89f2dffddd18d38d6d694c8ab8cb}{%
@@ -12768,6 +12818,66 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947407002321
+      \endverb
+    \endentry
+    \entry{Delsate2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a6b63c2e5af68a57a3d0cbe5861cca8e}{%
+           family={Delsate},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1dd10ebf6df46aad64c29e3da3c9bff2}{%
+           family={Chamel},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cdd45a79fdcb8507f6a31b481a6c715b}{%
+           family={Gürlebeck},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4c92cbc4ff497c15bd0ca5f8b69ea27b}{%
+           family={Fantina},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0c8a56d8fc55dc0c200b53fae767dfc6}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=660203a845880c8f8d7876b0f9bef776}{%
+           family={Ducoin},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{cb14fe8b8e010ed2ddad9522282c4f26}
+      \strng{fullhash}{9fd6936c5ae8ade405e1efe2d926057b}
+      \strng{authornamehash}{cb14fe8b8e010ed2ddad9522282c4f26}
+      \strng{authorfullhash}{9fd6936c5ae8ade405e1efe2d926057b}
+      \field{labelalpha}{Del+16}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{7}
+      \field{title}{Giant pulsar glitches and the inertia of neutron star crusts}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{023008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.94.023008
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.94.023008
       \endverb
     \endentry
     \entry{Demorest2010}{article}{}
@@ -13943,6 +14053,96 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
+      \endverb
+    \endentry
+    \entry{Link1999}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a72329fd9197046c71754402a2e9402a}{%
+           family={Link},
+           familyi={L\bibinitperiod},
+           given={Bennett},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4c510a3e0012fc833c9c446de70de031}{%
+           family={Epstein},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=13ee8f9cca77b0a803ae61d323f141f9}{%
+           family={Lattimer},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4cfbffec567af86292ad578d9d630a76}
+      \strng{fullhash}{4cfbffec567af86292ad578d9d630a76}
+      \strng{authornamehash}{4cfbffec567af86292ad578d9d630a76}
+      \strng{authorfullhash}{4cfbffec567af86292ad578d9d630a76}
+      \field{labelalpha}{LEL99}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Pulsar Constraints on Neutron Star Structure and Equation of State}
+      \field{volume}{83}
+      \field{year}{1999}
+      \field{pages}{3362\bibrangedash 3365}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.83.3362
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.83.3362
+      \endverb
+    \endentry
+    \entry{Lim2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0ea06883882638dc58c391bed8625617}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Yeunhwan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fbecfd6b33fe0c2beb6a9daaddb5d544}{%
+           family={Holt},
+           familyi={H\bibinitperiod},
+           given={Jeremy\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=588ffbe66de9333f97289e8ddeb33a75}{%
+           family={Stahulak},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a8e82dc3360acf4e31fbe7e48e05568c}
+      \strng{fullhash}{a8e82dc3360acf4e31fbe7e48e05568c}
+      \strng{authornamehash}{a8e82dc3360acf4e31fbe7e48e05568c}
+      \strng{authorfullhash}{a8e82dc3360acf4e31fbe7e48e05568c}
+      \field{labelalpha}{LHS19}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{9}
+      \field{title}{Predicting the moment of inertia of pulsar J0737-3039A from Bayesian modeling of the nuclear equation of state}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{pages}{035802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.100.035802
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.100.035802
       \endverb
     \endentry
     \entry{Long2004}{article}{}

@@ -4,9 +4,9 @@
 % Last edit: 16/03
 % *****************************************************************************
 
-\chapter{Bayesian inference of neutron star observables} % 1
+\chapter{Bayesian inference of neutron star observables}
 
-\section{From the equation of state to neutron star observables} % 0.75
+\section{From the equation of state to neutron star observables}
 
 % Pulsars were identified to rotating NS which produce pulsed emission.
 % EoS microscopic -> one wants to evaluate macroscopic properties of the star,
@@ -14,7 +14,7 @@
 % hydrostatic equilibrium
 % plan
 
-\subsection{Masses and radii} % 4
+\subsection{Masses and radii} 
 
 % observations
 From the observational point of view, it is easier for astronomers to measure 
@@ -241,7 +241,7 @@ star is positively correlated with $L_{sym}$. In fact, the same is true for the
 core radius, explaining why the correlations cancel in the crust 
 thickness $l_{crust} = R - R_{core}$.
 
-\subsection{Moment of inertia within the slow rotation approximation} % 2
+\subsection{Moment of inertia within the slow rotation approximation}
 
 We now turn to the calculation of the moment of inertia within the slow rotation 
 approximation~\cite{Hartle1967}. In 
@@ -266,45 +266,101 @@ by~\cite{Hartle1967}
 %
 \begin{equation}
   I = \frac{8\pi}{3}\int_0^R dr r^4\left(\rho_B +
-  \frac{P}{c^2}\right)\frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi},
+  \frac{P}{c^2}\right)\frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi}\label{eq:moi},
 \end{equation}
 %
 where we have introduced the rotational drag function $\bar{\omega}(r)$, which
 satisfies
 %
 \begin{equation}
-  \frac{d}{dr}\left(r^4j\frac{d\tilde{\omega}}{dr}\right) =
-  -4r^3\tilde{\omega}\frac{dj}{dr},
+  \frac{d}{dr}\left(r^4j\frac{d\bar{\omega}}{dr}\right) =
+  -4r^3\bar{\omega}\frac{dj}{dr},\label{eq:rotdrag}
 \end{equation}
 %
-with $\tilde{\omega} = \bar{\omega}/\Omega$ the unitless frequency.
-
-% same strategy as before (mass-radius) for determining the crust moment of
-%   inertia
+with $j=e^{-\Phi-\lambda}$. Eq.~(\ref{eq:rotdrag}) satisfy the following
+boundary conditions at the surface and center of the NS, respectively:
+%
+\begin{equation}
+  \frac{1}{\Omega}\bar{\omega}(r=R) = 1 - \frac{2GI}{R^3c^2} \quad \text{and} 
+  \quad \frac{d\bar{\omega}}{dr}\bigg|_{r=0} = 0.
+\end{equation}
+%
+One can translate Eq.~(\ref{eq:rotdrag}) into a first-order differential
+equation by introducting $w = (1/\Omega)d\ln\bar{\omega}/d\ln r$, yielding
+%
+\begin{equation}
+  \frac{dw}{dr} = \frac{4\pi G}{c^2}\frac{(P+\rho_Bc^2)(4+w)r^2}{rc^2-2Gm} -
+  \frac{w}{r}(3+w)\label{eq:rotdrag2},
+\end{equation}
+%
+with the boundary condition $w(r=0) = 0$. This equation is solved together with 
+Eqs.~(\ref{eq:tov}) and (\ref{eq:massbal}) in order to calculate the total 
+moment of inertia, which can be rewritten as
+%
+\begin{equation}
+  I = \frac{c^2}{G}\frac{w(R)R^3}{6 + 2w(R)}.
+\end{equation}
+%
+The fraction of crust moment of inertia can also be calculated as~\cite{Lim2019}
+%
+\begin{eqnarray}
+  \frac{I_{crust}}{I} &=& 1 - \frac{I_{core}}{I}\notag\\
+                      &=& 1 - \left(\frac{R_{core}}{R}\right)^3
+                      \frac{w(R_{core})}{w(R)}
+                      \exp\left[-\int_{R_{core}}^{R}\frac{w(r)}{r}dr\right],
+\end{eqnarray}
+%
+where we have introduced the moment of inertia of the core $I_{core}$, defined
+by the integration of Eq.~(\ref{eq:moi}) up to the core radius $R=R_{core}$.
 
 \begin{figure}[!t]
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/moi_popular.pdf}
 \end{center}
-\caption[Normalized moment of inertia and fraction of crust moment of inertia
-versus NS mass for several popular EoS]{Normalized moment of
-  inertia $I/(MR^2)$ (upper panel) and fraction of crust moment of inertia
+\caption[Moment of inertia and fraction of crust moment of inertia
+versus NS mass for several popular EoS]{Moment of
+  inertia $I$ (upper panel) and fraction of crust moment of inertia
   $I_{crust}/I$ (lower panel) as a function of the NS mass $M$ for several 
-  popular EoS calculated within the metamodeling technique. The black dotted 
-  line marks the NS canonical mass, that is $1.4M_\odot$.}\label{fig:moi_popular}
+  popular EoS calculated within the metamodeling technique. In the upper panel, 
+  the black dotted line marks the NS canonical mass, that is $1.4M_\odot$. In
+the lower panel, the minimum values needed to justify Vela glitches with
+(Delsate \textit{et al.}~\cite{Delsate2016} and Andersson \textit{et
+al.}~\cite{Andersson2012}) and without (Link \textit{et al.}~\cite{Link1999}) 
+crustal entrainment are represented.}\label{fig:moi_popular}
 \end{figure}
+
+The total moment of inertia is plotted as a function of the NS mass in the
+upper panel of Fig.~\ref{fig:moi_popular} for EoS based on Skyrme-type
+functionals BSk24, SLy4, and BSk14, and relativistic models PKDD and TM1.
+For $M=1.4M_\odot$, it is found that $I$ ranges from $\approx 1.2\times 10^{45}$
+g cm$^2$ for the soft BSk14 EoS to $\approx 2\times 10^{45}$ g cm$^2$ for the 
+very stiff TM1 EoS. This shows the strong dependence on the EoS. More 
+particularly, an apparent positive correlation with $L_{sym}$ is observed. 
+It is seen that the model dependence is even larger for high-mass NS.
+
+The lower panel of Fig.~\ref{fig:moi_popular} shows the variation with NS mass
+of $I_{crust}/I$ for the same EoS. It is seen that the more massive a 
+NS is, the less moment of inertia it stores in its crust, which follows
+the trends observed in Fig.~\ref{fig:crustmassthick}. This was predictable from 
+the sensitivity of crustal properties to the CC transition pressure. Given the 
+selected EoS, the value of $I_{crust}/I$ at $M=1.4M_\odot$ 
+ranges from $\approx 2\%$ for BSk14 to $\approx 5\%$ for TM1, showing once 
+again the dramatic dependence on the EoS.
 
 \subsubsection{Connection to pulsar glitches}
 
 \subsection{Tidal deformability} % 2
 
-% explain tidal deformability (dimless, lambda1-lambda2, lambda tilde...)
 % observable of interest since gw170817 event
+% explain tidal deformability (dimless, lambda1-lambda2, lambda tilde...)
 % derive equations from k2 love number
 % figure
 % discussion
 
 \section{Bayesian modeling of the equation of state} % 0.75
+
+% explain motivation (more and more observations with technical progress,
+%   observations and nuclear physics are complementary)
 
 \subsection{Principle of Bayesian inference} % 1.5
 
