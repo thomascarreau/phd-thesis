@@ -349,6 +349,88 @@ again the dramatic dependence on the EoS.
 
 \subsubsection{Connection to pulsar glitches}
 
+The so-called pulsar glitches, which are sudden jumps in the rotational 
+frequency of a compact star, are thought to originate from an abrupt 
+transfer of angular momentum from the neutron superfluid to the solid crust of 
+the star due to the unpinning of the superfluid vortices from the crystal
+lattice~\cite{Anderson1975}. %elaborate a bit more: why do vortices unpin?
+
+At the time of writing, 555 glitches have been observed in 190 pulsars through 
+high-precision pulsar timing~\cite{Espinoza2011,Glitches}. For a given 
+glitcher, three quantities are usually measured: its spin frequency $\Omega$, 
+its average spin-down rate $\dot{\Omega}$, and its glitch activity parameter
+$\mathcal{A}$, defined as
+%
+\begin{equation}
+  \mathcal{A} = \frac{1}{t}\sum_{i=1}^{N} \frac{\Delta \Omega_i}{\Omega},
+\end{equation}
+%
+where $\sum_i \Delta\Omega_i/\Omega$ represents the cumulative spin-up rate
+over the $N$ glitches occuring during a time $t$.
+
+It was demonstrated in~\cite{Link1999} that the ratio of the moment of inertia
+associated to the neutron superfluid which drives the glitches $I_{sf}$ to the 
+moment of inertia of the solid crust -- plus any portion of the star strongly 
+coupled to it -- $I_c$ must satisfy 
+%
+\begin{equation}
+  \frac{I_{sf}}{I_c} \geq \frac{\Omega}{|\dot{\Omega}|}\mathcal{A} 
+  \equiv \mathcal{G},
+\end{equation}
+%
+where we have introduced the coupling parameter $\mathcal{G}$. In view of
+relating the observational constraint $\mathcal{G}$ to the fractional moment of
+inertia $I_{crust}/I$ to ultimately set a constraint on the stellar EoS, we 
+assume that the angular momentum reservoir is confined to the neutron 
+superfluid coexisting with the crystal lattice of the inner crust. In that 
+case, we have $I_c = I - I_{res} \simeq I$ and $I_{crust} \simeq I_{sf}$,
+yielding~\cite{Link1999}
+%
+\begin{equation}
+  \frac{I_{sf}}{I_c} \simeq \frac{I_{crust}}{I} \geq \mathcal{G}\label{eq:noent}.
+\end{equation}
+%
+
+% blabla entrainment (origin, ratio mn*/mn can be high)
+Taking into account the entrainment coupling, the previous constraint, 
+Eq.~(\ref{eq:noent}), becomes~\cite{Andersson2012}
+%
+\begin{equation}
+  \frac{I_{crust}}{I} \geq \mathcal{G}\frac{\langle m_n^* \rangle}{m_n},
+\end{equation}
+%
+with $\langle m_n^* \rangle$ the average effective neutron mass.
+It should be stressed that systematic calculations of $m_n^*$ throughout 
+the NS crust are very costly from the computational point of view and that,
+following~\cite{Andersson2012,Piekarewicz2014}, we adopt the value $\langle m_n^* \rangle 
+/m_n = 4.3$, which is inferred from the results of~\cite{Chamel2012}. 
+Naturally, one recover the expression without crustal entrainment in the case 
+of $\langle m_n^* \rangle = m_n$.
+
+The Vela pulsar (B083345-45) is one of the most active glitchers known, with
+glitches occuring four times per decade on average. Since the beginning of its 
+monitoring, almost than 50 years ago, it has exhibited 20 glitches in
+total~\cite{Glitches}, allowing for a precise estimation of the corresponding 
+the coupling parameter, $\mathcal{G}_{Vela} = (1.62 \pm 0.03) \times
+10^{-2}$~\cite{Ho2015}. This can be translated into a constraint for 
+the fraction of crust moment of inertia,
+%
+\begin{equation}
+  \left(\frac{I_{crust}}{I}\right)_{Vela} \geq (1.62 \pm 0.03) \times 10^{-2}
+  \frac{\langle m_n^* \rangle}{m_n} \approx 0.07.
+\end{equation}
+%
+In other words, in the hypothesis that the angular momentum reservoir is 
+exclusively confined to the neutron superfluid permeating the inner crust, the 
+crust must store more than $7\%$ of the total moment of inertia in order to 
+justify the large glitches occuring in the Vela pulsar.\\
+% discuss the 'is the crust enough?' problem with Fig. 3
+We show in Fig.~\ref{fig:moi_popular} blabla.
+Finally, due to model dependence, is not clear whether the superfluid 
+neutron in the crust can carry enough angular momentum to explain Vela 
+glitches. For this reason, the question will be addressed 
+in~\ref{subsec:gli_stats} in the context of a complete statistical analysis.
+
 \subsection{Tidal deformability} % 2
 
 % observable of interest since gw170817 event
@@ -417,7 +499,8 @@ physical requirements} % 1.5
 % correlation with isovector bulk parameters is softened if one consider p as a
 %   free parameters (see corr matrix)
 
-\subsection{Crustal moment of inertia and pulsar glitches} % 4
+\subsection{Crustal moment of inertia and pulsar
+glitches}\label{subsec:gli_stats} % 4
 
 % explain pulsar glitches phenomena
 % give the hypothesis explaining the phenomena

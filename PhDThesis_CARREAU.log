@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  21 MAR 2020 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  22 MAR 2020 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,21 +842,21 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
  (./PhDThesis_CARREAU.aux)
 \openout1 = `PhDThesis_CARREAU.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 25.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -885,7 +885,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 25.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -893,9 +893,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
  (./PhDThesis_CARREAU.out) (./PhDThesis_CARREAU.out)
 \@outlinefile=\write5
 \openout5 = `PhDThesis_CARREAU.out'.
@@ -943,8 +943,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'PhDThesis_CARREAU.bbl' found.
 (./PhDThesis_CARREAU.bbl)
-Package biblatex Info: Reference section=0 on input line 24.
-Package biblatex Info: Reference segment=0 on input line 24.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
  (./sections/prestarting.tex (./PhDThesis_CARREAU.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -1153,76 +1153,77 @@ File: figures/moi_popular.pdf Graphic file (type pdf)
  <use figures/moi_popular.pdf>
 Package pdftex.def Info: figures/moi_popular.pdf used on input line 318.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [58]) (./sections/appendices.tex [59 <./figures/moi_popular.pdf>] [60]
-Appendix A.
-[61
-
-] [62]
-Appendix B.
-[63
-
-] [64]
-Appendix C.
-) [65
-
-] [66
+ [58] [59 <./figures/moi_popular.pdf>] [60]) (./sections/appendices.tex [61] [62
 
 ]
-Overfull \hbox (12.57996pt too wide) in paragraph at lines 48--48
+Appendix A.
+[63] [64]
+Appendix B.
+[65
+
+] [66]
+Appendix C.
+) [67
+
+] [68
+
+]
+Overfull \hbox (12.57996pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 B. P. Ab-bott et al. ``Prop-er-ties of the Bi-nary Neu-tron Star Merger GW170817''.
  []
 
-[67]
-Overfull \hbox (2.49072pt too wide) in paragraph at lines 48--48
+[69]
+Overfull \hbox (2.49072pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 Carreau, Thomas, Gul-minelli, Francesca, and Mar-gueron, Jérôme. ``Bayesian
  []
 
-[68]
-Overfull \hbox (1.73732pt too wide) in paragraph at lines 48--48
+[70]
+Overfull \hbox (1.73732pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 P. B. De-mor-est et al. ``A two-solar-mass neu-tron star mea-sured us-ing Shapiro
  []
 
-[69] [70]
-Overfull \hbox (16.18066pt too wide) in paragraph at lines 48--48
+[71] [72] [73]
+Overfull \hbox (16.18066pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 P. Möller and J.R. Nix. ``Nu-clear masses from a uni-fied macroscopic-microscopic
  []
 
-[71] [72]
-Overfull \hbox (16.02777pt too wide) in paragraph at lines 48--48
+[74]
+Overfull \hbox (16.02777pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 X. Roca-Maza et al. ``Rel-a-tivis-tic mean-field in-ter-ac-tion with density-dependent
  []
 
-[73]
-Overfull \hbox (13.81113pt too wide) in paragraph at lines 48--48
+[75]
+Overfull \hbox (13.81113pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 Nobutoshi Ya-su-take, Toshiki Maruyama, and Toshi-taka Tat-sumi. ``Hot hadron-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-[74]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+[76]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+ [77]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (./PhDThesis_CARREAU.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `PhDThesis_CARREAU.out' has not changed.
 (rerunfilecheck)             Checksum: DC0703F9878B09561BAE5AC5FFC58967;4773.
 Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 \openout1 = `PhDThesis_CARREAU.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 15105 strings out of 493013
- 243551 string characters out of 6135682
- 1215680 words of memory out of 5000000
- 18035 multiletter control sequences out of 15000+600000
+ 15130 strings out of 493013
+ 244123 string characters out of 6135682
+ 1220609 words of memory out of 5000000
+ 18047 multiletter control sequences out of 15000+600000
  83022 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,45p,4525b,1286s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (74 pages, 941331 bytes).
+Output written on PhDThesis_CARREAU.pdf (77 pages, 950093 bytes).
 PDF statistics:
- 1971 PDF objects out of 2073 (max. 8388607)
- 1785 compressed objects within 18 object streams
- 377 named destinations out of 1000 (max. 500000)
+ 2020 PDF objects out of 2073 (max. 8388607)
+ 1830 compressed objects within 19 object streams
+ 390 named destinations out of 1000 (max. 500000)
  531 words of extra memory for PDF output out of 10000 (max. 10000000)
 

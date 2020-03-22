@@ -11597,6 +11597,38 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevX.9.011001
       \endverb
     \endentry
+    \entry{Anderson1975}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a09ccd02456916b723d47d652971d797}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=e60273f48243f489e8f5097a271030c7}{%
+           family={Itoh},
+           familyi={I\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{362eab94ede566349c4442a339db81b4}
+      \strng{fullhash}{362eab94ede566349c4442a339db81b4}
+      \strng{authornamehash}{362eab94ede566349c4442a339db81b4}
+      \strng{authorfullhash}{362eab94ede566349c4442a339db81b4}
+      \field{labelalpha}{AI75}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{{Pulsar glitches and restlessness as a hard superfluidity phenomenon}}
+      \field{volume}{256}
+      \field{year}{1975}
+      \field{pages}{25\bibrangedash 27}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/256025a0
+      \endverb
+    \endentry
     \entry{Andersson2012}{article}{}
       \name{author}{4}{}{%
         {{hash=28fbb8bba5b2bfc0bf7ec4524bba4a53}{%
@@ -12611,6 +12643,41 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0375947406001771
+      \endverb
+    \endentry
+    \entry{Chamel2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1dd10ebf6df46aad64c29e3da3c9bff2}{%
+           family={Chamel},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1dd10ebf6df46aad64c29e3da3c9bff2}
+      \strng{fullhash}{1dd10ebf6df46aad64c29e3da3c9bff2}
+      \strng{authornamehash}{1dd10ebf6df46aad64c29e3da3c9bff2}
+      \strng{authorfullhash}{1dd10ebf6df46aad64c29e3da3c9bff2}
+      \field{labelalpha}{Cha12}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{3}
+      \field{title}{Neutron conduction in the inner crust of a neutron star in the framework of the band theory of solids}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{035801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.85.035801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.85.035801
       \endverb
     \endentry
     \entry{Cromartie2020}{article}{}
@@ -13924,6 +13991,57 @@
       \verb 10.1086/149400
       \endverb
     \endentry
+    \entry{Ho2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1ec7e69d385d30509b08e9d8f601ff2f}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Wynn\bibnamedelimb C.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=97b35624b8b637a06a275c6d79de820f}{%
+           family={Espinoza},
+           familyi={E\bibinitperiod},
+           given={Cristóbal\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2fb03503f75fc5e51c8e654f8a4a7a7c}{%
+           family={Antonopoulou},
+           familyi={A\bibinitperiod},
+           given={Danai},
+           giveni={D\bibinitperiod}}}%
+        {{hash=22234c254d5d500fabaa0b3fc750e25b}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{c5ade771bbd0511bacd6b425f52d22ee}
+      \strng{fullhash}{bfbbe4a1608aacbab397bf627a8c9d85}
+      \strng{authornamehash}{c5ade771bbd0511bacd6b425f52d22ee}
+      \strng{authorfullhash}{bfbbe4a1608aacbab397bf627a8c9d85}
+      \field{labelalpha}{Ho+15}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pulsars are known for their superb timing precision, although glitches can interrupt the regular timing behavior when the stars are young. These glitches are thought to be caused by interactions between normal and superfluid matter in the crust of the star. However, glitching pulsars such as Vela have been shown to require a superfluid reservoir that greatly exceeds that available in the crust. We examine a model in which glitches tap the superfluid in the core. We test a variety of theoretical superfluid models against the most recent glitch data and find that only one model can successfully explain up to 45 years of observational data. We develop a new technique for combining radio and x-ray data to measure pulsar masses, thereby demonstrating how current and future telescopes can probe fundamental physics such as superfluidity near nuclear saturation.}
+      \field{journaltitle}{Science Advances}
+      \field{number}{9}
+      \field{title}{Pinning down the superfluid and measuring masses using pulsar glitches}
+      \field{volume}{1}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1126/sciadv.1500578
+      \endverb
+      \verb{eprint}
+      \verb https://advances.sciencemag.org/content/1/9/e1500578.full.pdf
+      \endverb
+      \verb{url}
+      \verb https://advances.sciencemag.org/content/1/9/e1500578
+      \endverb
+    \endentry
     \entry{Haensel1994}{article}{}
       \name{author}{2}{}{%
         {{hash=2b9d426ab4c7fa817f2fb135f741d6cd}{%
@@ -14054,6 +14172,24 @@
       \verb{url}
       \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
       \endverb
+    \endentry
+    \entry{Glitches}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ebef1e4ebb9346c684bf707b72020835}{%
+           family={{Jodrell Bank Centre for Astrophysics}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebef1e4ebb9346c684bf707b72020835}
+      \strng{fullhash}{ebef1e4ebb9346c684bf707b72020835}
+      \strng{authornamehash}{ebef1e4ebb9346c684bf707b72020835}
+      \strng{authorfullhash}{ebef1e4ebb9346c684bf707b72020835}
+      \field{labelalpha}{Jod}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.jb.man.ac.uk/pulsar/glitches.html}}
+      \field{title}{Glitch Catalogue}
     \endentry
     \entry{Link1999}{article}{}
       \name{author}{3}{}{%
@@ -15221,6 +15357,51 @@
       \field{labelnamesource}{author}
       \field{howpublished}{{Private communication}}
       \field{year}{2019}
+    \endentry
+    \entry{Piekarewicz2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=99cad5f6791f006f5a1102a8c2f91447}{%
+           family={Piekarewicz},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9b0258de473a3cf473a722418ebe1993}{%
+           family={Fattoyev},
+           familyi={F\bibinitperiod},
+           given={F.\bibnamedelimi J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f34aec8aecd84832e0dbc7ac3aa6cf98}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6c8e8acce6da2fafd37d810c1ffa9f1a}
+      \strng{fullhash}{6c8e8acce6da2fafd37d810c1ffa9f1a}
+      \strng{authornamehash}{6c8e8acce6da2fafd37d810c1ffa9f1a}
+      \strng{authorfullhash}{6c8e8acce6da2fafd37d810c1ffa9f1a}
+      \field{labelalpha}{PFH14}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{7}
+      \field{title}{Pulsar glitches: The crust may be enough}
+      \field{volume}{90}
+      \field{year}{2014}
+      \field{pages}{015803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.90.015803
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.90.015803
+      \endverb
     \endentry
     \entry{Pethick1995}{article}{}
       \name{author}{2}{}{%
