@@ -287,6 +287,9 @@ INPUT ./figures/crustmassthick.pdf
 INPUT figures/moi_popular.pdf
 INPUT ./figures/moi_popular.pdf
 INPUT ./figures/moi_popular.pdf
+INPUT figures/tidal_popular.pdf
+INPUT ./figures/tidal_popular.pdf
+INPUT ./figures/tidal_popular.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm

@@ -349,11 +349,15 @@ again the dramatic dependence on the EoS.
 
 \subsubsection{Connection to pulsar glitches}
 
-The so-called pulsar glitches, which are sudden jumps in the rotational 
-frequency of a compact star, are thought to originate from an abrupt 
-transfer of angular momentum from the neutron superfluid to the solid crust of 
-the star due to the unpinning of the superfluid vortices from the crystal
-lattice~\cite{Anderson1975}. %elaborate a bit more: why do vortices unpin?
+The so-called pulsar glitches are sudden jumps in the rotational frequency of 
+a compact star. They are thought to originate from an abrupt transfer of 
+angular momentum from the liquid interior, acting as an angular momentun
+reservoir, to the solid crust of the star due to the unpinning of the 
+superfluid vortices from the crystal lattice~\cite{Anderson1975}. This occurs 
+when the differential lag between the slower solid crust and faster superfluid 
+vortices reach some threshold and can no longer be sustained, so as to recover 
+a close equilibirum between the two. Eventually, stresses start to build up 
+again, ultimately leading to another glitch event.
 
 At the time of writing, 555 glitches have been observed in 190 pulsars through 
 high-precision pulsar timing~\cite{Espinoza2011,Glitches}. For a given 
@@ -391,9 +395,14 @@ yielding~\cite{Link1999}
 \end{equation}
 %
 
-% blabla entrainment (origin, ratio mn*/mn can be high)
-Taking into account the entrainment coupling, the previous constraint, 
-Eq.~(\ref{eq:noent}), becomes~\cite{Andersson2012}
+In reality, the neutron superfluid is strongly coupled to the solid crust due
+to nondissipative entrainment effects~\cite{Chamel2013}, limiting the amount of
+angular momentum that can be transfered during a glitch event. The importance
+of the entrainment coupling is related to the neutron effective mass $m_n^*$ in
+the inner crust, which is proportional to the ratio of unbound neutrons to 
+those that are not entrained, $m_n^* \equiv m_n n_g/n_g^c$. Taking into 
+account the entrainment effects, the previous constraint, Eq.~(\ref{eq:noent}), 
+then becomes~\cite{Andersson2012}
 %
 \begin{equation}
   \frac{I_{crust}}{I} \geq \mathcal{G}\frac{\langle m_n^* \rangle}{m_n},
@@ -402,10 +411,13 @@ Eq.~(\ref{eq:noent}), becomes~\cite{Andersson2012}
 with $\langle m_n^* \rangle$ the average effective neutron mass.
 It should be stressed that systematic calculations of $m_n^*$ throughout 
 the NS crust are very costly from the computational point of view and that,
-following~\cite{Andersson2012,Piekarewicz2014}, we adopt the value $\langle m_n^* \rangle 
-/m_n = 4.3$, which is inferred from the results of~\cite{Chamel2012}. 
-Naturally, one recover the expression without crustal entrainment in the case 
-of $\langle m_n^* \rangle = m_n$.
+following~\cite{Andersson2012,Piekarewicz2014}, we adopt the 
+value $\langle m_n^* \rangle /m_n = 4.3$, which is inferred from the 
+results of~\cite{Chamel2012}. Naturally, one recover the expression without 
+crustal entrainment in the case of $\langle m_n^* \rangle = m_n$. We should 
+stress that the importance of the effect of crustal entrainment, that is the 
+value of the average neutron effective mass throughout the solid crust, is 
+currently under debate~\cite{Martin2016,Watanabe2017}.
 
 The Vela pulsar (B083345-45) is one of the most active glitchers known, with
 glitches occuring four times per decade on average. Since the beginning of its 
@@ -420,24 +432,56 @@ the fraction of crust moment of inertia,
   \frac{\langle m_n^* \rangle}{m_n} \approx 0.07.
 \end{equation}
 %
-In other words, in the hypothesis that the angular momentum reservoir is 
+In other words, in the standard picture where the angular momentum reservoir is 
 exclusively confined to the neutron superfluid permeating the inner crust, the 
-crust must store more than $7\%$ of the total moment of inertia in order to 
-justify the large glitches occuring in the Vela pulsar.\\
-% discuss the 'is the crust enough?' problem with Fig. 3
-We show in Fig.~\ref{fig:moi_popular} blabla.
-Finally, due to model dependence, is not clear whether the superfluid 
-neutron in the crust can carry enough angular momentum to explain Vela 
-glitches. For this reason, the question will be addressed 
-in~\ref{subsec:gli_stats} in the context of a complete statistical analysis.
+crust must store more than $7\%$ (with entrainment effects included) of the 
+total moment of inertia in order to justify the large glitches occuring in the 
+Vela pulsar.
+
+The Vela constraints on $I_{crust}/I$ are displayed in the lower panel of 
+Fig.~\ref{fig:moi_popular}. Neglecting entrainment effects~\cite{Link1999}, it
+is seen that the constraint is easily satisfied. For BSk14 EoS, which is the
+softest EoS here, it leads to $\approx 1.6M_\odot$ for the maximum mass of 
+Vela. Now including crustal entrainment with $\langle m_n^*\rangle/m_n =
+4.3$~\cite{Andersson2012}, it is not clear, due to dependence on the EoS, 
+whether the superfluid neutron in the crust can carry enough angular momentum 
+to explain Vela glitches. For the three nonrelativistic Skyrme-based EoS that 
+we consider, we see that the constraint is unlikely to be satisfied, because it
+would require the Vela mass to be very low, $M_{Vela} \lesssim 0.9M_\odot$.
+While theoretically plausible~\cite{Haensel2007}, such low-mass NS have never 
+been observed to this day. On the other hand, it is observed that very stiff 
+EoS such as TM1 can be consistent with the constraint~\cite{Piekarewicz2014}.
+Finally, given the constraint on the fractional moment of inertia calculated 
+with the present largest estimation of crustal entrainement~\cite{Delsate2016}
+(black thick line), we find that the inferred mass of Vela is at most 
+$\approx 0.85M_\odot$ for the stiff TM1 EoS and $\approx 0.65M_\odot$ for the 
+soft EoS based on Skyrme functionals. Clearly the question 
+``\textit{Is the crust enough?}'' deserves further investigations. In that 
+sense, it will be addressed in~\ref{subsec:gli_stats} in the context of a 
+complete statistical analysis~\cite{Carreau2019moi}.
 
 \subsection{Tidal deformability} % 2
 
-% observable of interest since gw170817 event
-% explain tidal deformability (dimless, lambda1-lambda2, lambda tilde...)
-% derive equations from k2 love number
-% figure
-% discussion
+% 1.explain tidal deformability (dimless, lambda1-lambda2, lambda tilde...)
+% 2.derive equations from k2 love number
+% 3.observable of interest since gw170817 event
+% 4.figure
+% 5.discussion (notice the tug of war: ifrac,mass wants stiff eos but lambda 
+%   want soft)
+
+Blabla.
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/tidal_popular.pdf}
+  \end{center}
+  \caption[Dimensionless tidal deformability versus NS mass for several popular
+  EoS]{Dimensionless tidal deformability $\Lambda$ as a function of the NS mass 
+    $M$ for several popular EoS calculated within the metamodeling 
+  technique. The black dotted line marks the NS canonical mass, that is
+$1.4M_\odot$. The upper bound $\Lambda_{1.4} \leq 800$ inferred from GW170817 
+event is also represented~\cite{GWtidal}.}\label{fig:tidal_popular}
+\end{figure}
 
 \section{Bayesian modeling of the equation of state} % 0.75
 
@@ -493,6 +537,8 @@ physical requirements} % 1.5
 %   m1-m2, lambda1-lambda2 relations
 
 \subsection{Bayesian analysis of the crust-core transition} % 4
+
+% different estimations of crustal entrainment
 
 % surface figures (prior/posterior)
 % corr(Pt,Ksym) (link with chapter 1)
