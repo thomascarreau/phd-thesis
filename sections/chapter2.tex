@@ -49,7 +49,8 @@ thickness and mass is discussed afterwards.
 % hydrostatic equilibrium in GR
 Theoretically, the NS masses and radii correspond to the 
 solution of the hydrostatic equilibrium equations, which are, in general 
-relativity for spherical and nonrotating stars~\cite{Tolman1939,Oppenheimer1939},
+relativity for spherical and nonrotating 
+stars~\cite{Tolman1939,Oppenheimer1939},
 %
 \begin{eqnarray}
   \frac{dP}{dr} &=& -\frac{G\rho_B m}{r^2}\left(1 + \frac{P}{\rho_B
@@ -73,35 +74,39 @@ related to the enclosed mass $m(r)$ through
 \end{equation}
 %
 % description of the equations
-Eq.~(\ref{eq:tov}) is the so called Tolman-Oppenheimer-Volkoff (TOV) equation 
+Eq.~(\ref{eq:tov}) is the so-called Tolman-Oppenheimer-Volkoff (TOV) equation 
 of hydrostatic equilibrium. The integration of Eq.~(\ref{eq:massbal}) from
 $r=0$ to the boundary $r=R$, $R$ being the NS radius, gives the total
 gravitational mass $M=m(R)$ of the star. Eq.~(\ref{eq:metric}) is a 
 relativistic equation for the metric function $\Phi(r)$. Here, we focus on 
 solving Eqs.~(\ref{eq:tov}) and 
 (\ref{eq:massbal}), which gives the profiles $P(r)$, $\rho_B(r)$, and $m(r)$ 
-for a given EoS, $P(\rho_B)$, the determination of which was discussed in detail 
-in Chapter 1.
+for a given EoS, $P(\rho_B)$, the determination of which was discussed in 
+detail in Chapter 1.
 
-% explain numerical method for a central density nc (CGS, Euler method, lagrangian interpolation)
+% explain numerical method for a central density nc (CGS, Euler method, 
+%   lagrangian interpolation)
 In view of solving the hydrostratic equilibrium equations for a given tabulated 
-EoS, one first have to choose an arbitrary value for the central density $\rho_{B,c}$ and 
+EoS, one first have to choose an arbitrary value for the central density 
+$\rho_{B,c}$ and 
 interpolate the central pressure $P_c = P(\rho_{B,c})$, corresponding to $r=0$, 
 with the associated boundary condition $m(r=0) = 0$. Then, using a Runge-Kutta 
 method, one integrate up to $r=R$, defined as $P(r=R) = 0$ (our numerical 
 condition is $P < 5\times 10^{-4}$ MeV/fm$^{3}$, which is a sufficiently low 
 value of the pressure). At each new step of pressure, one has to interpolate 
-the mass density $\rho_B$ in the table. In the end, for a given value of central 
-density $\rho_{B,c}$, one obtains the profiles $P(r)$, $\rho_B(r)$, and $m(r)$, 
-and therefore a value for the NS mass $M$ and radius $R$. The typical values 
-of these observables are $M=1.4M_\odot$ and $R=10$ km~\cite{Haensel2007}.\\
+the mass density $\rho_B$ in the table. In the end, for a given value of 
+central density $\rho_{B,c}$, one obtains the profiles $P(r)$, $\rho_B(r)$, 
+and $m(r)$, and therefore a value for the NS mass $M$ and radius $R$. The 
+typical values of these observables are $M=1.4M_\odot$ and $R=10$ 
+km~\cite{Haensel2007}.\\
 % The problem is that the central density inside a NS is not known... thats why 
 %   we are interested in the Mass radius relation
 In fact, the central density inside a specific NS is not known, and is expected
 to range from $\approx 4.6\times 10^{14}$ g/cm$^3$ to $\approx 4\times 10^{15}$
-g/cm$^3$. For this reason, we are rather interested in the mass-radius relation, which
-can be obtained by calculating $M$ and $R$, following the numerical method
-previously explained, for this range of central mass densities.\\
+g/cm$^3$. For this reason, we are rather interested in the mass-radius 
+relation, which can be obtained by calculating $M$ and $R$, following the 
+numerical method previously explained, for this range of central mass 
+densities.\\
 % efld
 Let us recall that one has to redefine the high-order parameters $Q_{sat(sym)}$ 
 and $Z_{sat(sym)}$ in order to reproduce existing functionals at densities
@@ -133,7 +138,8 @@ the ELFd technique introduced in \cite{Margueron2018a}.
 \end{center}
 \caption[Empirical parameters for BSk14, PKDD, and TM1]{Empirical parameter and 
   associated unit and derivative order $N$ for BSk14 \cite{Goriely2007}, PKDD
-  \cite{Long2004}, and TM1~\cite{Sumiyoshi1995} functionals.}\label{table:newemppar}
+  \cite{Long2004}, and TM1~\cite{Sumiyoshi1995} 
+functionals.}\label{table:newemppar}
 \end{table}
 
 \begin{figure}[!t]
@@ -149,7 +155,8 @@ yellow band that of J0740+6620, $2.14_{-0.09}^{+0.10}M_\odot$ ($68.3\%$
 credibility interval) \cite{Cromartie2020}.
 Right: Mass-radius relation for the DH EoS for SLy4 functional (black dashed
 line), and the SLy4 EoS calculated with the metamodeling technique (solid
-orange line). The black circle indicates the maximum mass.}\label{fig:mr_popular}
+orange line). The black circle indicates the maximum 
+mass.}\label{fig:mr_popular}
 \end{figure}
  
 The left panel of Fig.~\ref{fig:mr_popular} shows the mass-radius relation for 
@@ -177,15 +184,15 @@ outline the fact that measuring the mass of pulsars is important, because it
 provides a strong constraint on the stellar matter EoS. Similarly, the NICER
 telescope is expected to provide, for years to come, a constraint on the NS
 radii with a precision of $5\%$. Ultimately, in the ideal case where one could 
-accurately measure the mass and radius of one neutron star, it would be possible 
-to determine the EoS by positioning the point in the $M-R$ diagram.
+accurately measure the mass and radius of one neutron star, it would be 
+possible to determine the EoS by positioning the point in the $M-R$ diagram.
 
 The mass-radius relation for the SLy4 EoS is represented in the right panel of
 Fig.~\ref{fig:mr_popular}. The solid orange line corresponds to $M(R)$ for the 
 SLy4 EoS calculated within the metamodeling technique, and the dashed 
-black line is the calculation based on the DH EoS for SLy4 functional. A perfect
-agreement is observed between the two curves, reflecting the small error on the
-EoS, illustrated in Fig.~\ref{fig:unified}. \\
+black line is the calculation based on the DH EoS for SLy4 functional. A 
+perfect agreement is observed between the two curves, reflecting the small 
+error on the EoS, illustrated in Fig.~\ref{fig:unified}. \\
 The dotted orange line shows the mass-radius relation for the SLy4 EoS without
 considering the clustering of matter at low density, that is assuming that the
 NS star interior consists of $npe\mu$ matter at all densities. In that case,
@@ -194,8 +201,8 @@ with respect to the result with a crust EoS. Moreover, this difference is found
 to be larger with decreasing mass. This shows that the crust EoS is essential 
 to properly predict NS radii. However, we can see that the NS maximum mass is 
 entirely determined by the stellar core EoS.\\
-The black point marks the maximum mass for the SLy4 EoS, $M_{max} = 2.05M_\odot$. 
-Let us notice that the branch left to the point is unstable, 
+The black point marks the maximum mass for the SLy4 EoS, $M_{max} = 
+2.05M_\odot$. Let us notice that the branch left to the point is unstable, 
 because from this point the mass decreases with central density increasing.
 
 \subsubsection{Crust thickness and mass}
@@ -215,10 +222,10 @@ to integrate the hydrostatic equilibrium equations, Eqs.~(\ref{eq:tov}) and
   \includegraphics[width=0.9\linewidth]{figures/crustmassthick.pdf}
 \end{center}
 \caption[Crust thickness and mass versus NS mass for several popular EoS]{Crust 
-  thickness $l_{crust}$ (upper panel) and mass $M_{crust}$ (lower panel) as a function of 
-  the NS mass $M$ for several popular EoS calculated within the metamodeling
-technique. The black dotted line marks the NS canonical mass, that is 
-$1.4M_\odot$.}\label{fig:crustmassthick}
+  thickness $l_{crust}$ (upper panel) and mass $M_{crust}$ (lower panel) as a 
+  function of the NS mass $M$ for several popular EoS calculated within the 
+  metamodeling technique. The black dotted line marks the NS canonical mass, 
+  that is $1.4M_\odot$.}\label{fig:crustmassthick}
 \end{figure}
 
 Fig.~\ref{fig:crustmassthick} shows the variation with NS mass of crust 
@@ -243,8 +250,8 @@ thickness $l_{crust} = R - R_{core}$.
 
 \subsection{Moment of inertia within the slow rotation approximation}
 
-We now turn to the calculation of the moment of inertia within the slow rotation 
-approximation~\cite{Hartle1967}. In 
+We now turn to the calculation of the moment of inertia within the slow 
+rotation approximation~\cite{Hartle1967}. In 
 fact, this approximation is not only applicable to slowly rotating pulsars but 
 is also reliable for most of them. Indeed, while many observed pulsars show  
 rapid rotation~\cite{Stovall2013}, their structure is almost not altered by it 
@@ -266,7 +273,8 @@ by~\cite{Hartle1967}
 %
 \begin{equation}
   I = \frac{8\pi}{3}\int_0^R dr r^4\left(\rho_B +
-  \frac{P}{c^2}\right)\frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi}\label{eq:moi},
+  \frac{P}{c^2}\right)
+  \frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi}\label{eq:moi},
 \end{equation}
 %
 where we have introduced the rotational drag function $\bar{\omega}(r)$, which
@@ -301,7 +309,8 @@ moment of inertia, which can be rewritten as
   I = \frac{c^2}{G}\frac{w(R)R^3}{6 + 2w(R)}.
 \end{equation}
 %
-The fraction of crust moment of inertia can also be calculated as~\cite{Lim2019}
+The fraction of crust moment of inertia can also be calculated 
+as~\cite{Lim2019}
 %
 \begin{eqnarray}
   \frac{I_{crust}}{I} &=& 1 - \frac{I_{core}}{I}\notag\\
@@ -332,9 +341,9 @@ crustal entrainment are represented.}\label{fig:moi_popular}
 The total moment of inertia is plotted as a function of the NS mass in the
 upper panel of Fig.~\ref{fig:moi_popular} for EoS based on Skyrme-type
 functionals BSk24, SLy4, and BSk14, and relativistic models PKDD and TM1.
-For $M=1.4M_\odot$, it is found that $I$ ranges from $\approx 1.2\times 10^{45}$
-g cm$^2$ for the soft BSk14 EoS to $\approx 2\times 10^{45}$ g cm$^2$ for the 
-very stiff TM1 EoS. This shows the strong dependence on the EoS. More 
+For $M=1.4M_\odot$, it is found that $I$ ranges from $\approx 1.2\times 
+10^{45}$ g cm$^2$ for the soft BSk14 EoS to $\approx 2\times 10^{45}$ g cm$^2$ 
+for the very stiff TM1 EoS. This shows the strong dependence on the EoS. More 
 particularly, an apparent positive correlation with $L_{sym}$ is observed. 
 It is seen that the model dependence is even larger for high-mass NS.
 
@@ -391,7 +400,8 @@ case, we have $I_c = I - I_{res} \simeq I$ and $I_{crust} \simeq I_{sf}$,
 yielding~\cite{Link1999}
 %
 \begin{equation}
-  \frac{I_{sf}}{I_c} \simeq \frac{I_{crust}}{I} \geq \mathcal{G}\label{eq:noent}.
+  \frac{I_{sf}}{I_c} \simeq \frac{I_{crust}}{I} 
+  \geq \mathcal{G}\label{eq:noent}.
 \end{equation}
 %
 
@@ -462,26 +472,84 @@ complete statistical analysis~\cite{Carreau2019moi}.
 
 \subsection{Tidal deformability} % 2
 
-% 1.explain tidal deformability (dimless, lambda1-lambda2, lambda tilde...)
-% 2.derive equations from k2 love number
-% 3.observable of interest since gw170817 event
-% 4.figure
-% 5.discussion (notice the tug of war: ifrac,mass wants stiff eos but lambda 
-%   want soft)
+% *what is tidal deformability (definition and equations, analogy moon-earth)
+% general definition tidal deformability (also say it depends on the eos)
+% example earth-moon
+% example bns merger (this quantity can be measured using gw observations, 
+%   ultimately leading to new constraints on the eos. blabla gw170817)
 
-Blabla.
+Let us consider a static, spherically symmetric NS, placed in a static external
+quadrupolar tidal field $\mathcal{E}_{tid}$. The induced quadrupole moment of
+the star is given by 
+%
+\begin{equation}
+  Q_{tid} = -\lambda \mathcal{E}_{tid},
+\end{equation}
+%
+where $\lambda$ is the tidal deformability, which is related to the so-called 
+tidal Love number $k_2$ by
+%
+\begin{equation}
+  \lambda = \frac{2}{3}k_2\left(\frac{Rc^2}{G}\right)^5.
+\end{equation}
+%
+Let us also define the dimensionless tidal deformability,
+%
+\begin{equation}
+  \Lambda = \frac{\lambda}{M^5} = \frac{2}{3}k^2\beta^{-5},
+\end{equation}
+%
+where we have introduced the compactness of the star $\beta = GM/(Rc^2)$.
+% explanation what is k2? 
+% blabla asymtotic expansion of the metric at large r
+% blabla einstein field equations
+Similarly to the calculation of the moment of inertia in the slow rotation
+approximation, $k_2$ can be obtained from the solution of the following 
+first-order differential equation,
+%
+\begin{eqnarray}
+  \frac{dy}{dr} &=& -\frac{y^2}{r} - \frac{y-6}{r-2Gm/c^2} \notag\\
+                &&- \frac{4\pi G}{c^2}r^2\frac{(5-y)\rho_B + (9+y)P/c^2 
+                + (P+\rho_Bc^2)/c_s^2}{r-2Gm/c^2} \notag\\
+                &&+ \frac{1}{r}\left[\frac{2G}{c^2}\frac{(m+4\pi p r^3/c^2)}{r 
+                - 2Gm/c^2}\right]^2\label{eq:dy},
+\end{eqnarray}
+%
+where we have introduced the speed of sound $c_s = \sqrt{\partial P/\partial 
+\rho_B}$, and that must satisfy the boundary condition $y(r=0)=2$. This
+equation together with the hydrostatic equilibrium equations, 
+Eqs.~(\ref{eq:tov}) and~(\ref{eq:massbal}), are solved simultaneously. The 
+tidal Love number reads
+%
+\begin{equation}
+  k_2 = \frac{8}{5}\beta^5(1-2\beta)^2[2-y(R) + 2\beta(y(R) - 1)]/a,
+\end{equation}
+%
+with
+%
+\begin{eqnarray}
+  a &=& 6\beta[2-y(R)+\beta(5y(R)-8)] \notag\\
+    &&+ 4\beta^3[13-11y(R)+\beta(3y(R)-2)+2\beta^2(1+y(R))] \notag\\
+    &&+ 3(1-2\beta)^2[2-y(R)+2\beta(y(R)-1)]\ln(1-2\beta).
+\end{eqnarray}
+%
 
 \begin{figure}[!t]
   \begin{center}
     \includegraphics[width=0.9\linewidth]{figures/tidal_popular.pdf}
   \end{center}
-  \caption[Dimensionless tidal deformability versus NS mass for several popular
-  EoS]{Dimensionless tidal deformability $\Lambda$ as a function of the NS mass 
-    $M$ for several popular EoS calculated within the metamodeling 
+  \caption[Tidal Love number and dimensionless tidal deformability versus NS 
+  mass for several popular EoS]{Tidal Love number $k_2$ (upper panel) and 
+    dimensionless tidal deformability $\Lambda$ (lower panel) as a function of 
+    the NS mass $M$ for several popular EoS calculated within the metamodeling 
   technique. The black dotted line marks the NS canonical mass, that is
-$1.4M_\odot$. The upper bound $\Lambda_{1.4} \leq 800$ inferred from GW170817 
-event is also represented~\cite{GWtidal}.}\label{fig:tidal_popular}
+$1.4M_\odot$. In the lower panel, the upper bound $\Lambda_{1.4} \leq 800$ 
+inferred from GW170817 event is 
+represented~\cite{GWtidal}.}\label{fig:tidal_popular}
 \end{figure}
+
+% discussion figure (Let us notice the tug of war: ifrac,mass wants stiff eos 
+%   but lambda wants soft)
 
 \section{Bayesian modeling of the equation of state} % 0.75
 

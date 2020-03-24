@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  23 MAR 2020 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  24 MAR 2020 20:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,12 +1002,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-[7] [8] [9] [10] [11] [12] [13] <figures/ocrust_model.pdf, id=524, 462.52798pt x 346.89601pt>
+[7] [8] [9] [10] [11] [12] [13] <figures/ocrust_model.pdf, id=525, 462.52798pt x 346.89601pt>
 File: figures/ocrust_model.pdf Graphic file (type pdf)
  <use figures/ocrust_model.pdf>
 Package pdftex.def Info: figures/ocrust_model.pdf used on input line 524.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
- [14] <figures/ocrust_pres.pdf, id=551, 462.52798pt x 346.89601pt>
+ [14] <figures/ocrust_pres.pdf, id=552, 462.52798pt x 346.89601pt>
 File: figures/ocrust_pres.pdf Graphic file (type pdf)
  <use figures/ocrust_pres.pdf>
 Package pdftex.def Info: figures/ocrust_pres.pdf used on input line 577.
@@ -1015,7 +1015,7 @@ Package pdftex.def Info: figures/ocrust_pres.pdf used on input line 577.
 
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [15 <./figures/ocrust_model.pdf>] [16 <./figures/ocrust_pres.pdf>] <figures/clustering.pdf, id=611, 462.52798pt x 346.89601pt>
+ [15 <./figures/ocrust_model.pdf>] [16 <./figures/ocrust_pres.pdf>] <figures/clustering.pdf, id=613, 462.52798pt x 346.89601pt>
 File: figures/clustering.pdf Graphic file (type pdf)
  <use figures/clustering.pdf>
 Package pdftex.def Info: figures/clustering.pdf used on input line 629.
@@ -1025,7 +1025,7 @@ Overfull \hbox (2.11453pt too wide) in paragraph at lines 758--778
  [] 
  []
 
-[19] [20] [21] <figures/mm_accuracy.pdf, id=704, 462.52798pt x 346.89601pt>
+[19] [20] [21] <figures/mm_accuracy.pdf, id=705, 462.52798pt x 346.89601pt>
 File: figures/mm_accuracy.pdf Graphic file (type pdf)
  <use figures/mm_accuracy.pdf>
 Package pdftex.def Info: figures/mm_accuracy.pdf used on input line 981.
@@ -1033,12 +1033,12 @@ Package pdftex.def Info: figures/mm_accuracy.pdf used on input line 981.
  [22]
 Underfull \vbox (badness 4954) has occurred while \output is active []
 
- [23 <./figures/mm_accuracy.pdf>] [24] <figures/surf_fit.pdf, id=767, 462.52798pt x 346.89601pt>
+ [23 <./figures/mm_accuracy.pdf>] [24] <figures/surf_fit.pdf, id=768, 462.52798pt x 346.89601pt>
 File: figures/surf_fit.pdf Graphic file (type pdf)
  <use figures/surf_fit.pdf>
 Package pdftex.def Info: figures/surf_fit.pdf used on input line 1155.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [25] <figures/surfenpersurfnuc.pdf, id=788, 462.52798pt x 346.89601pt>
+ [25] <figures/surfenpersurfnuc.pdf, id=789, 462.52798pt x 346.89601pt>
 File: figures/surfenpersurfnuc.pdf Graphic file (type pdf)
  <use figures/surfenpersurfnuc.pdf>
 Package pdftex.def Info: figures/surfenpersurfnuc.pdf used on input line 1203.
@@ -1055,12 +1055,12 @@ l.1367 \end{eqnarray}
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1523.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) <figures/compo_icrust_bsk24.pdf, id=921, 578.16pt x 433.62pt>
+) <figures/compo_icrust_bsk24.pdf, id=922, 578.16pt x 433.62pt>
 File: figures/compo_icrust_bsk24.pdf Graphic file (type pdf)
  <use figures/compo_icrust_bsk24.pdf>
 Package pdftex.def Info: figures/compo_icrust_bsk24.pdf used on input line 1578.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
- [32] [33 <./figures/compo_icrust_bsk24.pdf>] <figures/eos_icrust.pdf, id=964, 462.52798pt x 346.89601pt>
+ [32] [33 <./figures/compo_icrust_bsk24.pdf>] <figures/eos_icrust.pdf, id=965, 462.52798pt x 346.89601pt>
 File: figures/eos_icrust.pdf Graphic file (type pdf)
  <use figures/eos_icrust.pdf>
 Package pdftex.def Info: figures/eos_icrust.pdf used on input line 1669.
@@ -1071,22 +1071,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [34]
 Underfull \vbox (badness 2951) has occurred while \output is active []
 
- [35 <./figures/eos_icrust.pdf>] [36] <figures/shcorr_bsk24.pdf, id=1023, 462.52798pt x 346.89601pt>
+ [35 <./figures/eos_icrust.pdf>] [36] <figures/shcorr_bsk24.pdf, id=1024, 462.52798pt x 346.89601pt>
 File: figures/shcorr_bsk24.pdf Graphic file (type pdf)
  <use figures/shcorr_bsk24.pdf>
 Package pdftex.def Info: figures/shcorr_bsk24.pdf used on input line 1790.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [37 <./figures/shcorr_bsk24.pdf>] <figures/icrust_compo_bsk.pdf, id=1051, 462.52798pt x 346.89601pt>
+ [37 <./figures/shcorr_bsk24.pdf>] <figures/icrust_compo_bsk.pdf, id=1052, 462.52798pt x 346.89601pt>
 File: figures/icrust_compo_bsk.pdf Graphic file (type pdf)
  <use figures/icrust_compo_bsk.pdf>
 Package pdftex.def Info: figures/icrust_compo_bsk.pdf used on input line 1815.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [38 <./figures/icrust_compo_bsk.pdf>] [39] <figures/pasta.pdf, id=1115, 462.52798pt x 346.89601pt>
+ [38 <./figures/icrust_compo_bsk.pdf>] [39] <figures/pasta.pdf, id=1116, 462.52798pt x 346.89601pt>
 File: figures/pasta.pdf Graphic file (type pdf)
  <use figures/pasta.pdf>
 Package pdftex.def Info: figures/pasta.pdf used on input line 1969.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [40] [41 <./figures/pasta.pdf>] [42] <figures/sly4_nt.pdf, id=1179, 462.52798pt x 346.89601pt>
+ [40] [41 <./figures/pasta.pdf>] [42] <figures/sly4_nt.pdf, id=1180, 462.52798pt x 346.89601pt>
 File: figures/sly4_nt.pdf Graphic file (type pdf)
  <use figures/sly4_nt.pdf>
 Package pdftex.def Info: figures/sly4_nt.pdf used on input line 2082.
@@ -1094,7 +1094,7 @@ Package pdftex.def Info: figures/sly4_nt.pdf used on input line 2082.
 
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [43 <./figures/sly4_nt.pdf>] <figures/cctp_lsym.pdf, id=1219, 462.52798pt x 346.89601pt>
+ [43 <./figures/sly4_nt.pdf>] <figures/cctp_lsym.pdf, id=1220, 462.52798pt x 346.89601pt>
 File: figures/cctp_lsym.pdf Graphic file (type pdf)
  <use figures/cctp_lsym.pdf>
 Package pdftex.def Info: figures/cctp_lsym.pdf used on input line 2134.
@@ -1118,12 +1118,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2185.
 
-[45] <figures/ocore.pdf, id=1277, 462.52798pt x 346.89601pt>
+[45] <figures/ocore.pdf, id=1278, 462.52798pt x 346.89601pt>
 File: figures/ocore.pdf Graphic file (type pdf)
  <use figures/ocore.pdf>
 Package pdftex.def Info: figures/ocore.pdf used on input line 2273.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [46] [47 <./figures/ocore.pdf>] [48] <figures/unified.pdf, id=1346, 491.436pt x 346.89601pt>
+ [46] [47 <./figures/ocore.pdf>] [48] <figures/unified.pdf, id=1347, 491.436pt x 346.89601pt>
 File: figures/unified.pdf Graphic file (type pdf)
  <use figures/unified.pdf>
 Package pdftex.def Info: figures/unified.pdf used on input line 2402.
@@ -1135,40 +1135,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 2.
 [53
 
-] <figures/mr_popular.pdf, id=1451, 462.52798pt x 346.89601pt>
+] <figures/mr_popular.pdf, id=1452, 462.52798pt x 346.89601pt>
 File: figures/mr_popular.pdf Graphic file (type pdf)
  <use figures/mr_popular.pdf>
-Package pdftex.def Info: figures/mr_popular.pdf used on input line 141.
+Package pdftex.def Info: figures/mr_popular.pdf used on input line 147.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [54] [55] [56 <./figures/mr_popular.pdf>] <figures/crustmassthick.pdf, id=1501, 462.52798pt x 346.89601pt>
+ [54] [55] [56 <./figures/mr_popular.pdf>] <figures/crustmassthick.pdf, id=1502, 462.52798pt x 346.89601pt>
 File: figures/crustmassthick.pdf Graphic file (type pdf)
  <use figures/crustmassthick.pdf>
-Package pdftex.def Info: figures/crustmassthick.pdf used on input line 215.
+Package pdftex.def Info: figures/crustmassthick.pdf used on input line 222.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./figures/crustmassthick.pdf>] <figures/moi_popular.pdf, id=1534, 462.52798pt x 346.89601pt>
+ [57 <./figures/crustmassthick.pdf>] <figures/moi_popular.pdf, id=1535, 462.52798pt x 346.89601pt>
 File: figures/moi_popular.pdf Graphic file (type pdf)
  <use figures/moi_popular.pdf>
-Package pdftex.def Info: figures/moi_popular.pdf used on input line 318.
+Package pdftex.def Info: figures/moi_popular.pdf used on input line 327.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [58] [59 <./figures/moi_popular.pdf>] [60] <figures/tidal_popular.pdf, id=1622, 462.52798pt x 346.89601pt>
+ [58] [59 <./figures/moi_popular.pdf>] [60] [61] <figures/tidal_popular.pdf, id=1639, 462.52798pt x 346.89601pt>
 File: figures/tidal_popular.pdf Graphic file (type pdf)
  <use figures/tidal_popular.pdf>
-Package pdftex.def Info: figures/tidal_popular.pdf used on input line 476.
+Package pdftex.def Info: figures/tidal_popular.pdf used on input line 539.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 ) (./sections/appendices.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <./figures/tidal_popular.pdf>] [63] [64
-
-]
+ [63 <./figures/tidal_popular.pdf>] [64]
 Appendix A.
-[65] [66]
+[65
+
+] [66]
 Appendix B.
 [67
 
@@ -1222,18 +1222,18 @@ Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 15154 strings out of 493013
- 244756 string characters out of 6135682
- 1337472 words of memory out of 5000000
- 18062 multiletter control sequences out of 15000+600000
+ 15161 strings out of 493013
+ 244853 string characters out of 6135682
+ 1337618 words of memory out of 5000000
+ 18063 multiletter control sequences out of 15000+600000
  83022 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,45p,4525b,1286s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (79 pages, 963760 bytes).
+Output written on PhDThesis_CARREAU.pdf (79 pages, 974577 bytes).
 PDF statistics:
- 2074 PDF objects out of 2487 (max. 8388607)
- 1880 compressed objects within 19 object streams
- 398 named destinations out of 1000 (max. 500000)
+ 2087 PDF objects out of 2487 (max. 8388607)
+ 1893 compressed objects within 19 object streams
+ 404 named destinations out of 1000 (max. 500000)
  536 words of extra memory for PDF output out of 10000 (max. 10000000)
 
