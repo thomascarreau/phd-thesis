@@ -356,7 +356,7 @@ selected EoS, the value of $I_{crust}/I$ at $M=1.4M_\odot$
 ranges from $\approx 2\%$ for BSk14 to $\approx 5\%$ for TM1, showing once 
 again the dramatic dependence on the EoS.
 
-\subsubsection{Connection to pulsar glitches}
+\subsubsection{Connection to pulsar glitches}\label{subsubsec:glitch}
 
 The so-called pulsar glitches are sudden jumps in the rotational frequency of 
 a compact star. They are thought to originate from an abrupt transfer of 
@@ -472,15 +472,26 @@ complete statistical analysis~\cite{Carreau2019moi}.
 
 \subsection{Tidal deformability} % 2
 
-% *what is tidal deformability (definition and equations, analogy moon-earth)
-% general definition tidal deformability (also say it depends on the eos)
-% example earth-moon
-% example bns merger (this quantity can be measured using gw observations, 
-%   ultimately leading to new constraints on the eos. blabla gw170817)
+The tidal deformability describes how much a body is deformed by tidal forces,
+which arise when two massive bodies orbit each other. The simplest example
+corresponds of course to the Moon causing the tides observed in Earth's 
+oceans.
+The detection of gravitational radiation emitted by inspiraling binary NS 
+is possible using ground-based gravitational wave (GW) detectors such as LIGO 
+and Virgo. 
+Shortly before merging, once the relative distance between the stars is small
+enough, the tidal distortion of the NS becomes so large that, in some cases (in
+strongest signals), it becomes possible to infer the tidal deformability from 
+the GW signal. Theoretically, the tidal deformability parameter is the 
+observable which makes the link between the EoS and the gravitational signal. 
+In that sense, GW observations can ultimately provide new constraints on the 
+EoS. In particular, the first dectection of GW from the coalescence of two NS, 
+the GW170817 event, have yielded a value for the tidal deformability of a 
+$1.4M_\odot$ NS~\cite{GW1}.
 
 Let us consider a static, spherically symmetric NS, placed in a static external
 quadrupolar tidal field $\mathcal{E}_{tid}$. The induced quadrupole moment of
-the star is given by 
+this star is given by 
 %
 \begin{equation}
   Q_{tid} = -\lambda \mathcal{E}_{tid},
@@ -496,16 +507,13 @@ tidal Love number $k_2$ by
 Let us also define the dimensionless tidal deformability,
 %
 \begin{equation}
-  \Lambda = \frac{\lambda}{M^5} = \frac{2}{3}k^2\beta^{-5},
+  \Lambda = \frac{\lambda}{M^5} = \frac{2}{3}k_2\beta^{-5},
 \end{equation}
 %
 where we have introduced the compactness of the star $\beta = GM/(Rc^2)$.
-% explanation what is k2? 
-% blabla asymtotic expansion of the metric at large r
-% blabla einstein field equations
-Similarly to the calculation of the moment of inertia in the slow rotation
-approximation, $k_2$ can be obtained from the solution of the following 
-first-order differential equation,
+Similarly to the moment of inertia in the slow rotation approximation, $k_2$ 
+can be obtained from the solution of the following first-order differential 
+equation~\cite{Hinderer2010},
 %
 \begin{eqnarray}
   \frac{dy}{dr} &=& -\frac{y^2}{r} - \frac{y-6}{r-2Gm/c^2} \notag\\
@@ -543,13 +551,35 @@ with
     dimensionless tidal deformability $\Lambda$ (lower panel) as a function of 
     the NS mass $M$ for several popular EoS calculated within the metamodeling 
   technique. The black dotted line marks the NS canonical mass, that is
-$1.4M_\odot$. In the lower panel, the upper bound $\Lambda_{1.4} \leq 800$ 
-inferred from GW170817 event is 
-represented~\cite{GWtidal}.}\label{fig:tidal_popular}
+$1.4M_\odot$. In the inset of the lower panel, the value 
+$\Lambda_{1.4} = 190_{-120}^{+390}$ (at $90\%$ level) inferred from GW170817 
+event is represented~\cite{GW1}.}\label{fig:tidal_popular}
 \end{figure}
 
-% discussion figure (Let us notice the tug of war: ifrac,mass wants stiff eos 
-%   but lambda wants soft)
+Fig.~\ref{fig:tidal_popular} shows the variation with NS mass of $k_2$ for the 
+several popular EoS that we consider in this chapter. The tidal Love number
+measures how easily the bulk of the matter in a NS is deformed. In the case
+of the mass being concentrated at the center of the star, the tidal deformation 
+is small, and so is $k_2$. In agreement with~\cite{Hinderer2010}, we find that 
+$k_2$ lies in the range $\approx 0.05-0.15$. The relative difference between
+the present EoS is of the order of $\approx 35\%$ for $M=1.4M_\odot$, showing
+once again the dramatic dependence on the EoS. Let us point out that the tidal 
+Love number is very sensitive to the description of the crustal component of 
+the EoS~\cite{Piekarewicz2019}.
+
+The dimensionless tidal deformability is plotted as a function of $M$ in the 
+lower panel of Fig.~\ref{fig:tidal_popular}. In the mass range considered, it 
+is seen that the more massive the NS is, the less it gets deformed when 
+orbiting another massive compact object. In the inset, we show the value of
+the dimensionless tidal deformability for a $1.4M_\odot$ NS inferred from the 
+GW170817 event, $\Lambda_{1.4} = 190_{-120}^{+390}$ at the $90\%$ level. We can
+observe that the EoS which predict the largest tidal effects, PKDD and TM1, are 
+unlikely. One can notice the tug or war between the tendency of wanting soft 
+EoS, typically based on nonrelativistic Skyrme-type functionals, which predict 
+small tidal deformations, and wanting very stiff EoS, typically based on 
+relativistic models, to explain the glitch phenomenon as a transfer of angular
+momentum from the neutron superfluid confined in the crystal lattice to the 
+solid crust.
 
 \section{Bayesian modeling of the equation of state} % 0.75
 
@@ -558,10 +588,17 @@ represented~\cite{GWtidal}.}\label{fig:tidal_popular}
 
 \subsection{Principle of Bayesian inference} % 1.5
 
-% expressions
-% discussions
+% general expressions
+% application in physics: 'we generate a lot of models given the current
+%   knowledge provided by experimental nuclear physics and filter those models
+%   (sets of empirical parameters) through constraints to finally obtain the
+%   posterior dristribution'
 
 \subsection{Prior distribution from nuclear experiments} % 2
+
+% disucuss that surface parameters are not included in the parameter set
+%   because very peaked (see explanation in CC transition and refer to figure
+%   surface parameters in Chapter 1)
 
 \subsection{Sensitivity analysis} % 3
 % ... on the crust-core transition point?
@@ -592,6 +629,10 @@ physical requirements} % 1.5
 
 \subsection{Confrontation with GW170817 event} % 1
 
+% general presentation of the gw170817 event
+% say that we identify it to a bns because we observed em counterparts
+%   -> multimessenger era
+
 \subsubsection{Equation of state} % 1
 
 \subsubsection{Mass-radius relation} % 1.5
@@ -601,12 +642,11 @@ physical requirements} % 1.5
 
 \subsubsection{Tidal deformability} % 2
 
+% mchirp is measured very precisely
 % was measured for the first time for gw170817 event allowing to calculate the
 %   m1-m2, lambda1-lambda2 relations
 
 \subsection{Bayesian analysis of the crust-core transition} % 4
-
-% different estimations of crustal entrainment
 
 % surface figures (prior/posterior)
 % corr(Pt,Ksym) (link with chapter 1)
