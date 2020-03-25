@@ -2453,8 +2453,12 @@
     <bcf:citekey order="268">Piekarewicz2014</bcf:citekey>
     <bcf:citekey order="269">Delsate2016</bcf:citekey>
     <bcf:citekey order="270">Carreau2019moi</bcf:citekey>
-    <bcf:citekey order="271">GWtidal</bcf:citekey>
-    <bcf:citekey order="272">GWtidal</bcf:citekey>
+    <bcf:citekey order="271">GW1</bcf:citekey>
+    <bcf:citekey order="272">Hinderer2010</bcf:citekey>
+    <bcf:citekey order="273">GW1</bcf:citekey>
+    <bcf:citekey order="274">GW1</bcf:citekey>
+    <bcf:citekey order="275">Hinderer2010</bcf:citekey>
+    <bcf:citekey order="276">Piekarewicz2019</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
