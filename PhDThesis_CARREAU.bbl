@@ -15964,6 +15964,34 @@
       \verb https://doi.org/10.1088%2F0264-9381%2F30%2F22%2F224003
       \endverb
     \endentry
+    \entry{Bayes}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c3bfcb8c1f3f6b0f420a908bbffbe820}{%
+           family={Sivia},
+           familyi={S\bibinitperiod},
+           given={Devinderjit},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2f08a0c28df14bc0892cef59af7adb6c}{%
+           family={Skilling},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OUP Oxford}%
+      }
+      \strng{namehash}{b7927c1877348a44105b95449673acc5}
+      \strng{fullhash}{b7927c1877348a44105b95449673acc5}
+      \strng{authornamehash}{b7927c1877348a44105b95449673acc5}
+      \strng{authorfullhash}{b7927c1877348a44105b95449673acc5}
+      \field{labelalpha}{SS06}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data analysis: a Bayesian tutorial}
+      \field{year}{2006}
+    \endentry
     \entry{Tolman1939}{article}{}
       \name{author}{1}{}{%
         {{hash=6216dd633046f7ab6604e65787e7b686}{%

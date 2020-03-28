@@ -1,7 +1,7 @@
 % *****************************************************************************
 %     sections/chapter2.tex
 %
-% Last edit: 16/03
+% Last edit: 27/03
 % *****************************************************************************
 
 \chapter{Bayesian inference of neutron star observables}
@@ -11,20 +11,24 @@
 
 \section{From the equation of state to neutron star observables}
 
-% EoS microscopic -> one wants to evaluate macroscopic properties of the star,
-%   such as its mass or radius.
-% hydrostatic equilibrium
-This section deals with the evaluation of NS observables for several popular
-EoS calculated within the metamodeling technique introduced in Chapter 1.
-In~\ref{subsec:masses}, we first solve the hydrostatic equilibrium equations in
-general relativity for a static, spherically symmetric NS, so as to obtain the 
-mass-radius relation. The thickness and mass of the crust are 
-also evaluated. The calculation of the NS moment of inertia in the slow 
-rotation approximation is performed in~\ref{subsec:moi}. In particular, we show 
-how the fraction of crust moment of inertia is connected to the observation of 
-pulsar glitches. In~\ref{subsec:tidal}, we finally compute the tidal 
-deformability, which describes how much the NS is deformed by tidal forces, 
-arising, for instance, when two NS orbit each other.
+The stellar EoS, the determination of which was studied thoroughly in Chapter 
+1, is the fundamental ingredient to build NS models. It enters into the 
+basic equation for calculating macroscopic observables relevant to NS, that is 
+so-called Tolman-Oppenheimer-Volkoff (TOV) equation, which describes the 
+hydrostatic equilibrium for a spherically symmetric star in the framework of 
+general relativity~\cite{Tolman1939,Oppenheimer1939}.
+
+This section deals with the estimation of NS observables for several 
+popular EoS calculated within the metamodeling technique introduced in 
+Chapter 1. In~\ref{subsec:masses}, we first solve the hydrostatic 
+equilibrium equations so as to determine the mass-radius relation. The 
+thickness and mass of the crust are also evaluated. The calculation of the NS 
+moment of inertia in the slow rotation approximation is performed 
+in~\ref{subsec:moi}. In particular, we show how the fraction of crust moment 
+of inertia is connected to the 
+observation of pulsar glitches. In~\ref{subsec:tidal}, we finally compute the 
+tidal deformability, which describes how much the NS is deformed by tidal 
+forces, arising, for instance, when two NS orbit each other.
 
 \subsection{Masses and radii}\label{subsec:masses}
 
@@ -86,7 +90,7 @@ related to the enclosed mass $m(r)$ through
 \end{equation}
 %
 % description of the equations
-Eq.~(\ref{eq:tov}) is the so-called Tolman-Oppenheimer-Volkoff (TOV) equation 
+Eq.~(\ref{eq:tov}) is the TOV equation 
 of hydrostatic equilibrium. The integration of Eq.~(\ref{eq:massbal}) from
 $r=0$ to the boundary $r=R$, $R$ being the NS radius, gives the total
 gravitational mass $M=m(R)$ of the star. Eq.~(\ref{eq:metric}) is a 
@@ -601,17 +605,117 @@ solid crust.
 
 \subsection{Principle of Bayesian inference} % 1.5
 
-% general expressions
-% application in physics: 'we generate a lot of models given the current
-%   knowledge provided by experimental nuclear physics and filter those models
-%   (sets of empirical parameters) through constraints to finally obtain the
-%   posterior dristribution'
+The core of Bayesian inference is based on well-known Bayes' theorem, 
+which provides an expression for the conditional probability (or posterior
+probability) of $A$ given $B$,
+%
+\begin{equation}
+  P(A|B) = \frac{P(B|A)P(A)}{P(B)}.
+\end{equation}
+%
+In this equation, $P(B|A)$ is the conditional probability of $B$ given $A$, 
+$P(A)$ is the prior probability of $A$, and $P(B)$ that of $B$.
+In the model form of Bayes' theorem, one replaces $B$ by data, $A$ with 
+parameter set $\bm{X}$, and $P$ with probability density functions (PDF) 
+$p$, resulting in~\cite{Bayes}
+%
+\begin{equation}
+  p(\bm{X}|\text{data}) = \frac{p(\text{data}|\bm{X})
+  p(\bm{X})}{p(\text{data})}.\label{eq:bayes1}
+\end{equation}
+%
+The denominator is not a distribution but a normalization constant which makes 
+sure that the posterior distribution $p(\bm{X}|\text{data})$ is a 
+true probability distribution, by ensuring that the sum of the distribution is 
+equal to 1. It is given by
+%
+\begin{equation}
+  p(\text{data}) = \int p(\text{data}|\bm{X})p(\bm{X})
+  d\{X\}.
+\end{equation}
+%
+The model-based formulation of Bayes' theorem, Eq.~(\ref{eq:bayes1}), is 
+therefore often written as
+%
+\begin{equation}
+  p(\bm{X}|\text{data}) \propto p(\text{data}|\bm{X})
+  p(\bm{X}).
+\end{equation}
+%
+The marginal one- and two-parameter posterior distributions can be extracted
+from the posterior distribution. Then are defined respectively as
+%
+\begin{eqnarray}
+  p(X_j|\text{data}) &=& \left\{\prod_{i \neq j} \int
+  dX_i\right\}p(\bm{X}|\text{data}),\\
+  p(X_j,X_k|\text{data}) &=& \left\{\prod_{i \neq j,k} 
+    \int dX_i\right\}p(\bm{X}|\text{data}).
+\end{eqnarray}
+%
 
-\subsection{Prior distribution from nuclear experiments} % 2
+Let us describe the different components of Bayesian inference. The 
+prior distribution $p(\bm{X})$ represents our knowledge or bias on the 
+model parameters. It can be more or less informative. 
+$p(\text{data}|\bm{X})$ is the likelihood distribution determined from 
+the data comparison between the model and the measurement. In that sense, the 
+likelihood makes the link between the data and model. Multiplying the prior by 
+the likelihood function, we obtain the unnormalized joint posterior PDF, which 
+corresponds to the conditional distribution of model parameters $\bm{X}$ 
+given the data. Let us notice that the prior distribution affects the posterior
+distribution. 
 
-% disucuss that surface parameters are not included in the parameter set
-%   because very peaked (see explanation in CC transition and refer to figure
-%   surface parameters in Chapter 1)
+Bayesian inference is an appealing statistical method in the sense that it 
+allows to calculate the joint posterior distribution of model parameters using 
+prior beliefs updated with the likelihood. In the context of NS physics, and 
+from the nuclear physicist point of view, it allows for instance to update our 
+knowledge on the nuclear EoS by taking into consideration the data arising from 
+various astrophysical observations (maximum mass, tidal deformability, etc.).
+
+We turn to the description of the parameter set $\bm{X}$. Our calcutation
+of the stellar EoS is based on the metamodeling of nuclear matter
+energy~\cite{Margueron2018a} introduced in~\ref{subsubsec:hnm}. The empirical
+parameters $E_{sat}$, $n_{sat}$, $K_{sat}$, $Q_{sat}$, $Z_{sat}$, $E_{sym}$,
+$L_{sym}$, $K_{sym}$, $Q_{sym}$, $Z_{sym}$, $m_{sat}^*/m$, and $\Delta
+m_{sat}^*/m$ -- which we recall are given by the successive derivatives of the 
+NM energy at saturation density in isoscalar and isovector sectors -- therefore 
+enter into the parameter set. The parameter $b$ is also added in order 
+to explore different functional behaviors close to the $n\rightarrow 0$ limit.
+The parameter $b$, together with the isoscalar effective mass $m_{sat}^*/m$ and 
+isospin splitting $\Delta m_{sat}^*$, completes the parameter space $\bm{B}$, 
+associated to the description of bulk matter.
+In the solid crust, the metamodeling technique is supplemented by a surface 
+plus curvature term in order to describe the surface properties of finite 
+nuclei. Thus, one could consider adding the surface and curvature parameters, 
+respectively $\sigma_0$, $b_s$, $p$, and $\sigma_{0c}$, $\beta$, as extra
+parameters to $\bm{X}$. However, we have
+seen in Fig.~\ref{fig:surf_fit} that the $\chi^2$ function, which evaluates the 
+goodness of the fit of those parameters to experimental nuclear masses given 
+BSk24 empirical parameters and $p=3$, is strongly peaked on a given set
+$\bm{S}=\bm{S_{opt}}$. We expect this 
+feature to be recovered for every model. Apart from $p$ which determines the 
+behavior of the surface tension for extreme isospin values, we therefore choose 
+to not include the surface and curvature parameters in $\bm{X}$ but to take the
+set $\bm{S_{opt}}$ that minimizes $\chi^2$, as explained 
+in~\ref{subsubsec:cld}.
+
+Numerically, we proceed as follows. We first generate a large number of models, 
+each of them being defined by a set of parameters $\bm{X}$, to 
+numerically sample the prior parameter distribution. Then, we filter those 
+models through constraints, which comes from physical requirements, 
+astrophysical observations, and ab initio calculations. This gives us the 
+posterior distribution of empirical parameters, from which we can finally
+calculate the posterior EoS and make general predictions for NS observables. 
+Those predictions are presented in Section~\ref{sec:general}.
+
+\subsection{Prior distribution from nuclear experiments}\label{subsec:prior}
+
+Blabla.
+
+% discuss the value of p = 2.5, 3, 3.5
+
+% give description of each parameter (current knowledge blabla)
+
+% flat prior
 
 \subsection{Sensitivity analysis} % 3
 % ... on the crust-core transition point?
@@ -628,6 +732,8 @@ solid crust.
 \subsubsection{High-density filters from astrophysical observations and 
 physical requirements} % 1.5
 
+% speak ld hd high order parameters
+
 % symmetry energy positive is a debatable hypothesis (see remark of referee)
 % maximum mass as a sharp filter? 1.97? 2.23?
 % more constraints in the future with nicer and lvc
@@ -636,7 +742,7 @@ physical requirements} % 1.5
 
 % discuss the importance of filters?
 
-\section{General predictions for neutron star observables} % 0.75
+\section{General predictions for neutron star observables}\label{sec:general}
 
 % should i add a subsection 'Posterior distribution of NS observables'?
 
