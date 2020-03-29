@@ -616,7 +616,7 @@ probability) of $A$ given $B$,
 In this equation, $P(B|A)$ is the conditional probability of $B$ given $A$, 
 $P(A)$ is the prior probability of $A$, and $P(B)$ that of $B$.
 In the model form of Bayes' theorem, one replaces $B$ by data, $A$ with 
-parameter set $\bm{X}$, and $P$ with probability density functions (PDF) 
+a parameter set $\bm{X}$, and $P$ with probability density functions (PDF) 
 $p$, resulting in~\cite{Bayes}
 %
 \begin{equation}
@@ -631,7 +631,7 @@ equal to 1. It is given by
 %
 \begin{equation}
   p(\text{data}) = \int p(\text{data}|\bm{X})p(\bm{X})
-  d\{X\}.
+  d\bm{X}.
 \end{equation}
 %
 The model-based formulation of Bayes' theorem, Eq.~(\ref{eq:bayes1}), is 
@@ -655,29 +655,42 @@ from the posterior distribution. Then are defined respectively as
 
 Let us describe the different components of Bayesian inference. The 
 prior distribution $p(\bm{X})$ represents our knowledge or bias on the 
-model parameters. It can be more or less informative. 
-$p(\text{data}|\bm{X})$ is the likelihood distribution determined from 
-the data comparison between the model and the measurement. In that sense, the 
-likelihood makes the link between the data and model. Multiplying the prior by 
-the likelihood function, we obtain the unnormalized joint posterior PDF, which 
-corresponds to the conditional distribution of model parameters $\bm{X}$ 
-given the data. Let us notice that the prior distribution affects the posterior
+model parameters. It can thus be more or less informative.
+$p(\text{data}|\bm{X})$ is the likelihood of observing the data given the model
+parameters $\bm{X}$. It is determined from the data comparison between the 
+model and the measurement via an error estimator. In that sense, the link 
+between the data and the model parameters is encoded in the likelihood
 distribution. 
+Multiplying the prior by the likelihood function, one obtains the unnormalized 
+joint posterior PDF, which corresponds to the conditional distribution of 
+model parameters $\bm{X}$ given the data. Let us notice that the prior 
+distribution affects the posterior distribution. 
 
 Bayesian inference is an appealing statistical method in the sense that it 
 allows to calculate the joint posterior distribution of model parameters using 
 prior beliefs updated with the likelihood. In the context of NS physics, and 
 from the nuclear physicist point of view, it allows for instance to update our 
 knowledge on the nuclear EoS by taking into consideration the data arising from 
-various astrophysical observations (maximum mass, tidal deformability, etc.).
+various astrophysical observations, that are for example the NS mass inferred
+from Shapiro delay or the tidal deformability from GW measurements.
+Conversely, one can account for nuclear physics constraints in the prediction 
+of macroscopic observables related to NS. 
+In our case, we first generate a large number of NM models, 
+each of them being defined by a set of parameters $\bm{X}$, to 
+numerically sample the prior parameter distribution. Then, we filter those 
+models through constraints, which come from physical requirements, 
+astrophysical observations, and ab initio calculations of SNM and PNM. This 
+gives us the joint posterior distribution of model parameters, from which we 
+can finally calculate the posterior EoS and make general predictions for NS 
+observables. Those predictions are presented in Section~\ref{sec:general}.
 
-We turn to the description of the parameter set $\bm{X}$. Our calcutation
+We now turn to the description of the parameter set $\bm{X}$. Our calcutation
 of the stellar EoS is based on the metamodeling of nuclear matter
 energy~\cite{Margueron2018a} introduced in~\ref{subsubsec:hnm}. The empirical
 parameters $E_{sat}$, $n_{sat}$, $K_{sat}$, $Q_{sat}$, $Z_{sat}$, $E_{sym}$,
-$L_{sym}$, $K_{sym}$, $Q_{sym}$, $Z_{sym}$, $m_{sat}^*/m$, and $\Delta
-m_{sat}^*/m$ -- which we recall are given by the successive derivatives of the 
-NM energy at saturation density in isoscalar and isovector sectors -- therefore 
+$L_{sym}$, $K_{sym}$, $Q_{sym}$, and $Z_{sym}$ -- which we recall are given by 
+the successive derivatives of the NM energy at saturation density in isoscalar 
+and isovector sectors -- therefore 
 enter into the parameter set. The parameter $b$ is also added in order 
 to explore different functional behaviors close to the $n\rightarrow 0$ limit.
 The parameter $b$, together with the isoscalar effective mass $m_{sat}^*/m$ and 
@@ -696,20 +709,10 @@ feature to be recovered for every model. Apart from $p$ which determines the
 behavior of the surface tension for extreme isospin values, we therefore choose 
 to not include the surface and curvature parameters in $\bm{X}$ but to take the
 set $\bm{S_{opt}}$ that minimizes $\chi^2$, as explained 
-in~\ref{subsubsec:cld}.
-
-Numerically, we proceed as follows. We first generate a large number of models, 
-each of them being defined by a set of parameters $\bm{X}$, to 
-numerically sample the prior parameter distribution. Then, we filter those 
-models through constraints, which comes from physical requirements, 
-astrophysical observations, and ab initio calculations. This gives us the 
-posterior distribution of empirical parameters, from which we can finally
-calculate the posterior EoS and make general predictions for NS observables. 
-Those predictions are presented in Section~\ref{sec:general}.
+in~\ref{subsubsec:cld}. The parameter $p$ thus completes the parameter set,
+which we note in a compact form as $\bm{X} \equiv (\bm{B},p)$.
 
 \subsection{Prior distribution from nuclear experiments}\label{subsec:prior}
-
-Blabla.
 
 % discuss the value of p = 2.5, 3, 3.5
 
