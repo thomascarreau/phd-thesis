@@ -14413,6 +14413,44 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.100.035802
       \endverb
     \endentry
+    \entry{Li2014}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=f01314f963f501381a705793b5ac6f7e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bao-An},
+           giveni={B\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=cb6c79d3cb9dcefc8ab2b5959858939e}{%
+           family={Ramos},
+           familyi={R\bibinitperiod},
+           given={Àngels},
+           giveni={À\bibinitperiod}}}%
+        {{hash=e906f58291b21f3c826f240d026daf80}{%
+           family={Verde},
+           familyi={V\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a7fa8d4fe960cb52079d717e0b5dfdbf}{%
+           family={Vidaña},
+           familyi={V\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b4fede9bb6e62872982a8a7402f5be05}
+      \strng{fullhash}{5a70299bf1e3c5cb521a7a1f45729d19}
+      \strng{authornamehash}{b4fede9bb6e62872982a8a7402f5be05}
+      \strng{authorfullhash}{5a70299bf1e3c5cb521a7a1f45729d19}
+      \field{labelalpha}{Li+14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Topical issue on nuclear symmetry energy}
+      \field{year}{2014}
+    \endentry
     \entry{Long2004}{article}{}
       \name{author}{4}{}{%
         {{hash=99171f0127536c739fdd39c88c934c66}{%

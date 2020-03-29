@@ -152,9 +152,9 @@ the ELFd technique introduced in \cite{Margueron2018a}.
   \bottomrule
 \end{tabular}
 \end{center}
-\caption[Empirical parameters for BSk14, PKDD, and TM1]{Empirical parameter and 
-  associated unit and derivative order $N$ for BSk14 \cite{Goriely2007}, PKDD
-  \cite{Long2004}, and TM1~\cite{Sumiyoshi1995} 
+\caption[Empirical parameters for BSk14, PKDD, and TM1]{Value of each of the 
+  empirical parameters ,associated unit, and derivative order $N$ for BSk14 
+  \cite{Goriely2007}, PKDD \cite{Long2004}, and TM1~\cite{Sumiyoshi1995} 
 functionals.}\label{table:newemppar}
 \end{table}
 
@@ -675,16 +675,16 @@ various astrophysical observations, that are for example the NS mass inferred
 from Shapiro delay or the tidal deformability from GW measurements.
 Conversely, one can account for nuclear physics constraints in the prediction 
 of macroscopic observables related to NS. 
-In our case, we first generate a large number of NM models, 
-each of them being defined by a set of parameters $\bm{X}$, to 
-numerically sample the prior parameter distribution. Then, we filter those 
-models through constraints, which come from physical requirements, 
-astrophysical observations, and ab initio calculations of SNM and PNM. This 
+In our case, we first generate a large number of EoS, each of them being 
+defined by a set of parameters $\bm{X}$, to numerically sample the prior 
+parameter distribution. Then, we filter those EoS through constraints, which 
+arise from physical requirements, astrophysical observations, and ab initio
+calculations of SNM and PNM. This 
 gives us the joint posterior distribution of model parameters, from which we 
 can finally calculate the posterior EoS and make general predictions for NS 
 observables. Those predictions are presented in Section~\ref{sec:general}.
 
-We now turn to the description of the parameter set $\bm{X}$. Our calcutation
+Let us describe the parameter set $\bm{X}$. Our calcutation
 of the stellar EoS is based on the metamodeling of nuclear matter
 energy~\cite{Margueron2018a} introduced in~\ref{subsubsec:hnm}. The empirical
 parameters $E_{sat}$, $n_{sat}$, $K_{sat}$, $Q_{sat}$, $Z_{sat}$, $E_{sym}$,
@@ -694,7 +694,7 @@ and isovector sectors -- therefore
 enter into the parameter set. The parameter $b$ is also added in order 
 to explore different functional behaviors close to the $n\rightarrow 0$ limit.
 The parameter $b$, together with the isoscalar effective mass $m_{sat}^*/m$ and 
-isospin splitting $\Delta m_{sat}^*$, completes the parameter space $\bm{B}$, 
+isospin splitting $\Delta m_{sat}^*/m$, completes the parameter space, 
 associated to the description of bulk matter.
 In the solid crust, the metamodeling technique is supplemented by a surface 
 plus curvature term in order to describe the surface properties of finite 
@@ -705,34 +705,98 @@ seen in Fig.~\ref{fig:surf_fit} that the $\chi^2$ function, which evaluates the
 goodness of the fit of those parameters to experimental nuclear masses given 
 BSk24 empirical parameters and $p=3$, is strongly peaked on a given set
 $\bm{S}=\bm{S_{opt}}$. We expect this 
-feature to be recovered for every model. Apart from $p$ which determines the 
-behavior of the surface tension for extreme isospin values, we therefore choose 
-to not include the surface and curvature parameters in $\bm{X}$ but to take the
-set $\bm{S_{opt}}$ that minimizes $\chi^2$, as explained 
-in~\ref{subsubsec:cld}. The parameter $p$ thus completes the parameter set,
-which we note in a compact form as $\bm{X} \equiv (\bm{B},p)$.
+feature to be recovered for every model and we therefore choose to not include 
+the surface and curvature parameters in $\bm{X}$ but to take the set 
+$\bm{S_{opt}}$ that minimizes $\chi^2$, as explained in~\ref{subsubsec:cld}. 
+We consider two choices for the value of the parameter $p$, which determines 
+the behavior of the surface tension for extreme isospin values. Either it is 
+fixed to the educated value $p=3$ or $p=\{2.5,3,3.5\}$ is considered for each
+set of empirical parameters.
 
-\subsection{Prior distribution from nuclear experiments}\label{subsec:prior}
+\subsection{Prior distribution of empirical parameters}
 
-% discuss the value of p = 2.5, 3, 3.5
+We now discuss the prior distribution of empirical parameters. We first give 
+insights concerning the selected intervals for the flat prior. A senstivity 
+analysis of the CC transition point is performed afterwards.
 
-% give description of each parameter (current knowledge blabla)
+\subsubsection{Flat prior compatible with empirical constraints}\label{subsubsec:prior}
 
-% flat prior
+\begin{table}[!t]
+  \begin{center}
+    \begin{tabular}{ccccc} 
+      \toprule
+      \toprule
+      Parameter & Unit & $N$ & Min & Max \\
+      \midrule
+      $E_{sat}$ & MeV & 0         & -17   & -15  \\
+      $n_{sat}$ & fm$^{-3}$ & 1   & 0.15  & 0.17 \\ 
+      $K_{sat}$ & MeV & 2         & 190   & 270  \\ 
+      $Q_{sat}$ & MeV & 3         & -1000 & 1000 \\ 
+      $Z_{sat}$ & MeV & 4         & -3000 & 3000 \\ 
+      $E_{sym}$ & MeV & 0         & 26    & 38   \\
+      $L_{sym}$ & MeV & 1         & 10    & 80   \\
+      $K_{sym}$ & MeV & 2         & -400  & 200  \\
+      $Q_{sym}$ & MeV & 3         & -2000 & 2000 \\
+      $Z_{sym}$ & MeV & 4         & -5000 & 5000 \\
+      $m_{sat}^*/m$ & &           & 0.6   & 0.8  \\
+      $\Delta m_{sat}^*/m$ & &    & 0.0   & 0.2  \\
+      $b$ & &                     & 1     & 10   \\
+      \bottomrule
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \caption[Minimum value and maximum value of each of the empirical parameters
+  for the prior distribution]{Minimum value and maximum value of each of the
+    parameters of parameter set $\bm{X}$. The associated unit and derivative 
+  order $N$ are also reported.}\label{table:prior}
+\end{table}
 
-\subsection{Sensitivity analysis} % 3
-% ... on the crust-core transition point?
+The prior distribution of $\bm{X}$ is given by an uncorrelated ansatz and an
+uniform distribution of each parameter within the interval specified in
+Table~\ref{table:prior},
+%
+\begin{equation}
+  p(\bm{X}) = \prod_{i=1}^{2(N+1)+3} \mathcal{U}(X_i^{min}, X_i^{max};X_i),
+\end{equation}
+%
+where $X_i$ is uniformely distributed from $X_i^{min}$ to $X_i^{max}$. The use 
+of a flat prior means that all possible values of $\bm{X}$ are equally
+likely a priori.
+
+The range of variation for the model parameters reflect the degree of 
+uncertainty on the EoS parameters, as measured by their variation in the 
+functionals which reproduce succesfully low energy nuclear physics
+data~\cite{Margueron2018a}. One can separate the model parameters into two 
+groups, depending on how well they are experimentally constrained. It consists 
+of the low-order isoscalar parameters $E_{sat}$, $n_{sat}$, $K_{sat}$, the 
+symmetry energy at saturation density $E_{sym}$, as well as the effective mass 
+$m_{sat}^*$ and isospin splitting $\Delta m_{sat}^*/m$ are rather well 
+determined by nuclear experiments, with associated relative uncertainties lower 
+than $15\%$, and constitute the first group. The second group consists of the
+parameters that are still poorly determined, and those that are not accessible 
+by nuclear experiments to the present day. While the uncertainties on the 
+isoscalar skewness $Q_{sat}$, the slope of the symmetry energy $L_{sym}$, and 
+the isovector incompressibility $K_{sym}$ are yet very large, one can expect a 
+better accuracy to be reached in the near future. In particular, the
+determination of $L_{sym}$ is an highly topical issue nowadays~\cite{Li2014}.
+Finally The isovector sqewness $Q_{sym}$ as well as the parameters of order 
+$N=4$, $Z_{sat}$ and $Z_{sym}$, are unaccessible in the laboratory up to the
+present. In consequence, we explore very large ranges for these parameters.
+
+\subsubsection{Sensitivity analysis of the crust-core transition point} % 3
+
+% cf CC paper
 
 \subsection{Filters} % 0.25
 
-\subsubsection{Low-density filters from ab initio calculations} % 2.5
+\subsubsection{Constraints on nuclear physics observables} % 2.5
 
 % discuss ab initio calculations (saturation properties, max is 0.2, etc.)
 % should we consider the pressure as a filter or not? (bsk24 does not fit in
 %   the band)
 % +/- 10% to account for other ab initio calculations
 
-\subsubsection{High-density filters from astrophysical observations and 
+\subsubsection{Constraints arising from astrophysical observations and 
 physical requirements} % 1.5
 
 % speak ld hd high order parameters
