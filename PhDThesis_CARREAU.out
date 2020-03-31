@@ -33,14 +33,14 @@
 \BOOKMARK [3][-]{subsubsection.2.1.2.1}{Total moment of inertia and fraction contained in the crust}{subsection.2.1.2}% 33
 \BOOKMARK [3][-]{subsubsection.2.1.2.2}{Connection to pulsar glitches}{subsection.2.1.2}% 34
 \BOOKMARK [2][-]{subsection.2.1.3}{Tidal deformability}{section.2.1}% 35
-\BOOKMARK [1][-]{section.2.2}{Bayesian modeling of the equation of state}{chapter.2}% 36
+\BOOKMARK [1][-]{section.2.2}{Bayesian determination of the equation of state parameters}{chapter.2}% 36
 \BOOKMARK [2][-]{subsection.2.2.1}{Principle of Bayesian inference}{section.2.2}% 37
 \BOOKMARK [2][-]{subsection.2.2.2}{Prior distribution of empirical parameters}{section.2.2}% 38
 \BOOKMARK [3][-]{subsubsection.2.2.2.1}{Flat prior compatible with empirical constraints}{subsection.2.2.2}% 39
 \BOOKMARK [3][-]{subsubsection.2.2.2.2}{Sensitivity analysis of the crust-core transition point}{subsection.2.2.2}% 40
-\BOOKMARK [2][-]{subsection.2.2.3}{Filters}{section.2.2}% 41
-\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Constraints on nuclear physics observables}{subsection.2.2.3}% 42
-\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Constraints arising from astrophysical observations and physical requirements}{subsection.2.2.3}% 43
+\BOOKMARK [2][-]{subsection.2.2.3}{Determination of the likelihood function}{section.2.2}% 41
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Constraints on neutron star observables and physical requirements}{subsection.2.2.3}% 42
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Constraints on nuclear physics observables}{subsection.2.2.3}% 43
 \BOOKMARK [2][-]{subsection.2.2.4}{Posterior distribution of empirical parameters}{section.2.2}% 44
 \BOOKMARK [1][-]{section.2.3}{General predictions for neutron star observables}{chapter.2}% 45
 \BOOKMARK [2][-]{subsection.2.3.1}{Confrontation with GW170817 event}{section.2.3}% 46

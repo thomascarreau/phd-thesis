@@ -14665,6 +14665,46 @@
       \verb 10.1016/0375-9474(91)90452-C
       \endverb
     \endentry
+    \entry{Margueron2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6903d6593301090084bef2211468965c}{%
+           family={Margueron},
+           familyi={M\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0528f3e18e39db9081900174448563e}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{226e2d026a2e5560c9982edf579a6a4e}
+      \strng{fullhash}{226e2d026a2e5560c9982edf579a6a4e}
+      \strng{authornamehash}{226e2d026a2e5560c9982edf579a6a4e}
+      \strng{authorfullhash}{226e2d026a2e5560c9982edf579a6a4e}
+      \field{labelalpha}{MG19}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{2}
+      \field{title}{Effect of high-order empirical parameters on the nuclear equation of state}
+      \field{volume}{99}
+      \field{year}{2019}
+      \field{pages}{025806}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.99.025806
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.99.025806
+      \endverb
+    \endentry
     \entry{Margueron2018a}{article}{}
       \name{author}{3}{}{%
         {{hash=6903d6593301090084bef2211468965c}{%

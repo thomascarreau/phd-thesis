@@ -162,8 +162,8 @@ functionals.}\label{table:newemppar}
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/mr_popular.pdf}
 \end{center}
-\caption[Mass-radius relation for several popular EoS]{Left: Mass-radius 
-  relation for several popular EoS calculated
+\caption[Mass-radius relation for several popular equations of state]{Left: 
+  Mass-radius relation for several popular EoS calculated
   with the metamodeling technique. The black dotted line marks the NS 
 canonical mass, that is $1.4M_\odot$. The magenta band represents the measured 
 mass of J1614-2230, $(1.97 \pm 0.04)M_\odot$ \cite{Demorest2010}, and the 
@@ -237,7 +237,8 @@ to integrate the hydrostatic equilibrium equations, Eqs.~(\ref{eq:tov}) and
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/crustmassthick.pdf}
 \end{center}
-\caption[Crust thickness and mass versus NS mass for several popular EoS]{Crust 
+\caption[Crust thickness and mass versus neutron star mass for several 
+popular equations of state]{Crust 
   thickness $l_{crust}$ (upper panel) and mass $M_{crust}$ (lower panel) as a 
   function of the NS mass $M$ for several popular EoS calculated within the 
   metamodeling technique. The black dotted line marks the NS canonical mass, 
@@ -344,7 +345,7 @@ by the integration of Eq.~(\ref{eq:moi}) up to the core radius $R=R_{core}$.
   \includegraphics[width=0.9\linewidth]{figures/moi_popular.pdf}
 \end{center}
 \caption[Moment of inertia and fraction of crust moment of inertia
-versus NS mass for several popular EoS]{Moment of
+versus neutron star mass for several popular equations of state]{Moment of
   inertia $I$ (upper panel) and fraction of crust moment of inertia
   $I_{crust}/I$ (lower panel) as a function of the NS mass $M$ for several 
   popular EoS calculated within the metamodeling technique. In the upper panel, 
@@ -563,8 +564,9 @@ with
   \begin{center}
     \includegraphics[width=0.9\linewidth]{figures/tidal_popular.pdf}
   \end{center}
-  \caption[Tidal Love number and dimensionless tidal deformability versus NS 
-  mass for several popular EoS]{Tidal Love number $k_2$ (upper panel) and 
+  \caption[Tidal Love number and dimensionless tidal deformability versus 
+  neutron star mass for several popular equations of state]{Tidal Love number 
+    $k_2$ (upper panel) and 
     dimensionless tidal deformability $\Lambda$ (lower panel) as a function of 
     the NS mass $M$ for several popular EoS calculated within the metamodeling 
   technique. The black dotted line marks the NS canonical mass, that is
@@ -598,7 +600,7 @@ relativistic models, to explain the glitch phenomenon as a transfer of angular
 momentum from the neutron superfluid confined in the crystal lattice to the 
 solid crust.
 
-\section{Bayesian modeling of the equation of state} % 0.75
+\section{Bayesian determination of the equation of state parameters} % 0.75
 
 % explain motivation (more and more observations with technical progress,
 %   observations and nuclear physics are complementary)
@@ -759,35 +761,152 @@ Table~\ref{table:prior},
   p(\bm{X}) = \prod_{i=1}^{2(N+1)+3} \mathcal{U}(X_i^{min}, X_i^{max};X_i),
 \end{equation}
 %
-where $X_i$ is uniformely distributed from $X_i^{min}$ to $X_i^{max}$. The use 
-of a flat prior means that all possible values of $\bm{X}$ are equally
-likely a priori.
+where the parameter $X_i$ is uniformely distributed from $X_i^{min}$ to 
+$X_i^{max}$. The use of a flat prior means that all possible values of 
+$\bm{X}$ inside the intervals are equally likely a priori.
 
 The range of variation for the model parameters reflect the degree of 
 uncertainty on the EoS parameters, as measured by their variation in the 
 functionals which reproduce succesfully low energy nuclear physics
-data~\cite{Margueron2018a}. One can separate the model parameters into two 
-groups, depending on how well they are experimentally constrained. It consists 
-of the low-order isoscalar parameters $E_{sat}$, $n_{sat}$, $K_{sat}$, the 
-symmetry energy at saturation density $E_{sym}$, as well as the effective mass 
-$m_{sat}^*$ and isospin splitting $\Delta m_{sat}^*/m$ are rather well 
-determined by nuclear experiments, with associated relative uncertainties lower 
-than $15\%$, and constitute the first group. The second group consists of the
-parameters that are still poorly determined, and those that are not accessible 
-by nuclear experiments to the present day. While the uncertainties on the 
-isoscalar skewness $Q_{sat}$, the slope of the symmetry energy $L_{sym}$, and 
-the isovector incompressibility $K_{sym}$ are yet very large, one can expect a 
-better accuracy to be reached in the near future. In particular, the
-determination of $L_{sym}$ is an highly topical issue nowadays~\cite{Li2014}.
-Finally The isovector sqewness $Q_{sym}$ as well as the parameters of order 
-$N=4$, $Z_{sat}$ and $Z_{sym}$, are unaccessible in the laboratory up to the
-present. In consequence, we explore very large ranges for these parameters.
+data~\cite{Margueron2018a}. We can distinguish three groups of empirical  
+parameters, depending on how well they are experimentally constrained. The 
+first group consists of the low-order isoscalar parameters $E_{sat}$, 
+$n_{sat}$, $K_{sat}$, the symmetry energy at saturation density $E_{sym}$, as 
+well as the effective mass $m_{sat}^*$ and isospin splitting 
+$\Delta m_{sat}^*/m$. These parameters are rather well determined by nuclear 
+experiments, with associated relative uncertainties lower than $15\%$. The 
+second group consists of the parameters that are still poorly determined by 
+nuclear experiments. The uncertainties on the isoscalar skewness $Q_{sat}$, the 
+slope of the symmetry energy $L_{sym}$, and the isovector incompressibility 
+$K_{sym}$ are very large, yet one can expect a better accuracy to be 
+reached in the near future. In particular, the determination of $L_{sym}$ is 
+an highly topical issue nowadays~\cite{Li2014}. Finally, the last group 
+concerns the parameters which are inaccessible by nuclear experiments to the 
+present day, that is the isovector sqewness $Q_{sym}$ as well as the parameters 
+of order $N=4$, $Z_{sat}$ and $Z_{sym}$ In consequence, we explore very large 
+ranges for these parameters.\\
+The choice of the interval for the low-density parameter, $b = [1,10]$, is 
+discussed thoroughly in~\cite{Antic2019}.
 
 \subsubsection{Sensitivity analysis of the crust-core transition point} % 3
 
-% cf CC paper
+Let us recall that one of the advantages of the metamodeling approach is that 
+all the EoS model parameters, such as the empirical parameters, are a priori
+uncorrelated. 
+It is therefore possible to vary each one of them independently of the others, 
+which is not feasible using specific functional behaviors such as Skyrme, 
+Gogny, or the different versions of RMF, as discussed in detail
+in~\cite{Margueron2018a,Margueron2019}. 
+Indeed, common functionals describing infinite NM have a smaller number of 
+parameters compared to the metamodel, which creates a priori correlations that 
+are not fully controlled. If we take the example of Skyrme forces, the density 
+dependence of SNM is controlled by only three parameters, which are fixed 
+to reproduce the coordinates of the saturation point: $n_{sat}$, $E_{sat}$, and 
+$K_{sat}$. Thus, the isoscalar skewness $Q_{sat}$ is correlated with the 
+three other parameters, and it turns out that this correlation is not the same, 
+for instance, in Skyrme, Gogny, or in RMF functionals~\cite{Margueron2019}. A 
+similar argument applies to the symmetry energy: when the density dependence of 
+the symmetry energy is governed by a single parameter as assumed in heavy ion 
+transport models, an isosoft behavior at suprasaturation density is necessarily 
+associated to an isostiff behavior at subsaturation density, while more 
+complicated behaviors are possible~\cite{Margueron2019}. The independent 
+variation of the different empirical parameters allows a simple determination 
+of the most influential parameters impacting a given observable under study. 
 
-\subsection{Filters} % 0.25
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/sensana.pdf}
+\end{center}
+\caption[Sensitivity analysis of the crust-core transition point for
+BSk24 and BSk22]{Sensitivity analysis of the transition density $n_t$ (upper 
+panel) and transition pressure $P_t$ (lower panel) with respect to EoS 
+parameters. $p=3$ is fixed and two different reference point are chosen:
+BSk24 parameters (solid blue lines) and BSk22 parameters (orange 
+dashed lines). For each parameter, the symbols on left (blue) correspond to 
+BSk24 and those on right (orange) to BSk22. Circles and squares are
+respectively associated to the minimum value $X_i^{min}$ and maximum value
+$X_i^{max}$ of the parameter, which are listed in 
+Table~\ref{table:prior}.}\label{fig:sensana}
+\end{figure}
+ 
+Such a sensitivity analysis is presented in Fig.~\ref{fig:sensana} for the 
+CC transition density $n_t$ and transition pressure $P_t$. The reference 
+metamodel used in the sensitivity analysis can have an influence. For this 
+reason, the sensitivity analysis varying one by one the EoS parameters is 
+performed around two different reference parameter sets $\bm{X_{ref}}$, namely 
+the parameter set corresponding to the BSk24 functional (solid blue lines), and 
+the one corresponding to the BSk22 functional (dashed orange lines). For both 
+of them, we fix $p=3$ as well as $b=10\ln(2)$.
+
+The range of variation for each of the EoS parameters 
+correspond to the intervals for the prior distribution $p(\bm{X})$ specified in 
+Table~\ref{table:prior}. Let us however notice that some sets produce nonviable 
+EoS, for which a solution for the CC transition point cannot be found. This
+occurs in particular when varying the value of the isovector incompressiblity 
+parameter $K_{sym}$ with BSk24 as reference parameter set. Indeed, we find 
+an extremely soft behavior for the symmetry energy for the minimum value 
+$K_{sym}^{min}=-400$ MeV. In that very situation, we increase the minimum value 
+of the parameter to $K_{sym}^{min} \approx -300$ MeV so as to find a solution 
+for $n_t$ and $P_t$.
+
+The symbols in Fig.~\ref{fig:sensana} give the transition density and 
+pressure domain obtained when the EoS parameters are one by one varied around 
+the reference model, within the interval of Table~\ref{table:prior}. More
+specifically, circles and squares are respectively associated to the minimum
+value and maximum value of each parameter.
+Since the uncertainty on the different parameters is not the same, the 
+relative distance between circles and squares is a qualitative measurement of 
+the propagation of the uncertainty on the transition point brought by each 
+parameter. We can see that the sensitivity of each parameter depends on the 
+value of the other parameters, that is on the chosen reference set 
+$\bm{X_{ref}}$. Still, universal trends clearly emerge. We can see that the CC 
+phase transition, at variance with the 
+standard liquid-gas of SNM, is virtually insensitive to isoscalar parameters. 
+Even if extremely large variations of $Q_{sat}$ and $Z_{sat}$ are considered, 
+see Table~\ref{table:prior}, the influence of the isoscalar parameters in the 
+transition pressure is almost negligible, and it is a bit larger for $n_t$ but 
+still smaller than the isovector parameters. This underlines the importance of 
+the energetics of the neutron gas on the transition point. Concerning the 
+isovector sector, we can see that $L_{sym}$ is the most important 
+parameter as far as the transition density is concerned. This result is in 
+agreement with previous findings by many authors~\cite{Ducoin2011} and was
+already anticipated in~\ref{subsec:ccfromc}.
+The symmetry energy at saturation $E_{sym}$ and the effective mass splitting
+$\Delta m_{sat}^*/m$ do not play any role on the transition, which can be 
+partially explained by the fact that these parameters are already relatively 
+well constrained. The transition density and pressure show also a great 
+sensitivity to the isovector incompressibility parameter $K_{sym}$. 
+This can explain why the transition pressure exhibits an irregular behavior 
+when plotted as a function of $L_{sym}$ (see Fig.~\ref{fig:cctp_lsym}): the 
+different functionals considered in the literature have very different values 
+of $K_{sym}$, which blurs the correlation with $L_{sym}$. This effect is also 
+amplified by the fact that, depending on the reference point, the dependence of 
+$P_t$ with $L_{sym}$ is not monotonic. Finally, we can notice that the 
+influence of the fully unknown high order derivatives $Q_{sym}$ and $Z_{sym}$, 
+though less important than the one of $L_{sym}$, is not negligible and 
+comparable to the one of the isovector surface energy parameter $p$ that can be 
+inferred from Fig.~\ref{fig:cctp_lsym}. We have checked that similar 
+conclusions can be drawn if the sensitivity analysis is performed using the 
+definition of the transition point from the dynamical 
+spinodal~\cite{Antic2019}.
+
+\subsection{Determination of the likelihood function} % 0.25
+
+\subsubsection{Constraints on neutron star observables and physical 
+requirements} % 1.5
+
+% pass band filter for the mass, justify
+
+% explain that we dont consider cromartie max mass
+
+% explain that we dont consider lvc constraints since once wants to compare to
+%   their predictions in the next section, also they were not very defined at
+%   the time of this work
+% however, one can expect more constraints in the future with nicer and lvc
+
+% speak ld hd high order parameters
+
+% symmetry energy positive is a debatable hypothesis (see remark of referee)
 
 \subsubsection{Constraints on nuclear physics observables} % 2.5
 
@@ -795,15 +914,6 @@ present. In consequence, we explore very large ranges for these parameters.
 % should we consider the pressure as a filter or not? (bsk24 does not fit in
 %   the band)
 % +/- 10% to account for other ab initio calculations
-
-\subsubsection{Constraints arising from astrophysical observations and 
-physical requirements} % 1.5
-
-% speak ld hd high order parameters
-
-% symmetry energy positive is a debatable hypothesis (see remark of referee)
-% maximum mass as a sharp filter? 1.97? 2.23?
-% more constraints in the future with nicer and lvc
 
 \subsection{Posterior distribution of empirical parameters} % 3
 
