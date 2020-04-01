@@ -788,7 +788,10 @@ ranges for these parameters.\\
 The choice of the interval for the low-density parameter, $b = [1,10]$, is 
 discussed thoroughly in~\cite{Antic2019}.
 
-\subsubsection{Sensitivity analysis of the crust-core transition point} % 3
+\subsubsection{Sensitivity analysis of the crust-core transition
+point\footnote{Partial results of the presented work have been published in 
+Eur. Phys. J. A (2019) \textbf{55}: 188. With kind permission of The European
+Physical Journal (EPJ).}}
 
 Let us recall that one of the advantages of the metamodeling approach is that 
 all the EoS model parameters, such as the empirical parameters, are a priori
@@ -892,28 +895,114 @@ spinodal~\cite{Antic2019}.
 
 \subsection{Determination of the likelihood function} % 0.25
 
-\subsubsection{Constraints on neutron star observables and physical 
-requirements} % 1.5
+The likelihood function corresponds to the probability of observing the data
+given the model parameters $\bm{X}$. In the context of our analysis, it is
+defined as
+%
+\begin{equation}
+  p(\text{data}|\bm{X}) = w_{LD}(\bm{X}) \times 
+  w_{HD}(\bm{X}) \times p_{\text{AME2016}}(\bm{X}).
+\end{equation}
+%
+In this expression, $w_{LD}$ and $w_{HD}$ are strict filters that concentrate
+on constraining the low density EoS and high density EoS, respectively. Both 
+filters are given by sharp $\delta$ functions that output $1$ if the constraint 
+is satisfied, and $0$ otherwise. 
+Constraints on nuclear physics observables, yielding the filter $w_{LD}$ and 
+the probability $p_{\text{AME2016}}$ are presented in~\ref{subsubsec:ldconst}.
+In~\ref{subsubsec:hdconst}, we present the
+constraints corresponding to the filter $w_{HD}$, which are associated to 
+general physical requirements and measurements of NS observables. 
+
+\subsubsection{Constraints on nuclear physics
+observables}\label{subsubsec:ldconst}
+
+Let us concentrate first on the strict filter $w_{LD}$, herafter referred to as
+low density (LD) filter. It is introduced to verify whether the metamodel 
+associated to a set of parameter $\bm{X}$ is compatible with the recent chiral
+effective field theory (EFT) calculations for SNM and PNM by Drischler 
+\textit{et al.}~\cite{Drischler2016}. The authors have calculated the energy
+per particle for several values of isospin at low density within the many-body
+perturbation theory, based on a set of seven different Hamiltonians with chiral 
+NN and three-nucleon interactions.
+
+The resulting predicted bands for energy per nucleon as well as pressure of SNM
+and PNM are shown in Fig.~\ref{fig:drischler} (pink pands), together with 
+the predictions of the popular BSk24 (solid blue lines) and DD-ME$\delta$ 
+(green dashed lines) functionals.
+
+% pressure is the derivative of the energy, calculated here for the seven
+%   hamiltonians only and therefore few density dependence are explored. This
+%   explain why even realistic models such as BSk24 does not fit in the band
+%   for the pressure of PNM. It is therefore questionable whether we should
+%   consider the pressure bands as a filter. In that sense, we will test the
+%   two situations: when both pressure and energy per nucleon are constrained,
+%   and when only the energy per nucleon is constrained.
+
+The minimum values and maximum values of the prior distribution are also
+represented in Fig.~\ref{fig:drischler} (gray lines). Let us notice that one 
+can the infer the posterior band graphically by the comparison with the chiral 
+ETF bands. Interestingly, the graphically inferred posterior band of the 
+prior energy per nucleon and pressure of SNM around saturation density is 
+narrower than the one corresponding to the ab initio calculation. The reason is
+that low energy nuclear physics experiments provide strong empirical
+constraints for SNM~\cite{Margueron2018a}, which have been embedded 
+effectively in the intervals for the empirical parameters of the prior
+distribution in Table~\ref{table:prior}. The same is not true for the PNM case. 
+Indeed, the present day knowledge on the empirical parameters of the 
+isovector sector is insufficent. For this reason, we can see that the 
+corresponding ab initio bands are very thin in comparison to the prior 
+distribution.
+
+% justify pass band filter.
+% we enlarge the band to $5\%$ in order to account for other theoretical
+%   predictions in an effective way
+% why dont we constrain the low density region < 0.10: because the band is thin
+
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/drischler.pdf}
+\end{center}
+\caption[Energy per nucleon and pressure of nuclear matter versus density from 
+chiral effective field theory caclulations]{Energy per nucleon 
+  (left panel) and pressure (right panel) as a function of density for both SNM 
+  and PNM from chiral ETF calculations of~\cite{Drischler2016} (pink
+bands). The predictions of BSk24 and DD-ME$\delta$ functionals are represented 
+in solid blue lines and dashed green lines, respectively. The gray lines
+give the minimum and maximum values of the prior 
+distribution.}\label{fig:drischler}
+\end{figure}
+
+% pame2016
+ 
+\subsubsection{Physical requirements and constraints on neutron star 
+observables}\label{subsubsec:hdconst}
+
+The filter $w_{HD}$, hereafter referred to as high density (HD) filter, imposes 
+general physical constraints to the global density behavior of the functional, 
+as follows:
+%
+\begin{itemize}
+  \item the positiveness of the symmetry energy at all densities,
+  \item the stability of the EoS,
+  \item the causality condition $0 < c_s/c < 1$,
+  \item the maximum observed NS mass $M_{max}(\bm{X}) \geq M_{max}^{obs}$,
+\end{itemize}
+%
+where $M_{max}(\bm{X})$ is the maximum mass obtained for the parameter set
+$\bm{X}$ and $M_{max}^{obs}$ is the maximum observed NS mass.
 
 % pass band filter for the mass, justify
+% explain that we dont consider cromartie max mass (was not published at the
+%   time of this study)
+% speak ld hd high order parameters
 
-% explain that we dont consider cromartie max mass
+% symmetry energy positive is a debatable hypothesis (see remark of referee)
 
 % explain that we dont consider lvc constraints since once wants to compare to
 %   their predictions in the next section, also they were not very defined at
 %   the time of this work
 % however, one can expect more constraints in the future with nicer and lvc
-
-% speak ld hd high order parameters
-
-% symmetry energy positive is a debatable hypothesis (see remark of referee)
-
-\subsubsection{Constraints on nuclear physics observables} % 2.5
-
-% discuss ab initio calculations (saturation properties, max is 0.2, etc.)
-% should we consider the pressure as a filter or not? (bsk24 does not fit in
-%   the band)
-% +/- 10% to account for other ab initio calculations
 
 \subsection{Posterior distribution of empirical parameters} % 3
 

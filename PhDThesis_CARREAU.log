@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  31 MAR 2020 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  1 APR 2020 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -635,63 +635,74 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldsymbols=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
+) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks24
+\footnotemargin=\dimen139
+\c@pp@next@reset=\count118
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
 ) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count118
+\etb@tempcnta=\count119
 ) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count119
+\lrq@indent=\count120
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count120
-\decimalpart=\count121
+\integerpart=\count121
+\decimalpart=\count122
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count122
-\c@listtotal=\count123
-\c@listcount=\count124
-\c@liststart=\count125
-\c@liststop=\count126
-\c@citecount=\count127
-\c@citetotal=\count128
-\c@multicitecount=\count129
-\c@multicitetotal=\count130
-\c@instcount=\count131
-\c@maxnames=\count132
-\c@minnames=\count133
-\c@maxitems=\count134
-\c@minitems=\count135
-\c@citecounter=\count136
-\c@savedcitecounter=\count137
-\c@uniquelist=\count138
-\c@uniquename=\count139
-\c@refsection=\count140
-\c@refsegment=\count141
-\c@maxextratitle=\count142
-\c@maxextratitleyear=\count143
-\c@maxextrayear=\count144
-\c@maxextraalpha=\count145
-\c@abbrvpenalty=\count146
-\c@highnamepenalty=\count147
-\c@lownamepenalty=\count148
-\c@maxparens=\count149
-\c@parenlevel=\count150
-\blx@tempcnta=\count151
-\blx@tempcntb=\count152
-\blx@tempcntc=\count153
-\blx@maxsection=\count154
-\blx@maxsegment@0=\count155
-\blx@notetype=\count156
-\blx@parenlevel@text=\count157
-\blx@parenlevel@foot=\count158
-\blx@sectionciteorder@0=\count159
+\c@tabx@nest=\count123
+\c@listtotal=\count124
+\c@listcount=\count125
+\c@liststart=\count126
+\c@liststop=\count127
+\c@citecount=\count128
+\c@citetotal=\count129
+\c@multicitecount=\count130
+\c@multicitetotal=\count131
+\c@instcount=\count132
+\c@maxnames=\count133
+\c@minnames=\count134
+\c@maxitems=\count135
+\c@minitems=\count136
+\c@citecounter=\count137
+\c@savedcitecounter=\count138
+\c@uniquelist=\count139
+\c@uniquename=\count140
+\c@refsection=\count141
+\c@refsegment=\count142
+\c@maxextratitle=\count143
+\c@maxextratitleyear=\count144
+\c@maxextrayear=\count145
+\c@maxextraalpha=\count146
+\c@abbrvpenalty=\count147
+\c@highnamepenalty=\count148
+\c@lownamepenalty=\count149
+\c@maxparens=\count150
+\c@parenlevel=\count151
+\blx@tempcnta=\count152
+\blx@tempcntb=\count153
+\blx@tempcntc=\count154
+\blx@maxsection=\count155
+\blx@maxsegment@0=\count156
+\blx@notetype=\count157
+\blx@parenlevel@text=\count158
+\blx@parenlevel@foot=\count159
+\blx@sectionciteorder@0=\count160
 \labelnumberwidth=\skip56
 \labelalphawidth=\skip57
 \biblabelsep=\skip58
@@ -702,9 +713,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip63
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count160
-\c@maxcomprange=\count161
-\c@mincompwidth=\count162
+\c@mincomprange=\count161
+\c@maxcomprange=\count162
+\c@mincompwidth=\count163
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
@@ -712,72 +723,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count163
-\c@savedafterword=\count164
-\c@annotator=\count165
-\c@savedannotator=\count166
-\c@author=\count167
-\c@savedauthor=\count168
-\c@bookauthor=\count169
-\c@savedbookauthor=\count170
-\c@commentator=\count171
-\c@savedcommentator=\count172
-\c@editor=\count173
-\c@savededitor=\count174
-\c@editora=\count175
-\c@savededitora=\count176
-\c@editorb=\count177
-\c@savededitorb=\count178
-\c@editorc=\count179
-\c@savededitorc=\count180
-\c@foreword=\count181
-\c@savedforeword=\count182
-\c@holder=\count183
-\c@savedholder=\count184
-\c@introduction=\count185
-\c@savedintroduction=\count186
-\c@namea=\count187
-\c@savednamea=\count188
-\c@nameb=\count189
-\c@savednameb=\count190
-\c@namec=\count191
-\c@savednamec=\count192
-\c@translator=\count193
-\c@savedtranslator=\count194
-\c@shortauthor=\count195
-\c@savedshortauthor=\count196
-\c@shorteditor=\count197
-\c@savedshorteditor=\count198
-\c@labelname=\count199
-\c@savedlabelname=\count266
-\c@institution=\count267
-\c@savedinstitution=\count268
-\c@lista=\count269
-\c@savedlista=\count270
-\c@listb=\count271
-\c@savedlistb=\count272
-\c@listc=\count273
-\c@savedlistc=\count274
-\c@listd=\count275
-\c@savedlistd=\count276
-\c@liste=\count277
-\c@savedliste=\count278
-\c@listf=\count279
-\c@savedlistf=\count280
-\c@location=\count281
-\c@savedlocation=\count282
-\c@organization=\count283
-\c@savedorganization=\count284
-\c@origlocation=\count285
-\c@savedoriglocation=\count286
-\c@origpublisher=\count287
-\c@savedorigpublisher=\count288
-\c@publisher=\count289
-\c@savedpublisher=\count290
-\c@language=\count291
-\c@savedlanguage=\count292
-\c@pageref=\count293
-\c@savedpageref=\count294
+\c@afterword=\count164
+\c@savedafterword=\count165
+\c@annotator=\count166
+\c@savedannotator=\count167
+\c@author=\count168
+\c@savedauthor=\count169
+\c@bookauthor=\count170
+\c@savedbookauthor=\count171
+\c@commentator=\count172
+\c@savedcommentator=\count173
+\c@editor=\count174
+\c@savededitor=\count175
+\c@editora=\count176
+\c@savededitora=\count177
+\c@editorb=\count178
+\c@savededitorb=\count179
+\c@editorc=\count180
+\c@savededitorc=\count181
+\c@foreword=\count182
+\c@savedforeword=\count183
+\c@holder=\count184
+\c@savedholder=\count185
+\c@introduction=\count186
+\c@savedintroduction=\count187
+\c@namea=\count188
+\c@savednamea=\count189
+\c@nameb=\count190
+\c@savednameb=\count191
+\c@namec=\count192
+\c@savednamec=\count193
+\c@translator=\count194
+\c@savedtranslator=\count195
+\c@shortauthor=\count196
+\c@savedshortauthor=\count197
+\c@shorteditor=\count198
+\c@savedshorteditor=\count199
+\c@labelname=\count266
+\c@savedlabelname=\count267
+\c@institution=\count268
+\c@savedinstitution=\count269
+\c@lista=\count270
+\c@savedlista=\count271
+\c@listb=\count272
+\c@savedlistb=\count273
+\c@listc=\count274
+\c@savedlistc=\count275
+\c@listd=\count276
+\c@savedlistd=\count277
+\c@liste=\count278
+\c@savedliste=\count279
+\c@listf=\count280
+\c@savedlistf=\count281
+\c@location=\count282
+\c@savedlocation=\count283
+\c@organization=\count284
+\c@savedorganization=\count285
+\c@origlocation=\count286
+\c@savedoriglocation=\count287
+\c@origpublisher=\count288
+\c@savedorigpublisher=\count289
+\c@publisher=\count290
+\c@savedpublisher=\count291
+\c@language=\count292
+\c@savedlanguage=\count293
+\c@pageref=\count294
+\c@savedpageref=\count295
 \shorthandwidth=\skip64
 \shortjournalwidth=\skip65
 \shortserieswidth=\skip66
@@ -793,13 +804,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count295
-\c@textcitetotal=\count296
-\c@textcitemaxnames=\count297
-\c@biburlnumpenalty=\count298
-\c@biburlucpenalty=\count299
-\c@biburllcpenalty=\count300
-\c@smartand=\count301
+\c@textcitecount=\count296
+\c@textcitetotal=\count297
+\c@textcitemaxnames=\count298
+\c@biburlnumpenalty=\count299
+\c@biburlucpenalty=\count300
+\c@biburllcpenalty=\count301
+\c@smartand=\count302
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -809,8 +820,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count302
-\c@bbx:relatedtotal=\count303
+\c@bbx:relatedcount=\count303
+\c@bbx:relatedtotal=\count304
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -837,8 +848,8 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count304
-\@quotereset=\count305
+\@quotelevel=\count305
+\@quotereset=\count306
  (./PhDThesis_CARREAU.aux)
 \openout1 = `PhDThesis_CARREAU.aux'.
 
@@ -861,17 +872,17 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 25.
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen139
+\scratchcounter=\count307
+\scratchdimen=\dimen140
 \scratchbox=\box28
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen140
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks25
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen141
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -891,7 +902,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count313
 )
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
@@ -1002,12 +1013,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-[7] [8] [9] [10] [11] [12] [13] <figures/ocrust_model.pdf, id=536, 462.52798pt x 346.89601pt>
+[7] [8] [9] [10] [11] [12] [13] <figures/ocrust_model.pdf, id=539, 462.52798pt x 346.89601pt>
 File: figures/ocrust_model.pdf Graphic file (type pdf)
  <use figures/ocrust_model.pdf>
 Package pdftex.def Info: figures/ocrust_model.pdf used on input line 524.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
- [14] <figures/ocrust_pres.pdf, id=563, 462.52798pt x 346.89601pt>
+ [14] <figures/ocrust_pres.pdf, id=566, 462.52798pt x 346.89601pt>
 File: figures/ocrust_pres.pdf Graphic file (type pdf)
  <use figures/ocrust_pres.pdf>
 Package pdftex.def Info: figures/ocrust_pres.pdf used on input line 577.
@@ -1015,7 +1026,7 @@ Package pdftex.def Info: figures/ocrust_pres.pdf used on input line 577.
 
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [15 <./figures/ocrust_model.pdf>] [16 <./figures/ocrust_pres.pdf>] <figures/clustering.pdf, id=624, 462.52798pt x 346.89601pt>
+ [15 <./figures/ocrust_model.pdf>] [16 <./figures/ocrust_pres.pdf>] <figures/clustering.pdf, id=627, 462.52798pt x 346.89601pt>
 File: figures/clustering.pdf Graphic file (type pdf)
  <use figures/clustering.pdf>
 Package pdftex.def Info: figures/clustering.pdf used on input line 629.
@@ -1025,7 +1036,7 @@ Overfull \hbox (2.11453pt too wide) in paragraph at lines 758--778
  [] 
  []
 
-[19] [20] [21] <figures/mm_accuracy.pdf, id=716, 462.52798pt x 346.89601pt>
+[19] [20] [21] <figures/mm_accuracy.pdf, id=719, 462.52798pt x 346.89601pt>
 File: figures/mm_accuracy.pdf Graphic file (type pdf)
  <use figures/mm_accuracy.pdf>
 Package pdftex.def Info: figures/mm_accuracy.pdf used on input line 981.
@@ -1033,12 +1044,12 @@ Package pdftex.def Info: figures/mm_accuracy.pdf used on input line 981.
  [22]
 Underfull \vbox (badness 4954) has occurred while \output is active []
 
- [23 <./figures/mm_accuracy.pdf>] [24] <figures/surf_fit.pdf, id=779, 462.52798pt x 346.89601pt>
+ [23 <./figures/mm_accuracy.pdf>] [24] <figures/surf_fit.pdf, id=782, 462.52798pt x 346.89601pt>
 File: figures/surf_fit.pdf Graphic file (type pdf)
  <use figures/surf_fit.pdf>
 Package pdftex.def Info: figures/surf_fit.pdf used on input line 1155.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [25] <figures/surfenpersurfnuc.pdf, id=800, 462.52798pt x 346.89601pt>
+ [25] <figures/surfenpersurfnuc.pdf, id=803, 462.52798pt x 346.89601pt>
 File: figures/surfenpersurfnuc.pdf Graphic file (type pdf)
  <use figures/surfenpersurfnuc.pdf>
 Package pdftex.def Info: figures/surfenpersurfnuc.pdf used on input line 1203.
@@ -1055,12 +1066,12 @@ l.1367 \end{eqnarray}
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1523.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) <figures/compo_icrust_bsk24.pdf, id=933, 578.16pt x 433.62pt>
+) <figures/compo_icrust_bsk24.pdf, id=936, 578.16pt x 433.62pt>
 File: figures/compo_icrust_bsk24.pdf Graphic file (type pdf)
  <use figures/compo_icrust_bsk24.pdf>
 Package pdftex.def Info: figures/compo_icrust_bsk24.pdf used on input line 1578.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
- [32] [33 <./figures/compo_icrust_bsk24.pdf>] <figures/eos_icrust.pdf, id=977, 462.52798pt x 346.89601pt>
+ [32] [33 <./figures/compo_icrust_bsk24.pdf>] <figures/eos_icrust.pdf, id=980, 462.52798pt x 346.89601pt>
 File: figures/eos_icrust.pdf Graphic file (type pdf)
  <use figures/eos_icrust.pdf>
 Package pdftex.def Info: figures/eos_icrust.pdf used on input line 1669.
@@ -1071,22 +1082,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [34]
 Underfull \vbox (badness 2951) has occurred while \output is active []
 
- [35 <./figures/eos_icrust.pdf>] [36] <figures/shcorr_bsk24.pdf, id=1035, 462.52798pt x 346.89601pt>
+ [35 <./figures/eos_icrust.pdf>] [36] <figures/shcorr_bsk24.pdf, id=1038, 462.52798pt x 346.89601pt>
 File: figures/shcorr_bsk24.pdf Graphic file (type pdf)
  <use figures/shcorr_bsk24.pdf>
 Package pdftex.def Info: figures/shcorr_bsk24.pdf used on input line 1790.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [37 <./figures/shcorr_bsk24.pdf>] <figures/icrust_compo_bsk.pdf, id=1063, 462.52798pt x 346.89601pt>
+ [37 <./figures/shcorr_bsk24.pdf>] <figures/icrust_compo_bsk.pdf, id=1066, 462.52798pt x 346.89601pt>
 File: figures/icrust_compo_bsk.pdf Graphic file (type pdf)
  <use figures/icrust_compo_bsk.pdf>
 Package pdftex.def Info: figures/icrust_compo_bsk.pdf used on input line 1815.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [38 <./figures/icrust_compo_bsk.pdf>] [39] <figures/pasta.pdf, id=1127, 462.52798pt x 346.89601pt>
+ [38 <./figures/icrust_compo_bsk.pdf>] [39] <figures/pasta.pdf, id=1130, 462.52798pt x 346.89601pt>
 File: figures/pasta.pdf Graphic file (type pdf)
  <use figures/pasta.pdf>
 Package pdftex.def Info: figures/pasta.pdf used on input line 1969.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [40] [41 <./figures/pasta.pdf>] [42] <figures/sly4_nt.pdf, id=1191, 462.52798pt x 346.89601pt>
+ [40] [41 <./figures/pasta.pdf>] [42] <figures/sly4_nt.pdf, id=1194, 462.52798pt x 346.89601pt>
 File: figures/sly4_nt.pdf Graphic file (type pdf)
  <use figures/sly4_nt.pdf>
 Package pdftex.def Info: figures/sly4_nt.pdf used on input line 2082.
@@ -1094,7 +1105,7 @@ Package pdftex.def Info: figures/sly4_nt.pdf used on input line 2082.
 
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [43 <./figures/sly4_nt.pdf>] <figures/cctp_lsym.pdf, id=1231, 462.52798pt x 346.89601pt>
+ [43 <./figures/sly4_nt.pdf>] <figures/cctp_lsym.pdf, id=1234, 462.52798pt x 346.89601pt>
 File: figures/cctp_lsym.pdf Graphic file (type pdf)
  <use figures/cctp_lsym.pdf>
 Package pdftex.def Info: figures/cctp_lsym.pdf used on input line 2134.
@@ -1118,12 +1129,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2185.
 
-[45] <figures/ocore.pdf, id=1289, 462.52798pt x 346.89601pt>
+[45] <figures/ocore.pdf, id=1292, 462.52798pt x 346.89601pt>
 File: figures/ocore.pdf Graphic file (type pdf)
  <use figures/ocore.pdf>
 Package pdftex.def Info: figures/ocore.pdf used on input line 2273.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [46] [47 <./figures/ocore.pdf>] [48] <figures/unified.pdf, id=1358, 491.436pt x 346.89601pt>
+ [46] [47 <./figures/ocore.pdf>] [48] <figures/unified.pdf, id=1361, 491.436pt x 346.89601pt>
 File: figures/unified.pdf Graphic file (type pdf)
  <use figures/unified.pdf>
 Package pdftex.def Info: figures/unified.pdf used on input line 2402.
@@ -1135,7 +1146,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 2.
 [53
 
-] [54] <figures/mr_popular.pdf, id=1476, 462.52798pt x 346.89601pt>
+] [54] <figures/mr_popular.pdf, id=1479, 462.52798pt x 346.89601pt>
 File: figures/mr_popular.pdf Graphic file (type pdf)
  <use figures/mr_popular.pdf>
 Package pdftex.def Info: figures/mr_popular.pdf used on input line 163.
@@ -1143,12 +1154,12 @@ Package pdftex.def Info: figures/mr_popular.pdf used on input line 163.
  [55]
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
- [56 <./figures/mr_popular.pdf>] <figures/crustmassthick.pdf, id=1518, 462.52798pt x 346.89601pt>
+ [56 <./figures/mr_popular.pdf>] <figures/crustmassthick.pdf, id=1521, 462.52798pt x 346.89601pt>
 File: figures/crustmassthick.pdf Graphic file (type pdf)
  <use figures/crustmassthick.pdf>
 Package pdftex.def Info: figures/crustmassthick.pdf used on input line 238.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [57 <./figures/crustmassthick.pdf>] [58] <figures/moi_popular.pdf, id=1562, 462.52798pt x 346.89601pt>
+ [57 <./figures/crustmassthick.pdf>] [58] <figures/moi_popular.pdf, id=1565, 462.52798pt x 346.89601pt>
 File: figures/moi_popular.pdf Graphic file (type pdf)
  <use figures/moi_popular.pdf>
 Package pdftex.def Info: figures/moi_popular.pdf used on input line 345.
@@ -1158,7 +1169,7 @@ Overfull \hbox (7.85103pt too wide) in paragraph at lines 510--514
 []\T1/lmr/m/n/10.95 Let us con-sider a static, spher-i-cally sym-met-ric NS, placed in a static ex-ter-nal quadrupo-
  []
 
-[62] <figures/tidal_popular.pdf, id=1664, 462.52798pt x 346.89601pt>
+[62] <figures/tidal_popular.pdf, id=1667, 462.52798pt x 346.89601pt>
 File: figures/tidal_popular.pdf Graphic file (type pdf)
  <use figures/tidal_popular.pdf>
 Package pdftex.def Info: figures/tidal_popular.pdf used on input line 565.
@@ -1166,85 +1177,112 @@ Package pdftex.def Info: figures/tidal_popular.pdf used on input line 565.
  [63 <./figures/tidal_popular.pdf>] [64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65] [66] <figures/sensana.pdf, id=1736, 462.52798pt x 346.89601pt>
+ [65] [66]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 794.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 794.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 794.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 794.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 794.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 794.
+
+<figures/sensana.pdf, id=1740, 462.52798pt x 346.89601pt>
 File: figures/sensana.pdf Graphic file (type pdf)
  <use figures/sensana.pdf>
-Package pdftex.def Info: figures/sensana.pdf used on input line 818.
+Package pdftex.def Info: figures/sensana.pdf used on input line 821.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  [67]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [68 <./figures/sensana.pdf>]) (./sections/appendices.tex [69] [70
+ [68 <./figures/sensana.pdf>] [69] <figures/drischler.pdf, id=1815, 462.52798pt x 346.89601pt>
+File: figures/drischler.pdf Graphic file (type pdf)
+ <use figures/drischler.pdf>
+Package pdftex.def Info: figures/drischler.pdf used on input line 964.
+(pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 986.
+ [70 <./figures/drischler.pdf>]) (./sections/appendices.tex [71] [72
 
 ]
 Appendix A.
-[71] [72]
+[73] [74]
 Appendix B.
-[73
+[75
 
-] [74]
+] [76]
 Appendix C.
-) [75
+) [77
 
-] [76
+] [78
 
 ]
 Overfull \hbox (12.57996pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 B. P. Ab-bott et al. ``Prop-er-ties of the Bi-nary Neu-tron Star Merger GW170817''.
  []
 
-[77]
+[79]
 Overfull \hbox (2.49072pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 Carreau, Thomas, Gul-minelli, Francesca, and Mar-gueron, Jérôme. ``Bayesian
  []
 
-[78]
+[80]
 Overfull \hbox (1.73732pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 P. B. De-mor-est et al. ``A two-solar-mass neu-tron star mea-sured us-ing Shapiro
  []
 
-[79] [80] [81]
+[81] [82] [83]
 Overfull \hbox (16.18066pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 P. Möller and J.R. Nix. ``Nu-clear masses from a uni-fied macroscopic-microscopic
  []
 
-[82] [83]
+[84] [85]
 Overfull \hbox (16.02777pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 X. Roca-Maza et al. ``Rel-a-tivis-tic mean-field in-ter-ac-tion with density-dependent
  []
 
-[84]
+[86]
 Overfull \hbox (13.81113pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 Nobutoshi Ya-su-take, Toshiki Maruyama, and Toshi-taka Tat-sumi. ``Hot hadron-
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-[85]
+[87]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (./PhDThesis_CARREAU.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `PhDThesis_CARREAU.out' has not changed.
-(rerunfilecheck)             Checksum: 60FFB4E92ADD50C642F196831AF1A4FC;4960.
+(rerunfilecheck)             Checksum: B774736C9E8C256E2D588A16AED3D600;5117.
 Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 \openout1 = `PhDThesis_CARREAU.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 15204 strings out of 493013
- 245673 string characters out of 6135682
- 1229561 words of memory out of 5000000
- 18086 multiletter control sequences out of 15000+600000
- 83022 words of font info for 65 fonts, out of 8000000 for 9000
+ 15383 strings out of 493013
+ 248368 string characters out of 6135682
+ 1232035 words of memory out of 5000000
+ 18238 multiletter control sequences out of 15000+600000
+ 104217 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,45p,4525b,1286s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (85 pages, 1135349 bytes).
+ 44i,12n,45p,4525b,1284s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on PhDThesis_CARREAU.pdf (87 pages, 1201583 bytes).
 PDF statistics:
- 2223 PDF objects out of 2487 (max. 8388607)
- 2007 compressed objects within 21 object streams
- 423 named destinations out of 1000 (max. 500000)
- 549 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2279 PDF objects out of 2487 (max. 8388607)
+ 2057 compressed objects within 21 object streams
+ 428 named destinations out of 1000 (max. 500000)
+ 554 words of extra memory for PDF output out of 10000 (max. 10000000)
 
