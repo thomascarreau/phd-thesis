@@ -926,18 +926,38 @@ per particle for several values of isospin at low density within the many-body
 perturbation theory, based on a set of seven different Hamiltonians with chiral 
 NN and three-nucleon interactions.
 
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/drischler.pdf}
+\end{center}
+\caption[Energy per nucleon and pressure of nuclear matter versus density from 
+chiral effective field theory caclulations]{Energy per nucleon 
+  (left panel) and pressure (right panel) as a function of density for both SNM 
+  and PNM from chiral ETF calculations of~\cite{Drischler2016} (pink
+bands). The predictions of BSk24 and DD-ME$\delta$ functionals are represented 
+in solid blue lines and dashed green lines, respectively. The gray lines
+give the minimum and maximum values of the prior 
+distribution.}\label{fig:drischler}
+\end{figure}
+
 The resulting predicted bands for energy per nucleon as well as pressure of SNM
 and PNM are shown in Fig.~\ref{fig:drischler} (pink pands), together with 
 the predictions of the popular BSk24 (solid blue lines) and DD-ME$\delta$ 
-(green dashed lines) functionals.
-
-% pressure is the derivative of the energy, calculated here for the seven
-%   hamiltonians only and therefore few density dependence are explored. This
-%   explain why even realistic models such as BSk24 does not fit in the band
-%   for the pressure of PNM. It is therefore questionable whether we should
-%   consider the pressure bands as a filter. In that sense, we will test the
-%   two situations: when both pressure and energy per nucleon are constrained,
-%   and when only the energy per nucleon is constrained.
+(green dashed lines) functionals. 
+The pressure band is calculated by taking the density derivative of the energy 
+per nucleon for the seven Hamiltonians, thus only few density dependencies of 
+the pressure are explored. This can explain why even realistic models such as 
+BSk24 are not compatible with the theoretical band for the 
+pressure of PNM above $\approx n_{sat}$. It is therefore debatable whether 
+we should add the chiral EFT bands for pressure of NM in our list of
+constraints defining our pass-band filters $w_{LD}$. In the following, we will 
+not consider this particular contraint by default, yet we will still 
+investigate how it affects the posterior distribution EoS in~\ref{sec:general}.
+In the context of the pass-band filter $w_{LD}$, the chiral ETF predicted 
+bands are widened by $5\%$ in order to account for other existing ab initio 
+calculations in an effective manner. In addition, we will not apply the filter
+in the low density region $n < 0.10$ fm$^{-3}$ because the width of the band 
+becomes extremely small, causing numerical issues.
 
 The minimum values and maximum values of the prior distribution are also
 represented in Fig.~\ref{fig:drischler} (gray lines). Let us notice that one 
@@ -954,26 +974,17 @@ isovector sector is insufficent. For this reason, we can see that the
 corresponding ab initio bands are very thin in comparison to the prior 
 distribution.
 
-% justify pass band filter.
-% we enlarge the band to $5\%$ in order to account for other theoretical
-%   predictions in an effective way
-% why dont we constrain the low density region < 0.10: because the band is thin
-
-\begin{figure}[!t]
-\begin{center}
-  \includegraphics[width=0.9\linewidth]{figures/drischler.pdf}
-\end{center}
-\caption[Energy per nucleon and pressure of nuclear matter versus density from 
-chiral effective field theory caclulations]{Energy per nucleon 
-  (left panel) and pressure (right panel) as a function of density for both SNM 
-  and PNM from chiral ETF calculations of~\cite{Drischler2016} (pink
-bands). The predictions of BSk24 and DD-ME$\delta$ functionals are represented 
-in solid blue lines and dashed green lines, respectively. The gray lines
-give the minimum and maximum values of the prior 
-distribution.}\label{fig:drischler}
-\end{figure}
-
 % pame2016
+We now turn the calculation of the probability $p_{\text{AME2016}}$, which 
+describe the ability of the CLDM defined from a parameter set $\bm{X}$, to fit 
+the measured nuclear masses of the AME2016~\cite{Huang2017}. The goodness of 
+fit is evaluated by the reduced $\chi^2$, Eq.~\ref{eq:chi2}. We can define the 
+associated likelihood probability as
+%
+\begin{equation}
+  p_{\text{AME2016}}(\bm{X}) = \exp\left[-\frac{1}{2}\chi_\nu^2(\bm{X})\right].
+\end{equation}
+%
  
 \subsubsection{Physical requirements and constraints on neutron star 
 observables}\label{subsubsec:hdconst}
@@ -985,8 +996,8 @@ as follows:
 \begin{itemize}
   \item the positiveness of the symmetry energy at all densities,
   \item the stability of the EoS,
-  \item the causality condition $0 < c_s/c < 1$,
-  \item the maximum observed NS mass $M_{max}(\bm{X}) \geq M_{max}^{obs}$,
+  \item the causality condition, $0 < c_s/c < 1$,
+  \item the maximum observed NS mass, $M_{max}(\bm{X}) \geq M_{max}^{obs}$,
 \end{itemize}
 %
 where $M_{max}(\bm{X})$ is the maximum mass obtained for the parameter set
