@@ -166,8 +166,8 @@ functionals.}\label{table:newemppar}
   Mass-radius relation for several popular EoS calculated
   with the metamodeling technique. The black dotted line marks the NS 
 canonical mass, that is $1.4M_\odot$. The magenta band represents the measured 
-mass of J1614-2230, $(1.97 \pm 0.04)M_\odot$ \cite{Demorest2010}, and the 
-yellow band that of J0740+6620, $2.14_{-0.09}^{+0.10}M_\odot$ ($68.3\%$ 
+mass of PSR J0348+0432, $(2.01 \pm 0.04)M_\odot$ \cite{Antoniadis2013}, and the 
+yellow band that of PSR J0740+6620, $2.14_{-0.09}^{+0.10}M_\odot$ ($68.3\%$ 
 credibility interval) \cite{Cromartie2020}.
 Right: Mass-radius relation for the DH EoS for SLy4 functional (black dashed
 line), and the SLy4 EoS calculated with the metamodeling technique (solid
@@ -185,17 +185,17 @@ of the symmetry energy $L_{sym}$. The value of the empirical parameters
 associated to BSk14, TM1, and PKDD are reported in Table~\ref{table:newemppar}, 
 whereas those of BSk24 and SLy4 can be found in Table~\ref{table:emp_params}.\\
 The bands correspond to the measured masses of the two most massive
-pulsars observed to the present day. The mass of J1614-2230 was precisely 
-estimated to $(1.97\pm 0.04)M_\odot$~\cite{Demorest2010}, and the very recent
-relativistic Shapiro delay measurements of J0740+6620 led to 
+pulsars observed to the present day. The mass of PSR J0348+0432 was precisely 
+estimated to $(2.01\pm 0.04)M_\odot$~\cite{Antoniadis2013}, and the very recent
+relativistic Shapiro delay measurements of PSR J0740+6620 led to 
 $2.14_{-0.09}^{0.10}M_\odot$ ($68.3\%$ credibility
 interval)~\cite{Cromartie2020}. Naturally, if an
 EoS cannot insure such high masses, it should not be considered as reliable, 
 in particular at high density, since the maximum mass is determined by the 
 stellar core EoS. In particular, it is seen that the maximum mass corresponding
 to the BSk14 functional, $1.8M_\odot$, is lower than the measured mass
-of J1614-2230. Also, while the SLy4 EoS satisty this constraint, the maximum 
-mass for this EoS, $2.05M_\odot$, is lower than that of J0740+6620. This 
+of PSR J0348+0432. Also, while the SLy4 EoS satisty this constraint, the maximum 
+mass for this EoS, $2.05M_\odot$, is lower than that of PSR J0740+6620. This 
 outline the fact that measuring the mass of pulsars is important, because it 
 provides a strong constraint on the stellar matter EoS. Similarly, the NICER
 telescope is expected to provide, for years to come, a constraint on the NS
@@ -989,9 +989,9 @@ associated likelihood probability as
 \subsubsection{Physical requirements and constraints on neutron star 
 observables}\label{subsubsec:hdconst}
 
-The filter $w_{HD}$, hereafter referred to as high density (HD) filter, imposes 
-general physical constraints to the global density behavior of the functional, 
-as follows:
+The filter $w_{HD}$, hereafter referred to as high density (HD) filter, is
+applied subsequently to the LD filter $w_{LD}$. It imposes general physical 
+constraints to the global density behavior of the functional, as follows:
 %
 \begin{itemize}
   \item the positiveness of the symmetry energy at all densities,
@@ -1000,20 +1000,45 @@ as follows:
   \item the maximum observed NS mass, $M_{max}(\bm{X}) \geq M_{max}^{obs}$,
 \end{itemize}
 %
-where $M_{max}(\bm{X})$ is the maximum mass obtained for the parameter set
-$\bm{X}$ and $M_{max}^{obs}$ is the maximum observed NS mass.
+where $M_{max}(\bm{X})$ is the maximum mass supported by the EoS calculated for 
+a parameter set $\bm{X}$, and $M_{max}^{obs}$ is the maximum observed NS mass. 
+By default we choose $M_{max}^{obs} = 1.97M_\odot$, which corresponds to 
+a $1\sigma$ conservative estimate, based on the observation of PSR 
+J0348+0432~\cite{Antoniadis2013}. 
+Let us however notice that it does not correspond to the mass of the heaviest 
+NS observed to the present day~\cite{Cromartie2020}. The reason is that the
+observation of PSR J0740+6620 with $M = 2.14_{-0.09}^{+0.10}M_\odot$ is very 
+recent and it was not yet published at the time of this study.
 
-% pass band filter for the mass, justify
-% explain that we dont consider cromartie max mass (was not published at the
-%   time of this study)
-% speak ld hd high order parameters
+As we have already discussed, for a given functional, the redefinition of 
+high-order parameters $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ is 
+necessary in order to achieve faster convergence at high density and thus 
+to recover the right value for the maximum mass. 
+The LD filter is applied in the density range $0.10$ fm$^{-3}$ $< n < 0.20$ 
+fm$^{-3}$, that is in the vicinity of the saturation density $n_{sat}$. 
+In this density range, the effect of parameters of orders $N \geq 2$ on the 
+energy per nucleon of NM is very small, and consequently we can legitimately 
+expect that $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ will not be strongly
+constrained by the LD filter. In that sense, for each parameter set passing 
+through the pass-band filter $w_{LD}$, we sample $10$ new parameter sets by 
+randomly drawing new values for the high-order parameters with the aim of 
+obtaining more sets passing through both LD and HD filters.
+Nevertheless, we have seen in Fig.~\ref{fig:sly4_nt} that the inclusion of
+orders $N \geq 2$ is important to precisely estimate the CC transition point.
+In that sense, $n_t$ and $P_t$ will be calculated using the high-order 
+parameters that originate from the passage through the LD filter and which are 
+kept by the HD filter.
 
-% symmetry energy positive is a debatable hypothesis (see remark of referee)
+The possibility of a negative symmetry energy at high density was sometimes 
+evocated in the literature~\cite{Li2017,Wiringa1988}. 
+However, extremely soft functionals are generally incompatible with the maximum 
+mass constraint, thus relaxing the condition of the positiveness of the 
+symmetry energy will not alter our results.
 
-% explain that we dont consider lvc constraints since once wants to compare to
-%   their predictions in the next section, also they were not very defined at
-%   the time of this work
-% however, one can expect more constraints in the future with nicer and lvc
+Finally, let us notice that we do not include the constraint on the tidal
+deformability inferred from the GW170817 event~\cite{GWtidal} in the $w_{HD}$ 
+filter, the reason being that we are interested in confronting our results with 
+the observations of the LIGO-Virgo collaboration.
 
 \subsection{Posterior distribution of empirical parameters} % 3
 
@@ -1064,3 +1089,4 @@ glitches}\label{subsec:gli_stats} % 4
 \section{Conclusion} % 1
 
 % word on machine learning
+% one can expect more constraints in the future with nicer and lvc
