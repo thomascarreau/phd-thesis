@@ -600,12 +600,31 @@ relativistic models, to explain the glitch phenomenon as a transfer of angular
 momentum from the neutron superfluid confined in the crystal lattice to the 
 solid crust.
 
-\section{Bayesian determination of the equation of state parameters} % 0.75
+\section{Bayesian determination of the equation of state parameters}
 
-% explain motivation (more and more observations with technical progress,
-%   observations and nuclear physics are complementary)
+In recent years, there has been a lot of efforts invested in the development of
+the chiral effective field theory (EFT)~\cite{Drischler2016} with the aim of 
+providing new constraints on the low density EoS. As we have already discussed, 
+the maximum observed mass of NS~\cite{Antoniadis2013,Cromartie2020} establishes 
+a stringent constraint on the EoS. Furthermore, and for the same
+reason, future observations of GW signatures associated to binary NS mergers 
+with LIGO and Virgo, and radius measurements from NICER will beneficial.
+Bayesian inference is a statistical method which allows to account both for the 
+present day knowledge on nuclear physics and NS observables for predicting the 
+stellar matter EoS.
 
-\subsection{Principle of Bayesian inference} % 1.5
+This section deals with the Bayesian determination of the EoS
+parameters. The general formalism of Bayesian inference is recalled and its
+application for constraining the EoS is explained in~\ref{subsec:bayes}.
+In~\ref{subsec:prior}, we give the the prior distribution of EoS parameters
+and a sensativity analysis of the CC transition point is carried out 
+afterwards. The likelihood function, based on constraints on nuclear physics
+observables, constraints on NS obervables, and physical requirements, is 
+constructed in~\ref{subsec:likeli}. Finally, we present the posterior 
+distribution of empirical parameters in~\ref{subsec:posterior}. A particular 
+attention is paid to the correlations among parameters.
+
+\subsection{Principle of Bayesian inference}\label{subsec:bayes}
 
 The core of Bayesian inference is based on well-known Bayes' theorem, 
 which provides an expression for the conditional probability (or posterior
@@ -715,7 +734,7 @@ the behavior of the surface tension for extreme isospin values. Either it is
 fixed to the educated value $p=3$ or $p=\{2.5,3,3.5\}$ is considered for each
 set of empirical parameters.
 
-\subsection{Prior distribution of empirical parameters}
+\subsection{Prior distribution of empirical parameters}\label{subsec:prior}
 
 We now discuss the prior distribution of empirical parameters. We first give 
 insights concerning the selected intervals for the flat prior. A senstivity 
@@ -893,7 +912,7 @@ conclusions can be drawn if the sensitivity analysis is performed using the
 definition of the transition point from the dynamical 
 spinodal~\cite{Antic2019}.
 
-\subsection{Determination of the likelihood function} % 0.25
+\subsection{Determination of the likelihood function}\label{subsec:likeli}
 
 The likelihood function corresponds to the probability of observing the data
 given the model parameters $\bm{X}$. In the context of our analysis, it is
@@ -1038,9 +1057,10 @@ symmetry energy will not alter our results.
 Finally, let us notice that we do not include the constraint on the tidal
 deformability inferred from the GW170817 event~\cite{GWtidal} in the $w_{HD}$ 
 filter, the reason being that we are interested in confronting our results with 
-the observations of the LIGO-Virgo collaboration.
+the observations of LIGO and Virgo.
 
-\subsection{Posterior distribution of empirical parameters} % 3
+\subsection{Posterior distribution of empirical
+parameters}\label{subsec:posterior}
 
 % discuss the importance of filters?
 
