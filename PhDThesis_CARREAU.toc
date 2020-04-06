@@ -54,60 +54,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Bayesian inference of neutron star observables}{55}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}From the equation of state to neutron star observables}{56}{section.2.1}
+\contentsline {section}{\numberline {2.1}From the equation of state to neutron star observables}{57}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Masses and radii}{56}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Masses and radii}{57}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.1}Mass-radius relation}{56}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Mass-radius relation}{57}{subsubsection.2.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.2}Crust thickness and mass}{59}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Crust thickness and mass}{60}{subsubsection.2.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Moment of inertia within the slow rotation approximation}{61}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Moment of inertia within the slow rotation approximation}{62}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{61}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{62}{subsubsection.2.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.2}Connection to pulsar glitches}{63}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Connection to pulsar glitches}{64}{subsubsection.2.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Tidal deformability}{64}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Tidal deformability}{65}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Bayesian determination of the equation of state parameters}{67}{section.2.2}
+\contentsline {section}{\numberline {2.2}Bayesian determination of the equation of state parameters}{68}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Principle of Bayesian inference}{67}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Principle of Bayesian inference}{68}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Prior distribution of empirical parameters}{69}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Prior distribution of equation of state parameters}{70}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Flat prior compatible with empirical constraints}{69}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Flat prior compatible with empirical constraints}{70}{subsubsection.2.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{70}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{71}{subsubsection.2.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Determination of the likelihood function}{72}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Determination of the likelihood function}{73}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Constraints on nuclear physics observables}{72}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Constraints on nuclear physics observables}{74}{subsubsection.2.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{74}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{75}{subsubsection.2.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Posterior distribution of empirical parameters}{75}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Posterior distribution of equation of state parameters}{76}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}General predictions for neutron star observables}{75}{section.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{76}{subsubsection.2.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Confrontation with GW170817 event}{75}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Correlations among empirical parameters}{76}{subsubsection.2.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.1}Equation of state}{75}{subsubsection.2.3.1.1}
+\contentsline {section}{\numberline {2.3}General predictions for neutron star observables}{76}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.2}Mass-radius relation}{75}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.1}Confrontation with the GW170817 event}{76}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.3}Tidal deformability}{75}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Equation of state}{76}{subsubsection.2.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Bayesian analysis of the crust-core transition}{75}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Mass-radius relation}{76}{subsubsection.2.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Crustal moment of inertia and pulsar glitches}{75}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.1.3}Tidal deformability}{76}{subsubsection.2.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Conclusion}{75}{section.2.4}
+\contentsline {subsection}{\numberline {2.3.2}Bayesian analysis of the crust-core transition}{76}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{77}{appendix.A}
+\contentsline {subsection}{\numberline {2.3.3}Pulsar glitches: \textit {Is the crust enough?}}{76}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{79}{appendix.B}
+\contentsline {section}{\numberline {2.4}Conclusion}{76}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{81}{appendix.C}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{81}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{83}{appendix*.4}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{83}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{85}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{87}{appendix*.4}

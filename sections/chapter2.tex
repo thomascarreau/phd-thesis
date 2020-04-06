@@ -6,12 +6,23 @@
 
 \chapter{Bayesian inference of neutron star observables}
 
-% Pulsars were identified to rotating NS which produce pulsed emission (dont
-%   know where to put this)
+This chapter deals with the determination of NS observables within the Bayesian 
+framework.
+
+% general pres: 
+%   Pulsars were identified to rotating NS which produce pulsed 
+%   emission (dont know where to put this) -> observations
+%   
+%   elementary constituent of neutron star -> nucleons
+%
+%   observations provide constraints for nuclear physics and vice versa
+
+The plan of the chapter is as follows. In Section~\ref{sec:tov}, blabla.
+Finally, conclusions are given in Section~\ref{sec:conclu2}.
 
 \minitoc\newpage
 
-\section{From the equation of state to neutron star observables}
+\section{From the equation of state to neutron star observables}\label{sec:tov}
 
 The stellar EoS, the determination of which was studied thoroughly in Chapter 
 1, is the fundamental ingredient to build NS models. It enters into the 
@@ -606,7 +617,7 @@ solid crust.
 
 In recent years, there has been a lot of efforts invested in the development of
 the chiral effective field theory (EFT)~\cite{Drischler2016} with the aim of 
-providing new constraints on the low density EoS. As we have already discussed, 
+providing new constraints on the low-density EoS. As we have already discussed, 
 the maximum observed mass of NS~\cite{Antoniadis2013,Cromartie2020} establishes 
 a stringent constraint on the EoS. Furthermore, and for the same
 reason, future observations of GW signatures associated to binary NS mergers 
@@ -670,7 +681,7 @@ from the posterior distribution. Then are defined respectively as
 %
 \begin{eqnarray}
   p(X_j|\text{data}) &=& \left\{\prod_{i \neq j} \int
-  dX_i\right\}p(\bm{X}|\text{data}),\\
+  dX_i\right\}p(\bm{X}|\text{data}),\label{eq:marg1}\\
   p(X_j,X_k|\text{data}) &=& \left\{\prod_{i \neq j,k} 
     \int dX_i\right\}p(\bm{X}|\text{data}).
 \end{eqnarray}
@@ -733,10 +744,13 @@ the surface and curvature parameters in $\bm{X}$ but to take the set
 $\bm{S_{opt}}$ that minimizes $\chi^2$, as explained in~\ref{subsubsec:cld}. 
 We consider two choices for the value of the parameter $p$, which determines 
 the behavior of the surface tension for extreme isospin values. Either it is 
-fixed to the educated value $p=3$ or $p=\{2.5,3,3.5\}$ is considered for each
-set of empirical parameters.
+fixed to the educated value $p=3$, or $p=\{2.5,3,3.5\}$ is selected for each
+set of empirical parameters. The latter option is considered for the
+determination of observables that are sensitive to the CC transition point, 
+which we have seen is strongly correlated to the isovector properties of the 
+surface tension.
 
-\subsection{Prior distribution of empirical parameters}\label{subsec:prior}
+\subsection{Prior distribution of equation of state parameters}\label{subsec:prior}
 
 We now discuss the prior distribution of empirical parameters. We first give 
 insights concerning the selected intervals for the flat prior. A senstivity 
@@ -926,7 +940,7 @@ defined as
 \end{equation}
 %
 In this expression, $w_{LD}$ and $w_{HD}$ are strict filters that concentrate
-on constraining the low density EoS and high density EoS, respectively. Both 
+on constraining the low-density EoS and high density EoS, respectively. Both 
 filters are given by sharp $\delta$ functions that output $1$ if the constraint 
 is satisfied, and $0$ otherwise. 
 Constraints on nuclear physics observables, yielding the filter $w_{LD}$ and 
@@ -939,9 +953,9 @@ general physical requirements and measurements of NS observables.
 observables}\label{subsubsec:ldconst}
 
 Let us concentrate first on the strict filter $w_{LD}$, herafter referred to as
-low density (LD) filter. It is introduced to verify whether the metamodel 
+low-density (LD) filter. It is introduced to verify whether the metamodel 
 associated to a set of parameter $\bm{X}$ is compatible with the recent chiral
-effective field theory (EFT) calculations for SNM and PNM by Drischler 
+EFT calculations for SNM and PNM by Drischler 
 \textit{et al.}~\cite{Drischler2016}. The authors have calculated the energy
 per particle for several values of isospin at low density within the many-body
 perturbation theory, based on a set of seven different Hamiltonians with chiral 
@@ -977,7 +991,7 @@ investigate how it affects the posterior distribution EoS in~\ref{sec:general}.
 In the context of the pass-band filter $w_{LD}$, the chiral ETF predicted 
 bands are widened by $5\%$ in order to account for other existing ab initio 
 calculations in an effective manner. In addition, we will not apply the filter
-in the low density region $n < 0.10$ fm$^{-3}$ because the width of the band 
+in the low-density region $n < 0.10$ fm$^{-3}$ because the width of the band 
 becomes extremely small, causing numerical issues.
 
 The minimum values and maximum values of the prior distribution are also
@@ -1031,24 +1045,24 @@ NS observed to the present day~\cite{Cromartie2020}. The reason is that the
 observation of PSR J0740+6620 with $M = 2.14_{-0.09}^{+0.10}M_\odot$ is very 
 recent and it was not yet published at the time of this study.
 
-As we have already discussed, for a given functional, the redefinition of 
-high-order parameters $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ is 
-necessary in order to achieve faster convergence at high density and thus 
-to recover the right value for the maximum mass. 
-The LD filter is applied in the density range $0.10$ fm$^{-3}$ $< n < 0.20$ 
-fm$^{-3}$, that is in the vicinity of the saturation density $n_{sat}$. 
-In this density range, the effect of parameters of orders $N \geq 2$ on the 
-energy per nucleon of NM is very small, and consequently we can legitimately 
-expect that $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ will not be strongly
-constrained by the LD filter. In that sense, for each parameter set passing 
-through the pass-band filter $w_{LD}$, we sample $10$ new parameter sets by 
-randomly drawing new values for the high-order parameters with the aim of 
-obtaining more sets passing through both LD and HD filters.
-Nevertheless, we have seen in Fig.~\ref{fig:sly4_nt} that the inclusion of
-orders $N \geq 2$ is important to precisely estimate the CC transition point.
-In that sense, $n_t$ and $P_t$ will be calculated using the high-order 
-parameters that originate from the passage through the LD filter and which are 
-kept by the HD filter.
+% As we have already discussed, for a given functional, the redefinition of 
+% high-order parameters $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ is 
+% necessary in order to achieve faster convergence at high density and thus 
+% to recover the right value for the maximum mass. 
+% The LD filter is applied in the density range $0.10$ fm$^{-3}$ $< n < 0.20$ 
+% fm$^{-3}$, that is in the vicinity of the saturation density $n_{sat}$. 
+% In this density range, the effect of parameters of orders $N \geq 2$ on the 
+% energy per nucleon of NM is very small, and consequently we can legitimately 
+% expect that $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ will not be strongly
+% constrained by the LD filter. In that sense, for each parameter set passing 
+% through the pass-band filter $w_{LD}$, we sample $10$ new parameter sets by 
+% randomly drawing new values for the high-order parameters with the aim of 
+% obtaining more sets passing through both LD and HD filters.
+% Nevertheless, we have seen in Fig.~\ref{fig:sly4_nt} that the inclusion of
+% orders $N \geq 2$ is important to precisely estimate the CC transition point.
+% In that sense, $n_t$ and $P_t$ will be calculated using the high-order 
+% parameters that originate from the passage through the LD filter and which are 
+% kept by the HD filter.
 
 The possibility of a negative symmetry energy at high density was sometimes 
 evocated in the literature~\cite{Li2017,Wiringa1988}. 
@@ -1061,16 +1075,100 @@ deformability inferred from the GW170817 event~\cite{GWtidal} in the $w_{HD}$
 filter, the reason being that we are interested in confronting our results with 
 the observations of LIGO and Virgo.
 
-\subsection{Posterior distribution of empirical
+\subsection{Posterior distribution of equation of state 
 parameters}\label{subsec:posterior}
 
-% discuss the importance of filters?
+We now turn to the description of the joint posterior distribution of equation 
+of state parameters for $p=3$. The effect of the different filters on 
+marginalized one-parameter probabilities both for isoscalar and isovector 
+parameters is analyzed in~\ref{subsubsec:marg}. Correlations among empirical 
+parameters are extracted from the Bayesian analysis in~\ref{subsubsec:corr}.
 
+\subsubsection{Marginalized one-parameter posterior distributions of empirical
+parameters}\label{subsubsec:marg}
+
+% kde
+% average and deviation
+% zsatsym
+% m dm
+% b
+
+The marginal one-parameter probabilities can be evaluated from the joint
+posterior distribution $p(\bm{X}|\text{data})$ using Eq.~(\ref{eq:marg1}).
+The marginalized posteriors for isoscalar and isovector empirical parameters of 
+orders $N\leq 3$ are shown in Fig.~\ref{fig:is_dist} and~\ref{fig:iv_dist},
+respectively. The effect of the different filters on the one-parameter PDF is
+seen. We find that the likelihood probability $p_{\text{AME2016}}$,
+originating from the mass fit, has a negligible impact on the distributions.
+This can be understood from the fact that the prior distribution of empirical
+parameters already contains information provided by nuclear experiments. Hence, 
+in all cases the probability $p_{\text{AME2016}}$ is accounted for in the 
+distribution.
+
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=1.0\linewidth]{figures/is_dist.pdf}
+\end{center}
+\caption[Marginalized posteriors for isoscalar empirical parameters assuming
+different filters]{Marginalized posteriors for $E_{sat}$, $n_{sat}$, $K_{sat}$, 
+and $Q_{sat}$ for the sets passing through the LD filter without (solid blue
+lines) and with (dashdotted blue lines) the constraint on pressure, HD
+filter with $M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013} (solid orange
+lines) and with $M_{max}^{obs}=2.05M_\odot$~\cite{Cromartie2020}
+(dashdotted orange lines), and both filters without the constraint on 
+pressure for $M_{max}^{obs}=1.97M_\odot$ (solid green lines). In all cases, 
+the likelihood probability $p_{\text{AME2016}}$ is accounted for and $p=3$ is 
+fixed.}\label{fig:is_dist}
+\end{figure}
+ 
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=1.0\linewidth]{figures/iv_dist.pdf}
+\end{center}
+\caption[Marginalized posteriors for isovector empirical parameters assuming
+different filters]{Marginalized posteriors for $E_{sym}$, $L_{sym}$, $K_{sym}$, 
+and $Q_{sym}$ for the sets passing through the LD filter without (solid blue
+lines) and with (dashdotted blue lines) the constraint on pressure, HD
+filter with $M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013} (solid orange
+lines) and with $M_{max}^{obs}=2.05M_\odot$~\cite{Cromartie2020}
+(dashdotted orange lines), and both filters without the constraint on 
+pressure for $M_{max}^{obs}=1.97M_\odot$ (solid green lines). In all cases, 
+the likelihood probability $p_{\text{AME2016}}$ is accounted for and $p=3$ is 
+fixed.}\label{fig:iv_dist}
+\end{figure}
+ 
+\subsubsection{Correlations among empirical parameters}\label{subsubsec:corr}
+
+Blabla.
+
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=1.0\linewidth]{figures/cm_ld.pdf}
+\end{center}
+\caption[Correlations among empirical parameters for the sets passing through
+the low-density filter]{Correlation matrix for the empirical parameters of 
+  orders $N \leq 3$ for the sets passing through the LD filter without (left) 
+  and with (right) the constraint on pressure. The likelihood probability 
+$p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ld}
+\end{figure}
+ 
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/cm_ldhd.pdf}
+\end{center}
+\caption[Correlations among empirical parameters for the sets passing through
+both low-density and high-density filters]{Correlation matrix for the empirical 
+  parameters of orders $N \leq 4$ for the sets passing through both LD and HD 
+  filters without the constraint on pressure for 
+  $M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013}. The likelihood probability 
+$p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ldhd}
+\end{figure}
+ 
 \section{General predictions for neutron star observables}\label{sec:general}
 
 % should i add a subsection 'Posterior distribution of NS observables'?
 
-\subsection{Confrontation with GW170817 event} % 1
+\subsection{Confrontation with the GW170817 event} % 1
 
 % general presentation of the gw170817 event
 % say that we identify it to a bns because we observed em counterparts
@@ -1096,8 +1194,8 @@ parameters}\label{subsec:posterior}
 % correlation with isovector bulk parameters is softened if one consider p as a
 %   free parameters (see corr matrix)
 
-\subsection{Crustal moment of inertia and pulsar
-glitches}\label{subsec:gli_stats} % 4
+\subsection{Pulsar glitches: 
+\textit{Is the crust enough?}}\label{subsec:gli_stats} % 4
 
 % explain pulsar glitches phenomena
 % give the hypothesis explaining the phenomena
@@ -1108,7 +1206,7 @@ glitches}\label{subsec:gli_stats} % 4
 %   calculation is stopped at the crust-core interface
 % report results
 
-\section{Conclusion} % 1
+\section{Conclusion}\label{sec:conclu2}
 
 % word on machine learning
 % one can expect more constraints in the future with nicer and lvc
