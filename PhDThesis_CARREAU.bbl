@@ -18305,6 +18305,56 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.75.055806
       \endverb
     \endentry
+    \entry{Chatterjee2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bdd67cf6618813622832a4e8378ce025}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=775fa117e374a255a0b521f8148693f2}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6a3a4b101b87fb12ff5baf843c930355}{%
+           family={Raduta},
+           familyi={R\bibinitperiod},
+           given={Ad.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=330d07d10d84c05fb07e7ad1838bc981}{%
+           family={Margueron},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d5c4727cef1d53fc5cbb2252a28b04e1}
+      \strng{fullhash}{68c1571855e3699dc0027aed332dda22}
+      \strng{authornamehash}{d5c4727cef1d53fc5cbb2252a28b04e1}
+      \strng{authorfullhash}{68c1571855e3699dc0027aed332dda22}
+      \field{labelalpha}{Cha+17}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{12}
+      \field{title}{Constraints on the nuclear equation of state from nuclear masses and radii in a Thomas-Fermi meta-modeling approach}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{065805}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.96.065805
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.96.065805
+      \endverb
+    \endentry
     \entry{Chabanat1998}{article}{}
       \name{author}{5}{}{%
         {{hash=cf206bf8bae31087896920b8dbe1b259}{%

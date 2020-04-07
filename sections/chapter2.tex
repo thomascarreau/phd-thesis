@@ -1231,7 +1231,7 @@ $p=3$ is fixed, but the results presented in the following are unmodified if
 $p$ is allowed to vary. The reason is that $p$ is decoupled by construction
 from the homogeneous EoS parameters, and it additionally does not play any role
 in the mass fit, see Fig.~\ref{fig:surf_fit}, meaning that it is also
-independent of the other surface parameters. Also, the likelihood probability
+independent of the other surface parameters. The likelihood probability
 $p_{AME2016}$ is accounted for in all cases.
 
 Given a pair of parameters $(X_i,X_j)$, the Pearson correlation coefficient is 
@@ -1258,24 +1258,53 @@ $p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ldhd}
  
 In Fig.~\ref{fig:cm_ld}, we find that many correlations appear due to the LD 
 constraints. The left panel of the figure shows the correlation matrix for the 
-empirical parameters for the sets passing through the LD filter without 
-imposing the constraint on pressure arising from chiral EFT. We find an 
-anticorrelation between $E_{sat}$ and $E_{sym}$, and a positive correlation
-between $E_{sym}$ and $n_{sat}$. More interesting correlations among the
-different isovector parameters are induced by the constraint of reproducing the
-ab initio EFT calculations. We recover the correlation between $E_{sym}$ and 
-$L_{sym}$, which has been already observed by many authors using different 
-models \cite{Lim2019tidal,Kortelainen2012,Danielewicz2014,Trippa2008,Colo2014}.
+empirical parameters of orders $N \leq 3$ for the sets passing through the LD 
+filter without applying the constraint on pressure arising from chiral EFT. We 
+find an anticorrelation between $E_{sat}$ and $E_{sym}$, and a positive 
+correlation between $E_{sym}$ and $n_{sat}$. More interesting correlations 
+among the different isovector parameters are induced by the constraint of 
+reproducing the ab initio EFT calculations. Indeed, we recover the correlation 
+between $E_{sym}$ and $L_{sym}$, which has been already observed by many 
+authors using different models 
+\cite{Lim2019tidal,Kortelainen2012,Danielewicz2014,Trippa2008,Colo2014}.
 We also observe a strong correlation between $L_{sym}$ and $K_{sym}$ and find
 that $E_{sym}$ is slightly anticorrelated to $K_{sym}$.
 
-The correlation matrix resulting from the application of the constraint on 
-pressure for the calculation of the correlations coefficients is shown in the
-right panel of Fig.~\ref{fig:cm_ld}. It is seen that the previously found 
-correlation between the slope of the symmetry energy $L_{sym}$ and the
+The correlation matrix calculated from the joint posterior distributions of
+parameters for the sets passing through chiral EFT predicted bands both for 
+energy per nucleon and pressure of NM is displayed in right panel of 
+Fig.~\ref{fig:cm_ld}. Several differences with respect to the matrix in the 
+left panel can be noticed.
+Among the isovector parameters, it is seen that the previously found 
+correlation between the slope of the symmetry energy $L_{sym}$ and the 
 isovector incompressibility $K_{sym}$ disappears in favor of a strong 
-correlation between $K_{sym}$ and and the isovector sqewness $Q_{sym}$ and an
-anticorraletion between $L_{sym}$ and $Q_{sym}$.
+correlation between $K_{sym}$ and the isovector sqewness $Q_{sym}$, and an 
+anticorrelation between $L_{sym}$ and $Q_{sym}$. We also observe that the 
+isoscalar parameters $K_{sat}$ and $Q_{sat}$ are weakly correlated with the 
+corresponding isovector ones $K_{sym}$ and $Q_{sym}$. These nontrivial 
+correlations can only be revealed within the metamodeling strategy, because in 
+usual functionals, such as Skyrme ones, the high-order parameters are a priori 
+strongly correlated from the functional form. 
+
+In both cases studied in Fig.~\ref{fig:cm_ld}, the fourth order parameters 
+$Z_{sat}$ and $Z_{sym}$ do not show any correlation with any other parameter, 
+showing their negligible influence on the density relatively close to 
+saturation implied in the LD filter. Similarly, the isoscalar effective mass 
+and effective mass splitting are also essentially uncorrelated 
+with the others. The reason is that variations of these parameters, which play 
+a crucial role in the structure of finite nuclei, are fully compensated by 
+variations of the density derivatives as long as only the total energetics, 
+that is kinetic plus potential, is involved~\cite{Chatterjee2017}.
+
+Fig.~\ref{fig:cm_ldhd} shows the correlation matrix for the empirical 
+parameters of orders $N \leq 4$ for the sets pawssing through both LD and HD 
+filters without the constraint on pressure, for
+$M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013}. One can identify the 
+correlations induced by the application of HD filter by comparison with the 
+left panel of Fig.~\ref{fig:cm_ld}. Doing so, we infer that the $w_{HD}$ 
+pass-band filter does not induce any correlation among the 
+empirical parameters, with the exception of $Q_{sat}$ being now slightly 
+anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 
 \section{General predictions for neutron star observables}\label{sec:general}
 
