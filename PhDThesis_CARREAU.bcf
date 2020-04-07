@@ -2487,7 +2487,7 @@
     <bcf:citekey order="297">Wiringa1988</bcf:citekey>
     <bcf:citekey order="298">GWtidal</bcf:citekey>
     <bcf:citekey order="299">Antoniadis2013</bcf:citekey>
-    <bcf:citekey order="300">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="300">Antoniadis2013</bcf:citekey>
     <bcf:citekey order="301">Antoniadis2013</bcf:citekey>
     <bcf:citekey order="302">Cromartie2020</bcf:citekey>
     <bcf:citekey order="303">Antoniadis2013</bcf:citekey>
@@ -2495,7 +2495,17 @@
     <bcf:citekey order="305">Antoniadis2013</bcf:citekey>
     <bcf:citekey order="306">Cromartie2020</bcf:citekey>
     <bcf:citekey order="307">Antoniadis2013</bcf:citekey>
-    <bcf:citekey order="308">Antoniadis2013</bcf:citekey>
+    <bcf:citekey order="308">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="309">Drischler2016</bcf:citekey>
+    <bcf:citekey order="310">Antoniadis2013</bcf:citekey>
+    <bcf:citekey order="310">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="311">Antoniadis2013</bcf:citekey>
+    <bcf:citekey order="312">Antoniadis2013</bcf:citekey>
+    <bcf:citekey order="313">Lim2019tidal</bcf:citekey>
+    <bcf:citekey order="313">Kortelainen2012</bcf:citekey>
+    <bcf:citekey order="313">Danielewicz2014</bcf:citekey>
+    <bcf:citekey order="313">Trippa2008</bcf:citekey>
+    <bcf:citekey order="313">Colo2014</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

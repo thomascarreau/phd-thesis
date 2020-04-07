@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  6 APR 2020 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  7 APR 2020 21:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1330,66 +1330,69 @@ Package pdftex.def Info: figures/drischler.pdf used on input line 966.
  [74 <./figures/drischler.pdf>]
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1032.
- [75] <figures/is_dist.pdf, id=1971, 578.16pt x 433.62pt>
+ [75] <figures/is_dist.pdf, id=1973, 578.16pt x 433.62pt>
 File: figures/is_dist.pdf Graphic file (type pdf)
  <use figures/is_dist.pdf>
-Package pdftex.def Info: figures/is_dist.pdf used on input line 1110.
+Package pdftex.def Info: figures/is_dist.pdf used on input line 1119.
 (pdftex.def)             Requested size: 418.25368pt x 313.68826pt.
- <figures/iv_dist.pdf, id=1976, 578.16pt x 433.62pt>
+ <figures/iv_dist.pdf, id=1978, 578.16pt x 433.62pt>
 File: figures/iv_dist.pdf Graphic file (type pdf)
  <use figures/iv_dist.pdf>
-Package pdftex.def Info: figures/iv_dist.pdf used on input line 1126.
+Package pdftex.def Info: figures/iv_dist.pdf used on input line 1135.
 (pdftex.def)             Requested size: 418.25368pt x 313.68826pt.
- <figures/cm_ld.pdf, id=1981, 1011.78pt x 505.89pt>
+ [76] [77 <./figures/is_dist.pdf>] [78 <./figures/iv_dist.pdf>] <figures/cm_ld.pdf, id=2051, 1011.78pt x 505.89pt>
 File: figures/cm_ld.pdf Graphic file (type pdf)
  <use figures/cm_ld.pdf>
-Package pdftex.def Info: figures/cm_ld.pdf used on input line 1146.
+Package pdftex.def Info: figures/cm_ld.pdf used on input line 1219.
 (pdftex.def)             Requested size: 418.25368pt x 209.1299pt.
- <figures/cm_ldhd.pdf, id=1982, 578.16pt x 433.62pt>
+
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+ [79 <./figures/cm_ld.pdf>] <figures/cm_ldhd.pdf, id=2072, 578.16pt x 433.62pt>
 File: figures/cm_ldhd.pdf Graphic file (type pdf)
  <use figures/cm_ldhd.pdf>
-Package pdftex.def Info: figures/cm_ldhd.pdf used on input line 1157.
+Package pdftex.def Info: figures/cm_ldhd.pdf used on input line 1249.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
-) (./sections/appendices.tex [76] [77 <./figures/is_dist.pdf>] [78 <./figures/iv_dist.pdf>] [79 <./figures/cm_ld.pdf>] [80 <./figures/cm_ldhd.pdf>]
+ [80 <./figures/cm_ldhd.pdf>]) (./sections/appendices.tex [81] [82
+
+]
 Appendix A.
-[81
-
-] [82]
+[83] [84]
 Appendix B.
-[83
+[85
 
-] [84]
+] [86]
 Appendix C.
-) [85
+) [87
 
-] [86
+] [88
 
 ]
 Overfull \hbox (12.57996pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 B. P. Ab-bott et al. ``Prop-er-ties of the Bi-nary Neu-tron Star Merger GW170817''.
  []
 
-[87]
+[89]
 Overfull \hbox (2.49072pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 Carreau, Thomas, Gul-minelli, Francesca, and Mar-gueron, Jérôme. ``Bayesian
  []
 
-[88]
+[90]
 Overfull \hbox (1.73732pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 P. B. De-mor-est et al. ``A two-solar-mass neu-tron star mea-sured us-ing Shapiro
  []
 
-[89] [90] [91]
+[91] [92] [93] [94]
 Overfull \hbox (16.18066pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 P. Möller and J.R. Nix. ``Nu-clear masses from a uni-fied macroscopic-microscopic
  []
 
-[92] [93]
+[95]
 Overfull \hbox (16.02777pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 X. Roca-Maza et al. ``Rel-a-tivis-tic mean-field in-ter-ac-tion with density-dependent
  []
 
-[94]
+[96] [97]
 Overfull \hbox (13.81113pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/10.95 Nobutoshi Ya-su-take, Toshiki Maruyama, and Toshi-taka Tat-sumi. ``Hot hadron-
  []
@@ -1405,7 +1408,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the PhDThesis_CARREAU.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-[95]
+[98]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (./PhDThesis_CARREAU.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
@@ -1418,10 +1421,10 @@ Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 17009 strings out of 493013
- 270539 string characters out of 6135682
- 1383020 words of memory out of 5000000
- 19612 multiletter control sequences out of 15000+600000
+ 17035 strings out of 493013
+ 271252 string characters out of 6135682
+ 1390497 words of memory out of 5000000
+ 19628 multiletter control sequences out of 15000+600000
  129700 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,45p,4525b,1285s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1429,10 +1432,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (95 pages, 1341819 bytes).
+Output written on PhDThesis_CARREAU.pdf (98 pages, 1353986 bytes).
 PDF statistics:
- 2513 PDF objects out of 2984 (max. 8388607)
- 2268 compressed objects within 23 object streams
- 445 named destinations out of 1000 (max. 500000)
+ 2563 PDF objects out of 2984 (max. 8388607)
+ 2314 compressed objects within 24 object streams
+ 455 named destinations out of 1000 (max. 500000)
  590 words of extra memory for PDF output out of 10000 (max. 10000000)
 

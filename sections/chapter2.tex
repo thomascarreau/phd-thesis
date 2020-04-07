@@ -920,7 +920,7 @@ different functionals considered in the literature have very different values
 of $K_{sym}$, which blurs the correlation with $L_{sym}$. This effect is also 
 amplified by the fact that, depending on the reference point, the dependence of 
 $P_t$ with $L_{sym}$ is not monotonic. Finally, we can notice that the 
-influence of the fully unknown high order derivatives $Q_{sym}$ and $Z_{sym}$, 
+influence of the fully unknown high-order derivatives $Q_{sym}$ and $Z_{sym}$, 
 though less important than the one of $L_{sym}$, is not negligible and 
 comparable to the one of the isovector surface energy parameter $p$ that can be 
 inferred from Fig.~\ref{fig:cctp_lsym}. We have checked that similar 
@@ -1079,7 +1079,7 @@ the observations of LIGO and Virgo.
 parameters}\label{subsec:posterior}
 
 We now turn to the description of the joint posterior distribution of equation 
-of state parameters for $p=3$. The effect of the different filters on 
+of state parameters. The effect of the different filters on 
 marginalized one-parameter probabilities both for isoscalar and isovector 
 parameters is analyzed in~\ref{subsubsec:marg}. Correlations among empirical 
 parameters are extracted from the Bayesian analysis in~\ref{subsubsec:corr}.
@@ -1087,23 +1087,32 @@ parameters are extracted from the Bayesian analysis in~\ref{subsubsec:corr}.
 \subsubsection{Marginalized one-parameter posterior distributions of empirical
 parameters}\label{subsubsec:marg}
 
-% kde
-% average and deviation
-% zsatsym
-% m dm
-% b
-
 The marginal one-parameter probabilities can be evaluated from the joint
 posterior distribution $p(\bm{X}|\text{data})$ using Eq.~(\ref{eq:marg1}).
-The marginalized posteriors for isoscalar and isovector empirical parameters of 
+The generated PDF for isoscalar and isovector empirical parameters of 
 orders $N\leq 3$ are shown in Fig.~\ref{fig:is_dist} and~\ref{fig:iv_dist},
-respectively. The effect of the different filters on the one-parameter PDF is
-seen. We find that the likelihood probability $p_{\text{AME2016}}$,
+respectively. The effect of the different filters on the one-parameter PDF can
+be seen. We find that the likelihood probability $p_{\text{AME2016}}$,
 originating from the mass fit, has a negligible impact on the distributions.
 This can be understood from the fact that the prior distribution of empirical
 parameters already contains information provided by nuclear experiments. Hence, 
-in all cases the probability $p_{\text{AME2016}}$ is accounted for in the 
-distribution.
+in all cases, the probability $p_{\text{AME2016}}$ is accounted for in the
+evaluation of the PDF. The isovector surface tension parameter $p$ is fixed to
+be $p=3$ for this study. Five combinations of filters are considered:
+%
+\begin{itemize}
+  \item the LD only without the constraint on pressure (solid blue
+    lines),
+  \item the LD filter only with the constraint on pressure (dashdotted blue
+    lines),
+  \item the HD filter only with $M_{max}^{obs} =
+    1.97M_\odot$~\cite{Antoniadis2013} (solid orange lines),
+  \item the HD filter only with $M_{max}^{obs} =
+    2.05M_\odot$~\cite{Antoniadis2013} (dashdotted orange lines),
+  \item both LD and HD filters with the constraint on pressure, for 
+    $M_{max}^{obs} = 1.97M_\odot$ (solid green lines).
+\end{itemize}
+%
 
 \begin{figure}[!t]
 \begin{center}
@@ -1116,7 +1125,7 @@ lines) and with (dashdotted blue lines) the constraint on pressure, HD
 filter with $M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013} (solid orange
 lines) and with $M_{max}^{obs}=2.05M_\odot$~\cite{Cromartie2020}
 (dashdotted orange lines), and both filters without the constraint on 
-pressure for $M_{max}^{obs}=1.97M_\odot$ (solid green lines). In all cases, 
+pressure, for $M_{max}^{obs}=1.97M_\odot$ (solid green lines). In all cases, 
 the likelihood probability $p_{\text{AME2016}}$ is accounted for and $p=3$ is 
 fixed.}\label{fig:is_dist}
 \end{figure}
@@ -1132,14 +1141,78 @@ lines) and with (dashdotted blue lines) the constraint on pressure, HD
 filter with $M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013} (solid orange
 lines) and with $M_{max}^{obs}=2.05M_\odot$~\cite{Cromartie2020}
 (dashdotted orange lines), and both filters without the constraint on 
-pressure for $M_{max}^{obs}=1.97M_\odot$ (solid green lines). In all cases, 
-the likelihood probability $p_{\text{AME2016}}$ is accounted for and $p=3$ is 
-fixed.}\label{fig:iv_dist}
+pressure, for $M_{max}^{obs}=1.97M_\odot$ (solid green lines). The resulting 
+mean value and uncertainty, corresponding to the latter option, are shown for 
+each parameter. In all cases, the likelihood probability $p_{\text{AME2016}}$ 
+is accounted for and $p=3$ is fixed.}\label{fig:iv_dist}
 \end{figure}
  
-\subsubsection{Correlations among empirical parameters}\label{subsubsec:corr}
+By comparing the LD predictions in Fig.~\ref{fig:is_dist}, it is seen that 
+adding the pressure bands, predicted by chiral EFT~\cite{Drischler2016}, as a 
+constraint has a negligible effect on the posterior distributions of isoscalar
+empirical parameters. Since empirical information is available in SNM and
+included in our prior distribution, we observe that applying the LD filter 
+does not impose strong constraints on the one-parameter PDF in the isoscalar 
+sector. Still, we can notice that low values of $E_{sat}$ and $n_{sat}$ are 
+disfavored by the passage through the chiral EFT predicted bands shown in 
+Fig.~\ref{fig:drischler}. Conversely, it appears in~\ref{fig:iv_dist} that
+applying LD constraints on the energy per nucleon have a enormous effect on the 
+marginalized posterior distributions of the low-order isovector empirical 
+parameters $E_{sym}$ and $L_{sym}$, shown in the two upper panels. The effect
+on the posterior PDF of $L_{sym}$ is even larger if we impose the sets to be
+compatible with the chiral EFT predicted bands for pressure of SNM and PNM. It 
+also allows very tight determination of isovector incompressibility $K_{sym}$ 
+with respect to the LD prediction without the constraint on pressure. Overall, 
+we see that the posterior probabilities for these parameters are narrower
+than those without the additional constraints on pressure. These observations 
+can be easily understood with the following expression for the pressure 
+of PNM in the vicinity of the saturation density $n_{sat}$,
+%
+\begin{equation}
+  P_{PNM}(n) = P_{HM}(n,\delta=1) \simeq \frac{1}{3}n_{sat}(1+3x)^2(K_{sat}x +
+    L_{sym} + K_{sym}x),
+\end{equation}
+%
+which gives $P_{PNM}(n=n_{sat}) = n_{sat}L_{sym}/3$ at the saturation point. 
+The posterior distributions of $Q_{sat}$ and $Q_{sym}$ are only very slighty  
+affected by the LD constraints. The same is true for parameters of order $N=4$, 
+$Z_{sat}$ and $Z_{sym}$, which are not shown in the figures. The reason is that
+the high-order parameters contribute to the EoS at suprasaturation densities,
+which are not accessible with chiral EFT yet.
 
-Blabla.
+The one-parameter PDF for the sets passing through the HD pass-band filter 
+$w_{HD}$ are represented in orange lines. Overall, we find that the effect of
+varying the value $M_{max}^{obs}$, so as to be compatible with to the two 
+considered observations of heavy NS~\cite{Antoniadis2013,Cromartie2020}, is 
+very small. In the isoscalar sector, we can see the distributions of the 
+low-order parameters $E_{sat}$, $n_{sat}$ and $K_{sat}$ are not affected 
+by the passage through the $w_{HD}$ filter. On the other hand, it has an
+important effect on the PDF of $Q_{sat}$, with large values being favored. In
+the isovector sector, the HD filter has a significant impact on the PDF of
+$E_{sym}$, $L_{sym}$ and $K_{sym}$, yet less effective than that of the LD 
+filter, except for the $K_{sym}$. Concerning the isovector skewness parameter
+$Q_{sym}$, which we recall is not affected by the LD filter, we find negative 
+values to be very unlikely. 
+Overall, we can see that HD constraints favor stiff EoS with respect to the LD 
+predictions. The reason is obviously that stiff EoS are desired in order to 
+verify the maximum mass constraint.
+
+The generated one-parameter PDF associated to the sets passing through the 
+combination of both LD and HD filters without the constraint on pressure, 
+for $M_{max}^{obs}=1.97M_\odot$, are plotted in solid green lines. The
+mean value and standard deviation application of LD and HD constraints are 
+given for each of the isovector parameters.
+
+Let us notice that the marginalized posteriors for the effective mass 
+$m_{sat}^*/m$ and the isospin splitting $\Delta m_{sat}^*/m$ are not displayed 
+here. As for the low-density parameters in the isoscalar sector, these 
+quantities are already well constrained by nuclear experiments. Hence the
+associated posteriors distributions are very close the prior distributions. The
+marginalized posterior probabilitiy for low-density parameter $b$ is close to
+the prior distribution as well. This point can be understood from the fact that 
+none of the filters concern the $n \rightarrow 0$ limit.
+
+\subsubsection{Correlations among empirical parameters}\label{subsubsec:corr}
 
 \begin{figure}[!t]
 \begin{center}
@@ -1152,6 +1225,25 @@ the low-density filter]{Correlation matrix for the empirical parameters of
 $p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ld}
 \end{figure}
  
+We now turn to explore the correlations between empirical parameters, as
+obtained by applying the different conditions. As in~\ref{subsubsec:marg},
+$p=3$ is fixed, but the results presented in the following are unmodified if 
+$p$ is allowed to vary. The reason is that $p$ is decoupled by construction
+from the homogeneous EoS parameters, and it additionally does not play any role
+in the mass fit, see Fig.~\ref{fig:surf_fit}, meaning that it is also
+independent of the other surface parameters. Also, the likelihood probability
+$p_{AME2016}$ is accounted for in all cases.
+
+Given a pair of parameters $(X_i,X_j)$, the Pearson correlation coefficient is 
+calculated as 
+%
+\begin{equation}
+  r_{ij} = \frac{\text{cov}(X_i,X_j)}{\sigma_{X_i}\sigma_{X_j}},
+\end{equation}
+%
+where $\text{cov}(X_i,X_j)$ is the covariance and $\sigma_{X_i}$ 
+($\sigma_{X_j}$) is the standard deviation of the parameter $X_i$ ($X_j$).
+
 \begin{figure}[!t]
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/cm_ldhd.pdf}
@@ -1159,11 +1251,32 @@ $p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ld}
 \caption[Correlations among empirical parameters for the sets passing through
 both low-density and high-density filters]{Correlation matrix for the empirical 
   parameters of orders $N \leq 4$ for the sets passing through both LD and HD 
-  filters without the constraint on pressure for 
+  filters without the constraint on pressure, for 
   $M_{max}^{obs}=1.97M_\odot$~\cite{Antoniadis2013}. The likelihood probability 
 $p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ldhd}
 \end{figure}
  
+In Fig.~\ref{fig:cm_ld}, we find that many correlations appear due to the LD 
+constraints. The left panel of the figure shows the correlation matrix for the 
+empirical parameters for the sets passing through the LD filter without 
+imposing the constraint on pressure arising from chiral EFT. We find an 
+anticorrelation between $E_{sat}$ and $E_{sym}$, and a positive correlation
+between $E_{sym}$ and $n_{sat}$. More interesting correlations among the
+different isovector parameters are induced by the constraint of reproducing the
+ab initio EFT calculations. We recover the correlation between $E_{sym}$ and 
+$L_{sym}$, which has been already observed by many authors using different 
+models \cite{Lim2019tidal,Kortelainen2012,Danielewicz2014,Trippa2008,Colo2014}.
+We also observe a strong correlation between $L_{sym}$ and $K_{sym}$ and find
+that $E_{sym}$ is slightly anticorrelated to $K_{sym}$.
+
+The correlation matrix resulting from the application of the constraint on 
+pressure for the calculation of the correlations coefficients is shown in the
+right panel of Fig.~\ref{fig:cm_ld}. It is seen that the previously found 
+correlation between the slope of the symmetry energy $L_{sym}$ and the
+isovector incompressibility $K_{sym}$ disappears in favor of a strong 
+correlation between $K_{sym}$ and and the isovector sqewness $Q_{sym}$ and an
+anticorraletion between $L_{sym}$ and $Q_{sym}$.
+
 \section{General predictions for neutron star observables}\label{sec:general}
 
 % should i add a subsection 'Posterior distribution of NS observables'?

@@ -18220,6 +18220,41 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.100.055803
       \endverb
     \endentry
+    \entry{Colo2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=61500c4ed61d15b95cd6284450adcea0}{%
+           family={{Colò, G.}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=fa694005b59d952d709efab1db4cc750}{%
+           family={{Garg, U.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=ffdf484d6b1beecc9d250a42a7b509a2}{%
+           family={{Sagawa, H.}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a8a9a33b61c4a46f75d26718856d0a5}
+      \strng{fullhash}{7a8a9a33b61c4a46f75d26718856d0a5}
+      \strng{authornamehash}{7a8a9a33b61c4a46f75d26718856d0a5}
+      \strng{authorfullhash}{7a8a9a33b61c4a46f75d26718856d0a5}
+      \field{labelalpha}{CGS14}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eur. Phys. J. A}
+      \field{number}{2}
+      \field{title}{Symmetry energy from the nuclear collective motion: constraints from dipole, quadrupole, monopole and spin-dipole resonances}
+      \field{volume}{50}
+      \field{year}{2014}
+      \field{pages}{26}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epja/i2014-14026-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epja/i2014-14026-9
+      \endverb
+    \endentry
     \entry{Chamel2007}{article}{}
       \name{author}{4}{}{%
         {{hash=1dd10ebf6df46aad64c29e3da3c9bff2}{%
@@ -18906,6 +18941,44 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.93.054314
       \endverb
+    \endentry
+    \entry{Danielewicz2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4881a38b964cbac52f4d3ca956af4806}{%
+           family={Danielewicz},
+           familyi={D\bibinitperiod},
+           given={Pawel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7bc5d59790d5fb05123e6b3b73b080c8}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dac6b40e516a1c3b7b927761afa1b961}
+      \strng{fullhash}{dac6b40e516a1c3b7b927761afa1b961}
+      \strng{authornamehash}{dac6b40e516a1c3b7b927761afa1b961}
+      \strng{authorfullhash}{dac6b40e516a1c3b7b927761afa1b961}
+      \field{labelalpha}{DL14}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using excitation energies to isobaric analog states (IAS) and charge invariance, we extract nuclear symmetry coefficients, representing a mass formula, on a nucleus-by-nucleus basis. Consistently with charge invariance, the coefficients vary weakly across an isobaric chain. However, they change strongly with nuclear mass and range from aa∼10 MeV at mass A∼10 to aa∼22 MeV at A∼240. Variation with mass can be understood in terms of dependence of nuclear symmetry energy on density and the rise in importance of low densities within nuclear surface in smaller systems. At A≳30, the dependence of coefficients on mass can be well described in terms of a macroscopic volume–surface competition formula with aaV≃33.2 MeV and aaS≃10.7 MeV. Our further investigation shows, though, that the fitted surface symmetry coefficient likely significantly underestimates that for the limit of half-infinite matter. Following the considerations of a Hohenberg–Kohn functional for nuclear systems, we determine how to find in practice the symmetry coefficient using neutron and proton densities, even when those densities are simultaneously affected by significant symmetry-energy and Coulomb effects. These results facilitate extracting the symmetry coefficients from Skyrme–Hartree–Fock (SHF) calculations, that we carry out using a variety of Skyrme parametrizations in the literature. For the parametrizations, we catalog novel short-wavelength instabilities. In our further analysis, we retain only those parametrizations which yield systems that are adequately stable both in the long- and short-wavelength limits. In comparing the SHF and IAS results for the symmetry coefficients, we arrive at narrow (±2.4 MeV) constraints on the symmetry-energy values S(ρ) at 0.04≲ρ≲0.13 fm−3. Towards normal density the constraints significantly widen, but the normal value of energy aaV and the slope parameter L are found to be strongly correlated. To narrow the constraints, we reach for the measurements of asymmetry skins and arrive at aaV=30.2–33.7 MeV and L=35–70 MeV, with those values being again strongly positively correlated along the diagonal of their combined region. Inclusion of the skin constraints allows to narrow the constraints on S(ρ), at 0.04≲ρ≲0.13 fm−3, down to ±1.1 MeV. Several microscopic calculations, including variational, Bruckner–Hartree–Fock and Dirac–Bruckner–Hartree–Fock, are consistent with our constraint region on S(ρ).}
+      \field{issn}{0375-9474}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{title}{Symmetry energy II: Isobaric analog states}
+      \field{volume}{922}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 70}
+      \range{pages}{70}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.nuclphysa.2013.11.005
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0375947413007872
+      \endverb
+      \keyw{Symmetry energy,Isobaric analog state,Nuclear matter,Hohenberg–Kohn functional,Skyrme–Hartree–Fock model,Binding formula}
     \endentry
     \entry{Ducoin2008}{article}{}
       \name{author}{3}{}{%
@@ -19987,6 +20060,76 @@
       \field{howpublished}{\url{http://www.jb.man.ac.uk/pulsar/glitches.html}}
       \field{title}{Glitch Catalogue}
     \endentry
+    \entry{Kortelainen2012}{article}{}
+      \name{author}{8}{}{%
+        {{hash=113399561babcc0ffdcae1fa96222f3c}{%
+           family={Kortelainen},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25063808b20963ab226baa2a4e66285a}{%
+           family={McDonnell},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=80556e8bb74c83b3d3006eb1e1ab1daf}{%
+           family={Nazarewicz},
+           familyi={N\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=79b3603326a64324d53355bad8a9e9d7}{%
+           family={Reinhard},
+           familyi={R\bibinitperiod},
+           given={P.-G.},
+           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=608d10b6b6e2f6d76a85aee8e8365165}{%
+           family={Sarich},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=23bc95337da6b48e5840e96c7a9f2176}{%
+           family={Schunck},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a62d50ffb624133ce599e21695b1a1d3}{%
+           family={Stoitsov},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=d0c02080e1a3947c92cd17890d627938}{%
+           family={Wild},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f35005bccc320df63282127ec546c34a}
+      \strng{fullhash}{f699ea5c503ef932b93b1d06287f06da}
+      \strng{authornamehash}{f35005bccc320df63282127ec546c34a}
+      \strng{authorfullhash}{f699ea5c503ef932b93b1d06287f06da}
+      \field{labelalpha}{Kor+12}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{2}
+      \field{title}{Nuclear energy density optimization: Large deformations}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{024304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.85.024304
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.85.024304
+      \endverb
+    \endentry
     \entry{Link1999}{article}{}
       \name{author}{3}{}{%
         {{hash=a72329fd9197046c71754402a2e9402a}{%
@@ -20030,6 +20173,38 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.83.3362
+      \endverb
+    \endentry
+    \entry{Lim2019tidal}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ff5113f72a726e37ba5c8142f0d20d63}{%
+           family={{Lim, Y.}},
+           familyi={L\bibinitperiod}}}%
+        {{hash=0e8f2cf66f6241c60329ad5ad1bb5e15}{%
+           family={{Holt, J. W.}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bd91ebafc05d67a81d6150615aecd4d}
+      \strng{fullhash}{0bd91ebafc05d67a81d6150615aecd4d}
+      \strng{authornamehash}{0bd91ebafc05d67a81d6150615aecd4d}
+      \strng{authorfullhash}{0bd91ebafc05d67a81d6150615aecd4d}
+      \field{labelalpha}{LH19}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eur. Phys. J. A}
+      \field{number}{11}
+      \field{title}{Bayesian modeling of the nuclear equation of state for neutron star tidal deformabilities and GW170817}
+      \field{volume}{55}
+      \field{year}{2019}
+      \field{pages}{209}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epja/i2019-12917-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epja/i2019-12917-9
       \endverb
     \endentry
     \entry{Lim2019}{article}{}
@@ -21767,6 +21942,51 @@
       \field{labeltitlesource}{title}
       \field{title}{Data analysis: a Bayesian tutorial}
       \field{year}{2006}
+    \endentry
+    \entry{Trippa2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e052fce4d48cbbce55badedb1b332b7f}{%
+           family={Trippa},
+           familyi={T\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=97e8ca1229dc76f05d8610cdd2cfd672}{%
+           family={Colò},
+           familyi={C\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2b8551235382f3e8ef4844230d8a49b2}{%
+           family={Vigezzi},
+           familyi={V\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b8e70b804401676798a3f786d749dd68}
+      \strng{fullhash}{b8e70b804401676798a3f786d749dd68}
+      \strng{authornamehash}{b8e70b804401676798a3f786d749dd68}
+      \strng{authorfullhash}{b8e70b804401676798a3f786d749dd68}
+      \field{labelalpha}{TCV08}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{6}
+      \field{title}{Giant dipole resonance as a quantitative constraint on the symmetry energy}
+      \field{volume}{77}
+      \field{year}{2008}
+      \field{pages}{061304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.77.061304
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.77.061304
+      \endverb
     \endentry
     \entry{Tolman1939}{article}{}
       \name{author}{1}{}{%
