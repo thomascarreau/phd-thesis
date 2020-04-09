@@ -1098,7 +1098,12 @@ This can be understood from the fact that the prior distribution of empirical
 parameters already contains information provided by nuclear experiments. Hence, 
 in all cases, the probability $p_{\text{AME2016}}$ is accounted for in the
 evaluation of the PDF. The isovector surface tension parameter $p$ is fixed to
-be $p=3$ for this study. Five combinations of filters are considered:
+be $p=3$ for this study, but the results presented in the following are 
+unmodified if $p$ is allowed to vary. The reason is that $p$ is decoupled by 
+construction from the homogeneous EoS parameters, and it additionally does not 
+play any role in the mass fit, see Fig.~\ref{fig:surf_fit}, meaning that it is 
+also independent of the other surface parameters. Five combinations of filters 
+are considered:
 %
 \begin{itemize}
   \item the LD only without the constraint on pressure (solid blue
@@ -1227,13 +1232,8 @@ $p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed.}\label{fig:cm_ld}
  
 We now turn to explore the correlations between empirical parameters, as
 obtained by applying the different conditions. As in~\ref{subsubsec:marg},
-$p=3$ is fixed, but the results presented in the following are unmodified if 
-$p$ is allowed to vary. The reason is that $p$ is decoupled by construction
-from the homogeneous EoS parameters, and it additionally does not play any role
-in the mass fit, see Fig.~\ref{fig:surf_fit}, meaning that it is also
-independent of the other surface parameters. The likelihood probability
-$p_{AME2016}$ is accounted for in all cases.
-
+$p=3$ is fixed, and the likelihood probability $p_{AME2016}$ is accounted for 
+in all cases.\\
 Given a pair of parameters $(X_i,X_j)$, the Pearson correlation coefficient is 
 calculated as 
 %
@@ -1318,11 +1318,25 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 
 \subsubsection{Equation of state} % 1
 
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/eos_bayes.pdf}
+\end{center}
+\caption[Blabla]{Blabla.}\label{fig:eos_bayes}
+\end{figure}
+ 
 \subsubsection{Mass-radius relation} % 1.5
 
 % speed of sound expansion allows for phase transition, unlike the mm
 % -> lower radius found in 1908.10352 could be the sign of a pt to quarks?
 
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/mr_bayes.pdf}
+\end{center}
+\caption[Blabla]{Blabla.}\label{fig:mr_bayes}
+\end{figure}
+ 
 \subsubsection{Tidal deformability} % 2
 
 % mchirp is measured very precisely

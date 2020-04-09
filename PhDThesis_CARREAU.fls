@@ -603,6 +603,12 @@ INPUT ./figures/cm_ld.pdf
 INPUT figures/cm_ldhd.pdf
 INPUT ./figures/cm_ldhd.pdf
 INPUT ./figures/cm_ldhd.pdf
+INPUT figures/eos_bayes.pdf
+INPUT ./figures/eos_bayes.pdf
+INPUT ./figures/eos_bayes.pdf
+INPUT figures/mr_bayes.pdf
+INPUT ./figures/mr_bayes.pdf
+INPUT ./figures/mr_bayes.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm

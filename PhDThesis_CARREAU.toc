@@ -108,10 +108,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Conclusion}{81}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{83}{appendix.A}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{85}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{85}{appendix.B}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{87}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{87}{appendix.C}
+\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{89}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{89}{appendix*.4}
+\contentsline {chapter}{Bibliography}{91}{appendix*.4}
