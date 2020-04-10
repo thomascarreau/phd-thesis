@@ -613,7 +613,8 @@ relativistic models, to explain the glitch phenomenon as a transfer of angular
 momentum from the neutron superfluid confined in the crystal lattice to the 
 solid crust.
 
-\section{Bayesian determination of the equation of state parameters}
+\section{Bayesian determination of the equation of state
+parameters}\label{sec:bayes}
 
 In recent years, there has been a lot of efforts invested in the development of
 the chiral effective field theory (EFT)~\cite{Drischler2016} with the aim of 
@@ -1308,13 +1309,25 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 
 \section{General predictions for neutron star observables}\label{sec:general}
 
-% should i add a subsection 'Posterior distribution of NS observables'?
+% expression marginalized posterior of observables?
+This section deals with general predictions for NS observables, based on the
+Bayesian analysis performed in Section~\ref{sec:bayes}. Our predictions for
+global properties of the NS are presented and confronted with popular models 
+as well as GW170817 event in~\ref{subsec:gw17}. The Bayesian determination of 
+the CC transition density and pressure is carried out in~\ref{subsec:cc_bayes}.
+Finally, in~\ref{subsec:gli_stats}, we calculate the fraction of crust moment
+of inertia for the joint posterior distribution of parameters in order to 
+investigate whether \textit{the crust in enough} to explain pulsar glitches in 
+the standard picture presented in~\ref{subsubsec:glitch}.
 
-\subsection{Confrontation with the GW170817 event} % 1
+\subsection{Global properties: confrontation with popular models and the 
+GW170817 event}\label{subsec:gw17}
 
+% lot of differnt functionals, which make differnt predictions.
 % general presentation of the gw170817 event
 % say that we identify it to a bns because we observed em counterparts
 %   -> multimessenger era
+% plan
 
 \subsubsection{Equation of state} % 1
 
@@ -1322,9 +1335,49 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/eos_bayes.pdf}
 \end{center}
-\caption[Blabla]{Blabla.}\label{fig:eos_bayes}
+\caption[Posterior equation of state confronted with popular models and 
+the GW170817 event]{Marginalized posterior for the pressure 
+  $P$ as a function of the baryon mass density $\rho_B$ of the NS interior for 
+  the sets passing through both LD and HD filters without the constraint on 
+  pressure, for $M_{max}^{obs} = 1.97M_\odot$~\cite{Antoniadis2013}. The 
+  likelihood probability $p_{AME2016}$ is accounted for and $p=3$ is fixed. The 
+  blue dark and light shaded regions show the $1\sigma$ and $2\sigma$ 
+  confidence intervals, respectively. The BSk24 (solid orange line), SLy4
+  (dashdotted green line), PKDD (dotted red line), and TM1 (solid puprle line) 
+  unified EoS calculated within the metamodeling technique with $p=3$ are 
+  represented. The recent constraint on $P(2\rho_{sat})$ inferred from 
+  GW170817~\cite{GW1} is given.}\label{fig:eos_bayes}
 \end{figure}
+
+The $1\sigma$ and $2\sigma$ confidence regions for the posterior unified EoS,
+obtained from the sets passing through both LD and HD constraints, are shown in
+Fig.~\ref{fig:eos_bayes} along with two popular EoS calculated within the
+metamodeling technique, namely BSk24 (dashdotted orange line) and PKDD EoS
+(dotted green line). We can see that only the EoS based on BSk24 functional is
+compatible, at $2\sigma$, with the final LD+HD prediction in the whole density 
+domain considered in the figure. It is observed that the SLy4 EoS deviates
+below the $2\sigma$ band at suprasaturation densities.
+The two EoS based on funtionals issued from relativistic mean-field theory, 
+namely PKDD and TM1, do not meet the the final LD+HD predictions. The reason is 
+that the ab initio calculations considered for our LD filter 
+\cite{Drischler2016} tend to favor soft EoS, typically based on Skyrme
+functionals, as we can see in Fig.~\ref{fig:iv_dist}. Indeed, we find $E_{sym}
+= 30.77 \pm 1.20$ MeV and $L_{sym} = 47.11 \pm 9.54$ MeV for the low-order
+isovector parameters for the LD+HD prediction, which is very close to the LD
+one for these parameters. The two relativistic functionals considered
+here, the empirical parameters of which are reported in
+Table~\ref{table:newemppar}, exhibit a very stiff behavior at saturation.
  
+The recent constraint, provided by the observation of GW170817, on 
+the pressure at twice nuclear saturation density, $P(2\rho_{sat}) =
+3.5_{-1.7}^{+2.7}\times 10^{34}$ dyn/cm$^2$ at the $90\%$ level~\cite{GW1}, is 
+also shown in Fig.~\ref{fig:eos_bayes}. We can see that this result is in very 
+good agreement with our analysis. Let us notice that our predicted $2\sigma$ 
+band at $2\rho_{sat}$ is very thin in comparison with the constraint 
+arising from GW170817. This is because the ab initio calculations, not 
+considered as a filter in~\cite{GW1}, impose stringent constraints on the 
+low-density EoS.
+
 \subsubsection{Mass-radius relation} % 1.5
 
 % speed of sound expansion allows for phase transition, unlike the mm
@@ -1334,7 +1387,16 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/mr_bayes.pdf}
 \end{center}
-\caption[Blabla]{Blabla.}\label{fig:mr_bayes}
+\caption[Posterior mass-radius relation confronted with popular models and 
+the GW170817 event]{Marginalized posterior for the NS mass $M$ as a function of 
+  the radius $R$ for the sets passing through both LD and HD filters without 
+  the constraint on pressure, for $M_{max}^{obs} =
+  1.97M_\odot$~\cite{Antoniadis2013} (magenta band). The likelihood 
+  probability $p_{AME2016}$ is accounted for and $p=3$ is fixed. The blue 
+  shaded regions show the $1\sigma$, $2\sigma$ and $3\sigma$ confidence 
+  intervals. The BSk24 (dashdotted orange line) and PKDD (dotted 
+  green line) unified EoS calculated within the metamodeling technique with 
+  $p=3$ are represented.}\label{fig:mr_bayes}
 \end{figure}
  
 \subsubsection{Tidal deformability} % 2
@@ -1343,7 +1405,8 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 % was measured for the first time for gw170817 event allowing to calculate the
 %   m1-m2, lambda1-lambda2 relations
 
-\subsection{Bayesian analysis of the crust-core transition} % 4
+\subsection{Bayesian analysis of the crust-core
+transition}\label{subsec:cc_bayes}
 
 % surface figures (prior/posterior)
 % corr(Pt,Ksym) (link with chapter 1)
@@ -1351,7 +1414,7 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 %   free parameters (see corr matrix)
 
 \subsection{Pulsar glitches: 
-\textit{Is the crust enough?}}\label{subsec:gli_stats} % 4
+\textit{Is the crust enough?}}\label{subsec:gli_stats}
 
 % explain pulsar glitches phenomena
 % give the hypothesis explaining the phenomena
