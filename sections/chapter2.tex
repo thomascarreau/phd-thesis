@@ -631,7 +631,7 @@ This section deals with the Bayesian determination of the EoS
 parameters. The general formalism of Bayesian inference is recalled and its
 application for constraining the EoS is explained in~\ref{subsec:bayes}.
 In~\ref{subsec:prior}, we give the the prior distribution of EoS parameters
-and a sensativity analysis of the CC transition point is carried out 
+and a sensitivity analysis of the CC transition point is carried out 
 afterwards. The likelihood function, based on constraints on nuclear physics
 observables, constraints on NS obervables, and physical requirements, is 
 constructed in~\ref{subsec:likeli}. Finally, we present the posterior 
@@ -1309,12 +1309,22 @@ anticorrelated to $Q_{sym}$ and $Z_{sat}$.
 
 \section{General predictions for neutron star observables}\label{sec:general}
 
-% expression marginalized posterior of observables?
 This section deals with general predictions for NS observables, based on the
-Bayesian analysis performed in Section~\ref{sec:bayes}. Our predictions for
-global properties of the NS are presented and confronted with popular models 
-as well as GW170817 event in~\ref{subsec:gw17}. The Bayesian determination of 
-the CC transition density and pressure is carried out in~\ref{subsec:cc_bayes}.
+Bayesian analysis performed in Section~\ref{sec:bayes}. The marginalized
+posterior for the observable $\mathcal{O}$,
+%
+\begin{equation}
+  p(\mathcal{O}|\text{data}) = \left\{\prod_{i=1}^{2(N+1)+3}\int
+  dX_i\right\}\mathcal{O}(\bm{X})p(\bm{X}|\text{data}),\label{eq:margobs}
+\end{equation}
+%
+can be extracted from the joint posterior distribution of empirical parameters
+$p(\bm{X}|\text{data})$, where $\mathcal{O}(\bm{X})$ is the value of the
+observable $\mathcal{O}$ as obtained with the parameter set $\bm{X}$.
+Our predictions for global properties of the NS are presented and confronted 
+with popular models as well as GW170817 event in~\ref{subsec:gw17}. The 
+Bayesian determination of the CC transition density and pressure is carried out 
+in~\ref{subsec:cc_bayes}.
 Finally, in~\ref{subsec:gli_stats}, we calculate the fraction of crust moment
 of inertia for the joint posterior distribution of parameters in order to 
 investigate whether \textit{the crust in enough} to explain pulsar glitches in 
@@ -1345,7 +1355,7 @@ the GW170817 event]{Marginalized posterior for the pressure
   confidence intervals, respectively. The BSk24 (solid orange line), SLy4
   (dashdotted green line), PKDD (dotted red line), and TM1 (solid puprle line) 
   unified EoS calculated within the metamodeling technique with $p=3$ are 
-  represented. The recent constraint on $P(2\rho_{sat})$ inferred from 
+  represented. The recent constraint on $P_{2\rho_{sat}}$ inferred from 
   GW170817~\cite{GW1} is given.}\label{fig:eos_bayes}
 \end{figure}
 
@@ -1369,7 +1379,7 @@ here, the empirical parameters of which are reported in
 Table~\ref{table:newemppar}, exhibit a very stiff behavior at saturation.
  
 The recent constraint, provided by the observation of GW170817, on 
-the pressure at twice nuclear saturation density, $P(2\rho_{sat}) =
+the pressure at twice nuclear saturation density, $P_{2\rho_{sat}} =
 3.5_{-1.7}^{+2.7}\times 10^{34}$ dyn/cm$^2$ at the $90\%$ level~\cite{GW1}, is 
 also shown in Fig.~\ref{fig:eos_bayes}. We can see that this result is in very 
 good agreement with our analysis. Let us notice that our predicted $2\sigma$ 
@@ -1379,9 +1389,6 @@ considered as a filter in~\cite{GW1}, impose stringent constraints on the
 low-density EoS.
 
 \subsubsection{Mass-radius relation} % 1.5
-
-% speed of sound expansion allows for phase transition, unlike the mm
-% -> lower radius found in 1908.10352 could be the sign of a pt to quarks?
 
 \begin{figure}[!t]
 \begin{center}
@@ -1393,12 +1400,55 @@ the GW170817 event]{Marginalized posterior for the NS mass $M$ as a function of
   the constraint on pressure, for $M_{max}^{obs} =
   1.97M_\odot$~\cite{Antoniadis2013} (magenta band). The likelihood 
   probability $p_{AME2016}$ is accounted for and $p=3$ is fixed. The blue 
-  shaded regions show the $1\sigma$, $2\sigma$ and $3\sigma$ confidence 
-  intervals. The BSk24 (dashdotted orange line) and PKDD (dotted 
-  green line) unified EoS calculated within the metamodeling technique with 
-  $p=3$ are represented.}\label{fig:mr_bayes}
+  shaded regions show the $68\%$, $95\%$ and $99\%$ confidence 
+  intervals. The mass-radius relation for the same popular EoS as in 
+Fig.~\ref{fig:eos_bayes} are represented.}\label{fig:mr_bayes}
 \end{figure}
  
+% confrontation with popular models
+In Fig.~\ref{fig:mr_bayes}, we plot the $68\%$, $95\%$ and $99\%$ 
+confidence regions for the mass-radius relation obtained from the Bayesian
+modeling of the EoS for the LD+HD prediction, using the marginalization 
+principle, Eq.~(\ref{eq:margobs}). The mass-radius relationship for the same 
+popular EoS as in Fig.~\ref{fig:eos_bayes}, namely the 
+Skyrme-based BSk24 and SLy4 EoS, and relativistic PKDD and TM1 EoS, are 
+represented. As we can see, only the BSk24 result (solid orange line) is 
+compatible with our prediction at $95\%$ credible level in the whole mass 
+domain considered. The two relativistic models predict large radii compared to 
+our prediction. The soft SLy4 EoS, while similar to BSk24 EoS at low density, 
+predict too small radii by $\approx 1$ km to meet the LD+HD prediction at 
+$M = 2M_\odot$. Given the results presented in this figure and in
+Fig.~\ref{fig:eos_bayes}, we therefore find that all known models considered 
+would have been rejected by the filters except BSk24, which satisfy both LD and
+HD constraints.
+
+Let us now confront our prediction for the radius of a canonical NS,
+$R_{1.4}=12.88_{-0.65}^{+0.53}$ km ($90\%$ credible interval), with different 
+constraints found in the literature.
+De \textit{et al.} have performed a Bayesian parameter estimation for the tidal
+deformabilities and radii of NS from the observation of GW170817 within the
+approximation $R_1 = R_2$, $R_1$ being the radius of the heavier star and 
+$R_2$ that of the lighter star, that is assuming an identical value for the 
+radius of binary components. 
+The authors found $R_{1.4} = 10.7_{-1.6}^{+2.1}$ km ($90\%$ 
+credible interval)~\cite{De2018}, which is in a very close agreement with the 
+estimation of the LIGO/Virgo collaborations which use EoS-insensitive 
+relations, $R_{1.4} \approx R_1 = 10.7_{-1.5}^{+2.1}$ km ($90\%$ credible
+interval)~\cite{GW1}. Using a parametrized EoS and imposing the constraint on
+the maximum mass $M_{max}^{obs}=1.97M_\odot$, LIGO and Virgo collaborations 
+further constrain $R_{1.4} \approx R_1 = 11.9_{-1.4}^{+1.4}$ km ($90\%$ 
+credible interval). In all analyses, a uniform prior was used on the component 
+masses. 
+We find that our estimation of the canonical radius $R_{1.4}$ is 
+compatible with these three analyses, even though we can notice that the our
+value for the median is larger, and the $90\%$ confidence interval is 
+tighter. This outlines the importance of the LD filter in our calculation, 
+which ensure that our posterior is compatible with chiral EFT predicted bands 
+for the energy per nucleon of SNM and PNM. Moreover, our prior distribution of 
+EoS parameters contains information arising from nuclear experiments.
+In~\cite{De2018,GW1}, constraints on nuclear physics observables were not 
+considered.
+
 \subsubsection{Tidal deformability} % 2
 
 % mchirp is measured very precisely

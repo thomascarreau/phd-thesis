@@ -18718,6 +18718,66 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0375947407002321
       \endverb
     \endentry
+    \entry{De2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=83d1738df24c6a38ef3ff944b67c1acc}{%
+           family={De},
+           familyi={D\bibinitperiod},
+           given={Soumi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eb483365a5e5ef0b9dc8c016147a7f94}{%
+           family={Finstad},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=13ee8f9cca77b0a803ae61d323f141f9}{%
+           family={Lattimer},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4b5d3f6f593896fd6f8bd8123673050f}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Duncan\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=dbee9fcd7ed710cca6f93f9cc7c57242}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Edo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=30ab307ce9503f0374ccc476bd6cd325}{%
+           family={Biwer},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a7077bf53170b67b3618f54a05c13ef9}
+      \strng{fullhash}{6a14d8674efc07069e9068aa49f59676}
+      \strng{authornamehash}{a7077bf53170b67b3618f54a05c13ef9}
+      \strng{authorfullhash}{6a14d8674efc07069e9068aa49f59676}
+      \field{labelalpha}{De+18}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{9}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Tidal Deformabilities and Radii of Neutron Stars from the Observation of GW170817}
+      \field{volume}{121}
+      \field{year}{2018}
+      \field{pages}{091102}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.121.091102
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.121.091102
+      \endverb
+    \endentry
     \entry{Delsate2016}{article}{}
       \name{author}{6}{}{%
         {{hash=a6b63c2e5af68a57a3d0cbe5861cca8e}{%
