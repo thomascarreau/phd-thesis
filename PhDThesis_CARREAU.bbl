@@ -17293,6 +17293,71 @@
       \verb 10.1038/256025a0
       \endverb
     \endentry
+    \entry{Alam2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=111bc7ca6e47864cb8695c3c47871b99}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=97d19f0c4513e108bc821c0ab6f84905}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=084bdce81d62891f7985da25900062a3}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=57b070d674e92acc14867c7b51c3e394}{%
+           family={Pais},
+           familyi={P\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=07cf7d281804d47f618046c825967a8f}{%
+           family={Providência},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6a3a4b101b87fb12ff5baf843c930355}{%
+           family={Raduta},
+           familyi={R\bibinitperiod},
+           given={Ad.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=500f0492624c37d46b99f510322d3469}{%
+           family={Sulaksono},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{da98d326206d0cfbe2183ee56e46c9ec}
+      \strng{fullhash}{377d020eb923975ca49bf757533029d1}
+      \strng{authornamehash}{da98d326206d0cfbe2183ee56e46c9ec}
+      \strng{authorfullhash}{377d020eb923975ca49bf757533029d1}
+      \field{labelalpha}{Ala+16}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{11}
+      \field{title}{Strong correlations of neutron star radii with the slopes of nuclear matter incompressibility and symmetry energy at saturation}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{052801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.94.052801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.94.052801
+      \endverb
+    \endentry
     \entry{Andersson2012}{article}{}
       \name{author}{4}{}{%
         {{hash=28fbb8bba5b2bfc0bf7ec4524bba4a53}{%
@@ -20092,6 +20157,56 @@
       \verb 10.1007/978-0-387-47301-7
       \endverb
     \endentry
+    \entry{Hu2020}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=8611c2f09f4a7d522bfbd5e06cd9294a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jinniu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4bdf70f9148452c0c13da42b98793b2}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Shishao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f5acec98b29ee91fa6b08b85a6a0adad}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=507b33c8eab32eafbc02c4952a4ecc05}{%
+           family={Nakazato},
+           familyi={N\bibinitperiod},
+           given={Ken'ichiro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1c7cc74019998d3227431550da761a0c}{%
+           family={Sumiyoshi},
+           familyi={S\bibinitperiod},
+           given={Kohsuke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=63cda0cd98570556b97d91a12f8b4c4b}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c9987cefc4537d391f3ccef468264d3}
+      \strng{fullhash}{c2611c66c4180c8400f6118b7227f86e}
+      \strng{authornamehash}{2c9987cefc4537d391f3ccef468264d3}
+      \strng{authorfullhash}{c2611c66c4180c8400f6118b7227f86e}
+      \field{labelalpha}{Hu+20}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{nucl-th}
+      \field{eprinttype}{arXiv}
+      \field{title}{Effects of symmetry energy on the radius and tidal deformability of neutron stars in relativistic mean-field model}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2002.00562
+      \endverb
+    \endentry
     \entry{Huang2017}{article}{}
       \name{author}{6}{}{%
         {{hash=467eb9460b0d63baa88511131d1e8306}{%
@@ -20150,6 +20265,56 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
+      \endverb
+    \endentry
+    \entry{Ji2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=52eb90854f6ad4ea258f390ec62e8475}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8611c2f09f4a7d522bfbd5e06cd9294a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jinniu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4bdf70f9148452c0c13da42b98793b2}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Shishao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=63cda0cd98570556b97d91a12f8b4c4b}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f23c15aaecbd0dce6201a6cf40e92dd6}
+      \strng{fullhash}{0aa5533dd01757dc400306823a7a8e27}
+      \strng{authornamehash}{f23c15aaecbd0dce6201a6cf40e92dd6}
+      \strng{authorfullhash}{0aa5533dd01757dc400306823a7a8e27}
+      \field{labelalpha}{Ji+19}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{10}
+      \field{title}{Effects of nuclear symmetry energy and equation of state on neutron star properties}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{pages}{045801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.100.045801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.100.045801
       \endverb
     \endentry
     \entry{Glitches}{misc}{}
@@ -20864,6 +21029,66 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0092640X85710029
+      \endverb
+    \endentry
+    \entry{Mondal2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a117495af333828c2e6dbbefbd49b499}{%
+           family={Mondal},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=97d19f0c4513e108bc821c0ab6f84905}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9066c8234f56ec6ce0fbd5fd292eed11}{%
+           family={De},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=793a39126d7e1e87da974cd1c7295144}{%
+           family={Samaddar},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f93b01f5362a09fbc1308b550ca3d4a4}{%
+           family={Centelles},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=93fbcfe384ece392768f6b4b71f16fc4}{%
+           family={Viñas},
+           familyi={V\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4b42efb9b37a95be6fd168e928d73302}
+      \strng{fullhash}{5b2d609649f86aa5d32418f0b58af32f}
+      \strng{authornamehash}{4b42efb9b37a95be6fd168e928d73302}
+      \strng{authorfullhash}{5b2d609649f86aa5d32418f0b58af32f}
+      \field{labelalpha}{Mon+17}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{8}
+      \field{title}{Interdependence of different symmetry energy elements}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{021302}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.96.021302
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.96.021302
       \endverb
     \endentry
     \entry{Myers1965}{article}{}

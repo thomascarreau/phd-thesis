@@ -827,7 +827,7 @@ discussed thoroughly in~\cite{Antic2019}.
 \subsubsection{Sensitivity analysis of the crust-core transition
 point\footnote{Partial results of the presented work have been published in 
 Eur. Phys. J. A (2019) \textbf{55}: 188. With kind permission of The European
-Physical Journal (EPJ).}}
+Physical Journal (EPJ).}}\label{subsubsec:sensana}
 
 Let us recall that one of the advantages of the metamodeling approach is that 
 all the EoS model parameters, such as the empirical parameters, are a priori
@@ -1167,8 +1167,9 @@ marginalized posterior distributions of the low-order isovector empirical
 parameters $E_{sym}$ and $L_{sym}$, shown in the two upper panels. The effect
 on the posterior PDF of $L_{sym}$ is even larger if we impose the sets to be
 compatible with the chiral EFT predicted bands for pressure of SNM and PNM. It 
-also allows very tight determination of isovector incompressibility $K_{sym}$ 
-with respect to the LD prediction without the constraint on pressure. Overall, 
+also allows very tight determination of isovector incompressibility $K_{sym}$,
+its distribution being peaked at $K_{sym} \approx -200$ MeV, while it is rather
+flat without the constraint on pressure. Overall, 
 we see that the posterior probabilities for these parameters are narrower
 than those without the additional constraints on pressure. These observations 
 can be easily understood with the following expression for the pressure 
@@ -1333,11 +1334,21 @@ the standard picture presented in~\ref{subsubsec:glitch}.
 \subsection{Global properties: confrontation with popular models and the 
 GW170817 event}\label{subsec:gw17}
 
-% lot of differnt functionals, which make differnt predictions.
-% general presentation of the gw170817 event
-% say that we identify it to a bns because we observed em counterparts
-%   -> multimessenger era
-% plan
+A large number of EoS models, based for instance on Skyrme functionals or 
+relativistic mean-field models, have been proposed in the literature over the 
+years. Astrophysical observations can provide strong constraints on the
+nuclear EoS  and therefore allows to discriminate between the different models. 
+For instance, we have seen from~\label{subsec:masses} that the observations of 
+massive pulsars require from the EoS to support $M_{max} \gtrsim
+2M_\odot$~\cite{Demorest2010,Antoniadis2013,Cromartie2020}.
+The recent GW170817 event, which is the first dectection of GW from a 
+binary NS coalescence, has provided a constraint on the NS tidal 
+deformability~\cite{GWtidal,GW1,GW2}.
+
+In the following, we calculate global properties of NS from the LD+HD joint 
+posterior distribution of parameters and confront our results with popular EoS 
+models as well as GW170817 constraints provided by the LIGO and Virgo 
+collaborations.
 
 \subsubsection{Equation of state} % 1
 
@@ -1350,8 +1361,8 @@ the GW170817 event]{Marginalized posterior for the pressure
   $P$ as a function of the baryon mass density $\rho_B$ of the NS interior for 
   the sets passing through both LD and HD filters without the constraint on 
   pressure, for $M_{max}^{obs} = 1.97M_\odot$~\cite{Antoniadis2013}. The 
-  likelihood probability $p_{AME2016}$ is accounted for and $p=3$ is fixed. The 
-  blue dark and light shaded regions show the $1\sigma$ and $2\sigma$ 
+  likelihood probability $p_{\text{AME2016}}$ is accounted for and $p=3$ is 
+  fixed. The blue dark and light shaded regions show the $1\sigma$ and $2\sigma$ 
   confidence intervals, respectively. The BSk24 (solid orange line), SLy4
   (dashdotted green line), PKDD (dotted red line), and TM1 (solid puprle line) 
   unified EoS calculated within the metamodeling technique with $p=3$ are 
@@ -1388,7 +1399,7 @@ arising from GW170817. This is because the ab initio calculations, not
 considered as a filter in~\cite{GW1}, impose stringent constraints on the 
 low-density EoS.
 
-\subsubsection{Mass-radius relation} % 1.5
+\subsubsection{Masses and radii} % 1.5
 
 \begin{figure}[!t]
 \begin{center}
@@ -1399,8 +1410,8 @@ the GW170817 event]{Marginalized posterior for the NS mass $M$ as a function of
   the radius $R$ for the sets passing through both LD and HD filters without 
   the constraint on pressure, for $M_{max}^{obs} =
   1.97M_\odot$~\cite{Antoniadis2013} (magenta band). The likelihood 
-  probability $p_{AME2016}$ is accounted for and $p=3$ is fixed. The blue 
-  shaded regions show the $68\%$, $95\%$ and $99\%$ confidence 
+  probability $p_{\text{AME2016}}$ is accounted for and $p=3$ is fixed. The 
+  blue shaded regions show the $68\%$, $95\%$ and $99\%$ confidence 
   intervals. The mass-radius relation for the same popular EoS as in 
 Fig.~\ref{fig:eos_bayes} are represented.}\label{fig:mr_bayes}
 \end{figure}
@@ -1449,11 +1460,138 @@ EoS parameters contains information arising from nuclear experiments.
 In~\cite{De2018,GW1}, constraints on nuclear physics observables were not 
 considered.
 
+In Fig.~\ref{fig:mr_popular}, we have observed an apparent correlation between 
+the radius of the star $R$ and the slope of the symmetry energy $L_{sym}$, 
+given five characteristic EoS models. This correlation has 
+been highlighted recently in several studies, using EoS based either on
+Skyrme forces or relativistic mean-field models~\cite{Alam2016,Ji2019,Hu2020}. 
+Surpringly, for the LD prediction, we find that $R_{1.4}$ is especially 
+correlated with the isovector incompressibility $K_{sym}$, 
+$r(K_{sym},R_{1.4})=0.69$ rather than with the $L_{sym}$, 
+$r(L_{sym},R_{1.4})=0.33$. As previously discussed in~\ref{subsubsec:sensana}, 
+the functional forms of Skyrme forces or relativistic models generally induce 
+artificial correlations between some of the empirical parameters, with the 
+effect of altering true correlations. The metamodeling technique prevents this 
+problem because no a priori correlation exists among the empirical parameters, 
+so the true correlation are brought by the passage through LD and HD filters. 
+For instance, correlations in the isovector sector between $E_{sym}$ and 
+$L_{sym}$, and between $K_{sym}$ and $3E_{sym}-L_{sym}$, have been shown 
+in~\cite{Mondal2017,Margueron2019} using a larger set of characteristic EoS
+models.
+
 \subsubsection{Tidal deformability} % 2
 
-% mchirp is measured very precisely
-% was measured for the first time for gw170817 event allowing to calculate the
-%   m1-m2, lambda1-lambda2 relations
+The tidal effects arising from a binary NS coalescence are encoded in the GW 
+signal through the binary tidal deformability,
+%
+\begin{equation}
+  \tilde{\Lambda} = \frac{16}{13}\frac{(m_1+12m_2)m_1^4\Lambda_1 +
+  (m_2+12m_1)m_2^4\Lambda_2}{(m_1+m_2)^{1/5}},
+\end{equation}
+%
+where $\Lambda_{1,2}$ are the individual NS tidal deformabilities,
+and $m_{1,2}$ the component masses satisfying the inequality $m_1 \geq m_2$.
+The binary tidal deformability is essentially correlated with the so-called
+chirp mass,
+%
+\begin{equation}
+  \mathcal{M} = \frac{(m_1 m_2)^{3/5}}{(m_1 + m_2)^{1/5}}.
+\end{equation}
+%
+For the specific case of GW170817, this quantity has been well constrained 
+to $\mathcal{M}_\text{GW170817} 
+= 1.188_{-0.002}^{+0.004}M_\odot$~\cite{GWtidal}. The probability distributions 
+for the component masses $m_1$ and $m_2$ are obtained from 
+$\mathcal{M}_\text{GW170817}$ and the mass ratio $m_2/m_1$ (see Fig.~4
+of~\cite{GWtidal}). The black dashed lines in Fig.~\ref{fig:tidal_bayes} show 
+the $50\%$ and $90\%$ confidence intervals as obtained by the LIGO and Virgo 
+collaborations for the low-spin prior ($|\chi| < 0.05$, $\chi$ being the
+dimensionless spin), which is consistent with binary NS systems~\cite{GW2}.
+
+\begin{figure}[!t]
+\begin{center}
+  \includegraphics[width=0.9\linewidth]{figures/tidal_bayes.pdf}
+\end{center}
+\caption[Posterior $\Lambda_1-\Lambda_2$ relation confronted with popular 
+models and the GW170817 event]{Marginalized posterior for $\Lambda_1$ (more
+massive component) and $\Lambda_2$ (less massive component) for
+the sets passing through both LD and HD filters without the constraint on
+pressure, for $M_{max}^{obs}=1.97M_\odot$. The value of the chirp mass 
+corresponds to the specific case of GW170817, $\mathcal{M} = 1.188M_\odot$, and
+the individual probability distributions for $m_1$ and $m_2$ are taken
+from~\cite{GWtidal}. 
+Dark (light) shaded regions represents the $50\%$ ($90\%$) confidence interval 
+with our Bayesian estimation with $p=3$. The black dashed lines show the $50\%$ 
+and $90\%$ confidence regions as obtained by LIGO/Virgo collaborations for the 
+low-spin prior~\cite{GW1}. The $\Lambda_1-\Lambda_2$ relation is also
+represented for the same popular EoS as in Fig.~\ref{fig:eos_bayes}. The 
+diagonal dotted line marks the $\Lambda_1=\Lambda_2$ 
+boundary.}\label{fig:tidal_bayes}
+\end{figure}
+
+We show in Fig.~\ref{fig:tidal_bayes} the $50\%$ and $90\%$ confidence
+regions corresponding to the joint probability distribution for $\Lambda_1$ 
+and $\Lambda_2$ that we obtain for the sets passing through both LD and HD 
+filters for the chirp mass $\mathcal{M}_\text{GW170817}$. The mass of the 
+components have been sampled according to their respective individual 
+probability distributions given in~\cite{GWtidal}, and the same EoS have been 
+used to calculate the individual tidal deformabilities. The part under
+the diagonal corresponds to the unphysical region $\Lambda_2 > \Lambda_1$ since 
+the convention $m_1 \geq m_2$ has been taken. It is seen that our 
+LD+HD prediction meets the results of the LIGO/Virgo collaborations at 
+$90\%$ confidence level, but we find that our posterior slighlty favors larger 
+values of $\Lambda_{1,2}$, that can be obtained with more stiff EoS, associated 
+to less compact NS. 
+The dimensionless tidal deformabilities are also calculated for the same four 
+popular EoS as in Figs.~\ref{fig:eos_bayes} and~\ref{fig:mr_bayes}.
+We observe that the soft SLy4 and BSk24 EoS are in a rather good agreement with 
+the analysis of the LIGO and Virgo collaborations, whereas the relativistic
+models PKDD and TM1 seems very unlikely. Let us recall that yet such stiff EoS
+are required in order to explain the large glitches occuring in the Vela
+pulsar. Among the four popular EoS, only the one based on BSk24 functional is
+compatible with the LD+HD prediction.
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/lambda14_bayes.pdf}
+  \end{center}
+  \caption[Marginalized posterior probability distribution for the 
+  dimensionless tidal deformability of a $1.4M_\odot$ neutron star]{
+    Marginalized posterior probability distribution for the
+    dimensionless tidal deformability of a $1.4M_\odot$ NS, calculated for the 
+    sets passing through both LD and HD filters without the constraint on 
+    pressure, for $M_{max}^{obs}=1.97M_\odot$. The resulting $90\%$ credible 
+    interval is indicated in the top right corner. The arrows give the value of 
+    $\Lambda_{1.4}$ for four characteristic EoS: BSk24, SLy4, PKDD, and TM1. 
+    The vertical dashed lines delimit the $90\%$ confidence interval associated 
+    to the constraint of the LIGO/Virgo collaborations for GW170817, 
+  $\Lambda_{1.4}=190_{-120}^{+390}$~\cite{GW1}.}\label{fig:lambda14_bayes}
+\end{figure}
+
+The marginalized posterior distribution that we obtain for the dimensionless 
+tidal deformability of a $1.4M_\odot$ NS is shown in 
+Fig.~\ref{fig:lambda14_bayes}, along with the prediction of characteristic EoS
+based on Skyrme and relativistic models. The $90\%$ confidence interval
+corresponding to the LD+HD prediction is $\Lambda_{1.4}=634_{-190}^{+204}$. It 
+meets the results of the LIGO/Virgo collaborations for GW170817, 
+$\Lambda_{1.4}=190_{-120}^{+390}$, the $90\%$ confidence interval of which is 
+given by the vertical dashed lines in the figure. 
+However, we find that the probability for $\Lambda_{1.4} < 300$ is 
+negligible. The shift of the median with respect to that inferred from
+GW170817 event outlines the importance of the LD filter in our calculation.
+Indeed, it is known that $\Lambda_{1.4}$ is strongly correlated to the NS
+radius $R_{1.4}$, we find a Pearson correlation coefficient of $r(R_{1.4},
+\Lambda_{1.4})=0.98$, and we have seen that the radius of a $1.4M_\odot$ NS is 
+correlated with the isovector incompressibility parameter $K_{sym}$. Hence, 
+we observe that $K_{sym}$ and $\Lambda_{1.4}$ are correlated, with
+$r(K_{sym},\Lambda_{1.4}) = 0.66$. We have seen in~\ref{fig:iv_dist} that the 
+isovector empirical parameters are strongly constrained by the ab initio 
+calculations of NM, particularly when the constraint on pressure is accounted 
+for in the LD pass-band filter. More specifically, we find that the 
+isovector incompressibility is tightly determined in that case, with a 
+distribution being peaked at $K_{sym} \approx -200$ MeV, therefore favoring 
+soft EoS and in consequence smaller values of the tidal parameter 
+$\Lambda_{1.4}$.
 
 \subsection{Bayesian analysis of the crust-core
 transition}\label{subsec:cc_bayes}
