@@ -48,7 +48,7 @@ forces, arising, for instance, when two NS orbit each other.
 % observations
 From the observational point of view, it is easier for astronomers to measure 
 the mass of a NS entering into a binary system. There are several types of
-binaries: X-ray binaries, double NS binaries, radio pulsar--white dwarf 
+binaries: x-ray binaries, double NS binaries, radio pulsar--white dwarf 
 binaries, and radio pulsar--nondegenerate star binaries. Depending on the type 
 of binary, different techniques are used to infer the NS 
 mass~\cite{Haensel2007}.
@@ -65,7 +65,7 @@ inclined binary pulsar systems.\\
 Measuring NS radii with high precision is a more challenging task, and it
 constitutes one of the goals of the ambitious NICER mission~\cite{NICER}. This
 observable can be extracted from the analysis of thermal emission from neutron 
-star surfaces, or X-ray emission from accreting neutron stars in binaries.
+star surfaces, or x-ray emission from accreting neutron stars in binaries.
 
 In the following, we turn to the theoretical prediction of NS masses and radii. 
 The hydrostatic equilibrium equations in general relativity are first solved in 
@@ -348,6 +348,7 @@ as~\cite{Lim2019}
                       &=& 1 - \left(\frac{R_{core}}{R}\right)^3
                       \frac{w(R_{core})}{w(R)}
                       \exp\left[-\int_{R_{core}}^{R}\frac{w(r)}{r}dr\right],
+                      \label{eq:crustmoi}
 \end{eqnarray}
 %
 where we have introduced the moment of inertia of the core $I_{core}$, defined
@@ -488,7 +489,7 @@ Vela. Now including crustal entrainment with $\langle m_n^*\rangle/m_n =
 whether the superfluid neutron in the crust can carry enough angular momentum 
 to explain Vela glitches. For the three nonrelativistic Skyrme-based EoS that 
 we consider, we see that the constraint is unlikely to be satisfied, because it
-would require the Vela mass to be very low, $M_{Vela} \lesssim 0.9M_\odot$.
+would require Vela mass to be very low, $M_{Vela} \lesssim 0.9M_\odot$.
 While theoretically plausible~\cite{Haensel2007}, such low-mass NS have never 
 been observed to this day. On the other hand, it is observed that very stiff 
 EoS such as TM1 can be consistent with the constraint~\cite{Piekarewicz2014}.
@@ -742,7 +743,12 @@ BSk24 empirical parameters and $p=3$, is strongly peaked on a given set
 $\bm{S}=\bm{S_{opt}}$. We expect this 
 feature to be recovered for every model and we therefore choose to not include 
 the surface and curvature parameters in $\bm{X}$ but to take the set 
-$\bm{S_{opt}}$ that minimizes $\chi^2$, as explained in~\ref{subsubsec:cld}. 
+$\bm{S_{opt}}$ that minimizes $\chi^2$, as explained in~\ref{subsubsec:cld}.
+It is important to stress that, even if we keep only the optimized values for
+the surface and curvature parameters for each parameter set, a large parameter
+space is explored because of the large variation of the bulk properties and the
+physical correlation between surface and bulk due to the fit to experimental
+data.
 We consider two choices for the value of the parameter $p$, which determines 
 the behavior of the surface tension for extreme isospin values. Either it is 
 fixed to the educated value $p=3$, or $p=\{2.5,3,3.5\}$ is selected for each
@@ -937,7 +943,7 @@ defined as
 %
 \begin{equation}
   p(\text{data}|\bm{X}) = w_{LD}(\bm{X}) \times 
-  w_{HD}(\bm{X}) \times p_{\text{AME2016}}(\bm{X}).
+  w_{HD}(\bm{X}) \times p_{\text{AME2016}}(\bm{X}).\label{eq:likelihood}
 \end{equation}
 %
 In this expression, $w_{LD}$ and $w_{HD}$ are strict filters that concentrate
@@ -1596,22 +1602,307 @@ $\Lambda_{1.4}$.
 \subsection{Bayesian analysis of the crust-core
 transition}\label{subsec:cc_bayes}
 
-% surface figures (prior/posterior)
-% corr(Pt,Ksym) (link with chapter 1)
-% correlation with isovector bulk parameters is softened if one consider p as a
-%   free parameters (see corr matrix)
+The precise estimation of the CC transition point location, defined by
+Eq.~(\ref{eq:cctp}), is important for the theoretical determination of NS 
+static properties, such as the radius~\cite{Fortin2016}, for which accurate 
+measurements will be available in the near future using hard x-ray timing 
+techniques~\cite{Watts2016}. 
+Furthermore, the computation of the crustal observables with the hydrostatic 
+equilibrium equations requires the knowledge of the CC transition pressure 
+$P_t$ in addition to the EoS. 
+In the following, we make quantitative predictions on the density and
+pressure of the CC transition point from the joint posterior distribution, and 
+examine in details the influence of the different EoS parameters, as well as 
+the effectiveness of the different filters entering into the likelihood 
+probability, Eq.~(\ref{eq:likelihood}).
 
-\subsection{Pulsar glitches: 
-\textit{Is the crust enough?}}\label{subsec:gli_stats}
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/surf_bayes.pdf}
+  \end{center}
+  \caption[Prior and posterior distribution for the surface plus curvature
+  energy per surface nucleon versus isospin asymmetry]{Left: $1\sigma$ prior
+    (pink band) and LD+HD posterior distribution (blue band) for the surface 
+    plus curvature energy per surface nucleon, defined by 
+    Eqs.~(\ref{eq:esurf})-(\ref{eq:sigmac}), as a 
+    function of the isospin asymmetry long the isobaric chain $A=200$ for
+    $p=3$. The results for four characteristic EoS are also given. 
+    Right: $1\sigma$ prior and LD+HD posterior for 
+    $(E_{surf} + E_{curv})/A^{2/3}$ at high isospin for $p=3$ (solid lines) and 
+  $p=\{2.5,3,3.5\}$ (dotted lines).}\label{fig:surf_bayes}
+\end{figure}
 
-% explain pulsar glitches phenomena
-% give the hypothesis explaining the phenomena
-% superfluid neutrons in the crust
-% is the crust enough? -> bayesian approach to consider every models (not only
-%   relativistic or skyrme functionals as two separate families)
-% the crust moment of inertia is calculated following eq given in 2.1.2. the
-%   calculation is stopped at the crust-core interface
-% report results
+% introduction surface energy
+Following the strategy introduced in~\ref{subsec:ccfromc}, we calculate the CC 
+transition properties from the crust, the description of which demands an
+explicit modeling of clusterized matter, thus the introduction of a surface
+(and eventually curvature) term in the energetics. This is done 
+within the classical CLD approximation, using
+Eqs.~(\ref{eq:esurf})-(\ref{eq:sigmac}). For a given set of empirical
+parameters, we expect that the theoretical determination of the CC transition 
+point is sensitive to the surface energy at high isospin, which is essentially 
+governed by the isovector surface parameter $p$, see Fig.~\ref{fig:sly4_nt}.
+Unfortunately, experimental data are unavailable above $I = (N-Z)/A \gtrsim 
+0.3$ for the moment.
+
+% description prior/posterior
+The prior and LD+HD posterior distribution for the
+surface plus curvature energy per surface nucleon are displayed in the left 
+panel of Fig.~\ref{fig:surf_bayes} as a function of isospin asymmetry for the 
+$p=3$ case, along the isobaric chain $A=200$. 
+The variation with $I$ of $(E_{surf} + E_{nuc})/A^{2/3}$ is also shown for 
+four popular models. All of them are compatible with the $1\sigma$ band 
+for to prior distribution.
+It is seen that the LD+HD distribution predicts a low surface energy for 
+nearly symmetric nuclei with respect to the prior distribution and the 
+selected popular functionals. This is not surprinsing because we known that the 
+surface parameter $\sigma_0=\sigma(I=0)$ is strongly anticorrelated with the 
+energy per nucleon of SNM at saturation $E_{sat}$~\cite{Carreau2019cc}, for 
+which large values are favored by the LD filter, see Fig.~\ref{fig:is_dist}.
+Above the neutron drip line, $I \gtrsim 0.35$, we can see that the filters 
+defining our likelihood probability allows a tight determination of the 
+surface energy in comparison to the prior distribution. This translates into
+smaller uncertainties for the CC transition density and pressure.
+
+% description p=3/p={2.5,3,3.5}
+The effect of allowing a distribution for the parameter $p$ on the 
+prior and LD+HD posterior distributions can be seen in the right panel of 
+Fig.~\ref{fig:surf_bayes}. In spite of the simple discrete ansatz
+$p=\{2.5,3,3.5\}$, we observe a continuous and smooth distribution of the
+surface tension. The reason is that the variation of the surface tension 
+$\sigma$ with $p$ is continuous and smooth, and that the other surface
+parameters, which are fixed by the fit to experimental masses, have a
+continuous distribution. The effect of allowing a distribution for the
+parameter $p$ does not modify the behavior of the surface energy in the
+vicinity of $I=0$. However, above the drip line and particularly in the high
+isospin region, we can clearly observe that the uncertainties associated to 
+the discrete ansatz are larger than those associated to $p=3$ case. 
+% surprisingly, different behavior with respect to epja results
+Let us notice that this effect is much more important in~\cite{Carreau2019cc}.
+This can be understood from the fact that, in the latter study, curvature terms 
+were not accounted for, and that the surface parameters were fitted
+to the spherical magic and semimagic nuclei $^{40,48}$Ca, $^{48,58}$Ni,
+$^{88}$Sr, $^{90}$Zr, $^{114,132}$Sn, and $^{208}$Pb, while the surface and 
+curvature parameters are here fitted to the 2498 experimental masses of the 
+AME2016~\cite{Huang2017}.
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=\linewidth]{figures/corr_ntpt_pars.pdf}
+  \end{center}
+  \caption[Correlation of the crust-core transition density and pressure with 
+  the EoS parameters for different filters]{Correlation of the CC transition 
+    density $n_t$ (upper panel) and pressure $P_t$ (lower panel) with the
+    empirical, surface, and curvature parameters for different distributions: 
+    prior, HD, LD, LD with pressure filter, and LD+HD joint posterior 
+    distributions for $p=3$, and LD+HD joint posterior distribution for the 
+    discrete ansatz $p=\{2.5,3,3.5\}$.}\label{fig:corr_ntpt_pars}
+\end{figure}
+
+% intro figure
+The correlation coefficients between the EoS parameters and the density and
+pressure at the CC transition point are calculated and reported in 
+Fig.~\ref{fig:corr_ntpt_pars} for different joint distributions of parameters.
+% prior
+For the prior distribution, which corresponds to the consideration of nuclear
+experimental constraints included as fully uncorrelated parameters sets, we 
+observe that the most influential empirical parameters on $n_t$ and $P_t$ are 
+the high-order parameters $Q_{sat}$ and $Q_{sym}$.
+We also recover a small anticorrelation between the transition density and the 
+$L_{sym}$ parameter, as anticipated in~\ref{subsec:ccfromc}. The transition 
+density directly depends on the energy of beta-equilibrated matter. The 
+transition pressure being linked to the first derivative of the energy density, 
+it is not surprising to observe that $P_t$ is rather slightly anticorrelated 
+with $K_{sym}$. Since this parameter widely varies in existing functionals, 
+this can explain why the present predictions of the transition pressure are so 
+largely scattered, see Fig.~\ref{fig:cctp_lsym}.
+% effects of filters
+The HD filter does not impose further correlations between the transition
+quantities and the EoS with respect to the prior distribution, apart from tiny 
+correlations with the isoscalar kurtosis $Z_{sat}$. We can see that the LD 
+filter slightly reinforces the correlation of transiton density and pressure 
+with the isovector sqewness $Q_{sym}$. If the pressure filter, which allows a
+tight determination of the low-order isovector parameters, is also
+considered, the correlations with $Q_{sym}$ are even stronger,
+$r(Q_{sym},n_t)=0.59$ and $r(Q_{sym},P_t)=0.74$. In addition, the 
+anticorrelation between $L_{sym}$ and $P_t$ emerges, with 
+$r(L_{sym},P_t)=-0.40$. For our final LD+HD prediction with $p=3$, we find that
+$n_t$ is correlated with $K_{sat}$ and $Q_{sym}$, and anticorrelated with
+$Q_{sat}$. A slight correlation with $L_{sym}$ can also be seen. Concerning the
+transition pressure $P_t$, correlations with the isovector empirical parameters
+$L_{sym}$, $K_{sym}$ and $Q_{sym}$ are observed, as well as with 
+$K_{sat}$ and $Q_{sat}$ in the isoscalar sector.
+% surface energy (all the empirical parameters are preserved)
+It is seen that correlations of the transition quantities with the surface and
+curvature parameters are negligible in this study, even if the isovector
+surface parameter $p$ is allowed to vary (lines ``LD+HD''). This observation
+contrasts with some of the results of~\cite{Carreau2019cc}, in which 
+important correlations between the transition quantities and the surface
+parameters were revealed. Once again, this is because the surface energy is
+better controled in our calculation, as permitted by the introduction of 
+curvature terms, supplemented by the fact that a larger pool of nuclear masses 
+is used for the fit of surface and curvature parameters.
+
+\begin{table}[!t]
+\begin{center}
+\begin{tabular}{ccc} 
+  \toprule
+  \toprule
+  Distribution & $n_t$ (fm$^{-3}$) & $P_t$ (MeV/fm$^3$)\\
+  \midrule
+  Prior              & $0.062_{-0.036}^{+0.028}$ &
+  $0.225_{-0.167}^{+0.379}$ \\
+  HD                 & $0.059_{-0.029}^{+0.023}$ &
+  $0.190_{-0.120}^{+0.232}$ \\ 
+  LD                 & $0.073_{-0.032}^{+0.025}$ &
+  $0.281_{-0.179}^{+0.478}$ \\ 
+  LD (with pressure) & $0.068_{-0.021}^{+0.021}$ & 
+  $0.263_{-0.149}^{+0.302}$ \\ 
+  LD+HD              & $0.074_{-0.033}^{+0.019}$ & 
+  $0.277_{-0.168}^{+0.276}$ \\ 
+  \bottomrule
+  \bottomrule
+\end{tabular}
+\end{center}
+\caption[$68\%$ confidence intervals for the crust-core transition density and
+pressure for different filters]{$68\%$ confidence intervals for the CC
+transition density $n_t$ and pressure $P_t$ for different distributions: prior, 
+HD, LD with and without the pressure filter, and LD+HD. In all cases, $p=3$ is
+fixed.}\label{table:ntpt}
+\end{table}
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.411\linewidth]{figures/ntpt_priorp3.pdf}
+    \includegraphics[width=0.411\linewidth]{figures/ntpt_hdp3.pdf}\\
+    \includegraphics[width=0.411\linewidth]{figures/ntpt_ldp3.pdf}
+    \includegraphics[width=0.411\linewidth]{figures/ntpt_ldwpresp3.pdf}\\
+    \includegraphics[width=0.411\linewidth]{figures/ntpt_ldhdp3.pdf}
+    \includegraphics[width=0.411\linewidth]{figures/ntpt_marg.pdf}
+  \end{center}
+  \caption[Marginalized probability distributions for the crust-core transition 
+  density and pressure for different filters]{Marginalized probabilities for 
+    the transition density $n_t$ and pressure $P_t$ for different 
+    distributions. In the first five panels, the dashed lines delimit the 
+    $50\%$ and $90\%$ confidence regions. For each distribution, the Pearson 
+    correlation coefficient $r(n_t,P_t)$ is given. The results for four 
+    characteristic EoS are also shown.}\label{fig:ntpt}
+\end{figure}
+
+% intro figure
+The joint distribution for $n_t$ and $P_t$ as well as the corresponding 
+marginalized one-parameter probability distributions are shown in 
+Fig.~\ref{fig:ntpt} for different filters. In the first five panels, the dashed
+lines delimit the $50\%$ and $90\%$ confidence regions, and the different 
+symbols give the CC transition point as obtained with the popular models BSk24, 
+SLy4, PKDD and TM1. 
+% strong correlation (nt,Pt) in all cases
+In all cases and in agreement with~\cite{Carreau2019cc}, we find that $n_t$ and 
+$P_t$ are strongly correlated in all cases. The Pearson correlation coefficent 
+is as high as $r=0.92$ when using the LD filter with the constraint on 
+pressure.
+% Effect on the different filters on the cc transition properties / table ntpt
+We can observe in a graphical way that the LD and HD constraints lead to 
+compatible predictions for the CC transition point. It is clearly seen that the 
+most constraining filter for both $n_t$ and $P_t$ is the LD filter which 
+account for the constraint on pressure (``LD (with pressure)''), ensuring the 
+compatibility of the empirical parameters with the chiral ETF predicted 
+bands for energy per nucleon and pressure of SNM and PNM~\cite{Drischler2016}.
+From the corresponding joint distribution, we obtain 
+$n_t = 0.068_{-0.021}^{+0.021}$ fm$^{-3}$ and $P_t = 0.263_{-0.149}^{+0.302}$ 
+MeV/fm$^3$ at the $1\sigma$ confidence level. The passage through the HD filter 
+has a significant impact on the distribution of $P_t$. 
+We find that the resulting CC transition points, for three of the four popular 
+models considered in this study, meet our final LD+HD prediction at the $50\%$
+confidence level.
+% table
+The $68\%$ confidence intervals for 
+the transition density and pressure for each of the considered distributions 
+are reported in Table~\ref{table:ntpt}.
+% effect of varying p
+The effect of varying $p$ on the marginalized one-parameter distributions for
+$n_t$ and $P_t$ is displayed in the last panel of Fig.~\ref{fig:ntpt}, for the
+LD+HD prediction. Overall, only minor differences are observed between the 
+$p=2.5$, $p=3$ and $p=3.5$ cases. We can see that the difference between the 
+$p=3$ and $p=3.5$ cases is even smaller than that between 
+$p=2.5$ and $p=3$ as far as the transition density was concerned, as it was 
+expected from Fig.~\ref{fig:sly4_nt}.
+
+\subsection{Pulsar glitches: answering the question
+``\textit{Is the crust enough?}''}\label{subsec:gli_stats}
+
+For a given EoS, the determination of the fraction of crust moment of inertia,
+using Eq.~(\ref{eq:crustmoi}), 
+and more generally of any crustal observable, is possible providing the 
+the location of the transition point to homogeneous matter.
+As discussed in~\ref{subsubsec:glitch}, the NS crustal moment of inertia is
+related to the theoretical description of the glitch phenemon, which consists
+of sudden spin-up of the rotational frequency of a NS. In the consensus view,
+a pulsar glitch is observed as the consequence of the angular 
+momentum transfer from the neutron superfluid permeating the inner crust to the 
+solid crust~\cite{Anderson1975}. For a specific pulsar for which the coupling 
+parameter $\mathcal{G}$ has been measured, and depending of the importance of 
+the crustal entrainment effect~\cite{Chamel2013}, the crust must therefore be 
+sufficiently thick to store enough angular momentum. Naturally, it yields the 
+question ``\textit{Is the crust enough?}'', for which the answer is known to be 
+very sensitive to the EoS~\cite{Andersson2012,Piekarewicz2014} and, most 
+important to the CC transition density and pressure~\cite{Carreau2019moi}. In 
+the following, the crustal origin of pulsar glitches is discussed for the 
+specific case of Vela, using the LD+HD joint posterior distribution of EoS 
+parameters.
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.8\linewidth]{figures/ifrac14_vs_lcrust14.pdf}
+  \end{center}
+  \caption[Marginalized probabilities for the crust thickness and fraction of
+  crust moment of inertia of a $1.4M_\odot$]{Marginalized probabilities for the 
+    crust thickness $l_{crust,1.4}$ and fraction of crust moment of inertia
+    $I_{crust,1.4}/I_{1.4}$ for a $1.4M_\odot$ NS, using the LD+HD 
+    distribution. The dashed lines delimit the $50\%$ and $90\%$ confidence 
+    regions. The Pearson correlation coefficient $r$ is given. The symbols
+    show the prediction of four characteristic EoS 
+    models. The minimum values needed to justify Vela glitches with (Delsate
+    \textit{et al.}~\cite{Delsate2016} and Andersson 
+    \textit{et al.}~\cite{Andersson2012}) and without (Link \textit{et
+  al.}~\cite{Link1999}) crustal entrainment are 
+represented.}\label{fig:ifrac14_vs_lcrust14}
+\end{figure}
+
+The strong correlation between the crust thickness and the fraction of crust 
+moment of inertia for $M=1.4M_\odot$ is seen in
+Fig.~\ref{fig:ifrac14_vs_lcrust14}. It means that the thicker the crust is, 
+the more angular momentum is confined to the neutron superfluid coexisting with 
+the crystal lattice of the inner crust. We obtain 
+$l_{crust,1.4}=1.11_{-0.21}^{+0.14}$ km and $I_{crust,1.4}/I_{1.4}=
+2.89_{-1.68}^{+2.51} \%$ at the $1\sigma$ confidence level. The empirical 
+parameters contributing the most to the uncertainty in the crust moment of 
+inertia are, as for the transition density and pressure, the isovector 
+incompressibility $K_{sym}$ and sqewness $Q_{sym}$. As expected from previous 
+studies~\cite{Piekarewicz2014,Carreau2019moi}, we observe large correlations 
+between the crustal observables and the transition quantities, notably 
+$r(P_t,I_{crust,1.4}/I_{1.4})=0.98$. Among the four popular models considered, 
+only the prediction of the BSk24 EoS (orange circle) meets our distribution.
+The results for SLy4 (green square), PKDD (red triangle) and TM1 (purple
+triangle) EoS are only marginally compatible with the LD+HD prediction at the 
+$90\%$ confidence level (dashed lines).
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/ifrac_vs_m.pdf}
+  \end{center}
+  \caption[Blabla]{Blabla.}\label{fig:ifrac_vs_m}
+\end{figure}
+
+% vela mass must be lower than 1.4 to meet the prediction at the 90\% level,
+%   which is also seen in fig. 2.18
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/mr_from_g_vela.pdf}
+  \end{center}
+  \caption[Blabla]{Blabla.}\label{fig:mr_from_g_vela}
+\end{figure}
 
 \section{Conclusion}\label{sec:conclu2}
 

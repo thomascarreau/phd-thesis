@@ -104,14 +104,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Bayesian analysis of the crust-core transition}{87}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Pulsar glitches: \textit {Is the crust enough?}}{87}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Pulsar glitches: answering the question ``\textit {Is the crust enough?}''}{91}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Conclusion}{87}{section.2.4}
+\contentsline {section}{\numberline {2.4}Conclusion}{94}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{89}{appendix.A}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{97}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{91}{appendix.B}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{99}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{93}{appendix.C}
+\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{101}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{95}{appendix*.4}
+\contentsline {chapter}{Bibliography}{103}{appendix*.4}

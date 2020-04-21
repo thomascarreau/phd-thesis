@@ -22499,6 +22499,128 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.68.035806
       \endverb
     \endentry
+    \entry{Watts2016}{article}{}
+      \name{author}{18}{}{%
+        {{hash=4e13ef97bd0ffdc455da24fce95714c5}{%
+           family={Watts},
+           familyi={W\bibinitperiod},
+           given={Anna\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=22234c254d5d500fabaa0b3fc750e25b}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=772338c1bc75c352f2fed430160e318c}{%
+           family={Chakrabarty},
+           familyi={C\bibinitperiod},
+           given={Deepto},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e995d202fed81ed544addbfa948dde33}{%
+           family={Feroci},
+           familyi={F\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab1608681bbd2d780bf450cc42ffbd5a}{%
+           family={Hebeler},
+           familyi={H\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b096c4a9ed49179e77f7e79866691171}{%
+           family={Israel},
+           familyi={I\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b00eed58a584a4fcd271bd93e0b367b6}{%
+           family={Lamb},
+           familyi={L\bibinitperiod},
+           given={Frederick\bibnamedelima K.},
+           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c0753d276e12db8d24044ac2afa3091b}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi Coleman},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3c5899703391d2773cb334bf1bc51582}{%
+           family={Morsink},
+           familyi={M\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4a4fb5a15626d8dd1a0f0db3afd0746}{%
+           family={Özel},
+           familyi={Ö\bibinitperiod},
+           given={Feryal},
+           giveni={F\bibinitperiod}}}%
+        {{hash=19c850b382e7e66fdd1ca6d0e9d6f363}{%
+           family={Patruno},
+           familyi={P\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af9e5597f28653025384db64f50aac7e}{%
+           family={Poutanen},
+           familyi={P\bibinitperiod},
+           given={Juri},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec95b947b1450acd1a7af538531a7674}{%
+           family={Psaltis},
+           familyi={P\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+        {{hash=00c99387d6c88eae7f434b1004ee958f}{%
+           family={Schwenk},
+           familyi={S\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=951067b10036ecbc6f49d0387e27a936}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=371c1e161016a931a8ece13dacc958b3}{%
+           family={Stella},
+           familyi={S\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5aeaeb758001e117f55c149aef1a4ebc}{%
+           family={Tolos},
+           familyi={T\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=67d4f488c67efd7ce386679b3144ce86}{%
+           family={Klis},
+           familyi={K\bibinitperiod},
+           given={Michiel},
+           giveni={M\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{22a22f3093e4b093b378841dce704031}
+      \strng{fullhash}{4217a09772752eb70e973aece557df09}
+      \strng{authornamehash}{22a22f3093e4b093b378841dce704031}
+      \strng{authorfullhash}{4217a09772752eb70e973aece557df09}
+      \field{labelalpha}{Wat+16}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{4}
+      \field{title}{Colloquium: Measuring the neutron star equation of state using x-ray timing}
+      \field{volume}{88}
+      \field{year}{2016}
+      \field{pages}{021001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.88.021001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.88.021001
+      \endverb
+    \endentry
     \entry{Welker2017}{article}{}
       \name{author}{18}{}{%
         {{hash=7c4c92f2225908e8caee2bf7ecf1e86e}{%
