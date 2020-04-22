@@ -21901,6 +21901,56 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.90.015803
       \endverb
     \endentry
+    \entry{Pizzochero2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5f07c6001c02edebc8f06e64defb7116}{%
+           family={{Pizzochero}},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=91fcba803d3fc52add6d2af6769b1b2f}{%
+           family={{Antonelli}},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f728cb4bdbfd1e1169d4454744353d41}{%
+           family={{Haskell}},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a38c81577ca6499f98333461ab39438d}{%
+           family={{Seveso}},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c99050f5f446599186460bb1d73c8d4}
+      \strng{fullhash}{f898658f58d8ac3ea7a9967905770b98}
+      \strng{authornamehash}{1c99050f5f446599186460bb1d73c8d4}
+      \strng{authorfullhash}{f898658f58d8ac3ea7a9967905770b98}
+      \field{labelalpha}{Piz+17}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{0134}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nature Astronomy}
+      \field{month}{7}
+      \field{title}{{Constraints on pulsar masses from the maximum observed glitch}}
+      \field{volume}{1}
+      \field{year}{2017}
+      \field{pages}{0134}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41550-017-0134
+      \endverb
+      \verb{eprint}
+      \verb 1611.10223
+      \endverb
+      \keyw{Astrophysics - High Energy Astrophysical Phenomena}
+    \endentry
     \entry{Pethick1995}{article}{}
       \name{author}{2}{}{%
         {{hash=10e8bf6100d6ce795cc5d29e17933374}{%

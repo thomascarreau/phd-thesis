@@ -166,7 +166,7 @@ the ELFd technique introduced in \cite{Margueron2018a}.
 \end{tabular}
 \end{center}
 \caption[Empirical parameters for BSk14, PKDD, and TM1]{Value of each of the 
-  empirical parameters ,associated unit, and derivative order $N$ for BSk14 
+  empirical parameters, associated unit, and derivative order $N$ for BSk14 
   \cite{Goriely2007}, PKDD \cite{Long2004}, and TM1~\cite{Sumiyoshi1995} 
 functionals.}\label{table:newemppar}
 \end{table}
@@ -447,7 +447,8 @@ account the entrainment effects, the previous constraint, Eq.~(\ref{eq:noent}),
 then becomes~\cite{Andersson2012}
 %
 \begin{equation}
-  \frac{I_{crust}}{I} \geq \mathcal{G}\frac{\langle m_n^* \rangle}{m_n},
+  \frac{I_{crust}}{I} \geq \mathcal{G}\frac{\langle m_n^*
+  \rangle}{m_n},\label{eq:ifrac_g}
 \end{equation}
 %
 with $\langle m_n^* \rangle$ the average effective neutron mass.
@@ -461,16 +462,16 @@ stress that the importance of the effect of crustal entrainment, that is the
 value of the average neutron effective mass throughout the solid crust, is 
 currently under debate~\cite{Martin2016,Watanabe2017}.
 
-The Vela pulsar (B083345-45) is one of the most active glitchers known, with
+The Vela pulsar (PSR B0833-45) is one of the most active glitchers known, with
 glitches occuring four times per decade on average. Since the beginning of its 
 monitoring, almost than 50 years ago, it has exhibited 20 glitches in
 total~\cite{Glitches}, allowing for a precise estimation of the corresponding 
-the coupling parameter, $\mathcal{G}_{Vela} = (1.62 \pm 0.03) \times
+the coupling parameter, $\mathcal{G}_{\text{Vela}} = (1.62 \pm 0.03) \times
 10^{-2}$~\cite{Ho2015}. This can be translated into a constraint for 
 the fraction of crust moment of inertia,
 %
 \begin{equation}
-  \left(\frac{I_{crust}}{I}\right)_{Vela} \geq (1.62 \pm 0.03) \times 10^{-2}
+  \left(\frac{I_{crust}}{I}\right)_{\text{Vela}} \geq (1.62 \pm 0.03) \times 10^{-2}
   \frac{\langle m_n^* \rangle}{m_n} \approx 0.07.
 \end{equation}
 %
@@ -489,7 +490,7 @@ Vela. Now including crustal entrainment with $\langle m_n^*\rangle/m_n =
 whether the superfluid neutron in the crust can carry enough angular momentum 
 to explain Vela glitches. For the three nonrelativistic Skyrme-based EoS that 
 we consider, we see that the constraint is unlikely to be satisfied, because it
-would require Vela mass to be very low, $M_{Vela} \lesssim 0.9M_\odot$.
+would require Vela mass to be very low, $M_{\text{Vela}} \lesssim 0.9M_\odot$.
 While theoretically plausible~\cite{Haensel2007}, such low-mass NS have never 
 been observed to this day. On the other hand, it is observed that very stiff 
 EoS such as TM1 can be consistent with the constraint~\cite{Piekarewicz2014}.
@@ -1862,8 +1863,7 @@ parameters.
     distribution. The dashed lines delimit the $50\%$ and $90\%$ confidence 
     regions. The Pearson correlation coefficient $r$ is given. The symbols
     show the prediction of four characteristic EoS 
-    models. The minimum values needed to justify Vela glitches with (Delsate
-    \textit{et al.}~\cite{Delsate2016} and Andersson 
+    models. The minimum values needed to justify Vela glitches with (Andersson 
     \textit{et al.}~\cite{Andersson2012}) and without (Link \textit{et
   al.}~\cite{Link1999}) crustal entrainment are 
 represented.}\label{fig:ifrac14_vs_lcrust14}
@@ -1889,22 +1889,124 @@ $90\%$ confidence level (dashed lines).
 
 \begin{figure}[!t]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{figures/ifrac_vs_m.pdf}
+    \includegraphics[width=0.9\linewidth]{figures/mr_from_g_vela.pdf}
   \end{center}
-  \caption[Blabla]{Blabla.}\label{fig:ifrac_vs_m}
+  \caption[Marginalized posterior for the neutron star mass and radius of 
+  Vela]{Marginalized posterior for the NS mass $M$ and radius $R$
+    of Vela, $\mathcal{G}=(1.62\pm 0.03)\times 10^{-2}$, without 
+    ($\langle m_n^*\rangle/m_n = 1$~\cite{Link1999}, left panel) and with an 
+    estimation of crustal entrainment ($\langle m_n^*\rangle/m_n
+    =4.3$~\cite{Andersson2012}, right panel), using the LD+HD filter for 
+    $p=3$. Dashed lines represent the $50\%$ and $90\%$ confidence intervals, 
+    and symbols show the prediction of characteristic EoS 
+  models.}\label{fig:mr_from_g_vela}
 \end{figure}
 
-% vela mass must be lower than 1.4 to meet the prediction at the 90\% level,
-%   which is also seen in fig. 2.18
+From pulsar timing techniques, it is possible to infer the coupling parameter 
+$\mathcal{G}$ of a given pulsar. This parameter is related to the fraction
+of crust moment of inertia via Eq.~(\ref{eq:ifrac_g}). In the specific case of 
+the Vela pulsar (PSR B0833-45), the coupling parameter is very well 
+constrained thanks to its long-term monitoring, 
+$\mathcal{G}_{\text{Vela}}=(1.62\pm 0.03)\times 10^{-2}$~\cite{Ho2015}.
+Fig.~\ref{fig:mr_from_g_vela} displays the marginalized posterior distributions
+for the mass and radius of Vela for two estimations of crustal entrainment,
+using our LD+HD distribution.
+Let us recall that the importance of the crustal entrainment effect is encoded 
+in the neutron effective mass. Here, we consider $\langle m_n^* \rangle/m_n 
+= 1$, that is no entrainement~\cite{Link1999}, and 
+$\langle m_n^*\rangle/m_n = 4.3$, which is an estimation of crustal
+entrainment~\cite{Andersson2012}. 
+In this calculation, we assume that the observed glitches correspond to the 
+maximum amplitute that can be sustained by the crust reservoir, which means 
+that we impose the equality
+%
+\begin{equation}
+  \frac{I_{crust}}{I} = \mathcal{G}_{\text{Vela}}\frac{\langle
+  m_n^*\rangle}{m_n}.\label{eq:mr_from_g}
+\end{equation}
+%
+Hence, the marginalized two-parameter distribution for Vela mass and radius is 
+computed as
+%
+\begin{equation}
+  p(M,R|\text{data})=
+  \sum_{\bm{X}}\delta(M(\bm{X})-M)\delta(R(\bm{X})-R)
+  p(\bm{X}|\text{data}),
+\end{equation}
+%
+where $M(\bm{X})$ and $R(\bm{X})$ are the mass and radius obtained with the
+parameter set $\bm{X}$ when the central density is such that the corresponding
+fractional moment of inertia verifies Eq.~(\ref{eq:mr_from_g}). 
+The resulting distribution for Vela mass and radius without entrainment (left
+panel) is compatible with the uncertainties reported in Table 2 
+of~\cite{Ho2015}. Evidently, the uncertainties are larger in our work since we 
+consider a distribution of models, while three specific EoS (BSk20, BSk21, and 
+APR) were used in~\cite{Ho2015}. In the same spirit, we show the prediction of 
+BSk24, SLy4, and PKDD EoS. Considering the specific treatment of the
+entrainment effect with $\langle m_n^*\rangle/m_n = 4.3$ (right panel), the 
+predicted Vela mass is significantly lower than that inferred in the case where
+entrainment is neglected, with $M_{\text{Vela}}=0.79_{-0.33}^{+0.41} M_\odot$ 
+at the $1\sigma$ confidence level. This shows that the uncertainty on the
+importance of crustal entrainment is dominant over the EoS uncertainty and the
+experimental uncertainty on the glitch amplitude.
+Let us notice that an innovative method was recently proposed to determine the 
+mass and radius using observations of the maximum observed
+glitches~\cite{Pizzochero2017}.
 
 \begin{figure}[!t]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{figures/mr_from_g_vela.pdf}
+    \includegraphics[width=0.9\linewidth]{figures/ifrac_vs_m.pdf}
   \end{center}
-  \caption[Blabla]{Blabla.}\label{fig:mr_from_g_vela}
+  \caption[Marginalized posterior for the fraction of crust moment of inertia
+  as a function of the neutron star mass]{Marginalized posterior for the 
+    fraction of crust moment of inertia $I_{crust}/I$ as a function of the NS 
+    mass $M$, using the LD+HD distribution. The blue dark and light shaded 
+    regions show the $50\%$ and $90\%$ confidence intervals, respectively. The 
+    gray dashed line represents the average value. 
+    The results for four characteristic EoS models are given. 
+    The minimum values needed to justify Vela glitches with (Delsate \textit{et
+    al.}~\cite{Delsate2016} and Andersson \textit{et al.}~\cite{Andersson2012}) 
+    and without (Link \textit{et al.}~\cite{Link1999}) crustal entrainment are 
+  represented.}\label{fig:ifrac_vs_m}
 \end{figure}
+
+Fig.~\ref{fig:ifrac_vs_m} shows the average value of the fraction of crust 
+moment of inertia $I_{crust}/I$ and the $50\%$ and $90\%$ regions 
+as a function of the NS mass for the LD+HD posterior distribution. It should be
+stressed that the uncertainty on $I_{crust}/I$ is smaller 
+in~\cite{Carreau2019moi} because this quantity is correlated with the 
+isovector empirical parameters $K_{sym}$ and $Q_{sym}$, which are strongly
+constrained by the filter on pressure, see Fig.~\ref{fig:iv_dist}, not
+accounted for in the present calculation. The black
+lines represent the minimum values to justify the large glitches exhibited by
+Vela with~\cite{Delsate2016,Andersson2012} and without~\cite{Link1999} 
+accounting for the entrainment effect. As expected from~\cite{Link1999}, we
+find that the amount of angular momentum stored in the crust is sufficient to
+explain pulsar glitches if the entrainment effect is neglected.
+Given the intermediate estimation of crustal entrainment~\cite{Andersson2012}
+($\langle m_n^*\rangle/m_n = 4.3$), we infer that the mass of Vela must be
+lower than $\approx 1.4M_\odot$ to meet the LD+HD prediction at the $90\%$
+level. This can also be seen in Fig.~\ref{fig:ifrac14_vs_lcrust14}.
+Finally, it is clearly observed that the largest estimation of the crustal 
+entrainment effect~\cite{Delsate2016} is incompatible with the present nuclear 
+physics knowledge if we keep the standard picture where a full crustal origin 
+is assumed~\cite{Anderson1975}. Indeed, it yields $M_\text{Vela} \lesssim 
+1M_\odot$, yet such low-mass NS have never been observed to this day.
 
 \section{Conclusion}\label{sec:conclu2}
 
+% section 1
+% =========
+In this chapter, we have first explained how to theoretically determine the NS
+observables for a given EoS.
+
+% section 2
+% =========
+
+% section 3
+% =========
+
+% ouverture
+% =========
 % word on machine learning
 % one can expect more constraints in the future with nicer and lvc

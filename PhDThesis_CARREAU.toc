@@ -106,7 +106,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Pulsar glitches: answering the question ``\textit {Is the crust enough?}''}{91}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Conclusion}{94}{section.2.4}
+\contentsline {section}{\numberline {2.4}Conclusion}{95}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{97}{appendix.A}
 \defcounter {refsection}{0}\relax 

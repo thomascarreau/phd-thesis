@@ -642,12 +642,12 @@ INPUT ./figures/ntpt_marg.pdf
 INPUT figures/ifrac14_vs_lcrust14.pdf
 INPUT ./figures/ifrac14_vs_lcrust14.pdf
 INPUT ./figures/ifrac14_vs_lcrust14.pdf
-INPUT figures/ifrac_vs_m.pdf
-INPUT ./figures/ifrac_vs_m.pdf
-INPUT ./figures/ifrac_vs_m.pdf
 INPUT figures/mr_from_g_vela.pdf
 INPUT ./figures/mr_from_g_vela.pdf
 INPUT ./figures/mr_from_g_vela.pdf
+INPUT figures/ifrac_vs_m.pdf
+INPUT ./figures/ifrac_vs_m.pdf
+INPUT ./figures/ifrac_vs_m.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
