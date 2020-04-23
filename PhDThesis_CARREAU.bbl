@@ -19985,6 +19985,53 @@
       \verb 10.1086/149400
       \endverb
     \endentry
+    \entry{Hewish1968}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9cf1399aa656119541a216749a374d67}{%
+           family={Hewish},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=43465cc8f80dc146a52c42f8f9d58d24}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={S.J.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b93b5e8fba936682eef1340563817d20}{%
+           family={Pilkington},
+           familyi={P\bibinitperiod},
+           given={J.D.H},
+           giveni={J\bibinitperiod}}}%
+        {{hash=716112dd3b686f7cd105f63e7b4b26b7}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={P.F.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8d26ebf591896e8563e113775d87a2db}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c229bd4b0d777f1bcf4df2a0a6532c1}
+      \strng{fullhash}{cba78c3a893654706870e447987374c0}
+      \strng{authornamehash}{4c229bd4b0d777f1bcf4df2a0a6532c1}
+      \strng{authorfullhash}{cba78c3a893654706870e447987374c0}
+      \field{labelalpha}{Hew+68}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Observation of a rapidly pulsating radio source}
+      \field{volume}{217}
+      \field{year}{1968}
+      \field{pages}{709\bibrangedash 713}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/217709a0
+      \endverb
+    \endentry
     \entry{Hinderer2010}{article}{}
       \name{author}{4}{}{%
         {{hash=3a2c1ce6f6a82a9beae65e9d9fcb360b}{%
