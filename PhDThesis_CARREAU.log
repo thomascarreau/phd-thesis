@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  4 MAY 2020 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  6 MAY 2020 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1497,54 +1497,59 @@ Underfull \vbox (badness 6300) has occurred while \output is active []
 
 ]
 Chapter 3.
-) (./sections/appendices.tex
+[101]) (./sections/appendices.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101] [102]
+ [102] [103] [104
+
+]
 Appendix A.
-[103
-
-] [104]
+[105] [106]
 Appendix B.
-[105
+[107
 
-] [106]
+] [108]
 Appendix C.
-) [107
+) [109
 
-] [108
+] [110
 
 ]
 Overfull \hbox (12.57996pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 B. P. Ab-bott et al. ``Prop-er-ties of the Bi-nary Neu-tron Star Merger GW170817''.
  []
 
-[109]
+[111]
+Overfull \hbox (3.94838pt too wide) in paragraph at lines 48--48
+[]\T1/lmr/m/n/10.95 Marc Baus and Jean-Pierre Hansen. ``Sta-tis-ti-cal me-chan-ics of sim-ple coulomb
+ []
+
+
 Overfull \hbox (2.49072pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 Carreau, Thomas, Gul-minelli, Francesca, and Mar-gueron, Jérôme. ``Bayesian
  []
 
-[110]
+[112]
 Overfull \hbox (1.73732pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 P. B. De-mor-est et al. ``A two-solar-mass neu-tron star mea-sured us-ing Shapiro
  []
 
-[111] [112] [113] [114]
+[113] [114] [115] [116]
 Overfull \hbox (16.18066pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 P. Möller and J.R. Nix. ``Nu-clear masses from a uni-fied macroscopic-microscopic
  []
 
-[115] [116]
+[117] [118]
 Overfull \hbox (16.02777pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 X. Roca-Maza et al. ``Rel-a-tivis-tic mean-field in-ter-ac-tion with density-dependent
  []
 
-[117]
+[119]
 Overfull \hbox (13.81113pt too wide) in paragraph at lines 48--48
 []\T1/lmr/m/n/10.95 Nobutoshi Ya-su-take, Toshiki Maruyama, and Toshi-taka Tat-sumi. ``Hot hadron-
  []
 
-[118]
+[120]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the PhDThesis_CARREAU.maf file.
@@ -1557,13 +1562,13 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the PhDThesis_CARREAU.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-[119]
+[121]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./PhDThesis_CARREAU.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `PhDThesis_CARREAU.out' has not changed.
-(rerunfilecheck)             Checksum: 0CF697EAC47F2EF74E657EFCFF9614ED;7633.
+(rerunfilecheck)             Checksum: 3D99E7BD52FC9838C50644B66617F800;7651.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1574,10 +1579,10 @@ Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 17251 strings out of 493013
- 275590 string characters out of 6135682
- 1407216 words of memory out of 5000000
- 19751 multiletter control sequences out of 15000+600000
+ 17262 strings out of 493013
+ 275779 string characters out of 6135682
+ 1408258 words of memory out of 5000000
+ 19757 multiletter control sequences out of 15000+600000
  129700 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,45p,4525b,1284s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1585,10 +1590,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (119 pages, 1872208 bytes).
+Output written on PhDThesis_CARREAU.pdf (121 pages, 1877229 bytes).
 PDF statistics:
- 3284 PDF objects out of 3580 (max. 8388607)
- 2972 compressed objects within 30 object streams
- 527 named destinations out of 1000 (max. 500000)
+ 3305 PDF objects out of 3580 (max. 8388607)
+ 2991 compressed objects within 30 object streams
+ 532 named destinations out of 1000 (max. 500000)
  857 words of extra memory for PDF output out of 10000 (max. 10000000)
 

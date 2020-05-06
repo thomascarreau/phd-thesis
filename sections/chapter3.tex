@@ -9,29 +9,86 @@
 
 \subsection{One-component Coulomb plasma approximation}
 
-% in this subsection we give the main assumptions for the ocp treatment at
-% finite temperature
-
-% Let us notice that in the regime of the outer crust, no outside neutron gas 
-%   is considered, thus Fg = 0
-
+At zero temperature, WS cells are supposed to be identical, thus the OCP  
+(single-nucleus) approximation~\cite{Baus1980}, which considers a unique 
+nucleus $(A,Z)$ for a given thermodynamic condition of pressure and temperature 
+$(P,T)$, is exact. Let us recall that the equilibrium composition is 
+determined by minimizing the Gibbs free energy per nucleon at fixed pressure 
+(or equivalently the free energy density at fixed baryon density).
+At finite temperature in the OCP approximation, the expected distribution of 
+nuclei is replaced by the equilibrium nucleus obtained from the minimization of 
+the relevant thermodynamic potential.
+The physical properties of the OCP are fully characterized by the so-called 
+dimensionless Coulomb coupling parameter,
+%
 \begin{equation}
-  F = F_i + F_g + F_e
+  \Gamma = \frac{Ze^2}{a_N k_B T},
 \end{equation}
+%
+where $a_N=(4\pi n_N/3)^{-1/3}$ is the ion-sphere radius, with $n_N$ the ion
+density.
+More precisely, $\Gamma$ allows to quantify the nonideality of the system, that
+is the importance of the many-body interactions in the OCP. The lower the
+temperature, the more coupled are the ions. The crystallization of the OCP into 
+a lattice is observed near $\Gamma \approx 175$.
 
+The total free energy per ion in the crust is given by
+%
 \begin{equation}
-  F_i = M^\star c^2 + F_i^{\text{id}} + F_i^{\text{int}}
+  F = F_{i,e} + F_g + F_e,\label{eq:fperion}
 \end{equation}
+%
+where $F_{i,e}$ is the ion free energy in the e-cluster representation 
+(see~\ref{subsec:nucenergy}), $F_g$ is the neutron gas free energy, and $F_e$ 
+is the electron gas free energy, given by~\cite{Haensel2007}
+%
+\begin{equation}
+  \mathcal{F}_e = \frac{F_e}{V_{WS}} = \varepsilon_e -
+  \frac{P_r}{6}t_r^2x_r\gamma_r,
+\end{equation}
+%
+with $t_r = T/(m_e c^2)$. The expressions of the energy density 
+$\varepsilon_e$, relativistic unit of the electron pressure $P_r$, relativity
+parameter $x_r$, and $\gamma_r$ are given in~\ref{subsubsec:elgas}.
+Let us notice that in the regime of the outer crust, neutrons are still bound
+to the nuclei, thus $F_g=0$ MeV, and consequently $F_{i,e}$ coincides with the 
+ion free energy in the r-cluster representation $F_i$.
+The free energy per ion reads
+%
+\begin{equation}
+  F_{i,e} = M_{i,e} c^2 + F_i^{\text{id}} + F_i^{\text{int}},\label{eq:fie}
+\end{equation}
+%
+where the ion mass in e-cluster representation $M_{i,e}$ has been introduced.
+In Eq.~(\ref{eq:fie}), $F_i^{\text{id}}$ represents the ideal contribution to
+the ion free energy, that is the noninteracting part, and $F_i^{\text{int}}$
+the interacting part.
 
-% the following subsubsection explain in details which corrections into the
-%   interacting part of the energy and the ideal one, depending on the the
-%   phase of matter, either solid or liquid.
+In the following, we give the expressions associated to the ideal and 
+interacting contributions to the ion free energy which differ according to the 
+phase of matter, either solid or liquid.
+The modeling of $M_{i,e}$ as well as of the neutron gas free energy $F_g$ is 
+presented in detail in~\ref{subsec:freeenfunctional}. 
 
-\subsubsection{Liquid phase}
+\subsubsection{OCP in a liquid phase}
 
-\subsubsection{Solid phase}
+% blabla liquid
+
+% derivation translational (see [GR15])
+
+Blabla.
+
+\subsubsection{OCP in a solid phase}
+
+% blabla solid
+
+% discuss in detail the corrections
+
+Blabla.
 
 \subsection{Multicomponent Coulomb plasma}
+
+% the ocp approximation is expected to be reliable at low temperature
 
 \subsubsection{Nuclear statistical equilibrium}
 
@@ -39,7 +96,7 @@
 
 \subsubsection{Evaluation of the rearrangement term}
 
-\subsection{Free energy functional}
+\subsection{Free energy functional}\label{subsec:freeenfunctional}
 
 \subsubsection{Thermodynamics of nuclear matter}
 

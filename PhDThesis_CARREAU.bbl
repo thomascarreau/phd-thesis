@@ -17965,6 +17965,43 @@
       \verb https://doi.org/10.1051/0004-6361/201118560
       \endverb
     \endentry
+    \entry{Baus1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=57b240ee2186c9fb7adadf311677c1e4}{%
+           family={Baus},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=17be630b0669caa9c2d86ff6ddc578ff}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6bda92c014f7c697cc089aeee49e10f}
+      \strng{fullhash}{f6bda92c014f7c697cc089aeee49e10f}
+      \strng{authornamehash}{f6bda92c014f7c697cc089aeee49e10f}
+      \strng{authorfullhash}{f6bda92c014f7c697cc089aeee49e10f}
+      \field{labelalpha}{BH80}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{number}{1}
+      \field{title}{Statistical mechanics of simple coulomb systems}
+      \field{volume}{59}
+      \field{year}{1980}
+      \field{pages}{1\bibrangedash 94}
+      \range{pages}{94}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0370-1573(80)90022-8
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0370157380900228
+      \endverb
+    \endentry
     \entry{BPS}{article}{}
       \name{author}{3}{}{%
         {{hash=dd73b913b674eceb3652645d7b26656a}{%
