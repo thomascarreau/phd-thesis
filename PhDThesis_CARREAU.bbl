@@ -18039,6 +18039,51 @@
       \verb 10.1086/151216
       \endverb
     \endentry
+    \entry{Baiko2001}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c40955d75871abc16bd6be79d776001f}{%
+           family={Baiko},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8681608d3aa44bfc16dde2caad423d59}{%
+           family={Potekhin},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=3d5b6d8c629afcbfec60fa3e6d1ff7e3}{%
+           family={Yakovlev},
+           familyi={Y\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{aec078d8ef494d44d77d25144bc38b97}
+      \strng{fullhash}{aec078d8ef494d44d77d25144bc38b97}
+      \strng{authornamehash}{aec078d8ef494d44d77d25144bc38b97}
+      \strng{authorfullhash}{aec078d8ef494d44d77d25144bc38b97}
+      \field{labelalpha}{BPY01}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{10}
+      \field{title}{Thermodynamic functions of harmonic Coulomb crystals}
+      \field{volume}{64}
+      \field{year}{2001}
+      \field{pages}{057402}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.64.057402
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.64.057402
+      \endverb
+    \endentry
     \entry{Broyden1965}{article}{}
       \name{author}{1}{}{%
         {{hash=21ba2489e0d1d1df86d3d46690ec8840}{%
@@ -18238,6 +18283,41 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.94.065802
+      \endverb
+    \endentry
+    \entry{Carreau2020}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=5961818af5d6ed76e79c4b8aae45bb02}{%
+           family={Carreau},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4c92cbc4ff497c15bd0ca5f8b69ea27b}{%
+           family={Fantina},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=775fa117e374a255a0b521f8148693f2}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e332fc301f9af782d42a328f20bab7b9}
+      \strng{fullhash}{e332fc301f9af782d42a328f20bab7b9}
+      \strng{authornamehash}{e332fc301f9af782d42a328f20bab7b9}
+      \strng{authorfullhash}{e332fc301f9af782d42a328f20bab7b9}
+      \field{labelalpha}{CFG20}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{title}{Inner crust of a neutron star at crystallization in a multi-component approach}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2005.02089
       \endverb
     \endentry
     \entry{Carreau2019cc}{article}{}
@@ -19439,6 +19519,83 @@
       \verb https://doi.org/10.1111/j.1365-2966.2011.18503.x
       \endverb
     \endentry
+    \entry{Fantina2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=73394313ce68aaa7d2e2d1f3caffecfa}{%
+           family={{Fantina, A. F.}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=4230a2d93cde891ae6702d8bf3b9542f}{%
+           family={{De Ridder, S.}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=a8865ec252b2632c85c218e8cbce29b0}{%
+           family={{Chamel, N.}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=1430ba1b6fb94a88b1bf769405fa33a9}{%
+           family={{Gulminelli, F.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{461efde1c8d7e8ec453e6e82fa05b853}
+      \strng{fullhash}{6cbe4e6fe09f6fb042832f2b0b3e75ca}
+      \strng{authornamehash}{461efde1c8d7e8ec453e6e82fa05b853}
+      \strng{authorfullhash}{6cbe4e6fe09f6fb042832f2b0b3e75ca}
+      \field{labelalpha}{Fan+20}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Crystallization of the outer crust of a non-accreting neutron star}
+      \field{volume}{633}
+      \field{year}{2020}
+      \field{pages}{A149}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201936359
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/201936359
+      \endverb
+    \endentry
+    \entry{Farouki1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=33099a562689cf4368819d59b23d4bee}{%
+           family={Farouki},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9ddc7a96cd52adc459a10309b9f33d82}{%
+           family={Hamaguchi},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2c713bc89412f4ad58c180e2bc565ae3}
+      \strng{fullhash}{2c713bc89412f4ad58c180e2bc565ae3}
+      \strng{authornamehash}{2c713bc89412f4ad58c180e2bc565ae3}
+      \strng{authorfullhash}{2c713bc89412f4ad58c180e2bc565ae3}
+      \field{labelalpha}{FH93}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{6}
+      \field{title}{Thermal energy of the crystalline one-component plasma from dynamical simulations}
+      \field{volume}{47}
+      \field{year}{1993}
+      \field{pages}{4330\bibrangedash 4336}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.47.4330
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.47.4330
+      \endverb
+    \endentry
     \entry{Feynman1949}{article}{}
       \name{author}{3}{}{%
         {{hash=5883179adbb0c28bccda6525d1d7f983}{%
@@ -19849,6 +20006,43 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0375947405000126
       \endverb
     \endentry
+    \entry{Goriely2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=574acb9af27cf8a7cb9b3f7e26501a59}{%
+           family={{Goriely, S.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=a8865ec252b2632c85c218e8cbce29b0}{%
+           family={{Chamel, N.}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=40a45ba959df344f099ec5caf56922ae}{%
+           family={{Janka, H.-T.}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=3ce6f4999b63b6a2d578f6df9ca40c8a}{%
+           family={{Pearson, J.M.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f37fb36ac09e0a1208c62eb31c87c391}
+      \strng{fullhash}{510cb1bc84e9e2c488f20c06ef83c368}
+      \strng{authornamehash}{f37fb36ac09e0a1208c62eb31c87c391}
+      \strng{authorfullhash}{510cb1bc84e9e2c488f20c06ef83c368}
+      \field{labelalpha}{Gor+11}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{The decompression of the outer neutron star crust and r-process nucleosynthesis}
+      \field{volume}{531}
+      \field{year}{2011}
+      \field{pages}{A78}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201116897
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/201116897
+      \endverb
+    \endentry
     \entry{Grill2012}{article}{}
       \name{author}{3}{}{%
         {{hash=c7fe90c420e856a9e50f3f14fadcec80}{%
@@ -19892,6 +20086,46 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.85.055808
+      \endverb
+    \endentry
+    \entry{Gulminelli2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=775fa117e374a255a0b521f8148693f2}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6a3a4b101b87fb12ff5baf843c930355}{%
+           family={Raduta},
+           familyi={R\bibinitperiod},
+           given={Ad.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1a58d246f840329167750fabff68c393}
+      \strng{fullhash}{1a58d246f840329167750fabff68c393}
+      \strng{authornamehash}{1a58d246f840329167750fabff68c393}
+      \strng{authorfullhash}{1a58d246f840329167750fabff68c393}
+      \field{labelalpha}{GR15}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{11}
+      \field{title}{Unified treatment of subsaturation stellar matter at zero and finite temperature}
+      \field{volume}{92}
+      \field{year}{2015}
+      \field{pages}{055803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.92.055803
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.92.055803
       \endverb
     \endentry
     \entry{Grams2017}{article}{}
@@ -20168,6 +20402,39 @@
       \endverb
       \verb{url}
       \verb https://advances.sciencemag.org/content/1/9/e1500578
+      \endverb
+    \endentry
+    \entry{VanHorn1969}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ec3e5b559739ffdc07ee762102f72c50}{%
+           family={Horn]},
+           familyi={H\bibinitperiod},
+           given={H.M.\bibnamedelimi [Van},
+           giveni={H\bibinitperiod\bibinitdelim [\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec3e5b559739ffdc07ee762102f72c50}
+      \strng{fullhash}{ec3e5b559739ffdc07ee762102f72c50}
+      \strng{authornamehash}{ec3e5b559739ffdc07ee762102f72c50}
+      \strng{authorfullhash}{ec3e5b559739ffdc07ee762102f72c50}
+      \field{labelalpha}{Hor69}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A calculation of the melting parameter φm introduced by Brush et al. is given which is exact within the uncertainties in the Lindemann constant. The calculated result is φm = 170 ± 10.}
+      \field{issn}{0375-9601}
+      \field{journaltitle}{Physics Letters A}
+      \field{number}{10}
+      \field{title}{Crystallization of a classical, one-component coulomb plasma}
+      \field{volume}{28}
+      \field{year}{1969}
+      \field{pages}{706\bibrangedash 707}
+      \range{pages}{2}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0375-9601(69)90699-9
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0375960169906999
       \endverb
     \endentry
     \entry{Haensel1994}{article}{}
@@ -21648,6 +21915,87 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.88.045805
       \endverb
+    \endentry
+    \entry{Potekhin2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b3528cc1ba99a4335bb8ec182f805caf}{%
+           family={Potekhin},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e11fdffe556838bcf5d1dfc1f2c86d2b}{%
+           family={Chabrier},
+           familyi={C\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{51d3e431aeece098b7412e532b266fa8}
+      \strng{fullhash}{51d3e431aeece098b7412e532b266fa8}
+      \strng{authornamehash}{51d3e431aeece098b7412e532b266fa8}
+      \strng{authorfullhash}{51d3e431aeece098b7412e532b266fa8}
+      \field{labelalpha}{PC00}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{12}
+      \field{title}{Equation of state of fully ionized electron-ion plasmas. II. Extension to relativistic densities and to the solid phase}
+      \field{volume}{62}
+      \field{year}{2000}
+      \field{pages}{8554\bibrangedash 8563}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.62.8554
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.62.8554
+      \endverb
+    \endentry
+    \entry{Potekhin2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8681608d3aa44bfc16dde2caad423d59}{%
+           family={Potekhin},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=58829ebe914b883088975a76f8cad884}{%
+           family={Chabrier},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{51bbad7c6607bbff6ca7f3e9602da432}
+      \strng{fullhash}{51bbad7c6607bbff6ca7f3e9602da432}
+      \strng{authornamehash}{51bbad7c6607bbff6ca7f3e9602da432}
+      \strng{authorfullhash}{51bbad7c6607bbff6ca7f3e9602da432}
+      \field{labelalpha}{PC10}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract We briefly review analytic approximations of thermodynamic functions of fully ionized nonideal electronion plasmas, applicable in a wide range of plasma parameters, including the domains of nondegenerate and degenerate, nonrelativistic and relativistic electrons, weakly and strongly coupled Coulomb liquids, classical and quantum Coulomb crystals. We present improvements to previously published approximations. Our code for calculation of thermodynamic functions based on the reviewed approximations is made publicly available (© 2010 WILEY-VCH Verlag GmbH \& Co. KGaA, Weinheim)}
+      \field{journaltitle}{Contributions to Plasma Physics}
+      \field{number}{1}
+      \field{title}{Thermodynamic Functions of Dense Plasmas: Analytic Approximations for Astrophysical Applications}
+      \field{volume}{50}
+      \field{year}{2010}
+      \field{pages}{82\bibrangedash 87}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/ctpp.201010017
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/ctpp.201010017
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ctpp.201010017
+      \endverb
+      \keyw{Thermodynamics of plasmas,strongly-coupled plasmas,degenerate stars}
     \endentry
     \entry{Pearson2020}{article}{}
       \name{author}{3}{}{%

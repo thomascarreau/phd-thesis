@@ -1,90 +1,94 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
 [0] Config.pm:357> INFO - Logfile is 'PhDThesis_CARREAU.blg'
-[29] biber:303> INFO - === mer. mai  6, 2020, 18:57:28
-[44] Biber.pm:360> INFO - Reading 'PhDThesis_CARREAU.bcf'
-[141] Biber.pm:836> INFO - Found 128 citekeys in bib section 0
-[154] Biber.pm:3671> INFO - Processing section 0
-[166] Biber.pm:3841> INFO - Looking for bibtex format file 'references.bib' for section 0
-[188] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
-[231] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
-[246] Utils.pm:164> WARN - month field 'May' in entry 'Wigner1933' is not an integer - this will probably not sort properly.
-[258] Utils.pm:164> WARN - month field 'Sep' in entry 'Fortin2016' is not an integer - this will probably not sort properly.
-[261] Utils.pm:164> WARN - month field 'mar' in entry 'Huang2017' is not an integer - this will probably not sort properly.
-[263] Utils.pm:164> WARN - month field 'Feb' in entry 'Margueron2018a' is not an integer - this will probably not sort properly.
-[266] Utils.pm:164> WARN - month field 'May' in entry 'Feynman1949' is not an integer - this will probably not sort properly.
-[268] Utils.pm:164> WARN - month field 'Dec' in entry 'Chamel2016' is not an integer - this will probably not sort properly.
-[272] Utils.pm:164> WARN - month field 'Aug' in entry 'Lunney2003' is not an integer - this will probably not sort properly.
-[276] Utils.pm:164> WARN - month field 'May' in entry 'Myers1965' is not an integer - this will probably not sort properly.
-[283] Utils.pm:164> WARN - month field 'Nov' in entry 'Welker2017' is not an integer - this will probably not sort properly.
-[285] Utils.pm:164> WARN - month field 'Aug' in entry 'Goriely2013' is not an integer - this will probably not sort properly.
-[287] Utils.pm:164> WARN - month field 'dec' in entry 'Audi2012' is not an integer - this will probably not sort properly.
-[290] Utils.pm:164> WARN - month field 'Sep' in entry 'Akmal1998' is not an integer - this will probably not sort properly.
-[292] Utils.pm:164> WARN - month field 'Aug' in entry 'Li2008' is not an integer - this will probably not sort properly.
-[293] Utils.pm:164> WARN - month field 'Jun' in entry 'Goriely2007' is not an integer - this will probably not sort properly.
-[297] Utils.pm:164> WARN - month field 'Oct' in entry 'Papakonstantinou2013' is not an integer - this will probably not sort properly.
-[299] Utils.pm:164> WARN - month field 'Dec' in entry 'Lattimer1991' is not an integer - this will probably not sort properly.
-[301] Utils.pm:164> WARN - month field 'Jun' in entry 'Onsi2008' is not an integer - this will probably not sort properly.
-[305] Utils.pm:164> WARN - month field 'May' in entry 'Drischler2016' is not an integer - this will probably not sort properly.
-[309] Utils.pm:164> WARN - month field 'Feb' in entry 'Margueron2018b' is not an integer - this will probably not sort properly.
-[311] Utils.pm:164> WARN - month field 'Nov' in entry 'RocaMaza2011' is not an integer - this will probably not sort properly.
-[313] Utils.pm:164> WARN - month field 'Oct' in entry 'Vidana2009' is not an integer - this will probably not sort properly.
-[314] Utils.pm:164> WARN - month field 'may' in entry 'Antic2019' is not an integer - this will probably not sort properly.
-[320] Utils.pm:164> WARN - month field 'May' in entry 'Newton2009' is not an integer - this will probably not sort properly.
-[324] Utils.pm:164> WARN - month field 'dec' in entry 'Newton2012' is not an integer - this will probably not sort properly.
-[327] Utils.pm:164> WARN - month field 'Jan' in entry 'Lorenz1993' is not an integer - this will probably not sort properly.
-[328] Utils.pm:164> WARN - month field 'may' in entry 'Dobaczewski2014' is not an integer - this will probably not sort properly.
-[331] Utils.pm:164> WARN - month field 'Jun' in entry 'Pearson2012' is not an integer - this will probably not sort properly.
-[336] Utils.pm:164> WARN - month field 'Sep' in entry 'Bohr1939' is not an integer - this will probably not sort properly.
-[343] Utils.pm:164> WARN - month field 'May' in entry 'Chamel2007' is not an integer - this will probably not sort properly.
-[352] Utils.pm:164> WARN - month field 'Sep' in entry 'Watanabe2003' is not an integer - this will probably not sort properly.
-[356] Utils.pm:164> WARN - month field 'Jul' in entry 'Avancini2008' is not an integer - this will probably not sort properly.
-[358] Utils.pm:164> WARN - month field 'Nov' in entry 'Avancini2010' is not an integer - this will probably not sort properly.
-[361] Utils.pm:164> WARN - month field 'May' in entry 'Grams2017' is not an integer - this will probably not sort properly.
-[363] Utils.pm:164> WARN - month field 'Jan' in entry 'Pearson2020' is not an integer - this will probably not sort properly.
-[366] Utils.pm:164> WARN - month field 'Dec' in entry 'Gonzalez2017' is not an integer - this will probably not sort properly.
-[372] Utils.pm:164> WARN - month field 'Jun' in entry 'Ducoin2007b' is not an integer - this will probably not sort properly.
-[376] Utils.pm:164> WARN - month field 'Apr' in entry 'Ducoin2011' is not an integer - this will probably not sort properly.
-[378] Utils.pm:164> WARN - month field 'May' in entry 'Grill2012' is not an integer - this will probably not sort properly.
-[380] Utils.pm:164> WARN - month field 'Mar' in entry 'Oertel2017' is not an integer - this will probably not sort properly.
-[385] Utils.pm:164> WARN - month field 'Oct' in entry 'Demorest2010' is not an integer - this will probably not sort properly.
-[397] Utils.pm:164> WARN - month field 'Nov' in entry 'Baym2019' is not an integer - this will probably not sort properly.
-[670] Utils.pm:164> WARN - month field 'Oct' in entry 'GW1' is not an integer - this will probably not sort properly.
-[948] Utils.pm:164> WARN - month field 'Jan' in entry 'GW2' is not an integer - this will probably not sort properly.
-[951] Utils.pm:164> WARN - month field 'Dec' in entry 'Yasutake2009' is not an integer - this will probably not sort properly.
-[952] Utils.pm:164> WARN - month field 'sep' in entry 'Yasutake2011' is not an integer - this will probably not sort properly.
-[956] Utils.pm:164> WARN - month field 'Jun' in entry 'Yasutake2014' is not an integer - this will probably not sort properly.
-[958] Utils.pm:164> WARN - month field 'Aug' in entry 'Wiringa1988' is not an integer - this will probably not sort properly.
-[1209] Utils.pm:164> WARN - month field 'Oct' in entry 'GWtidal' is not an integer - this will probably not sort properly.
-[1211] Utils.pm:164> WARN - month field 'Nov' in entry 'Carreau2019moi' is not an integer - this will probably not sort properly.
-[1212] Utils.pm:164> WARN - month field 'Feb' in entry 'Tolman1939' is not an integer - this will probably not sort properly.
-[1214] Utils.pm:164> WARN - month field 'Feb' in entry 'Oppenheimer1939' is not an integer - this will probably not sort properly.
-[1215] Utils.pm:164> WARN - month field 'Dec' in entry 'Shapiro1964' is not an integer - this will probably not sort properly.
-[1217] Utils.pm:164> WARN - month field 'Mar' in entry 'Long2004' is not an integer - this will probably not sort properly.
-[1222] Utils.pm:164> WARN - month field 'nov' in entry 'Stovall2013' is not an integer - this will probably not sort properly.
-[1225] Utils.pm:164> WARN - month field 'Sep' in entry 'Lim2019' is not an integer - this will probably not sort properly.
-[1228] Utils.pm:164> WARN - month field 'Jul' in entry 'Delsate2016' is not an integer - this will probably not sort properly.
-[1230] Utils.pm:164> WARN - month field 'Dec' in entry 'Andersson2012' is not an integer - this will probably not sort properly.
-[1231] Utils.pm:164> WARN - month field 'Oct' in entry 'Link1999' is not an integer - this will probably not sort properly.
-[1235] Utils.pm:164> WARN - month field 'Jan' in entry 'Chamel2013' is not an integer - this will probably not sort properly.
-[1237] Utils.pm:164> WARN - month field 'Jul' in entry 'Piekarewicz2014' is not an integer - this will probably not sort properly.
-[1238] Utils.pm:164> WARN - month field 'Mar' in entry 'Chamel2012' is not an integer - this will probably not sort properly.
-[1240] Utils.pm:164> WARN - month field 'Dec' in entry 'Martin2016' is not an integer - this will probably not sort properly.
-[1241] Utils.pm:164> WARN - month field 'Aug' in entry 'Watanabe2017' is not an integer - this will probably not sort properly.
-[1245] Utils.pm:164> WARN - month field 'Jun' in entry 'Hinderer2010' is not an integer - this will probably not sort properly.
-[1247] Utils.pm:164> WARN - month field 'Apr' in entry 'Piekarewicz2019' is not an integer - this will probably not sort properly.
-[1251] Utils.pm:164> WARN - month field 'Feb' in entry 'Margueron2019' is not an integer - this will probably not sort properly.
-[1257] Utils.pm:164> WARN - month field 'Feb' in entry 'Kortelainen2012' is not an integer - this will probably not sort properly.
-[1260] Utils.pm:164> WARN - month field 'Jun' in entry 'Trippa2008' is not an integer - this will probably not sort properly.
-[1263] Utils.pm:164> WARN - month field 'Dec' in entry 'Chatterjee2017' is not an integer - this will probably not sort properly.
-[1265] Utils.pm:164> WARN - month field 'Aug' in entry 'De2018' is not an integer - this will probably not sort properly.
-[1268] Utils.pm:164> WARN - month field 'Nov' in entry 'Alam2016' is not an integer - this will probably not sort properly.
-[1271] Utils.pm:164> WARN - month field 'Oct' in entry 'Ji2019' is not an integer - this will probably not sort properly.
-[1275] Utils.pm:164> WARN - month field 'Aug' in entry 'Mondal2017' is not an integer - this will probably not sort properly.
-[1279] Utils.pm:164> WARN - month field 'Apr' in entry 'Watts2016' is not an integer - this will probably not sort properly.
-[1584] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1584] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1584] Biber.pm:3500> INFO - Sorting list 'anyt/global/' of type 'entry' with scheme 'anyt' and locale 'en-US'
-[1584] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
-[1824] bbl.pm:608> INFO - Writing 'PhDThesis_CARREAU.bbl' with encoding 'UTF-8'
-[1930] bbl.pm:712> INFO - Output to PhDThesis_CARREAU.bbl
-[1930] Biber.pm:110> INFO - WARNINGS: 74
+[108] biber:303> INFO - === dim. mai 17, 2020, 21:10:59
+[204] Biber.pm:360> INFO - Reading 'PhDThesis_CARREAU.bcf'
+[294] Biber.pm:836> INFO - Found 137 citekeys in bib section 0
+[307] Biber.pm:3671> INFO - Processing section 0
+[430] Biber.pm:3841> INFO - Looking for bibtex format file 'references.bib' for section 0
+[461] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[541] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
+[560] Utils.pm:164> WARN - month field 'May' in entry 'Wigner1933' is not an integer - this will probably not sort properly.
+[576] Utils.pm:164> WARN - month field 'Sep' in entry 'Fortin2016' is not an integer - this will probably not sort properly.
+[582] Utils.pm:164> WARN - month field 'mar' in entry 'Huang2017' is not an integer - this will probably not sort properly.
+[584] Utils.pm:164> WARN - month field 'Feb' in entry 'Margueron2018a' is not an integer - this will probably not sort properly.
+[588] Utils.pm:164> WARN - month field 'May' in entry 'Feynman1949' is not an integer - this will probably not sort properly.
+[590] Utils.pm:164> WARN - month field 'Dec' in entry 'Chamel2016' is not an integer - this will probably not sort properly.
+[594] Utils.pm:164> WARN - month field 'Aug' in entry 'Lunney2003' is not an integer - this will probably not sort properly.
+[599] Utils.pm:164> WARN - month field 'May' in entry 'Myers1965' is not an integer - this will probably not sort properly.
+[609] Utils.pm:164> WARN - month field 'Nov' in entry 'Welker2017' is not an integer - this will probably not sort properly.
+[610] Utils.pm:164> WARN - month field 'Aug' in entry 'Goriely2013' is not an integer - this will probably not sort properly.
+[612] Utils.pm:164> WARN - month field 'dec' in entry 'Audi2012' is not an integer - this will probably not sort properly.
+[617] Utils.pm:164> WARN - month field 'Sep' in entry 'Akmal1998' is not an integer - this will probably not sort properly.
+[619] Utils.pm:164> WARN - month field 'Aug' in entry 'Li2008' is not an integer - this will probably not sort properly.
+[622] Utils.pm:164> WARN - month field 'Jun' in entry 'Goriely2007' is not an integer - this will probably not sort properly.
+[626] Utils.pm:164> WARN - month field 'Oct' in entry 'Papakonstantinou2013' is not an integer - this will probably not sort properly.
+[627] Utils.pm:164> WARN - month field 'Dec' in entry 'Lattimer1991' is not an integer - this will probably not sort properly.
+[632] Utils.pm:164> WARN - month field 'Jun' in entry 'Onsi2008' is not an integer - this will probably not sort properly.
+[636] Utils.pm:164> WARN - month field 'May' in entry 'Drischler2016' is not an integer - this will probably not sort properly.
+[641] Utils.pm:164> WARN - month field 'Feb' in entry 'Margueron2018b' is not an integer - this will probably not sort properly.
+[643] Utils.pm:164> WARN - month field 'Nov' in entry 'RocaMaza2011' is not an integer - this will probably not sort properly.
+[647] Utils.pm:164> WARN - month field 'Oct' in entry 'Vidana2009' is not an integer - this will probably not sort properly.
+[648] Utils.pm:164> WARN - month field 'may' in entry 'Antic2019' is not an integer - this will probably not sort properly.
+[654] Utils.pm:164> WARN - month field 'May' in entry 'Newton2009' is not an integer - this will probably not sort properly.
+[659] Utils.pm:164> WARN - month field 'dec' in entry 'Newton2012' is not an integer - this will probably not sort properly.
+[664] Utils.pm:164> WARN - month field 'Jan' in entry 'Lorenz1993' is not an integer - this will probably not sort properly.
+[666] Utils.pm:164> WARN - month field 'may' in entry 'Dobaczewski2014' is not an integer - this will probably not sort properly.
+[670] Utils.pm:164> WARN - month field 'Jun' in entry 'Pearson2012' is not an integer - this will probably not sort properly.
+[682] Utils.pm:164> WARN - month field 'Sep' in entry 'Bohr1939' is not an integer - this will probably not sort properly.
+[690] Utils.pm:164> WARN - month field 'May' in entry 'Chamel2007' is not an integer - this will probably not sort properly.
+[701] Utils.pm:164> WARN - month field 'Sep' in entry 'Watanabe2003' is not an integer - this will probably not sort properly.
+[706] Utils.pm:164> WARN - month field 'Jul' in entry 'Avancini2008' is not an integer - this will probably not sort properly.
+[708] Utils.pm:164> WARN - month field 'Nov' in entry 'Avancini2010' is not an integer - this will probably not sort properly.
+[712] Utils.pm:164> WARN - month field 'May' in entry 'Grams2017' is not an integer - this will probably not sort properly.
+[714] Utils.pm:164> WARN - month field 'Jan' in entry 'Pearson2020' is not an integer - this will probably not sort properly.
+[719] Utils.pm:164> WARN - month field 'Dec' in entry 'Gonzalez2017' is not an integer - this will probably not sort properly.
+[725] Utils.pm:164> WARN - month field 'Jun' in entry 'Ducoin2007b' is not an integer - this will probably not sort properly.
+[730] Utils.pm:164> WARN - month field 'Apr' in entry 'Ducoin2011' is not an integer - this will probably not sort properly.
+[732] Utils.pm:164> WARN - month field 'May' in entry 'Grill2012' is not an integer - this will probably not sort properly.
+[735] Utils.pm:164> WARN - month field 'Mar' in entry 'Oertel2017' is not an integer - this will probably not sort properly.
+[740] Utils.pm:164> WARN - month field 'Oct' in entry 'Demorest2010' is not an integer - this will probably not sort properly.
+[754] Utils.pm:164> WARN - month field 'Nov' in entry 'Baym2019' is not an integer - this will probably not sort properly.
+[992] Utils.pm:164> WARN - month field 'Oct' in entry 'GW1' is not an integer - this will probably not sort properly.
+[1222] Utils.pm:164> WARN - month field 'Jan' in entry 'GW2' is not an integer - this will probably not sort properly.
+[1227] Utils.pm:164> WARN - month field 'Dec' in entry 'Yasutake2009' is not an integer - this will probably not sort properly.
+[1229] Utils.pm:164> WARN - month field 'sep' in entry 'Yasutake2011' is not an integer - this will probably not sort properly.
+[1232] Utils.pm:164> WARN - month field 'Jun' in entry 'Yasutake2014' is not an integer - this will probably not sort properly.
+[1235] Utils.pm:164> WARN - month field 'Aug' in entry 'Wiringa1988' is not an integer - this will probably not sort properly.
+[1498] Utils.pm:164> WARN - month field 'Oct' in entry 'GWtidal' is not an integer - this will probably not sort properly.
+[1502] Utils.pm:164> WARN - month field 'Nov' in entry 'Carreau2019moi' is not an integer - this will probably not sort properly.
+[1503] Utils.pm:164> WARN - month field 'Feb' in entry 'Tolman1939' is not an integer - this will probably not sort properly.
+[1504] Utils.pm:164> WARN - month field 'Feb' in entry 'Oppenheimer1939' is not an integer - this will probably not sort properly.
+[1507] Utils.pm:164> WARN - month field 'Dec' in entry 'Shapiro1964' is not an integer - this will probably not sort properly.
+[1509] Utils.pm:164> WARN - month field 'Mar' in entry 'Long2004' is not an integer - this will probably not sort properly.
+[1512] Utils.pm:164> WARN - month field 'nov' in entry 'Stovall2013' is not an integer - this will probably not sort properly.
+[1515] Utils.pm:164> WARN - month field 'Sep' in entry 'Lim2019' is not an integer - this will probably not sort properly.
+[1517] Utils.pm:164> WARN - month field 'Jul' in entry 'Delsate2016' is not an integer - this will probably not sort properly.
+[1519] Utils.pm:164> WARN - month field 'Dec' in entry 'Andersson2012' is not an integer - this will probably not sort properly.
+[1521] Utils.pm:164> WARN - month field 'Oct' in entry 'Link1999' is not an integer - this will probably not sort properly.
+[1524] Utils.pm:164> WARN - month field 'Jan' in entry 'Chamel2013' is not an integer - this will probably not sort properly.
+[1526] Utils.pm:164> WARN - month field 'Jul' in entry 'Piekarewicz2014' is not an integer - this will probably not sort properly.
+[1528] Utils.pm:164> WARN - month field 'Mar' in entry 'Chamel2012' is not an integer - this will probably not sort properly.
+[1529] Utils.pm:164> WARN - month field 'Dec' in entry 'Martin2016' is not an integer - this will probably not sort properly.
+[1531] Utils.pm:164> WARN - month field 'Aug' in entry 'Watanabe2017' is not an integer - this will probably not sort properly.
+[1535] Utils.pm:164> WARN - month field 'Jun' in entry 'Hinderer2010' is not an integer - this will probably not sort properly.
+[1536] Utils.pm:164> WARN - month field 'Apr' in entry 'Piekarewicz2019' is not an integer - this will probably not sort properly.
+[1539] Utils.pm:164> WARN - month field 'Feb' in entry 'Margueron2019' is not an integer - this will probably not sort properly.
+[1544] Utils.pm:164> WARN - month field 'Feb' in entry 'Kortelainen2012' is not an integer - this will probably not sort properly.
+[1547] Utils.pm:164> WARN - month field 'Jun' in entry 'Trippa2008' is not an integer - this will probably not sort properly.
+[1550] Utils.pm:164> WARN - month field 'Dec' in entry 'Chatterjee2017' is not an integer - this will probably not sort properly.
+[1552] Utils.pm:164> WARN - month field 'Aug' in entry 'De2018' is not an integer - this will probably not sort properly.
+[1555] Utils.pm:164> WARN - month field 'Nov' in entry 'Alam2016' is not an integer - this will probably not sort properly.
+[1557] Utils.pm:164> WARN - month field 'Oct' in entry 'Ji2019' is not an integer - this will probably not sort properly.
+[1560] Utils.pm:164> WARN - month field 'Aug' in entry 'Mondal2017' is not an integer - this will probably not sort properly.
+[1565] Utils.pm:164> WARN - month field 'Apr' in entry 'Watts2016' is not an integer - this will probably not sort properly.
+[1571] Utils.pm:164> WARN - month field 'Nov' in entry 'Gulminelli2015' is not an integer - this will probably not sort properly.
+[1573] Utils.pm:164> WARN - month field 'Dec' in entry 'Potekhin2000' is not an integer - this will probably not sort properly.
+[1574] Utils.pm:164> WARN - month field 'Oct' in entry 'Baiko2001' is not an integer - this will probably not sort properly.
+[1577] Utils.pm:164> WARN - month field 'Jun' in entry 'Farouki1993' is not an integer - this will probably not sort properly.
+[1844] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1844] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1844] Biber.pm:3500> INFO - Sorting list 'anyt/global/' of type 'entry' with scheme 'anyt' and locale 'en-US'
+[1844] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[2114] bbl.pm:608> INFO - Writing 'PhDThesis_CARREAU.bbl' with encoding 'UTF-8'
+[2215] bbl.pm:712> INFO - Output to PhDThesis_CARREAU.bbl
+[2216] Biber.pm:110> INFO - WARNINGS: 78

@@ -111,17 +111,18 @@ $A$ and charge number $Z$, $E_L$ the temperature-independent static-lattice
 term, and $E_{zp}$ the zero-point quantum vibration term given by
 %
 \begin{equation}
-  E_{zp} = \frac{3}{2}\hbar w_p u_1,\label{eq:ezp}
+  E_{zp} = \frac{3}{2}\hbar \omega_p u_1,\label{eq:ezp}
 \end{equation}
 %
 where $u_1 = 0.5113875$ is a numerical constant for a body-centered cubic
 lattice (see Table 2.4 of~\cite{Haensel2007}), 
 which is assumed to be the geometry minimizing the lattice energy. This
 assumption was recently confirmed in~\cite{Chamel2016}. The ion
-plasma frequency $w_p$ is given by
+plasma frequency $\omega_p$ is given by
 %
 \begin{equation}
-  \hbar w_p = \sqrt{\frac{(\hbar c)^2 4\pi n_N (Ze)^2}{M'(A,Z)c^2}},
+  \hbar \omega_p = \sqrt{\frac{(\hbar c)^2 4\pi n_N
+  (Ze)^2}{M'(A,Z)c^2}},\label{eq:omegap}
 \end{equation}
 %
 $e$ being the elementary charge, $c$ the speed of light, $\hbar = h/2\pi$
@@ -130,7 +131,7 @@ been introduced.\\
 The lattice energy reads
 %
 \begin{equation}
-  E_L = -C_M \frac{(Ze)^2}{a_N},
+  E_L = -C_M \frac{(Ze)^2}{a_N},\label{eq:eL}
 \end{equation}
 %
 with $C_M = 0.895929255682$ the Mandelung constant for a body-centered cubic 
@@ -1460,7 +1461,7 @@ or in terms of chemical potentials,
   \mu_n^{cl} = \mu_p^{cl} + \mu_e + \Delta \mu,\label{eq:betaeq}
 \end{equation}
 %
-where $\Delta \mu$ represents the modification due to the excluded volume
+where $\Delta \mu$ represents the modification due to the excluded-volume
 interaction with the neutron gas, and the electrostatic interaction between
 protons in the cluster and the background electrons. It is given by
 %

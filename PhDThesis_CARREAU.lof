@@ -82,14 +82,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Crystallization of the crust of a non-accreting neutron star}{101}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Energy density of a relativistic electron gas}{105}{appendix.A}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Free energy density difference between liquid and solid phases versus temperature}}{105}{figure.3.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{107}{appendix.B}
+\contentsline {xchapter}{Energy density of a relativistic electron gas}{111}{appendix.A}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Total pressure in the inner crust}{109}{appendix.C}
+\contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{113}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Total pressure in the inner crust}{115}{appendix.C}

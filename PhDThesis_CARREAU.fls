@@ -651,6 +651,17 @@ INPUT ./figures/ifrac_vs_m.pdf
 INPUT ./figures/ifrac_vs_m.pdf
 INPUT sections/chapter3.tex
 INPUT sections/chapter3.tex
+INPUT PhDThesis_CARREAU.mtc3
+INPUT PhDThesis_CARREAU.mtc3
+OUTPUT PhDThesis_CARREAU.mtc
+INPUT PhDThesis_CARREAU.mtc
+INPUT PhDThesis_CARREAU.mtc
+OUTPUT PhDThesis_CARREAU.mtc
+INPUT PhDThesis_CARREAU.mtc3
+INPUT PhDThesis_CARREAU.mtc3
+INPUT figures/fliqsol.pdf
+INPUT ./figures/fliqsol.pdf
+INPUT ./figures/fliqsol.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
