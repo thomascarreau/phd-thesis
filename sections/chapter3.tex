@@ -452,7 +452,8 @@ derivation),
 \end{equation}
 %
 $P_g$ being the pressure of the neutron gas, whose expression is given in 
-Eq.~(\ref{eq:phm}).
+Eq.~(\ref{eq:phm}). As in~\cite{Grams2018}, the neutron gas density is taken to 
+be the OCP solution.
 % pj definition
 The constraints Eqs.~(\ref{eq:normp})-(\ref{eq:charcons}) are taken into 
 account by introducing the Lagrange multipliers $\alpha$, $\mu_n$, and $\mu_p$, 
@@ -508,7 +509,43 @@ and~\ref{subsubsec:rear}, respectively.
 \subsubsection{Evaluation of the chemical
 potentials}\label{subsubsec:chempoteval}
 
-Blabla.
+% expressions for mun and mup
+For a given thermodynamic condition of pressure $P$ and temperature $T$, the
+expression of the chemical potentials $\mu_n$ and $\mu_p$ can be derived from 
+the well-known thermodynamic relation $\mathcal{F} + P = \mu_n n_n + \mu_p n_p 
++ \mu_e n_e$ together with the beta equilibrium condition $\mu_n = \mu_p + 
+\mu_e$,
+%
+\begin{equation}
+  \mu_n = \frac{\mathcal{F} + P}{n_B} \quad \text{and} \quad
+  \mu_p = \mu_n - \frac{\mathcal{F}_e + P_e}{n_p}.
+\end{equation}
+%
+% how to normally solve the problem
+The determination of the equilibrium probabilities $p_j$ within the complete
+NSE formalism therefore requires to solve a complex nonlinear system of coupled 
+equations, which is obviously numerically costly. Still, the implementation of 
+the complete NSE was carried out in different studies in recent
+years~\cite{Oertel2017,Burgio2018}, in which simplified nuclear functionals 
+were adopted, density was imposed instead of the pressure, and the 
+rearrangement term was neglected.
+
+% perturbative implementation of NSE (update the chemical potentials)
+We propose here to implement the NSE perturbatively~\cite{Grams2018}. 
+%
+\begin{equation}
+  \mu_n = \frac{\sum_j n_N^{(j)}F^{(j)}}{\sum_j n_N^{(j)}A_e^{(j)} + n_g} +
+  \frac{P}{n_B} \quad \text{and} \quad
+  y_p\mu_e = \frac{\sum_j n_N^{(j)}F_e^{(j)}}{\sum_j n_N^{(j)}A_e^{(j)} + n_g} 
+  + \frac{P_e}{n_B}
+\end{equation}
+
+
+% actually, it is found that 2 iterations at most are necessary because the
+% OCP values are very close from the actual solutions. While we still use the
+% perturbative treatment in the outer crust (where we can demand precision), we
+% keep the OCP values in the inner crust, which considerably reduce the
+% time of the computation.
 
 \subsubsection{Evaluation of the rearrangement term}\label{subsubsec:rear}
 

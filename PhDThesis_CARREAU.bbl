@@ -19556,6 +19556,77 @@
       \verb https://doi.org/10.1051/0004-6361/201936359
       \endverb
     \endentry
+    \entry{Burgio2018}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=4cc5dfedd449a80b8b8703602068fe3c}{%
+           family={Fiorella\bibnamedelima Burgio},
+           familyi={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5e69d40dd6e61fd598186b9f6a42d1ec}{%
+           family={Fantina},
+           familyi={F\bibinitperiod},
+           given={Anthea\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=72c35344cecfdbbeebc71d2ca292436a}{%
+           family={Rezzolla},
+           familyi={R\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c25de238a83900bab62ab3f8dce73685}{%
+           family={Pizzochero},
+           familyi={P\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c79b6a12d8fd50e876a059020ce66465}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David\bibnamedelima Ian},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=dd9ad77259129e4fdaf0bda8edce331b}{%
+           family={Rea},
+           familyi={R\bibinitperiod},
+           given={Nanda},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a7fa8d4fe960cb52079d717e0b5dfdbf}{%
+           family={Vidaña},
+           familyi={V\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{d575bbedf84afcaee7bb9cfab19d0bf1}
+      \strng{fullhash}{d575bbedf84afcaee7bb9cfab19d0bf1}
+      \strng{authornamehash}{d575bbedf84afcaee7bb9cfab19d0bf1}
+      \strng{authorfullhash}{d575bbedf84afcaee7bb9cfab19d0bf1}
+      \strng{editornamehash}{d09d40cf3bcacf4cc27f5701b9914c40}
+      \strng{editorfullhash}{75ea4e11b809dbef0d1228dcaf471ac4}
+      \field{labelalpha}{FF18}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The equation of state (EoS) of hot and dense matter is a fundamental input to describe static and dynamical properties of neutron stars, core-collapse supernovae and binary compact-star mergers. We review the current status of the EoS for compact objects, that have been studied with both ab-initio many-body approaches and phenomenological models. We limit ourselves to the description of EoSs with purely nucleonic degrees of freedom, disregarding the appearance of strange baryonic matter and/or quark matter. We compare the theoretical predictions with different data coming from both nuclear physics experiments and astrophysical observations. Combining the complementary information thus obtained greatly enriches our insight into the dense nuclear matter properties. Current challenges in the description of the EoS are also discussed, mainly focusing on the model dependence of the constraints extracted from either experimental or observational data, the lack of a consistent and rigorous many-body treatment at zero and finite temperature of the matter encountered in compact stars (e.g. problem of cluster formation and extension of the EoS to very high temperatures), the role of nucleonic three-body forces, and the dependence of the direct URCA processes on the EoS.}
+      \field{booktitle}{The Physics and Astrophysics of Neutron Stars}
+      \field{isbn}{978-3-319-97616-7}
+      \field{title}{Nuclear Equation of State for Compact Stars and Supernovae}
+      \field{year}{2018}
+      \field{pages}{255\bibrangedash 335}
+      \range{pages}{81}
+      \verb{doi}
+      \verb 10.1007/978-3-319-97616-7_6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-97616-7_6
+      \endverb
+    \endentry
     \entry{Farouki1993}{article}{}
       \name{author}{2}{}{%
         {{hash=33099a562689cf4368819d59b23d4bee}{%
@@ -20181,6 +20252,56 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.95.055807
+      \endverb
+    \endentry
+    \entry{Grams2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4123fe71ff5c357a960335e3473d7c45}{%
+           family={Grams},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=47cb26bff4cd2e3d27f63eed7c904193}{%
+           family={Giraud},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4c92cbc4ff497c15bd0ca5f8b69ea27b}{%
+           family={Fantina},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=775fa117e374a255a0b521f8148693f2}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{169344a9d6960b4bda5c3cbc85a288d7}
+      \strng{fullhash}{07bfa7f991cfb8f822d7f2f8b84d1616}
+      \strng{authornamehash}{169344a9d6960b4bda5c3cbc85a288d7}
+      \strng{authorfullhash}{07bfa7f991cfb8f822d7f2f8b84d1616}
+      \field{labelalpha}{Gra+18}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{3}
+      \field{title}{Distribution of nuclei in equilibrium stellar matter from the free-energy density in a Wigner-Seitz cell}
+      \field{volume}{97}
+      \field{year}{2018}
+      \field{pages}{035807}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.97.035807
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.97.035807
       \endverb
     \endentry
     \entry{Goriely2007}{article}{}
