@@ -470,7 +470,8 @@ with $N_e^{(j)} = A_e^{(j)} - Z^{(j)}$.
 Considering independent variations, the solutions are given by
 %
 \begin{equation}
-  p_j = \mathcal{A}\exp\left(-\frac{\tilde{\Omega}_{i,e}^{(j)}}{k_B T}\right),
+  p_j = \mathcal{A}\exp\left(-\frac{\tilde{\Omega}_{i,e}^{(j)}}{k_B
+  T}\right),\label{eq:pj}
 \end{equation}
 %
 with the normalization constant
@@ -518,9 +519,11 @@ the well-known thermodynamic relation $\mathcal{F} + P = \mu_n n_n + \mu_p n_p
 %
 \begin{equation}
   \mu_n = \frac{\mathcal{F} + P}{n_B} \quad \text{and} \quad
-  \mu_p = \mu_n - \frac{\mathcal{F}_e + P_e}{n_p}.
+  \mu_p = \mu_n - \frac{\mathcal{F}_e + P_e}{n_p},\label{eq:munmup}
 \end{equation}
 %
+where the electron chemical potential and pressure, respectively $\mu_e$ and
+$P_e$ have been introduced.
 % how to normally solve the problem
 The determination of the equilibrium probabilities $p_j$ within the complete
 NSE formalism therefore requires to solve a complex nonlinear system of coupled 
@@ -531,25 +534,46 @@ were adopted, density was imposed instead of the pressure, and the
 rearrangement term was neglected.
 
 % perturbative implementation of NSE (update the chemical potentials)
-We propose here to implement the NSE perturbatively~\cite{Grams2018}. 
+We choose here to implement the NSE perturbatively, as proposed 
+in~\cite{Grams2018}. 
+The motivation for this option comes from the recent work of Fantina 
+\textit{et al.}, where a very fast convergence of the chemical potentials is 
+observed, along with a reduction of the computational time and an increase of
+the numerical precision~\cite{Fantina2020}.
+% explain how we proceed
+We start by solving the OCP equilibrium equations in order to get the 
+optimal composition, which gives a first guess for the chemical potentials,
+$\mu_n^{\text{OCP}}$ and $\mu_p^{\text{OCP}}$, via Eq.~(\ref{eq:munmup}). 
+The probabilities $p_j$ can then be evalulated using Eq.~(\ref{eq:pj}), and an
+improved estimation of the chemical potentials $\mu_n$ and $\mu_p$ is
+calculated via
 %
 \begin{equation}
   \mu_n = \frac{\sum_j n_N^{(j)}F^{(j)}}{\sum_j n_N^{(j)}A_e^{(j)} + n_g} +
   \frac{P}{n_B} \quad \text{and} \quad
   y_p\mu_e = \frac{\sum_j n_N^{(j)}F_e^{(j)}}{\sum_j n_N^{(j)}A_e^{(j)} + n_g} 
-  + \frac{P_e}{n_B}
+  + \frac{P_e}{n_B},
 \end{equation}
-
-
-% actually, it is found that 2 iterations at most are necessary because the
-% OCP values are very close from the actual solutions. While we still use the
-% perturbative treatment in the outer crust (where we can demand precision), we
-% keep the OCP values in the inner crust, which considerably reduce the
-% time of the computation.
+%
+where the average proton fraction of the mixture $y_p=\langle
+Z\rangle/(n_B\langle V_{WS}\rangle)$ has been introduced, with 
+$\langle Z \rangle = \sum_j p_j Z^{(j)}$. The problem is thus solved by
+iteration until the convergence of the chemical potentials is observed. The
+convergence criterion is reasonably set to be $\Delta \mu_n < 10^{-9}$ MeV
+between iterations.
+We find that the number of iterations required to achieve convergence never 
+exceeds 3. The reason is that the OCP result for $\mu_n$ and $\mu_p$ is 
+already very close to the actual solutions for all pressures and 
+temperatures explored in this work. While we do proceed by iteration in the
+regime of the outer crust to calculate the chemical potentials, the OCP 
+estimation is safely kept in the free neutron regime so as to drastically 
+reduce the computational cost. Indeed, in doing so the MCP calculation becomes 
+equivalent to the much simpler OCP one.
 
 \subsubsection{Evaluation of the rearrangement term}\label{subsubsec:rear}
 
-\subsection{Free energy functional}\label{subsec:freeenfunctional}
+\subsection{Free energy functional in the free neutron 
+regime}\label{subsec:freeenfunctional}
 
 \subsubsection{Thermodynamics of nuclear matter}
 
