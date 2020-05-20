@@ -365,7 +365,8 @@ implying that the proton density is the same in each cell, $n_p^{(j)}=n_p$, and
 equal to the electron density, 
 %
 \begin{equation}
-  n_e = n_p = \sum_j n_N^{(j)} Z^{(j)} = \frac{Z^{(j)}}{V^{(j)}}.
+  n_e = n_p = \sum_j n_N^{(j)} Z^{(j)} =
+  \frac{Z^{(j)}}{V^{(j)}}.\label{eq:chargeneut}
 \end{equation}
 
 % energetics
@@ -401,7 +402,7 @@ This means that the variation can be performed on the ion part only, yielding
   d\mathcal{F}_{i,e} &=& \sum_j \left(F_{i,e}^{(j)} + n_N^{(j)} \frac{\partial
   F_{i,e}^{(j)}}{\partial n_N^{(j)}}\right)dn_N^{(j)} \notag\\
                      &=& \sum_j \left(F_{i,e}^{(j)} + k_B T + n_N^{(j)}
-                     \frac{\partial F_i^{(j),int}}{\partial
+                     \frac{\partial F_i^{(j),\text{int}}}{\partial
                    n_N^{(j)}}\right)dn_N^{(j)} \notag\\
   &=& \sum_j \left(\Omega_{i,e}^{(j)} + k_B T \ln
   n_N^{(j)}\right)dn_N^{(j)},\label{eq:dfi}
@@ -411,8 +412,8 @@ where the single-ion canonical potential has been introduced,
 %
 \begin{equation}
   \Omega_{i,e}^{(j)} = M_{i,e}c^2 + k_B T\ln\frac{(\lambda^{(j)})}{g_s^{(j)}} 
-  + F_i^{(j),int} 
-  + n_N^{(j)} \frac{\partial F_i^{(j),int}}{\partial n_N^{(j)}}.
+  + F_i^{(j),\text{int}} 
+  + n_N^{(j)} \frac{\partial F_i^{(j),\text{int}}}{\partial n_N^{(j)}}.
   \label{eq:omega}
 \end{equation}
 %
@@ -453,7 +454,7 @@ derivation),
 %
 $P_g$ being the pressure of the neutron gas, whose expression is given in 
 Eq.~(\ref{eq:phm}). As in~\cite{Grams2018}, the neutron gas density is taken to 
-be the OCP solution.
+be the OCP solution, $n_g = n_g^{\text{OCP}}$.
 % pj definition
 The constraints Eqs.~(\ref{eq:normp})-(\ref{eq:charcons}) are taken into 
 account by introducing the Lagrange multipliers $\alpha$, $\mu_n$, and $\mu_p$, 
@@ -495,13 +496,13 @@ free energy.
 % pj requires the evaluation of the rearrangement term as well as of the
 %   neutron and proton chemical potentials
 The calculation of the grand-canonical potential $\tilde{\Omega}_{i,e}^{(j)}$, 
-entering into the definition of the probabilities $p_j$, requires the 
+entering the definition of the probabilities $p_j$, requires the 
 evaluation of the chemical potentials $\mu_n$ and $\mu_p$, as well as of the 
 rearrangement term
 %
 \begin{equation}
   \mathcal{R}^{(j)} = n_N^{(j)} 
-  \frac{\partial F_i^{(j),int}}{\partial n_N^{(j)}},
+  \frac{\partial F_i^{(j),\text{int}}}{\partial n_N^{(j)}},
 \end{equation}
 %
 which are discussed thoroughly in~\ref{subsubsec:chempoteval}
@@ -541,8 +542,8 @@ The motivation for this option comes from the recent work of Fantina
 observed, along with a reduction of the computational time and an increase of
 the numerical precision~\cite{Fantina2020}.
 % explain how we proceed
-We start by solving the OCP equilibrium equations in order to get the 
-optimal composition, which gives a first guess for the chemical potentials,
+We start by solving the OCP variational equations in order to get the 
+equilibrium composition, which gives a first guess for the chemical potentials,
 $\mu_n^{\text{OCP}}$ and $\mu_p^{\text{OCP}}$, via Eq.~(\ref{eq:munmup}). 
 The probabilities $p_j$ can then be evalulated using Eq.~(\ref{eq:pj}), and an
 improved estimation of the chemical potentials $\mu_n$ and $\mu_p$ is
@@ -571,6 +572,82 @@ reduce the computational cost. Indeed, in doing so the MCP calculation becomes
 equivalent to the much simpler OCP one.
 
 \subsubsection{Evaluation of the rearrangement term}\label{subsubsec:rear}
+
+At a given thermodynamic condition $(P,T)$, the rearrangement term entering 
+Eq.~(\ref{eq:omega}) requires to be evaluated if one wants to compute the ion 
+abundancies through Eq.~(\ref{eq:pj}).
+As already discussed in~\cite{Fantina2020}, the rearrangement term arises from 
+the self-consistency induced by the Coulomb part of the ion free energy. This 
+stems from the fact that, due to the strong incompressibility of the electrons, 
+the condition of charge neutraly has been imposed at the level of each cell, 
+see Eq.~(\ref{eq:chargeneut}), in contrast with the baryon density $n_B$ that 
+can fluctuate from cell to cell, see Eq.~(\ref{eq:barcons}). 
+In consequence, any component of the free energy density that depends on the 
+local cell proton density $n_p^{(j)} = n_p$ leads to a dependence on the local 
+density $n_N^{(j)}$ through Eq.~(\ref{eq:chargeneut}). With our presciption for 
+the WS cell free energy, this is only the case for the interacting part 
+$F_i^{(j),\text{int}}$. We can therefore rewrite the rearrangement term of 
+component $(j)$ as
+%
+\begin{eqnarray}
+  \mathcal{R}^{(j)} 
+  &=& n_N^{(j)} \left.\frac{\partial F_i^{(j),\text{int}}}{\partial
+    n_N^{(j)}}\right|_{\{n_N^{(j)}\}_{i\neq j}}
+    = n_N^{(j)} \frac{\partial F_i^{(j),\text{int}}}{\partial n_p}
+    \frac{\partial n_p}{\partial n_N^{(j)}}\notag\\
+  &=& n_N^{(j)} Z^{(j)} \frac{\partial F_i^{(j),\text{int}}}{\partial n_p}.
+\end{eqnarray}
+%
+The complication of the self-consistent resolution of Eq.~(\ref{eq:pj}) can be 
+avoided by imposing the most probable ion in the MCP mixture to coincide with 
+the OCP result, if nonlinear mixing terms are omitted~\cite{Grams2018}. 
+This approximation for the rearragement term is justified by the principle of 
+ensemble equivalence in the thermodynamic limit~\cite{Gulminelli2015}.
+
+% the minimization
+The maximum probability corresponds to the minimum of the single-ion
+grand-canonical potential $\tilde{\Omega}_{i,e}$. We therefore minimize the 
+single-ion grand-canonical potential with respect to $A$, $I=1-2Z/A$, and 
+$n_0$ ($n_p$ and $n_g$ are fixed at a given thermodynamic condition), yielding 
+the following nonlinear system of coupled equations:
+%
+\begin{eqnarray}
+  \frac{n_0^2}{A}\left(\frac{\partial F_i}{\partial n_0} + \frac{\partial
+  \mathcal{R}}{\partial n_0}\right) &=& P_g\label{eq:r1}\\
+  \frac{2}{A}\left(\frac{\partial F_i}{\partial I} + \frac{\partial
+  \mathcal{R}}{\partial I}\right) &=& \mu_n - \mu_p\label{eq:r2}\\
+  \frac{\partial F_i}{\partial A} + \frac{\partial \mathcal{R}}{\partial A} +
+  \frac{1-I}{A}\left(\frac{\partial F_i}{\partial I} + \frac{\partial
+  \mathcal{R}}{\partial I}\right) &=& \mu_n - \frac{P_g}{n_0},\label{eq:r3}
+\end{eqnarray}
+%
+where the partial derivatives are calculated at the values corresponding to 
+the equilibrium OCP solution, with nonlinear mixing terms being excluded.
+%
+The comparison of Eqs.~(\ref{eq:r1})-(\ref{eq:r3}) with
+Eqs.~(\ref{eq:ic2})-(\ref{eq:ic4}) indicates that $\mathcal{R}^{(j)}$ should 
+not depend on $n_0^{(j)}$, meaning that $R^{(j)}=R^{(j)}(A^{(j)},Z^{(j)})$. In 
+addition, the rearrangement term should verify the following equation at the 
+OCP solution:
+%
+\begin{equation}
+  \frac{1-I}{A}\frac{\partial \mathcal{R}}{\partial I} = -\frac{\partial
+  \mathcal{R}}{\partial A}.
+\end{equation}
+%
+This is satisfied if $R^{(j)}$ linearly depends on 
+$Z^{(j)} = A^{(j)} (1-I^{(j)})/2$. Our final expression for the rearrangement 
+term is therefore
+%
+\begin{equation}
+  \mathcal{R}^{(j)} \simeq Z^{(j)} \left\langle \langle n_N^{(j)}\rangle 
+    \frac{\partial F_i^{(j),\text{int}}}{\partial n_p}\right\rangle_j
+  = \frac{Z^{(j)}}{V_{WS}^{\text{OCP}}}
+  \left.\frac{\partial F_i^{\text{int}}}{\partial n_p}\right|_{\text{OCP}},
+\end{equation}
+%
+where $V_{WS}^{\text{OCP}}$ is the equilibrium OCP cell volume, and the
+derivative is evaluated numerically at the OCP solution.
 
 \subsection{Free energy functional in the free neutron 
 regime}\label{subsec:freeenfunctional}
