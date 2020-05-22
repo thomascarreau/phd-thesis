@@ -8,19 +8,28 @@
 
 \section{Model of the crust at finite temperature}
 
-% in this study, no proton drip nor pasta phases are considered in the
-%   free neutron regime. one can assume that proton drip does not occur in the
-%   range of temperature considered here. Pasta phases are difficult to account
-%   for within the mcp treatment
+This section deals with the model of the crust at finite temperature. 
+Since the possible contribution of a free proton gas is expected to be small at 
+the temperatures considered, we neglect it. This working hypothesis 
+is a posteriori confirmed by the calculation of the proton fugacity, 
+$z_p = \exp[(\mu_p-m_pc^2)/(k_B T)]$, which never exceeds $-20$ MeV in 
+the density and temperature domain of interest. 
+The existence of nonspherical pasta phases expected in the deeper layers of the 
+inner crust ($n_B \gtrsim 0.05$ fm$^{-3}$~\cite{Pearson2020}) is difficult to 
+account for in the multicomponent plasma (MCP) approach~\cite{Barros2020}, and 
+as a consequence is not considered in this study.
 
-% finite temperature -> distribution of nuclei
-% assumptions
+We review the one-component plasma (OCP) approximation 
+in~\ref{subsec:ocp}. We give the expressions of the ideal and interacting
+contributions to the ion free energy in solid and liquid phases, and discuss 
+the thermodynamic condition for crystallization. The nuclear statistical
+equilibrium (NSE) is implemented perturbatively in the MCP approach 
+in~\ref{subsec:mcp}. The derivation of the rearrangement term, 
+required to guarantee thermodynamic consistency, is carried out.
+In~\ref{subsec:freeenfunctional}, we present the free energy functional used in
+the free neutron regime.
 
-% review OCP approximation
-% MCP
-% present nuclear modeling required in the free neutron regime
-
-\subsection{One-component Coulomb plasma approximation}
+\subsection{One-component Coulomb plasma approximation}\label{subsec:ocp}
 
 At zero temperature, WS cells are supposed to be identical, thus the OCP  
 (single-nucleus) approximation~\cite{Baus1980}, which considers a unique 
@@ -323,14 +332,14 @@ vanishes in case of strong coupling, that is in the zero-temperature limit. We
 find that the simple expression Eq.~(\ref{eq:tmapprox}) gives a fairly good
 estimation of the crystallization temperature.
 
-\subsection{Multicomponent Coulomb plasma in a liquid phase}
+\subsection{Multicomponent Coulomb plasma in a liquid phase}\label{subsec:mcp}
 
 The OCP approximation is expected to be reliable at the temperatures
 typically encountered at low density in the crystallized crust, yet the 
 very principle of statistical mechanics tells us that at finite temperature 
 different configurations of the WS cell are realized for a same total density.
-In the following, the nuclear distribution is included in a multicomponent 
-plasma (MCP) approach at equilibrium, as in~\cite{Fantina2020,Carreau2020}. A 
+In the following, the nuclear distribution is included in a MCP approach at 
+equilibrium, as in~\cite{Fantina2020,Carreau2020}. A 
 particular attention is paid to the evaluation of the chemical potentials, as 
 well as of the rearrangement term, which is required to ensure thermodynamic 
 consistency. 
@@ -534,7 +543,7 @@ the well-known thermodynamic relation $\mathcal{F} + P = \mu_n n_n + \mu_p n_p
 where the electron chemical potential and pressure, respectively $\mu_e$ and
 $P_e$ have been introduced.
 % how to normally solve the problem
-The determination of the equilibrium probabilities $p_j$ within the complete
+The determination of the equilibrium probabilities $p_j$ within the complete 
 NSE formalism therefore requires to solve a complex nonlinear system of coupled 
 equations, which is obviously numerically costly. Still, the implementation of 
 the complete NSE was carried out in different studies in recent
@@ -863,7 +872,8 @@ n_g f_{HM}(n_g,1,T)$.
 Let us note that the chemical potential does not include the rest mass energy 
 in the above expressions.
 
-\subsubsection{Energetics of clusters at finite temperature}
+\subsubsection{Energetics of clusters at finite temperature in the CLD
+approximation}
 
 Within the CLD approximation, the nuclear free energy $F_{cl}$ at temperature 
 $T$ of a cluster of mass number $A$, isospin asymmetry $I$, and average density 
@@ -916,7 +926,7 @@ calculations have been published for these models~\cite{Xu2013} and can
 therefore be used in the regime of the outer crust as a
 complement to experimental masses~\cite{Fantina2020}.
 
-\section{Outer crust at crystallization}
+\section{Study of the outer crust at crystallization}
 
 \subsection{Crystallization temperature}
 
@@ -928,7 +938,7 @@ complement to experimental masses~\cite{Fantina2020}.
 
 \subsection{Abundancies of odd nuclei}
 
-\section{Inner crust at crystallization}
+\section{Study of the inner crust at crystallization}
 
 \subsection{Influence of shell effects in the OCP
 approximation}\label{subsec:shtemp}

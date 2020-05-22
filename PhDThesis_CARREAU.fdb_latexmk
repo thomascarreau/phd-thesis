@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber PhDThesis_CARREAU"] 1590165684 "PhDThesis_CARREAU.bcf" "PhDThesis_CARREAU.bbl" "PhDThesis_CARREAU" 1590165858
-  "PhDThesis_CARREAU.bcf" 1590165858 123798 b23f90f562915a284b97a474f69e8cf3 ""
-  "references.bib" 1590164924 161925 71cd5d9431111a8424f6c3ce72543b56 ""
+["biber PhDThesis_CARREAU"] 1590172709 "PhDThesis_CARREAU.bcf" "PhDThesis_CARREAU.bbl" "PhDThesis_CARREAU" 1590173151
+  "PhDThesis_CARREAU.bcf" 1590173150 123907 1b8fc1b2b341faabe7e973c43d238ad6 ""
+  "references.bib" 1590172689 162421 c35d70b5097830a262a3ecb7af3d280a ""
   (generated)
   "PhDThesis_CARREAU.blg"
   "PhDThesis_CARREAU.bbl"
-["pdflatex"] 1590165835 "PhDThesis_CARREAU.tex" "PhDThesis_CARREAU.pdf" "PhDThesis_CARREAU" 1590165858
+["pdflatex"] 1590173129 "PhDThesis_CARREAU.tex" "PhDThesis_CARREAU.pdf" "PhDThesis_CARREAU" 1590173151
   "/etc/texmf/web2c/texmf.cnf" 1486861042 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -402,14 +402,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1490046889 2044936 0edf5ca64352b50b145b46ea2ee03d92 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539119884 3869721 97d0a30b8710da6468c7a5ffe5fff7b3 ""
-  "PhDThesis_CARREAU.aux" 1590165858 76293 cdcc3f46d47ee9a513961c2225682bd4 ""
-  "PhDThesis_CARREAU.bbl" 1590165687 958595 862aebc99e2aa81076f99621bac3048e "biber PhDThesis_CARREAU"
-  "PhDThesis_CARREAU.lof" 1590165858 8199 1115bfcec1ad58b7c1b86666f13f0d11 ""
-  "PhDThesis_CARREAU.lot" 1590165858 2271 be43b3f99b807d477be96ba12b76a936 ""
-  "PhDThesis_CARREAU.out" 1590165858 7770 431035842010cc271f910fd2e0d2b3f1 ""
-  "PhDThesis_CARREAU.run.xml" 1590165858 2402 e7341c690d585d8f43d1a8ff16ba7178 ""
+  "PhDThesis_CARREAU.aux" 1590173150 76696 4280bff6b1be6b977675a90b15993016 ""
+  "PhDThesis_CARREAU.bbl" 1590172712 960313 27d08f335c98cf1a94294e8ef97091a0 "biber PhDThesis_CARREAU"
+  "PhDThesis_CARREAU.lof" 1590173150 8199 e175e42103c884b9347a8d2c3b065777 ""
+  "PhDThesis_CARREAU.lot" 1590173150 2271 be43b3f99b807d477be96ba12b76a936 ""
+  "PhDThesis_CARREAU.out" 1590173150 7821 16cb0ffbeb139c3241517fedd9813375 ""
+  "PhDThesis_CARREAU.run.xml" 1590173150 2402 e7341c690d585d8f43d1a8ff16ba7178 ""
   "PhDThesis_CARREAU.tex" 1588159358 1051 ff2bc66fa381ead04bee7f9b9ed79b0a ""
-  "PhDThesis_CARREAU.toc" 1590165858 12170 366a71dfbaeabbc9e2f0346dabb4129b ""
+  "PhDThesis_CARREAU.toc" 1590173150 12221 d7a8566809b6e83e626410a3258bae5b ""
   "figures/cctp_lsym.pdf" 1584198019 134528 a0f345ee13a5cec7a4b53e2ec15015d7 ""
   "figures/clustering.pdf" 1584198019 134935 dc5ad6b065fc2dfa0c6cc0d5c3e90599 ""
   "figures/cm_ld.pdf" 1586196066 103312 2b3073b26f97852c6722088de97a100b ""
@@ -454,7 +454,7 @@
   "sections/appendices.tex" 1584198019 4873 f5c36c2ff1259105542cf404ef6afe5f ""
   "sections/chapter1.tex" 1590012066 133984 68d8a078001436ec21cf267537b8af8e ""
   "sections/chapter2.tex" 1589920257 118342 dfcaac6244265f381e345ac12a6073af ""
-  "sections/chapter3.tex" 1590165830 40982 5991ab54b594cd98c31f38498bf129df ""
+  "sections/chapter3.tex" 1590173129 41911 166413df5b62010893d0b7bb7e330c27 ""
   "sections/packages.tex" 1586010385 1021 de978502da5f65f340b857f3963d388b ""
   "sections/prestarting.tex" 1586011867 342 5bbb0ca3b3507d327ad14729ffb1c9d8 ""
   (generated)

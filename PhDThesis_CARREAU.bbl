@@ -18002,6 +18002,51 @@
       \verb http://www.sciencedirect.com/science/article/pii/0370157380900228
       \endverb
     \endentry
+    \entry{Barros2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0e27cbad50b40d01e5b0672625ec37e6}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Celso\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5296075ec441b0186a88e68c3ef4c1ae}{%
+           family={Menezes},
+           familyi={M\bibinitperiod},
+           given={Débora\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c0528f3e18e39db9081900174448563e}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{8f43ab77ad6517410434060e2365db23}
+      \strng{fullhash}{8f43ab77ad6517410434060e2365db23}
+      \strng{authornamehash}{8f43ab77ad6517410434060e2365db23}
+      \strng{authorfullhash}{8f43ab77ad6517410434060e2365db23}
+      \field{labelalpha}{BMG20}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{3}
+      \field{title}{Fluctuations in the composition of nuclear pasta in symmetric nuclear matter at finite temperature}
+      \field{volume}{101}
+      \field{year}{2020}
+      \field{pages}{035211}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.101.035211
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.101.035211
+      \endverb
+    \endentry
     \entry{BPS}{article}{}
       \name{author}{3}{}{%
         {{hash=dd73b913b674eceb3652645d7b26656a}{%
