@@ -2,6 +2,7 @@
 
 % crystallization temperature is a lower estimate for the temperature at which 
 %   nuclear reactions fall out of equilibrium (see ic sh paper)
+% most of the results presented in this Chapter are published
 
 \minitoc\newpage
 
@@ -11,6 +12,13 @@
 %   free neutron regime. one can assume that proton drip does not occur in the
 %   range of temperature considered here. Pasta phases are difficult to account
 %   for within the mcp treatment
+
+% finite temperature -> distribution of nuclei
+% assumptions
+
+% review OCP approximation
+% MCP
+% present nuclear modeling required in the free neutron regime
 
 \subsection{One-component Coulomb plasma approximation}
 
@@ -656,8 +664,9 @@ regime}\label{subsec:freeenfunctional}
 As previously discussed in Chapter 1, in the regime of the outer crust we use 
 the present day knowledge on experimental masses of neutron rich 
 nuclei~\cite{Huang2017,Welker2017}, combined with state-of-the-art 
-microscopic theoretical mass tables~\cite{Goriely2013}. The ion mass $M_{i,e}$ 
-in the outer crust is therefore simply calculated using Eq.~(\ref{eq:ionmass}).
+microscopic HFB theoretical mass tables~\cite{Goriely2013}. The ion mass 
+$M_{i,e}$ in the outer crust is therefore simply calculated using 
+Eq.~(\ref{eq:ionmass}).
 
 % ion mass in the inner crust
 In the regime of the inner crust, $n_B \gtrsim 2.6 \times 10^{-4}$ fm$^{-3}$, 
@@ -827,10 +836,10 @@ field potential, which is given in the metamodel by ($q=n,p$)
   v_{MM}}{\partial x}\right)_{\delta}
   + (\tau_3 - \delta) 
   \left(\frac{\partial v_{MM}}{\partial \delta}\right)_x\notag\\
-      &&+ \sum_{l=n,p}\frac{3}{5}n_l
+      &&+ (1+3x)\sum_{l=n,p}\frac{3}{5}\frac{1+\tau_{3,l}\delta}{2}
       e_{F,l}\left[1-\frac{5\pi^2}{12}\left(\frac{T}{e_{F,l}}\right)^2\right]
       \notag\\
-      &&\times \frac{m_l^*}{m} \frac{1}{n_{sat}}\left[
+      &&\times \frac{m_l^*}{m} \left[
         \kappa_{sat}+\tau_{3,l} \kappa_{sym} \left(\delta
         + \frac{\tau_3-\delta}{1+3x}\right)
     \right],
@@ -839,16 +848,73 @@ field potential, which is given in the metamodel by ($q=n,p$)
 with $\tau_{3,l} = 1$ ($\tau_{3,l} = 1$) for $l=n$ ($l=p$). The expressions of
 the potential energy $v_{MM}$ and effective masses are given 
 in~\ref{subsubsec:hnm}. The simple case of free Fermi gas is recovered by 
-introducing the effective chemical potential $\tilde{\mu}_q = \mu_q - U_q$. Let 
-us note that the chemical potential does not include the rest mass energy in 
-the above expressions.
-
-\subsubsection{Energetics of nuclei at finite temperature}
-
+introducing the effective chemical potential $\tilde{\mu}_q = \mu_q - U_q$,
+yielding the free energy per particle of nuclear matter,
+%
 \begin{equation}
-  F_{cl}^{(j),CLD} = A^{(j)}f_{HM}(n_0^{(j)},I^{(j)},T) 
-  + F_{surf}^{(j)} + F_{curv}^{(j)} + E_{Coul}^{(j)}
+  f_{HM}(n,\delta,T) = \sum_{q=n,p}
+  \frac{3}{5}\frac{1+\tau_3\delta}{2}e_{F,q}\left[
+  1-\frac{5\pi^2}{12}\left(\frac{T}{e_{F,q}}\right)^2\right] +
+  v_{MM}(n,\delta).\label{eq:freehm}.
 \end{equation}
+%
+which enters the expression of the neutron gas free energy, $\mathcal{F}_g =
+n_g f_{HM}(n_g,1,T)$.
+Let us note that the chemical potential does not include the rest mass energy 
+in the above expressions.
+
+\subsubsection{Energetics of clusters at finite temperature}
+
+Within the CLD approximation, the nuclear free energy $F_{cl}$ at temperature 
+$T$ of a cluster of mass number $A$, isospin asymmetry $I$, and average density 
+$n_0$, can be decomposed into a bulk, surface and Coulomb part as
+%
+\begin{equation}
+  F_{cl}^{CLD} = A f_{HM}(n_0,I,T) + F_{surf} + F_{curv} + F_{Coul},
+\end{equation}
+%
+where $f_{HM}(n_0, I, T)$ represents the free energy per baryon of bulk nuclear
+matter, which is calculated using Eq.~(\ref{eq:freehm}).
+The expressions used for the surface and curvature free energy are given
+in Eqs.~(\ref{eq:esurf}) and~(\ref{eq:ecurv}) respectively, with the exception
+of the surface tension, Eq.~(\ref{eq:sigma}) whose expression is modified with 
+respect to the zero temperature case in order to effectively account for the 
+excitation of surface modes:
+%
+\begin{equation}
+  \sigma(I,T) = \sigma(I, T=0)h(T), 
+\end{equation}
+%
+with $h(T>T_c) = 0$ and $h(T \leq T_c) = [1-(T/T_c)^2]^2$ (see Eq.~(2.31)
+of~\cite{Lattimer1991}).
+However, because the critical temperature $T_c$ is of the order of 
+$T_c \approx 1.75 \times 10^{11}$ K and the crystallization temperature is 
+lower than $10^{10}$ K in the inner crust~\cite{Haensel2007}, $h\approx 1$ and 
+the excitation of surface modes can be neglected.
+Assuming spherical clusters, we write the Coulomb energy as
+%
+\begin{equation}
+  F_{Coul} = \frac{3}{5}\frac{e^2}{r_0^2}\frac{Z^2}{A^{1/3}}.
+\end{equation}
+%
+
+We limit ourselves to the empirical parameters 
+associated to four different functionals of the BSk family taken 
+from~\cite{Goriely2013}: BSk22, BSk24, BSk25, and BSk26.
+We choose these models because they all provide excellent fits to the 
+AME2016~\cite{Huang2017}, are compatible both with ab initio and NS mass 
+constraints, and explore a relatively large domain in the symmetry energy 
+parameters (consistent with existing experimental constraints), which 
+constitute the most important part of the EoS 
+uncertainty~\cite{Pearson2014,Pearson2018}. Moreover, for each functional, 
+surface and curvature parameters can be fitted to the ETF 
+results~\cite{Pearson2019}, and the corresponding Strutinsky shell corrections, 
+which are tabulated in~\cite{Pearson2018}, can be added on top of the CLD free 
+energy, see~\ref{subsec:strutinsky} and~\ref{subsec:shtemp}.
+Another motivation is that full mass tables obtained by deformed HFB 
+calculations have been published for these models~\cite{Xu2013} and can 
+therefore be used in the regime of the outer crust as a
+complement to experimental masses~\cite{Fantina2020}.
 
 \section{Outer crust at crystallization}
 

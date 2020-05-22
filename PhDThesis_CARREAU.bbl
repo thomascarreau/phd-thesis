@@ -22213,6 +22213,44 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.85.065803
       \endverb
     \endentry
+    \entry{Pearson2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f7b299048f8e28565423eb453db023cc}{%
+           family={{Pearson, J. M.}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=a8865ec252b2632c85c218e8cbce29b0}{%
+           family={{Chamel, N.}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=73394313ce68aaa7d2e2d1f3caffecfa}{%
+           family={{Fantina, A. F.}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=574acb9af27cf8a7cb9b3f7e26501a59}{%
+           family={{Goriely, S.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ce6d44bb92100d112405477b58afbed}
+      \strng{fullhash}{cc2f87b7cc03c110ec2d6df67e21614e}
+      \strng{authornamehash}{2ce6d44bb92100d112405477b58afbed}
+      \strng{authorfullhash}{cc2f87b7cc03c110ec2d6df67e21614e}
+      \field{labelalpha}{Pea+14}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eur. Phys. J. A}
+      \field{number}{2}
+      \field{title}{Symmetry energy: nuclear masses and neutron stars}
+      \field{volume}{50}
+      \field{year}{2014}
+      \field{pages}{43}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epja/i2014-14043-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epja/i2014-14043-8
+      \endverb
+    \endentry
     \entry{Pearson2018}{article}{}
       \name{author}{7}{}{%
         {{hash=efbb6ff0145b1af9cc70b864043e8dd5}{%
@@ -23497,6 +23535,46 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.43.804
+      \endverb
+    \endentry
+    \entry{Xu2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=727783060a799bde26e207f0d8186db8}{%
+           family={{Xu, Y.}},
+           familyi={X\bibinitperiod}}}%
+        {{hash=574acb9af27cf8a7cb9b3f7e26501a59}{%
+           family={{Goriely, S.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=55e30ec9977162ff7a080f13805a8011}{%
+           family={{Jorissen, A.}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=bcbde4825df1bf76de3e453a58faefa8}{%
+           family={{Chen, G. L.}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=772ed01bc1b6a410de7d59e244222c78}{%
+           family={{Arnould, M.}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{93b5bcc3c1e62f11b784393fc347356e}
+      \strng{fullhash}{a7f602519ef27f0989057aecb5d0a32f}
+      \strng{authornamehash}{93b5bcc3c1e62f11b784393fc347356e}
+      \strng{authorfullhash}{a7f602519ef27f0989057aecb5d0a32f}
+      \field{labelalpha}{Xu +13}
+      \field{sortinit}{X}
+      \field{sortinithash}{755b54a59c4b54d471c87a4486a94349}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Databases and tools for nuclear astrophysics applications - BRUSsels Nuclear LIBrary (BRUSLIB), Nuclear Astrophysics Compilation of REactions II (NACRE II) and Nuclear NETwork GENerator (NETGEN)}
+      \field{volume}{549}
+      \field{year}{2013}
+      \field{pages}{A106}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201220537
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/201220537
       \endverb
     \endentry
     \entry{Yasutake2014}{article}{}
