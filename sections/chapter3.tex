@@ -275,7 +275,7 @@ $\bm{\theta}$ is
 %
 \begin{equation}
   \mathcal{F}_{\text{liq}}(\bm{\theta}, T_m) 
-  = \mathcal{F}_{\text{sol}}(\bm{\theta}, T_m),
+  = \mathcal{F}_{\text{sol}}(\bm{\theta}, T_m),\label{eq:tmocp}
 \end{equation}
 %
 where $\mathcal{F}_\text{liq}$ and $\mathcal{F}_\text{sol}$ are the WS cell
@@ -582,11 +582,11 @@ between iterations.
 We find that the number of iterations required to achieve convergence never 
 exceeds 3. The reason is that the OCP result for $\mu_n$ and $\mu_p$ is 
 already very close to the actual solutions for all pressures and 
-temperatures explored in this work. While we do proceed by iteration in the
-regime of the outer crust to calculate the chemical potentials, the OCP 
-estimation is safely kept in the free neutron regime so as to drastically 
-reduce the computational cost. Indeed, in doing so the MCP calculation becomes 
-equivalent to the much simpler OCP one.
+temperatures explored in this work. Therefore, while we do solve the 
+self-consistent problem in the regime of the outer crust to calculate the 
+chemical potentials, the OCP estimation is safely kept in the free neutron 
+regime so as to drastically reduce the computational cost. Indeed, in doing so 
+the MCP calculation becomes equivalent to the much simpler OCP one.
 
 \subsubsection{Evaluation of the rearrangement term}\label{subsubsec:rear}
 
@@ -928,9 +928,88 @@ complement to experimental masses~\cite{Fantina2020}.
 
 \section{Study of the outer crust at crystallization}
 
+% what is included by default
+% step in pressure
+
 \subsection{Crystallization temperature}
 
-\subsection{Equilibrium composition}
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/tm_ocrust.pdf}
+  \end{center}
+  \caption[Crystallization temperature versus pressure for the one-component 
+  plasma in the outer crust]{Crystallization temperature $T_m$ as a function of
+    pressure $P$ for the OCP in the outer crust. Experimental data from the 
+    AME2016~\cite{Huang2017} are used when available. Mass excesses of
+    $^{77-79}$Co are taken from~\cite{Welker2017}. The left panel shows $T_m$ 
+    for the  OCP with all corrections included (solid line), without 
+    taking into account the anharmonic contribution (dashdotted line), and 
+    the result obtained from Eq.~(\ref{eq:tmapprox}) (dotted line). 
+    Experimental data are supplemented with masses from microscopic HFB-24 
+    theoretical mass table~\cite{Goriely2013}. 
+    The right panel shows $T_m$ in the bottom layers of the outer crust for 
+    four selected models: HFB-24 (solid blue line), HFB-26~\cite{Goriely2013}
+    (dashdotted orange line), HFB-14~\cite{Goriely2007} (dashed green line), 
+  and FRDM~\cite{Moller1995} (dotted red line).}\label{fig:tm_ocrust}
+\end{figure}
+
+% LEFT PANEL
+The left panel of Fig.~\ref{fig:tm_ocrust} shows the crystallization
+temperature as a function of the pressure in the outer crust, as obtained in 
+the OCP approximation, Eq.~(\ref{eq:tmocp}). The experimental masses from the 
+AME2016~\cite{Huang2017} are used when available, apart from the mass excesses
+of $^{77-79}$Co which are better constrained in~\cite{Welker2017}. 
+Experimental data are supplemented with the microscopic HFB-24 theoretical mass 
+table~\cite{Goriely2013}.
+It is seen that the crystallization temperature is overall an increasing
+function of the pressure in the outer crust, and ranges from approximately 
+$5\times 10^7$ K ($4$ keV) at very low pressure to $2.8\times 10^9$ K ($240$ 
+keV) close to the neutron-drip point.
+As one could have expected from the quadratic dependence on $Z$ observed in 
+Eq.~(\ref{eq:tmapprox}), we can see that the effect of shell structure on the 
+crystallization temperature is very important. Indeed, each change in the 
+equilibrium OCP composition results in an abrupt change in $T_m$, that is 
+clearly noticeable in Fig.~\ref{fig:tm_ocrust}. In particular, the fact that 
+the curve of the crystallization temperature is very steep in the vicinity of 
+$P=1.2\times 10^{-4}$ MeV/fm$^3$, with $T_m$ rapidly increasing from 
+$1.2\times 10^9$ K to $2.4\times 10^9$ K, can be easily attributed to the
+transition from $N=50$ to $N=82$, observed in Fig.~\ref{fig:ocrust_model}.
+The importance of the anharmonic contribution to the ion free energy of a 
+solid OCP, already investigated in Fig.~\ref{fig:fliqsol}, can be appreciated 
+in the left panel of Fig.~\ref{fig:tm_ocrust} by comparing the solid and 
+dashdotted blue lines. We recover the result of~\cite{Fantina2020} that the 
+crystallization temperature is quite sensitive to the anharmonic contribution.
+We find that not accounting for this thermal correction induce an error on 
+$T_m$ of the order of $10\%$ in the range of pressure corresponding to the 
+outer crust.
+The dotted blue line shows the result of the approximation 
+Eq.~(\ref{eq:tmapprox}). It is seen that one can obtain a very good 
+estimation of the crystallization temperature for all pressures in the outer 
+crust by using this approximation, which indicates that the crystallized 
+composition (at $T=T_m$) is very similar to that at $T=0$ K. This is discussed 
+in detail in~\ref{subsec:compo_ocrust_tm}. The fact that 
+Eq.~(\ref{eq:tmapprox}) consistently but only slightly overestimate the 
+crystallization temperature justify its use for getting a first estimate so 
+as to reduce the computational time. 
+
+% RIGHT PANEL
+The model dependence of the crystallization temperature of a OCP is illustrated 
+in the right panel of Fig.~\ref{fig:tm_ocrust}, where $T_m$ is represented as a
+function of $P$ for four different models that supplement experimental data:
+HFB-24, HFB-26~\cite{Goriely2013}, HFB-14~\cite{Goriely2007}, and
+FRDM~\cite{Moller1995}. 
+As for the equilibrium composition of CCM, see Fig.~\ref{fig:ocrust_model}, the 
+crystallization temperature becomes sensitive to the model from $P \approx 
+3\times 10^{-5}$ MeV/fm$^{3}$, due to nuclei being so neutron rich that 
+experimental masses are not available. We can see that the results are very
+close for HFB-24, HFB-26, and FRDM, once again showing the importance of
+including the small thermal corrections in the calcuation.
+
+\subsection{Equilibrium composition}\label{subsec:compo_ocrust_tm}
+
+% the crystallization temp of the outer crust is very low from the nuclear
+% physics pov, thus one can legitimately wonder whether the crystallized
+% composition is equivalent to that of CCM 
 
 % figure compo ocp vs temperature
 

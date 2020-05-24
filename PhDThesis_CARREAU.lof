@@ -68,7 +68,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Prior and posterior distribution for the surface plus curvature energy per surface nucleon versus isospin asymmetry}}{90}{figure.2.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Correlation of the crust-core transition density and pressure with the EoS parameters for different filters}}{92}{figure.2.16}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Correlation of the crust-core transition density and pressure with the equation of state parameters for different filters}}{92}{figure.2.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Marginalized probability distributions for the crust-core transition density and pressure for different filters}}{94}{figure.2.17}
 \defcounter {refsection}{0}\relax 
@@ -84,14 +84,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Free energy density difference between liquid and solid phases versus temperature}}{107}{figure.3.1}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Energy density of a relativistic electron gas}{117}{appendix.A}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Crystallization temperature versus pressure for the one-component plasma in the outer crust}}{117}{figure.3.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{119}{appendix.B}
+\contentsline {xchapter}{Energy density of a relativistic electron gas}{119}{appendix.A}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Total pressure in the inner crust}{121}{appendix.C}
+\contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{121}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Total pressure in the inner crust}{123}{appendix.C}

@@ -138,30 +138,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Crystallization temperature}{116}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Equilibrium composition}{116}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Equilibrium composition}{118}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Impurity parameter}{116}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Impurity parameter}{118}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Abundancies of odd nuclei}{116}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Abundancies of odd nuclei}{118}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Study of the inner crust at crystallization}{116}{section.3.3}
+\contentsline {section}{\numberline {3.3}Study of the inner crust at crystallization}{118}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Influence of shell effects in the OCP approximation}{116}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Influence of shell effects in the OCP approximation}{118}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.1}Temperature dependence of shell corrections}{116}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Temperature dependence of shell corrections}{118}{subsubsection.3.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition at crystallization for modern BSk functionals}{116}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition at crystallization for modern BSk functionals}{118}{subsubsection.3.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Equilibrium composition of the MCP and the importance of the rearrangement term}{116}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Equilibrium composition of the MCP and the importance of the rearrangement term}{118}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Dependence of the impurity parameter on the EoS}{116}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Dependence of the impurity parameter on the EoS}{118}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{116}{section.3.4}
+\contentsline {section}{\numberline {3.4}Conclusion}{118}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{117}{appendix.A}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{119}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{119}{appendix.B}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{121}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{121}{appendix.C}
+\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{123}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{123}{appendix*.4}
+\contentsline {chapter}{Bibliography}{125}{appendix*.4}
