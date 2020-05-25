@@ -6,7 +6,7 @@
 
 \minitoc\newpage
 
-\section{Model of the crust at finite temperature}
+\section{Model of the crust at finite temperature}\label{sec:modelcrusttemp}
 
 This section deals with the model of the crust at finite temperature. 
 Since the possible contribution of a free proton gas is expected to be small at 
@@ -726,7 +726,7 @@ occupation rate of state of given energy $e$ is introduced,
 \end{equation}
 %
 When replacing the sum by an integral, one need to introduce the density of
-energy states $\rho(e)$. For a spinless free particle of energy $e=\hbar
+energy states $\rho(e)$. For a spinless free particle of energy $e=\hbar^2 
 k^2/(2m)$, the density of states is given by $\rho(\vec{k}) =
 \frac{V}{(2\pi)^3}$, with $k$ the wave vector and $V$ the volume. Using the 
 relation $\rho(\vec{k})d^3k = \rho(e)de$, one obtains
@@ -928,10 +928,25 @@ complement to experimental masses~\cite{Fantina2020}.
 
 \section{Study of the outer crust at crystallization}
 
+In this section, we present the results for the outer crust at finite
+temperature, and more at crystallization.
 % what is included by default
-% step in pressure
+Unless explicitly stated, all thermal corrections introduced in
+Section~\ref{sec:modelcrusttemp} are included in the ion free energy.
+% exp data when available
+We made use of experimental masses from AME2016 \cite{Huang2017} when 
+available, apart from the mass excesses of $^{77-79}$Cu which are better 
+constrained in~\cite{Welker2017}.
 
-\subsection{Crystallization temperature}
+The crystallization temperature of a OCP is calculated throughout the outer
+crust in~\ref{subsec:tm_ocrust}. In~\ref{subsec:compo_ocrust_tm}, the
+equilibrium composition of the MCP at crystallization is presented, and 
+deviations with respect to CCM are investigated. The variation with pressure of 
+the impurity parameter is analyzed in~\ref{subsec:qimp_ocrust}. Finally, the 
+fraction of odd nuclei present in the outer crust at crystallization is 
+computed in~\ref{subsec:odd_ocrust}.
+
+\subsection{Crystallization temperature}\label{subsec:tm_ocrust}
 
 \begin{figure}[!t]
   \begin{center}
@@ -941,7 +956,7 @@ complement to experimental masses~\cite{Fantina2020}.
   plasma in the outer crust]{Crystallization temperature $T_m$ as a function of
     pressure $P$ for the OCP in the outer crust. Experimental data from the 
     AME2016~\cite{Huang2017} are used when available. Mass excesses of
-    $^{77-79}$Co are taken from~\cite{Welker2017}. The left panel shows $T_m$ 
+    $^{77-79}$Cu are taken from~\cite{Welker2017}. The left panel shows $T_m$ 
     for the  OCP with all corrections included (solid line), without 
     taking into account the anharmonic contribution (dashdotted line), and 
     the result obtained from Eq.~(\ref{eq:tmapprox}) (dotted line). 
@@ -956,11 +971,9 @@ complement to experimental masses~\cite{Fantina2020}.
 % LEFT PANEL
 The left panel of Fig.~\ref{fig:tm_ocrust} shows the crystallization
 temperature as a function of the pressure in the outer crust, as obtained in 
-the OCP approximation, Eq.~(\ref{eq:tmocp}). The experimental masses from the 
-AME2016~\cite{Huang2017} are used when available, apart from the mass excesses
-of $^{77-79}$Co which are better constrained in~\cite{Welker2017}. 
-Experimental data are supplemented with the microscopic HFB-24 theoretical mass 
-table~\cite{Goriely2013}.
+the OCP approximation, Eq.~(\ref{eq:tmocp}). 
+Experimental masses are supplemented with the microscopic HFB-24 theoretical 
+mass table~\cite{Goriely2013}. 
 It is seen that the crystallization temperature is overall an increasing
 function of the pressure in the outer crust, and ranges from approximately 
 $5\times 10^7$ K ($4$ keV) at very low pressure to $2.8\times 10^9$ K ($240$ 
@@ -1003,7 +1016,7 @@ crystallization temperature becomes sensitive to the model from $P \approx
 3\times 10^{-5}$ MeV/fm$^{3}$, due to nuclei being so neutron rich that 
 experimental masses are not available. We can see that the results are very
 close for HFB-24, HFB-26, and FRDM, once again showing the importance of
-including the small thermal corrections in the calcuation.
+including the small thermal corrections in the calculation.
 
 \subsection{Equilibrium composition}\label{subsec:compo_ocrust_tm}
 
@@ -1013,9 +1026,9 @@ including the small thermal corrections in the calcuation.
 
 % figure compo ocp vs temperature
 
-\subsection{Impurity parameter}
+\subsection{Impurity parameter}\label{subsec:qimp_ocrust}
 
-\subsection{Abundancies of odd nuclei}
+\subsection{Abundancies of odd nuclei}\label{subsec:odd_ocrust}
 
 \section{Study of the inner crust at crystallization}
 

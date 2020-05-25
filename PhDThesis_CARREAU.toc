@@ -1,167 +1,167 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Structure and equation of state of cold non-accreting neutron stars}{9}{chapter.1}
+\contentsline {chapter}{\numberline {1}Structure and equation of state of cold non-accreting neutron stars}{11}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Ground state of the outer crust}{11}{section.1.1}
+\contentsline {section}{\numberline {1.1}Ground state of the outer crust}{13}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Wigner-Seitz cell energetics}{11}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Wigner-Seitz cell energetics}{13}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.1}Nuclear mass tables}{12}{subsubsection.1.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Nuclear mass tables}{14}{subsubsection.1.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.2}Relativistic electron gas}{12}{subsubsection.1.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.1.2}Relativistic electron gas}{14}{subsubsection.1.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}The BPS model}{13}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}The BPS model}{15}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Equilibrium composition and equation of state}{15}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Equilibrium composition and equation of state}{17}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Ground state of the inner crust}{18}{section.1.2}
+\contentsline {section}{\numberline {1.2}Ground state of the inner crust}{20}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Modeling the nuclear energy}{20}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Modeling the nuclear energy}{22}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1.1}Metamodeling of homogeneous nuclear matter}{22}{subsubsection.1.2.1.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Metamodeling of homogeneous nuclear matter}{24}{subsubsection.1.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1.2}From homogeneous nuclear matter to finite nuclei in the CLD approximation}{27}{subsubsection.1.2.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1.2}From homogeneous nuclear matter to finite nuclei in the CLD approximation}{29}{subsubsection.1.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Variational formalism}{31}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Variational formalism}{33}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Results}{35}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Results}{37}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3.1}Numerical code}{35}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Numerical code}{37}{subsubsection.1.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3.2}Equilibrium composition}{36}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Equilibrium composition}{38}{subsubsection.1.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3.3}Equation of state}{38}{subsubsection.1.2.3.3}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Equation of state}{40}{subsubsection.1.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Strutinsky shell corrections to the CLD energy}{39}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Strutinsky shell corrections to the CLD energy}{41}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Nonspherical pasta phases}{42}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.5}Nonspherical pasta phases}{44}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Crust-core transition from the crust side}{44}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.6}Crust-core transition from the crust side}{46}{subsection.1.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Matter of the core}{48}{section.1.3}
+\contentsline {section}{\numberline {1.3}Matter of the core}{50}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Outer core: homogeneous \textit {npe$\mu $} matter}{48}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Outer core: homogeneous \textit {npe$\mu $} matter}{50}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1.1}Variational equations}{48}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Variational equations}{50}{subsubsection.1.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1.2}Equilibrium composition and equation of state}{49}{subsubsection.1.3.1.2}
+\contentsline {subsubsection}{\numberline {1.3.1.2}Equilibrium composition and equation of state}{51}{subsubsection.1.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Inner core}{51}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Inner core}{53}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Unified metamodeling of the equation of state}{52}{section.1.4}
+\contentsline {section}{\numberline {1.4}Unified metamodeling of the equation of state}{54}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Conclusion}{54}{section.1.5}
+\contentsline {section}{\numberline {1.5}Conclusion}{56}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Bayesian inference of neutron star observables}{57}{chapter.2}
+\contentsline {chapter}{\numberline {2}Bayesian inference of neutron star observables}{59}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}From the equation of state to neutron star observables}{59}{section.2.1}
+\contentsline {section}{\numberline {2.1}From the equation of state to neutron star observables}{61}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Masses and radii}{59}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Masses and radii}{61}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.1}Mass-radius relation}{59}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Mass-radius relation}{61}{subsubsection.2.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.2}Crust thickness and mass}{62}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Crust thickness and mass}{64}{subsubsection.2.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Moment of inertia within the slow rotation approximation}{64}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Moment of inertia within the slow rotation approximation}{66}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{64}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{66}{subsubsection.2.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.2}Connection to pulsar glitches}{66}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Connection to pulsar glitches}{68}{subsubsection.2.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Tidal deformability}{67}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Tidal deformability}{69}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Bayesian determination of the equation of state parameters}{70}{section.2.2}
+\contentsline {section}{\numberline {2.2}Bayesian determination of the equation of state parameters}{72}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Principle of Bayesian inference}{70}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Principle of Bayesian inference}{72}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Prior distribution of equation of state parameters}{72}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Prior distribution of equation of state parameters}{74}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Flat prior compatible with empirical constraints}{72}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Flat prior compatible with empirical constraints}{74}{subsubsection.2.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{73}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{75}{subsubsection.2.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Determination of the likelihood function}{75}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Determination of the likelihood function}{77}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Constraints on nuclear physics observables}{76}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Constraints on nuclear physics observables}{78}{subsubsection.2.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{77}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{79}{subsubsection.2.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Posterior distribution of equation of state parameters}{78}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Posterior distribution of equation of state parameters}{80}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{78}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{80}{subsubsection.2.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4.2}Correlations among empirical parameters}{81}{subsubsection.2.2.4.2}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Correlations among empirical parameters}{83}{subsubsection.2.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}General predictions for neutron star observables}{83}{section.2.3}
+\contentsline {section}{\numberline {2.3}General predictions for neutron star observables}{85}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Global properties: confrontation with popular models and the GW170817 event}{83}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Global properties: confrontation with popular models and the GW170817 event}{85}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.1}Equation of state}{84}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Equation of state}{86}{subsubsection.2.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.2}Masses and radii}{85}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Masses and radii}{87}{subsubsection.2.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.3}Tidal deformability}{87}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.3}Tidal deformability}{89}{subsubsection.2.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Bayesian analysis of the crust-core transition}{89}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Bayesian analysis of the crust-core transition}{91}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Pulsar glitches: answering the question ``\textit {Is the crust enough?}''}{93}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Pulsar glitches: answering the question ``\textit {Is the crust enough?}''}{95}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Conclusion}{97}{section.2.4}
+\contentsline {section}{\numberline {2.4}Conclusion}{99}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Crystallization of the crust of a non-accreting neutron star}{101}{chapter.3}
+\contentsline {chapter}{\numberline {3}Crystallization of the crust of a non-accreting neutron star}{103}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Model of the crust at finite temperature}{103}{section.3.1}
+\contentsline {section}{\numberline {3.1}Model of the crust at finite temperature}{105}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}One-component Coulomb plasma approximation}{103}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}One-component Coulomb plasma approximation}{105}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1.1}OCP in a liquid phase}{104}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}OCP in a liquid phase}{106}{subsubsection.3.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1.2}OCP in a solid phase}{105}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.2}OCP in a solid phase}{107}{subsubsection.3.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1.3}Crystallization of a OCP}{106}{subsubsection.3.1.1.3}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Crystallization of a OCP}{108}{subsubsection.3.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Multicomponent Coulomb plasma in a liquid phase}{108}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Multicomponent Coulomb plasma in a liquid phase}{110}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.1}Nuclear statistical equilibrium}{108}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Nuclear statistical equilibrium}{110}{subsubsection.3.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.2}Evaluation of the chemical potentials}{110}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Evaluation of the chemical potentials}{112}{subsubsection.3.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.3}Evaluation of the rearrangement term}{111}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Evaluation of the rearrangement term}{113}{subsubsection.3.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Free energy functional in the free neutron regime}{112}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Free energy functional in the free neutron regime}{114}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3.1}Thermodynamics of nuclear matter}{113}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Thermodynamics of nuclear matter}{115}{subsubsection.3.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3.2}Energetics of clusters at finite temperature in the CLD approximation}{115}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Energetics of clusters at finite temperature in the CLD approximation}{117}{subsubsection.3.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Study of the outer crust at crystallization}{116}{section.3.2}
+\contentsline {section}{\numberline {3.2}Study of the outer crust at crystallization}{118}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Crystallization temperature}{116}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Crystallization temperature}{118}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Equilibrium composition}{118}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Equilibrium composition}{120}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Impurity parameter}{118}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Impurity parameter}{120}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Abundancies of odd nuclei}{118}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Abundancies of odd nuclei}{120}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Study of the inner crust at crystallization}{118}{section.3.3}
+\contentsline {section}{\numberline {3.3}Study of the inner crust at crystallization}{120}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Influence of shell effects in the OCP approximation}{118}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Influence of shell effects in the OCP approximation}{120}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.1}Temperature dependence of shell corrections}{118}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Temperature dependence of shell corrections}{120}{subsubsection.3.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition at crystallization for modern BSk functionals}{118}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition at crystallization for modern BSk functionals}{120}{subsubsection.3.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Equilibrium composition of the MCP and the importance of the rearrangement term}{118}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Equilibrium composition of the MCP and the importance of the rearrangement term}{120}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Dependence of the impurity parameter on the EoS}{118}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Dependence of the impurity parameter on the EoS}{120}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{118}{section.3.4}
+\contentsline {section}{\numberline {3.4}Conclusion}{120}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{119}{appendix.A}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{121}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{121}{appendix.B}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{123}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{123}{appendix.C}
+\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{125}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{125}{appendix*.4}
+\contentsline {chapter}{Bibliography}{127}{appendix*.4}
