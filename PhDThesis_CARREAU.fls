@@ -669,6 +669,12 @@ INPUT ./figures/tm_ocrust.pdf
 INPUT figures/ocrust_compo_vs_temp.pdf
 INPUT ./figures/ocrust_compo_vs_temp.pdf
 INPUT ./figures/ocrust_compo_vs_temp.pdf
+INPUT figures/pj_ocrust.pdf
+INPUT ./figures/pj_ocrust.pdf
+INPUT ./figures/pj_ocrust.pdf
+INPUT figures/compo_mcp_ocrust.pdf
+INPUT ./figures/compo_mcp_ocrust.pdf
+INPUT ./figures/compo_mcp_ocrust.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm

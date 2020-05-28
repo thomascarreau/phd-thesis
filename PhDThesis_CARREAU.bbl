@@ -21330,6 +21330,62 @@
       \verb 10.1016/0375-9474(91)90452-C
       \endverb
     \endentry
+    \entry{Meisel2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=3461d1637010981296981dae0e04ae92}{%
+           family={Meisel},
+           familyi={M\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=bc629606f1013b3f117175718f28da44}{%
+           family={Deibel},
+           familyi={D\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d607cea076260e319dd4379d341b088}{%
+           family={Keek},
+           familyi={K\bibinitperiod},
+           given={Laurens},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4eb14e1d510013b4bd0c7277046f438e}{%
+           family={Shternin},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9639a81438f545dbcb931186d07e1b5c}{%
+           family={Elfritz},
+           familyi={E\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{9bc52c40d0c39ed48b4346c3b68251ca}
+      \strng{fullhash}{7c879a24088dfa649588d1b7ef297e72}
+      \strng{authornamehash}{9bc52c40d0c39ed48b4346c3b68251ca}
+      \strng{authorfullhash}{7c879a24088dfa649588d1b7ef297e72}
+      \field{labelalpha}{Mei+18}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Now 50 years since the existence of the neutron star crust was proposed, we review the current understanding of the nuclear physics of the outer layers of accreting neutron stars. Nuclei produced during nuclear burning replace the nascent composition of the neutron star ocean and crust. Non-equilibrium nuclear reactions driven by compression alter the outer thermal structure and chemical composition, leaving observable imprints on astronomical phenomena. As observations of bursting neutron stars and cooling neutron stars have increased, the recent volume of astronomical data allows new insights into the microphysics of the neutron star interior and the possibility to test nuclear physics input in model calculations. Despite numerous advances in our understanding of neutron star interiors and observed neutron star phenomena, many challenges remain in the astrophysics theory of accreting neutron stars, the nuclear theory of neutron-rich nuclei, and the reach and precision of terrestrial nuclear physics experiments.}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{month}{7}
+      \field{number}{9}
+      \field{title}{Nuclear physics of the outer layers of accreting neutron stars}
+      \field{volume}{45}
+      \field{year}{2018}
+      \field{pages}{093001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6471/aad171
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F1361-6471%2Faad171
+      \endverb
+    \endentry
     \entry{Margueron2019}{article}{}
       \name{author}{2}{}{%
         {{hash=6903d6593301090084bef2211468965c}{%
