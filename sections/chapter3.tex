@@ -252,7 +252,7 @@ reproduce the zero-temperature and classical limits.
 As in previous works~\cite{Fantina2020,Carreau2019,Carreau2020}, we compute 
 the crystallization temperature within the OCP approximation, which is 
 simple and not costly from the numerical point of view. An additional reason is
-that the ion distribution  could be frozen at some temperature $T_f > T_m$ 
+that the ion distribution could be frozen at some temperature $T_f > T_m$ 
 considering the present uncertainties on timescales relative to NS 
 cooling~\cite{Goriely2011}.
 
@@ -959,7 +959,7 @@ computed in~\ref{subsec:odd_ocrust}.
     for the  OCP with all corrections included (solid line), without 
     taking into account the anharmonic contribution (dashdotted line), and 
     the result obtained from Eq.~(\ref{eq:tmapprox}) (dotted line). 
-    Experimental data are supplemented with masses from microscopic HFB-24 
+    Experimental data are supplemented with masses from the microscopic HFB-24 
     theoretical mass table~\cite{Goriely2013}. 
     The right panel shows $T_m$ in the bottom layers of the outer crust for 
     four selected models: HFB-24 (solid blue line), HFB-26~\cite{Goriely2013}
@@ -1027,7 +1027,7 @@ including the small thermal corrections in the calculation.
   at finite temperature]{Equilibrium composition of a OCP as a function of 
     baryon density $n_B$ in the outer crust at $T=0$ K, $T=T_m$, and 
     $T=3\times 10^9$ K. 
-  Experimental data are supplemented with masses from microscopic HFB-24 
+  Experimental data are supplemented with masses from the microscopic HFB-24 
   theoretical mass table~\cite{Goriely2013}.}\label{fig:ocrust_compo_vs_temp}
 \end{figure}
 
@@ -1067,7 +1067,7 @@ not recovered, and $^{80}$Ni is favored over $^{126}$Ru around $n_B \approx
     $T=T_m$ (orange squares). The blue dashdotted and orange dashed vertical 
     lines indicate the OCP solution at $T=3\times 10^9$ K and $T=T_m$,
     respectively.
-    Experimental data are supplemented with masses from microscopic 
+    Experimental data are supplemented with masses from the microscopic 
     HFB-24 theoretical mass table~\cite{Goriely2013}. 
     Figure inspired from~\cite{Fantina2020}.}\label{fig:pj_ocrust}
 \end{figure}
@@ -1083,7 +1083,7 @@ not recovered, and $^{80}$Ni is favored over $^{126}$Ru around $n_B \approx
     mixture as a function of pressure in the regime of the outer crust at 
     $T=T_m$ (upper panel) and $T=3\times 10^9$ K (lower panel). 
     The OCP solution is represented in dotted lines.
-    Experimental data are supplemented with masses from microscopic 
+    Experimental data are supplemented with masses from the microscopic 
     HFB-24 theoretical mass table~\cite{Goriely2013}. 
   Figure inspired from~\cite{Fantina2020}.}\label{fig:compo_mcp_ocrust}
 \end{figure}
@@ -1135,36 +1135,134 @@ crystallization temperature, see Fig.~4 of~\cite{Fantina2020}.
 
 \subsection{Impurity parameter}\label{subsec:qimp_ocrust}
 
-% definition impurity parameter
+% definition
 Once the abundancies of the different ions are computed via Eq.~(\ref{eq:pj}), 
 the so-called impurity parameter of the solid crust, which represents the 
 variance of the ionic charge distribution, can be evaluated. It is defined
 as~\cite{Meisel2018}
 %
 \begin{equation}
-  Q_{\text{imp}} = \sum_j p(Z^{(j)})(Z^{(j)}-\langle Z \rangle)^2,
+  Q_{\text{imp}} = \sum_j p(Z^{(j)})(Z^{(j)}-\langle Z
+  \rangle)^2,\label{eq:qimp}
 \end{equation}
 %
-where $p(Z^{(j)})$ represents the normalized probability distribution, that is
-integrated over all $N^{(j)}$, of the atomic number $Z^{(j)}$.
-% astrophysical implications of this quantity and state-of-the-art
-The impurity parameter allows to quantify the presence of amorphous and
-heterogeneous phases in the crust, which is expected to reduce the electrical 
-conductivity of the solid crust. In consequence, the impurity
-facotr is expected to play an important role in the magneto-thermal 
-evolution of the star (see the discussion in Sect.~7 in~\cite{Meisel2018} for a 
-review). For instance, $Q_{\text{imp}}$ is directly related to impurity 
-scattering, which alters the cooling of the crust.
-In NS cooling simulations, the impurity parameter is generally taken as a free 
-parameter which is directly fitted to cooling data.
+where $p(Z^{(j)})$ represents the normalized probability distribution 
+(integrated over all $N^{(j)}$) of the atomic number $Z^{(j)}$.
+% astrophysical implications
+This parameter allows to quantify the presence of amorphous and
+heterogeneous phases in the solid crust, which is expected to reduce its 
+electrical conductivity. For this reason, among others, the impurity factor is 
+expected to play an important role in the magneto-thermal evolution of the star 
+(see the discussion in Sect.~7 in~\cite{Meisel2018} for a review). For 
+instance, $Q_{\text{imp}}$ is directly related to impurity scattering, which 
+alters the cooling of the crust.
+In NS cooling simulations, the impurity factor is however generally taken as 
+a free parameter directly fitted to cooling data.
 
-% FIG
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/qimp_ocrust.pdf}
+  \end{center}
+  \caption[Impurity parameter versus pressure in the outer crust regime]{
+    Variation with pressure $P$ of the impurity paramter $Q_{\text{imp}}$,
+    Eq.~(\ref{eq:qimp}), in the regime of the outer crust for three selected
+    temperatures at which the composition is assumed to be frozen: 
+    $T_f=T_m$ (solid blue line),
+    $T_f=1\times 10^9$ K (dashdotted orange line), and 
+    $T_f=3\times 10^9$ K (dashed green line).
+    Experimental data are supplemented with masses from the microscopic 
+    HFB-24 theoretical mass table~\cite{Goriely2013}. 
+  Figure inspired from~\cite{Fantina2020}.}\label{fig:qimp_ocrust}
+\end{figure}
 
-% comment left panel
-
-% comment right panel
+% presentation of the figure
+In Fig.~\ref{fig:qimp_ocrust}, the impurity parameter $Q_{\text{imp}}$ is 
+plotted as a function of the pressure in the regime of the outer crust. As
+previously, we make use of the microscopic HFB-24 theoretical mass
+table~\cite{Goriely2013} to complement the present day experimental
+information nuclear masses~\cite{Huang2017,Welker2017}.
+% we assume different values at which the composition is frozen
+Considering the present uncertainties on timescales relative to NS 
+cooling~\cite{Goriely2011}, the ion distribution could be frozen at some
+temperature higher than $T_m$.
+In that sense, we consider three different temperatures at which the 
+composition freezes: $T_f = T_m$ (solid blue line), $T_f = 1\times 10^9$ K 
+(dashdotted orange line), and $T_f = 3\times 10^9$ K (dashed green line).
+For a given pressure, it is seen as a trend that values of the impurity factor
+tends to be larger as the temperature is increased.
+Low values of $Q_{\text{imp}}$ indicate that the distribution $p(Z)$, see
+Fig.~\ref{fig:pj_ocrust}, is strongly peaked on one particular nucleus. In that 
+case, the OCP approximation is expected to be reliable. This is for instance
+seen at low pressure for $T_f = T_m$. Conversely, the impurity parameter 
+can reach values as high as $\approx 50$ around $P=1.5\times 10^{-4}$ 
+MeV/fm$^3$ where the charge distribution exhibits a multimodal 
+character. 
+Strong oscillations of $Q_{\text{imp}}$ are observed due to shell structure
+effects, suggesting that the outer crust is constituted of an alternation of 
+highly resistive and highly conductive layers. This was originally observed
+by Fantina \textit{et al.}~\cite{Fantina2020}, and we have checked 
+that this conclusion is not sensitive to the model, as far as state-of-the-art
+theoretical mass tables are used to complement experimental data.
 
 \subsection{Abundancies of odd nuclei}\label{subsec:odd_ocrust}
+
+In the original calculation of the outer-crust ground state within the CCM
+hypothesis, the possibility of having odd-mass or odd-charge nuclei was not 
+envisaged due to nuclear pairing~\cite{BPS}.
+However, using the HFB-24 mass model, a thin layer of odd-mass $^{121}$Y is 
+observed at high pressure in the outer crust, see Table~\ref{table:ocrust}.
+% at finite temperature, one can expect more + mcp
+The presence of unpaired nucleons in the crust could alter the 
+superfluidity and in consequence have an impact on our present microscopic 
+understanding of the glitch phenomenon, which consists of the sudden 
+spin-up of the rotational frequency of a pulsar due to the transfer of angular
+momentum from the neutron superfluid to the solid crust, 
+see~\ref{subsubsec:glitch}.
+Related quantities of interest are the fraction 
+$\mathcal{N}_{\text{odd}}/\mathcal{N}$ and baryon mass fraction 
+$M_{B,\text{odd}}/M_B$ of odd nuclei in the outer crust, which can be evaluated 
+once the abundancies of odd-$A$ and odd-$Z$ nuclei are computed for all 
+pressures in the outer crust.
+ 
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/yodd_ocrust.pdf}
+  \end{center}
+  \caption[Fraction of odd-$A$ and odd-$Z$ nuclei versus pressure in the outer 
+  crust regime]{
+    Upper panel: Variation with pressure $P$ of the fraction of odd-$A$ and 
+    odd-$Z$ nuclei $y_{\text{odd}}$, Eq.~(\ref{eq:yodd}), in the regime of the 
+    outer crust for three selected
+    temperatures: $T_f=T_m$ (solid blue line),
+    $T_f=1\times 10^9$ K (dashdotted orange line), and 
+    $T_f=3\times 10^9$ K (dashed green line).
+    Experimental data are supplemented with masses from the microscopic 
+  HFB-24 theoretical mass table~\cite{Goriely2013}. Lower panel:
+$y_{\text{odd}}$ as a function of $P$ in the deepest layers of the outer crust
+at the crystallization temperature, using three different mass tables:
+AME2016+Welker+HFB-24 (solid line), AME2016+HFB-24 (dashdotted line), and
+HFB-24 (dotted line).}\label{fig:qimp_ocrust}
+\end{figure}
+
+The fraction of odd-$A$ and odd-$Z$ nuclides in a given thermodynamic condition 
+$(P,T)$ is obtained from the probabilities $p_j$ through
+%
+\begin{equation}
+  y_{\text{odd}} = \frac{\sum_{j} p_j \delta_{\text{odd}}}{\sum_j p_j} 
+  = \sum_j p_j\delta_{\text{odd}},\label{eq:yodd}
+\end{equation}
+%
+with
+%
+\begin{eqnarray}
+  \delta_{\text{odd}} =\left\{
+                \begin{array}{ll}
+                  1, \quad \text{if $A^{(j)}$ or $Z^{(j)}$ odd}\\
+                  0, \quad \text{if $A^{(j)}$ and $Z^{(j)}$ even}
+                \end{array}
+              \right..
+\end{eqnarray}
+%
 
 \section{Study of the inner crust at crystallization}
 
@@ -1173,8 +1271,16 @@ approximation}\label{subsec:shtemp}
 
 \subsubsection{Temperature dependence of shell corrections}
 
+% equations
+% fig 2 icrust ocp (8eme fig)
+% fig 3 icrust ocp (9eme fig)
+
 \subsubsection{Equilibrium composition at crystallization for modern BSk 
 functionals}
+
+% fig 7 icrust ocp (10eme fig)
+% fig 8 icrust ocp (11eme fig)
+% fig 9 icrust ocp (12eme fig)
 
 \subsection{Equilibrium composition of the MCP and the importance of the
 rearrangement term}
