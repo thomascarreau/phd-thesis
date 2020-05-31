@@ -1211,15 +1211,17 @@ hypothesis, the possibility of having odd-mass or odd-charge nuclei was not
 envisaged due to nuclear pairing~\cite{BPS}.
 However, using the HFB-24 mass model, a thin layer of odd-mass $^{121}$Y is 
 observed at high pressure in the outer crust, see Table~\ref{table:ocrust}.
-% at finite temperature, one can expect more + mcp
-The presence of unpaired nucleons in the crust could alter the 
-superfluidity and in consequence have an impact on our present microscopic 
-understanding of the glitch phenomenon, which consists of the sudden 
-spin-up of the rotational frequency of a pulsar due to the transfer of angular
-momentum from the neutron superfluid to the solid crust, 
-see~\ref{subsubsec:glitch}.
+One can therefore expect the MCP mixture to be composed of several odd nuclei
+at finite temperature.
+%
+The presence of unpaired nucleons in the outer crust could lead to
+ferromagnetic phase transitions at low temperature, which in return could 
+generate a magnetic field and alter the existing one, and so the relativistic
+electron gas. The importance of those effects depends, among others, on the 
+spin of odd nuclei.
+%
 Related quantities of interest are the fraction 
-$\mathcal{N}_{\text{odd}}/\mathcal{N}$ and baryon mass fraction 
+$\mathcal{N}_{\text{odd}}/\mathcal{N}$ and baryonic mass fraction 
 $M_{B,\text{odd}}/M_B$ of odd nuclei in the outer crust, which can be evaluated 
 once the abundancies of odd-$A$ and odd-$Z$ nuclei are computed for all 
 pressures in the outer crust.
@@ -1233,15 +1235,15 @@ pressures in the outer crust.
     Upper panel: Variation with pressure $P$ of the fraction of odd-$A$ and 
     odd-$Z$ nuclei $y_{\text{odd}}$, Eq.~(\ref{eq:yodd}), in the regime of the 
     outer crust for three selected
-    temperatures: $T_f=T_m$ (solid blue line),
-    $T_f=1\times 10^9$ K (dashdotted orange line), and 
-    $T_f=3\times 10^9$ K (dashed green line).
+    temperatures: $T=T_m$ (solid blue line),
+    $T=1\times 10^9$ K (dashdotted orange line), and 
+    $T=3\times 10^9$ K (dashed green line).
     Experimental data are supplemented with masses from the microscopic 
   HFB-24 theoretical mass table~\cite{Goriely2013}. Lower panel:
 $y_{\text{odd}}$ as a function of $P$ in the deepest layers of the outer crust
 at the crystallization temperature, using three different mass tables:
 AME2016+Welker+HFB-24 (solid line), AME2016+HFB-24 (dashdotted line), and
-HFB-24 (dotted line).}\label{fig:qimp_ocrust}
+HFB-24 (dotted line).}\label{fig:yodd_ocrust}
 \end{figure}
 
 The fraction of odd-$A$ and odd-$Z$ nuclides in a given thermodynamic condition 
@@ -1263,8 +1265,93 @@ with
               \right..
 \end{eqnarray}
 %
+The upper panel of Fig.~\ref{fig:yodd_ocrust} shows the variation with pressure 
+of $y_{\text{odd}}$ in the regime of the outer crust at the crystallization
+temperature, (solid blue line), $T=1\times 10^9$ K (dashdotted orange 
+line), and $T=3\times 10^9$ K (dashed green line). The HFB-24 mass table is
+used to complement the available experimental masses.
+We can see that more odd-mass and odd-charge nuclei are present in the outer
+crust as the temperature is increased, because the influence of pairing
+decreases with temperature. 
+The fraction of odd-nuclei at crystallization is negligible, except in the
+deepest layers of the outer crust where oscillations of $y_{\text{odd}}$ are
+observed.
+In particular, a remarkable peak, $y_{\text{odd}} = 0.42$, can be seen around 
+$P = 2.75\times 10^{-4}$ MeV/fm$^3$, the most probable nucleus being $^{121}$Y.
+
+The influence of the mass table on the fraction of odd nuclei present in the 
+bottom layers of the outer crust at crystallization is investigated in the 
+lower panel of Fig.~\ref{fig:yodd_ocrust}.
+It is observed that $y_{\text{odd}}$ is very sensitive to the mass excesses of 
+copper isotopes $^{77-79}$Cu in the vicinity of $P = 5\times 10^{-5}$ 
+MeV/fm$^3$, and ranges from $\approx 4\times 10^{-4}$ (with mass excesses taken 
+from~\cite{Welker2017}) to $\approx 0.35$ (with HFB-24 mass excesses).
+Such difference highlights the fact that measuring masses of odd nuclei is 
+important.
+
+The fraction of odd nuclei contained in the outer crust is computed as
+%
+\begin{equation}
+  \frac{\mathcal{N}_{\text{odd}}}{\mathcal{N}} =
+  \frac{\int_{R=R'}^\infty d\mathcal{N}_{\text{odd}}(r)}
+  {\int_{R=R'}^\infty d\mathcal{N}(r)},
+\end{equation}
+%
+where $R'$ is the sum of the radius of the core and that of inner crust, and 
+therefore depends on the imposed central density $\rho_c$. The number of (odd)
+nuclei contained in the elementary volume $dV(r)=4\pi r^2 dr$ is given by
+$d\mathcal{N}(r) = dV(r)n(r)$ ($d\mathcal{N}_{\text{odd}} 
+= dV(r)n_{\text{odd}}(r)$), with $n(r) = 1/\langle V_{WS} \rangle$
+($n_{\text{odd}} = \sum_j p_j \delta_{\text{odd}}$).
+%
+Similarly, the baryon mass fraction of odd nuclei is defined as
+%
+\begin{equation}
+  \frac{M_{B,\text{odd}}}{M_B} =
+  \frac{\int_{R=R'}^\infty dm_{\text{odd}}(r)}
+  {\int_{R=R'}^\infty d{m}(r)}.
+\end{equation}
+%
+The baryon mass of (odd) nuclei in the elementary volume $dV$ is given by
+$dm(r) = dV(r)\rho_B(r)$ ($dm_{\text{odd}} = dV(r)\rho_{B,\text{odd}}$), with
+the baryon mass density $\rho_B \propto \sum_j p_j F_i^{(j)}/\langle
+V_{WS}\rangle$ ($\rho_{B,\text{odd}} \propto \sum_j 
+p_j\delta_{\text{odd}}F_i^{(j)}/\langle V_{WS}\rangle$).
+%
+\begin{table}
+  \begin{center}
+    \begin{tabular}{ccc} 
+      \toprule
+      \toprule
+      $T$ ($10^9$ K) & $\mathcal{N}_{\text{odd}}/\mathcal{N}$ ($\%$) & 
+      $M_{B,\text{odd}}/M_B$ ($\%$)\\
+      \midrule
+      $T_m$ & 2.05 & 2.40\\
+      $1.0$ & 2.30 & 2.65\\
+      $2.0$ & 4.70 & 5.35\\
+      \bottomrule
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \caption[Value of the fraction and baryon mass fraction of odd nuclei in the
+  outer crust for three selected temperatures]{Value of the fraction of odd 
+    nuclei $\mathcal{N}_{\text{odd}}/\mathcal{N}$ and baryon mass fraction of 
+    odd nuclei $M_{B,\text{odd}}/M_B$ in the outer crust for three selected 
+  temperatures. 
+  Experimental data are supplemented with masses from the microscopic 
+  HFB-24 theoretical mass table~\cite{Goriely2013}.}\label{table:oddnuc} 
+\end{table}
+%
+We report our estimation of the fraction and baryon mass fraction of odd-$A$
+and odd-$Z$ nuclei in the outer crust at crystallization,
+$T=1\times 10^9$ K, and $T=2\times 10^9$ K in Table~\ref{table:oddnuc}. At the
+crystallization temperature, we find that odd nuclei consistute $2.05\%$ of 
+species in the outer crust and contribute $2.40\%$ of the outer-crust baryonic 
+mass.
 
 \section{Study of the inner crust at crystallization}
+
+Blabla.
 
 \subsection{Influence of shell effects in the OCP
 approximation}\label{subsec:shtemp}
