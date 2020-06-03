@@ -150,18 +150,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.1.1}Temperature dependence of shell corrections}{127}{subsubsection.3.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition at crystallization for modern BSk functionals}{130}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition of the OCP at crystallization for modern BSk functionals}{129}{subsubsection.3.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Equilibrium composition of the MCP and the importance of the rearrangement term}{130}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Equilibrium composition of the MCP and the importance of the rearrangement term}{132}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Dependence of the impurity parameter on the EoS}{130}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Dependence of the impurity parameter on the EoS}{132}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{130}{section.3.4}
+\contentsline {section}{\numberline {3.4}Conclusion}{132}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{131}{appendix.A}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{133}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{133}{appendix.B}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{135}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{135}{appendix.C}
+\contentsline {chapter}{\numberline {C}Total pressure in the inner crust}{137}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{137}{appendix*.4}
+\contentsline {chapter}{Bibliography}{139}{appendix*.4}

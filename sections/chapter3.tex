@@ -1371,6 +1371,9 @@ in~\cite{Goriely2013}.
 As in Section~\ref{sec:ocrust_tm}, all thermal corrections introduced in
 Section~\ref{sec:modelcrusttemp} are included in the ion free energy, unless
 explicitly specified.
+The highest average baryon density considered in this section is $n_B = 0.04$
+fm$^{-3}$. Above this value, the presence of nonspherical pasta phases,
+see~\ref{subsec:pasta}, is expected at finite temperature.
 The influence of shell effects at the crystallization temperature is 
 settled within the OCP approximation in~\ref{subsec:shtemp}. The equilibrium 
 composition of the MCP mixture is presented in~\ref{subsec:mcp_compo_icrust}, 
@@ -1384,7 +1387,7 @@ In~\ref{subsec:strutinsky}, we have proposed a strategy to add Strutinksy shell
 corrections to the CLD energy. Those shell corrections have been tabulated 
 in the regime of the inner crust at zero temperature for
 four recent functionals of the BSk family, namely BSk22, BSk24, BSk25, and
-BSk26~\cite{Pearson2019}.
+BSk26~\cite{Pearson2018}.
 In the following, we introduce an empirical temperature-dependent factor to the 
 zero-temperature shell corrections in the CLD free energy, before studying the 
 influence of shell effects at the crystallization temperature.
@@ -1497,12 +1500,12 @@ Fig.~\ref{fig:fdensws_vs_zz} shows the WS cell free energy density as a
 function of the proton number $Z$ for different conditions of density
 and temperature in the free neutron regime, for BSk24 CLDM with and without
 temperature-independent (temperature-dependent) shell corrections.
-% 0 MeV
+%
 The right panels show the results at zero temperature, 
 which have been already discussed in in Fig.~\ref{fig:shcorr_bsk24}. The free
 energy density with temperature-dependent and zero-temperature shell
 corrections perfectly coincide since $\xi = 1$ for $T=0$ MeV.
-% 0.1 MeV
+%
 We can clearly see that shell corrections are softened by the 
 temperature-dependent factor at finite temperature (central and right panels). 
 At the intermediate value $T=0.1$ MeV, we can appreciate the large 
@@ -1510,18 +1513,114 @@ difference between the free energy density with zero-temperature Strutinsky
 shell corrections and that including temperature-dependent shell corrections
 through the factor $\xi(T)$. Let us recall that this difference is sensitive to
 the value of $\xi_0$.
-% 1 MeV
+%
 We recover the expected behavior that nonsmooth effects are fully wiped out at 
 $T=1$ MeV, corresponding to $\xi=0$. In that case, the pure CLD prediction is 
-therefore identical to that accounting for temperature-dependent shell 
+therefore equivalent to that accounting for temperature-dependent shell 
 corrections.
 
-\subsubsection{Equilibrium composition at crystallization for modern BSk 
-functionals}\label{subsubsec:cryst_bsk}
+\subsubsection{Equilibrium composition of the OCP at crystallization for modern 
+BSk functionals}\label{subsubsec:cryst_bsk}
 
-% fig 7 icrust ocp (10eme fig)
-% fig 8 icrust ocp (11eme fig)
-% fig 9 icrust ocp (12eme fig)
+% intro figure
+In the free neutron regime, the model dependence arises from the lack of 
+experimental and theoretical constraints for very neutron rich nuclei and 
+nuclear matter. 
+This concerns the bulk properties, that is the nuclear EoS of asymmetric 
+matter, but also surface properties, more specifically the surface tension of 
+extremely neutron rich nuclei. 
+% explain calculation
+In Fig.~\ref{fig:tm_compo_final1}, we investigate the relative 
+weight of the bulk and surface properties in determining the uncertainties in 
+the crystallization temperature of a OCP (upper panel) and the corresponding 
+equilibrium value of the ion atomic number $Z$ (lower panel).
+These inner-crust properties are calculated for BSk22, BSk24, and BSk25
+functionals within the CLD approximation, up to $n_B = 0.04$ fm$^{-3}$. 
+Dashdotted lines correspond to 
+the calculations in which surface and curvature parameters are fitted to 
+experimental masses of 9 spherical and semimagic nuclei only, namely 
+$^{40,48}$Ca, $^{48,58}$Ni, $^{88}$Sr, $^{90}$Zr, $^{114,132}$Sn, and 
+$^{208}$Pb, while solid lines show the predictions with surface properties 
+being fitted to the associated ETF calculations performed up to the 
+respective neutron drip lines~\cite{PearsonPriv}. Let us notice that in both 
+cases, the isovector surface parameter is fixed to the value $p=3$, which 
+ensures a good reproduction of the CC transition density and pressure for each 
+considered BSk functional~\cite{Carreau2019}.
+The resulting predictions then differ solely in their bulk properties, and the
+width of the gray bands can therefore be interpreted as an estimate of the 
+uncertainty on $T_m$ and $Z$ arising from our incomplete knowledge of the 
+nuclear EoS of asymmetric matter.
+% discuss and interpret the results
+In the upper panel, it is observed that higher values of the OCP ion atomic 
+number $Z$ are obtained when surface tension of neutron-rich nuclei is adjusted 
+on the microscopic ETF results, and of course this difference reflects on the 
+crystallization temperature of the OCP (lower panel), which roughly scales as 
+$Z^{5/3}$ according to the approximation Eq.~(\ref{eq:tmapprox}).
+%
+One should stress that the bulk 
+parameters of the considered BSk functionals were precisely fitted to the 
+properties of finite nuclei and ab initio neutron-matter 
+calculations~\cite{Goriely2013}. The residual uncertainty in the nuclear EoS is 
+not negligible, but its consequence is less important than the uncertainties on 
+the surface energy for neutron-rich nuclei close to neutron drip. The latter 
+can then be considered as the key physical quantity determining the crust 
+composition and crystallization temperature.
+%
+Given the present CLD calculations, we find that the crystallization 
+temperature of a OCP in the inner crust ranges from $\approx 3\times 10^9$ K at 
+the neutron drip point to $\approx 9\times 10^9$ K at high density close the CC 
+transition point.
+The different functionals models lead to predictions that progressively diverge 
+with increasing depth, the crystallization temperature differing by up to 
+$40\%$ at the highest density considered.
+The anticorrelation between the symmetry energy and the crystallization
+temperature is clearly observed in the regime of the inner crust: the higher 
+the symmetry energy at saturation, the lower the crystallization temperature, 
+with $E_{sym}=32$ MeV, $E_{sym}=30$ MeV, and $E_{sym}=29$ MeV for BSk22, 
+BSk24, and BSk25, respectively. The same is true for the equilibrium value of
+$Z$, which is -- as in CCM -- $\approx 40$ all along the inner crust when 
+surface properties are optimized on microscopic ETF cacluations.
+%
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/tm_compo_final1.pdf}
+  \end{center}
+  \caption[Crystallization temperature and equilibrium value of $Z$ of the
+  one-component plasma versus baryon density in the inner crust]{
+    Crystallization temperature $T_m$ (upper panel) and
+    equilibrium value of $Z$ (lower panel) as a function of baryon density 
+    $n_B$ in the inner crust for BSk22, BSk24, and BSk25 CLDM with surface and
+  curvature parameters fitted to spherical nuclei (dashdotted lines), or to
+associated ETF calculations (solid lines). Gray bands represent extrema. Figure
+adapted from~\cite{Carreau2019}.}\label{fig:tm_compo_final1}
+\end{figure}
+ 
+In Fig.~\ref{fig:tm_compo_final2}, we show the results obtained for the same 
+CLDM with temperature-independent (temperature-dependent) shell corrections as 
+dashdotted (solid) lines. The gray bands corresponding to the pure CLD results 
+with surface parameters optimized on ETF calculations are reported.
+
+% Except for BSk25under  the  extreme  and  quite  unrealistic  hypothesis  that  shelleffects  are  not  affected  by  temperature,  all  calculations  withshell  effects  fit  in  the  CLD  band.  This  indicates  that  simpleCLD  modeling  could  be  sufficient  to  study  crust  properties  atcrystallization.
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/tm_compo_final2.pdf}
+  \end{center}
+  \caption[Crystallization temperature and equilibrium value of $Z$ of the
+  one-component plasma versus baryon density in the inner crust]{
+    Crystallization temperature $T_m$ (upper panel) and 
+    equilibrium value of $Z$ (lower panel) as a function of baryon density 
+    $n_B$ in the inner crust. The gray band corresponds to extrema for the 
+    BSk22, BSk24, and BSk25 CLDM with surface parameters fitted to associated 
+    ETF calculations. Solid (dashdotted) lines represent the calculations for 
+    BSk22, BSk24, BSk25, and BSk26 CLDM with temperature-dependent 
+    (temperature-independent) shell corrections. Figure adapted
+    from~\cite{Carreau2019}.}\label{fig:tm_compo_final2}
+\end{figure}
+%
+% uncertainties on shell corrections are less important than those on the bulk
+%   part of the functional, allowing us to neglect the nonsmooth effects in the
+%   following, which obviously speed up the MCP calculation
 
 \subsection{Equilibrium composition of the MCP and the importance of the
 rearrangement term}\label{subsec:mcp_compo_icrust}

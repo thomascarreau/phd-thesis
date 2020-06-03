@@ -687,6 +687,12 @@ INPUT ./figures/bsk14compo_vs_nb.pdf
 INPUT figures/fdensws_vs_zz.pdf
 INPUT ./figures/fdensws_vs_zz.pdf
 INPUT ./figures/fdensws_vs_zz.pdf
+INPUT figures/tm_compo_final1.pdf
+INPUT ./figures/tm_compo_final1.pdf
+INPUT ./figures/tm_compo_final1.pdf
+INPUT figures/tm_compo_final2.pdf
+INPUT ./figures/tm_compo_final2.pdf
+INPUT ./figures/tm_compo_final2.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
