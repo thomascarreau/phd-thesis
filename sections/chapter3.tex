@@ -58,7 +58,8 @@ temperature, the more coupled are the ions. The crystallization of the OCP into
 a lattice is observed at $T=T_m$, corresponding to 
 $\Gamma = \Gamma_m \approx 175$.
 
-The total free energy per ion in the crust is given by
+The total free energy per ion in the crust -- which coincides with the WS cell
+free energy in the OCP approximation -- is given by
 %
 \begin{equation}
   F = F_{i,e} + F_g + F_e,\label{eq:fperion}
@@ -881,7 +882,7 @@ $T$ of a cluster of mass number $A$, isospin asymmetry $I$, and average density
 $n_0$, can be decomposed into a bulk, surface and Coulomb part as
 %
 \begin{equation}
-  F_{cl}^{CLD} = A f_{HM}(n_0,I,T) + F_{surf} + F_{curv} + F_{Coul},
+  F_{cl}^{\text(CLD)} = A f_{HM}(n_0,I,T) + F_{surf} + F_{curv} + F_{Coul},
 \end{equation}
 %
 where $f_{HM}(n_0, I, T)$ represents the free energy per baryon of bulk nuclear
@@ -927,10 +928,10 @@ calculations have been published for these models~\cite{Xu2013} and can
 therefore be used in the regime of the outer crust as a
 complement to experimental masses~\cite{Fantina2020}.
 
-\section{Study of the outer crust at crystallization}
+\section{Study of the outer crust at crystallization}\label{sec:ocrust_tm}
 
 In this section, we present the results for the outer crust at finite
-temperature, and more at crystallization.
+temperature, and more specifically at crystallization.
 % what is included by default
 Unless explicitly stated, all thermal corrections introduced in
 Section~\ref{sec:modelcrusttemp} are included in the ion free energy.
@@ -1301,8 +1302,8 @@ where $R'$ is the sum of the radius of the core and that of inner crust, and
 therefore depends on the imposed central density $\rho_c$. The number of (odd)
 nuclei contained in the elementary volume $dV(r)=4\pi r^2 dr$ is given by
 $d\mathcal{N}(r) = dV(r)n(r)$ ($d\mathcal{N}_{\text{odd}} 
-= dV(r)n_{\text{odd}}(r)$), with $n(r) = 1/\langle V_{WS} \rangle$
-($n_{\text{odd}} = \sum_j p_j \delta_{\text{odd}}$).
+= dV(r)n_{\text{odd}}(r)$), with $n(r) = 1/\langle V_{WS}\rangle$
+($n_{\text{odd}} = \sum_j p_j \delta_{\text{odd}} /\langle V_{WS}\rangle$).
 %
 Similarly, the baryon mass fraction of odd nuclei is defined as
 %
@@ -1351,27 +1352,181 @@ mass.
 
 \section{Study of the inner crust at crystallization}
 
-Blabla.
+While slightly softened with respect to CCM, shell effects in the outer 
+crust at crystallization are still very important and are clearly reflected on 
+the impurity parameter $Q_{\text{imp}}$, see Fig.~\ref{fig:qimp_ocrust}. 
+Since the crystallization temperature increases with increasing depth, one can
+wonder whether the shell corrections can be neglected in the free neutron
+regime.
+%
+The composition of the inner crust is fully model dependent due to the presence
+of an external neutron gas, thus the problem of the model dependence of the 
+impurity factor naturally arises.
+
+In this section, we present the results for the inner crust at finite
+temperature, and more specifically at crystallization, using the CLD approach
+developped in Chapter 1 with parameters optimized on four different microscopic
+models, namely BSk22, BSk24, BSk25, and BSk26, introduced 
+in~\cite{Goriely2013}.
+As in Section~\ref{sec:ocrust_tm}, all thermal corrections introduced in
+Section~\ref{sec:modelcrusttemp} are included in the ion free energy, unless
+explicitly specified.
+The influence of shell effects at the crystallization temperature is 
+settled within the OCP approximation in~\ref{subsec:shtemp}. The equilibrium 
+composition of the MCP mixture is presented in~\ref{subsec:mcp_compo_icrust}, 
+and the importance of the rearrangement term is investigated. Finally, the EoS 
+dependence of the impurity parameter is studied in~\ref{subsec:eos_qimp}.
 
 \subsection{Influence of shell effects in the OCP
 approximation}\label{subsec:shtemp}
 
+In~\ref{subsec:strutinsky}, we have proposed a strategy to add Strutinksy shell 
+corrections to the CLD energy. Those shell corrections have been tabulated 
+in the regime of the inner crust at zero temperature for
+four recent functionals of the BSk family, namely BSk22, BSk24, BSk25, and
+BSk26~\cite{Pearson2019}.
+In the following, we introduce an empirical temperature-dependent factor to the 
+zero-temperature shell corrections in the CLD free energy, before studying the 
+influence of shell effects at the crystallization temperature.
+
 \subsubsection{Temperature dependence of shell corrections}
 
-% equations
-% fig 2 icrust ocp (8eme fig)
-% fig 3 icrust ocp (9eme fig)
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/bsk14compo_vs_nb.pdf}
+  \end{center}
+  \caption[Equilbrium value of proton number versus baryon density in the inner
+  crust for BSk14 at finite temperature]{Equilibrium value of proton number $Z$ 
+    as a function of baryon density $n_B$ in the inner crust for the BSk14 
+    functional for different temperatures: $T=0$ MeV (upper panel), $T=0.1$ MeV 
+    (middle panel), and $T=1$ MeV (lower panel). Solid lines correspond to the 
+    CLD model calculations without shell effects, and square (star) symbols 
+    correspond to the TETFSI (TETF) results from~\cite{Onsi2008}. Figure 
+    adapted from~\cite{Carreau2019}.}\label{fig:bsk14compo_vs_nb}
+\end{figure}
+
+The total free energy per ion including shell corrections in the crust reads
+%
+\begin{equation}
+  F(n_B,Z,T) = F^{\text{CLD}}(n_B,Z,T) + E_{sh}(n_B,Z) 
+  - TS_{sp}(n_B,Z,T),
+\end{equation}
+%
+where $E_{sh}$ is the interpolated Strutinsky shell energy at $T=0$ K
+(see~\ref{subsec:strutinsky}), and $S_{sp}$ the entropy responsible of the 
+softening of shell effects at finite temperature. 
+In the zero temperature limit, we want to recover 
+$F(T=0) = E^{\text{CLD}}(T=0) + E_{sh}$, whereas at high
+temperature shell effects should vanish, $F \rightarrow 
+F^{\text{CLD}}$, yielding
+%
+\begin{equation}
+  \lim_{T\rightarrow \infty} T S_{sp}(n_B,Z,T) = E_{sh}(n_B,Z).
+\end{equation}
+%
+As a ansatz, we take
+%
+\begin{equation}
+  TS_{sp} = \frac{2}{\pi}E_{sh}(n_B,Z)\arctan(\lambda T),
+\end{equation}
+%
+allowing us rewrite the free energy per ion including temperature-dependent 
+shell corrections as
+%
+\begin{equation}
+  F = F^{\text{CLD}} + E_{sh}(n_B,Z)\xi(T),
+\end{equation}
+%
+the temperature-dependent factor being given by
+%
+\begin{equation}
+  \xi(T) = \left(1-\frac{2}{\pi}\arctan(\lambda T)\right).
+\end{equation}
+%
+The coefficient $\lambda$ can thus be determined by two parameters, $T_0$ and
+$\xi_0 = \xi(T_0)$, such that
+%
+\begin{equation}
+  \lambda = \frac{1}{T_0}\tan\left(\frac{\pi}{2}(1-\xi_0)\right).
+\end{equation}
+%
+This is obviously a very rough treatment of the temperature dependence of shell 
+effects, but we show in~\ref{subsubsec:cryst_bsk} that the difference in the 
+results obtained with or without this temperature dependence is smaller than 
+the uncertainty due to our imperfect knowledge of the smooth part of the 
+nuclear functional.
+ 
+A reasonable choice consists in adjusting $T_0$, corresponding to the 
+temperature at which shell effects are wiped out, and $\xi_0$, which governs
+the drop of $\xi$ with temperature, so as to reproduce the TETFSI results of 
+Onsi \textit{et al.} for the equilibrium value of $Z$ in the inner crust using 
+the BSk14 functional~\cite{Onsi2008} (see their Tables III and IV), 
+represented in Fig.~\ref{fig:bsk14compo_vs_nb}, along with the results obtained 
+with our CLD modeling for the same interaction.
+As expected, it is seen that shell effects decrease as temperature is
+increased, and that the discontinuous behavior of $Z$ persits until $T\approx
+1$ MeV, when the TETFSI results follow the same smooth trend as the TETF and 
+CLDM predictions.
+Based on these considerations, we fix the two parameters to $T_0 = 1$ MeV and 
+$\xi_0 = 0.02$.
+An excellent agreement is observed between the CLDM and
+TETF results -- for which shell corrections are also neglected -- at relatively 
+high temperature. 
+Let us remark that higher values of $Z$ are obtained in the 
+CLD calculations than in the TETF ones at low temperature and high density,
+which shows the limit of the CLD approach. 
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=1.0\linewidth]{figures/fdensws_vs_zz.pdf}
+  \end{center}
+  \caption[Free energy density versus proton number $Z$ for different
+  thermodynamic conditions in the free neutron regime]{Free energy density as a 
+    function of the proton number $Z$ for BSk24 CLDM for temperatures $T=0$ 
+    MeV (left panels), $T=0.1$ MeV (central panels), and $T=1$ MeV (right 
+    panels), and average baryon densities $n_B=3\times 10^{-4}$ fm$^{-3}$ 
+    (upper panels), $n_B = 10^{-3}$ fm$^{-3}$ (middle panels), and $n_B = 
+    10^{-2}$ fm$^{-3}$ (lower panels). 
+    In each panel, dashdotted (solid) lines correspond to the calculations
+including temperature-independent (temperature-dependent) shell corrections,
+and dotted lines represent the results without shell effects. Figure adapted
+from~\cite{Carreau2019}.}\label{fig:fdensws_vs_zz}
+\end{figure}
+%
+Fig.~\ref{fig:fdensws_vs_zz} shows the WS cell free energy density as a
+function of the proton number $Z$ for different conditions of density
+and temperature in the free neutron regime, for BSk24 CLDM with and without
+temperature-independent (temperature-dependent) shell corrections.
+% 0 MeV
+The right panels show the results at zero temperature, 
+which have been already discussed in in Fig.~\ref{fig:shcorr_bsk24}. The free
+energy density with temperature-dependent and zero-temperature shell
+corrections perfectly coincide since $\xi = 1$ for $T=0$ MeV.
+% 0.1 MeV
+We can clearly see that shell corrections are softened by the 
+temperature-dependent factor at finite temperature (central and right panels). 
+At the intermediate value $T=0.1$ MeV, we can appreciate the large 
+difference between the free energy density with zero-temperature Strutinsky
+shell corrections and that including temperature-dependent shell corrections
+through the factor $\xi(T)$. Let us recall that this difference is sensitive to
+the value of $\xi_0$.
+% 1 MeV
+We recover the expected behavior that nonsmooth effects are fully wiped out at 
+$T=1$ MeV, corresponding to $\xi=0$. In that case, the pure CLD prediction is 
+therefore identical to that accounting for temperature-dependent shell 
+corrections.
 
 \subsubsection{Equilibrium composition at crystallization for modern BSk 
-functionals}
+functionals}\label{subsubsec:cryst_bsk}
 
 % fig 7 icrust ocp (10eme fig)
 % fig 8 icrust ocp (11eme fig)
 % fig 9 icrust ocp (12eme fig)
 
 \subsection{Equilibrium composition of the MCP and the importance of the
-rearrangement term}
+rearrangement term}\label{subsec:mcp_compo_icrust}
 
-\subsection{Dependence of the impurity parameter on the EoS}
+\subsection{Dependence of the impurity parameter on the
+EoS}\label{subsec:eos_qimp}
 
 \section{Conclusion}

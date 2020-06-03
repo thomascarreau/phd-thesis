@@ -681,6 +681,12 @@ INPUT ./figures/qimp_ocrust.pdf
 INPUT figures/yodd_ocrust.pdf
 INPUT ./figures/yodd_ocrust.pdf
 INPUT ./figures/yodd_ocrust.pdf
+INPUT figures/bsk14compo_vs_nb.pdf
+INPUT ./figures/bsk14compo_vs_nb.pdf
+INPUT ./figures/bsk14compo_vs_nb.pdf
+INPUT figures/fdensws_vs_zz.pdf
+INPUT ./figures/fdensws_vs_zz.pdf
+INPUT ./figures/fdensws_vs_zz.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
