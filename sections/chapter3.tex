@@ -1062,8 +1062,9 @@ not recovered, and $^{80}$Ni is favored over $^{126}$Ru around $n_B \approx
   \begin{center}
     \includegraphics[width=0.9\linewidth]{figures/pj_ocrust.pdf}
   \end{center}
-  \caption[Normalized probability distribution of the atomic number $Z$ for
-  different thermodynamic conditions]{Normalized probability distribution 
+  \caption[Normalized probability distribution of the atomic number $Z$ in the 
+  outer-crust regime]{Normalized 
+    probability distribution 
     $p(Z)$ for $P=4.72\times 10^{-7}$ \si{\MeV \per \cubic\femto\meter} (left 
     panel) and $P=1.45\times 
     10^{-4}$ \si{\MeV \per \cubic\femto\meter} (right panel) at 
@@ -1081,7 +1082,7 @@ not recovered, and $^{80}$Ni is favored over $^{126}$Ru around $n_B \approx
     \includegraphics[width=0.9\linewidth]{figures/compo_mcp_ocrust.pdf}
   \end{center}
   \caption[Equilibrium composition of the multicomponent plasma versus pressure
-  in the outer crust regime]{
+  in the outer-crust regime]{
     Average (solid lines) and most probable values (dashed lines) of the charge 
     number $Z$ (blue lines) and mass number $A$ (orange lines) in the MCP 
     mixture as a function of pressure in the regime of the outer crust at 
@@ -1167,7 +1168,7 @@ a free parameter directly fitted to cooling data.
   \begin{center}
     \includegraphics[width=0.9\linewidth]{figures/qimp_ocrust.pdf}
   \end{center}
-  \caption[Impurity parameter versus pressure in the outer crust regime]{
+  \caption[Impurity parameter versus pressure in the outer-crust regime]{
     Variation with pressure $P$ of the impurity paramter $Q_{\text{imp}}$,
     Eq.~(\ref{eq:qimp}), in the regime of the outer crust for three selected
     temperatures at which the composition is assumed to be frozen: 
@@ -1550,7 +1551,8 @@ experimental masses of 9 spherical and semimagic nuclei only, namely
 $^{40,48}$Ca, $^{48,58}$Ni, $^{88}$Sr, $^{90}$Zr, $^{114,132}$Sn, and 
 $^{208}$Pb, while solid lines show the predictions with surface properties 
 being fitted to the associated ETF calculations performed up to the 
-respective neutron drip lines~\cite{PearsonPriv}. Let us notice that in both 
+respective neutron drip lines~\cite{PearsonPriv} (default option). 
+Let us notice that in both 
 cases, the isovector surface parameter is fixed to the value $p=3$, which 
 ensures a good reproduction of the CC transition density and pressure for each 
 considered BSk functional~\cite{Carreau2019}.
@@ -1696,6 +1698,40 @@ is expacted to take place in binary NS mergers. Further investigations are
 desirable.
 
 \subsection{Equilibrium composition of the MCP}\label{subsec:mcp_compo_icrust}
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/compo_icrust_bsk24_mcp.pdf}
+  \end{center}
+  \caption[Equilibrium composition of the multicomponent plasma versus
+  baryon density in the inner-crust regime]{
+    Average (solid lines) and most probable values (dashed lines) of the charge 
+    number $Z$ (blue lines), cluster mass number $A$ (orange lines), and total
+    mass number $A_{WS}$ (red lines) in the MCP mixture as a function of 
+    the average baryon density in the regime of the inner crust at 
+    $T=T_m$ (left panel) and $T=1\times 10^{10}$ \si{\kelvin} (right panel). 
+    The OCP solution is represented in dotted lines.
+    Figure adapted from~\cite{Carreau2020}.}\label{fig:compo_icrust_bsk24_mcp}
+\end{figure}
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.49\linewidth]{figures/pj_icrust_bsk24.pdf}
+    \includegraphics[width=0.49\linewidth]{figures/joyplot_bsk24_tm.pdf}
+  \end{center}
+  \caption[Normalized probability distribution of the atomic number $Z$ in the 
+  inner-crust regime]{Left: Normalized 
+    probability distribution 
+    $p(Z)$ for $n_B=5\times 10^{-4}$ \si{\per \cubic\femto\meter} (upper
+    panel) and $n_B=10^{-2}$ \si{\per \cubic\femto\meter} (lower panel) at 
+    $T=1\times 10^{10}$ \si{\kelvin} (blue circles) and 
+    $T=T_m$ (orange squares) for BSk24 CLDM. The blue dashdotted and orange 
+    dashed vertical lines correspond to the respective OCP solutions, and 
+    arrows indicate the value of $\langle Z\rangle$ without considering the 
+    rearrangement term. Right: $p(Z)$ with increasing baryon density $n_B$ in 
+    the inner crust at crystallization for BSk24 CLDM. Figure adapted 
+  from~\cite{Carreau2020}.}\label{fig:pj_icrust}
+\end{figure}
 
 \subsection{Impurity parameter}\label{subsec:eos_qimp}
 
