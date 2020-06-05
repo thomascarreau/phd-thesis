@@ -2707,21 +2707,25 @@
     <bcf:citekey order="482">Goriely2013</bcf:citekey>
     <bcf:citekey order="483">Goriely2013</bcf:citekey>
     <bcf:citekey order="484">Goriely2013</bcf:citekey>
-    <bcf:citekey order="485">Pearson2018</bcf:citekey>
-    <bcf:citekey order="486">Onsi2008</bcf:citekey>
-    <bcf:citekey order="487">Carreau2019</bcf:citekey>
-    <bcf:citekey order="488">Onsi2008</bcf:citekey>
-    <bcf:citekey order="489">Carreau2019</bcf:citekey>
-    <bcf:citekey order="490">Onsi2008</bcf:citekey>
-    <bcf:citekey order="491">Carreau2019</bcf:citekey>
+    <bcf:citekey order="485">Chamel2006</bcf:citekey>
+    <bcf:citekey order="485">Chamel2007</bcf:citekey>
+    <bcf:citekey order="486">Pearson2018</bcf:citekey>
+    <bcf:citekey order="487">Onsi2008</bcf:citekey>
+    <bcf:citekey order="488">Carreau2019</bcf:citekey>
+    <bcf:citekey order="489">Onsi2008</bcf:citekey>
+    <bcf:citekey order="490">Carreau2019</bcf:citekey>
+    <bcf:citekey order="491">Onsi2008</bcf:citekey>
     <bcf:citekey order="492">Carreau2019</bcf:citekey>
-    <bcf:citekey order="493">PearsonPriv</bcf:citekey>
-    <bcf:citekey order="494">Carreau2019</bcf:citekey>
-    <bcf:citekey order="495">Goriely2013</bcf:citekey>
-    <bcf:citekey order="496">Carreau2019</bcf:citekey>
+    <bcf:citekey order="493">Carreau2019</bcf:citekey>
+    <bcf:citekey order="494">PearsonPriv</bcf:citekey>
+    <bcf:citekey order="495">Carreau2019</bcf:citekey>
+    <bcf:citekey order="496">Goriely2013</bcf:citekey>
     <bcf:citekey order="497">Carreau2019</bcf:citekey>
     <bcf:citekey order="498">Carreau2019</bcf:citekey>
     <bcf:citekey order="499">Carreau2019</bcf:citekey>
+    <bcf:citekey order="500">Carreau2019</bcf:citekey>
+    <bcf:citekey order="501">Carreau2019</bcf:citekey>
+    <bcf:citekey order="502">Carreau2019</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

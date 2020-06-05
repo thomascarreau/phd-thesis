@@ -1,27 +1,27 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}From the equation of state to neutron star observables}{\reset@font\mtcSfont 61}{section.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Masses and radii}{\reset@font\mtcSSfont 61}{subsection.2.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.1.1}Mass-radius relation}{\reset@font\mtcSSSfont 61}{subsubsection.2.1.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.1.2}Crust thickness and mass}{\reset@font\mtcSSSfont 64}{subsubsection.2.1.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}Moment of inertia within the slow rotation approximation}{\reset@font\mtcSSfont 66}{subsection.2.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{\reset@font\mtcSSSfont 66}{subsubsection.2.1.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.2.2}Connection to pulsar glitches}{\reset@font\mtcSSSfont 68}{subsubsection.2.1.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.3}Tidal deformability}{\reset@font\mtcSSfont 69}{subsection.2.1.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Bayesian determination of the equation of state parameters}{\reset@font\mtcSfont 72}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Principle of Bayesian inference}{\reset@font\mtcSSfont 72}{subsection.2.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Prior distribution of equation of state parameters}{\reset@font\mtcSSfont 74}{subsection.2.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.1}Flat prior compatible with empirical constraints}{\reset@font\mtcSSSfont 74}{subsubsection.2.2.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{\reset@font\mtcSSSfont 75}{subsubsection.2.2.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Determination of the likelihood function}{\reset@font\mtcSSfont 77}{subsection.2.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.3.1}Constraints on nuclear physics observables}{\reset@font\mtcSSSfont 78}{subsubsection.2.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{\reset@font\mtcSSSfont 79}{subsubsection.2.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.4}Posterior distribution of equation of state parameters}{\reset@font\mtcSSfont 80}{subsection.2.2.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{\reset@font\mtcSSSfont 80}{subsubsection.2.2.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4.2}Correlations among empirical parameters}{\reset@font\mtcSSSfont 83}{subsubsection.2.2.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}General predictions for neutron star observables}{\reset@font\mtcSfont 85}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Global properties: confrontation with popular models and the GW170817 event}{\reset@font\mtcSSfont 85}{subsection.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.1}Equation of state}{\reset@font\mtcSSSfont 86}{subsubsection.2.3.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.2}Masses and radii}{\reset@font\mtcSSSfont 87}{subsubsection.2.3.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.3}Tidal deformability}{\reset@font\mtcSSSfont 89}{subsubsection.2.3.1.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Bayesian analysis of the crust-core transition}{\reset@font\mtcSSfont 91}{subsection.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Pulsar glitches: answering the question ``\textit {Is the crust enough?}''}{\reset@font\mtcSSfont 95}{subsection.2.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Conclusion}{\reset@font\mtcSfont 99}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}From the equation of state to neutron star observables}{\reset@font\mtcSfont 59}{section.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Masses and radii}{\reset@font\mtcSSfont 59}{subsection.2.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.1.1}Mass-radius relation}{\reset@font\mtcSSSfont 59}{subsubsection.2.1.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.1.2}Crust thickness and mass}{\reset@font\mtcSSSfont 62}{subsubsection.2.1.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}Moment of inertia within the slow rotation approximation}{\reset@font\mtcSSfont 64}{subsection.2.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{\reset@font\mtcSSSfont 64}{subsubsection.2.1.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.2.2}Connection to pulsar glitches}{\reset@font\mtcSSSfont 66}{subsubsection.2.1.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.3}Tidal deformability}{\reset@font\mtcSSfont 67}{subsection.2.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Bayesian determination of the equation of state parameters}{\reset@font\mtcSfont 70}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Principle of Bayesian inference}{\reset@font\mtcSSfont 70}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Prior distribution of equation of state parameters}{\reset@font\mtcSSfont 72}{subsection.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.1}Flat prior compatible with empirical constraints}{\reset@font\mtcSSSfont 72}{subsubsection.2.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{\reset@font\mtcSSSfont 73}{subsubsection.2.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Determination of the likelihood function}{\reset@font\mtcSSfont 75}{subsection.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.3.1}Constraints on nuclear physics observables}{\reset@font\mtcSSSfont 76}{subsubsection.2.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{\reset@font\mtcSSSfont 77}{subsubsection.2.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.4}Posterior distribution of equation of state parameters}{\reset@font\mtcSSfont 78}{subsection.2.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{\reset@font\mtcSSSfont 78}{subsubsection.2.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4.2}Correlations among empirical parameters}{\reset@font\mtcSSSfont 81}{subsubsection.2.2.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}General predictions for neutron star observables}{\reset@font\mtcSfont 83}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Global properties: confrontation with popular models and the GW170817 event}{\reset@font\mtcSSfont 83}{subsection.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.1}Equation of state}{\reset@font\mtcSSSfont 84}{subsubsection.2.3.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.2}Masses and radii}{\reset@font\mtcSSSfont 85}{subsubsection.2.3.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.3}Tidal deformability}{\reset@font\mtcSSSfont 87}{subsubsection.2.3.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Bayesian analysis of the crust-core transition}{\reset@font\mtcSSfont 89}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Pulsar glitches: answering the question ``\textit {Is the crust enough?}''}{\reset@font\mtcSSfont 93}{subsection.2.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Conclusion}{\reset@font\mtcSfont 97}{section.2.4}}

@@ -15,15 +15,18 @@ urlcolor=black, linkcolor=black, citecolor=Blue]{hyperref}
 \fancyhead[OL]{\nouppercase\rightmark}
 \fancyhead[EL,OR]{\thepage}
 
-%% Figures
+%% Figures and tables
+\usepackage[format=plain,
+            labelfont={bf},
+            textfont=it]{caption}
 \usepackage{graphicx} % Figures
-
-%% Tables
 \usepackage{booktabs} % For using \toprule commands instead of \hline
+
 
 %% Maths
 \usepackage{amssymb, amsmath} % General
 \usepackage{bm} % Bold
+\usepackage{siunitx}
 
 %% Footnotes in section title
 \usepackage[stable, symbol]{footmisc}

@@ -1,39 +1,20 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Structure and equation of state of cold non-accreting neutron stars}{11}{chapter.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.1}{\ignorespaces Ground state of the outer crust}}{18}{table.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.2}{\ignorespaces Ground state of matter at the neutron-drip point}}{21}{table.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.3}{\ignorespaces Empirical parameters for SLy4, BSk24, BSk22, and DD-ME$\delta $, and extracted from nuclear experiments}}{25}{table.1.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.1}{\ignorespaces Ground state of the outer crust}}{18}{table.caption.4}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Ground state of matter at the neutron-drip point}}{21}{table.caption.6}
+\contentsline {table}{\numberline {1.3}{\ignorespaces Empirical parameters for SLy4, BSk24, BSk22, and DD-ME$\delta $, and extracted from nuclear experiments}}{25}{table.caption.9}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Bayesian inference of neutron star observables}{59}{chapter.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Empirical parameters for BSk14, PKDD, and TM1}}{63}{table.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Minimum value and maximum value of each of the empirical parameters for the prior distribution}}{74}{table.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{\ignorespaces $68\%$ confidence intervals for the crust-core transition density and pressure for different filters}}{95}{table.2.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Empirical parameters for BSk14, PKDD, and TM1}}{63}{table.caption.22}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Minimum value and maximum value of each of the empirical parameters for the prior distribution}}{74}{table.caption.27}
+\contentsline {table}{\numberline {2.3}{\ignorespaces $68\%$ confidence intervals for the crust-core transition density and pressure for different filters}}{95}{table.caption.40}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {xchapter}{Crystallization of the crust of a non-accreting neutron star}{103}{chapter.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Value of the fraction and baryon mass fraction of odd nuclei in the outer crust for three selected temperatures}}{127}{table.3.1}
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Value of the fraction and baryon mass fraction of odd nuclei in the outer crust for three selected temperatures}}{125}{table.caption.52}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Energy density of a relativistic electron gas}{133}{appendix.A}
-\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Energy density of a relativistic electron gas}{135}{appendix.A}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{135}{appendix.B}
-\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{137}{appendix.B}
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Total pressure in the inner crust}{137}{appendix.C}
+\contentsline {xchapter}{Total pressure in the inner crust}{139}{appendix.C}
