@@ -663,7 +663,8 @@ term is therefore
   \mathcal{R}^{(j)} \simeq Z^{(j)} \left\langle \langle n_N^{(j)}\rangle 
     \frac{\partial F_i^{(j),\text{int}}}{\partial n_p}\right\rangle_j
   = \frac{Z^{(j)}}{V_{WS}^{\text{OCP}}}
-  \left.\frac{\partial F_i^{\text{int}}}{\partial n_p}\right|_{\text{OCP}},
+  \left.\frac{\partial F_i^{\text{int}}}{\partial
+    n_p}\right|_{\text{OCP}},\label{eq:rear}
 \end{equation}
 %
 where $V_{WS}^{\text{OCP}}$ is the equilibrium OCP cell volume, and the
@@ -1379,10 +1380,11 @@ The highest average baryon density considered in this section is $n_B = 0.04$
 fm$^{-3}$. Above this value, the presence of nonspherical pasta phases,
 see~\ref{subsec:pasta}, is expected at finite temperature.
 The influence of shell effects at the crystallization temperature is 
-settled within the OCP approximation in~\ref{subsec:shtemp}. The equilibrium 
-composition of the MCP mixture is presented in~\ref{subsec:mcp_compo_icrust}, 
-and the importance of the rearrangement term is investigated. Finally, the EoS 
-dependence of the impurity parameter is studied in~\ref{subsec:eos_qimp}.
+settled within the OCP approximation in~\ref{subsec:shtemp}.
+In~\ref{subsec:mcp_results}, the equilibrium 
+composition of the MCP mixture is presented, and the importance of the 
+rearrangement term is investigated. Finally, the EoS dependence of the 
+impurity parameter is explored.
 
 \subsection{Influence of shell effects in the OCP
 approximation}\label{subsec:shtemp}
@@ -1697,7 +1699,24 @@ The increased $Q$ value for neutron capture could alter the $r$-process that
 is expacted to take place in binary NS mergers. Further investigations are 
 desirable.
 
-\subsection{Equilibrium composition of the MCP}\label{subsec:mcp_compo_icrust}
+\subsection{MCP results}\label{subsec:mcp_results}
+
+We now turn to present the results obtained within the MCP approach introduced
+in~\ref{subsec:mcp}. 
+%
+The equilibrium composition of the MCP and the impurity parameter are
+computed in the inner crust at the crystallization temperature and, for
+comparison, at $T=1\times 10^{10}$ K, at which the MCP is in a liquid phase.
+%
+From~\ref{subsec:shtemp}, we have seen that the nonsmooth 
+effects vanish in the inner crust at the crystallization temperature.
+Therefore, all the results that we present in the following are based on pure
+CLD calculations for BSk functionals, that is without including proton shell 
+corrections. The surface and curvature parameters are fitted to the 
+corresponding ETF calculations. 
+
+\subsubsection{Equilibrium composition of the 
+MCP}\label{subsubsec:mcp_compo_icrust}
 
 \begin{figure}[!t]
   \begin{center}
@@ -1713,6 +1732,24 @@ desirable.
     The OCP solution is represented in dotted lines.
     Figure adapted from~\cite{Carreau2020}.}\label{fig:compo_icrust_bsk24_mcp}
 \end{figure}
+%
+The average (solid lines) and most probable value (dashed lines) of the proton 
+number $Z$, cluster mass number $A$, and WS cell mass number $A_{WS}$ in the 
+MCP mixture are plotted as a function of the average baryon density in the free 
+neutron regime at crystallization (left panel) and at a higher temperature 
+$T=1\times 10^{10}$ K (right panel) for the BSk24 CLDM.
+%
+It is observed that the MCP results are extremely close to the OCP ones, which 
+are represented as dotted lines. This shows that, as in the regime of the outer 
+crust~\cite{Fantina2020}, deviations with respect to the linear mixing rule are 
+very small.
+%
+By comparing the results displayed in the two panels, we can see that the 
+cluster mass and total mass increase as the temperature is decreased. 
+%
+As in the zero-temperature limit, see Fig.~\ref{fig:compo_icrust_bsk24}, the 
+average value of the ion atomic number stays almost constant in the inner 
+crust, $\langle Z\rangle \approx 40$.
 
 \begin{figure}[!t]
   \begin{center}
@@ -1732,7 +1769,82 @@ desirable.
     the inner crust at crystallization for BSk24 CLDM. Figure adapted 
   from~\cite{Carreau2020}.}\label{fig:pj_icrust}
 \end{figure}
+%
+The left panels in Fig.~\ref{fig:pj_icrust} shows the the normalized
+probability distribution $p(Z)$ for $T=T_m$ (orange squares) and 
+$T=1\times 10^{10}$ K (blue circles), and for
+two selected values of the average baryon density in the inner-crust regime:
+$n_B = 5\times 10^{-4}$ fm$^{-3}$ (top panel) and $n_B = 10^{-2}$ fm$^{-3}$
+(bottom panel). The BSk24 CLDM is used.
+%
+Once again, the fact that the peaks of the distributions, that is the most
+probable $Z$, coincides with the OCP solutions, represented by the vertical 
+lines, shows that nonlinear mixing effects are negligible and thus 
+that the linear mixing rule is a good approximation.
+%
+The importance of the rearrangement term, Eq.~(\ref{eq:rear}) can be 
+appreciated by comparing, for each thermodynamic condition, the most probable
+value of the ion atomic number with the average value obtained if the 
+rearrangement term is not included in the calculation, indicated by the
+corresponding arrow. Without including the rearrangement term, we observe a 
+systematic and significant shift toward lower $Z$, showing that it is needed 
+in order to ensure thermodynamic consistency.  We can see that this effect
+becomes more important as we go deeper in the inner crust.
+% 
+We can also notice that, as expected, $p(Z)$ gets flatter as
+density and temperature are increased, thus making the OCP approximation less
+reliable. This is better demonstrated in the right panel of
+Fig.~\ref{fig:pj_icrust}, which shows the variation with average baryon density 
+of the normalized probability distribution $p(Z)$ in the inner crust at
+crystallization.
+It is seen that the distribution is peaked around $40$ throughout the inner
+crust. At high density close to the CC transition, the range of $Z$ of the
+distributation varies from $\approx 20$ up to $\approx 50$.
 
-\subsection{Impurity parameter}\label{subsec:eos_qimp}
+\subsubsection{Impurity parameter}\label{subsubsec:eos_qimp}
+
+\begin{figure}[!t]
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{figures/qimp_icrust.pdf}
+  \end{center}
+  \caption[Impurity parameter versus baryon density in the inner-crust 
+  regime]{Variation with average baryon density $n_B$ of the impurity
+    parameter $Q_{\text{imp}}$ in the regime of the inner crust for two
+    selected temperatures: $T=T_m$ (solid lines) and $T=1\times 10^{10}$ 
+    \si{\kelvin} (dashed lines), based on BSk22 (red lines), BSk24 (black 
+    lines), BSk25 (blue lines), and BSk26 (green lines) CLD calculations.
+    Figure published in~\cite{Carreau2020}.}\label{fig:qimp_icrust}
+\end{figure}
+%
+In the inner crust, we have to address the problem of model dependence to make 
+a quantitive prediction of the impurity parameter.
+Apart from the modeling of finite temperature shell effects discussed 
+thoroughly in~\ref{subsec:shtemp}, the main source of uncertainty 
+of the calculation comes from the choice of the nuclear functional. We show, 
+in Fig.~\ref{fig:qimp_icrust}, the impurity parameter, Eq.~(\ref{eq:qimp}), as 
+a function of the average baryon density in the inner crust, at the 
+crystallization temperature $T_m$ (solid lines), for the four considered BSk 
+CLD models. 
+Considering that the chosen models are believed to cover the main uncertainty 
+on the nuclear EoS at subsaturation density~\cite{Pearson2018}, we can take the 
+spread of $Q_{\text{imp}}$ values as obtained by the four calculations, as a 
+reasonable estimation of the uncertainty on the impurity parameter. Since this 
+latter represents the variance of the charge distribution, low values of
+$Q_{\text{imp}}$ indicate that the distribution is quite peaked and thus that 
+the OCP approach is a good approximation, as it can also be seen from
+Figs.~\ref{fig:compo_icrust_bsk24_mcp} and~\ref{fig:pj_icrust}. In particular, 
+the monotonic increase of the impurity parameter with baryon density is in 
+accordance with the right panel of Fig.~\ref{fig:pj_icrust}, which clearly show 
+the growth of the width of the ion atomic number distribution with increasing 
+density. 
+%
+While at lower densities all the models predict similar values of the impurity 
+parameter, $Q_{\text{imp}} \lesssim 5$, at higher densities the spread among 
+the models becomes larger, with the functional associated to the larger 
+symmetry energy at saturation density $E_{sym}$ having the larger 
+$Q_{\text{imp}}$, leading to a relative difference of $\approx 55\%$ at $n_B
+= 0.04$ fm$^{-3}$. 
+The same trend is observed at $T= 1\times 10^{10}$ K (dashed 
+lines), although the hierarchy of the models is not preserved.
 
 \section{Conclusion}

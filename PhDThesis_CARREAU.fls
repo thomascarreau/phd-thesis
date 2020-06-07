@@ -760,6 +760,9 @@ INPUT ./figures/pj_icrust_bsk24.pdf
 INPUT figures/joyplot_bsk24_tm.pdf
 INPUT ./figures/joyplot_bsk24_tm.pdf
 INPUT ./figures/joyplot_bsk24_tm.pdf
+INPUT figures/qimp_icrust.pdf
+INPUT ./figures/qimp_icrust.pdf
+INPUT ./figures/qimp_icrust.pdf
 INPUT sections/appendices.tex
 INPUT sections/appendices.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
