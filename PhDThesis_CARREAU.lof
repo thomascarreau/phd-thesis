@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Crust-core transition density versus surface parameter $p$ for SLy4}}{50}{figure.caption.18}
 \contentsline {figure}{\numberline {1.13}{\ignorespaces Crust-core transition density and pressure for several interactions}}{51}{figure.caption.19}
 \contentsline {figure}{\numberline {1.14}{\ignorespaces Equilibrium composition, pressure, and symmetry energy versus baryon density in the outer core}}{54}{figure.caption.20}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Unified metamodeling of the equation of state}}{57}{figure.caption.21}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Unified metamodeling of the equation of state}}{56}{figure.caption.21}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Bayesian inference of neutron star observables}{61}{chapter.2}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Mass-radius relation for several popular equations of state}}{66}{figure.caption.23}
@@ -59,5 +59,3 @@
 \contentsline {xchapter}{Energy density of a relativistic electron gas}{141}{appendix.A}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Neutron and proton chemical potentials in the metamodel}{143}{appendix.B}
-\addvspace {10\p@ }
-\contentsline {xchapter}{Total pressure in the inner crust}{145}{appendix.C}

@@ -490,7 +490,6 @@ OUTPUT PhDThesis_CARREAU.mtc3
 OUTPUT PhDThesis_CARREAU.mtc4
 OUTPUT PhDThesis_CARREAU.mtc5
 OUTPUT PhDThesis_CARREAU.mtc6
-OUTPUT PhDThesis_CARREAU.mtc7
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT PhDThesis_CARREAU.toc
@@ -769,7 +768,6 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
 OUTPUT PhDThesis_CARREAU.maf
 INPUT PhDThesis_CARREAU.mtc
 INPUT PhDThesis_CARREAU.mtc0
-INPUT PhDThesis_CARREAU.mtc6
 INPUT PhDThesis_CARREAU.mtc5
 INPUT PhDThesis_CARREAU.mtc4
 INPUT PhDThesis_CARREAU.mtc3

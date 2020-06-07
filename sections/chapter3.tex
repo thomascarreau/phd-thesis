@@ -1,9 +1,14 @@
 \chapter{Crystallization of the crust of a non-accreting neutron star}
 
+% very short intro
+
 % something pns
+% something zero temperature
 % crystallization temperature is a lower estimate for the temperature at which 
 %   nuclear reactions fall out of equilibrium (see ic sh paper)
-% most of the results presented in this Chapter are published
+
+% plan
+% most of the results presented in this Chapter are published or submitted
 
 \minitoc\newpage
 
@@ -353,7 +358,7 @@ consistency.
 The NS crust at a given depth in the star is supposed to contain different ion
 species characterized by their mass and charge number $(A^{(j)},Z^{(j)})$, 
 associated to different WS cells of volume $V_{WS}^{(j)}$, such that $p_j$ is 
-the frequency of occurence (or probability) of the component $(j)$, with 
+the frequency of occurrence (or probability) of the component $(j)$, with 
 $\sum_j p_j = 1$.
 Thermodynamic quantities are defined in terms of the ion densities of the 
 different species $n_N^{(j)}$, which are related to the probabilities $p_j$ 
@@ -511,7 +516,7 @@ The single-ion grand-canonical potential reads
 %
 where $\mu_n$ and $\mu_p$ correspond finally to the neutron and proton 
 chemical potentials, respectively. Let us note that the rest-mass energies are 
-included in the the chemical potentials since they are contained in the ion 
+included in the chemical potentials since they are contained in the ion 
 free energy. 
 % pj requires the evaluation of the rearrangement term as well as of the
 %   neutron and proton chemical potentials
@@ -565,7 +570,7 @@ the numerical precision~\cite{Fantina2020}.
 We start by solving the OCP variational equations in order to get the 
 equilibrium composition, which gives a first guess for the chemical potentials,
 $\mu_n^{\text{OCP}}$ and $\mu_p^{\text{OCP}}$, via Eq.~(\ref{eq:munmup}). 
-The probabilities $p_j$ can then be evalulated using Eq.~(\ref{eq:pj}), and an
+The probabilities $p_j$ can then be evaluated using Eq.~(\ref{eq:pj}), and an
 improved estimation of the chemical potentials $\mu_n$ and $\mu_p$ is
 calculated via
 %
@@ -599,13 +604,13 @@ abundancies through Eq.~(\ref{eq:pj}).
 As already discussed in~\cite{Fantina2020}, the rearrangement term arises from 
 the self-consistency induced by the Coulomb part of the ion free energy. This 
 stems from the fact that, due to the strong incompressibility of the electrons, 
-the condition of charge neutraly has been imposed at the level of each cell, 
+the condition of charge neutrality has been imposed at the level of each cell, 
 see Eq.~(\ref{eq:chargeneut}), in contrast with the baryon density $n_B$ that 
 can fluctuate from cell to cell, see Eq.~(\ref{eq:barcons}). 
 In consequence, any component of the free energy density that depends on the 
 local cell proton density $n_p^{(j)} = n_p$ leads to a dependence on the local 
-density $n_N^{(j)}$ through Eq.~(\ref{eq:chargeneut}). With our presciption for 
-the WS cell free energy, this is only the case for the interacting part 
+density $n_N^{(j)}$ through Eq.~(\ref{eq:chargeneut}). With our prescription 
+for the WS cell free energy, this is only the case for the interacting part 
 $F_i^{(j),\text{int}}$. We can therefore rewrite the rearrangement term of 
 component $(j)$ as
 %
@@ -621,7 +626,7 @@ component $(j)$ as
 The complication of the self-consistent resolution of Eq.~(\ref{eq:pj}) can be 
 avoided by imposing the most probable ion in the MCP mixture to coincide with 
 the OCP result, if nonlinear mixing terms are omitted~\cite{Grams2018}. 
-This approximation for the rearragement term is justified by the principle of 
+This approximation for the rearrangement term is justified by the principle of 
 ensemble equivalence in the thermodynamic limit~\cite{Gulminelli2015}.
 
 % the minimization
@@ -670,7 +675,7 @@ term is therefore
 where $V_{WS}^{\text{OCP}}$ is the equilibrium OCP cell volume, and the
 derivative is evaluated numerically at the OCP solution.
 
-\subsection{Free energy functional in the free neutron 
+\subsection{Nuclear free energy functional in the free neutron 
 regime}\label{subsec:freeenfunctional}
 
 % in the regime of the outer crust, we make use of exp data
@@ -684,7 +689,7 @@ Eq.~(\ref{eq:ionmass}).
 % ion mass in the inner crust
 In the regime of the inner crust, $n_B \gtrsim 2.6 \times 10^{-4}$ fm$^{-3}$, 
 we have seen that the ions are immersed in a neutron gas, whose free energy 
-density $\mathcal{F}_g$ enters the expression of the ion mass in the e-cluter 
+density $\mathcal{F}_g$ enters the expression of the ion mass in the e-cluster 
 representation,
 %
 \begin{equation}
@@ -1068,7 +1073,7 @@ not recovered, and $^{80}$Ni is favored over $^{126}$Ru around $n_B \approx
     probability distribution 
     $p(Z)$ for $P=4.72\times 10^{-7}$ \si{\MeV \per \cubic\femto\meter} (left 
     panel) and $P=1.45\times 
-    10^{-4}$ \si{\MeV \per \cubic\femto\meter} (right panel) at 
+    10^{-4}$ \si{\MeV \per \cubic\femto\meter} (right panel), at 
     $T=3\times 10^9$ \si{\kelvin} (blue circles) and 
     $T=T_m$ (orange squares). The blue dashdotted and orange dashed vertical 
     lines indicate the OCP solution at $T=3\times 10^9$ \si{\kelvin} and 
@@ -1103,7 +1108,7 @@ selected values of pressure, we plot the distribution for $T=3\times
 calculated within the OCP approximation (orange squares).
 For each selected thermodynamic condition, it is observed that the most
 probable $Z$ in the MCP mixture coincide with the OCP solution represented by 
-a vectical line.
+a vertical line.
 At low pressure, the crystallization temperature is small and consequently only 
 very few configurations are expected to occur. This can be seen in the left
 panel of the figure, $P = 4.72\times 10^{-7}$ MeV/fm$^3$, where only $Z=28$
@@ -1129,14 +1134,14 @@ Fig.~\ref{fig:compo_mcp_ocrust} shows the equilibrium composition of the MCP as
 a function of pressure in the regime of the outer crust at the crystallization
 temperature (upper panel) and at $T=3\times 10^9$ K (lower panel). At $T=T_m$, 
 it is seen that the average equilibrium values $\langle Z\rangle$ and $\langle
-A\rangle$ (solid blue and orange lines, respecitvely) coincides almost 
+A\rangle$ (solid blue and orange lines, respectively) coincides almost 
 perfectly with the OCP solution (dotted blue and orange lines), apart in the
 vicinity of $P=4.5\times 10^{-7}$ MeV/fm$^3$ and $P=1.5\times 10^{-4}$
 MeV/fm$^3$, where the distribution $p(Z)$ exhibits a bimodal character, as
-observed in Fig.~\ref{fig:pj_ocrust}. This results in the sotening of the shell 
-effects, which is even more striking at $T=3\times 10^9$ K. Those deviations 
-from the OCP approximation are reflected in the Coulomb coupling parameter, 
-which exhibits spikes and can be as high as $\approx 330$ at the
+observed in Fig.~\ref{fig:pj_ocrust}. This results in the softening of the 
+shell effects, which is even more striking at $T=3\times 10^9$ K. Those 
+deviations from the OCP approximation are reflected in the Coulomb coupling 
+parameter, which exhibits spikes and can be as high as $\approx 330$ at the
 crystallization temperature, see Fig.~4 of~\cite{Fantina2020}.
 
 \subsection{Impurity parameter}\label{subsec:qimp_ocrust}
@@ -1170,7 +1175,7 @@ a free parameter directly fitted to cooling data.
     \includegraphics[width=0.9\linewidth]{figures/qimp_ocrust.pdf}
   \end{center}
   \caption[Impurity parameter versus pressure in the outer-crust regime]{
-    Variation with pressure $P$ of the impurity paramter $Q_{\text{imp}}$,
+    Variation with pressure $P$ of the impurity parameter $Q_{\text{imp}}$,
     Eq.~(\ref{eq:qimp}), in the regime of the outer crust for three selected
     temperatures at which the composition is assumed to be frozen: 
     $T_f=T_m$ (solid blue line),
@@ -1351,7 +1356,7 @@ p_j\delta_{\text{odd}}F_i^{(j)}/\langle V_{WS}\rangle$).
 We report our estimation of the fraction and baryon mass fraction of odd-$A$
 and odd-$Z$ nuclei in the outer crust at crystallization,
 $T=1\times 10^9$ K, and $T=2\times 10^9$ K in Table~\ref{table:oddnuc}. At the
-crystallization temperature, we find that odd nuclei consistute $2.05\%$ of 
+crystallization temperature, we find that odd nuclei constitute $2.05\%$ of 
 species in the outer crust and contribute $2.40\%$ of the outer-crust baryonic 
 mass.
 
@@ -1370,7 +1375,7 @@ impurity factor naturally arises.
 
 In this section, we present the results for the inner crust at finite
 temperature, and more specifically at crystallization, using the CLD approach
-developped in Chapter 1 with parameters optimized on four different microscopic
+developed in Chapter 1 with parameters optimized on four different microscopic
 models, namely BSk22, BSk24, BSk25, and BSk26, introduced 
 in~\cite{Goriely2013}.
 As in Section~\ref{sec:ocrust_tm}, all thermal corrections introduced in
@@ -1477,7 +1482,7 @@ the BSk14 functional~\cite{Onsi2008} (see their Tables III and IV),
 represented in Fig.~\ref{fig:bsk14compo_vs_nb}, along with the results obtained 
 with our CLD modeling for the same interaction.
 As expected, it is seen that shell effects decrease as temperature is
-increased, and that the discontinuous behavior of $Z$ persits until $T\approx
+increased, and that the discontinuous behavior of $Z$ persists until $T\approx
 1$ MeV, when the TETFSI results follow the same smooth trend as the TETF and 
 CLDM predictions.
 Based on these considerations, we fix the two parameters to $T_0 = 1$ MeV and 
@@ -1591,7 +1596,7 @@ the symmetry energy at saturation, the lower the crystallization temperature,
 with $E_{sym}=32$ MeV, $E_{sym}=30$ MeV, and $E_{sym}=29$ MeV for BSk22, 
 BSk24, and BSk25, respectively. The same is true for the equilibrium value of
 $Z$, which is as in CCM $\approx 40$ all along the inner crust when 
-surface properties are optimized on microscopic ETF cacluations.
+surface properties are optimized on microscopic ETF calculations.
 %
 \begin{figure}[!t]
   \begin{center}
@@ -1670,7 +1675,7 @@ for BSk22, BSk24, BSk25, and BSk26 CLDM including temperature-dependent shell
 corrections for $T$ up to $1.2\times 10^{10}$ K,
 and a band is plotted to indicate the minima and maxima.
 %
-It is clearly seen that the the band becomes thicker as we go deeper in the
+It is clearly seen that the band becomes thicker as we go deeper in the
 star, showing that the model dependence of $y_p$ is more important at high 
 density. 
 The band associated to $n_B = 3\times 10^{-4}$ fm$^{-3}$, which is
@@ -1696,7 +1701,7 @@ CCM hypothesis would be overestimated, and as a consequence the latter
 hypothesis would be challenged.
 %
 The increased $Q$ value for neutron capture could alter the $r$-process that 
-is expacted to take place in binary NS mergers. Further investigations are 
+is expected to take place in binary NS mergers. Further investigations are 
 desirable.
 
 \subsection{MCP results}\label{subsec:mcp_results}
@@ -1760,7 +1765,7 @@ crust, $\langle Z\rangle \approx 40$.
   inner-crust regime]{Left: Normalized 
     probability distribution 
     $p(Z)$ for $n_B=5\times 10^{-4}$ \si{\per \cubic\femto\meter} (upper
-    panel) and $n_B=10^{-2}$ \si{\per \cubic\femto\meter} (lower panel) at 
+    panel) and $n_B=10^{-2}$ \si{\per \cubic\femto\meter} (lower panel), at 
     $T=1\times 10^{10}$ \si{\kelvin} (blue circles) and 
     $T=T_m$ (orange squares) for BSk24 CLDM. The blue dashdotted and orange 
     dashed vertical lines correspond to the respective OCP solutions, and 
@@ -1770,7 +1775,7 @@ crust, $\langle Z\rangle \approx 40$.
   from~\cite{Carreau2020}.}\label{fig:pj_icrust}
 \end{figure}
 %
-The left panels in Fig.~\ref{fig:pj_icrust} shows the the normalized
+The left panels in Fig.~\ref{fig:pj_icrust} shows the normalized
 probability distribution $p(Z)$ for $T=T_m$ (orange squares) and 
 $T=1\times 10^{10}$ K (blue circles), and for
 two selected values of the average baryon density in the inner-crust regime:
@@ -1799,7 +1804,7 @@ of the normalized probability distribution $p(Z)$ in the inner crust at
 crystallization.
 It is seen that the distribution is peaked around $40$ throughout the inner
 crust. At high density close to the CC transition, the range of $Z$ of the
-distributation varies from $\approx 20$ up to $\approx 50$.
+distribution varies from $\approx 20$ up to $\approx 50$.
 
 \subsubsection{Impurity parameter}\label{subsubsec:eos_qimp}
 
@@ -1816,8 +1821,9 @@ distributation varies from $\approx 20$ up to $\approx 50$.
     Figure published in~\cite{Carreau2020}.}\label{fig:qimp_icrust}
 \end{figure}
 %
-In the inner crust, we have to address the problem of model dependence to make 
-a quantitive prediction of the impurity parameter.
+In the inner crust, we have to address the problem of model dependence in 
+order to make a quantitative prediction of the impurity parameter 
+$Q_{\text{imp}}$. 
 Apart from the modeling of finite temperature shell effects discussed 
 thoroughly in~\ref{subsec:shtemp}, the main source of uncertainty 
 of the calculation comes from the choice of the nuclear functional. We show, 
@@ -1848,3 +1854,80 @@ The same trend is observed at $T= 1\times 10^{10}$ K (dashed
 lines), although the hierarchy of the models is not preserved.
 
 \section{Conclusion}
+
+In this chapter, we have considered the modeling of the crust at finite
+temperature. 
+% ocp
+The OCP approximation, in which the expected distribution of
+nuclei is replaced by a single nucleus obtained from the minimization of the
+thermodynamic potential at a given thermodynamic condition, has been reviewed.
+We have given the expressions of the thermal corrections entering the ion 
+free energy, namely the translational center-of-mass motion term in the liquid 
+phase, the zero-point quantum vibrations term in the solid phase, and the 
+Coulomb interaction contribution which differs according to the phase of 
+matter. We have explained that the crystallization temperature of a OCP is 
+reached from the moment the free energy density in the solid phase becomes 
+equal to that in the liquid phase for a same composition.
+% mcp
+We have then included the nuclear distribution in a MCP approach at the 
+equilibrium. Within this treatment, nonlinear mixing effects that arise due to 
+the fact that the center-of-mass position of each ion is not confined to the 
+single WS cell volume but can freely explore the whole volume. 
+The neutron and proton chemical potentials in the MCP mixture were found to be 
+very close to the OCP ones, showing that a perturbative implementation of the 
+NSE is sufficient. 
+We have seen that a rearragement term enters the expression of thermodynamic 
+potential due to the self-consistency induced by the Coulomb part of the ion 
+free energy, and we have calculated this term by imposing the most probable 
+nucleus to coincide with the OCP solution.
+% nuclear modeling in the free neutron regime
+As in the zero-temperature limit, we have chosen to use the CLD approach to 
+model the nuclear free energy in the free neutron regime. 
+Sommerfeld expansions, reliable at low temperature, have been employed to 
+derive the expression of the nuclear matter free energy as well as chemical
+potential of nucleons. Because of the low values of the crystallization 
+temperature expected in the crust, we have safely neglected the excitation of 
+surface modes.
+
+Using experimental masses supplemented with state-of-the-art microscopic
+theoretical mass tables, we have shown results relevant for the outer crust of
+PNS, that is for low temperatures and more particularly at crystallization.
+% ocrust tm
+We have calculated the crystallization temperature of a OCP throughout the
+outer crust. We have observed that neglecting the anharmonic contribution to 
+the ion free energy in the solid phase lead to an underestimation of the
+crystallization temperature, which ranges from approximately $5\times 10^7$ K 
+at very low pressure to $2.8\times 10^9$ K in the vicinity of the neutron-drip 
+point, and exhibits a discontinous behavior due to the shell effects. 
+We have verified that the crystallization temperature is not strongly 
+dependent on the mass model in the bottom layers of the outer crust, as far as 
+realistic theoretical mass tables are employed.
+% ocrust compo
+We have found that the composition of the outer crust at crystallization 
+is very close to that calculated in the CCM hypothesis, and that the average
+value of mass number $A$ and charge number $Z$ in the MCP mixture follow 
+closely the equilibrium OCP solutions throughout the outer crust. 
+As pressure and temperature are increased, we have shown that the charge 
+distributions become broader, making the OCP approximation less reliable.
+% ocrust qimp
+We have computed the so-called impurity parameter $Q_{\text{imp}}$, which 
+represents the variance of the charge distribution, at the crystallization 
+temperature, and recovered the original results of~\cite{Fantina2020}.
+Important oscillations of $Q_{\text{imp}}$ have been observed, suggesting that
+the outer crust might consists of an alternation of highly resistive and 
+highly conductive layers, and we have found that it can reach values as high as 
+$\approx 50$ when the charge distribution exhibits a multimodal character.
+% ocrust yodd
+We have also evaluated the fraction of odd-mass and odd-charge nuclei present 
+in the outer crust. We have shown that this quantity 
+increases with temperature, and that, at crystallization, odd nuclei 
+constitute $\approx 2\%$ of species in the outer crust, and contribute 
+$\approx 2.4\%$ of the outer-crust baryonic mass. The presence of unpaired
+nucleons in the outer crust might be the cause for ferromagnetic phase 
+transitions at low temperature, which in return could generate a magnetic field 
+and alter the existing one, and so the relativistic electon gas.
+
+Finally, we have presented results relevant for the inner crust of
+PNS, particularly at the crystallization temperature.
+% icrust shells
+% icrust mcp
