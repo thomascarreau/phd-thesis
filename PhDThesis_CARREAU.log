@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  7 JUN 2020 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  9 JUN 2020 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1556,135 +1556,124 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 65.
- (./PhDThesis_CARREAU.mtc1) [14] [15] [16] [17] [18] [19]
-Underfull \vbox (badness 4403) has occurred while \output is active []
-
- [20] <figures/ocrust_model.pdf, id=827, 462.52798pt x 346.89601pt>
+ (./PhDThesis_CARREAU.mtc1) [14] [15] [16] [17] [18] [19] [20] <figures/ocrust_model.pdf, id=827, 462.52798pt x 346.89601pt>
 File: figures/ocrust_model.pdf Graphic file (type pdf)
  <use figures/ocrust_model.pdf>
-Package pdftex.def Info: figures/ocrust_model.pdf used on input line 527.
+Package pdftex.def Info: figures/ocrust_model.pdf used on input line 529.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
- [21] <figures/ocrust_pres.pdf, id=856, 462.52798pt x 346.89601pt>
+ <figures/ocrust_pres.pdf, id=846, 462.52798pt x 346.89601pt>
 File: figures/ocrust_pres.pdf Graphic file (type pdf)
  <use figures/ocrust_pres.pdf>
-Package pdftex.def Info: figures/ocrust_pres.pdf used on input line 580.
+Package pdftex.def Info: figures/ocrust_pres.pdf used on input line 582.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
- [22 <./figures/ocrust_model.pdf>] [23 <./figures/ocrust_pres.pdf>] <figures/clustering.pdf, id=915, 462.52798pt x 346.89601pt>
+ [21] [22 <./figures/ocrust_model.pdf>] <figures/clustering.pdf, id=896, 462.52798pt x 346.89601pt>
 File: figures/clustering.pdf Graphic file (type pdf)
  <use figures/clustering.pdf>
-Package pdftex.def Info: figures/clustering.pdf used on input line 632.
+Package pdftex.def Info: figures/clustering.pdf used on input line 634.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [24 <./figures/clustering.pdf>] [25]
-Overfull \hbox (2.11453pt too wide) in paragraph at lines 761--781
+ [23 <./figures/ocrust_pres.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./figures/clustering.pdf>]
+Overfull \hbox (2.11453pt too wide) in paragraph at lines 763--783
  [] 
  []
 
-[26] [27] [28] <figures/mm_accuracy.pdf, id=1008, 462.52798pt x 346.89601pt>
+[25] [26] [27] [28] <figures/mm_accuracy.pdf, id=1010, 462.52798pt x 346.89601pt>
 File: figures/mm_accuracy.pdf Graphic file (type pdf)
  <use figures/mm_accuracy.pdf>
-Package pdftex.def Info: figures/mm_accuracy.pdf used on input line 984.
+Package pdftex.def Info: figures/mm_accuracy.pdf used on input line 987.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30 <./figures/mm_accuracy.pdf>] [31] <figures/surf_fit.pdf, id=1072, 462.52798pt x 346.89601pt>
+ [29] [30 <./figures/mm_accuracy.pdf>] [31] <figures/surf_fit.pdf, id=1075, 462.52798pt x 346.89601pt>
 File: figures/surf_fit.pdf Graphic file (type pdf)
  <use figures/surf_fit.pdf>
-Package pdftex.def Info: figures/surf_fit.pdf used on input line 1158.
+Package pdftex.def Info: figures/surf_fit.pdf used on input line 1161.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [32] <figures/surfenpersurfnuc.pdf, id=1091, 462.52798pt x 346.89601pt>
+ <figures/surfenpersurfnuc.pdf, id=1081, 462.52798pt x 346.89601pt>
 File: figures/surfenpersurfnuc.pdf Graphic file (type pdf)
  <use figures/surfenpersurfnuc.pdf>
-Package pdftex.def Info: figures/surfenpersurfnuc.pdf used on input line 1206.
+Package pdftex.def Info: figures/surfenpersurfnuc.pdf used on input line 1209.
 (pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
- [33 <./figures/surf_fit.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./figures/surfenpersurfnuc.pdf>] [35] [36pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2.70}) has been already used, duplicate ignored
+ [32] [33 <./figures/surf_fit.pdf>] [34 <./figures/surfenpersurfnuc.pdf>] [35] [36pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2.70}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1370 \end{eqnarray}
-                     ] [37] [38]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1526.
+l.1423 \begin{equation}
+                       ] [37]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1529.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) <figures/compo_icrust_bsk24.pdf, id=1224, 578.16pt x 433.62pt>
+) [38] <figures/compo_icrust_bsk24.pdf, id=1227, 578.16pt x 433.62pt>
 File: figures/compo_icrust_bsk24.pdf Graphic file (type pdf)
  <use figures/compo_icrust_bsk24.pdf>
-Package pdftex.def Info: figures/compo_icrust_bsk24.pdf used on input line 1581.
+Package pdftex.def Info: figures/compo_icrust_bsk24.pdf used on input line 1584.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
- [39] [40 <./figures/compo_icrust_bsk24.pdf>] <figures/eos_icrust.pdf, id=1267, 462.52798pt x 346.89601pt>
+ [39]
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+ [40 <./figures/compo_icrust_bsk24.pdf>] <figures/eos_icrust.pdf, id=1271, 462.52798pt x 346.89601pt>
 File: figures/eos_icrust.pdf Graphic file (type pdf)
  <use figures/eos_icrust.pdf>
-Package pdftex.def Info: figures/eos_icrust.pdf used on input line 1672.
+Package pdftex.def Info: figures/eos_icrust.pdf used on input line 1675.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
+ [41]
+Underfull \vbox (badness 1603) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41] [42 <./figures/eos_icrust.pdf>] [43] <figures/shcorr_bsk24.pdf, id=1327, 462.52798pt x 346.89601pt>
+ [42 <./figures/eos_icrust.pdf>] <figures/shcorr_bsk24.pdf, id=1319, 462.52798pt x 346.89601pt>
 File: figures/shcorr_bsk24.pdf Graphic file (type pdf)
  <use figures/shcorr_bsk24.pdf>
-Package pdftex.def Info: figures/shcorr_bsk24.pdf used on input line 1792.
+Package pdftex.def Info: figures/shcorr_bsk24.pdf used on input line 1795.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- <figures/icrust_compo_bsk.pdf, id=1329, 462.52798pt x 346.89601pt>
+ <figures/icrust_compo_bsk.pdf, id=1321, 462.52798pt x 346.89601pt>
 File: figures/icrust_compo_bsk.pdf Graphic file (type pdf)
  <use figures/icrust_compo_bsk.pdf>
-Package pdftex.def Info: figures/icrust_compo_bsk.pdf used on input line 1818.
+Package pdftex.def Info: figures/icrust_compo_bsk.pdf used on input line 1821.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [44 <./figures/shcorr_bsk24.pdf>]
-Underfull \vbox (badness 3792) has occurred while \output is active []
-
- [45 <./figures/icrust_compo_bsk.pdf>] [46] <figures/pasta.pdf, id=1420, 462.52798pt x 346.89601pt>
+ [43] [44 <./figures/shcorr_bsk24.pdf>] [45 <./figures/icrust_compo_bsk.pdf>] <figures/pasta.pdf, id=1413, 462.52798pt x 346.89601pt>
 File: figures/pasta.pdf Graphic file (type pdf)
  <use figures/pasta.pdf>
-Package pdftex.def Info: figures/pasta.pdf used on input line 1973.
+Package pdftex.def Info: figures/pasta.pdf used on input line 1976.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [47] [48 <./figures/pasta.pdf>] [49] <figures/sly4_nt.pdf, id=1485, 462.52798pt x 346.89601pt>
-File: figures/sly4_nt.pdf Graphic file (type pdf)
- <use figures/sly4_nt.pdf>
-Package pdftex.def Info: figures/sly4_nt.pdf used on input line 2086.
-(pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
- [50 <./figures/sly4_nt.pdf>] <figures/cctp_lsym.pdf, id=1524, 462.52798pt x 346.89601pt>
-File: figures/cctp_lsym.pdf Graphic file (type pdf)
- <use figures/cctp_lsym.pdf>
-Package pdftex.def Info: figures/cctp_lsym.pdf used on input line 2139.
-(pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
-
+ [46]
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [51 <./figures/cctp_lsym.pdf>]
+ [47 <./figures/pasta.pdf>] [48] <figures/sly4_nt.pdf, id=1480, 462.52798pt x 346.89601pt>
+File: figures/sly4_nt.pdf Graphic file (type pdf)
+ <use figures/sly4_nt.pdf>
+Package pdftex.def Info: figures/sly4_nt.pdf used on input line 2089.
+(pdftex.def)             Requested size: 334.60422pt x 250.96649pt.
+ [49 <./figures/sly4_nt.pdf>] <figures/cctp_lsym.pdf, id=1520, 462.52798pt x 346.89601pt>
+File: figures/cctp_lsym.pdf Graphic file (type pdf)
+ <use figures/cctp_lsym.pdf>
+Package pdftex.def Info: figures/cctp_lsym.pdf used on input line 2143.
+(pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
+ [50]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2190.
+(hyperref)                removing `math shift' on input line 2194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 2190.
+(hyperref)                removing `\mu' on input line 2194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2190.
+(hyperref)                removing `math shift' on input line 2194.
 
-[52] <figures/ocore.pdf, id=1583, 462.52798pt x 346.89601pt>
+[51 <./figures/cctp_lsym.pdf>] <figures/ocore.pdf, id=1578, 462.52798pt x 346.89601pt>
 File: figures/ocore.pdf Graphic file (type pdf)
  <use figures/ocore.pdf>
-Package pdftex.def Info: figures/ocore.pdf used on input line 2278.
+Package pdftex.def Info: figures/ocore.pdf used on input line 2282.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [53] [54 <./figures/ocore.pdf>] [55] <figures/unified.pdf, id=1658, 491.436pt x 346.89601pt>
+ [52] [53 <./figures/ocore.pdf>] [54] <figures/unified.pdf, id=1649, 491.436pt x 346.89601pt>
 File: figures/unified.pdf Graphic file (type pdf)
  <use figures/unified.pdf>
-Package pdftex.def Info: figures/unified.pdf used on input line 2408.
+Package pdftex.def Info: figures/unified.pdf used on input line 2412.
 (pdftex.def)             Requested size: 376.42575pt x 265.72392pt.
+ [55]
+Underfull \vbox (badness 3503) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56 <./figures/unified.pdf>]
-Underfull \vbox (badness 2042) has occurred while \output is active []
-
- [57] [58]) (./sections/chapter2.tex [59] [60
-
-]
+ [56 <./figures/unified.pdf>] [57]) (./sections/chapter2.tex [58]
 Chapter 2.
 \openout5 = `PhDThesis_CARREAU.mtc'.
 
@@ -1693,41 +1682,43 @@ Chapter 2.
 
 Underfull \vbox (badness 3942) has occurred while \output is active []
 
- [61] (./PhDThesis_CARREAU.mtc2) [62] [63] <figures/mr_popular.pdf, id=1826, 462.52798pt x 346.89601pt>
+ [59
+
+] (./PhDThesis_CARREAU.mtc2) [60]
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [61] <figures/mr_popular.pdf, id=1818, 462.52798pt x 346.89601pt>
 File: figures/mr_popular.pdf Graphic file (type pdf)
  <use figures/mr_popular.pdf>
 Package pdftex.def Info: figures/mr_popular.pdf used on input line 201.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [64] [65] <figures/crustmassthick.pdf, id=1852, 462.52798pt x 346.89601pt>
+ [62] [63] <figures/crustmassthick.pdf, id=1844, 462.52798pt x 346.89601pt>
 File: figures/crustmassthick.pdf Graphic file (type pdf)
  <use figures/crustmassthick.pdf>
 Package pdftex.def Info: figures/crustmassthick.pdf used on input line 276.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [66 <./figures/mr_popular.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67 <./figures/crustmassthick.pdf>] <figures/moi_popular.pdf, id=1908, 462.52798pt x 346.89601pt>
+ [64 <./figures/mr_popular.pdf>] [65 <./figures/crustmassthick.pdf>] <figures/moi_popular.pdf, id=1900, 462.52798pt x 346.89601pt>
 File: figures/moi_popular.pdf Graphic file (type pdf)
  <use figures/moi_popular.pdf>
 Package pdftex.def Info: figures/moi_popular.pdf used on input line 384.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [68]
-Underfull \vbox (badness 1603) has occurred while \output is active []
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./figures/moi_popular.pdf>] [70] [71]
+ [67 <./figures/moi_popular.pdf>] [68] [69]
 Overfull \hbox (7.85103pt too wide) in paragraph at lines 550--554
 []\T1/lmr/m/n/10.95 Let us con-sider a static, spher-i-cally sym-met-ric NS, placed in a static ex-ter-nal quadrupo-
  []
 
-<figures/tidal_popular.pdf, id=2009, 462.52798pt x 346.89601pt>
+<figures/tidal_popular.pdf, id=2001, 462.52798pt x 346.89601pt>
 File: figures/tidal_popular.pdf Graphic file (type pdf)
  <use figures/tidal_popular.pdf>
 Package pdftex.def Info: figures/tidal_popular.pdf used on input line 605.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [72]
+ [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 <./figures/tidal_popular.pdf>] [74] [75] [76]
+ [71 <./figures/tidal_popular.pdf>] [72] [73] [74]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 862.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1743,59 +1734,62 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 862.
 
-<figures/sensana.pdf, id=2100, 462.52798pt x 346.89601pt>
+<figures/sensana.pdf, id=2091, 462.52798pt x 346.89601pt>
 File: figures/sensana.pdf Graphic file (type pdf)
  <use figures/sensana.pdf>
 Package pdftex.def Info: figures/sensana.pdf used on input line 889.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [77]
+ [75]
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
- [78 <./figures/sensana.pdf>] [79] <figures/drischler.pdf, id=2170, 462.52798pt x 346.89601pt>
+ [76 <./figures/sensana.pdf>]
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+ [77] <figures/drischler.pdf, id=2161, 462.52798pt x 346.89601pt>
 File: figures/drischler.pdf Graphic file (type pdf)
  <use figures/drischler.pdf>
 Package pdftex.def Info: figures/drischler.pdf used on input line 999.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [80 <./figures/drischler.pdf>]
+ [78 <./figures/drischler.pdf>]
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1065.
- [81] <figures/is_dist.pdf, id=2227, 578.16pt x 433.62pt>
+ [79] <figures/is_dist.pdf, id=2219, 578.16pt x 433.62pt>
 File: figures/is_dist.pdf Graphic file (type pdf)
  <use figures/is_dist.pdf>
 Package pdftex.def Info: figures/is_dist.pdf used on input line 1157.
 (pdftex.def)             Requested size: 418.25368pt x 313.68826pt.
- <figures/iv_dist.pdf, id=2232, 578.16pt x 433.62pt>
+ <figures/iv_dist.pdf, id=2224, 578.16pt x 433.62pt>
 File: figures/iv_dist.pdf Graphic file (type pdf)
  <use figures/iv_dist.pdf>
 Package pdftex.def Info: figures/iv_dist.pdf used on input line 1173.
 (pdftex.def)             Requested size: 418.25368pt x 313.68826pt.
- [82] [83 <./figures/is_dist.pdf>] [84 <./figures/iv_dist.pdf>] <figures/cm_ld.pdf, id=2304, 1011.78pt x 505.89pt>
+ [80] [81 <./figures/is_dist.pdf>] [82 <./figures/iv_dist.pdf>] <figures/cm_ld.pdf, id=2296, 1011.78pt x 505.89pt>
 File: figures/cm_ld.pdf Graphic file (type pdf)
  <use figures/cm_ld.pdf>
 Package pdftex.def Info: figures/cm_ld.pdf used on input line 1258.
 (pdftex.def)             Requested size: 418.25368pt x 209.1299pt.
- <figures/cm_ldhd.pdf, id=2306, 578.16pt x 433.62pt>
+ <figures/cm_ldhd.pdf, id=2298, 578.16pt x 433.62pt>
 File: figures/cm_ldhd.pdf Graphic file (type pdf)
  <use figures/cm_ldhd.pdf>
 Package pdftex.def Info: figures/cm_ldhd.pdf used on input line 1283.
 (pdftex.def)             Requested size: 376.42575pt x 282.31943pt.
- [85 <./figures/cm_ld.pdf>]
+ [83 <./figures/cm_ld.pdf>]
 Underfull \vbox (badness 1609) has occurred while \output is active []
 
- [86 <./figures/cm_ldhd.pdf>] [87] <figures/eos_bayes.pdf, id=2380, 462.52798pt x 346.89601pt>
+ [84 <./figures/cm_ldhd.pdf>] [85] <figures/eos_bayes.pdf, id=2372, 462.52798pt x 346.89601pt>
 File: figures/eos_bayes.pdf Graphic file (type pdf)
  <use figures/eos_bayes.pdf>
 Package pdftex.def Info: figures/eos_bayes.pdf used on input line 1389.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [88 <./figures/eos_bayes.pdf>] <figures/mr_bayes.pdf, id=2419, 462.52798pt x 346.89601pt>
+ [86 <./figures/eos_bayes.pdf>] <figures/mr_bayes.pdf, id=2411, 462.52798pt x 346.89601pt>
 File: figures/mr_bayes.pdf Graphic file (type pdf)
  <use figures/mr_bayes.pdf>
 Package pdftex.def Info: figures/mr_bayes.pdf used on input line 1438.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [89]
+ [87]
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [90 <./figures/mr_bayes.pdf>]
+ [88 <./figures/mr_bayes.pdf>]
 Overfull \hbox (8.51695pt too wide) in paragraph at lines 1531--1542
 \T1/lmr/m/n/10.95 For the spe-cific case of GW170817, this quan-tity has been well con-strained to $\OMS/lmsy/m/n/10.95 M[] \OT1/lmr/m/n/10.95 =
  []
@@ -1805,28 +1799,28 @@ Overfull \hbox (0.40187pt too wide) in paragraph at lines 1531--1542
 \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 m[]$ \T1/lmr/m/n/10.95 are ob-tained from $\OMS/lmsy/m/n/10.95 M[]$ \T1/lmr/m/n/10.95 and the mass ra-tio $\OML/lmm/m/it/10.95 m[]=m[]$ \T1/lmr/m/n/10.95 (see Fig. 4 of [[][]Abb+17[][]]).
  []
 
-<figures/tidal_bayes.pdf, id=2473, 462.52798pt x 346.89601pt>
+<figures/tidal_bayes.pdf, id=2465, 462.52798pt x 346.89601pt>
 File: figures/tidal_bayes.pdf Graphic file (type pdf)
  <use figures/tidal_bayes.pdf>
 Package pdftex.def Info: figures/tidal_bayes.pdf used on input line 1545.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- <figures/lambda14_bayes.pdf, id=2484, 462.52798pt x 346.89601pt>
+ <figures/lambda14_bayes.pdf, id=2476, 462.52798pt x 346.89601pt>
 File: figures/lambda14_bayes.pdf Graphic file (type pdf)
  <use figures/lambda14_bayes.pdf>
 Package pdftex.def Info: figures/lambda14_bayes.pdf used on input line 1588.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [91]
+ [89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92 <./figures/tidal_bayes.pdf>] <figures/surf_bayes.pdf, id=2519, 462.52798pt x 346.89601pt>
+ [90 <./figures/tidal_bayes.pdf>] <figures/surf_bayes.pdf, id=2510, 462.52798pt x 346.89601pt>
 File: figures/surf_bayes.pdf Graphic file (type pdf)
  <use figures/surf_bayes.pdf>
 Package pdftex.def Info: figures/surf_bayes.pdf used on input line 1647.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [93 <./figures/lambda14_bayes.pdf>]
+ [91 <./figures/lambda14_bayes.pdf>]
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [94 <./figures/surf_bayes.pdf>] <figures/corr_ntpt_pars.pdf, id=2594, 462.52798pt x 346.89601pt>
+ [92 <./figures/surf_bayes.pdf>] <figures/corr_ntpt_pars.pdf, id=2586, 462.52798pt x 346.89601pt>
 File: figures/corr_ntpt_pars.pdf Graphic file (type pdf)
  <use figures/corr_ntpt_pars.pdf>
 Package pdftex.def Info: figures/corr_ntpt_pars.pdf used on input line 1717.
@@ -1834,44 +1828,44 @@ Package pdftex.def Info: figures/corr_ntpt_pars.pdf used on input line 1717.
 
 Underfull \vbox (badness 6445) has occurred while \output is active []
 
- [95] <figures/ntpt_priorp3.pdf, id=2603, 433.62pt x 433.62pt>
+ [93] <figures/ntpt_priorp3.pdf, id=2595, 433.62pt x 433.62pt>
 File: figures/ntpt_priorp3.pdf Graphic file (type pdf)
  <use figures/ntpt_priorp3.pdf>
 Package pdftex.def Info: figures/ntpt_priorp3.pdf used on input line 1803.
 (pdftex.def)             Requested size: 171.90036pt x 171.90327pt.
- <figures/ntpt_hdp3.pdf, id=2604, 433.62pt x 433.62pt>
+ <figures/ntpt_hdp3.pdf, id=2596, 433.62pt x 433.62pt>
 File: figures/ntpt_hdp3.pdf Graphic file (type pdf)
  <use figures/ntpt_hdp3.pdf>
 Package pdftex.def Info: figures/ntpt_hdp3.pdf used on input line 1804.
 (pdftex.def)             Requested size: 171.90036pt x 171.90327pt.
- <figures/ntpt_ldp3.pdf, id=2605, 433.62pt x 433.62pt>
+ <figures/ntpt_ldp3.pdf, id=2597, 433.62pt x 433.62pt>
 File: figures/ntpt_ldp3.pdf Graphic file (type pdf)
  <use figures/ntpt_ldp3.pdf>
 Package pdftex.def Info: figures/ntpt_ldp3.pdf used on input line 1805.
 (pdftex.def)             Requested size: 171.90036pt x 171.90327pt.
- <figures/ntpt_ldwpresp3.pdf, id=2606, 433.62pt x 433.62pt>
+ <figures/ntpt_ldwpresp3.pdf, id=2598, 433.62pt x 433.62pt>
 File: figures/ntpt_ldwpresp3.pdf Graphic file (type pdf)
  <use figures/ntpt_ldwpresp3.pdf>
 Package pdftex.def Info: figures/ntpt_ldwpresp3.pdf used on input line 1806.
 (pdftex.def)             Requested size: 171.90036pt x 171.90327pt.
- <figures/ntpt_ldhdp3.pdf, id=2607, 433.62pt x 433.62pt>
+ <figures/ntpt_ldhdp3.pdf, id=2599, 433.62pt x 433.62pt>
 File: figures/ntpt_ldhdp3.pdf Graphic file (type pdf)
  <use figures/ntpt_ldhdp3.pdf>
 Package pdftex.def Info: figures/ntpt_ldhdp3.pdf used on input line 1807.
 (pdftex.def)             Requested size: 171.90036pt x 171.90327pt.
- <figures/ntpt_marg.pdf, id=2608, 433.62pt x 433.62pt>
+ <figures/ntpt_marg.pdf, id=2600, 433.62pt x 433.62pt>
 File: figures/ntpt_marg.pdf Graphic file (type pdf)
  <use figures/ntpt_marg.pdf>
 Package pdftex.def Info: figures/ntpt_marg.pdf used on input line 1808.
 (pdftex.def)             Requested size: 171.90036pt x 171.90327pt.
- [96 <./figures/corr_ntpt_pars.pdf>] [97]
+ [94 <./figures/corr_ntpt_pars.pdf>] [95]
 
-LaTeX Warning: Text page 98 contains only floats.
+LaTeX Warning: Text page 96 contains only floats.
 
 
 Overfull \vbox (3.68503pt too high) has occurred while \output is active []
 
- [98 <./figures/ntpt_priorp3.pdf> <./figures/ntpt_hdp3.pdf
+ [96 <./figures/ntpt_priorp3.pdf> <./figures/ntpt_hdp3.pdf
 
 pdfTeX warning: pdflatex (file ./figures/ntpt_hdp3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./figures/ntpt_ldp3.pdf
@@ -1886,7 +1880,7 @@ pdfTeX warning: pdflatex (file ./figures/ntpt_ldhdp3.pdf): PDF inclusion: multip
 > <./figures/ntpt_marg.pdf
 
 pdfTeX warning: pdflatex (file ./figures/ntpt_marg.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <figures/ifrac14_vs_lcrust14.pdf, id=2724, 433.62pt x 433.62pt>
+>] <figures/ifrac14_vs_lcrust14.pdf, id=2715, 433.62pt x 433.62pt>
 File: figures/ifrac14_vs_lcrust14.pdf Graphic file (type pdf)
  <use figures/ifrac14_vs_lcrust14.pdf>
 Package pdftex.def Info: figures/ifrac14_vs_lcrust14.pdf used on input line 1883.
@@ -1894,7 +1888,7 @@ Package pdftex.def Info: figures/ifrac14_vs_lcrust14.pdf used on input line 1883
 
 Underfull \vbox (badness 6708) has occurred while \output is active []
 
- [99 <./figures/ifrac14_vs_lcrust14.pdf>] <figures/mr_from_g_vela.pdf, id=2750, 462.52798pt x 346.89601pt>
+ [97 <./figures/ifrac14_vs_lcrust14.pdf>] <figures/mr_from_g_vela.pdf, id=2742, 462.52798pt x 346.89601pt>
 File: figures/mr_from_g_vela.pdf Graphic file (type pdf)
  <use figures/mr_from_g_vela.pdf>
 Package pdftex.def Info: figures/mr_from_g_vela.pdf used on input line 1918.
@@ -1902,148 +1896,152 @@ Package pdftex.def Info: figures/mr_from_g_vela.pdf used on input line 1918.
 
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [100 <./figures/mr_from_g_vela.pdf>] <figures/ifrac_vs_m.pdf, id=2789, 462.52798pt x 346.89601pt>
+ [98 <./figures/mr_from_g_vela.pdf>] <figures/ifrac_vs_m.pdf, id=2781, 462.52798pt x 346.89601pt>
 File: figures/ifrac_vs_m.pdf Graphic file (type pdf)
  <use figures/ifrac_vs_m.pdf>
 Package pdftex.def Info: figures/ifrac_vs_m.pdf used on input line 1984.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [101]
+ [99]
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [102 <./figures/ifrac_vs_m.pdf>]) (./sections/chapter3.tex [103] [104
+ [100 <./figures/ifrac_vs_m.pdf>]) (./sections/chapter3.tex [101] [102
 
 ]
 Chapter 3.
+[103]
 \openout5 = `PhDThesis_CARREAU.mtc'.
 
 \openout5 = `PhDThesis_CARREAU.mtc'.
 
-(./PhDThesis_CARREAU.mtc3) [105] [106] [107] [108] [109] <figures/fliqsol.pdf, id=2971, 462.52798pt x 346.89601pt>
+ (./PhDThesis_CARREAU.mtc3) [104] [105] [106] [107] <figures/fliqsol.pdf, id=2973, 462.52798pt x 346.89601pt>
 File: figures/fliqsol.pdf Graphic file (type pdf)
  <use figures/fliqsol.pdf>
-Package pdftex.def Info: figures/fliqsol.pdf used on input line 267.
+Package pdftex.def Info: figures/fliqsol.pdf used on input line 301.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [110]
+ [108]
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [111 <./figures/fliqsol.pdf>] [112] [113] [114] [115] [116] [117] [118] [119] <figures/tm_ocrust.pdf, id=3158, 462.52798pt x 346.89601pt>
+ [109 <./figures/fliqsol.pdf>] [110] [111] [112] [113] [114] [115] [116] [117] <figures/tm_ocrust.pdf, id=3159, 462.52798pt x 346.89601pt>
 File: figures/tm_ocrust.pdf Graphic file (type pdf)
  <use figures/tm_ocrust.pdf>
-Package pdftex.def Info: figures/tm_ocrust.pdf used on input line 962.
+Package pdftex.def Info: figures/tm_ocrust.pdf used on input line 996.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [120]
+ [118]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121 <./figures/tm_ocrust.pdf>] <figures/ocrust_compo_vs_temp.pdf, id=3215, 462.52798pt x 346.89601pt>
+ [119 <./figures/tm_ocrust.pdf>] <figures/ocrust_compo_vs_temp.pdf, id=3215, 462.52798pt x 346.89601pt>
 File: figures/ocrust_compo_vs_temp.pdf Graphic file (type pdf)
  <use figures/ocrust_compo_vs_temp.pdf>
-Package pdftex.def Info: figures/ocrust_compo_vs_temp.pdf used on input line 1032.
+Package pdftex.def Info: figures/ocrust_compo_vs_temp.pdf used on input line 1066.
 (pdftex.def)             Requested size: 418.25368pt x 313.70679pt.
- [122 <./figures/ocrust_compo_vs_temp.pdf>] <figures/pj_ocrust.pdf, id=3245, 462.52798pt x 346.89601pt>
+ [120 <./figures/ocrust_compo_vs_temp.pdf>] <figures/pj_ocrust.pdf, id=3245, 462.52798pt x 346.89601pt>
 File: figures/pj_ocrust.pdf Graphic file (type pdf)
  <use figures/pj_ocrust.pdf>
-Package pdftex.def Info: figures/pj_ocrust.pdf used on input line 1069.
+Package pdftex.def Info: figures/pj_ocrust.pdf used on input line 1103.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
  <figures/compo_mcp_ocrust.pdf, id=3250, 462.52798pt x 346.89601pt>
 File: figures/compo_mcp_ocrust.pdf Graphic file (type pdf)
  <use figures/compo_mcp_ocrust.pdf>
-Package pdftex.def Info: figures/compo_mcp_ocrust.pdf used on input line 1088.
+Package pdftex.def Info: figures/compo_mcp_ocrust.pdf used on input line 1122.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [123 <./figures/pj_ocrust.pdf>]
+ [121 <./figures/pj_ocrust.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124 <./figures/compo_mcp_ocrust.pdf>] <figures/qimp_ocrust.pdf, id=3316, 462.52798pt x 346.89601pt>
+ [122 <./figures/compo_mcp_ocrust.pdf>] <figures/qimp_ocrust.pdf, id=3317, 462.52798pt x 346.89601pt>
 File: figures/qimp_ocrust.pdf Graphic file (type pdf)
  <use figures/qimp_ocrust.pdf>
-Package pdftex.def Info: figures/qimp_ocrust.pdf used on input line 1175.
+Package pdftex.def Info: figures/qimp_ocrust.pdf used on input line 1209.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [125] [126 <./figures/qimp_ocrust.pdf>] <figures/yodd_ocrust.pdf, id=3363, 462.52798pt x 346.89601pt>
+ [123] [124 <./figures/qimp_ocrust.pdf>] <figures/yodd_ocrust.pdf, id=3364, 462.52798pt x 346.89601pt>
 File: figures/yodd_ocrust.pdf Graphic file (type pdf)
  <use figures/yodd_ocrust.pdf>
-Package pdftex.def Info: figures/yodd_ocrust.pdf used on input line 1242.
+Package pdftex.def Info: figures/yodd_ocrust.pdf used on input line 1276.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [127 <./figures/yodd_ocrust.pdf>]
-Overfull \hbox (3.74414pt too wide) in paragraph at lines 1324--1362
+ [125 <./figures/yodd_ocrust.pdf>]
+Overfull \hbox (3.74414pt too wide) in paragraph at lines 1358--1396
 \OML/lmm/m/it/10.95 dV\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 r\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ^^Z[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 r\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 ($\OML/lmm/m/it/10.95 dm[] \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 dV\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 r\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ^^Z[]$\T1/lmr/m/n/10.95 ), with the baryon mass den-sity $\OML/lmm/m/it/10.95 ^^Z[] \OMS/lmsy/m/n/10.95 / [][] \OML/lmm/m/it/10.95 p[]F[]=\OMS/lmsy/m/n/10.95 h\OML/lmm/m/it/10.95 V[]\OMS/lmsy/m/n/10.95 i$
  []
 
-[128] <figures/bsk14compo_vs_nb.pdf, id=3421, 462.52798pt x 346.89601pt>
+[126] <figures/bsk14compo_vs_nb.pdf, id=3421, 462.52798pt x 346.89601pt>
 File: figures/bsk14compo_vs_nb.pdf Graphic file (type pdf)
  <use figures/bsk14compo_vs_nb.pdf>
-Package pdftex.def Info: figures/bsk14compo_vs_nb.pdf used on input line 1413.
+Package pdftex.def Info: figures/bsk14compo_vs_nb.pdf used on input line 1447.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [129] [130 <./figures/bsk14compo_vs_nb.pdf>] <figures/fdensws_vs_zz.pdf, id=3468, 1011.78pt x 578.16pt>
+ [127] [128 <./figures/bsk14compo_vs_nb.pdf>] <figures/fdensws_vs_zz.pdf, id=3469, 1011.78pt x 578.16pt>
 File: figures/fdensws_vs_zz.pdf Graphic file (type pdf)
  <use figures/fdensws_vs_zz.pdf>
-Package pdftex.def Info: figures/fdensws_vs_zz.pdf used on input line 1499.
+Package pdftex.def Info: figures/fdensws_vs_zz.pdf used on input line 1533.
 (pdftex.def)             Requested size: 418.25368pt x 239.00562pt.
 
 Underfull \vbox (badness 7433) has occurred while \output is active []
 
- [131 <./figures/fdensws_vs_zz.pdf>] <figures/tm_compo_final1.pdf, id=3505, 462.52798pt x 346.89601pt>
+ [129 <./figures/fdensws_vs_zz.pdf>] <figures/tm_compo_final1.pdf, id=3506, 462.52798pt x 346.89601pt>
 File: figures/tm_compo_final1.pdf Graphic file (type pdf)
  <use figures/tm_compo_final1.pdf>
-Package pdftex.def Info: figures/tm_compo_final1.pdf used on input line 1603.
+Package pdftex.def Info: figures/tm_compo_final1.pdf used on input line 1637.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
- [132] <figures/tm_compo_final2.pdf, id=3513, 462.52798pt x 346.89601pt>
+ [130] <figures/tm_compo_final2.pdf, id=3514, 462.52798pt x 346.89601pt>
 File: figures/tm_compo_final2.pdf Graphic file (type pdf)
  <use figures/tm_compo_final2.pdf>
-Package pdftex.def Info: figures/tm_compo_final2.pdf used on input line 1636.
+Package pdftex.def Info: figures/tm_compo_final2.pdf used on input line 1670.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [133 <./figures/tm_compo_final1.pdf>] <figures/ypcell_ocp.pdf, id=3535, 462.52798pt x 346.89601pt>
+ [131 <./figures/tm_compo_final1.pdf>] <figures/ypcell_ocp.pdf, id=3535, 462.52798pt x 346.89601pt>
 File: figures/ypcell_ocp.pdf Graphic file (type pdf)
  <use figures/ypcell_ocp.pdf>
-Package pdftex.def Info: figures/ypcell_ocp.pdf used on input line 1652.
+Package pdftex.def Info: figures/ypcell_ocp.pdf used on input line 1686.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
- [134 <./figures/tm_compo_final2.pdf>]
+ [132 <./figures/tm_compo_final2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135 <./figures/ypcell_ocp.pdf>] <figures/compo_icrust_bsk24_mcp.pdf, id=3587, 462.52798pt x 346.89601pt>
+ [133 <./figures/ypcell_ocp.pdf>] <figures/compo_icrust_bsk24_mcp.pdf, id=3588, 462.52798pt x 346.89601pt>
 File: figures/compo_icrust_bsk24_mcp.pdf Graphic file (type pdf)
  <use figures/compo_icrust_bsk24_mcp.pdf>
-Package pdftex.def Info: figures/compo_icrust_bsk24_mcp.pdf used on input line 1728.
+Package pdftex.def Info: figures/compo_icrust_bsk24_mcp.pdf used on input line 1762.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
 Underfull \vbox (badness 8038) has occurred while \output is active []
 
- [136 <./figures/compo_icrust_bsk24_mcp.pdf>] <figures/pj_icrust_bsk24.pdf, id=3610, 346.89601pt x 462.52798pt>
+ [134 <./figures/compo_icrust_bsk24_mcp.pdf>] <figures/pj_icrust_bsk24.pdf, id=3611, 346.89601pt x 462.52798pt>
 File: figures/pj_icrust_bsk24.pdf Graphic file (type pdf)
  <use figures/pj_icrust_bsk24.pdf>
-Package pdftex.def Info: figures/pj_icrust_bsk24.pdf used on input line 1761.
+Package pdftex.def Info: figures/pj_icrust_bsk24.pdf used on input line 1795.
 (pdftex.def)             Requested size: 204.9466pt x 273.26318pt.
- <figures/joyplot_bsk24_tm.pdf, id=3611, 346.29375pt x 461.725pt>
+ <figures/joyplot_bsk24_tm.pdf, id=3612, 346.29375pt x 461.725pt>
 File: figures/joyplot_bsk24_tm.pdf Graphic file (type pdf)
  <use figures/joyplot_bsk24_tm.pdf>
-Package pdftex.def Info: figures/joyplot_bsk24_tm.pdf used on input line 1762.
+Package pdftex.def Info: figures/joyplot_bsk24_tm.pdf used on input line 1796.
 (pdftex.def)             Requested size: 204.9466pt x 273.26788pt.
 
 Underfull \vbox (badness 1460) has occurred while \output is active []
 
- [137 <./figures/pj_icrust_bsk24.pdf> <./figures/joyplot_bsk24_tm.pdf>] <figures/qimp_icrust.pdf, id=3660, 462.52798pt x 346.89601pt>
+ [135 <./figures/pj_icrust_bsk24.pdf> <./figures/joyplot_bsk24_tm.pdf>] <figures/qimp_icrust.pdf, id=3661, 462.52798pt x 346.89601pt>
 File: figures/qimp_icrust.pdf Graphic file (type pdf)
  <use figures/qimp_icrust.pdf>
-Package pdftex.def Info: figures/qimp_icrust.pdf used on input line 1813.
+Package pdftex.def Info: figures/qimp_icrust.pdf used on input line 1847.
 (pdftex.def)             Requested size: 376.42575pt x 282.33398pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4108) has occurred while \output is active []
 
- [138]
+ [136]
 Underfull \vbox (badness 3449) has occurred while \output is active []
 
- [139 <./figures/qimp_icrust.pdf>]) (./sections/appendices.tex [140]
-Appendix A.
-[141
+ [137 <./figures/qimp_icrust.pdf>])
+Underfull \vbox (badness 6445) has occurred while \output is active []
 
-] [142]
+ [138] (./sections/appendices.tex [139] [140
+
+]
+Appendix A.
+[141] [142]
 Appendix B.
 [143
 
@@ -2101,7 +2099,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `PhDThesis_CARREAU.out' has not changed.
-(rerunfilecheck)             Checksum: 631243741F13957F04F4E05E858842DA;7782.
+(rerunfilecheck)             Checksum: 27FAE8A7289FAE80035F7DC977265895;7780.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2112,10 +2110,10 @@ Package logreq Info: Writing requests to 'PhDThesis_CARREAU.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 28206 strings out of 493013
- 518826 string characters out of 6135682
- 1605477 words of memory out of 5000000
- 30483 multiletter control sequences out of 15000+600000
+ 28207 strings out of 493013
+ 518841 string characters out of 6135682
+ 1606626 words of memory out of 5000000
+ 30484 multiletter control sequences out of 15000+600000
  168502 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,49p,10394b,1675s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2123,10 +2121,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (156 pages, 2388611 bytes).
+Output written on PhDThesis_CARREAU.pdf (156 pages, 2393594 bytes).
 PDF statistics:
- 4241 PDF objects out of 4296 (max. 8388607)
- 3821 compressed objects within 39 object streams
+ 4250 PDF objects out of 4296 (max. 8388607)
+ 3830 compressed objects within 39 object streams
  666 named destinations out of 1000 (max. 500000)
  945 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,20 +1,54 @@
-\chapter{Crystallization of the crust of a non-accreting neutron star}
+\chapter{Crystallization of the crust of a nonaccreting neutron star}
 
-% very short intro
+It is widely accepted that NS are born hot in supernova 
+explosions, after their presupernova progenitors exhaust nuclear fuel in their
+cores. During the subsequent neutrino-transparent stage that takes place 
+approximately one minute after the explosion, the protoneutron star (PNS) 
+begins to cool down by neutrino emission and by heat diffusion from the 
+internal layers to the surface, leading to the thermal emission of photons.
+In the cooling process, the composition and properties of the crust are thought 
+to be fixed at the finite temperature where nuclear reactions fall out of 
+equilibrium. A lower estimate for this temperature is given by the 
+crystallization temperature, which can be as high as $\approx 9\times 10^9$ K
+in the crust, potentially leading to sizable differences with respect to
+the simplifying CCM hypothesis.
 
-% something pns
-% something zero temperature
-% crystallization temperature is a lower estimate for the temperature at which 
-%   nuclear reactions fall out of equilibrium (see ic sh paper)
+Nuclear statistical equilibrium (NSE) approaches have been recently developped 
+to account a full distribution of nuclei at finite 
+temperature~\cite{Gulminelli2015}, in contrast with the SNA considers a unique
+configuration for a given thermodynamic condition. NSE approaches allow among
+others to properly calculate the so-called impurity parameter entering cooling
+simulations, generally taken as free parameter directly fitted to cooling
+data. Another quantity of interest that can be evaluated is fraction of 
+odd-mass and odd-charge nuclei in the outer crust. Their presence at low
+temperature might be the sign of ferromagnetic phase transitions, which could 
+alter the relativistic electron gas.
 
-% plan
-% most of the results presented in this Chapter are published or submitted
+As in the zero-temperature limit, results in the free neutron regime at
+finite temperature are fully model dependent, thus a nuclear free energy
+functional is required. Given its simplicity and because it is not expensive
+from the computational point of view, the CLD approach is very appealing, and 
+has been already used in the past~\cite{Gulminelli2015,Grams2018}. However,
+within this approach, the problem of the temperature dependence of shell 
+corrections needs to be adressed in order to make realistic predictions for the 
+crystallization temperature and associated composition in the inner crust.
+
+This chapter is organized as follows. In Section~\ref{sec:modelcrusttemp}, we
+introduce the model of the crust at finite temperature. The one-component 
+plasma approximation (OCP) and multicomponent plasma (MCP) treatment are
+presented, and the expression of the nuclear free energy employed in the free
+neutron regime is given. 
+Results relevant for the outer crust and inner crust of NS at finite 
+temperature and particularly at crystallization are then shown in 
+Sections~\ref{sec:ocrust_tm} and~\ref{sec:icrust_tm}, respectively.
+Most of the results presented in this chapter have been 
+published~\cite{Fantina2020,Carreau2019,Carreau2020}.
 
 \minitoc\newpage
 
 \section{Model of the crust at finite temperature}\label{sec:modelcrusttemp}
 
-This section deals with the model of the crust at finite temperature. 
+This section deals with the modeling of the crust at finite temperature. 
 Since the possible contribution of a free proton gas is expected to be small at 
 the temperatures considered, we neglect it. This working hypothesis 
 is a posteriori confirmed by the calculation of the proton fugacity, 
@@ -22,11 +56,11 @@ $z_p = \exp[(\mu_p-m_pc^2)/(k_B T)]$, which never exceeds $-20$ MeV in
 the density and temperature domain of interest. 
 The existence of nonspherical pasta phases expected in the deeper layers of the 
 inner crust ($n_B \gtrsim 0.05$ fm$^{-3}$~\cite{Pearson2020}) is difficult to 
-account for in the multicomponent plasma (MCP) approach~\cite{Barros2020}, and 
+account for within the MCP approach~\cite{Barros2020}, and 
 as a consequence is not considered in this study.
 
-We review the one-component plasma (OCP) approximation 
-in~\ref{subsec:ocp}. We give the expressions of the ideal and interacting
+We review the OCP in~\ref{subsec:ocp}. 
+We give the expressions of the ideal and interacting
 contributions to the ion free energy in solid and liquid phases, and discuss 
 the thermodynamic condition for crystallization. The nuclear statistical
 equilibrium (NSE) is implemented perturbatively in the MCP approach 
@@ -1360,7 +1394,7 @@ crystallization temperature, we find that odd nuclei constitute $2.05\%$ of
 species in the outer crust and contribute $2.40\%$ of the outer-crust baryonic 
 mass.
 
-\section{Study of the inner crust at crystallization}
+\section{Study of the inner crust at crystallization}\label{sec:icrust_tm}
 
 While slightly softened with respect to CCM, shell effects in the outer 
 crust at crystallization are still very important and are clearly reflected on 
@@ -1397,7 +1431,7 @@ approximation}\label{subsec:shtemp}
 In~\ref{subsec:strutinsky}, we have proposed a strategy to add perturbatively 
 proton shell corrections to the CLD energy in the free neutron
 regime. Let us recall that neutron shell effects become vanishingly small 
-beyond the neutron drip point~\cite{Chamel2006,Chamel2007}.
+beyond the neutron-drip point~\cite{Chamel2006,Chamel2007}.
 Strutinsky proton shell corrections have been tabulated in the inner 
 crust at zero temperature for four recent functionals of the BSk family, namely 
 BSk22, BSk24, BSk25, and BSk26~\cite{Pearson2018}. In the following, we 
@@ -1558,7 +1592,7 @@ experimental masses of 9 spherical and semimagic nuclei only, namely
 $^{40,48}$Ca, $^{48,58}$Ni, $^{88}$Sr, $^{90}$Zr, $^{114,132}$Sn, and 
 $^{208}$Pb, while solid lines show the predictions with surface properties 
 being fitted to the associated ETF calculations performed up to the 
-respective neutron drip lines~\cite{PearsonPriv} (default option). 
+respective neutron-drip lines~\cite{PearsonPriv} (default option). 
 Let us notice that in both 
 cases, the isovector surface parameter is fixed to the value $p=3$, which 
 ensures a good reproduction of the CC transition density and pressure for each 
@@ -1585,7 +1619,7 @@ composition and crystallization temperature.
 %
 Given the present CLD calculations, we find that the crystallization 
 temperature of a OCP in the inner crust ranges from $\approx 3\times 10^9$ K at 
-the neutron drip point to $\approx 9\times 10^9$ K at high density close the CC 
+the neutron-drip point to $\approx 9\times 10^9$ K at high density close the CC 
 transition point.
 The different functionals models lead to predictions that progressively diverge 
 with increasing depth, the crystallization temperature differing by up to 
@@ -1679,7 +1713,7 @@ It is clearly seen that the band becomes thicker as we go deeper in the
 star, showing that the model dependence of $y_p$ is more important at high 
 density. 
 The band associated to $n_B = 3\times 10^{-4}$ fm$^{-3}$, which is
-very close to the neutron drip point, is quite thin, reflecting the fact 
+very close to the neutron-drip point, is quite thin, reflecting the fact 
 that the determination of the beta equilibrium is insensitive to the nuclear 
 model employed at low density.
 %
@@ -1850,8 +1884,12 @@ the models becomes larger, with the functional associated to the larger
 symmetry energy at saturation density $E_{sym}$ having the larger 
 $Q_{\text{imp}}$, leading to a relative difference of $\approx 55\%$ at $n_B
 = 0.04$ fm$^{-3}$. 
-The same trend is observed at $T= 1\times 10^{10}$ K (dashed 
-lines), although the hierarchy of the models is not preserved.
+Let us recall that the obtained values of the impurity parameter represent a
+lower limit. Indeed, larger values are expected in the presence of nonspherical
+geometries and/or fast cooling dynamics. For this reason, we also represent the
+impurity parameter for $T= 1\times 10^{10}$ K (dashed 
+lines). At this value of temperature, the same trend is observed, although the 
+hierarchy of the models is not preserved.
 
 \section{Conclusion}
 
@@ -1876,7 +1914,7 @@ single WS cell volume but can freely explore the whole volume.
 The neutron and proton chemical potentials in the MCP mixture were found to be 
 very close to the OCP ones, showing that a perturbative implementation of the 
 NSE is sufficient. 
-We have seen that a rearragement term enters the expression of thermodynamic 
+We have seen that a rearrangement term enters the expression of thermodynamic 
 potential due to the self-consistency induced by the Coulomb part of the ion 
 free energy, and we have calculated this term by imposing the most probable 
 nucleus to coincide with the OCP solution.
@@ -1898,7 +1936,7 @@ outer crust. We have observed that neglecting the anharmonic contribution to
 the ion free energy in the solid phase lead to an underestimation of the
 crystallization temperature, which ranges from approximately $5\times 10^7$ K 
 at very low pressure to $2.8\times 10^9$ K in the vicinity of the neutron-drip 
-point, and exhibits a discontinous behavior due to the shell effects. 
+point, and exhibits a discontinuous behavior due to the shell effects. 
 We have verified that the crystallization temperature is not strongly 
 dependent on the mass model in the bottom layers of the outer crust, as far as 
 realistic theoretical mass tables are employed.
@@ -1925,9 +1963,31 @@ constitute $\approx 2\%$ of species in the outer crust, and contribute
 $\approx 2.4\%$ of the outer-crust baryonic mass. The presence of unpaired
 nucleons in the outer crust might be the cause for ferromagnetic phase 
 transitions at low temperature, which in return could generate a magnetic field 
-and alter the existing one, and so the relativistic electon gas.
+and alter the existing one, and so the relativistic electron gas.
 
-Finally, we have presented results relevant for the inner crust of
-PNS, particularly at the crystallization temperature.
+Finally, using modern BSk functionals, we have presented results relevant for 
+the inner crust of PNS, particularly at the crystallization temperature.
 % icrust shells
+Following our work at zero temperature, we have added temperature-dependent 
+shell corrections to the CLD free energy, and within the OCP approximation, we 
+have demonstrated that the highest source of model dependence of the 
+crystallization temperature and associated composition comes from the smooth 
+part of the nuclear functional. In addition, we have seen that shell 
+effects are strongly softened at the crystallization temperature in the inner 
+crust, which we have estimated to lie between $\approx 3\times 10^9$ K and 
+$\approx 9\times 10^9$ K. 
+Concerning the composition at crystallization, we have observed deviations with 
+respect to CCM at low density. We have stressed that the increased $Q$ value
+for neutron capture could alter the $r$-process that takes places in binary NS 
+mergers.
 % icrust mcp
+Within the MCP treatment, we have shown that at the crystallization temperature
+the composition of the inner crust is dominated by clusters with charge number
+$Z\approx 40$, while the range of the charge distribution varies from about 
+$20$ near the neutron-drip point, to about $40$ close to the transition to
+homogeneous matter.
+This reflects on the behavior of the impurity parameter that monotonically 
+increases with average baryon density up to around $40$ in the deeper regions 
+of the inner crust.
+We have also observed that the inclusion of the rearrangement term is required 
+to guarantee thermodynamic consistency.
