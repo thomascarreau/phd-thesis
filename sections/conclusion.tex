@@ -1,2 +1,189 @@
-\chapter*{General conclusion}
-\addcontentsline{toc}{chapter}{General conclusion}
+\chapter*{General conclusions and outlooks}
+\addcontentsline{toc}{chapter}{General conclusions and outlooks}
+
+% RESTATE THESIS STATEMENT
+% ========================
+The aim of this thesis has been to make realistic predictions and to 
+investigate the sources of uncertainties in the observables of nonaccreting 
+cold NS and PNS, using a unified metamodeling 
+approach for the description of stellar matter energetics which allows to 
+account for the present day constraints provided by nuclear experiments and 
+astrophysical observations.
+\\
+
+% KEY POINTS
+% ==========
+We have considered a unified metamodeling approach in order to 
+calculate the composition and EoS of cold nonaccreting NS for any 
+functional of NM using the associated empirical parameters as inputs, with an 
+error lower than $10\%$ in the inner crust and $1\%$ in the core for SLy4 EoS 
+with respect to the DH EoS. 
+To model the energy of clusters in the inner crust, we have proposed a version 
+of the well-known CLDM based on the metamodeling technique, with a
+parametrization of the surface tension suggested from TF calculations at 
+extreme isospin ratios. The ground-state composition obtained follows closely 
+the ETF results reported in the literature. The main drawback of the 
+CLD approach is that quantum effects are lost; however we have shown that magic 
+numbers in the inner crust can be recovered by adding Strutinsky shell 
+corrections to the CLD energy, leading to results in very good agreement with 
+ETFSI calculations. 
+The same sequence of nonspherical pasta phases in the deepest layers of the 
+inner crust has been observed for all CLDM considered, yet we have stressed 
+that it is sensitive to the behavior of the surface tension at high isospin,
+which remains poorly constrained to the present day.
+The same is true concerning the location of the transition point to 
+homogeneous $npe$ matter, which has been computed for several nuclear models
+from the crust side. The apparent anticorrelation between the slope of the
+symmetry energy at saturation $L_{sym}$ and the CC transition density, already
+reported in the literature, has been recovered.
+
+We have exploited the main asset of the metamodeling technique, namely the 
+fact that no artificial correlations are introduced a priori among the 
+empirical parameters, to carry out the Bayesian determination of the empirical
+parameters, leading to realistic predictions for NS observables. We have
+considered a flat prior for the empirical parameters whose boundaries are
+compatible with experimental constraints. 
+The likelihood function that we have constructed take into account recent 
+chiral EFT calculations for SNM and PNM up to $0.20$ fm$^{-3}$, and 
+the maximum mass constraint as well as basic physical requirements. 
+It also includes a probability in which is encoded the ability of the CLDM to 
+fit the masses of AME2016. We have shown that imposing the constraints
+associated to the ab initio calculations is very effective in constraining the 
+empirical parameters in the isovector channel, and that it yields 
+correlations among the symmetry energy derivatives at saturation.
+We have made general predictions for the static properties using the posterior 
+distribution of empirical parameters and found that our results are compatible 
+with constraints of the LIGO and Virgo collaborations inferred from GW170817.
+We have performed the Bayesian analysis of the CC transition point and 
+found that the transition density and pressure are correlated with the 
+isovector parameters, particularly with the sqewness parameter $Q_{sym}$.
+The fraction of crust moment of inertia, which is strongly correlated with the 
+location of the CC transition point, has been computed, allowing us to exclude 
+a full crustal origin of pulsar glitches if we consider the largest present 
+estimation of crustal entrainment. 
+
+Following a recent work on the outer crust, we have considered a full
+statistical equilibrium of ions in the crust at finite temperature allowing for 
+the presence of dripped neutrons. We have evaluated the abundancies of odd-mass 
+and odd-charge nuclei present in the outer crust at crystallization. Their
+presence could be the cause for ferromagnetic phase transitions.
+We have considered a temperature dependence of protons shell corrections in the 
+regime of the inner crust. The crystallization temperature and associated
+composition have been calculated in the OCP approximation, and our results
+suggest that the highest source of model dependence comes from the smooth part
+of the nuclear functional, the most important ingredient to be settled for a
+quantitative prediction of the inner crust properties being the surface tension
+at extreme isospin ratios. 
+Deviations from CCM have been observed at low density and crystallization
+temperature, thus potentially having an impact on the simulation of 
+$r$-processes.
+Finally, we have calculated the impurity parameter in the inner crust at 
+crystallization for four BSk functionals that span a relative large range in
+the symmetry energy parameters. It has shown that contributions of impurities 
+is nonnegligible, thus potentially altering transport properties in the NS 
+crust.
+\\
+
+% IMPACT AND FUTURE RESEARCH
+% ==========================
+Clearly, higher precision in the experimental determination of high-order
+isovector empirical parameters in the low-density EFT theoretical predictions 
+and in the microscopic modeling of the surface energy at extreme isospin ratios 
+are needed to reduce the uncertainties of crustal observables. Moreover, 
+we have shown that constraints on dense matter properties can be inferred from 
+astrophysical observations within the Bayesian framework. 
+Many new measurements are expected in the near future from NICER and LIGO/Virgo 
+collaborations, thus we can hope to reduce the uncertainties on the 
+high-order symmetry energy derivatives and on NS observables using Bayesian 
+inference or machine learning algorithms.
+
+Various applications of the formalism introduced for the description of a MCP 
+in a full statiscal equilibrium can be envisaged in the future. For instance, 
+one could investigate the presence of hyperons in the crust at crystallization. 
+Nonspherical geometries can also be considered in the MCP treatment, allowing 
+the evaluation of the impurity parameter in the bottom layers of the inner 
+crust.
+
+During the thesis, we have written an open-source C library, NSEoS, with the 
+aim to provide useful tools related to the physics of NS~\cite{NSEoS}. The 
+library has been used to produce all the results presented in this thesis, and 
+we believe that it can be used as a basis for future studies.
+
+%% KEY POINTS (old; replaced because boring)
+%% =========================================
+%In Chapter 1, we have determined the composition of the outer 
+%crust, inner crust, and core within the CCM hypothesis, and considered a 
+%unified metamodeling of the EoS.
+%%
+%The ground-state composition and EoS of the outer crust at $T=0$ K have been 
+%evaluated by the application of the BPS method~\cite{BPS}, using 
+%state-of-the-art microscopic HFB theoretical mass tables~\cite{Samyn2002} as 
+%a supplement to the present day knowledge on experimental 
+%masses~\cite{Huang2017,Welker2017}, when equilibrium nuclei are too neutron 
+%rich to be synthesized in the laboratory, that is from 
+%$n_B \approx 3\times 10^{-5}$ fm$^{-3}$. 
+%All mass models that we have considered agree on the persistence of $N=82$ in 
+%the bottom layers of the outer crust.
+%%
+%In the regime of the inner crust, the ground-state is fully model dependent due 
+%to the presence of a neutron gas surrounding the clusters. 
+%We have proposed a version of the well-known CLDM, based on the metamodeling 
+%technique introduced in~\cite{Margueron2018a,Margueron2018b}, to model the
+%cluster energetics. The inputs of our CLDM are the so-called empirical 
+%parameters, corresponding to the successive density derivatives of the energy 
+%at saturation density. 
+%The parametrization of the surface tension entering the 
+%expression of the surface plus curvature energy was suggested from TF 
+%calculations at extreme isospin ratios~\cite{Ravenhall1983}, and the associated 
+%parameters are fitted to experimental masses.
+%The fact that our CLDM is based on the metamodel allows to calculate the 
+%cluster energy for any functional of nuclear matter with a unique functional 
+%form.
+%%
+%The cluster energy enters the system of four coupled differential equations 
+%obtained from the minimization of the WS cell energy density at fixed baryon 
+%density, which once solved numerically, gives the ground-state composition 
+%and so the EoS of the inner crust.
+%%
+%Using the empirical parameters associated to the recent and realistic BSk24 
+%functional~\cite{Goriely2013}, we have observed a very good agreement with more 
+%microscopic approaches, notably ETF calculations, in particular for the value 
+%of the equilibrium cluster proton number, $Z\approx 40$, throughout the inner 
+%crust. We have seen that the EoS at subnuclear densities is correlated 
+%with the symmetry energy at saturation density $E_{sym}$, which is the most
+%constrained empirical parameter in the isovector channel. 
+%%
+%The main drawback of the CLD approach is that quantum effects are 
+%lost. While in the free neutron regime neutron shell effects become 
+%vanishingly small~\cite{Chamel2006,Chamel2007}, proton shell effects are 
+%expected to persist at zero temperature. 
+%For recent BSk functionals, proton shell corrections in the free neutron regime 
+%were calculated using Strutinsky method~\cite{Pearson2018}. We have added 
+%these corrections on top of the corresponding CLD energy to recover the 
+%appearance of the magic numbers in the ground-state composition. 
+%A remarkable stability has been
+%observed at $Z=40$ for BSk24 and BSk26, as well as $Z=40$ and $Z=20$ for BSk22,
+%in a very good agreement with the ETFSI results of~\cite{Pearson2018}.
+%%
+%One of the virtues of the CLD approach is that different geometries for 
+%clusters can be considered simply by adding a dimensionality parameter to the 
+%surface and Coulomb terms, allowing for the study of nonspherical pasta phases 
+%potentially present in the deepest layers of the inner crust 
+%\cite{Ravenhall1983,Lattimer1991,Lorenz1993,Newton2012}. 
+%For each of the four models considered, we have obtained the sequence spheres 
+%$\longrightarrow$ cylinders $\longrightarrow$ plates $\longrightarrow$ tubes, 
+%with spheres dominating up to $n_B \approx 0.05$ fm$^{-3}$. The sequence of
+%pasta phases is expected to be sensitive to the behavior or the surface 
+%tension at extreme isospin ratios, which is poorly constrained to the present
+%day.
+%%
+%The location of the transition point to homogeneous $npe$ matter has been
+%computed from the crust side, in contrast with the so-called
+%thermodynamical~\cite{Gonzalez2017} and 
+%dynamical~\cite{Pethick1995cc,Antic2019} methods based on the spinodal 
+%decomposition scenario, which is not compatible with clusterized matter.
+%% We have obtained a good agreement with the dynamical method. We have
+%% observed apparent correlations with $L_{sym}$ and with the parameter
+%% governing the behavior of the surface tension at high isospin.
+
+\clearpage\thispagestyle{empty}

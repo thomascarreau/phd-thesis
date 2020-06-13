@@ -2203,14 +2203,14 @@
     <bcf:citekey order="54">Goriely2013</bcf:citekey>
     <bcf:citekey order="55">Goriely2007</bcf:citekey>
     <bcf:citekey order="56">Moller1995</bcf:citekey>
-    <bcf:citekey order="57">Goriely2007</bcf:citekey>
-    <bcf:citekey order="58">Goriely2013</bcf:citekey>
+    <bcf:citekey order="57">Goriely2013</bcf:citekey>
+    <bcf:citekey order="58">Goriely2007</bcf:citekey>
     <bcf:citekey order="59">Moller1995</bcf:citekey>
     <bcf:citekey order="60">Goriely2013</bcf:citekey>
     <bcf:citekey order="61">Goriely2007</bcf:citekey>
     <bcf:citekey order="62">Moller1995</bcf:citekey>
-    <bcf:citekey order="63">Goriely2013</bcf:citekey>
-    <bcf:citekey order="64">Goriely2007</bcf:citekey>
+    <bcf:citekey order="63">Goriely2007</bcf:citekey>
+    <bcf:citekey order="64">Goriely2013</bcf:citekey>
     <bcf:citekey order="65">Moller1995</bcf:citekey>
     <bcf:citekey order="66">Goriely2013</bcf:citekey>
     <bcf:citekey order="67">Goriely2007</bcf:citekey>
@@ -2744,6 +2744,7 @@
     <bcf:citekey order="515">Carreau2020</bcf:citekey>
     <bcf:citekey order="516">Pearson2018</bcf:citekey>
     <bcf:citekey order="517">Fantina2020</bcf:citekey>
+    <bcf:citekey order="518">NSEoS</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
