@@ -20325,6 +20325,51 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.88.024308
       \endverb
     \endentry
+    \entry{Grasso2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e2ef8bf2c8c7bd93a06d501843943b8e}{%
+           family={Grasso},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d53c744d2d24d682373e520596b7c6db}{%
+           family={Lacroix},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5011dcf39d24a7923b7b94d41c451737}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{03a30c02a656940884e03497d56dbaa0}
+      \strng{fullhash}{03a30c02a656940884e03497d56dbaa0}
+      \strng{authornamehash}{03a30c02a656940884e03497d56dbaa0}
+      \strng{authorfullhash}{03a30c02a656940884e03497d56dbaa0}
+      \field{labelalpha}{GLY17}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{5}
+      \field{title}{Lee-Yang--inspired functional with a density-dependent neutron-neutron scattering length}
+      \field{volume}{95}
+      \field{year}{2017}
+      \field{pages}{054327}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.95.054327
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.95.054327
+      \endverb
+    \endentry
     \entry{Gonzalez2017}{article}{}
       \name{author}{4}{}{%
         {{hash=ea2bf6418df7a8c5854b23a89b081a43}{%

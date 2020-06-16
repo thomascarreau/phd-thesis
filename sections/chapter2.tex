@@ -536,8 +536,9 @@ mass\footnote{\edit{It differs from the
     definition Eq.~(\ref{eq:effm}), which corresponds to the $k$-mass $m_{n,k}$ 
     arising from the spatial nonlocality of the mean field. Here, the 
     $\omega$-dependence is introduced because of the transport of neutrons, 
-which is a dynamical phenomemon, and the neutron effective mass reads $m_n^*
-= m_{n,k} m_{n,\omega}/m$, where $m_{n,\omega}$ is the $\omega$-mass.}}.
+which is a dynamical phenomemon, and the neutron effective mass reads
+$m_n^* = m_{n,k} m_{n,\omega}/m_n$, where $m_{n,\omega}$ is the 
+$\omega$-mass.}}.
 It should be stressed that systematic calculations of $m_n^*$ throughout 
 the NS crust are very costly from the computational point of view. To get an 
 order of magnitude of the effect, 
@@ -734,15 +735,19 @@ attention is paid to the correlations among parameters.
 
 The core of Bayesian inference is based on well-known Bayes' theorem, 
 which provides an expression for the conditional probability (or posterior
-probability) of $A$ given $B$,
+probability) of a set of values for an ensemble of random variables $A$ given a
+second set $B$,
 %
 \begin{equation}
   P(A|B) = \frac{P(B|A)P(A)}{P(B)}.
 \end{equation}
 %
 In this equation, $P(B|A)$ is the conditional probability of $B$ given $A$, 
-$P(A)$ is the prior probability of $A$, and $P(B)$ that of $B$.
-In the model form of Bayes' theorem, one replaces $B$ by data, $A$ with 
+$P(A)$ is the prior probability of $A$, and $P(B)$ that of $B$. 
+The key point of the method is to realize that random variables are not limited
+to observational data, but they can comprise unknown parameters entering a
+theoretical modeling (the EoS parameters in our case). 
+In this model form of Bayes' theorem, one replaces $B$ by data, $A$ with 
 a parameter set $\bm{X}$, and $P$ with probability density functions (PDF) 
 $p$, resulting in~\cite{Bayes}
 %
@@ -751,7 +756,7 @@ $p$, resulting in~\cite{Bayes}
   p(\bm{X})}{p(\text{data})}.\label{eq:bayes1}
 \end{equation}
 %
-The denominator is not a distribution but a normalization constant which makes 
+The denominator acts as a normalization constant which makes 
 sure that the posterior distribution $p(\bm{X}|\text{data})$ is a 
 true probability distribution, by ensuring that the sum of the distribution is 
 equal to 1. It is given by
@@ -782,7 +787,8 @@ from the posterior distribution. Then are defined respectively as
 
 Let us describe the different components of Bayesian inference. The 
 prior distribution $p(\bm{X})$ represents our knowledge or bias on the 
-model parameters. It can thus be more or less informative.
+model parameters, prior to the measurement noted ``data''. It can thus be more 
+or less informative.
 $p(\text{data}|\bm{X})$ is the likelihood of observing the data given the model
 parameters $\bm{X}$. It is determined from the data comparison between the 
 model and the measurement via an error estimator. In that sense, the link 
@@ -791,7 +797,9 @@ distribution.
 Multiplying the prior by the likelihood function, one obtains the unnormalized 
 joint posterior PDF, which corresponds to the conditional distribution of 
 model parameters $\bm{X}$ given the data. Let us notice that the prior 
-distribution affects the posterior distribution. 
+distribution obviously affects the posterior distribution, implying that it has
+to be handled with care, and the choice of the prior is the most delicate part
+of the method. 
 
 Bayesian inference is an appealing statistical method in the sense that it 
 allows to calculate the joint posterior distribution of model parameters using 
@@ -819,7 +827,9 @@ $L_{sym}$, $K_{sym}$, $Q_{sym}$, and $Z_{sym}$ -- which we recall are given by
 the successive derivatives of the NM energy at saturation density in isoscalar 
 and isovector sectors -- therefore 
 enter into the parameter set. The parameter $b$ is also added in order 
-to explore different functional behaviors close to the $n\rightarrow 0$ limit.
+to explore different functional behaviors close to the $n\rightarrow 0$ limit. 
+\edit{This is motivated by the fact that the behavior of Skyrme-type 
+functionals is not correct at extreme low densities~\cite{Grasso2017}.}
 The parameter $b$, together with the isoscalar effective mass $m_{sat}^*/m$ and 
 isospin splitting $\Delta m_{sat}^*/m$, completes the parameter space, 
 associated to the description of bulk matter.
@@ -831,15 +841,15 @@ parameters to $\bm{X}$. However, we have
 seen in Fig.~\ref{fig:surf_fit} that the $\chi^2$ function, which evaluates the 
 goodness of the fit of those parameters to experimental nuclear masses given 
 BSk24 empirical parameters and $p=3$, is strongly peaked on a given set
-$\bm{S}=\bm{S_{opt}}$. We expect this 
-feature to be recovered for every model and we therefore choose to not include 
+$\bm{S}=\bm{S_{opt}}$. This feature is generic and not limited to BSk24, and we 
+therefore choose to not include 
 the surface and curvature parameters in $\bm{X}$ but to take the set 
 $\bm{S_{opt}}$ that minimizes $\chi^2$, as explained in~\ref{subsubsec:cld}.
 It is important to stress that, even if we keep only the optimized values for
 the surface and curvature parameters for each parameter set, a large parameter
-space is explored because of the large variation of the bulk properties and the
-physical correlation between surface and bulk due to the fit to experimental
-data.
+space is explored for the surface energy because of the large variation of the 
+bulk properties and the physical correlation between surface and bulk due to 
+the fit to experimental data.
 We consider two choices for the value of the parameter $p$, which determines 
 the behavior of the surface tension for extreme isospin values. Either it is 
 fixed to the educated value $p=3$, or $p=\{2.5,3,3.5\}$ is selected for each
@@ -914,12 +924,18 @@ slope of the symmetry energy $L_{sym}$, and the isovector incompressibility
 $K_{sym}$ are very large, yet one can expect a better accuracy to be 
 reached in the near future. In particular, the determination of $L_{sym}$ is 
 an highly topical issue nowadays~\cite{Li2014}. Finally, the last group 
-concerns the parameters which are inaccessible by nuclear experiments to the 
-present day, that is the isovector sqewness $Q_{sym}$ as well as the parameters 
-of order $N=4$, $Z_{sat}$ and $Z_{sym}$ In consequence, we explore very large 
-ranges for these parameters. 
+concerns the parameters which are inaccessible to nuclear experiments to the 
+present day, that is the isovector skewness $Q_{sym}$ as well as the parameters 
+of order $N=4$, $Z_{sat}$ and $Z_{sym}$. As a consequence, we explore very 
+large ranges for these parameters. 
 The choice of the interval for the low-density parameter, $b = [1,10]$, is 
-discussed thoroughly in~\cite{Antic2019}.
+discussed thoroughly in~\cite{Antic2019}. \edit{In this paper, we have 
+  investigated the influence of the uncertainties of the EoS parameters on the
+CC transtion point, calculated using the dynamical method with the ETF
+approach for the surface contribution. We have considered a Bayesian framework
+with the same prior distribution of empirical parameters and likelihood 
+function as in this thesis, and we have found that $K_{sym}$ and $Q_{sym}$ have 
+the most significant correlations with the transition density and pressure.}
 
 \subsubsection{Sensitivity analysis of the crust-core transition
 point\footnote{Partial results of the presented work have been published in 
@@ -942,7 +958,8 @@ $K_{sat}$. Thus, the isoscalar skewness $Q_{sat}$ is correlated with the
 three other parameters, and it turns out that this correlation is not the same, 
 for instance, in Skyrme, Gogny, or in RMF functionals~\cite{Margueron2019}. A 
 similar argument applies to the symmetry energy: when the density dependence of 
-the symmetry energy is governed by a single parameter as assumed in heavy ion 
+the symmetry energy is governed by a single parameter as for example often 
+assumed in heavy ion 
 transport models, an isosoft behavior at suprasaturation density is necessarily 
 associated to an isostiff behavior at subsaturation density, while more 
 complicated behaviors are possible~\cite{Margueron2019}. The independent 
@@ -971,11 +988,13 @@ metamodel used in the sensitivity analysis can have an influence. For this
 reason, the sensitivity analysis varying one by one the EoS parameters is 
 performed around two different reference parameter sets $\bm{X_{ref}}$, namely 
 the parameter set corresponding to the BSk24 functional (solid blue lines), and 
-the one corresponding to the BSk22 functional (dashed orange lines). For both 
-of them, we fix $p=3$ as well as $b=10\ln(2)$.
+the one corresponding to the BSk22 functional 
+(dashed orange lines)\footnote{Other choices can be found 
+  in~\cite{Carreau2019cc}, leading to same qualitative results.}.
+For both of sets of parameter, we fix $p=3$ as well as $b=10\ln(2)$.
 
-The range of variation for each of the EoS parameters 
-correspond to the intervals for the prior distribution $p(\bm{X})$ specified in 
+The range of variation for each of the EoS parameters corresponds to the 
+intervals for the prior distribution $p(\bm{X})$ specified in 
 Table~\ref{table:prior}. Let us however notice that some sets produce nonviable 
 EoS, for which a solution for the CC transition point cannot be found. This
 occurs in particular when varying the value of the isovector incompressiblity 
@@ -997,20 +1016,22 @@ parameter. We can see that the sensitivity of each parameter depends on the
 value of the other parameters, that is on the chosen reference set 
 $\bm{X_{ref}}$. Still, universal trends clearly emerge. We can see that the CC 
 phase transition, at variance with the 
-standard liquid-gas of SNM, is virtually insensitive to isoscalar parameters. 
-Even if extremely large variations of $Q_{sat}$ and $Z_{sat}$ are considered, 
-see Table~\ref{table:prior}, the influence of the isoscalar parameters in the 
-transition pressure is almost negligible, and it is a bit larger for $n_t$ but 
-still smaller than the isovector parameters. This underlines the importance of 
+standard liquid-gas of SNM, is almost insensitive to isoscalar parameters. 
+In particular, the influence of the isoscalar parameters in the 
+transition pressure is almost negligible, and only the third derivative term 
+$Q_{sat}$ is influential on $n_t$. This underlines the importance of 
 the energetics of the neutron gas on the transition point. Concerning the 
 isovector sector, we can see that $L_{sym}$ is the most important 
 parameter as far as the transition density is concerned. This result is in 
 agreement with previous findings by many authors~\cite{Ducoin2011} and was
 already anticipated in~\ref{subsec:ccfromc}.
 The symmetry energy at saturation $E_{sym}$ and the effective mass splitting
-$\Delta m_{sat}^*/m$ do not play any role on the transition, which can be 
-partially explained by the fact that these parameters are already relatively 
-well constrained. The transition density and pressure show also a great 
+$\Delta m_{sat}^*/m$ do not play any role on the transition. 
+\edit{This can be understood from the fact that the symmetry energy at
+saturation is already relatively well constrained, and that the effective mass 
+enters the kinetic energy, thus at equilibrium variations of 
+$\Delta m_{sat}^*/m$ are compensated by variations of the density derivatives.} 
+The transition density and pressure show also a great 
 sensitivity to the isovector incompressibility parameter $K_{sym}$. 
 This can explain why the transition pressure exhibits an irregular behavior 
 when plotted as a function of $L_{sym}$ (see Fig.~\ref{fig:cctp_lsym}): the 
@@ -1077,9 +1098,24 @@ The resulting predicted bands for energy per nucleon as well as pressure of SNM
 and PNM are shown in Fig.~\ref{fig:drischler} (pink bands), together with 
 the predictions of the popular BSk24 (solid blue lines) and DD-ME$\delta$ 
 (green dashed lines) functionals. 
+The fact that the seven different Hamiltonians lead to different predictions
+shows that the ab initio calculation is associated to a PDF exactly like an
+experimental measurement. For this reason, in principle one should not apply a
+strict filter but rather a likelihood one based on the PDF. The PDF being
+unknown, this is however practically not feasible, and this is why we employ a
+strict filter. 
 The pressure band is calculated by taking the density derivative of the energy 
 per nucleon for the seven Hamiltonians, thus only few density dependencies of 
-the pressure are explored. This can explain why even realistic models such as 
+the pressure are explored. 
+%
+In other terms, because of the uncertainty propagation taking the derivative, 
+the width of the pressure band does not correspond to the same likelihood than 
+the width of the energy band. Assuming that the energy band corresponds to a 
+$k$-$\sigma$ surface (with $k$ unknown), we expect that if we would calculate 
+the same $k$-$\sigma$ pressure surface from the energy PDF, it would be larger 
+than the band of Fig.~\ref{fig:drischler}. 
+%
+This can explain why even realistic models such as 
 BSk24 are not compatible with the theoretical band for the 
 pressure of PNM above $\approx n_{sat}$. It is therefore debatable whether 
 we should add the chiral EFT bands for pressure of NM in our list of
@@ -1092,9 +1128,9 @@ calculations in an effective manner. In addition, we will not apply the filter
 in the low-density region $n < 0.10$ fm$^{-3}$ because the width of the band 
 becomes extremely small, causing numerical issues.
 
-The minimum values and maximum values of the prior distribution are also
+The minimum and maximum values of the prior distribution are also
 represented in Fig.~\ref{fig:drischler} (gray lines). Let us notice that one 
-can the infer the posterior band graphically by the comparison with the chiral 
+can infer the posterior band graphically by the comparison with the chiral 
 ETF bands. Interestingly, the graphically inferred posterior band of the 
 prior energy per nucleon and pressure of SNM around saturation density is 
 narrower than the one corresponding to the ab initio calculation. The reason is
@@ -1108,14 +1144,15 @@ corresponding ab initio bands are very thin in comparison to the prior
 distribution.
 
 % pame2016
-We now turn the calculation of the probability $p_{\text{AME2016}}$, which 
-describe the ability of the CLDM defined from a parameter set $\bm{X}$, to fit 
+We now turn to the calculation of the probability $p_{\text{AME2016}}$, which 
+describes the ability of the CLDM defined from a parameter set $\bm{X}$, to fit 
 the measured nuclear masses of the AME2016~\cite{Huang2017}. The goodness of 
 fit is evaluated by the reduced $\chi^2$, Eq.~\ref{eq:chi2}. We can define the 
 associated likelihood probability as
 %
 \begin{equation}
-  p_{\text{AME2016}}(\bm{X}) = \exp\left[-\frac{1}{2}\chi_\nu^2(\bm{X})\right].
+  p_{\text{AME2016}}(\bm{X}) =
+  \exp\left[-\frac{1}{2}\chi_\nu^2(\bm{X})\right].\label{eq:pame}
 \end{equation}
 %
  
@@ -1141,7 +1178,10 @@ J0348+0432~\cite{Antoniadis2013}.
 Let us however notice that it does not correspond to the mass of the heaviest 
 NS observed to the present day~\cite{Cromartie2020}. The reason is that the
 observation of PSR J0740+6620 with $M = 2.14_{-0.09}^{+0.10}M_\odot$ is very 
-recent and it was not yet published at the time of this study.
+recent and it was not yet published at the time of this study. 
+Since this measurement is affected by nonnegligible error bars, an
+implementation of this extra constraint should be done using a likelihood
+filter as in Eq.~(\ref{eq:pame}).
 
 % As we have already discussed, for a given functional, the redefinition of 
 % high-order parameters $Q_{sat}$, $Z_{sat}$, $Q_{sym}$, and $Z_{sym}$ is 
@@ -1166,7 +1206,7 @@ The possibility of a negative symmetry energy at high density was sometimes
 mentioned in the literature~\cite{Li2017,Wiringa1988}. 
 However, extremely soft functionals are generally incompatible with the maximum 
 mass constraint, thus relaxing the condition of the positiveness of the 
-symmetry energy will not alter our results.
+symmetry energy would not alter our results.
 
 Finally, let us notice that we do not include the constraint on the tidal
 deformability inferred from the GW170817 event~\cite{GWtidal} in the $w_{HD}$ 
@@ -1258,18 +1298,19 @@ included in our prior distribution, we observe that applying the LD filter
 does not impose strong constraints on the one-parameter PDF in the isoscalar 
 sector. Still, we can notice that low values of $E_{sat}$ and $n_{sat}$ are 
 disfavored by the passage through the chiral EFT predicted bands shown in 
-Fig.~\ref{fig:drischler}. Conversely, it appears in~\ref{fig:iv_dist} that
-applying LD constraints on the energy per nucleon have a enormous effect on the 
-marginalized posterior distributions of the low-order isovector empirical 
-parameters $E_{sym}$ and $L_{sym}$, shown in the two upper panels. The effect
-on the posterior PDF of $L_{sym}$ is even larger if we impose the sets to be
-compatible with the chiral EFT predicted bands for pressure of SNM and PNM. It 
-also allows very tight determination of isovector incompressibility $K_{sym}$,
-its distribution being peaked at $K_{sym} \approx -200$ MeV, while it is rather
-flat without the constraint on pressure. Overall, 
+Fig.~\ref{fig:drischler}. Conversely, it is clear from Fig.~\ref{fig:iv_dist} 
+that applying LD constraints on the energy per nucleon has a enormous effect 
+on the marginalized posterior distributions of the low-order isovector 
+empirical parameters $E_{sym}$ and $L_{sym}$, shown in the two upper panels. 
+The effect on the posterior PDF of $L_{sym}$ is even larger if we impose the 
+sets to be compatible with the chiral EFT predicted bands for pressure of SNM 
+and PNM. 
+It also allows very tight determination of isovector incompressibility 
+$K_{sym}$, its distribution being peaked at $K_{sym} \approx -200$ MeV, while 
+it is rather flat without the constraint on pressure. Overall, 
 we see that the posterior probabilities for these parameters are narrower
 than those without the additional constraints on pressure. These observations 
-can be easily understood with the following expression for the pressure 
+can be easily understood considering the expression for the pressure 
 of PNM in the vicinity of the saturation density $n_{sat}$,
 %
 \begin{equation}
@@ -1282,13 +1323,19 @@ The posterior distributions of $Q_{sat}$ and $Q_{sym}$ are only very slightly
 affected by the LD constraints. The same is true for parameters of order $N=4$, 
 $Z_{sat}$ and $Z_{sym}$, which are not shown in the figures. The reason is that
 the high-order parameters contribute to the EoS at suprasaturation densities,
-which are not accessible with chiral EFT yet.
+where predictions of chiral EFT are not yet fully trustable.
 
 The one-parameter PDF for the sets passing through the HD pass-band filter 
 $w_{HD}$ are represented in orange lines. Overall, we find that the effect of
-varying the value $M_{max}^{obs}$, so as to be compatible with to the two 
+varying the value $M_{max}^{obs}$, so as to be compatible with the two 
 considered observations of heavy NS~\cite{Antoniadis2013,Cromartie2020}, is 
-very small. In the isoscalar sector, we can see the distributions of the 
+very small. 
+%
+This also implies that treating this constraint with a likelihood filter, as it
+would be more correct from the viewpoint of Bayesian inference, would not
+change our results.
+%
+In the isoscalar sector, we can see the distributions of the 
 low-order parameters $E_{sat}$, $n_{sat}$ and $K_{sat}$ are not affected 
 by the passage through the $w_{HD}$ filter. On the other hand, it has an
 important effect on the PDF of $Q_{sat}$, with large values being favored. In
@@ -1298,23 +1345,21 @@ filter, except for the $K_{sym}$. Concerning the isovector skewness parameter
 $Q_{sym}$, which we recall is not affected by the LD filter, we find negative 
 values to be very unlikely. 
 Overall, we can see that HD constraints favor stiff EoS with respect to the LD 
-predictions. The reason is obviously that stiff EoS are desired in order to 
+predictions. The reason is obviously that stiff EoS better 
 verify the maximum mass constraint.
-
+%
 The generated one-parameter PDF associated to the sets passing through the 
 combination of both LD and HD filters without the constraint on pressure, 
 for $M_{max}^{obs}=1.97M_\odot$, are plotted in solid green lines. The
 mean value and standard deviation application of LD and HD constraints are 
 given for each of the isovector parameters.
-
+%
 Let us notice that the marginalized posteriors for the effective mass 
 $m_{sat}^*/m$ and the isospin splitting $\Delta m_{sat}^*/m$ are not displayed 
-here. As for the low-density parameters in the isoscalar sector, these 
-quantities are already well constrained by nuclear experiments. Hence the
-associated posteriors distributions are very close the prior distributions. The
-marginalized posterior probability for low-density parameter $b$ is close to
-the prior distribution as well. This point can be understood from the fact that 
-none of the filters concern the $n \rightarrow 0$ limit.
+here, because the associated posteriors distributions are very close the prior 
+distributions. The same is true for the low-density parameter 
+$b$. The latter point can be understood from the fact that none of the filters 
+concern the $n \rightarrow 0$ limit.
 
 \subsubsection{Correlations among empirical parameters}\label{subsubsec:corr}
 
@@ -1377,7 +1422,7 @@ left panel can be noticed.
 Among the isovector parameters, it is seen that the previously found 
 correlation between the slope of the symmetry energy $L_{sym}$ and the 
 isovector incompressibility $K_{sym}$ disappears in favor of a strong 
-correlation between $K_{sym}$ and the isovector sqewness $Q_{sym}$, and an 
+correlation between $K_{sym}$ and the isovector skewness $Q_{sym}$, and an 
 anticorrelation between $L_{sym}$ and $Q_{sym}$. We also observe that the 
 isoscalar parameters $K_{sat}$ and $Q_{sat}$ are weakly correlated with the 
 corresponding isovector ones $K_{sym}$ and $Q_{sym}$. These nontrivial 
@@ -1403,7 +1448,14 @@ correlations induced by the application of HD filter by comparison with the
 left panel of Fig.~\ref{fig:cm_ld}. Doing so, we infer that the $w_{HD}$ 
 pass-band filter does not induce any correlation among the 
 empirical parameters, with the exception of $Q_{sat}$ being now slightly 
-anticorrelated to $Q_{sym}$ and $Z_{sat}$.
+anticorrelated to $Q_{sym}$ and $Z_{sat}$. 
+%
+This can be understood from the fact that the maximum mass constraint is
+essentially sensitive to the global stiffness of the EoS, and given the large 
+uncertainties on the high-order parameters, a stiff EoS can be obtained with
+many different combinations of $K_{sym}$, $Q_{sym}$, $Q_{sat}$, $Z_{sym}$, and
+$Z_{sat}$, indicating a certain reduncancy in our parameter space with this
+limited set of constraints.
 
 \section{General predictions for neutron star observables}\label{sec:general}
 
@@ -1420,13 +1472,15 @@ can be extracted from the joint posterior distribution of empirical parameters
 $p(\bm{X}|\text{data})$, where $\mathcal{O}(\bm{X})$ is the value of the
 observable $\mathcal{O}$ as obtained with the parameter set $\bm{X}$.
 Our predictions for global properties of the NS are presented and confronted 
-with popular models as well as GW170817 event in~\ref{subsec:gw17}. The 
-Bayesian determination of the CC transition density and pressure is carried out 
-in~\ref{subsec:cc_bayes}.
+with popular models as well as with the GW170817 event in~\ref{subsec:gw17}. 
+The Bayesian determination of the CC transition density and pressure is carried 
+out in~\ref{subsec:cc_bayes}.
 Finally, in~\ref{subsec:gli_stats}, we calculate the fraction of crust moment
 of inertia for the joint posterior distribution of parameters in order to 
-investigate whether \textit{the crust in enough} to explain pulsar glitches in 
-the standard picture presented in~\ref{subsubsec:glitch}.
+investigate whether \textit{the crust is enough} to explain pulsar glitches in 
+the standard picture presented in~\ref{subsubsec:glitch}. 
+\edit{Some of the results presented in the following have been published
+~\cite{Carreau2019cc,Carreau2019moi}.}
 
 \subsection{Global properties: confrontation with popular models and the 
 GW170817 event}\label{subsec:gw17}
@@ -1434,8 +1488,8 @@ GW170817 event}\label{subsec:gw17}
 A large number of EoS models, based for instance on Skyrme functionals or 
 relativistic mean-field models, have been proposed in the literature over the 
 years. Astrophysical observations can provide strong constraints on the
-nuclear EoS  and therefore allows to discriminate between the different models. 
-For instance, we have seen from~\label{subsec:masses} that the observations of 
+nuclear EoS  and therefore allow discriminating between the different models. 
+For instance, we have seen from~\ref{subsec:masses} that the observations of 
 massive pulsars require from the EoS to support $M_{max} \gtrsim
 2M_\odot$~\cite{Demorest2010,Antoniadis2013,Cromartie2020}.
 The recent GW170817 event, which is the first detection of GW from a 
@@ -1444,7 +1498,7 @@ deformability~\cite{GWtidal,GW1,GW2}.
 
 In the following, we calculate global properties of NS from the LD+HD joint 
 posterior distribution of parameters and confront our results with popular EoS 
-models as well as GW170817 constraints provided by the LIGO and Virgo 
+models as well as with the GW170817 constraints provided by the LIGO and Virgo 
 collaborations.
 
 \subsubsection{Equation of state} % 1
@@ -1463,7 +1517,7 @@ the GW170817 event]{Marginalized posterior for the pressure
   confidence intervals, respectively. The BSk24 (solid orange line), SLy4
   (dashdotted green line), PKDD (dotted red line), and TM1 (solid purple line) 
   unified EoS calculated within the metamodeling technique with $p=3$ are 
-  represented. The recent constraint on $P_{2\rho_{sat}}$ inferred from 
+  represented. The constraint on $P_{2\rho_{sat}}$ inferred from 
   GW170817~\cite{GW1} is given.}\label{fig:eos_bayes}
 \end{figure}
 
@@ -1813,7 +1867,7 @@ The HD filter does not impose further correlations between the transition
 quantities and the EoS with respect to the prior distribution, apart from tiny 
 correlations with the isoscalar kurtosis $Z_{sat}$. We can see that the LD 
 filter slightly reinforces the correlation of transition density and pressure 
-with the isovector sqewness $Q_{sym}$. If the pressure filter, which allows a
+with the isovector skewness $Q_{sym}$. If the pressure filter, which allows a
 tight determination of the low-order isovector parameters, is also
 considered, the correlations with $Q_{sym}$ are even stronger,
 $r(Q_{sym},n_t)=0.59$ and $r(Q_{sym},P_t)=0.74$. In addition, the 
@@ -1969,7 +2023,7 @@ $l_{crust,1.4}=1.11_{-0.21}^{+0.14}$ km and $I_{crust,1.4}/I_{1.4}=
 2.89_{-1.68}^{+2.51} \%$ at the $1\sigma$ confidence level. The empirical 
 parameters contributing the most to the uncertainty in the crust moment of 
 inertia are, as for the transition density and pressure, the isovector 
-incompressibility $K_{sym}$ and sqewness $Q_{sym}$. As expected from previous 
+incompressibility $K_{sym}$ and skewness $Q_{sym}$. As expected from previous 
 studies~\cite{Piekarewicz2014,Carreau2019moi}, we observe large correlations 
 between the crustal observables and the transition quantities, notably 
 $r(P_t,I_{crust,1.4}/I_{1.4})=0.98$. Among the four popular models considered, 
@@ -2139,7 +2193,7 @@ GW170817 event~\cite{De2018,GW1}. We have obtained
 $R_{1.4}=12.88_{-0.65}^{+0.53}$ km and $\Lambda_{1.4} = 634_{-190}^{+204}$ at 
 the $90\%$ level. 
 We have shown that the transition density and pressure are 
-correlated with the isovector parameters, and particularly with the sqewness 
+correlated with the isovector parameters, and particularly with the skewness 
 parameter $Q_{sym}$. Within the present experimental and theoretical 
 uncertainty on those parameters, we have estimated the transition density and
 pressure respectively as $n_t=0.068_{-0.021}^{+0.021}$ fm$^{-3}$ and
