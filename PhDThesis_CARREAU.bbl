@@ -18572,6 +18572,49 @@
       \field{type}{mathesis}
       \field{year}{2017}
     \endentry
+    \entry{Carter2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c1bebce892c27038468aa9e9ae16bc63}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+        {{hash=58cee00305d286bb1435b99d737dbaf8}{%
+           family={Chamel},
+           familyi={C\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7d5af8008dd30cd1e4d8d2b6776bf76a}{%
+           family={Haensel},
+           familyi={H\bibinitperiod},
+           given={Pawel},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df196651d95850559a002964dc3725b}
+      \strng{fullhash}{6df196651d95850559a002964dc3725b}
+      \strng{authornamehash}{6df196651d95850559a002964dc3725b}
+      \strng{authorfullhash}{6df196651d95850559a002964dc3725b}
+      \field{labelalpha}{CCH05}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the inner crust of a neutron star, at densities above the “drip” threshold, unbound “conduction” neutrons can move freely past through the ionic lattice formed by the nuclei. The relative current density ni=nv¯i of such conduction neutrons will be related to the corresponding mean particle momentum pi by a proportionality relation of the form ni=Kpi in terms of a physically well defined mobility coefficient K whose value in this context has not been calculated before. Using methods from ordinary solid state and nuclear physics, a simple quantum mechanical treatment based on the independent particle approximation, is used here to formulate K as the phase space integral of the relevant group velocity over the neutron Fermi surface. The result can be described as an “entrainment” that changes the ordinary neutron mass m to a macroscopic effective mass per neutron that will be given—subject to adoption of a convention specifying the precise number density n of the neutrons that are considered to be “free”—by m⋆=n/K. The numerical evaluation of the mobility coefficient is carried out for nuclear configurations of the “lasagna” and “spaghetti” type that may be relevant at the base of the crust. Extrapolation to the middle layers of the inner crust leads to the unexpected prediction that m⋆ will become very large compared with m.}
+      \field{issn}{0375-9474}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{number}{3}
+      \field{title}{Entrainment coefficient and effective mass for conduction neutrons in neutron star crust: simple microscopic models}
+      \field{volume}{748}
+      \field{year}{2005}
+      \field{pages}{675\bibrangedash 697}
+      \range{pages}{23}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.nuclphysa.2004.11.006
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0375947404011790
+      \endverb
+    \endentry
     \entry{Chamel2016}{article}{}
       \name{author}{2}{}{%
         {{hash=1dd10ebf6df46aad64c29e3da3c9bff2}{%
@@ -19018,6 +19061,51 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.110.011101
+      \endverb
+    \endentry
+    \entry{Cao2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=02bc2c38f41a8bae4532df6474d6c7eb}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=8a1e3ea04d608e9f428f6ee2f2bb49b6}{%
+           family={Lombardo},
+           familyi={L\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=d319145b29b7e34aa08e7b691d664b12}{%
+           family={Schuck},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c144daac6126963abc0c383fe109203e}
+      \strng{fullhash}{c144daac6126963abc0c383fe109203e}
+      \strng{authornamehash}{c144daac6126963abc0c383fe109203e}
+      \strng{authorfullhash}{c144daac6126963abc0c383fe109203e}
+      \field{labelalpha}{CLS06}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{12}
+      \field{title}{Screening effects in superfluid nuclear and neutron matter within Brueckner theory}
+      \field{volume}{74}
+      \field{year}{2006}
+      \field{pages}{064301}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.74.064301
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.74.064301
       \endverb
     \endentry
     \entry{Cromartie2020}{article}{}
@@ -20191,75 +20279,6 @@
       \verb{url}
       \verb https://doi.org/10.1140/epja/i2014-14010-5
       \endverb
-    \endentry
-    \entry{NICER}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=0afbfbda04e821f38c7322c6ff5bb91e}{%
-           family={Gendreau},
-           familyi={G\bibinitperiod},
-           given={Keith\bibnamedelima C.},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=2ec0488d2bfecb37112d4ca12ea0cb24}{%
-           family={Arzoumanian},
-           familyi={A\bibinitperiod},
-           given={Zaven},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=8af25bf2b1cd74513a3be3420c60be27}{%
-           family={Okajima},
-           familyi={O\bibinitperiod},
-           given={Takashi},
-           giveni={T\bibinitperiod}}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=1b638324bced66672e1c7bb8bda3ec62}{%
-           family={Takahashi},
-           familyi={T\bibinitperiod},
-           given={Tadayuki},
-           giveni={T\bibinitperiod}}}%
-        {{hash=3e3ad6b9446ba973d4fca9d9389db563}{%
-           family={Murray},
-           familyi={M\bibinitperiod},
-           given={Stephen\bibnamedelima S.},
-           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=ea94eaa3f791c2b969ae99a5d187aab5}{%
-           family={Herder},
-           familyi={H\bibinitperiod},
-           given={Jan-Willem\bibnamedelima A.},
-           giveni={J\bibinithyphendelim W\bibinitperiod\bibinitdelim A\bibinitperiod},
-           prefix={den},
-           prefixi={d\bibinitperiod}}}%
-      }
-      \list{organization}{2}{%
-        {International Society for Optics}%
-        {Photonics}%
-      }
-      \list{publisher}{1}{%
-        {SPIE}%
-      }
-      \strng{namehash}{ab4663cf5fd0aa7db2abedd02159b64c}
-      \strng{fullhash}{ab4663cf5fd0aa7db2abedd02159b64c}
-      \strng{authornamehash}{ab4663cf5fd0aa7db2abedd02159b64c}
-      \strng{authorfullhash}{ab4663cf5fd0aa7db2abedd02159b64c}
-      \strng{editornamehash}{b32a1a7b9608767c2ee558285950c66d}
-      \strng{editorfullhash}{b32a1a7b9608767c2ee558285950c66d}
-      \field{labelalpha}{GAO12}
-      \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Space Telescopes and Instrumentation 2012: Ultraviolet to Gamma Ray}
-      \field{title}{{The Neutron star Interior Composition ExploreR (NICER): an Explorer mission of opportunity for soft x-ray timing spectroscopy}}
-      \field{volume}{8443}
-      \field{year}{2012}
-      \field{pages}{322\bibrangedash 329}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1117/12.926396
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1117/12.926396
-      \endverb
-      \keyw{astrophysics,international Space Station (ISS),neutron stars,timing,X-ray}
     \endentry
     \entry{Goriely2013}{article}{}
       \name{author}{3}{}{%
@@ -22681,6 +22700,96 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.101.015802
       \endverb
     \endentry
+    \entry{Perot2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=023d3980dd0521b021b86478b9f9eb4c}{%
+           family={Perot},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1dd10ebf6df46aad64c29e3da3c9bff2}{%
+           family={Chamel},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=902df161cc0bdd047f93ea36e2370ddc}{%
+           family={Sourie},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3f0cb900ef55ba221393b8b3604c239e}
+      \strng{fullhash}{3f0cb900ef55ba221393b8b3604c239e}
+      \strng{authornamehash}{3f0cb900ef55ba221393b8b3604c239e}
+      \strng{authorfullhash}{3f0cb900ef55ba221393b8b3604c239e}
+      \field{labelalpha}{PCS19}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{9}
+      \field{title}{Role of the symmetry energy and the neutron-matter stiffness on the tidal deformability of a neutron star with unified equations of state}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{pages}{035801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.100.035801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.100.035801
+      \endverb
+    \endentry
+    \entry{Perot2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=023d3980dd0521b021b86478b9f9eb4c}{%
+           family={Perot},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1dd10ebf6df46aad64c29e3da3c9bff2}{%
+           family={Chamel},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=902df161cc0bdd047f93ea36e2370ddc}{%
+           family={Sourie},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3f0cb900ef55ba221393b8b3604c239e}
+      \strng{fullhash}{3f0cb900ef55ba221393b8b3604c239e}
+      \strng{authornamehash}{3f0cb900ef55ba221393b8b3604c239e}
+      \strng{authorfullhash}{3f0cb900ef55ba221393b8b3604c239e}
+      \field{labelalpha}{PCS20}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{1}
+      \field{title}{Role of the crust in the tidal deformability of a neutron star within a unified treatment of dense matter}
+      \field{volume}{101}
+      \field{year}{2020}
+      \field{pages}{015806}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.101.015806
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.101.015806
+      \endverb
+    \endentry
     \entry{Pearson2012}{article}{}
       \name{author}{4}{}{%
         {{hash=0c8a56d8fc55dc0c200b53fae767dfc6}{%
@@ -24474,6 +24583,40 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088%2F1742-6596%2F312%2F4%2F042027
+      \endverb
+    \endentry
+    \entry{Zdunik2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bc47cec546fd55117f2b084cb4a51e7a}{%
+           family={{Zdunik, J. L.}},
+           familyi={Z\bibinitperiod}}}%
+        {{hash=c5221d01dd9769385b61da9b92123b5f}{%
+           family={{Fortin, M.}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=a1678d7f6473771518f97e636c46b852}{%
+           family={{Haensel, P.}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{deeba487c0f0b435b127a30873703c88}
+      \strng{fullhash}{deeba487c0f0b435b127a30873703c88}
+      \strng{authornamehash}{deeba487c0f0b435b127a30873703c88}
+      \strng{authorfullhash}{deeba487c0f0b435b127a30873703c88}
+      \field{labelalpha}{ZFH17}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Neutron star properties and the equation of state for the core}
+      \field{volume}{599}
+      \field{year}{2017}
+      \field{pages}{A119}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201629975
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/201629975
       \endverb
     \endentry
     \entry{Zdunik2013}{article}{}

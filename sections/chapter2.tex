@@ -23,27 +23,28 @@ the first detection of gravitational waves
 constraint on the tidal deformability of NS~\cite{GWtidal,GW1,GW2}. All those
 experimental data can be used to better constrain the nuclear EoS. 
 Reciprocally, there has been a lot of efforts invested recently in the 
-development of the chiral effective field theory (EFT)~\cite{Drischler2016} 
-with the aim of providing new constraints on the low-density EoS, which can
+development of ab initio calculations, particularly based on the chiral 
+effective field theory (EFT)~\cite{Drischler2016} with the aim of providing new 
+constraints on the low-density EoS, which can
 ultimately be translated into theoretical constraints on NS
 observables~\cite{Carreau2019cc,Carreau2019moi}.
-The Bayesian framework is particularly appealing for making realistic 
-predictions for NS observables. It allows to update our prior beliefs on the 
-EoS parameters with the constraints arising from the multiple sources mentioned 
-above.
+In this context, the Bayesian framework is particularly appealing for making 
+realistic predictions for NS observables. It allows to update our prior beliefs 
+on the EoS parameters with the constraints arising from the multiple sources 
+mentioned above.
 
 The plan of the chapter is as follows. In Section~\ref{sec:tov}, global
 properties and crustal observables are calculated for several characteristic 
 EoS by solving the equations of hydrostatic equilibrium in general relativity.
 The connection between the crust moment of inertia and the glitch phenomenon is
-explained. The EoS parameters parameters are determined within the 
+explained. The EoS parameters are determined within a 
 Bayesian framework in~\ref{sec:bayes}, given the present day constraints on
 nuclear physics, NS observables, and physical requirements. In particular,
 correlations among the empirical parameters are explored. General predictions
 for NS observables are proposed in~\ref{sec:general}, using the joint posterior
 distribution of EoS parameters. We confront our predictions with different 
 constraints inferred from the GW170817 event. The CC transition density and
-pressure as well as the fraction crust moment of inertia are evaluated. The
+pressure as well as the fractional crust moment of inertia are evaluated. The
 full crustal origin of Vela pulsar glitches is discussed. Finally, conclusions 
 are given in Section~\ref{sec:conclu2}.
 
@@ -53,10 +54,10 @@ are given in Section~\ref{sec:conclu2}.
 
 The stellar EoS, the determination of which was studied thoroughly in Chapter 
 1, is the fundamental ingredient to build NS models. It enters into the 
-basic equation for calculating macroscopic observables relevant to NS, that is 
+basic equation for calculating macroscopic observables relevant to NS, the 
 so-called Tolman-Oppenheimer-Volkoff (TOV) equation, which describes the 
-hydrostatic equilibrium for a spherically symmetric star in the framework of 
-general relativity~\cite{Tolman1939,Oppenheimer1939}.
+hydrostatic equilibrium for a spherically symmetric nonrotating star in the 
+framework of general relativity~\cite{Tolman1939,Oppenheimer1939}.
 
 This section deals with the estimation of NS observables for several 
 popular EoS calculated within the metamodeling technique introduced in 
@@ -64,41 +65,46 @@ Chapter 1. In~\ref{subsec:masses}, we first solve the hydrostatic
 equilibrium equations so as to determine the mass-radius relation. The 
 thickness and mass of the crust are also evaluated. The calculation of the NS 
 moment of inertia in the slow rotation approximation is performed 
-in~\ref{subsec:moi}. In particular, we show how the fraction of crust moment 
+in~\ref{subsec:moi}. In particular, we show how the fractional crust moment 
 of inertia is connected to the 
 observation of pulsar glitches. In~\ref{subsec:tidal}, we finally compute the 
 tidal deformability, which describes how much the NS is deformed by tidal 
-forces, arising, for instance, when two NS orbit each other.
+forces, arising, for instance, in the final approach phase of two merging NS.
 
 \subsection{Masses and radii}\label{subsec:masses}
 
 % observations
 From the observational point of view, it is easier for astronomers to measure 
-the mass of a NS entering into a binary system. There are several types of
+the mass of a NS belonging to a binary system. There are several types of
 binaries: x-ray binaries, double NS binaries, radio pulsar--white dwarf 
 binaries, and radio pulsar--nondegenerate star binaries. Depending on the type 
 of binary, different techniques are used to infer the NS 
 mass~\cite{Haensel2007}.
 % Shapiro delay effect - MSP
 For example, in a pulsar binary system, various phenomena, such as the 
-relativistic Shapiro delay~\cite{Shapiro1964}, can be measured via pulsar 
-timing, which consists of the regular monitoring of the rotation of a pulsar 
+relativistic Shapiro delay~\cite{Shapiro1964}, can be exploited for the aim of
+mass measurement via pulsar 
+timing, which consists in the regular monitoring of the rotation of a pulsar 
 over long periods (years to decades). The relativistic Shapiro delay is a 
 phenomenon from which precise masses for both a millisecond pulsar and its 
 companion can be inferred~\cite{Demorest2010,Cromartie2020}. Let us notice 
 however that it is only observed in a small subset of high-precision, highly 
 inclined binary pulsar systems. 
 % Measuring NS radii is less straightforward
-Measuring NS radii with high precision is a more challenging task, and it
-constitutes one of the goals of the ambitious NICER mission~\cite{NICER}. This
-observable can be extracted from the analysis of thermal emission from neutron 
-star surfaces, or x-ray emission from accreting neutron stars in binaries.
+Measuring NS radii with high precision is a more challenging task, and reliable
+constraints have started to be available only in a very recent 
+past \cite{Bogdanov2019a,Bogdanov2019b,Miller2019,Raaijmakers2019,Riley2019}. 
+This observable can be extracted from the analysis of thermal emission from 
+neutron star surfaces -- even if complications in the interpretation of the data
+arise due to the nonuniformity of the temperature over the surface (hot
+spots) \cite{Bogdanov2019a,Bogdanov2019b,Miller2019,Raaijmakers2019,Riley2019}
+--, or x-ray emission from accreting neutron stars in binaries.
 
 In the following, we turn to the theoretical prediction of NS masses and radii. 
 The hydrostatic equilibrium equations in general relativity are first solved in 
 order to represent the mass-radius relation for several popular EoS, which are
 then confronted to NS mass measurements. The estimation of the crustal 
-thickness and mass is discussed afterwards.
+thickness and mass is discussed later in~\ref{subsubsec:crustthickmass}.
 
 \subsubsection{Mass-radius relation}
 
@@ -106,7 +112,7 @@ thickness and mass is discussed afterwards.
 Theoretically, the NS masses and radii correspond to the 
 solution of the hydrostatic equilibrium equations, which are, in general 
 relativity for spherical and nonrotating 
-stars~\cite{Tolman1939,Oppenheimer1939},
+stars, given by~\cite{Tolman1939,Oppenheimer1939}
 %
 \begin{eqnarray}
   \frac{dP}{dr} &=& -\frac{G\rho_B m}{r^2}\left(1 + \frac{P}{\rho_B
@@ -130,12 +136,13 @@ related to the enclosed mass $m(r)$ through
 \end{equation}
 %
 % description of the equations
-Eq.~(\ref{eq:tov}) is the TOV equation 
+Eq.~(\ref{eq:tov}) is called the TOV equation 
 of hydrostatic equilibrium. The integration of Eq.~(\ref{eq:massbal}) from
 $r=0$ to the boundary $r=R$, $R$ being the NS radius, gives the total
 gravitational mass $M=m(R)$ of the star. Eq.~(\ref{eq:metric}) is a 
-relativistic equation for the metric function $\Phi(r)$. Here, we focus on 
-solving Eqs.~(\ref{eq:tov}) and 
+relativistic equation for the metric function $\Phi(r)$. This equation will be
+needed for the computation of the moment of inertia in~\ref{subsec:moi}. Here, 
+we focus on solving Eqs.~(\ref{eq:tov}) and 
 (\ref{eq:massbal}), which gives the profiles $P(r)$, $\rho_B(r)$, and $m(r)$ 
 for a given EoS, $P(\rho_B)$, the determination of which was discussed in 
 detail in Chapter 1.
@@ -143,31 +150,31 @@ detail in Chapter 1.
 % explain numerical method for a central density nc (CGS, Euler method, 
 %   lagrangian interpolation)
 In view of solving the hydrostatic equilibrium equations for a given tabulated 
-EoS, one first have to choose an arbitrary value for the central density 
+EoS, one first has to choose an arbitrary value for the central density 
 $\rho_{B,c}$ and 
 interpolate the central pressure $P_c = P(\rho_{B,c})$, corresponding to $r=0$, 
 with the associated boundary condition $m(r=0) = 0$. Then, using a Runge-Kutta 
-method, one integrate up to $r=R$, defined as $P(r=R) = 0$ (our numerical 
+method, we integrate up to $r=R$, defined as $P(r=R) = 0$ (our numerical 
 condition is $P < 5\times 10^{-4}$ MeV/fm$^{3}$, which is a sufficiently low 
-value of the pressure). At each new step of pressure, one has to interpolate 
+value of the pressure to get convergent values for the total mass). At each new 
+step of pressure, one has to interpolate 
 the mass density $\rho_B$ in the table. In the end, for a given value of 
 central density $\rho_{B,c}$, one obtains the profiles $P(r)$, $\rho_B(r)$, 
 and $m(r)$, and therefore a value for the NS mass $M$ and radius $R$. The 
-typical values of these observables are $M=1.4M_\odot$ and $R=10$ 
-km~\cite{Haensel2007}. 
+typical canonical value of the NS mass is $M=1.4M_\odot$, with a corresponding
+radius $R=10-14$ km~\cite{Haensel2007}. 
 % The problem is that the central density inside a NS is not known... thats why 
 %   we are interested in the Mass radius relation
 In fact, the central density inside a specific NS is not known, and is expected
 to range from $\approx 4.6\times 10^{14}$ g/cm$^3$ to $\approx 4\times 10^{15}$
 g/cm$^3$. For this reason, we are rather interested in the mass-radius 
 relation, which can be obtained by calculating $M$ and $R$, following the 
-numerical method previously explained, for this range of central mass 
-densities. 
-% efld
-Let us recall that one has to redefine the high-order parameters $Q_{sat(sym)}$ 
-and $Z_{sat(sym)}$ in order to reproduce existing functionals at densities
-greater than $2n_{sat}$ with the metamodeling technique. This corresponds to
-the ELFd technique introduced in \cite{Margueron2018a}.
+numerical method previously explained, for that range of central mass 
+densities\footnote{Let us recall that one has to redefine the high-order 
+  parameters $Q_{sat(sym)}$ and $Z_{sat(sym)}$ in order to reproduce existing 
+  functionals at densities greater than $2n_{sat}$ with the metamodeling 
+  technique. This corresponds to the ELFd technique introduced 
+in \cite{Margueron2018a}, see~\ref{subsec:icore}.}.
 
 \begin{table}[!t]
 \begin{center}
@@ -219,10 +226,20 @@ The left panel of Fig.~\ref{fig:mr_popular} shows the mass-radius relation for
 several popular EoS based on Skyrme-type functionals BSk24, SLy4, and BSk14, 
 and relativistic models PKDD and TM1, calculated within the metamodeling 
 technique. A strong model dependence is observed, with radii of canonical NS 
-ranging from $R_{1.4}=11.5$ km for BSk14 to $R_{1.4}=14.5$ km for TM1. More
-specifically, it is seen that the radius is positively correlated to the slope 
-of the symmetry energy $L_{sym}$. The value of the empirical parameters 
-associated to BSk14, TM1, and PKDD are reported in Table~\ref{table:newemppar}, 
+ranging from $R_{1.4}=11.5$ km for BSk14\footnote{The BSk14 parametrization is
+an old representative of the BSk functionals. More modern versions of the BSk
+family are employed elsewhere in this thesis. Even if it does not belong to the
+most up-to-date functionals, it gives a good illustration of the prediction of
+a very soft EoS.} to $R_{1.4}=14.5$ km for TM1. More
+specifically, it is seen that a stiffer density dependence of the symmetry
+energy leads to larger radii. Indeed, a positive correlation between $R_{1.4}$
+and $L_{sym}$ has been often highlighted in the literature
+\cite{Alam2016,Ji2019,Hu2020}. However, to pin down which is the more
+influential parameter that determines the NS radius, a simple comparison
+between models is not enough, and a full statistical analysis is needed. Such
+analysis is presented in Section~\ref{sec:general}. The value of the empirical 
+parameters associated to BSk14, TM1, and PKDD are reported in 
+Table~\ref{table:newemppar}, 
 whereas those of BSk24 and SLy4 can be found in Table~\ref{table:emp_params}.
 The bands correspond to the measured masses of the two most massive
 pulsars observed to the present day. The mass of PSR J0348+0432 was precisely 
@@ -236,7 +253,7 @@ stellar core EoS. In particular, it is seen that the maximum mass corresponding
 to the BSk14 functional, $1.8M_\odot$, is lower than the measured mass
 of PSR J0348+0432. Also, while the SLy4 EoS satisfy this constraint, the maximum 
 mass for this EoS, $2.05M_\odot$, is lower than that of PSR J0740+6620. This 
-outline the fact that measuring the mass of pulsars is important, because it 
+outlines the fact that measuring the mass of pulsars is important, because it 
 provides a strong constraint on the stellar matter EoS. Similarly, the NICER
 telescope is expected to provide, for years to come, a constraint on the NS
 radii with a precision of $5\%$. Ultimately, in the ideal case where one could 
@@ -246,22 +263,25 @@ possible to determine the EoS by positioning the point in the $M-R$ diagram.
 The mass-radius relation for the SLy4 EoS is represented in the right panel of
 Fig.~\ref{fig:mr_popular}. The solid orange line corresponds to $M(R)$ for the 
 SLy4 EoS calculated within the metamodeling technique, and the dashed 
-black line is the calculation based on the DH EoS for SLy4 functional. A 
-perfect agreement is observed between the two curves, reflecting the small 
-error on the EoS, illustrated in Fig.~\ref{fig:unified}. 
+black line is the calculation for the same SLy4 functional
+from~\cite{Douchin2001}. A perfect agreement is observed between the two 
+curves, reflecting the small discrepancy between the EoS, already illustrated 
+in Fig.~\ref{fig:unified}. 
 The dotted orange line shows the mass-radius relation for the SLy4 EoS without
 considering the clustering of matter at low density, that is assuming that the
-NS star interior consists of $npe\mu$ matter at all densities. In that case,
-for a canonical NS, we find $R_{1.4} = 11.1$ km, which is almost $1$ km lower 
-with respect to the result with a crust EoS. Moreover, this difference is found 
-to be larger with decreasing mass. This shows that the crust EoS is essential 
-to properly predict NS radii. However, we can see that the NS maximum mass is 
-entirely determined by the stellar core EoS.
+NS star interior consists of homogeneous $npe\mu$ matter at all densities. In 
+that case, for a canonical NS, we find $R_{1.4} = 11.1$ km, which is almost $1$ 
+km lower with respect to the result with a crust EoS. 
+Moreover, this difference is found to be larger with decreasing mass. 
+This shows that the crust EoS is essential to properly predict NS
+radii~\cite{Perot2020}. 
+However, we can see that the NS maximum mass is entirely determined by the 
+stellar core EoS.
 The black point marks the maximum mass for the SLy4 EoS, $M_{max} = 
 2.05M_\odot$. Let us notice that the branch left to the point is unstable, 
-because from this point the mass decreases with central density increasing.
+because from this point the mass decreases with increasing central density.
 
-\subsubsection{Crust thickness and mass}
+\subsubsection{Crust thickness and mass}\label{subsubsec:crustthickmass}
 % crust thickness and mass
 As explained in Chapter 1, a precise estimation of the CC transition point is
 required as far as crustal properties are concerned. In particular, the
@@ -287,22 +307,26 @@ popular equations of state]{Crust
 
 Fig.~\ref{fig:crustmassthick} shows the variation with NS mass of crust 
 thickness $l_{crust}$ and mass $M_{crust}$ for the same EoS as in 
-Fig.~\ref{fig:mr_popular}. As previously, the high-order empirical parameters
-are reevaluated to calculate the EoS entering the TOV equation. However,
-the transition pressure is calculated using the values of $Q_{sat(sym)}$ and
-$Z_{sat(sym)}$ directly derived from the selected functionals. The reason is
-that, as showed in Fig.~\ref{fig:sly4_nt}, the determination of CC transition 
-point is sensitive to orders $N>2$. 
+Fig.~\ref{fig:mr_popular}. As explained in~\ref{subsec:icore}, for each
+functional, when we integrate the TOV equation, the high-order empirical 
+parameters are redefined such as to optimize the reproduction of the
+high density EoS. 
+However, the transition pressure is calculated using the values of 
+$Q_{sat(sym)}$ and $Z_{sat(sym)}$ derived from the Taylor expansion at 
+saturation. The reason is that, as showed in Fig.~\ref{fig:sly4_nt}, the 
+determination of CC transition point is sensitive to orders $N>2$, and the
+Taylor expansion around saturation is reliable in the subsaturation regime. 
 We find the interesting result that the crust is thicker for low-mass neutron 
-stars, and in consequence that the $M_{crust}$ drops continuously with 
+stars, and that $M_{crust}$ drops continuously with 
 increasing NS mass. At $M=1.4M_\odot$ (black dotted line), we 
 observe that the crust is $\approx 1$ km thick, and that the crust mass is 
 approximately $0.02-0.04M_\odot$, which is $(1.5-3)\%$ of the total mass. Once
 again, a model dependence is observed. Nonetheless, the correlation of the 
-crust thickness with the slope of the symmetry energy is 
-not clear. In Fig.~\ref{fig:mr_popular}, we have seen that the radius of the 
-star is positively correlated with $L_{sym}$. In fact, the same is true for the 
-core radius, explaining why the correlations cancel in the crust 
+crust thickness with the stiffness of the EoS is not clear. 
+In Fig.~\ref{fig:mr_popular}, we have seen that the radius of the 
+star is positively correlated with the stiffness of the density dependence of
+the symmetry energy. In fact, the same is true for the 
+core radius, explaining why the correlations are less evident in the crust 
 thickness $l_{crust} = R - R_{core}$.
 
 \subsection{Moment of inertia within the slow rotation
@@ -311,7 +335,7 @@ approximation}\label{subsec:moi}
 We now turn to the calculation of the moment of inertia within the slow 
 rotation approximation~\cite{Hartle1967}. In 
 fact, this approximation is not only applicable to slowly rotating pulsars but 
-is also reliable for most of them. Indeed, while many observed pulsars show  
+it is also reliable for most of them. Indeed, while many observed pulsars show  
 rapid rotation~\cite{Stovall2013}, their structure is almost not altered by it 
 since centrifugal forces are small in comparison to the gravity, 
 $R^3\Omega^2/(GM) \ll 1$, $\Omega$ being the angular frequency. For instance, 
@@ -332,11 +356,15 @@ by~\cite{Hartle1967}
 \begin{equation}
   I = \frac{8\pi}{3}\int_0^R dr r^4\left(\rho_B +
   \frac{P}{c^2}\right)
-  \frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi}\label{eq:moi},
+  \frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi}\label{eq:moi}.
 \end{equation}
 %
-where we have introduced the rotational drag function $\bar{\omega}(r)$, which
-satisfies
+We can see that the equation for the field, Eq.~(\ref{eq:metric}), has to be
+solved together with the TOV equation, Eqs.~(\ref{eq:tov}) 
+and~(\ref{eq:massbal}). In the above expression, we have introduced the 
+rotational drag function $\bar{\omega}(r)$, which expresses the difference
+between the constant spin rate $\Omega$ and the local angular velocity of the
+initial frame $\omega(r)$, and satisfies
 %
 \begin{equation}
   \frac{d}{dr}\left(r^4j\frac{d\bar{\omega}}{dr}\right) =
@@ -360,14 +388,15 @@ equation by introducing $w = (1/\Omega)d\ln\bar{\omega}/d\ln r$, yielding
 \end{equation}
 %
 with the boundary condition $w(r=0) = 0$. This equation is solved together with 
-Eqs.~(\ref{eq:tov}) and (\ref{eq:massbal}) in order to calculate the total 
-moment of inertia, which can be rewritten as
+Eqs.~(\ref{eq:tov}) and (\ref{eq:massbal}) instead of Eq.~(\ref{eq:metric}) in 
+order to calculate the total moment of inertia, which can be rewritten more
+simply as a function of the function $w$ as
 %
 \begin{equation}
   I = \frac{c^2}{G}\frac{w(R)R^3}{6 + 2w(R)}.
 \end{equation}
 %
-The fraction of crust moment of inertia can also be calculated 
+The fractional crust moment of inertia can also be calculated 
 as~\cite{Lim2019}
 %
 \begin{eqnarray}
@@ -402,30 +431,50 @@ upper panel of Fig.~\ref{fig:moi_popular} for EoS based on Skyrme-type
 functionals BSk24, SLy4, and BSk14, and relativistic models PKDD and TM1.
 For $M=1.4M_\odot$, it is found that $I$ ranges from $\approx 1.2\times 
 10^{45}$ g cm$^2$ for the soft BSk14 EoS to $\approx 2\times 10^{45}$ g cm$^2$ 
-for the very stiff TM1 EoS. This shows the strong dependence on the EoS. More 
-particularly, an apparent positive correlation with $L_{sym}$ is observed. 
-It is seen that the model dependence is even larger for high-mass NS.
+for the very stiff TM1 EoS. This shows the strong dependence on the EoS, 
+\edit{that appears to be even larger for high-mass NS.}
 
 The lower panel of Fig.~\ref{fig:moi_popular} shows the variation with NS mass
 of $I_{crust}/I$ for the same EoS. It is seen that the more massive a 
 NS is, the less moment of inertia it stores in its crust, which follows
-the trends observed in Fig.~\ref{fig:crustmassthick}. This was predictable from 
+the trends observed in Fig.~\ref{fig:crustmassthick}. This is expected from 
 the sensitivity of crustal properties to the CC transition pressure. Given the 
 selected EoS, the value of $I_{crust}/I$ at $M=1.4M_\odot$ 
 ranges from $\approx 2\%$ for BSk14 to $\approx 5\%$ for TM1, showing once 
-again the dramatic dependence on the EoS.
+again the important dependence on the EoS. 
+\edit{The studies on crust properties requires a unified modeling, such as
+the one introduced in Chapter 1. Nonetheless, there have been propositions to
+obtain crust properties from the mere knownlege of the EoS of homogeneous 
+matter and the density and pressure at the CC transition 
+point~\cite{Zdunik2017}, though we have tested those methods and found that 
+they are imprecise for $M \lesssim 1.2M_\odot.$}
 
 \subsubsection{Connection to pulsar glitches}\label{subsubsec:glitch}
 
 The so-called pulsar glitches are sudden jumps in the rotational frequency of 
 a compact star. They are thought to originate from an abrupt transfer of 
-angular momentum from the liquid interior, acting as an angular momentum
-reservoir, to the solid crust of the star due to the unpinning of the 
-superfluid vortices from the crystal lattice~\cite{Anderson1975}. This occurs 
-when the differential lag between the slower solid crust and faster superfluid 
-vortices reach some threshold and can no longer be sustained, so as to recover 
-a close equilibrium between the two. Eventually, stresses start to build up 
-again, ultimately leading to another glitch event.
+angular momentum from the superfluid components of the NS, acting as an angular 
+momentum reservoir, to the solid crust of the star, and all the normal fluid
+components which are strongly coupled to the crust by mutual dissipation, due 
+to the unpinning of the superfluid vortices from the crystal 
+lattice~\cite{Anderson1975}. 
+%
+A rotating superfluid, such as the superfluid neutrons in the inner crust of 
+the NS, produces individual quantized vortices, with a density proportional to 
+the rotational rate. Those vortices migrate towards the surface of the star due 
+to the centrifugal force, where they get pinned to the ions of the lattice that 
+constitutes the star solid crust. Since the star experiences a spin-down due to 
+the emission of elecromagnetic radiation, a differential lag develops between 
+the faster superfluid vortices and the slower crust, leading to crustal stress. 
+%
+When the differential lag between the slower solid crust and faster superfluid 
+vortices reach some threshold and can no longer be sustained, the vortices
+suddenly unpin from the lattice sites, leading to an angular momentum transfer
+to the crust, and the rest of the star which is entangled with the crust by
+mutual friction, so as to recover a close equilibrium between the normal and
+superfluid components. Since the electromagnetic slowing down is a continuous
+process, this is not a final equilibrium situation, and eventually stresses 
+start to build up again, ultimately leading to another glitch event.
 
 At the time of writing, 555 glitches have been observed in 190 pulsars through 
 high-precision pulsar timing~\cite{Espinoza2011,Glitches}. For a given 
@@ -454,9 +503,13 @@ where we have introduced the coupling parameter $\mathcal{G}$. In view of
 relating the observational constraint $\mathcal{G}$ to the fractional moment of
 inertia $I_{crust}/I$ to ultimately set a constraint on the stellar EoS, we 
 assume that the angular momentum reservoir is confined to the neutron 
-superfluid coexisting with the crystal lattice of the inner crust. In that 
-case, we have $I_c = I - I_{res} \simeq I$ and $I_{crust} \simeq I_{sf}$,
-yielding~\cite{Link1999}
+superfluid coexisting with the crystal lattice of the inner crust. 
+%
+\edit{This is justified by the fact that the pairing gap in PNM vanishes at
+suprasaturation densities~\cite{Cao2006}.}
+%
+In that case, we have $I_c = I - I_{res} \simeq I$ and 
+$I_{crust} \simeq I_{sf}$, yielding~\cite{Link1999}
 %
 \begin{equation}
   \frac{I_{sf}}{I_c} \simeq \frac{I_{crust}}{I} 
@@ -471,19 +524,27 @@ of the entrainment coupling is related to the neutron effective mass $m_n^*$ in
 the inner crust, which is proportional to the ratio of unbound neutrons to 
 those that are not entrained, $m_n^* \equiv m_n n_g/n_g^c$. Taking into 
 account the entrainment effects, the previous constraint, Eq.~(\ref{eq:noent}), 
-then becomes~\cite{Andersson2012}
+then becomes~\cite{Carter2005,Andersson2012}
 %
 \begin{equation}
   \frac{I_{crust}}{I} \geq \mathcal{G}\frac{\langle m_n^*
   \rangle}{m_n},\label{eq:ifrac_g}
 \end{equation}
 %
-with $\langle m_n^* \rangle$ the average effective neutron mass.
+with $\langle m_n^* \rangle$ the average neutron effective
+mass\footnote{\edit{It differs from the 
+    definition Eq.~(\ref{eq:effm}), which corresponds to the $k$-mass $m_{n,k}$ 
+    arising from the spatial nonlocality of the mean field. Here, the 
+    $\omega$-dependence is introduced because of the transport of neutrons, 
+which is a dynamical phenomemon, and the neutron effective mass reads $m_n^*
+= m_{n,k} m_{n,\omega}/m$, where $m_{n,\omega}$ is the $\omega$-mass.}}.
 It should be stressed that systematic calculations of $m_n^*$ throughout 
-the NS crust are very costly from the computational point of view and that,
+the NS crust are very costly from the computational point of view. To get an 
+order of magnitude of the effect, 
 following~\cite{Andersson2012,Piekarewicz2014}, we adopt the 
 value $\langle m_n^* \rangle /m_n = 4.3$, which is inferred from the 
-results of~\cite{Chamel2012}. Naturally, one recover the expression without 
+results of~\cite{Chamel2012} obtained with the BSk14 functional. 
+Naturally, one recover the expression without 
 crustal entrainment in the case of $\langle m_n^* \rangle = m_n$. We should 
 stress that the importance of the effect of crustal entrainment, that is the 
 value of the average neutron effective mass throughout the solid crust, is 
@@ -493,7 +554,7 @@ The Vela pulsar (PSR B0833-45) is one of the most active glitchers known, with
 glitches occurring four times per decade on average. Since the beginning of its 
 monitoring, almost than 50 years ago, it has exhibited 20 glitches in
 total~\cite{Glitches}, allowing for a precise estimation of the corresponding 
-the coupling parameter, $\mathcal{G}_{\text{Vela}} = (1.62 \pm 0.03) \times
+coupling parameter, $\mathcal{G}_{\text{Vela}} = (1.62 \pm 0.03) \times
 10^{-2}$~\cite{Ho2015}. This can be translated into a constraint for 
 the fraction of crust moment of inertia,
 %
@@ -533,21 +594,22 @@ complete statistical analysis~\cite{Carreau2019moi}.
 \subsection{Tidal deformability}\label{subsec:tidal} % 2
 
 The tidal deformability describes how much a body is deformed by tidal forces,
-which arise when two massive bodies orbit each other. The simplest example
-corresponds of course to the Moon causing the tides observed in Earth's 
-oceans.
+which arise when two massive bodies are in orbit around each other. 
+The simplest and best known example corresponds to the Moon causing the tides 
+observed in Earth's oceans.
 The detection of gravitational radiation emitted by inspiraling binary NS 
 is possible using ground-based GW detectors such as LIGO 
 and Virgo. 
 Shortly before merging, once the relative distance between the stars is small
 enough, the tidal distortion of the NS becomes so large that, in some cases (in
-strongest signals), it becomes possible to infer the tidal deformability from 
-the GW signal. Theoretically, the tidal deformability parameter is the 
+strongest signals corresponding to closest merging events), it becomes possible 
+to infer the tidal deformability from the GW signal. 
+Theoretically, the tidal deformability parameter is the 
 observable which makes the link between the EoS and the gravitational signal. 
 In that sense, GW observations can ultimately provide new constraints on the 
 EoS. In particular, the first detection of GW from the coalescence of two NS, 
-the GW170817 event, has yielded a value for the tidal deformability of a 
-$1.4M_\odot$ NS~\cite{GW1}.
+the GW170817 event, has yielded important constraints for the tidal 
+deformability of NS~\cite{GW1}.
 
 Let us consider a static, spherically symmetric NS, placed in a static external
 quadrupolar tidal field $\mathcal{E}_{tid}$. The induced quadrupole moment of
@@ -624,9 +686,11 @@ of the mass being concentrated at the center of the star, the tidal deformation
 is small, and so is $k_2$. In agreement with~\cite{Hinderer2010}, we find that 
 $k_2$ lies in the range $\approx 0.05-0.15$. The relative difference between
 the present EoS is of the order of $\approx 35\%$ for $M=1.4M_\odot$, showing
-once again the dramatic dependence on the EoS. Let us point out that the tidal 
-Love number is very sensitive to the description of the crustal component of 
-the EoS~\cite{Piekarewicz2019}.
+once again the notable dependence on the EoS. \edit{In particular, it has been
+shown very recently that $k_2$ is sensitive to $L_{sym}$ but not to
+$E_{sym}$~\cite{Perot2019,Perot2020}.} 
+Let us also point out that the tidal Love number is very sensitive to the 
+description of the crustal component of the EoS~\cite{Piekarewicz2019}. 
 
 The dimensionless tidal deformability is plotted as a function of $M$ in the 
 lower panel of Fig.~\ref{fig:tidal_popular}. In the mass range considered, it 
@@ -635,12 +699,11 @@ orbiting another massive compact object. In the inset, we show the value of
 the dimensionless tidal deformability for a $1.4M_\odot$ NS inferred from the 
 GW170817 event, $\Lambda_{1.4} = 190_{-120}^{+390}$ at the $90\%$ level. We can
 observe that the EoS which predict the largest tidal effects, PKDD and TM1, are 
-unlikely. One can notice the tug or war between the tendency of wanting soft 
-EoS, typically based on nonrelativistic Skyrme-type functionals, which predict 
-small tidal deformations, and wanting very stiff EoS, typically based on 
-relativistic models, to explain the glitch phenomenon as a transfer of angular
-momentum from the neutron superfluid confined in the crystal lattice to the 
-solid crust.
+unlikely. One can notice the tension between the evidence of a rather soft 
+EoS, typically satisfied by nonrelativistic Skyrme-type functionals, which 
+predict small tidal deformations, and the need of a rather stiff EoS, typically 
+obtained in the framework of relativistic models, to explain the glitch 
+phenomenon as well as the most massive NS.
 
 \section{Bayesian determination of the equation of state
 parameters}\label{sec:bayes}
