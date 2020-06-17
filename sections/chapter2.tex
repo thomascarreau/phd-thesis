@@ -1554,9 +1554,9 @@ low-density EoS.
 \edit{The excellent determination of the EoS at $2\rho_{sat}$ comes from the 
    that we have applied the LD constraint up to $0.20$ fm$^{-3}$. If we only
 trust the ab initio calculations up to $\rho_{sat}$, because of the 
-uncertainties on three-body interactions which are still under
+uncertainties on the three-body interactions that are still under
 debate~\cite{Tews2019}, the prediction remains good, but the band is larger and 
-compatible with SLy4 EoS.}
+compatible with the SLy4 EoS.}
 
 \subsubsection{Masses and radii} % 1.5
 
@@ -1602,7 +1602,7 @@ $R_2$ that of the lighter star, that is assuming an identical value for the
 radius of binary components. 
 The authors found $R_{1.4} = 10.7_{-1.6}^{+2.1}$ km ($90\%$ 
 credible interval)~\cite{De2018}, which is in a very close agreement with the 
-estimation of the LIGO/Virgo collaborations which use EoS-insensitive 
+estimation of the LIGO/Virgo collaborations when they use EoS-insensitive 
 relations, $R_{1.4} \approx R_1 = 10.7_{-1.5}^{+2.1}$ km ($90\%$ credible
 interval)~\cite{GW1}. Using a parametrized EoS and imposing the constraint on
 the maximum mass $M_{max}^{obs}=1.97M_\odot$, LIGO and Virgo collaborations 
@@ -1619,9 +1619,10 @@ EoS parameters contains information arising from nuclear experiments.
 In~\cite{De2018,GW1}, constraints on nuclear physics observables were not 
 considered.
 
-In Fig.~\ref{fig:mr_popular}, we have observed an apparent correlation between 
-the radius of the star $R$ and the slope of the symmetry energy $L_{sym}$, 
-given five characteristic EoS models. This correlation has 
+In Fig.~\ref{fig:mr_popular}, we have observed that the study of five
+characteristic EoS models suggests a possible correlation between 
+the radius of the star $R$ and the slope of the symmetry energy $L_{sym}$. 
+This correlation has 
 been highlighted recently in several studies, using EoS based either on
 Skyrme forces or relativistic mean-field models~\cite{Alam2016,Ji2019,Hu2020}. 
 Surprisingly, for the LD prediction, we find that $R_{1.4}$ is especially 
@@ -1699,7 +1700,7 @@ the diagonal corresponds to the unphysical region $\Lambda_2 > \Lambda_1$ since
 the convention $m_1 \geq m_2$ has been taken. It is seen that our 
 LD+HD prediction meets the results of the LIGO/Virgo collaborations at 
 $90\%$ confidence level, but we find that our posterior slightly favors larger 
-values of $\Lambda_{1,2}$, that can be obtained with more stiff EoS, associated 
+values of $\Lambda_{1,2}$, that can be obtained with stiffer EoS, associated 
 to less compact NS. 
 The dimensionless tidal deformabilities are also calculated for the same four 
 popular EoS as in Figs.~\ref{fig:eos_bayes} and~\ref{fig:mr_bayes}.
@@ -1743,14 +1744,23 @@ radius $R_{1.4}$, we find a Pearson correlation coefficient of $r(R_{1.4},
 \Lambda_{1.4})=0.98$, and we have seen that the radius of a $1.4M_\odot$ NS is 
 correlated with the isovector incompressibility parameter $K_{sym}$. Hence, 
 we observe that $K_{sym}$ and $\Lambda_{1.4}$ are correlated, with
-$r(K_{sym},\Lambda_{1.4}) = 0.66$. We have seen in~\ref{fig:iv_dist} that the 
-isovector empirical parameters are strongly constrained by the ab initio 
+$r(K_{sym},\Lambda_{1.4}) = 0.66$. We have seen in Fig.~\ref{fig:iv_dist} that 
+the isovector empirical parameters are strongly constrained by the ab initio 
 calculations of NM, particularly when the constraint on pressure is accounted 
 for in the LD pass-band filter. More specifically, we find that the 
 isovector incompressibility is tightly determined in that case, with a 
 distribution being peaked at $K_{sym} \approx -200$ MeV, therefore favoring 
 soft EoS and in consequence smaller values of the tidal parameter 
 $\Lambda_{1.4}$.
+%
+
+\edit{The only hypothesis of the metamodel is that the EoS can be
+written as a Taylor series, which exclude the eventuality of a transition to 
+quark-gluon plasma.
+Hence, a discrepancy between our posterior and that of the
+LIGO and Virgo collaborations would be a smoking gun for the existence of
+quarks in the core of NS. We do not observe such evidence in the our results, 
+thus the hypothesis of a purely nucleonic EoS cannot be excluded.}
 
 \subsection{Bayesian analysis of the crust-core
 transition}\label{subsec:cc_bayes}
