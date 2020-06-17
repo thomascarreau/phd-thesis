@@ -23866,6 +23866,41 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.77.061304
       \endverb
     \endentry
+    \entry{Tews2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=35191eb908c7f82567cf8e2ca75edd1a}{%
+           family={{Tews, I.}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=a67704c95534425b83847be7b2080fed}{%
+           family={{Margueron, J.}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=743a4aaf95492fce835110d99b360348}{%
+           family={{Reddy, S.}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0583532450cea5b8c4b65e82c0b3d565}
+      \strng{fullhash}{0583532450cea5b8c4b65e82c0b3d565}
+      \strng{authornamehash}{0583532450cea5b8c4b65e82c0b3d565}
+      \strng{authorfullhash}{0583532450cea5b8c4b65e82c0b3d565}
+      \field{labelalpha}{TMR19}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eur. Phys. J. A}
+      \field{number}{6}
+      \field{title}{Confronting gravitational-wave observations with modern nuclear physics constraints}
+      \field{volume}{55}
+      \field{year}{2019}
+      \field{pages}{97}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epja/i2019-12774-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epja/i2019-12774-6
+      \endverb
+    \endentry
     \entry{Tolman1939}{article}{}
       \name{author}{1}{}{%
         {{hash=6216dd633046f7ab6604e65787e7b686}{%
