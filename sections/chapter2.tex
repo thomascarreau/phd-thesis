@@ -1768,8 +1768,8 @@ transition}\label{subsec:cc_bayes}
 The precise estimation of the CC transition point location, defined by
 Eq.~(\ref{eq:cctp}), is important for the theoretical determination of NS 
 static properties, such as the radius~\cite{Fortin2016}, for which accurate 
-measurements will be available in the near future using hard x-ray timing 
-techniques~\cite{Watts2016}. 
+measurements will hopefully be available in the near future using hard x-ray 
+timing techniques~\cite{Watts2016}. 
 Furthermore, the computation of the crustal observables with the hydrostatic 
 equilibrium equations requires the knowledge of the CC transition pressure 
 $P_t$ in addition to the EoS. 
@@ -1806,24 +1806,34 @@ parameters, we expect that the theoretical determination of the CC transition
 point is sensitive to the surface energy at high isospin, which is essentially 
 governed by the isovector surface parameter $p$, see Fig.~\ref{fig:sly4_nt}.
 Unfortunately, experimental data are unavailable above $I = (N-Z)/A \gtrsim 
-0.3$ for the moment.
+0.3$, which approximately corresponds to the neutron drip line in the
+laboratory.
 
 % description prior/posterior
 The prior and LD+HD posterior distribution for the
 surface plus curvature energy per surface nucleon are displayed in the left 
 panel of Fig.~\ref{fig:surf_bayes} as a function of isospin asymmetry for the 
 $p=3$ case, along the isobaric chain $A=200$. 
+%
+\edit{To obtain the prior distribution, we calculate the surface plus 
+  curvature energy for the uncorrelated prior distribution of 
+  empirical parameters given in Table~\ref{table:prior}. Since, for a given set
+  of empirical parameters sampled according to the uniform distribution, we 
+  only keep the set of surface and curvature parameters that minimizes the 
+  reduces $\chi^2$ defined in Eq.~(\ref{eq:chi2}), the prior distribution 
+  already takes into account the present knowledge on experimental masses.} 
+%
 The variation with $I$ of $(E_{surf} + E_{nuc})/A^{2/3}$ is also shown for 
 four popular models. All of them are compatible with the $1\sigma$ band 
 for to prior distribution.
-It is seen that the LD+HD distribution predicts a low surface energy for 
+It is seen that the LD+HD distribution predicts a lower surface energy for 
 nearly symmetric nuclei with respect to the prior distribution and the 
 selected popular functionals. This is not surprising because we known that the 
 surface parameter $\sigma_0=\sigma(I=0)$ is strongly anticorrelated with the 
 energy per nucleon of SNM at saturation $E_{sat}$~\cite{Carreau2019cc}, for 
 which large values are favored by the LD filter, see Fig.~\ref{fig:is_dist}.
 Above the neutron drip line, $I \gtrsim 0.35$, we can see that the filters 
-defining our likelihood probability allows a tight determination of the 
+defining our likelihood probability allow a tight determination of the 
 surface energy in comparison to the prior distribution. This translates into
 smaller uncertainties for the CC transition density and pressure.
 
@@ -1882,7 +1892,7 @@ this can explain why the present predictions of the transition pressure are so
 largely scattered, see Fig.~\ref{fig:cctp_lsym}.
 % effects of filters
 The HD filter does not impose further correlations between the transition
-quantities and the EoS with respect to the prior distribution, apart from tiny 
+quantities and the EoS, apart from tiny 
 correlations with the isoscalar kurtosis $Z_{sat}$. We can see that the LD 
 filter slightly reinforces the correlation of transition density and pressure 
 with the isovector skewness $Q_{sym}$. If the pressure filter, which allows a
@@ -1903,27 +1913,35 @@ surface parameter $p$ is allowed to vary (lines ``LD+HD''). This observation
 contrasts with some of the results of~\cite{Carreau2019cc}, in which 
 important correlations between the transition quantities and the surface
 parameters were revealed. Once again, this is because the surface energy is
-better controlled in our calculation, as permitted by the introduction of 
-curvature terms, supplemented by the fact that a larger pool of nuclear masses 
-is used for the fit of surface and curvature parameters.
+better controlled in the present calculation, as permitted by the introduction 
+of curvature terms, supplemented by the fact that a larger pool of nuclear 
+masses is used for the fit of surface and curvature parameters. 
+We can say that the fact that important differences are observed with respect
+to our published results, when the surface parameters are more strongly
+constrained, is a confirmation of the main conclusion of our
+paper~\cite{Carreau2019cc}, namely that a control on the surface energy is
+mandatory to correctly predict the transition properties.
 
 \begin{table}[!t]
 \begin{center}
-\begin{tabular}{ccc} 
+\begin{tabular}{ccccc} 
   \toprule
   \toprule
-  Distribution & $n_t$ (fm$^{-3}$) & $P_t$ (MeV/fm$^3$)\\
+  & \multicolumn{2}{c}{This thesis} & 
+  \multicolumn{2}{c}{\cite{Carreau2019cc}}\\
+  Distribution & $n_t$ (fm$^{-3}$) & $P_t$ (MeV/fm$^3$) & $n_t$
+  (fm$^{-3}$) & $P_t$ (MeV/fm$^3$)\\
   \midrule
-  Prior              & $0.062_{-0.036}^{+0.028}$ &
-  $0.225_{-0.167}^{+0.379}$ \\
-  HD                 & $0.059_{-0.029}^{+0.023}$ &
-  $0.190_{-0.120}^{+0.232}$ \\ 
-  LD                 & $0.073_{-0.032}^{+0.025}$ &
-  $0.281_{-0.179}^{+0.478}$ \\ 
-  LD (with pressure) & $0.068_{-0.021}^{+0.021}$ & 
-  $0.263_{-0.149}^{+0.302}$ \\ 
-  LD+HD              & $0.074_{-0.033}^{+0.019}$ & 
-  $0.277_{-0.168}^{+0.276}$ \\ 
+  Prior & $0.062_{-0.036}^{+0.028}$ & $0.225_{-0.167}^{+0.379}$ & $0.078\pm
+  0.040$ & $0.342\pm 0.426$\\
+  HD & $0.059_{-0.029}^{+0.023}$ & $0.190_{-0.120}^{+0.232}$ & $0.076\pm 0.032$
+     & $0.394\pm 0.327$\\ 
+  LD & $0.073_{-0.032}^{+0.025}$ & $0.281_{-0.179}^{+0.478}$ & &\\ 
+  LD (w/ $P$) & $0.068_{-0.021}^{+0.021}$ & $0.263_{-0.149}^{+0.302}$ & $0.074
+  \pm 0.011$ & $0.307\pm 0.167$\\ 
+  LD+HD & $0.074_{-0.033}^{+0.019}$ & 
+  $0.277_{-0.168}^{+0.276}$\\ 
+  LD (w/ $P$)+HD & & & $0.077\pm 0.010$ & $0.389\pm 0.111$\\ 
   \bottomrule
   \bottomrule
 \end{tabular}
@@ -1990,7 +2008,13 @@ LD+HD prediction. Overall, only minor differences are observed between the
 $p=2.5$, $p=3$ and $p=3.5$ cases. We can see that the difference between the 
 $p=3$ and $p=3.5$ cases is even smaller than that between 
 $p=2.5$ and $p=3$ as far as the transition density was concerned, as it was 
-expected from Fig.~\ref{fig:sly4_nt}.
+expected from Fig.~\ref{fig:sly4_nt}. 
+%
+In~\cite{Carreau2019cc}, we suggested that extra data on neutron rich nuclei
+are needed to pin down the value of $p$, and consequently the transition point.
+The present study suggests that an accurate reproduction of the whole pool of
+presently measured masses might be sufficient to compensate the uncertainty led
+by the poorly constrained $p$ parameter.
 
 \subsection{Pulsar glitches: answering the question
 ``\textit{Is the crust enough?}''}\label{subsec:gli_stats}
