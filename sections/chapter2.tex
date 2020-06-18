@@ -1941,7 +1941,8 @@ mandatory to correctly predict the transition properties.
   \pm 0.011$ & $0.307\pm 0.167$\\ 
   LD+HD & $0.074_{-0.033}^{+0.019}$ & 
   $0.277_{-0.168}^{+0.276}$\\ 
-  LD (w/ $P$)+HD & & & $0.077\pm 0.010$ & $0.389\pm 0.111$\\ 
+  LD (w/ $P$)+HD & $0.083_{-0.045}^{+0.016}$ & $0.463_{-0.338}^{+0.262}$ & 
+  $0.077\pm 0.010$ & $0.389\pm 0.111$\\ 
   \bottomrule
   \bottomrule
 \end{tabular}
@@ -1949,8 +1950,10 @@ mandatory to correctly predict the transition properties.
 \caption[$68\%$ confidence intervals for the crust-core transition density and
 pressure for different filters]{$68\%$ confidence intervals for the CC
 transition density $n_t$ and pressure $P_t$ for different distributions: prior, 
-HD, LD with and without the pressure filter, and LD+HD. In all cases, $p=3$ is
-fixed.}\label{table:ntpt}
+HD, LD with and without the pressure filter, \edit{and LD+HD with and without 
+the pressure filter.} In all cases, $p=3$ is fixed. \edit{The left two columns 
+give the average value and standard deviation $\sigma$ of $n_t$ and $P_t$
+calculated in~\cite{Carreau2019cc}.}}\label{table:ntpt}
 \end{table}
 
 \begin{figure}[!t]
@@ -1980,7 +1983,7 @@ symbols give the CC transition point as obtained with the popular models BSk24,
 SLy4, PKDD and TM1. 
 % strong correlation (nt,Pt) in all cases
 In all cases and in agreement with~\cite{Carreau2019cc}, we find that $n_t$ and 
-$P_t$ are strongly correlated in all cases. The Pearson correlation coefficient 
+$P_t$ are strongly correlated. The Pearson correlation coefficient 
 is as high as $r=0.92$ when using the LD filter with the constraint on 
 pressure.
 % Effect on the different filters on the cc transition properties / table ntpt
@@ -1997,10 +2000,42 @@ has a significant impact on the distribution of $P_t$.
 We find that the resulting CC transition points, for three of the four popular 
 models considered in this study, meet our final LD+HD prediction at the $50\%$
 confidence level.
+
 % table
 The $68\%$ confidence intervals for 
 the transition density and pressure for each of the considered distributions 
-are reported in Table~\ref{table:ntpt}.
+\edit{as well as for LD+HD with the pressure filter} are reported in 
+Table~\ref{table:ntpt}. 
+\edit{For each filter, our predictions for $n_t$ and $P_t$ are compatible with 
+our published results reported in the right two 
+columns~\cite{Carreau2019cc}, though not identical due to 
+a different treatment of the surface energy. Indeed, a limited pool of nine 
+magic and semimagic nuclei were used to fit the surface parameters
+in~\cite{Carreau2019cc}, whereas the surface and curvature parameters are
+fitted to all experimental masses from AME2016 (2353 nuclei) in the present 
+study. Both options have limitations. On the one hand, fitting all presently
+measured masses and considering a curvature term allows a better reproduction
+of experimental masses and a tighter determination of the surface parameters.
+On the other hand, we fit a spherical model to nonspherical nuclei and we thus
+take the risk to incorporate deformation energy components in the surface 
+energy.
+The fact that changing the fitting protocol of the surface and curvature
+parameters alters sensitively the predictions of the transition density and
+pressure means that the surface energy is a key quantity (together with the
+high-order empirical parameters that are strongly constrained by the pressure 
+filter), and that further investigations are desirable. In particular, a fit of 
+the experimental masses with a deformation degree of freedom and shell effects, 
+and an improved control of the uncertainty on pressure are advisable.
+% blabla nongaussianity of the distribution in epja
+Let us remark that in~\cite{Carreau2019cc}, we limited us to the calculation of 
+the standard deviation for $n_t$ and $P_t$.
+However, in the present study, and especially for the LD+HD prediction, 
+we observe that the $68\%$ credible interval for $n_t$ and $P_t$ deviates from 
+the standard deviation ($\sigma_{n_t} = 0.024$ fm$^{-3}$ and $\sigma_{P_t} = 
+0.224$ MeV/fm$^3$) because of the non-Gaussianity of the distributions arising 
+from the tension between LD and HD constraints observed in Fig.~\ref{fig:ntpt}.
+}
+
 % effect of varying p
 The effect of varying $p$ on the marginalized one-parameter distributions for
 $n_t$ and $P_t$ is displayed in the last panel of Fig.~\ref{fig:ntpt}, for the
