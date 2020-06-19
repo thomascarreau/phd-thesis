@@ -1951,7 +1951,7 @@ mandatory to correctly predict the transition properties.
 pressure for different filters]{$68\%$ confidence intervals for the CC
 transition density $n_t$ and pressure $P_t$ for different distributions: prior, 
 HD, LD with and without the pressure filter, \edit{and LD+HD with and without 
-the pressure filter.} In all cases, $p=3$ is fixed. \edit{The left two columns 
+the pressure filter.} In all cases, $p=3$ is fixed. \edit{The right two columns 
 give the average value and standard deviation $\sigma$ of $n_t$ and $P_t$
 calculated in~\cite{Carreau2019cc}.}}\label{table:ntpt}
 \end{table}
@@ -2054,14 +2054,14 @@ by the poorly constrained $p$ parameter.
 \subsection{Pulsar glitches: answering the question
 ``\textit{Is the crust enough?}''}\label{subsec:gli_stats}
 
-For a given EoS, the determination of the fraction of crust moment of inertia,
+For a given EoS, the determination of the fractional crust moment of inertia,
 using Eq.~(\ref{eq:crustmoi}), 
-and more generally of any crustal observable, is possible providing 
-the location of the transition point to homogeneous matter.
+and more generally of any crustal observable, is possible if 
+the location of the transition point to homogeneous matter is known.
 As discussed in~\ref{subsubsec:glitch}, the NS crustal moment of inertia is
 related to the theoretical description of the glitch phenomenon, which consists
-of the sudden spin-up of the rotational frequency of a NS. In the consensus 
-view, a pulsar glitch is observed as the consequence of the angular 
+of the sudden spin-up of the rotational frequency of a NS. In the standard 
+interpretation, a pulsar glitch is observed as the consequence of the angular 
 momentum transfer from the neutron superfluid permeating the inner crust to the 
 solid crust~\cite{Anderson1975}. For a specific pulsar for which the coupling 
 parameter $\mathcal{G}$ has been measured, and depending of the importance of 
@@ -2076,10 +2076,84 @@ parameters.
 
 \begin{figure}[!t]
   \begin{center}
+    \includegraphics[width=\linewidth]{figures/corr_crustobs_pars.pdf}
+  \end{center}
+  \caption[\edit{Correlation of the crust thickness and fractional crust moment 
+    of inertia of a $1.4M_\odot$ neutron star with the equation of state 
+    parameters for different filters}]{\edit{Correlation of the crust thickness 
+    $l_{crust,1.4}$ (upper panel) and fractional crust moment of inertia
+    $I_{crust,1.4}/I_{1.4}$ (lower panel) of a $1.4M_\odot$ NS with the
+    empirical, surface, and curvature parameters for different distributions: 
+    prior, HD, LD, LD with pressure filter, and LD+HD joint posterior 
+    distributions for $p=3$, and LD+HD joint posterior distribution for the 
+drscrete ansatz $p=\{2.5,3,3.5\}$.}}\label{fig:corr_crustobs_pars}
+\end{figure}
+%
+\edit{
+The correlation coefficients between the EoS parameters and the crust thickness
+and fractional crust moment of inertia of a $1.4M_\odot$ NS are displayed in
+Fig.~\ref{fig:corr_crustobs_pars} for different joint distributions of 
+parameters. In agreement with our published results~\cite{Carreau2019moi}, we 
+find that $l_{crust,1.4}$ and $I_{crust,1.4}/I_{1.4}$ are strongly correlated 
+with the isovector sqewness $Q_{sym}$. A small correlation is also obtained
+between the fractional crust moment of inertia and the isovector
+incompressibility $K_{sym}$. Therefore, one of 
+the conclusions drawn in~\cite{Carreau2019moi}, namely the fact that higher 
+precision in the experimental determination of $K_{sym}$ and $Q_{sym}$ in the 
+low density EFT theoretical predictions is required to reduce the uncertainties 
+on crustal observables, hold despite the different fitting protocol employed in 
+the present study. However, as observed in Fig.~\ref{fig:corr_ntpt_pars} for 
+the CC transition density and pressure, we can see that the correlations with 
+the surface and curvature parameters disappear when a refined control of the 
+surface energy is considered.
+}
+
+\begin{table}[!t]
+\begin{center}
+\begin{tabular}{ccccc} 
+  \toprule
+  \toprule
+  & \multicolumn{2}{c}{This thesis} & 
+  \multicolumn{2}{c}{\cite{Carreau2019moi}}\\
+  Distribution & $l_{crust,1.4}$ (km) & $I_{crust,1.4}/I_{1.4}$ ($\%$) &
+  $l_{crust,1.4}$ (km) & $I_{crust,1.4}/I_{1.4}$ ($\%$)\\
+  \midrule
+  Prior & $1.06_{-0.33}^{+0.25}$ & $2.33_{-1.69}^{+3.37}$ & $1.13\pm 0.29$ &
+  $3.40\pm 3.34$\\
+  HD & $1.10_{-0.24}^{+0.21}$ & $2.20_{-1.35}^{+2.32}$ & $1.17\pm 0.29$ &
+  $4.39\pm 3.26$\\ 
+  LD & $1.08_{-0.27}^{+0.19}$ & $3.06_{-2.08}^{+3.65}$ & &\\ 
+  LD (w/ $P$) & $0.98_{-0.20}^{+0.21}$ & $2.99_{-1.87}^{+2.65}$ & 
+  $0.95\pm 0.11$ & $3.54\pm 1.33$\\ 
+  LD+HD & $1.11_{-0.21}^{+0.14}$ & $2.89_{-1.68}^{+2.51}$ & &\\ 
+  LD (w/ $P$)+HD & $1.10_{-0.25}^{+0.15}$ & $4.16_{-2.90}^{+2.20}$ & $1.03\pm
+  0.10$ & $4.50\pm 1.25$\\ 
+  \bottomrule
+  \bottomrule
+\end{tabular}
+\end{center}
+\caption[\edit{$68\%$ confidence intervals for the crust thickness and
+fractional crust moment of inertia of $1.4M_\odot$ neutron star for different 
+filters}]{\edit{$68\%$ confidence intervals for the crust thickness and 
+  fractional crust moment of inertia of a $1.4M_\odot$ NS for different 
+  distributions: prior, HD, LD with and without the pressure filter, and LD+HD 
+  with and without the pressure filter. In all cases, $p=3$ is fixed. The right 
+  two columns give the average value and standard deviation $\sigma$ of
+  $l_{crust,1.4}$ and $I_{crust,1.4}/I_{1.4}$ calculated 
+  in~\cite{Carreau2019moi}.}}\label{table:ntpt}
+\end{table}
+%
+\edit{
+% comme pour nt et pt, commenter et expliquer diff avec PRC
+Blabla.
+}
+
+\begin{figure}[!t]
+  \begin{center}
     \includegraphics[width=0.8\linewidth]{figures/ifrac14_vs_lcrust14.pdf}
   \end{center}
   \caption[Marginalized probabilities for the crust thickness and fraction of
-  crust moment of inertia of a $1.4M_\odot$]{Marginalized probabilities for the 
+  crust moment of inertia of a $1.4M_\odot$ neutron star]{Marginalized probabilities for the 
     crust thickness $l_{crust,1.4}$ and fraction of crust moment of inertia
     $I_{crust,1.4}/I_{1.4}$ for a $1.4M_\odot$ NS, using the LD+HD 
     distribution. The dashed lines delimit the $50\%$ and $90\%$ confidence 
@@ -2097,17 +2171,19 @@ Fig.~\ref{fig:ifrac14_vs_lcrust14}. It means that the thicker the crust is,
 the more angular momentum is confined to the neutron superfluid coexisting with 
 the crystal lattice of the inner crust. We obtain 
 $l_{crust,1.4}=1.11_{-0.21}^{+0.14}$ km and $I_{crust,1.4}/I_{1.4}=
-2.89_{-1.68}^{+2.51} \%$ at the $1\sigma$ confidence level. The empirical 
-parameters contributing the most to the uncertainty in the crust moment of 
-inertia are, as for the transition density and pressure, the isovector 
-incompressibility $K_{sym}$ and skewness $Q_{sym}$. As expected from previous 
-studies~\cite{Piekarewicz2014,Carreau2019moi}, we observe large correlations 
-between the crustal observables and the transition quantities, notably 
-$r(P_t,I_{crust,1.4}/I_{1.4})=0.98$. Among the four popular models considered, 
-only the prediction of the BSk24 EoS (orange circle) meets our distribution.
-The results for SLy4 (green square), PKDD (red triangle) and TM1 (purple
-triangle) EoS are only marginally compatible with the LD+HD prediction at the 
-$90\%$ confidence level (dashed lines).
+2.89_{-1.68}^{+2.51} \%$ at the $1\sigma$ confidence level. As expected from 
+previous studies~\cite{Piekarewicz2014,Carreau2019moi}, we observe large 
+correlations between the crustal observables and the transition quantities, 
+notably $r(P_t,I_{crust,1.4}/I_{1.4})=0.98$. Among the four popular models 
+considered, only the prediction of the BSk24 EoS (orange circle) meets our 
+distribution. The results for SLy4 (green square), PKDD (red triangle) and TM1 
+(purple triangle) EoS are only marginally compatible with the LD+HD prediction 
+at the $90\%$ confidence level (dashed lines).
+%
+We can see that a crustal origin for the glitches, if the Vela pulsar has the
+canonical $1.4M_\odot$ mass, appears marginal but still cannot be excluded at
+the $90\%$ level, even if entrainment is accounted for (horizontal dashed
+line).
 
 \begin{figure}[!t]
   \begin{center}
@@ -2147,6 +2223,10 @@ that we impose the equality
   m_n^*\rangle}{m_n}.\label{eq:mr_from_g}
 \end{equation}
 %
+Since the fractional moment of inertia is a decreasing function of the pulsar
+mass, see lower panel of Fig.~\ref{fig:moi_popular}, this means that the masses 
+predicted in Fig.~\ref{fig:mr_from_g_vela} should be considered as upper limits 
+of the mass. 
 Hence, the marginalized two-parameter distribution for Vela mass and radius is 
 computed as
 %
@@ -2168,8 +2248,8 @@ BSk24, SLy4, and PKDD EoS. Considering the specific treatment of the
 entrainment effect with $\langle m_n^*\rangle/m_n = 4.3$ (right panel), the 
 predicted Vela mass is significantly lower than that inferred in the case where
 entrainment is neglected, with $M_{\text{Vela}}=0.79_{-0.33}^{+0.41} M_\odot$ 
-at the $1\sigma$ confidence level. This shows that the uncertainty on the
-importance of crustal entrainment is dominant over the EoS uncertainty and the
+at the $1\sigma$ confidence level. This shows that a proper treatment of 
+crustal entrainment is more important than the EoS uncertainty and the
 experimental uncertainty on the glitch amplitude.
 Let us notice that an innovative method was recently proposed to determine the 
 mass and radius using observations of the maximum observed
@@ -2192,7 +2272,7 @@ glitches~\cite{Pizzochero2017}.
   represented.}\label{fig:ifrac_vs_m}
 \end{figure}
 
-Fig.~\ref{fig:ifrac_vs_m} shows the average value of the fraction of crust 
+Fig.~\ref{fig:ifrac_vs_m} shows the average value of the fractional crust 
 moment of inertia $I_{crust}/I$ and the $50\%$ and $90\%$ regions 
 as a function of the NS mass for the LD+HD posterior distribution. It should be
 stressed that the uncertainty on $I_{crust}/I$ is smaller 
@@ -2213,7 +2293,13 @@ Finally, it is clearly observed that the largest estimation of the crustal
 entrainment effect~\cite{Delsate2016} is incompatible with the present nuclear 
 physics knowledge if we keep the standard picture where a full crustal origin 
 is assumed~\cite{Anderson1975}. Indeed, it yields $M_\text{Vela} \lesssim 
-1M_\odot$, yet such low-mass NS have never been observed to this day.
+1M_\odot$, yet such low-mass NS have never been observed to this day. 
+%
+The same conclusion was drawn in our published paper~\cite{Carreau2019moi}, 
+where a different protocol for the fit of the surface energy was employed, and 
+a more stringent filter including the chiral EFT pressure estimation was 
+included. The fact that the conclusion does not change fully neglecting the EFT 
+results on pressure confirms the robustness of the prediction.
 
 \section{Conclusions}\label{sec:conclu2}
 
@@ -2222,30 +2308,45 @@ equilibrium in general relativity, for spherical nonrotating stars. We have
 solved these equations for different popular EoS in order to obtain the
 relationship between the mass and radius of the star. In the same spirit, we
 have computed the moment of inertia as well as the tidal deformability within
-the slow rotation approximation, which is expected to be valid for most of the 
+the slow rotation approximation, which is expected to be valid for most 
 pulsars. The determination of the CC transition density and pressure, discussed
 thoroughly in Chapter 1, allows the calculation of crustal observables. We have 
 thus computed the crust thickness and fraction of crust moment of inertia. We
 have explained in detail the connection between the latter observable and the 
 glitch phenomenon in the standard picture, that is where a glitch is observed 
-during the transfer of angular momentum from the superfluid in the crust to the 
-solid crust~\cite{Anderson1975}. 
+during the transfer of angular momentum from the neutron superfluid in the
+inner crust to the rest of the star~\cite{Anderson1975}. 
 A major issue exhibited in Section~\ref{sec:tov} is the sensitivity of
 the results on the EoS, and more specifically on the isovector empirical
 parameters. We have shown that not every EoS successfully pass the maximum mass
 constraint of $M_{max} \gtrsim
-2M_\odot$~\cite{Demorest2010,Antoniadis2013,Cromartie2020}. In addition, the
-recent constraint on the tidal deformability parameter $\Lambda_{1.4}$ inferred 
-from GW170817~\cite{GW1} tends to favor soft EoS. Conversely, a full crustal 
-origin for the glitch phenomenon can only be accepted with very stiff EoS, 
-given the present estimations of crustal 
+2M_\odot$~\cite{Demorest2010,Antoniadis2013,Cromartie2020} favoring a stiff 
+EoS. 
+Moreover, a full crustal origin for the glitch phenomenon can only be accepted 
+with very stiff EoS, given the present estimations of crustal 
 entrainment~\cite{Andersson2012,Piekarewicz2014}.
+Conversely, the recent constraint on the tidal deformability parameter 
+$\Lambda_{1.4}$ inferred from GW170817~\cite{GW1} tends to favor soft EoS. 
 
 We have recalled the principle of Bayesian inference before performing the
 Bayesian determination of the EoS parameters, using the metamodeling
 technique~\cite{Margueron2018a}. We have used a uniform prior distribution for
-the parameters, given empirical constraints. A sensitivity analysis on the CC
-transition point has revealed that the isovector parameters are likely to be
+the parameters, given empirical constraints. 
+%
+The results and analyses presented in this chapter follow closely, but are not
+identical to our published results~\cite{Carreau2019cc,Carreau2019moi}. Indeed,
+a Bayesian analysis crucially depends both on the prior and on the choice of
+the filters. In the present work, we have varied both the prior distribution of
+surface parameters, adopting a different protocol from the one
+of~\cite{Carreau2019cc,Carreau2019moi} and introducing curvature terms which
+were neglected in the previous study, and the filters, exploring the specific
+effect of including or not the EFT predictions of the pressure of SNM and PNM.
+The different results are compatible within error bars, but different
+correlations are observed. These differences are discussed, and have allowed us
+to better understand the effect of the different conditions.
+%
+A sensitivity analysis on the CC
+transition point has revealed that the isovector parameters are 
 the most important for the precise determination of $n_t$ and $P_t$.
 We have calculated the likelihood function using constraints on nuclear physics
 observables (LD constraints), namely the experimental masses~\cite{Huang2017} 
@@ -2275,7 +2376,8 @@ parameter $Q_{sym}$. Within the present experimental and theoretical
 uncertainty on those parameters, we have estimated the transition density and
 pressure respectively as $n_t=0.068_{-0.021}^{+0.021}$ fm$^{-3}$ and
 $P_t=0.263_{-0.149}^{+302}$ MeV/fm$^3$, at the $1\sigma$ confidence level. In
-contrast with~\cite{Carreau2019cc}, we do not observe a strong influence of
+contrast with our previous work~\cite{Carreau2019cc}, with the present protocol 
+we do not observe a strong influence of
 the surface parameters on the CC transition quantities. This can be explained 
 by a refined control of the surface energy in the present work.
 We have observed that the thicker the crust is, the more angular momentum is
@@ -2285,8 +2387,9 @@ the fraction of crust moment of inertia. Indeed, for a $1.4M_\odot$ NS, we have
 obtained $I_{crust,1.4}/I_{1.4}=2.89_{-1.68}^{+2.51} \%$, at the $1\sigma$ 
 confidence level. The joint distribution for Vela mass and radius was
 computed for two different estimations of the crustal entrainment effect. It 
-has shown that the uncertainty on crustal entrainment is largely dominant over 
-those on the EoS and glitch amplitude. We have observed the variation with NS
+has confirmed that a control on crustal entrainment is the key phenomenon to
+associate the glitch phenomenon to crustal physics, even if the uncertainty on
+the EoS blurs the results. We have observed the variation with NS
 mass of the fraction of crust moment and inertia and concluded that a full 
 crustal origin is excluded if we consider the present largest estimation of 
 crustal entrainment~\cite{Delsate2016}.

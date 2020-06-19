@@ -700,6 +700,9 @@ INPUT ./figures/ntpt_ldhdp3.pdf
 INPUT figures/ntpt_marg.pdf
 INPUT ./figures/ntpt_marg.pdf
 INPUT ./figures/ntpt_marg.pdf
+INPUT figures/corr_crustobs_pars.pdf
+INPUT ./figures/corr_crustobs_pars.pdf
+INPUT ./figures/corr_crustobs_pars.pdf
 INPUT figures/ifrac14_vs_lcrust14.pdf
 INPUT ./figures/ifrac14_vs_lcrust14.pdf
 INPUT ./figures/ifrac14_vs_lcrust14.pdf
