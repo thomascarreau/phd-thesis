@@ -5,7 +5,8 @@ explosions, after their presupernova progenitors exhaust nuclear fuel in their
 cores. During the subsequent neutrino-transparent stage that takes place 
 approximately one minute after the explosion, the protoneutron star (PNS) 
 begins to cool down by neutrino emission and by heat diffusion from the 
-internal layers to the surface, leading to the thermal emission of photons.
+internal layers to the surface, leading in later times to the thermal emission 
+of photons.
 In the cooling process, the composition and properties of the crust are thought 
 to be fixed at the finite temperature where nuclear reactions fall out of 
 equilibrium. A lower estimate for this temperature is given by the 
@@ -13,19 +14,21 @@ crystallization temperature, which can be as high as $\approx 9\times 10^9$ K
 in the crust, potentially leading to sizable differences with respect to
 the simplifying CCM hypothesis.
 
-Nuclear statistical equilibrium (NSE) approaches have been recently developped 
-to account a full distribution of nuclei at finite 
-temperature~\cite{Gulminelli2015}, in contrast with the SNA considers a unique
-configuration for a given thermodynamic condition. NSE approaches allow among
-others to properly calculate the so-called impurity parameter entering cooling
-simulations, generally taken as free parameter directly fitted to cooling
-data. Another quantity of interest that can be evaluated is fraction of 
-odd-mass and odd-charge nuclei in the outer crust. Their presence at low
-temperature might be the sign of ferromagnetic phase transitions, which could 
-alter the relativistic electron gas.
+Nuclear statistical equilibrium (NSE) approaches have been recently developed 
+to account for the full distribution of nuclei at finite 
+temperature~\cite{Gulminelli2015}, in contrast with the SNA, or one-component
+plasma (OCP) approximation, which considers a unique 
+configuration for a given thermodynamic condition. NSE approaches, also 
+referred to as multicomponent plasma (MCP) approaches, allow properly 
+calculating the so-called impurity parameter entering cooling simulations, 
+generally taken as free parameter directly fitted to cooling data. 
+Another quantity of interest that can be evaluated in a MCP approach is the 
+fraction of odd-mass and odd-charge nuclei in the outer crust. Their presence 
+at lowtemperature might be the sign of ferromagnetic phase transitions, which 
+could alter the relativistic electron gas.
 
 As in the zero-temperature limit, results in the free neutron regime at
-finite temperature are fully model dependent, thus a nuclear free energy
+finite temperature are model dependent, and a nuclear free energy
 functional is required. Given its simplicity and because it is not expensive
 from the computational point of view, the CLD approach is very appealing, and 
 has been already used in the past~\cite{Gulminelli2015,Grams2018}. However,
@@ -34,16 +37,15 @@ corrections needs to be adressed in order to make realistic predictions for the
 crystallization temperature and associated composition in the inner crust.
 
 This chapter is organized as follows. In Section~\ref{sec:modelcrusttemp}, we
-introduce the model of the crust at finite temperature. The one-component 
-plasma approximation (OCP) and multicomponent plasma (MCP) treatment are
-presented, and the expression of the nuclear free energy employed in the free
-neutron regime is given. 
+introduce the model of the crust at finite temperature. The OCP approximation 
+and MCP treatment are presented, and the expression of the nuclear free energy 
+employed in the free neutron regime is given. 
 Results relevant for the outer crust and inner crust of NS at finite 
 temperature and particularly at crystallization are then shown in 
 Sections~\ref{sec:ocrust_tm} and~\ref{sec:icrust_tm}, respectively.
 Finally, conclusions are given in Section~\ref{sec:conclu3}.
 Most of the results presented in this chapter have been 
-published~\cite{Fantina2020,Carreau2019,Carreau2020}.
+published in~\cite{Fantina2020,Carreau2019,Carreau2020}.
 
 \minitoc\newpage
 
@@ -58,7 +60,7 @@ the density and temperature domain of interest.
 The existence of nonspherical pasta phases expected in the deeper layers of the 
 inner crust ($n_B \gtrsim 0.05$ fm$^{-3}$~\cite{Pearson2020}) is difficult to 
 account for within the MCP approach~\cite{Barros2020}, and 
-as a consequence is not considered in this study.
+it is not considered in this study.
 
 We review the OCP in~\ref{subsec:ocp}. 
 We give the expressions of the ideal and interacting
@@ -74,16 +76,16 @@ the free neutron regime.
 
 At zero temperature, WS cells are supposed to be identical, thus the OCP  
 (single-nucleus) approximation~\cite{Baus1980}, which considers a unique 
-nucleus $(A,Z)$ for a given thermodynamic condition of pressure and temperature 
-$(P,T)$, is exact. Let us recall that the equilibrium composition is 
-determined by minimizing the Gibbs free energy per nucleon at fixed
-pressure~\cite{Fantina2020} 
-(or equivalently the free energy density at fixed baryon
-density~\cite{Lattimer1991,Gulminelli2015,Carreau2019}).
+fully ionized ion species $(A,Z)$ for a given thermodynamic condition of 
+pressure and temperature $(P,T)$, is exact. 
+Let us recall that the equilibrium composition is determined by minimizing the 
+Gibbs free energy per nucleon at fixed pressure~\cite{BPS} (or equivalently the 
+free energy density at fixed baryon 
+density \cite{Lattimer1991,Gulminelli2015,Carreau2019}).
 At finite temperature in the OCP approximation, the expected distribution of 
 nuclei is replaced by the equilibrium nucleus obtained from the minimization of 
 the relevant thermodynamic potential.
-The physical properties of the OCP are fully characterized by the so-called 
+The physical properties of the OCP are fully characterized by the 
 dimensionless Coulomb coupling parameter,
 %
 \begin{equation}
@@ -92,20 +94,20 @@ dimensionless Coulomb coupling parameter,
 %
 where $a_N=(4\pi n_N/3)^{-1/3}$ is the ion-sphere radius, $n_N=1/V_{WS}$ being 
 the ion density.
-More precisely, $\Gamma$ allows to quantify the nonideality of the system, that
-is the importance of the many-body interactions in the OCP. The lower the
-temperature, the more coupled are the ions. The crystallization of the OCP into 
-a lattice is observed at $T=T_m$, corresponding to 
-$\Gamma = \Gamma_m \approx 175$.
+More precisely, $\Gamma$ allows quantifying the nonideality of the system, that
+is the importance of the many-body interactions in the OCP. The higher
+$\Gamma$, the lower the temperature, the more coupled are the ions. 
+The crystallization of the OCP into a lattice is observed at $T=T_m$, 
+corresponding to $\Gamma = \Gamma_m \approx 175$.
 
 The total free energy per ion in the crust -- which coincides with the WS cell
 free energy in the OCP approximation -- is given by
 %
 \begin{equation}
-  F = F_{i,e} + F_g + F_e,\label{eq:fperion}
+  F = F_i + F_g + F_e,\label{eq:fperion}
 \end{equation}
 %
-where $F_{i,e}$ is the ion free energy in the e-cluster representation, 
+where $F_i$ is the ion free energy in the e-cluster representation, 
 see~\ref{subsec:nucenergy}, $F_g$ is the neutron gas free energy, and $F_e$ 
 is the electron gas free energy, given by~\cite{Haensel2007}
 %
@@ -120,15 +122,18 @@ parameter $x_r$, and $\gamma_r$ are given in~\ref{subsubsec:elgas}. It should
 be stressed that Eq.~(\ref{eq:fel}) is obtained by employing a Sommerfeld
 expansion in the limit $t_r \ll \gamma_r - 1$.
 Let us notice that in the regime of the outer crust, neutrons are still bound
-to the nuclei, thus $F_g=0$ MeV, and consequently $F_{i,e}$ coincides with the 
-ion free energy in the r-cluster representation $F_i$.
+to the nuclei, thus $F_g=0$ MeV, and consequently $F_i$ coincides with the 
+ion free energy in the r-cluster representation.
 The ion free energy reads
 %
 \begin{equation}
-  F_{i,e} = M_{i,e} c^2 + F_i^{\text{id}} + F_i^{\text{int}},\label{eq:fie}
+  F_i = M_i c^2 + F_i^{\text{id}} + F_i^{\text{int}},\label{eq:fie}
 \end{equation}
 %
-where the ion mass in e-cluster representation $M_{i,e}$ has been introduced.
+\edit{where $M_i$ represents the ion mass in the e-cluster representation,
+  which is given at zero temperature by Eq.~(\ref{eq:mie}). 
+  The modeling of $M_i$ at finite temperature as well as of the neutron gas 
+  free energy $F_g$ is presented in detail in~\ref{subsec:freeenfunctional}.}
 In Eq.~(\ref{eq:fie}), $F_i^{\text{id}}$ represents the ideal contribution to
 the ion free energy, that is the noninteracting part, and $F_i^{\text{int}}$
 the interacting part.
@@ -136,17 +141,18 @@ the interacting part.
 In the following, we give the expressions associated to the ideal and 
 interacting contributions to the ion free energy which differ according to the 
 phase of matter, either solid or liquid. In the free neutron regime, the 
-finite-size contribution is included and is common to both phases. The latter 
-is derived from the application of Gauss theorem,
+finite-size contribution, expressing the extra Coulomb interaction with respect
+to the nucleus in the vacuum due to the electrostatic effect of the homogeneous
+electron background, is included and is common to both phases. The latter 
+is derived from the application of Gauss theorem supposing a spherical 
+geometry,
 %
 \begin{equation}
   E_{fs} = \frac{2n_p}{n_0(1-I)}\frac{e^2}{r_0}\frac{Z^2}{A^{1/3}},
 \end{equation}
 %
-where $r_0=(4\pi n_0/3)^{-1/3}$ is related to the average density of the
-cluster $n_0$.
-The modeling of $M_{i,e}$ as well as of the neutron gas free energy $F_g$ is 
-presented in detail in~\ref{subsec:freeenfunctional}. 
+where the radius parameter $r_0=(4\pi n_0/3)^{-1/3}$ is related to the average 
+density of the cluster $n_0$.
 
 \subsubsection{OCP in a liquid phase}
 
@@ -184,12 +190,18 @@ In the present study, we find that the importance of the correction
 associated to electron polarization effects, 
 $F_{ie,\text{liq}}^{\text{pol}}$ (Eq.~(19) of~\cite{Potekhin2000}), is very 
 small in the density and temperature regime of interest, and is therefore 
-neglected. The only significant effect of the latter correction is to change 
-the crystallization temperature of $40-50\%$ around $P\approx 1.25\times 
-10^{-4}$ MeV/fm$^3$, where the composition changes drastically due to 
-shell structure~\cite{Fantina2020}.
-For the total Coulomb contribution, we employ the parametrization 
-proposed in~\cite{Potekhin2000}: 
+neglected. 
+%
+\edit{The only significant effect of the latter correction is to change
+drastically the composition around $P\approx 1.25\times 10^{-4}$ MeV/fm$^3$,
+leading to a change of the crystallization temperature of
+$40-50\%$~\cite{Fantina2020}. This
+change in the composition is observed due to shell effects that we will 
+neglect in our CLD approach, thus within the CLD approximation electron 
+polarization effects are negligible.}
+%
+For the \edit{excess free energy of the Coulomb liquid}, we employ the 
+parametrization proposed in~\cite{Potekhin2000}: 
 %
 \begin{eqnarray}
   \frac{F_{ii,\text{liq}}}{k_B T} 
@@ -239,10 +251,9 @@ degeneracy is unknown, yet the inclusion of this term has no effect on the
 determination of the crystallization temperature because it is the same for 
 both liquid and solid OCP.
 
-As for total Coulomb contribution in the liquid phase, the thermal
-contribution due to the ion vibrations around their equilibrium position in the 
-harmonic approximation and the anharmonic correction have been analytically
-fitted by Baiko \textit{et al.}~\cite{Baiko2001} and Potekhin \&
+The thermal contribution due to the ion vibrations around their equilibrium 
+position in the harmonic approximation and the anharmonic correction have been 
+analytically fitted by Baiko \textit{et al.}~\cite{Baiko2001} and Potekhin \&
 Chabrier~\cite{Potekhin2010}, respectively. 
 The expression employed for the thermal contribution reads~\cite{Baiko2001}
 %
@@ -292,10 +303,10 @@ reproduce the zero-temperature and classical limits.
 
 As in previous works~\cite{Fantina2020,Carreau2019,Carreau2020}, we compute 
 the crystallization temperature within the OCP approximation, which is 
-simple and not costly from the numerical point of view. An additional reason is
-that the ion distribution could be frozen at some temperature $T_f > T_m$ 
-considering the present uncertainties on timescales relative to NS 
-cooling~\cite{Goriely2011}.
+simple and not costly from the numerical point of view. We expect it to be a
+reasonable approximation because, as we will show later in this chapter, the
+average free energy of the MCP is very close to the one of the OCP in the
+temperature domain of this study.
 
 \begin{figure}[!t]
   \begin{center}
@@ -313,8 +324,8 @@ temperature obtained from Eq.~(\ref{eq:tmapprox}) is also
 indicated.}\label{fig:fliqsol}
 \end{figure}
 
-The condition of crystallization of a OCP with associated composition 
-$\bm{\theta}$ is 
+The condition of crystallization of a OCP with \edit{composition 
+$\bm{\theta}=\{A,Z,n_g\}$ is defined as}
 %
 \begin{equation}
   \mathcal{F}_{\text{liq}}(\bm{\theta}, T_m) 

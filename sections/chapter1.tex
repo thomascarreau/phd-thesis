@@ -692,23 +692,35 @@ corresponds to the proton single-particle field at the cell
 surface~\cite{Pearson2018}. However, if nonspherical shapes are considered 
 then it is found that protons remain in the cluster for most models.
 
-At zero temperature, we write the WS cell energy $E_{WS}$ in the r-cluster 
-representation as
-%
-\begin{equation}
-  E_{WS} = E_{cl} + V_{WS}\varepsilon_e +
-  (V_{WS}-V_{cl})\varepsilon_g + Z_{WS}(m_p - m_n)c^2 + A_{WS}m_nc^2\label{eq:ews_icrust}
+\edit{
+  At zero temperature, we define the mass of the cluster in the e-cluster 
+  representation as
+  %
+  \begin{equation}
+    M^\star c^2 = (A - Z)m_n c^2 + Zm_p c^2 + E_{cl} 
+    - V_{cl}(\varepsilon_g + n_g m_n c^2),\label{eq:mie}
+  \end{equation}
+  %
+  where $\varepsilon_g$ represents the energy density of the neutron gas of
+  density $n_g$, $V_{cl}=A/n_0$ the volume of the cluster, and $E_{cl}$ the
+  energy of the cluster.
+  The WS cell energy $E_{WS}$ can be written as
+  %
+  \begin{eqnarray}
+    E_{WS} &=& M^\star c^2 + V_{WS}\varepsilon_e + V_{WS}(\varepsilon_g + n_g
+    m_n c^2) \notag\\
+           &=& E_{cl} + V_{WS}\varepsilon_e + (V_{WS}-V_{cl})\varepsilon_g 
+           + Z_{WS}(m_p - m_n)c^2 + A_{WS}m_nc^2,\label{eq:ews_icrust}
+  \end{eqnarray}
+  %
+  with $V_{WS}$ the volume of the cell. The total number of protons $Z_{WS}$ 
+  and nucleons $A_{WS}$ inside the WS cell are given respectively by
+  %
+  \begin{equation}
+    Z_{WS} = A\frac{1-I}{2} \quad \text{and} \quad A_{WS} =
+    A\left(1-\frac{n_g}{n_0}\right) + n_gV_{WS}.
 \end{equation}
-%
-where $\varepsilon_g$ represents the energy density of the surrounding neutron gas
-of density $n_g$, $V_{cl}=A/n_0$ the volume of the cluster, $V_{WS}$ that of
-the WS cell, and $E_{cl}$ the energy of the cluster. The total number of
-protons $Z_{WS}$ and nucleons $A_{WS}$ inside the WS cell are given respectively by
-%
-\begin{equation}
-  Z_{WS} = A\frac{1-I}{2} \quad \text{and} \quad A_{WS} =
-  A\left(1-\frac{n_g}{n_0}\right) + n_gV_{WS}.
-\end{equation}
+}
 %
 Let us notice that the number of protons inside the cell remains an
 integer number, as in the outer crust, unlike the number of neutrons that is
