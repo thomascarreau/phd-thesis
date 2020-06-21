@@ -20127,6 +20127,61 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.75.1561
       \endverb
     \endentry
+    \entry{Fortin2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=084bdce81d62891f7985da25900062a3}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6dd4d31b830e2209604ba3ae2ebd1e33}{%
+           family={Grill},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=330d07d10d84c05fb07e7ad1838bc981}{%
+           family={Margueron},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6fef9940b10c4d5ca35abe7af61fd73d}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Dany},
+           giveni={D\bibinitperiod}}}%
+        {{hash=49957a701e2c47de67f9de808df4defe}{%
+           family={Sandulescu},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3ad33619d1d98c4860a312ff1c40b9c8}
+      \strng{fullhash}{29e7880984e9c3a609d45525379a9da4}
+      \strng{authornamehash}{3ad33619d1d98c4860a312ff1c40b9c8}
+      \strng{authorfullhash}{29e7880984e9c3a609d45525379a9da4}
+      \field{labelalpha}{For+10}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{12}
+      \field{title}{Thermalization time and specific heat of the neutron stars crust}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{065804}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.82.065804
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.82.065804
+      \endverb
+    \endentry
     \entry{Fortin2015}{article}{}
       \name{author}{4}{}{%
         {{hash=084bdce81d62891f7985da25900062a3}{%
