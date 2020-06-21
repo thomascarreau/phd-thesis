@@ -70,20 +70,20 @@
 \contentsline {subsubsection}{\numberline {3.1.2.3}Evaluation of the rearrangement term}{109}{subsubsection.3.1.2.3}
 \contentsline {subsection}{\numberline {3.1.3}Nuclear free energy functional in the free neutron regime}{110}{subsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.3.1}Thermodynamics of nuclear matter}{111}{subsubsection.3.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.3.2}Energetics of clusters at finite temperature in the CLD approximation}{113}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Energetics of clusters at finite temperature in the CLD approximation}{114}{subsubsection.3.1.3.2}
 \contentsline {section}{\numberline {3.2}Study of the outer crust at crystallization}{114}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Crystallization temperature}{114}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Crystallization temperature}{115}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Equilibrium composition}{116}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Impurity parameter}{118}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Impurity parameter}{119}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Abundancies of odd nuclei}{121}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Study of the inner crust at crystallization}{123}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Influence of shell effects in the OCP approximation}{123}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Influence of shell effects in the OCP approximation}{124}{subsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.1.1}Temperature dependence of shell corrections}{124}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition of the OCP at crystallization for modern BSk functionals}{125}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Equilibrium composition of the OCP at crystallization for modern BSk functionals}{126}{subsubsection.3.3.1.2}
 \contentsline {subsection}{\numberline {3.3.2}MCP results}{129}{subsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.2.1}Equilibrium composition of the MCP}{129}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Equilibrium composition of the MCP}{130}{subsubsection.3.3.2.1}
 \contentsline {subsubsection}{\numberline {3.3.2.2}Impurity parameter}{132}{subsubsection.3.3.2.2}
-\contentsline {section}{\numberline {3.4}Conclusions}{133}{section.3.4}
+\contentsline {section}{\numberline {3.4}Conclusions}{134}{section.3.4}
 \contentsline {starchapter}{General conclusions and outlooks}{137}{chapter*.72}
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{139}{appendix.A}
 \contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{141}{appendix.B}

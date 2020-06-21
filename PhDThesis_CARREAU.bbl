@@ -23936,6 +23936,56 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.55.364
       \endverb
     \endentry
+    \entry{Vautherin1996}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=52e75484d2ed262b4b371f332947b4dc}{%
+           family={Vautherin},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=18a2e7f9f3a8b75697308e5dcc3630d5}{%
+           family={Negele},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2f3a0f17df6f59f25206c7e8ccfe051e}{%
+           family={Vogt},
+           familyi={V\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{52e75484d2ed262b4b371f332947b4dc}
+      \strng{fullhash}{52e75484d2ed262b4b371f332947b4dc}
+      \strng{authornamehash}{52e75484d2ed262b4b371f332947b4dc}
+      \strng{authorfullhash}{52e75484d2ed262b4b371f332947b4dc}
+      \strng{editornamehash}{86ac190f4f9479495d58a840169c3a18}
+      \strng{editorfullhash}{86ac190f4f9479495d58a840169c3a18}
+      \field{labelalpha}{Vau96}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Nuclear Physics}
+      \field{isbn}{978-0-306-47065-3}
+      \field{title}{Many-Body Methods at Finite Temperature}
+      \field{year}{1996}
+      \field{pages}{123\bibrangedash 172}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1007/0-306-47065-9_4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/0-306-47065-9_4
+      \endverb
+    \endentry
     \entry{Vidana2009}{article}{}
       \name{author}{4}{}{%
         {{hash=a7fa8d4fe960cb52079d717e0b5dfdbf}{%

@@ -132,27 +132,33 @@ The ion free energy reads
 %
 \edit{where $M_i$ represents the ion mass in the e-cluster representation,
   which is given at zero temperature by Eq.~(\ref{eq:mie}). 
+  At finite temperature, we only keep the finite-size contribution entering
+  the Coulomb energy (third term in Eq.~(\ref{eq:fcoul})), expressing the 
+  extra Coulomb interaction with respect to the nucleus in the vacuum due to 
+  the electrostatic effect of the homogeneous electron background. The
+  temperature-independent static lattice energy only enters the Coulomb
+  interaction term corresponding to a solid OCP. 
   The modeling of $M_i$ at finite temperature as well as of the neutron gas 
   free energy $F_g$ is presented in detail in~\ref{subsec:freeenfunctional}.}
 In Eq.~(\ref{eq:fie}), $F_i^{\text{id}}$ represents the ideal contribution to
 the ion free energy, that is the noninteracting part, and $F_i^{\text{int}}$
 the interacting part.
 
-In the following, we give the expressions associated to the ideal and 
-interacting contributions to the ion free energy which differ according to the 
-phase of matter, either solid or liquid. In the free neutron regime, the 
-finite-size contribution, expressing the extra Coulomb interaction with respect
-to the nucleus in the vacuum due to the electrostatic effect of the homogeneous
-electron background, is included and is common to both phases. The latter 
-is derived from the application of Gauss theorem supposing a spherical 
-geometry,
-%
-\begin{equation}
-  E_{fs} = \frac{2n_p}{n_0(1-I)}\frac{e^2}{r_0}\frac{Z^2}{A^{1/3}},
-\end{equation}
-%
-where the radius parameter $r_0=(4\pi n_0/3)^{-1/3}$ is related to the average 
-density of the cluster $n_0$.
+%In the following, we give the expressions associated to the ideal and 
+%interacting contributions to the ion free energy which differ according to the 
+%phase of matter, either solid or liquid. In the free neutron regime, the 
+%finite-size contribution, expressing the extra Coulomb interaction with respect
+%to the nucleus in the vacuum due to the electrostatic effect of the homogeneous
+%electron background, is included and is common to both phases. The latter 
+%is derived from the application of Gauss theorem supposing a spherical 
+%geometry,
+%%
+%\begin{equation}
+%  E_{fs} = \frac{2n_p}{n_0(1-I)}\frac{e^2}{r_0}\frac{Z^2}{A^{1/3}},
+%\end{equation}
+%%
+%where the radius parameter $r_0=(4\pi n_0/3)^{-1/3}$ is related to the average 
+%density of the cluster $n_0$.
 
 \subsubsection{OCP in a liquid phase}
 
@@ -172,7 +178,7 @@ ground-state angular momentum is unknown, and $\lambda$ is the de Broglie
 wavelength of the component given by
 %
 \begin{equation}
-  \lambda = \sqrt{\frac{2\pi(\hbar c)^2}{M_{i,e}c^2 k_B T}}.
+  \lambda = \sqrt{\frac{2\pi(\hbar c)^2}{M_{i}c^2 k_B T}}.
 \end{equation}
 %
 
@@ -231,7 +237,7 @@ $E_{zp}$, Eq.~(\ref{eq:ezp}). The ion free energy in the e-cluster
 representation is therefore rewritten as
 %
 \begin{equation}
-  F_{i,e,\text{sol}} = M_{i,e}c^2 + E_{zp} + F_{ii,\text{sol}} +
+  F_{i,\text{sol}} = M_{i}c^2 + E_{zp} + F_{ii,\text{sol}} +
   F_{ie,\text{sol}}^{\text{pol}},
 \end{equation}
 %
@@ -324,8 +330,8 @@ temperature obtained from Eq.~(\ref{eq:tmapprox}) is also
 indicated.}\label{fig:fliqsol}
 \end{figure}
 
-The condition of crystallization of a OCP with \edit{composition 
-$\bm{\theta}=\{A,Z,n_g\}$ is defined as}
+The condition of crystallization of a OCP with \edit{associated composition 
+$\bm{\theta}=\{A,Z,n_g\}$ and baryon density $n_B$ is defined as}
 %
 \begin{equation}
   \mathcal{F}_{\text{liq}}(\bm{\theta}, T_m) 
@@ -341,11 +347,12 @@ The latter equation is equivalent to
 \end{equation}
 %
 which shows that the Coulomb coupling parameter at melting
-temperature $\Gamma_m$ strongly depends on the corrections that step in a
+temperature $\Gamma_m$ does not depend on leading mass terms, but is fully
+determined by the corrections that step in at 
 finite temperature. Furthermore, those corrections are small in the vicinity
 the crystallization temperature, making it difficult to estimate $\Gamma_m$
 with precision. Still, several works estimate the Coulomb parameter to 
-$\Gamma_m \approx 175$~\cite{VanHorn1969,Haensel2007}. 
+a constant $\Gamma_m \approx 175$~\cite{VanHorn1969,Haensel2007}. 
 The crystallization temperature of a OCP at a given baryon density $n_B$ 
 can then be approximated by inverting Eq.~(\ref{eq:gamma}), yielding
 %
@@ -360,7 +367,7 @@ crystallization temperature. At each value of the baryon density $n_B$ and
 temperature $T$, the equilibrium composition is computed following the 
 procedure detailed in Chapter 1. Specifically, we solve the coupled 
 differential equations, Eqs.~(\ref{eq:ic1})-(\ref{eq:ic4}), using the 
-expressions of $F_{i}^{\text{id}}$ and $F_{i}^{\text{ind}}$ of the liquid 
+expressions of $F_{i}^{\text{id}}$ and $F_{i}^{\text{int}}$ of the liquid 
 phase, yielding the optimal liquid composition $\bm{\theta_{\text{liq}}}$ and 
 the associated WS cell free energy density $\mathcal{F}_{\text{liq}}$. Then, 
 for the same composition $\bm{\theta_{\text{liq}}}$, we calculate the free 
@@ -381,10 +388,11 @@ the crystallization temperature is significantly lower if the
 anharmonic contribution to the free energy of the solid OCP is neglected 
 (dashdotted line). This stresses the importance of the small thermal
 corrections in the calculation. It is also seen that the effect of the 
-anharmonic contribution becomes bigger with temperature increasing, and 
+anharmonic contribution becomes bigger with increasing temperature, and 
 vanishes in case of strong coupling, that is in the zero-temperature limit. We
-find that the simple expression Eq.~(\ref{eq:tmapprox}) gives a fairly good
-estimation of the crystallization temperature.
+will show in Section~\ref{sec:ocrust_tm} that the simple expression 
+Eq.~(\ref{eq:tmapprox}) gives a fairly good estimation of the 
+crystallization temperature.
 
 \subsection{Multicomponent Coulomb plasma in a liquid phase}\label{subsec:mcp}
 
@@ -457,32 +465,32 @@ respectively $\mathcal{F}_g$ and $\mathcal{F}_e$, do not depend on $n_N^{(j)}$,
 %
 \begin{equation}
   \mathcal{F}\left(\left\{n_N^{(j)}\right\}\right) 
-  = \mathcal{F}_{i,e}\left(\left\{n_N^{(j)}\right\}\right) 
+  = \mathcal{F}_{i}\left(\left\{n_N^{(j)}\right\}\right) 
   + \mathcal{F}_g + \mathcal{F}_e,
 \end{equation}
 %
 with
 %
 \begin{equation}
-  \mathcal{F}_{i,e} = \sum_j n_N^{(j)} F_{i,e}^{(j)}.
+  \mathcal{F}_{i} = \sum_j n_N^{(j)} F_{i}^{(j)}.
 \end{equation}
 %
 This means that the variation can be performed on the ion part only, yielding
 %
 \begin{eqnarray}
-  d\mathcal{F}_{i,e} &=& \sum_j \left(F_{i,e}^{(j)} + n_N^{(j)} \frac{\partial
-  F_{i,e}^{(j)}}{\partial n_N^{(j)}}\right)dn_N^{(j)} \notag\\
-                     &=& \sum_j \left(F_{i,e}^{(j)} + k_B T + n_N^{(j)}
+  d\mathcal{F}_{i} &=& \sum_j \left(F_{i}^{(j)} + n_N^{(j)} \frac{\partial
+  F_{i}^{(j)}}{\partial n_N^{(j)}}\right)dn_N^{(j)} \notag\\
+                     &=& \sum_j \left(F_{i}^{(j)} + k_B T + n_N^{(j)}
                      \frac{\partial F_i^{(j),\text{int}}}{\partial
                    n_N^{(j)}}\right)dn_N^{(j)} \notag\\
-  &=& \sum_j \left(\Omega_{i,e}^{(j)} + k_B T \ln
+  &=& \sum_j \left(\Omega_{i}^{(j)} + k_B T \ln
   n_N^{(j)}\right)dn_N^{(j)},\label{eq:dfi}
 \end{eqnarray}
 %
 where the single-ion canonical potential has been introduced,
 %
 \begin{equation}
-  \Omega_{i,e}^{(j)} = M_{i,e}c^2 + k_B T\ln\frac{(\lambda^{(j)})}{g_s^{(j)}} 
+  \Omega_{i}^{(j)} = M_{i}c^2 + k_B T\ln\frac{(\lambda^{(j)})}{g_s^{(j)}} 
   + F_i^{(j),\text{int}} 
   + n_N^{(j)} \frac{\partial F_i^{(j),\text{int}}}{\partial n_N^{(j)}}.
   \label{eq:omega}
@@ -532,7 +540,7 @@ account by introducing the Lagrange multipliers $\alpha$, $\mu_n$, and $\mu_p$,
 leading to the following equations for the equilibrium densities $n_N^{(j)}$:
 %
 \begin{eqnarray}
-  \sum_j \left(\Omega_{i,e}^{(j)} + k_B T \ln n_N^{(j)} 
+  \sum_j \left(\Omega_{i}^{(j)} + k_B T \ln n_N^{(j)} 
   - \alpha\right)dn_N^{(j)} 
   - \mu_n \sum_j N_e^{(j)}dn_N^{(j)} - \mu_p \sum_j Z^{(j)} dn_N^{(j)}  
   = 0
@@ -542,7 +550,7 @@ with $N_e^{(j)} = A_e^{(j)} - Z^{(j)}$.
 Considering independent variations, the solutions are given by
 %
 \begin{equation}
-  p_j = \mathcal{A}\exp\left(-\frac{\tilde{\Omega}_{i,e}^{(j)}}{k_B
+  p_j = \mathcal{A}\exp\left(-\frac{\tilde{\Omega}_{i}^{(j)}}{k_B
   T}\right),\label{eq:pj}
 \end{equation}
 %
@@ -550,23 +558,23 @@ with the normalization constant
 %
 \begin{equation}
   \mathcal{A} = \exp\left(\frac{\alpha}{k_B T}\right) = \sum_j
-  \exp\left(-\frac{\tilde{\Omega}_{i,e}^{(j)}}{k_B T}\right).
+  \exp\left(-\frac{\tilde{\Omega}_{i}^{(j)}}{k_B T}\right).
 \end{equation}
 %
 The single-ion grand-canonical potential reads
 %
 \begin{equation}
-  \tilde{\Omega}_{i,e}^{(j)} = \Omega_{i,e}^{(j)} - \mu_n N_e^{(j)} -
+  \tilde{\Omega}_{i}^{(j)} = \Omega_{i}^{(j)} - \mu_n N_e^{(j)} -
   \mu_p Z^{(j)},
 \end{equation}
 %
-where $\mu_n$ and $\mu_p$ correspond finally to the neutron and proton 
+where $\mu_n$ and $\mu_p$ physically correspond to the neutron and proton 
 chemical potentials, respectively. Let us note that the rest-mass energies are 
 included in the chemical potentials since they are contained in the ion 
 free energy. 
 % pj requires the evaluation of the rearrangement term as well as of the
 %   neutron and proton chemical potentials
-The calculation of the grand-canonical potential $\tilde{\Omega}_{i,e}^{(j)}$, 
+The calculation of the grand-canonical potential $\tilde{\Omega}_{i}^{(j)}$, 
 entering the definition of the probabilities $p_j$, requires the 
 evaluation of the chemical potentials $\mu_n$ and $\mu_p$, as well as of the 
 rearrangement term
@@ -599,17 +607,19 @@ $P_e$ have been introduced.
 % how to normally solve the problem
 The determination of the equilibrium probabilities $p_j$ within the complete 
 NSE formalism therefore requires to solve a complex nonlinear system of coupled 
-equations, which is obviously numerically costly. Still, the implementation of 
+equations, which is obviously numerically costly. The implementation of 
 the complete NSE was carried out in different studies in recent
-years~\cite{Oertel2017,Burgio2018}, in which simplified nuclear functionals 
-were adopted, density was imposed instead of the pressure, and the 
+years~\cite{Oertel2017,Burgio2018}, but in those studies simplified nuclear 
+functionals were adopted, density was imposed instead of the pressure, and the 
 rearrangement term was neglected.
 
 % perturbative implementation of NSE (update the chemical potentials)
 We choose here to implement the NSE perturbatively, as proposed 
 in~\cite{Grams2018}. 
-The motivation for this option comes from the recent work of Fantina 
-\textit{et al.}, where a very fast convergence of the chemical potentials is 
+The motivation for this option comes from the fact that the difference between
+the chemical potentials in the OCP and MCP treatment were found to be very
+small in~\cite{Gulminelli2015}. Moreover, in the recent work of Fantina 
+\textit{et al.}, a very fast convergence of the chemical potentials is 
 observed, along with a reduction of the computational time and an increase of
 the numerical precision~\cite{Fantina2020}.
 % explain how we proceed
@@ -636,23 +646,26 @@ between iterations.
 We find that the number of iterations required to achieve convergence never 
 exceeds 3. The reason is that the OCP result for $\mu_n$ and $\mu_p$ is 
 already very close to the actual solutions for all pressures and 
-temperatures explored in this work. Therefore, while we do solve the 
-self-consistent problem in the regime of the outer crust to calculate the 
-chemical potentials, the OCP estimation is safely kept in the free neutron 
-regime so as to drastically reduce the computational cost. Indeed, in doing so 
-the MCP calculation becomes equivalent to the much simpler OCP one.
+temperatures explored in this work, thus confirming the results
+of~\cite{Gulminelli2015}. Therefore, while we do solve the 
+self-consistent problem by iterations in the regime of the outer crust 
+to calculate the chemical potentials, the OCP estimation is safely kept in 
+the free neutron regime so as to drastically reduce the computational cost. 
+Indeed, in doing so the MCP calculation becomes equivalent to the much simpler 
+OCP one.
 
 \subsubsection{Evaluation of the rearrangement term}\label{subsubsec:rear}
 
 At a given thermodynamic condition $(P,T)$, the rearrangement term entering 
 Eq.~(\ref{eq:omega}) requires to be evaluated if one wants to compute the ion 
 abundancies through Eq.~(\ref{eq:pj}).
-As already discussed in~\cite{Fantina2020}, the rearrangement term arises from 
-the self-consistency induced by the Coulomb part of the ion free energy. This 
-stems from the fact that, due to the strong incompressibility of the electrons, 
-the condition of charge neutrality has been imposed at the level of each cell, 
-see Eq.~(\ref{eq:chargeneut}), in contrast with the baryon density $n_B$ that 
-can fluctuate from cell to cell, see Eq.~(\ref{eq:barcons}). 
+As already discussed in~\cite{Grams2018,Fantina2020}, the rearrangement term 
+arises from the self-consistency induced by the Coulomb part of the ion 
+free energy. 
+This stems from the fact that, due to the strong incompressibility of 
+the electrons, the condition of charge neutrality has been imposed at the level 
+of each cell, see Eq.~(\ref{eq:chargeneut}), in contrast with the baryon 
+density $n_B$ that can fluctuate from cell to cell, see Eq.~(\ref{eq:barcons}). 
 In consequence, any component of the free energy density that depends on the 
 local cell proton density $n_p^{(j)} = n_p$ leads to a dependence on the local 
 density $n_N^{(j)}$ through Eq.~(\ref{eq:chargeneut}). With our prescription 
@@ -677,7 +690,7 @@ ensemble equivalence in the thermodynamic limit~\cite{Gulminelli2015}.
 
 % the minimization
 The maximum probability corresponds to the minimum of the single-ion
-grand-canonical potential $\tilde{\Omega}_{i,e}$. We therefore minimize the 
+grand-canonical potential $\tilde{\Omega}_{i}$. We therefore minimize the 
 single-ion grand-canonical potential with respect to $A$, $I=1-2Z/A$, and 
 $n_0$ ($n_p$ and $n_g$ are fixed at a given thermodynamic condition), yielding 
 the following nonlinear system of coupled equations:
@@ -728,8 +741,13 @@ regime}\label{subsec:freeenfunctional}
 As previously discussed in Chapter 1, in the regime of the outer crust we use 
 the present day knowledge on experimental masses of neutron rich 
 nuclei~\cite{Huang2017,Welker2017}, combined with state-of-the-art 
-microscopic HFB theoretical mass tables~\cite{Goriely2013}. The ion mass 
-$M_{i,e}$ in the outer crust is therefore simply calculated using 
+microscopic HFB theoretical mass tables~\cite{Goriely2013}. 
+In principle, at finite temperature an entropy term should be added to the mass
+table leading to a temperature dependent degeneracy replacing the ground state
+spin degeneracy $g_s$. However, the crystallization temperature is so low in
+the outer crust that we make the approximation that the nuclei are in their
+ground state. 
+The ion mass $M_{i}$ in the outer crust is therefore simply calculated using 
 Eq.~(\ref{eq:ionmass}).
 
 % ion mass in the inner crust
@@ -739,14 +757,15 @@ density $\mathcal{F}_g$ enters the expression of the ion mass in the e-cluster
 representation,
 %
 \begin{equation}
-  M_{i,e}^{(j)} c^2 = (A^{(j)} - Z^{(j)})m_n c^2 + Z^{(j)} m_p c^2 
+  M_{i}^{(j)} c^2 = (A^{(j)} - Z^{(j)})m_n c^2 + Z^{(j)} m_p c^2 
   + F_{cl}^{(j)} - \frac{A^{(j)}}{n_0^{(j)}}(\mathcal{F}_g + n_g m_n c^2),
 \end{equation}
 %
-where $F_{cl}^{(j)}$ represents the nuclear free energy.
+where $F_{cl}^{(j)}$ represents the nuclear free energy, including the
+contribution of the resonant and continuum excited states.
 In the range of densities corresponding to the free neutron regime, the 
-clusters are so neutron rich that experimental data are not available. As a 
-consequence, the modeling of $F_{cl}^{(j)}$ is required.
+clusters are by definition above the drip line, so that experimental data are 
+not available. As a consequence, the modeling of $F_{cl}^{(j)}$ is required.
 
 % plan
 In the following, we first recall the simple case of free Fermi gas before
@@ -819,7 +838,7 @@ yielding the expression of the Fermi energy,
 %
 \begin{equation}
   e_F = \frac{\hbar^2}{2m}\left(3\pi^2\frac{N(T=0)}{V}\right)^{2/3} =
-  \frac{\hbar^2 k_F^2}{2m},
+  \frac{\hbar^2 k_F^2}{2m},\label{eq:eF}
 \end{equation}
 %
 with $k_F=(3\pi^2N(T=0)/V)^{1/3}$ the Fermi wave vector.
@@ -867,16 +886,19 @@ of the free energy of a nonrelativistic free Fermi gas,
 \end{equation}
 %
 
-We now turn to show that those results can still be used in the case of 
-a huge number of interacting fermions in a infinite volume at a finite density, 
-that is for infinite nuclear matter. The energy density $\mathcal{H} =
-\mathcal{K} + \mathcal{V}$ for this idealized system can be derived from an
+In the framework of the finite temperature self-consistent mean-field
+approximation, it is possible to show that those results can still be used in 
+the case of a huge number of interacting fermions in a infinite volume at a 
+finite density, that is for infinite nuclear matter~\cite{Vautherin1996}. 
+The energy density $\mathcal{H} = \mathcal{K} + \mathcal{V}$ for this 
+idealized system can be derived from an
 effective functional, and is often decomposed into a kinetic term and a 
 contribution due to the nuclear interactions, respectively $\mathcal{K}$ and 
-$\mathcal{V}$.
-As discussed in~\ref{subsubsec:hnm}, the effective mass $m_q^*$ of species $q$ 
-is usually introduced to regroup in a single term of kinetic energy the 
-momentum dependence of the mean field,
+$\mathcal{V}$, which both in infinite homogeneous nuclear matter only depend on
+local densities $n_q$.
+As discussed in~\ref{subsubsec:hnm}, the Landau effective mass $m_q^*$ of 
+species $q$ is usually introduced to regroup in a single term of kinetic 
+energy the momentum dependence of the mean field,
 %
 \begin{equation}
   \frac{\hbar^2 k_q^2}{2m_q^*} = \frac{\hbar^2 k_q^2}{2m_q} +
@@ -909,7 +931,7 @@ field potential, which is given in the metamodel by ($q=n,p$)
     \right],
 \end{eqnarray}
 %
-with $\tau_{3,l} = 1$ ($\tau_{3,l} = 1$) for $l=n$ ($l=p$). The expressions of
+with $\tau_{3,l} = 1$ ($\tau_{3,l} = -1$) for $l=n$ ($l=p$). The expressions of
 the potential energy $v_{MM}$ and effective masses are given 
 in~\ref{subsubsec:hnm}. The simple case of free Fermi gas is recovered by 
 introducing the effective chemical potential $\tilde{\mu}_q = \mu_q - U_q$,
@@ -919,13 +941,22 @@ yielding the free energy per particle of nuclear matter,
   f_{HM}(n,\delta,T) = \sum_{q=n,p}
   \frac{3}{5}\frac{1+\tau_3\delta}{2}e_{F,q}\left[
   1-\frac{5\pi^2}{12}\left(\frac{T}{e_{F,q}}\right)^2\right] +
-  v_{MM}(n,\delta).\label{eq:freehm}.
+  v_{MM}(n,\delta),\label{eq:freehm}
 \end{equation}
 %
 which enters the expression of the neutron gas free energy, $\mathcal{F}_g =
-n_g f_{HM}(n_g,1,T)$.
+n_g f_{HM}(n_g,1,T)$. \edit{It is important to stress that the Fermi energy 
+  $e_F,q$ contains the effective mass in the above equation, contrary to
+Eq.~(\ref{eq:eF}).}
 Let us note that the chemical potential does not include the rest mass energy 
-in the above expressions.
+in the above expressions. 
+We can remark the well-known fact that in the mean-field approximation the
+temperature affects only the occupation of the single-particle levels, and not
+the value of the single-particle energies. As a consequence, if the density is
+homogeneous, $n_q = cst$, the potential part of the free energy is temperature
+independent, and the same expressions as in Chapter 1 are obtained. An effect
+of the functional on the finite temperature properties however is expected,
+because the interaction enters the kinetic part via the effective mass.
 
 \subsubsection{Energetics of clusters at finite temperature in the CLD
 approximation}
@@ -979,7 +1010,10 @@ energy, see~\ref{subsec:strutinsky} and~\ref{subsec:shtemp}.
 Another motivation is that full mass tables obtained by deformed HFB 
 calculations have been published for these models~\cite{Xu2013} and can 
 therefore be used in the regime of the outer crust as a
-complement to experimental masses~\cite{Fantina2020}.
+complement to experimental masses~\cite{Fantina2020}. 
+However, some different models, not considered in~\cite{Fantina2020}, are also
+considered in order to appreciate the model dependence of the results. A full
+Bayesian study at finite temperature is left for future work.
 
 \section{Study of the outer crust at crystallization}\label{sec:ocrust_tm}
 
