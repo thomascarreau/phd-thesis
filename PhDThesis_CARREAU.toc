@@ -13,11 +13,11 @@
 \contentsline {subsection}{\numberline {1.1.3}Equilibrium composition and equation of state}{10}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Ground state of the inner crust}{13}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Modeling the nuclear energy}{14}{subsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.1.1}Metamodeling of homogeneous nuclear matter}{16}{subsubsection.1.2.1.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Metamodeling of homogeneous nuclear matter}{17}{subsubsection.1.2.1.1}
 \contentsline {subsubsection}{\numberline {1.2.1.2}From homogeneous nuclear matter to finite nuclei in the CLD approximation}{21}{subsubsection.1.2.1.2}
 \contentsline {subsection}{\numberline {1.2.2}Variational formalism}{26}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Results}{29}{subsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.3.1}Numerical code}{29}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Numerical code}{30}{subsubsection.1.2.3.1}
 \contentsline {subsubsection}{\numberline {1.2.3.2}Equilibrium composition}{30}{subsubsection.1.2.3.2}
 \contentsline {subsubsection}{\numberline {1.2.3.3}Equation of state}{32}{subsubsection.1.2.3.3}
 \contentsline {subsection}{\numberline {1.2.4}Strutinsky shell corrections to the CLD energy}{34}{subsection.1.2.4}
@@ -85,6 +85,6 @@
 \contentsline {subsubsection}{\numberline {3.3.2.2}Impurity parameter}{133}{subsubsection.3.3.2.2}
 \contentsline {section}{\numberline {3.4}Conclusions}{134}{section.3.4}
 \contentsline {starchapter}{General conclusions and outlooks}{137}{chapter*.72}
-\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{139}{appendix.A}
-\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{141}{appendix.B}
-\contentsline {chapter}{Bibliography}{143}{appendix*.73}
+\contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{141}{appendix.A}
+\contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{143}{appendix.B}
+\contentsline {chapter}{Bibliography}{145}{appendix*.73}

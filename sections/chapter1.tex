@@ -1,7 +1,7 @@
 % *****************************************************************************
 %     sections/chapter1.tex
 %
-% Last edit: 05/03
+% Last edit: 21/06
 % *****************************************************************************
 
 \chapter{Structure and equation of state of cold nonaccreting neutron stars}
@@ -69,7 +69,7 @@ the EoS is proposed. Finally, conclusions are given in Section~\ref{sec:conclu1}
 At zero temperature, the matter inside the outer crust corresponds to a 
 lattice of strongly bound nuclei, immersed in an sea of electrons. The mass 
 density at which nuclei are fully ionized and electron completely degenerated 
-is of the order of $\rho \gg 6AZ \sim 10^4$ g/cm$^3$ for $^{56}$Fe, which is
+is of the order of $\rho_B \gg 6AZ \sim 10^4$ g/cm$^3$ for $^{56}$Fe, which is
 the ground state of matter at very low density. Below $10^4$ g/cm$^3$, some 
 electrons are still bound to the nuclei and one must rely on the EoS 
 calculated by Feynman, Metropolis, and Teller from 15 to $10^4$ g/cm$^3$, 
@@ -417,13 +417,13 @@ potential $\mu_e$.}\label{table:ocrust}
 
 The ground-state composition and EoS of the outer crust of a cold nonaccreting 
 NS is reported in Table \ref{table:ocrust}. The upper part of the table, 
-$n_B < 3.84 \times 10^{-5}$ fm$^{-3}$, \edit{corresponding to $\rho_B < 6.39 \times
+$n_B < 3.84 \times 10^{-5}$ fm$^{-3}$, {corresponding to $\rho_B < 6.39 \times
 10^{10}$ g/cm$^3$}, is exclusively determined by experimental 
-data from the AME2016~\cite{Huang2017}. \edit{Let us notice that the maximum
+data from the AME2016~\cite{Huang2017}. {Let us notice that the maximum
   mass density at which experimentally studied nucleus $^{80}$Zn was present 
   was found to be slightly lower in \cite{Haensel1994}, 
   $\rho_B = 5.44 \times 10^{10}$ g/cm$^3$. This is due to the fact that the 
-  determination of this value of density depends on the mass formula used, here
+  determination of this density depends on the mass formula used, here
   HFB-24, for the neutron rich nuclides present in the bottom layers of the
 outer crust.} From $3.84\times 10^{-5}$ 
 fm$^{-3}$, matter becomes so neutron rich that the nuclear masses cannot be measured 
@@ -476,10 +476,10 @@ original calculation of BPS~\cite{BPS}. Also, it is reported
 in~\cite{Pearson2018} that $^{79}$Cu is favored over $^{76}$Ni, found
 for HFB-22 and HFB-25, in the case where the recent mass excess measurements
 of~\cite{Welker2017} are accounted for. This highlights the importance
-of measuring the mass of odd-nuclei. \edit{One could expect that the presence 
-  of odd-nuclei in the outer crust of NS leads to ferromagnetic phase 
-  transitions at low temperature. In return, it could generate a magnetic field 
-  and alter the existing field, and so the electron gas.}
+of measuring the mass of odd-nuclei. {Indeed, one could expect that the 
+  presence of odd-nuclei in the outer crust of NS might lead to a ferromagnetic 
+  phase transition at low temperature, which would generate a magnetic 
+  field and alter the existing field, and so the electron gas.}
 
 It can also be observed in Table~\ref{table:ocrust} that the proton fraction 
 $Y_p = Z/A$ always decreases with increasing depth. The
@@ -633,9 +633,10 @@ and an ambient neutron gas.
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/clustering.pdf}
 \end{center}
-\caption[\edit{r-cluster and e-cluster representations}]{\edit{Wood-Saxon 
+\caption[{r-cluster and e-cluster representations}]{{Wood-Saxon 
     density profiles, for arbitrary values, within a WS cell in the free 
-neutron regime. Blue dashed lines correspond to the cluster density (left,
+neutron regime. Blue dashed lines correspond to the cluster density with
+different decompositions between cluster and gas (left,
 r-cluster; right, e-cluster), and orange dotted lines to the gas density. The
 total density profile is represented in gray solid lines.}}\label{fig:clustering}
 \end{figure}
@@ -661,7 +662,7 @@ neutron dripline, the bound states are occupied as well as the resonant and
 continuum states. All the unbound single-particle states that are occupied thus
 represents the neutron gas, characterized by a quasihomogeneous spatial 
 distribution, the continuum wave functions being very similar to plane waves.
-\edit{The difference between the two representations is illustrated in 
+{The difference between the two representations is illustrated in 
 Fig.~\ref{fig:clustering}. The cluster and gas density profiles, described by
 Woods-Saxon profiles with arbitrary values, are plotted along the WS cell 
 radius in the r-cluster representation (left) and e-cluster representation 
@@ -669,7 +670,8 @@ radius in the r-cluster representation (left) and e-cluster representation
 medium-mass and heavy nuclei density profiles, and are commonly used in
 Thomas-Fermi (TF) and extended Thomas-Fermi (ETF) 
 calculations \cite{Onsi2008,Pearson2018}. In both representations, the total
-density profile (solid gray line) is the same.} 
+density profile (solid gray line) is the same, and so must therefore be the
+total energy in a TF or ETF framework.} 
 One can benefit from the advantage of both representations through the simple
 geometric relations
 %
@@ -727,7 +729,7 @@ integer number, as in the outer crust, unlike the number of neutrons that is
 noninteger because of the outside neutron gas.
 
 As for the bottom layers of the outer crust, the determination of the ground 
-state of the inner crust is fully model dependent.
+state of the inner crust is model dependent.
 Therefore, the two necessary ingredients of the WS cell energy are the 
 equation of state of PNM, and the energy of the cluster, 
 which will be treated in the CLD approximation 
@@ -833,10 +835,10 @@ derivative order $N=2$, we obtain
 %
 \begin{equation}
   e^{N=2}_{HM}(n,\delta) = E_{sat} + \frac{1}{2}K_{sat}x^2 
-  + \delta^2 (E_{sym} + L_{sym}x +\frac{1}{2}K_{sym}x^2),
+  + \delta^2 (E_{sym} + L_{sym}x +\frac{1}{2}K_{sym}x^2),\label{eq:mmn2}
 \end{equation}
 %
-with $x = (n-n_{sat})/(3n_{sat})$ a function of the density. \edit{However, we 
+with $x = (n-n_{sat})/(3n_{sat})$ a function of the density. {However, we 
   should stress already that $N=2$ is not sufficient for describing the EoS at 
   subsaturation densities, and even less for suprasaturation densities. 
   High-order parameters $Q_{sat(sym)}$ and $Z_{sat(sym)}$ are essential and 
@@ -878,16 +880,16 @@ saturation density, are then introduced. They are defined at $n = n_{sat}$ as
 \end{eqnarray}
 %
 
-\edit{In principle, it is possible to reproduce any EoS model with a Taylor
+{In principle, it is possible to reproduce any EoS model with a Taylor
   expansion, considering an infinite number of parameters,
   $N\rightarrow\infty$, however the convergence would be very slow. In order to 
   fasten the series convergence, one can add extra functional dependencies, 
-  which correspond to the true EoS in the limit of simplistic cases 
-  (independent particles, zero density limit), but which allow, by judicious
-  choices of empirical parameters, to reproduce with precision realistic 
-functionals.}
-\edit{In this regard}, the $\delta^{5/3}$ dependence is added by decomposing 
-the energy per particle into a potential and kinetic part, yielding
+  which correspond to the true EoS in the limit of simplistic cases, but which 
+  allow, by judicious choices of empirical parameters, to reproduce with 
+  precision realistic functionals.}
+{With this observation in mind}, a $\delta^{5/3}$ dependence is added as
+in Eq.~(\ref{eq:mmn2}), by decomposing the energy per particle into a potential 
+and kinetic part, yielding
 %
 \begin{equation}
   e^N_{HM}(x,\delta) = t_{HM}^{FG}(n,\delta) +
@@ -1025,7 +1027,7 @@ this small deviation is not expected to cause any issue for the determination
 of the inner crust ground state. Indeed, the relative error for PNM is lower 
 that $2\%$ at most, and, in the inner crust, the matter inside nuclei is very 
 neutron rich and the ambient nucleon gas is exclusively constituted of free
-neutrons. \edit{This ability of mimicking existing realistic functionals will 
+neutrons. {This ability of mimicking existing realistic functionals will 
   allow us to easily compare predictions of astrophysical observables of 
 different popular models.} 
 Another asset of the metamodeling technique is that no correlation is assumed
@@ -1064,7 +1066,7 @@ The compressible liquid drop model (CLDM) comes with multiple advantages. It is
 very fast from the computational point of view since the energy does not require
 to be integrated all along the cell volume.
 For this reason, it is powerful for complete statistical analyses such as the one 
-presented in the next chapter. It is also a model that is \edit{flexible}, giving 
+presented in the next chapter. It is also a model that is {flexible}, giving 
 us the opportunity to account for different geometries for example, as we 
 consider in \ref{subsec:pasta}. Last but not 
 least, because of the artificial decomposition of the nuclear cluster as a 
@@ -1172,7 +1174,7 @@ p\}$.
 \begin{center}
   \includegraphics[width=0.9\linewidth]{figures/surf_fit.pdf}
 \end{center}
-\caption[\edit{Fit of surface and curvature parameters}]{\edit{Left: Goodness 
+\caption[{Fit of surface and curvature parameters}]{{Left: Goodness 
     of fit (color scale) as described 
     by the reduced $\chi^2$, in the space of the surface parameters 
     $(\sigma_0,b_s)$ for the BSk24 CLDM with fixed value of the $p$ parameter, 
@@ -1185,7 +1187,7 @@ CLDM: BSk24, SLy4, BSk22, and DD-ME$\delta$.}}\label{fig:surf_fit}
 %
 For a given model of uniform matter, that is each given set of empirical
 parameters, the first four parameters can be fitted to experimental masses from 
-the AME2016~\cite{Huang2017} for a fixed value of the parameter $p$. \edit{The
+the AME2016~\cite{Huang2017} for a fixed value of the parameter $p$. {The
   quality of reproduction of the experimental nuclear binding energy
   $E_{\text{AME2016}}$ is measured by the reduced $\chi^2$, defined as
   %
@@ -1212,7 +1214,7 @@ in a range going from 2 to 4, for four representative functionals. This is
 understood from the fact that $p$ modifies the asymmetry dependence of the
 surface energy only for extreme values of $I$ where nuclear data are not
 available.} This parameter 
-is \edit{therefore} not adjusted as the other parameters, in order to avoid 
+is {therefore} not adjusted as the other parameters, in order to avoid 
 poor extrapolations of $\sigma$. The value of $p$ is selected around $p=3$, 
 which is the value used in the popular Lattimer and Swesty EoS~\cite{Lattimer1991}.
 %
@@ -1234,9 +1236,11 @@ popular models, SLy4~\cite{Chabanat1998} and DD-ME$\delta$~\cite{RocaMaza2011},
 in the CLD approximation. Different values for the parameter $p$ are displayed 
 in that figure. It is seen that $p$ determines the behavior of the surface
 tension for extreme isospin values, and cannot be accessed from experimental
-nuclear physics data. \edit{In addition, since the selected popular models contain
-parameters that are adjusted to the same data, we cannot cannot consider their
-predictions at high isospin as reliable. For these reasons, we will keep $p$ as 
+nuclear physics data. {In addition, since the selected popular models contain
+parameters that are adjusted to the same data, we cannot consider their 
+predictions (as for instance can be obtained by an ETF calculation in slab or 
+spherical geometry in the WS cell) at high isospin as reliable. 
+For these reasons, we will keep $p$ as 
 a free parameter.} In particular, from $I \approx 0.3$, we observe that a 
 larger value of $p$ leads to larger surface energy at fixed asymmetry. The
 model dependence of the surface tension is also observed in that figure and is
@@ -1530,7 +1534,9 @@ same equilibrium equations~\cite{Haensel2007,Vinas2017}.
 
 We now turn to the results of the minimization. 
 The building of the numerical code is presented first and the numerical results, 
-such as the ground-state composition and EoS of the inner crust, afterwards.
+such as the ground-state composition and EoS of the inner crust, afterwards. 
+\edit{Some of the results presented in the following have been published
+in~\cite{Carreau2019cc,Carreau2019moi,Carreau2019}.}
 
 \subsubsection{Numerical code}\label{subsubsec:numcode}
 
@@ -1548,7 +1554,7 @@ method~\cite{Broyden1965}, which is similar to the popular Newton's method. In
 Broyden's method, the 16 partial derivatives entering the $4\times 4$ Jacobian 
 matrix are replaced with finite differences. While the derivatives can be
 evaluated analytically from the CLD expressions with ease, using finite
-differences makes it \edit{easier to identify the effect of the different 
+differences makes it {easier to identify the effect of the different 
 contributions entering the WS cell energy. This point will be covered in
 greater detail in Chapter 3.} The Jacobian matrix 
 is not computed at each iteration but is only evaluated at the first iteration 
@@ -1565,7 +1571,7 @@ get a physical value. Finally, let us mention that as for Newton's
 method, Broyden's method requires an initial guess for the composition.
 
 We proceed as follows. The calculation starts at the neutron drip density
-$n_{ND}$. \edit{A natural choice for the initial guess is to take} the last 
+$n_{ND}$. {A natural choice for the initial guess is to take} the last 
   solution for the ground state of the outer crust, with reasonable values 
 $A_{guess} = 36$, $I_{guess} = 0.3$, $n_{0,guess} = 0.15$ fm$^{-3}$, and 
 $n_{g,guess} = 10^{-6}$ fm$^{-3}$. Then, the proton density is calculated
@@ -1704,8 +1710,8 @@ BSk24. It is observed that $e_{WS}$ depends on the nuclear model. In
 particular, it is known to be correlated with the symmetry
 energy, with higher symmetry leading to higher $e_{WS}$, at subnuclear
 densities~\cite{Pearson2018}. This trend can be verified by looking at the
-right panel of the figure, that shows the symmetry energy,
-\edit{Eq.~(\ref{eq:esym_exp})}, as a function of density for the four models 
+right panel of the figure, that shows the symmetry energy, 
+{Eq.~(\ref{eq:esym_exp})}, as a function of density for the four models 
 considered here.
 
 Fig.~\ref{fig:eos_icrust} also shows the variation with the 
@@ -1731,7 +1737,7 @@ contributions to the pressure. In the inner crust, the pressure is no longer
 dominated by the relativistic electron gas but by the ambient neutron 
 gas~\cite{Carreau2017}. At subnuclear densities, we observe that the EoS is 
 also correlated with the symmetry energy. In particular, the higher the 
-empirical parameter $E_{sym}$, which is the symmetry energy at $n=n_{sat}$, the 
+empirical parameter $E_{sym}$, which is the symmetry energy at $n_{sat}$, the 
 stiffer is the EoS. The value of $E_{sym}$ for each model is reported in
 Table~\ref{table:emp_params}.
 
@@ -1757,7 +1763,7 @@ persistence of $Z=40$ while it is not considered as a magic number in ordinary
 nuclei. 
 A more suitable alternative is to calculate shell corrections using the
 Strutinsky method \cite{Onsi2008}. 
-\edit{Fortunately}, Strutinsky shell corrections \edit{were} calculated 
+{Fortunately}, Strutinsky shell corrections {were} calculated 
 for modern BSk functionals, and are tabulated in~\cite{Pearson2018} (see
 Supplementary data). We therefore add these corrections on top of the CLD 
 energy for the corresponding models.
@@ -1810,7 +1816,7 @@ defined as the equilibrium value.
   cell energy density as a function of number of protons $Z$ at two
 different densities in the inner crust for BSk24 CLDM with (solid lines) and
 without (dotted lines) Strutinsky shell corrections on top of the CLD 
-energy. \edit{In the right panel, the constant value $9.429$
+energy. {In the right panel, the constant value $9.429$
   \si{\MeV \per \cubic\femto\meter} is 
   subtracted from the WS cell energy density.}}\label{fig:shcorr_bsk24}
 \end{figure}
@@ -1977,7 +1983,7 @@ phases by solving numerically Eq.~(\ref{eq:rpasta}). Finally, since the bulk
 and electron contributions to the WS cell are independent of the 
 dimensionality, the equilibrium phase is the one that minimizes 
 $\varepsilon_{surf} + \varepsilon_{curv} 
-+ \varepsilon_{Coul}$. \edit{Let us notice that this method has to be
++ \varepsilon_{Coul}$. {Let us notice that this method has to be
   considered as an approximation since we do not consider the dimensionality 
   dependence of the surface plus curvature energy in the minimization. This is 
   similar to the so-called ``coexisting phase method'' employed in several 
@@ -2134,16 +2140,16 @@ evaluated in \cite{Carreau2019cc}. It is found that while it does not
 significantly affect the transition density in comparison with $N$ and $p$, it 
 should be kept as an additional EoS parameter in any statistical analysis in
 order to make a quantitative prediction of the CC transition point.
-\edit{The introduction of the parameter $b$ in the parameter space is, in fact, 
-  an effective manner to account for the effect of orders $N>4$, which is not 
-important.}
+{The introduction of the parameter $b$ in the parameter space is, in fact, 
+  an effective manner to account for the effect of orders $N>4$, which are not
+explicitly included.}
 
 Different estimations of the CC transition density for the SLy4 functional
 found in the literature are reported in Fig.~\ref{fig:sly4_nt} (black lines), 
 with $n_t$ ranging from 0.072 fm$^{-3}$ \cite{Vinas2017}, in the 
 CLD approximation, to 0.089 fm$^{-3}$ \cite{Ducoin2011} (not represented in the 
 figure), with the thermodynamical method. It is interesting to observe that 
-the \edit{two different} CLD calculations \edit{of the literature based on
+the {two different} CLD calculations {of the literature based on
 SLy4 functional, reported in the figure}, give a different estimation of 
 $n_t$, with 0.072 fm$^{-3}$ in~\cite{Vinas2017}, and 0.077 fm$^{-3}$ 
 in~\cite{Douchin2000a}. This stresses once again the importance of the 
@@ -2178,11 +2184,12 @@ and our estimation of $n_t$ with $p=3$, we find $n_t = -3.807\times
 $3.094\times 10^{-3}$ fm$^{-3}$. This is linear equation for $n_t$ is in very
 good agreement with Eq.~(17) of \cite{Ducoin2011}.
 This downwards tendency with increasing values of $L_{sym}$ is not clearly 
-observed for the transition pressure. \edit{We will see in Chapter 2 that the 
-  relation between those two quantities is less explicit because $P_t$ rather 
-  depends on $K_{sym}$, which is logical because the pressure requires the
-  calculation of one more derivative in comparison to the energy density that 
-defines $n_t$.}
+observed for the transition pressure. {We will see in Chapter 2 that the 
+  relation between those two quantities is more complicated than what is
+suggested by the selection of a limited number of models in
+Fig.~\ref{fig:cctp_lsym}. Indeed, a full statistical analysis reveals that the
+transition point is correlated with the higher-order empirical parameters,
+which blurs the effective correlation with $L_{sym}$.}
 
 % -----------------------------------------------------------------------------
 
@@ -2269,7 +2276,7 @@ where we have introduced the muon chemical potential $\mu_\mu = \partial
 equilibrium between muons and electrons, and has to be satisfied if muons are 
 present. These two equations, Eq.~(\ref{eq:betaeqcore}) and~(\ref{eq:muemumu}), 
 express the equilibrium with respect to the weak interaction processes. 
-\edit{Let us remark that each time we mention electrons and muons, we are always 
+{Let us remark that each time we mention electrons and muons, we are always 
   referring to their net number, that is particles minus antiparticles.}
 
 % explain numerically
@@ -2383,17 +2390,17 @@ $2.35M_\odot$ \cite{Baym2019} and agrees with the constraints on NS
 properties inferred from the GW170817 event \cite{GW1,GW2}.
 
 We propose here to extrapolate the \textit{npe$\mu$} matter at higher
-densities, in the inner core. \edit{The different studies that consider 
+densities, in the inner core. {The different studies that consider 
   hyperons and satisfy the maximum mass 
-constraint show that the hyperon-nucleon and hyperon-hyperon are such 
-that, if hyperons exist, they are not abundant and can be neglected as a first 
-approximation, at least in the EoS energetics (see \cite{Oertel2017} and
+constraint show that the hyperon-nucleon and hyperon-hyperon couplings must be 
+such that, if hyperons exist, they are not abundant and can be neglected as a 
+first approximation, at least in the EoS energetics (see \cite{Oertel2017} and
 references therein). Since the metamodeling does not make any assumption 
-regarding the degrees of freedom, but that the functional is based on a Taylor 
-expansion, we can assume that the technique can be safely extended at high 
-density in the aim of calculating static properties, such as the EoS or the 
-mass-radius relation. The only thing that could invalidate it would be the 
-presence of a large first-order phase transition, that is a large discontinuity 
+regarding the degrees of freedom, but only assumes that the functional is based 
+on a Taylor expansion, we can consider that the technique can be safely extended 
+at high density in the aim of calculating static properties, such as the EoS or 
+the mass-radius relation. The only thing that could invalidate it would be the 
+presence of a first-order phase transition, that is a discontinuity 
 in the EoS. Thus, the only hypothesis that is made here is considering that 
 there is no such transition. Actually, even a transition to quark matter could 
 be smooth. Indeed, several works consider pasta phases in the hadron-quark 
@@ -2467,7 +2474,7 @@ More recently, a series of unified EoS based on modern BSk
 functionals~\cite{Goriely2013} has been proposed~\cite{Pearson2018}. In this
 work, the ground state of the outer crust is determined by application of the
 microscopic HFB method~\cite{Samyn2002}, and the ground state of the inner 
-crust is calculated within the ETFSI approximation~\cite{Onsi2008}. \edit{Also, 
+crust is calculated within the ETFSI approximation~\cite{Onsi2008}. {Also, 
   a set of unified EoS were built within a relativistic mean-field approach 
 (RMF) in \cite{Fortin2016}.}
 
@@ -2480,9 +2487,10 @@ semiclassical ETFSI method, or full HF calculations. While
 the two last methods are expected to be more precise with respect to the CLD 
 approximation as far as the composition is concerned, they can become 
 computationally heavy if one wants to compute the EoS for many nuclear 
-models. \edit{In addition, these more microscopic methods can only be extended 
+models. {In addition, these more microscopic methods can only be extended 
   to finite temperature in the SNA, whereas the CLD approximation allows 
-distributions of clusters, that exist at $T > 0$, to be considered.} 
+distributions of clusters, that exist at $T > 0$, to be considered (see Chapter 
+3 of this thesis).} 
 
 In view to provide a unified and thermodynamically consistent treatment of the
 crust and core of cold nonaccreting NS, we propose to compute the EoS within 
@@ -2541,7 +2549,7 @@ four mass models considered.
 We have proposed a version of the CLDM based on the metamodeling
 technique \cite{Margueron2018a,Margueron2018b}. We have seen that the
 metamodel offers the possibility to reproduce any functional of nuclear matter 
-very precisely, \edit{with a unique functional form}. The parametrization of 
+very precisely, {with a unique functional form}. The parametrization of 
 surface tension was suggested from
 microscopic calculations in the free neutron regime~\cite{Ravenhall1983}, and
 surface and curvature parameters are fitted to experimental masses. We have used 
@@ -2590,7 +2598,7 @@ uniform manner, that is with the same empirical parameters. Using the SLy4
 empirical parameters, we have shown that the relative difference with the DH 
 EoS is smaller than $10\%$ in the inner crust and $1\%$ in the core. 
 
-\edit{In Chapter 2, we will exploit the second advantage of the metamodeling
+{In Chapter 2, we will exploit the second advantage of the metamodeling
 technique, namely the fact that no artificial correlations are introduced a
 priori among the empirical parameters, to carry out complete statistical
 analyses that will allow us to settle the model dependence of the results.}

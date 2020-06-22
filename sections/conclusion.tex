@@ -3,10 +3,10 @@
 
 % RESTATE THESIS STATEMENT
 % ========================
-The aim of this thesis has been to make realistic predictions and to 
+The main aim of this thesis has been to make realistic predictions and to 
 investigate the sources of uncertainties in the observables of nonaccreting 
-cold NS and PNS, using a unified metamodeling 
-approach for the description of stellar matter energetics which allows to 
+cold NS and warm PNS, using a unified metamodeling 
+approach for the description of stellar matter energetics, which allows to 
 account for the present day constraints provided by nuclear experiments and 
 astrophysical observations.
 \\
@@ -16,8 +16,7 @@ astrophysical observations.
 We have considered a unified metamodeling approach in order to 
 calculate the composition and EoS of cold nonaccreting NS for any 
 functional of NM using the associated empirical parameters as inputs, with an 
-error lower than $10\%$ in the inner crust and $1\%$ in the core for SLy4 EoS 
-with respect to the DH EoS. 
+error which, in the representative case of the SLy4 EoS, is less than $1\%$. 
 To model the energy of clusters in the inner crust, we have proposed a version 
 of the well-known CLDM based on the metamodeling technique, with a
 parametrization of the surface tension suggested from TF calculations at 
@@ -30,20 +29,30 @@ ETFSI calculations.
 The same sequence of nonspherical pasta phases in the deepest layers of the 
 inner crust has been observed for all CLDM considered, yet we have stressed 
 that it is sensitive to the behavior of the surface tension at high isospin,
-which remains poorly constrained to the present day.
+which remains poorly constrained to the present day. 
+The uncertainty on the EoS induced by the treatment of the surface energy can
+be estimated to the order $10\%$, which corresponds to the difference between
+our results with the SLy4 functional and the DH EoS which uses the same
+functional but a different treatment of the surface energy. 
 The same is true concerning the location of the transition point to 
 homogeneous $npe$ matter, which has been computed for several nuclear models
-from the crust side. The apparent anticorrelation between the slope of the
-symmetry energy at saturation $L_{sym}$ and the CC transition density, already
-reported in the literature, has been recovered.
+from the crust side. 
+We have shown that the anticorrelation between the slope of the symmetry energy
+at saturation $L_{sym}$ and the CC transition density, reported in many
+previous works, is obtained if the surface energy is only optimized on a
+limited set of spherical magic and semimagic nuclei. Conversely, if the surface
+tension is optimized on a large pool of data and curvature terms are added,
+this correlation disappears and the sensitivity to the EoS is limited to the
+poorly known high-order empirical parameters in the isovector sector, 
+particularly the skewness $Q_{sym}$.
 
 We have exploited the main asset of the metamodeling technique, namely the 
 fact that no artificial correlations are introduced a priori among the 
-empirical parameters, to carry out the Bayesian determination of the empirical
-parameters, leading to realistic predictions for NS observables. We have
-considered a flat prior for the empirical parameters whose boundaries are
+empirical parameters, also to carry out the Bayesian determination of the 
+empirical parameters, leading to realistic predictions for NS observables. We 
+have considered a flat prior for the empirical parameters whose boundaries are
 compatible with experimental constraints. 
-The likelihood function that we have constructed take into account recent 
+The likelihood function that we have constructed takes into account recent 
 chiral EFT calculations for SNM and PNM up to $0.20$ fm$^{-3}$, and 
 the maximum mass constraint as well as basic physical requirements. 
 It also includes a probability in which is encoded the ability of the CLDM to 
@@ -54,19 +63,25 @@ correlations among the symmetry energy derivatives at saturation.
 We have made general predictions for the static properties using the posterior 
 distribution of empirical parameters and found that our results are compatible 
 with constraints of the LIGO and Virgo collaborations inferred from GW170817.
-We have performed the Bayesian analysis of the CC transition point and 
-found that the transition density and pressure are correlated with the 
-isovector parameters, particularly with the sqewness parameter $Q_{sym}$.
-The fraction of crust moment of inertia, which is strongly correlated with the 
+%
+\edit{Since the only hypothesis of the metamodeling technique is the 
+  possibility of expanding the EoS into a power series, this result implies 
+  that we have no compelling evidence of a first order phase transition in the 
+  core of NS, though the latter cannot of course be excluded.}
+%
+The fractional crust moment of inertia, which is strongly correlated with the 
 location of the CC transition point, has been computed, allowing us to exclude 
 a full crustal origin of pulsar glitches if we consider the largest present 
-estimation of crustal entrainment. 
+estimation of crustal entrainment. This opens interesting possibilities of the
+relevance of superfluid components in the core, particularly in the $^3P_2$
+channel for $nn$ and $pp$ pairs.
 
 Following a recent work on the outer crust, we have considered a full
 statistical equilibrium of ions in the crust at finite temperature allowing for 
 the presence of dripped neutrons. We have evaluated the abundancies of odd-mass 
 and odd-charge nuclei present in the outer crust at crystallization. Their
-presence could be the cause for ferromagnetic phase transitions.
+presence is of interest, because it could be the cause for ferromagnetic phase 
+transitions. 
 We have considered a temperature dependence of protons shell corrections in the 
 regime of the inner crust. The crystallization temperature and associated
 composition have been calculated in the OCP approximation, and our results
@@ -77,11 +92,12 @@ at extreme isospin ratios.
 Deviations from CCM have been observed at low density and crystallization
 temperature, thus potentially having an impact on the simulation of 
 $r$-processes.
-Finally, we have calculated the impurity parameter in the inner crust at 
-crystallization for four BSk functionals that span a relative large range in
-the symmetry energy parameters. It has shown that contributions of impurities 
-is nonnegligible, thus potentially altering transport properties in the NS 
-crust.
+Finally, we have consistently calculated the impurity parameter in the inner 
+crust at crystallization for four BSk functionals that span a relative large 
+range in the symmetry energy parameters. This is the first calculation to date
+of the impurity factor with nuclear realistic functionals, and it has shown 
+that contributions of impurities is nonnegligible, thus potentially altering 
+transport properties in the NS crust.
 \\
 
 % IMPACT AND FUTURE RESEARCH
@@ -102,11 +118,15 @@ in a full statiscal equilibrium can be envisaged in the future. For instance,
 one could investigate the presence of hyperons in the crust at crystallization. 
 Nonspherical geometries can also be considered in the MCP treatment, allowing 
 the evaluation of the impurity parameter in the bottom layers of the inner 
-crust.
+crust, and thus verifying the hypothesis of~\cite{Pons2013} that the presence
+of a highly resistive layer in the inner crust, might lead to a higher limit to
+the spinning period of x-ray pulsars.
 
-During the thesis, we have written an open-source C library, NSEoS, with the 
-aim to provide useful tools related to the physics of NS~\cite{NSEoS}. The 
-library has been used to produce all the results presented in this thesis, and 
+During the thesis, I have written an open-source C library, NSEoS, with the 
+aim of providing useful tools related to the physics of NS~\cite{NSEoS}. The 
+library has been used to produce all the results presented in this thesis.
+Moreover, it was already used by different students to perform their internship
+under the joint supervision of my thesis advisor and myself, and 
 we believe that it can be used as a basis for future studies.
 
 %% KEY POINTS (old; replaced because boring)

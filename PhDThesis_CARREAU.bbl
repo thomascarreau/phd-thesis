@@ -23344,6 +23344,51 @@
       \verb http://www.sciencedirect.com/science/article/pii/037594749400506I
       \endverb
     \endentry
+    \entry{Pons2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b2cbe44804119bf7350aba66f6254a50}{%
+           family={{Pons}},
+           familyi={P\bibinitperiod},
+           given={José\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0fef4ab993e1b00c650ae6fc20b9f6de}{%
+           family={{Viganò}},
+           familyi={V\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dd9ad77259129e4fdaf0bda8edce331b}{%
+           family={{Rea}},
+           familyi={R\bibinitperiod},
+           given={Nanda},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{401fdbbd49b7e355fa6c0f425d2c6068}
+      \strng{fullhash}{401fdbbd49b7e355fa6c0f425d2c6068}
+      \strng{authornamehash}{401fdbbd49b7e355fa6c0f425d2c6068}
+      \strng{authorfullhash}{401fdbbd49b7e355fa6c0f425d2c6068}
+      \field{labelalpha}{PVR13}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.SR}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nature Physics}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{{A highly resistive layer within the crust of X-ray pulsars limits their spin periods}}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{431\bibrangedash 434}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nphys2640
+      \endverb
+      \verb{eprint}
+      \verb 1304.6546
+      \endverb
+      \keyw{Astrophysics - Solar and Stellar Astrophysics,Astrophysics - High Energy Astrophysical Phenomena,Nuclear Theory}
+    \endentry
     \entry{Raaijmakers2019}{article}{}
       \name{author}{18}{}{%
         {{hash=e8b5c7bc0fa5d584c3e3517029881028}{%
