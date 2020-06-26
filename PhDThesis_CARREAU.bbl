@@ -17965,6 +17965,88 @@
       \verb https://doi.org/10.1051/0004-6361/201118560
       \endverb
     \endentry
+    \entry{Bethe1979}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a555263910ab872f18393c32352efbdd}{%
+           family={Bethe},
+           familyi={B\bibinitperiod},
+           given={H.A.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8498ff0219f424b5dd62e6b187649371}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={G.E.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c4dea56435d3ed5d96c2c64d498fe6cb}{%
+           family={Applegate},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb96b8cf247d799941baa701df6871d8}{%
+           family={Lattimer},
+           familyi={L\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8f3cdda82b87b6dcacae5b543d8155a}
+      \strng{fullhash}{64357b2d799a7f36315e248b7a9a0887}
+      \strng{authornamehash}{c8f3cdda82b87b6dcacae5b543d8155a}
+      \strng{authorfullhash}{64357b2d799a7f36315e248b7a9a0887}
+      \field{labelalpha}{Bet+79}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0375-9474}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{number}{2}
+      \field{title}{Equation of state in the gravitational collapse of stars}
+      \field{volume}{324}
+      \field{year}{1979}
+      \field{pages}{487\bibrangedash 533}
+      \range{pages}{47}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0375-9474(79)90596-7
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0375947479905967
+      \endverb
+    \endentry
+    \entry{Bethe1990}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ba7690b18cb9c11dd69452bd09c809ab}{%
+           family={Bethe},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ba7690b18cb9c11dd69452bd09c809ab}
+      \strng{fullhash}{ba7690b18cb9c11dd69452bd09c809ab}
+      \strng{authornamehash}{ba7690b18cb9c11dd69452bd09c809ab}
+      \strng{authorfullhash}{ba7690b18cb9c11dd69452bd09c809ab}
+      \field{labelalpha}{Bet90}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{10}
+      \field{title}{Supernova mechanisms}
+      \field{volume}{62}
+      \field{year}{1990}
+      \field{pages}{801\bibrangedash 866}
+      \range{pages}{66}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.62.801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.62.801
+      \endverb
+    \endentry
     \entry{Baus1980}{article}{}
       \name{author}{2}{}{%
         {{hash=57b240ee2186c9fb7adadf311677c1e4}{%
@@ -18443,6 +18525,41 @@
       \verb http://www.jstor.org/stable/2003941
       \endverb
     \endentry
+    \entry{Bergh1991}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1de252861a75f296e14532c3c526d2f0}{%
+           family={Bergh},
+           familyi={B\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod},
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=c2d540e79d44024b335f0ac829da5196}{%
+           family={Tammann},
+           familyi={T\bibinitperiod},
+           given={Gustav\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{43ea78607219423c2f74ba4521beb549}
+      \strng{fullhash}{43ea78607219423c2f74ba4521beb549}
+      \strng{authornamehash}{43ea78607219423c2f74ba4521beb549}
+      \strng{authorfullhash}{43ea78607219423c2f74ba4521beb549}
+      \field{labelalpha}{BT91}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Rev. Astron. Astrophys.}
+      \field{month}{1}
+      \field{title}{{Galactic and extragalactic supernova rates}}
+      \field{volume}{29}
+      \field{year}{1991}
+      \field{pages}{363\bibrangedash 407}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1146/annurev.aa.29.090191.002051
+      \endverb
+    \endentry
     \entry{Bohr1939}{article}{}
       \name{author}{2}{}{%
         {{hash=09ca20fddac431fc5e6dae0595c682f8}{%
@@ -18481,6 +18598,46 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.56.426
+      \endverb
+    \endentry
+    \entry{Baade1934}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb3aa6e685bae2eb57e3f9b6b54a2b7b}{%
+           family={Baade},
+           familyi={B\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fdd87c077ba6193220799be069f99a58}{%
+           family={Zwicky},
+           familyi={Z\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f9e6e0e89e3c93352842d3ea28074ac6}
+      \strng{fullhash}{f9e6e0e89e3c93352842d3ea28074ac6}
+      \strng{authornamehash}{f9e6e0e89e3c93352842d3ea28074ac6}
+      \strng{authorfullhash}{f9e6e0e89e3c93352842d3ea28074ac6}
+      \field{labelalpha}{BZ34}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{7}
+      \field{title}{Remarks on Super-Novae and Cosmic Rays}
+      \field{volume}{46}
+      \field{year}{1934}
+      \field{pages}{76\bibrangedash 77}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1103/PhysRev.46.76.2
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.46.76.2
       \endverb
     \endentry
     \entry{Carreau2019}{article}{}
@@ -19063,6 +19220,58 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.110.011101
       \endverb
     \endentry
+    \entry{Chandrasekhar1931}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2cdd974df31a73795c3a486550391e0c}{%
+           family={Chandrasekhar},
+           familyi={C\bibinitperiod},
+           given={Subrahmanyan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2cdd974df31a73795c3a486550391e0c}
+      \strng{fullhash}{2cdd974df31a73795c3a486550391e0c}
+      \strng{authornamehash}{2cdd974df31a73795c3a486550391e0c}
+      \strng{authorfullhash}{2cdd974df31a73795c3a486550391e0c}
+      \field{labelalpha}{Cha31}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{The maximum mass of ideal white dwarfs}
+      \field{volume}{74}
+      \field{year}{1931}
+      \field{pages}{81}
+      \range{pages}{1}
+    \endentry
+    \entry{Chadwick1932}{article}{}
+      \name{author}{1}{}{%
+        {{hash=92f17edd3dd2902588f29a4ec0ed82d3}{%
+           family={Chadwick},
+           familyi={C\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{92f17edd3dd2902588f29a4ec0ed82d3}
+      \strng{fullhash}{92f17edd3dd2902588f29a4ec0ed82d3}
+      \strng{authornamehash}{92f17edd3dd2902588f29a4ec0ed82d3}
+      \strng{authorfullhash}{92f17edd3dd2902588f29a4ec0ed82d3}
+      \field{labelalpha}{Cha32}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{3252}
+      \field{title}{Possible existence of a neutron}
+      \field{volume}{129}
+      \field{year}{1932}
+      \field{pages}{312\bibrangedash 312}
+      \range{pages}{1}
+    \endentry
     \entry{Cao2006}{article}{}
       \name{author}{3}{}{%
         {{hash=02bc2c38f41a8bae4532df6474d6c7eb}{%
@@ -19107,6 +19316,54 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.74.064301
       \endverb
+    \endentry
+    \entry{Comella1969}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4ca6973f77ebf5f6ec9349818de9c902}{%
+           family={Comella},
+           familyi={C\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9d9d0751ef58f04e81c579ed12f0a973}{%
+           family={Craft},
+           familyi={C\bibinitperiod},
+           given={HD},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4fe423b4ad0a6eb80d731e046a0ebcaa}{%
+           family={Lovelace},
+           familyi={L\bibinitperiod},
+           given={RVE},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9dc532d8b796450272f4ad1c8ad712aa}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b9b076f32f2537a3daab264b3e60f24e}{%
+           family={Tyler},
+           familyi={T\bibinitperiod},
+           given={G\bibnamedelima Leonard},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{043e2a6e569b6fb8b4429134e2222db1}
+      \strng{fullhash}{b733468c325a007861e530e02030f300}
+      \strng{authornamehash}{043e2a6e569b6fb8b4429134e2222db1}
+      \strng{authorfullhash}{b733468c325a007861e530e02030f300}
+      \field{labelalpha}{Com+69}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{5179}
+      \field{title}{Crab nebula pulsar NP 0532}
+      \field{volume}{221}
+      \field{year}{1969}
+      \field{pages}{453\bibrangedash 454}
+      \range{pages}{2}
     \endentry
     \entry{Cromartie2020}{article}{}
       \name{author}{27}{}{%
@@ -20294,6 +20551,56 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.94.035804
       \endverb
     \endentry
+    \entry{Fryer1999}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f77aef862e8c60faf2f81c4ea22f1b26}{%
+           family={Fryer},
+           familyi={F\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2ffdb8a3d0a0a4fa0e5cf246d4c9ac04}{%
+           family={Benz},
+           familyi={B\bibinitperiod},
+           given={Willy},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bbb1bdd044b953b89869c938411d7640}{%
+           family={Herant},
+           familyi={H\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94e56e7ee07008824280b3ab74fd5970}{%
+           family={Colgate},
+           familyi={C\bibinitperiod},
+           given={Stirling\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{101dab2dfdf1d4d38b23af17c78b347b}
+      \strng{fullhash}{3c032214b53b91c03b5b3cb778043bda}
+      \strng{authornamehash}{101dab2dfdf1d4d38b23af17c78b347b}
+      \strng{authorfullhash}{3c032214b53b91c03b5b3cb778043bda}
+      \field{labelalpha}{Fry+99}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{What Can the Accretion-induced Collapse of White Dwarfs Really Explain?}
+      \field{volume}{516}
+      \field{year}{1999}
+      \field{pages}{892\bibrangedash 899}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1086/307119
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1086%2F307119
+      \endverb
+    \endentry
     \entry{Gandolfi2014}{article}{}
       \name{author}{5}{}{%
         {{hash=5ef3c7013622edadeb4699cc2a97ab32}{%
@@ -20423,6 +20730,42 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.95.054327
+      \endverb
+    \endentry
+    \entry{Gold1968}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=83ea0eb2f82dabfdd9a5b2a0dd7953b7}{%
+           family={Gold},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{83ea0eb2f82dabfdd9a5b2a0dd7953b7}
+      \strng{fullhash}{83ea0eb2f82dabfdd9a5b2a0dd7953b7}
+      \strng{authornamehash}{83ea0eb2f82dabfdd9a5b2a0dd7953b7}
+      \strng{authorfullhash}{83ea0eb2f82dabfdd9a5b2a0dd7953b7}
+      \field{labelalpha}{Gol68}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Pulsating Stars: A NATURE Reprint}
+      \field{isbn}{978-1-4899-6387-1}
+      \field{title}{Rotating Neutron Stars as the Origin of the Pulsating Radio Sources}
+      \field{year}{1968}
+      \field{pages}{74\bibrangedash 75}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1007/978-1-4899-6387-1_40
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4899-6387-1_40
       \endverb
     \endentry
     \entry{Gonzalez2017}{article}{}
@@ -20748,6 +21091,56 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.97.035807
+      \endverb
+    \endentry
+    \entry{Green2003}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=62c45e9993ec16fdeb385a98b798dd0b}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=47105cdb57cc2392d19e81b82524686e}{%
+           family={Stephenson},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi Richard},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4f78f43aff0eb7f42021f18974d2991d}{%
+           family={Weiler},
+           familyi={W\bibinitperiod},
+           given={Kurt\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{8a4f906c08f375d8d893a6b43fdcab73}
+      \strng{fullhash}{8a4f906c08f375d8d893a6b43fdcab73}
+      \strng{authornamehash}{8a4f906c08f375d8d893a6b43fdcab73}
+      \strng{authorfullhash}{8a4f906c08f375d8d893a6b43fdcab73}
+      \strng{editornamehash}{4f78f43aff0eb7f42021f18974d2991d}
+      \strng{editorfullhash}{4f78f43aff0eb7f42021f18974d2991d}
+      \field{labelalpha}{GS03}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Supernovae and Gamma-Ray Bursters}
+      \field{isbn}{978-3-540-45863-0}
+      \field{title}{Historical Supernovae}
+      \field{year}{2003}
+      \field{pages}{7\bibrangedash 19}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/3-540-45863-8_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/3-540-45863-8_2
       \endverb
     \endentry
     \entry{Goriely2007}{article}{}
@@ -21185,6 +21578,59 @@
       \verb https://doi.org/10.1088%2F1674-1137%2F41%2F3%2F030002
       \endverb
     \endentry
+    \entry{Janka2007}{article}{}
+      \name{author}{5}{}{%
+        {{hash=30c9a38c54193c8df7229739bc7acc62}{%
+           family={Janka},
+           familyi={J\bibinitperiod},
+           given={H.-Th.},
+           giveni={H\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=6dcbb37b7ea64f25803da38678b0c3e9}{%
+           family={Langanke},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=de0fd902166f37aa51ec1fd7d88be347}{%
+           family={Marek},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3d6ac99c10569a4e7a1b543e95a3a9c0}{%
+           family={Martínez-Pinedo},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c5f830fa71d636e604e5483c5f276ce4}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ddf3f6e8abc610193dd60af916a7122}
+      \strng{fullhash}{2cd61a066a3f9abb151bc2a9a68e2c04}
+      \strng{authornamehash}{9ddf3f6e8abc610193dd60af916a7122}
+      \strng{authorfullhash}{2cd61a066a3f9abb151bc2a9a68e2c04}
+      \field{labelalpha}{Jan+07}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{note}{The Hans Bethe Centennial Volume 1906-2006}
+      \field{number}{1}
+      \field{title}{Theory of core-collapse supernovae}
+      \field{volume}{442}
+      \field{year}{2007}
+      \field{pages}{38\bibrangedash 74}
+      \range{pages}{37}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physrep.2007.02.002
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0370157307000439
+      \endverb
+    \endentry
     \entry{Ji2019}{article}{}
       \name{author}{4}{}{%
         {{hash=52eb90854f6ad4ea258f390ec62e8475}{%
@@ -21322,6 +21768,31 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.85.024304
       \endverb
+    \endentry
+    \entry{Landau1932}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e56a47604b2b24f4cf0541935ccf5e9d}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={Lev\bibnamedelima Davidovich},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e56a47604b2b24f4cf0541935ccf5e9d}
+      \strng{fullhash}{e56a47604b2b24f4cf0541935ccf5e9d}
+      \strng{authornamehash}{e56a47604b2b24f4cf0541935ccf5e9d}
+      \strng{authorfullhash}{e56a47604b2b24f4cf0541935ccf5e9d}
+      \field{labelalpha}{Lan32}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Z. Sowjetunion}
+      \field{number}{285}
+      \field{title}{On the theory of stars}
+      \field{volume}{1}
+      \field{year}{1932}
+      \field{pages}{152}
+      \range{pages}{1}
     \endentry
     \entry{Link1999}{article}{}
       \name{author}{3}{}{%
@@ -23269,6 +23740,38 @@
       \endverb
       \keyw{Astrophysics - High Energy Astrophysical Phenomena}
     \endentry
+    \entry{Page2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6fef9940b10c4d5ca35abe7af61fd73d}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Dany},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3c0a5624e77907117378691c66784925}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{ba039bb760d145af74b3a6af8e49eabe}
+      \strng{fullhash}{ba039bb760d145af74b3a6af8e49eabe}
+      \strng{authornamehash}{ba039bb760d145af74b3a6af8e49eabe}
+      \strng{authorfullhash}{ba039bb760d145af74b3a6af8e49eabe}
+      \field{labelalpha}{PR06}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annu. Rev. Nucl. Part. Sci.}
+      \field{title}{Dense matter in compact stars: theoretical developments and observational constraints}
+      \field{volume}{56}
+      \field{year}{2006}
+      \field{pages}{327\bibrangedash 374}
+      \range{pages}{48}
+    \endentry
     \entry{Pethick1995}{article}{}
       \name{author}{2}{}{%
         {{hash=10e8bf6100d6ce795cc5d29e17933374}{%
@@ -24512,6 +25015,51 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevC.38.1010
+      \endverb
+    \endentry
+    \entry{Woosley2002}{article}{}
+      \name{author}{3}{}{%
+        {{hash=223c8cbae2512e2ff37595b253a9c924}{%
+           family={Woosley},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a0adfa0f9a61691c57341f6e8984e882}{%
+           family={Heger},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bf3bf7d4b80d04a9e37fe2c2f9719f7e}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2dc8aacf5373ce92746356ebfd667d37}
+      \strng{fullhash}{2dc8aacf5373ce92746356ebfd667d37}
+      \strng{authornamehash}{2dc8aacf5373ce92746356ebfd667d37}
+      \strng{authorfullhash}{2dc8aacf5373ce92746356ebfd667d37}
+      \field{labelalpha}{WHW02}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{11}
+      \field{title}{The evolution and explosion of massive stars}
+      \field{volume}{74}
+      \field{year}{2002}
+      \field{pages}{1015\bibrangedash 1071}
+      \range{pages}{57}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.74.1015
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.74.1015
       \endverb
     \endentry
     \entry{Watanabe2011}{misc}{}

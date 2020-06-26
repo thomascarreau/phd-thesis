@@ -532,6 +532,12 @@ INPUT sections/introduction.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT figures/sn_intro.png
+INPUT ./figures/sn_intro.png
+INPUT ./figures/sn_intro.png
+INPUT figures/NStarInt.jpeg
+INPUT ./figures/NStarInt.jpeg
+INPUT ./figures/NStarInt.jpeg
 INPUT sections/chapter1.tex
 INPUT sections/chapter1.tex
 INPUT PhDThesis_CARREAU.mtc4
