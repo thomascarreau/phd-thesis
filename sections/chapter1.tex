@@ -1,14 +1,13 @@
 % *****************************************************************************
 %     sections/chapter1.tex
 %
-% Last edit: 21/06
+% Last edit: 07/07
 % *****************************************************************************
 
 \chapter{Structure and equation of state of cold nonaccreting neutron stars}
 
-This chapter deals with the structure and equation of state (EoS) of neutron 
-stars (NS) within the framework of the ``cold catalyzed matter'' 
-(CCM) hypothesis.
+This chapter deals with the structure and EoS of NS within the framework of 
+the ``cold catalyzed matter'' (CCM) hypothesis.
 
 With typical temperature of about $T \sim 10^8$ K $\sim 0.01$ MeV, NS are 
 very cold systems from the nuclear physics viewpoint, therefore the CCM hypothesis 
@@ -21,17 +20,14 @@ as it is not accreting matter from a neighbor. Indeed, in the accretion
 scenario, the typical timescale of the process are such that the matter
 composition is believed to be out of equilibrium.
 
-As already discussed in the general introduction, the EoS 
-relates, in given conditions of temperature and densities, the macroscopic
-quantities of the star, such as the mass density and the pressure, which
-determines among others the mass-radius relation of NS. The evaluation of the
-EoS therefore implies to know the microscopic composition at each point in the
+As already discussed in the general introduction, the evaluation of the
+EoS implies to know the microscopic composition at each point in the
 star. At subsaturation densities, the solid crust consists mainly of 
 clusterized matter, arranged in a body-centered cubic lattice~\cite{Haensel2007}. 
 The relevant degrees of freedom in the crust are the Wigner-Seitz (WS) 
 cells, containing exactly one lattice point \cite{Wigner1933}. At zero
-temperature, WS cells are supposed to be identical, thus the so-called single
-nucleus approximation (SNA), which considers a unique configuration for a given 
+temperature, WS cells are supposed to be identical, thus the SNA, which 
+considers a unique configuration for a given 
 thermodynamic condition of temperature and pressure $(P,T)$, becomes exact. The 
 ground state of the outer crust is almost entirely characterized by experimental 
 nuclear masses, which are available up to $(N-Z)/A \lesssim 0.3$. The 
@@ -67,7 +63,7 @@ the EoS is proposed. Finally, conclusions are given in Section~\ref{sec:conclu1}
 \section{Ground state of the outer crust}\label{sec:ocrust_gs}
 
 At zero temperature, the matter inside the outer crust corresponds to a 
-lattice of strongly bound nuclei, immersed in an sea of electrons. The mass 
+lattice of strongly bound nuclei, immersed in a sea of electrons. The mass 
 density at which nuclei are fully ionized and electron completely degenerated 
 is of the order of $\rho_B \gg 6AZ \sim 10^4$ g/cm$^3$ for $^{56}$Fe, which is
 the ground state of matter at very low density. Below $10^4$ g/cm$^3$, some 
@@ -147,7 +143,7 @@ nuclei and until we reach the neutron drip line, the use of a model is
 required, thus a model dependence arises. A possibility is to rely on 
 microscopic Hartree-Fock-Bogoliubov (HFB) theoretical mass
 tables~\cite{Samyn2002}, which are based on the nuclear energy-density 
-functional theory that is discussed in the general introduction.
+functional theory.
 
 In general, atomic masses are tabulated instead of the nuclear ones which can 
 be calculated as
@@ -431,11 +427,12 @@ experimentally for now, thus a model dependence is expected
 to arise because the nuclear masses have to be extrapolated from laboratory nuclei. The
 nuclear mass model used to calculated the ground state here is
 HFB-24~\cite{Goriely2013}, constructed from the BSk24 functional following the
-Hartree-Fock-Bogoliubov method~\cite{Samyn2002}. \notsure{The BSk24 functional is part
+Hartree-Fock-Bogoliubov method~\cite{Samyn2002}. {The BSk24 functional is part
 of a family of functionals labeled BSk22 to BSk26, consisting of unconventional
 effective Skyrme forces with extra $t_4$ and $t_5$ terms that behave as
 density-dependent generalizations of the usual $t_1$ and $t_2$ terms present in
-traditional Skyrme forces. The functionals BSk22-26 were fitted to the 2353
+traditional Skyrme forces~\cite{Vautherin1972,Chabanat1997}. 
+The functionals BSk22-26 were fitted to the 2353
 experimental masses of the AME2012~\cite{Audi2012} and
 differ mainly by their symmetry energy $S$, defined here as the difference 
 between the energy per nucleon of pure neutron matter (PNM) $e_{PNM}$ and the 
@@ -445,10 +442,9 @@ energy per nucleon of symmetric nuclear matter (SNM) $e_{SNM}$,
   S(n) = e_{PNM}(n) - e_{SNM}(n),
 \end{equation}
 %
-with $n$ the density of nuclear matter. To a first approximation, $S(n) \simeq
-E_{sym}$, $E_{sym}$ being the symmetry energy per nucleon at the saturation density
-of nuclear matter $n = n_{sat} \approx 0.16$ fm$^{-3}$. This quantity is
-constrained
+with $n$ the density of nuclear matter. At the saturation density
+of nuclear matter $n = n_{sat} \approx 0.16$ fm$^{-3}$, $S(n)$ coincides with
+the so-called symmetry energy parameter $E_{sym}$. This quantity is constrained 
 to 32, 31, 30, and 29 MeV for BSk22, BSk23, BSk24, and BSk25, respectively. For
 BSk26, $E_{sym} = 30$ MeV as well but the functional is fitted to the APR EoS of
 PNM~\cite{Akmal1998}, unlike BSk22-25 that are fitted to the stiffer LS2
@@ -654,7 +650,7 @@ r-cluster representation naturally emerges in the local density approximation
 in density functional theory. Indeed, if the energy is expressed as a function
 of the local density, then the cluster corresponds to the dense part and the
 gas to the dilute one. This interpretation is used in most of the calculations
-at finite temperature to model supernovae, see for example the renowned
+at finite temperature to model SN, see for example the renowned
 Lattimer and Swesty EoS~\cite{Lattimer1991}. In the e-cluster representation,
 the gas penetrate the cluster. This interpretation appears spontaneously in
 single-particle developments. Indeed, in very neutron-rich clusters, beyond the
@@ -694,7 +690,7 @@ corresponds to the proton single-particle field at the cell
 surface~\cite{Pearson2018}. However, if nonspherical shapes are considered 
 then it is found that protons remain in the cluster for most models.
 
-\edit{
+{
   At zero temperature, we define the mass of the cluster in the e-cluster 
   representation as
   %
@@ -705,7 +701,7 @@ then it is found that protons remain in the cluster for most models.
   %
   where $\varepsilon_g$ represents the energy density of the neutron gas of
   density $n_g$, $V_{cl}=A/n_0$ the volume of the cluster, and $E_{cl}$ the
-  energy of the cluster.
+  energy of the cluster, which will be specified lower in this chapter. 
   The WS cell energy $E_{WS}$ can be written as
   %
   \begin{eqnarray}
@@ -1134,7 +1130,7 @@ the presence of the neutron gas~\cite{Douchin2000b}.
 We use the expression originally proposed by Ravenhall \textit{et
 al.}~\cite{Ravenhall1983} on the basis of TF calculations at
 extreme isospin ratios, and later employed in different works on neutron star
-crust and supernovae modeling within the 
+crust and SN modeling within the 
 CLD approximation~\cite{Lattimer1991,Newton2012,Lorenz1993}:
 %
 \begin{equation}
@@ -1535,7 +1531,7 @@ same equilibrium equations~\cite{Haensel2007,Vinas2017}.
 We now turn to the results of the minimization. 
 The building of the numerical code is presented first and the numerical results, 
 such as the ground-state composition and EoS of the inner crust, afterwards. 
-\edit{Some of the results presented in the following have been published
+{Some of the results presented in the following have been published
 in~\cite{Carreau2019cc,Carreau2019moi,Carreau2019}.}
 
 \subsubsection{Numerical code}\label{subsubsec:numcode}
