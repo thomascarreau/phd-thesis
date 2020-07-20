@@ -18,6 +18,8 @@
 
 \def\edit{\textcolor{red}}
 \def\notsure{\textcolor{olive}}
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
 
 %%%% DOCUMENT =================================================================
 
@@ -49,5 +51,7 @@
 heading=bibintoc,
 title={Bibliography}
 ]
+
+\input{sections/abstracts}
 
 \end{document}

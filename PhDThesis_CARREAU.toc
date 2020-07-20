@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {chapter}{List of Figures}{ix}{chapter*.3}
-\contentsline {xchapter}{}{ix}{chapter*.3}
-\contentsline {chapter}{List of Tables}{xi}{chapter*.5}
-\contentsline {xchapter}{}{xi}{chapter*.5}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
+\contentsline {xchapter}{}{vii}{chapter*.3}
+\contentsline {chapter}{List of Tables}{ix}{chapter*.5}
+\contentsline {xchapter}{}{ix}{chapter*.5}
 \contentsline {starchapter}{General introduction}{1}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Structure and equation of state of cold nonaccreting neutron stars}{9}{chapter.1}
 \contentsline {section}{\numberline {1.1}Ground state of the outer crust}{11}{section.1.1}
@@ -87,5 +87,4 @@
 \contentsline {starchapter}{General conclusions and outlooks}{143}{chapter*.75}
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{147}{appendix.A}
 \contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{149}{appendix.B}
-\contentsline {chapter}{\numberline {C}R\'esum\'e en fran\c {c}ais}{151}{appendix.C}
-\contentsline {chapter}{Bibliography}{153}{appendix*.76}
+\contentsline {chapter}{Bibliography}{151}{appendix*.76}

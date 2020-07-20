@@ -22,7 +22,7 @@ configuration for a given thermodynamic condition. NSE approaches, also
 referred to as multicomponent plasma (MCP) approaches, allow properly 
 calculating the so-called impurity parameter entering cooling simulations, 
 generally taken as free parameter directly fitted to cooling data. 
-Another quantity of interest that can be evaluated in a MCP approach is the 
+Another quantity of interest that can be evaluated in an MCP approach is the 
 fraction of odd-mass and odd-charge nuclei in the outer crust. Their presence 
 at low temperature might be the sign of ferromagnetic phase transitions, which 
 could alter the relativistic electron gas.
@@ -65,9 +65,9 @@ it is not considered in this study.
 We review the OCP in~\ref{subsec:ocp}. 
 We give the expressions of the ideal and interacting
 contributions to the ion free energy in solid and liquid phases, and discuss 
-the thermodynamic condition for crystallization. The nuclear statistical
-equilibrium (NSE) is implemented perturbatively in the MCP approach 
-in~\ref{subsec:mcp}. The derivation of the rearrangement term, 
+the thermodynamic condition for crystallization. The 
+nuclear statistical equilibrium is implemented perturbatively in the MCP 
+approach in~\ref{subsec:mcp}. The derivation of the rearrangement term, 
 required to guarantee thermodynamic consistency, is carried out.
 In~\ref{subsec:freeenfunctional}, we present the free energy functional used in
 the free neutron regime.
@@ -400,7 +400,7 @@ The OCP approximation is expected to be reliable at the temperatures
 typically encountered at low density in the crystallized crust, yet the 
 very principle of statistical mechanics tells us that at finite temperature 
 different configurations of the WS cell are realized for a same total density.
-In the following, the nuclear distribution is included in a MCP approach at 
+In the following, the nuclear distribution is included in an MCP approach at 
 equilibrium, as in~\cite{Fantina2020,Carreau2020}. A 
 particular attention is paid to the evaluation of the chemical potentials, as 
 well as of the rearrangement term, which is required to ensure thermodynamic 
@@ -768,7 +768,7 @@ clusters are by definition above the drip line, so that experimental data are
 not available. As a consequence, the modeling of $F_{cl}^{(j)}$ is required.
 
 % plan
-In the following, we first recall the simple case of free Fermi gas before
+In the following, we first recall the simple case of free FG before
 deriving the expressions required to describe to the ambient neutron gas at 
 finite temperature. 
 We then give the expressions of the different quantities entering the 
@@ -850,7 +850,7 @@ At $T=0$ K, the free energy is simply equivalent to the energy:
 %
 
 At nonzero temperature, the calculation of thermodynamic properties of a free
-Fermi gas generally requires the numerical evaluation of Fermi integrals,
+FG generally requires the numerical evaluation of Fermi integrals,
 %
 \begin{equation}
   F_\nu(u) = \frac{1}{\Gamma(\nu+1)}\int_0^\infty\frac{t^\nu}{1+\exp(t-u)}dt,
@@ -878,7 +878,7 @@ temperature and the entropy, respectively
 \end{equation}
 %
 which finally gives, using the thermodynamic relation $F=E-TS$, the expression
-of the free energy of a nonrelativistic free Fermi gas,
+of the free energy of a nonrelativistic free FG,
 %
 \begin{equation}
   F = \frac{3}{5} N e_F
@@ -933,7 +933,7 @@ field potential, which is given in the metamodel by ($q=n,p$)
 %
 with $\tau_{3,l} = 1$ ($\tau_{3,l} = -1$) for $l=n$ ($l=p$). The expressions of
 the potential energy $v_{MM}$ and effective masses are given 
-in~\ref{subsubsec:hnm}. The simple case of free Fermi gas is recovered by 
+in~\ref{subsubsec:hnm}. The simple case of free FG is recovered by 
 introducing the effective chemical potential $\tilde{\mu}_q = \mu_q - U_q$,
 yielding the free energy per particle of nuclear matter,
 %
@@ -1965,7 +1965,7 @@ free energy, namely the translational center-of-mass motion term in the liquid
 phase, the zero-point quantum vibrations term in the solid phase, and the 
 Coulomb interaction contribution which differs according to the phase of 
 matter. We have discussed the definition of the transition from liquid to
-solid, and we have then included the nuclear distribution in a MCP approach at 
+solid, and we have then included the nuclear distribution in an MCP approach at 
 the equilibrium. 
 Within this treatment, nonlinear mixing effects that arise due to 
 the fact that the center-of-mass position of each ion is not confined to the 
