@@ -88,5 +88,8 @@
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{147}{appendix.A}
 \contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{149}{appendix.B}
 \contentsline {chapter}{\numberline {C}R\IeC {\'e}sum\IeC {\'e} en fran\IeC {\c c}ais}{151}{appendix.C}
-\contentsline {section}{\numberline {C.1}Conclusions g\IeC {\'e}n\IeC {\'e}rales et perspectives}{151}{section.C.1}
-\contentsline {chapter}{Bibliography}{155}{appendix*.76}
+\contentsline {section}{\numberline {C.1}Chapitre 1}{151}{section.C.1}
+\contentsline {section}{\numberline {C.2}Chapitre 2}{152}{section.C.2}
+\contentsline {section}{\numberline {C.3}Chapitre 3}{152}{section.C.3}
+\contentsline {section}{\numberline {C.4}Conclusions g\IeC {\'e}n\IeC {\'e}rales et perspectives}{152}{section.C.4}
+\contentsline {chapter}{Bibliography}{157}{appendix*.76}
