@@ -2853,8 +2853,26 @@
     <bcf:citekey order="591">Ducoin2011</bcf:citekey>
     <bcf:citekey order="592">Wiringa1988</bcf:citekey>
     <bcf:citekey order="592">Douchin2001</bcf:citekey>
-    <bcf:citekey order="593">Pons2013</bcf:citekey>
-    <bcf:citekey order="594">NSEoS</bcf:citekey>
+    <bcf:citekey order="593">Anderson1975</bcf:citekey>
+    <bcf:citekey order="594">Demorest2010</bcf:citekey>
+    <bcf:citekey order="594">Antoniadis2013</bcf:citekey>
+    <bcf:citekey order="594">Cromartie2020</bcf:citekey>
+    <bcf:citekey order="595">Andersson2012</bcf:citekey>
+    <bcf:citekey order="595">Piekarewicz2014</bcf:citekey>
+    <bcf:citekey order="596">GW1</bcf:citekey>
+    <bcf:citekey order="597">Margueron2018a</bcf:citekey>
+    <bcf:citekey order="598">Carreau2019cc</bcf:citekey>
+    <bcf:citekey order="598">Carreau2019moi</bcf:citekey>
+    <bcf:citekey order="599">Carreau2019cc</bcf:citekey>
+    <bcf:citekey order="599">Carreau2019moi</bcf:citekey>
+    <bcf:citekey order="600">Huang2017</bcf:citekey>
+    <bcf:citekey order="601">Drischler2016</bcf:citekey>
+    <bcf:citekey order="602">De2018</bcf:citekey>
+    <bcf:citekey order="602">GW1</bcf:citekey>
+    <bcf:citekey order="603">Carreau2019cc</bcf:citekey>
+    <bcf:citekey order="604">Delsate2016</bcf:citekey>
+    <bcf:citekey order="605">Pons2013</bcf:citekey>
+    <bcf:citekey order="606">NSEoS</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

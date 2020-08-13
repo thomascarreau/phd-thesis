@@ -223,6 +223,125 @@ différence relative avec l'équation d'état de Douchin et Haensel est inférie
 
 \section{Chapitre 2}
 
+Dans ce chapitre, nous avons d'abord introduit les équations de base de
+l'équilibre hydrostatique en relativité générale, pour les étoiles sphériques 
+non rotatives. Nous avons résolu ces équations pour différentes équations
+d'état populaires afin d'obtenir la relation entre la masse et le rayon de 
+l'étoile. 
+Dans le même esprit, nous avons calculé le moment d'inertie ainsi que la 
+déformabilité due aux effets de marée, qui décrit la rigidité de l'étoile
+soumise aux tensions causées par la force gravitationnelle exercée par une
+étoile secondaire, dans l'approximation de la rotation lente, qui devrait être 
+valable pour la plupart des pulsars. 
+La détermination de la densité et de la pression au point de transition entre
+la croûte et le coeur, discutée dans le premier chapitre, permet le calcul des
+observables de la croûte. Nous avons ainsi calculé son épaisseur et 
+la fraction du moment d'inertie résidant à l'intérieur. Nous
+avons expliqué en détail le lien entre le moment d'inertie de la croûte et le 
+phénomène de glitch de pulsar dans le consensus actuel, c'est-à-dire où un 
+glitch est observé lors du transfert de moment angulaire depuis les neutrons 
+superfluides, confinés dans la croûte interne, vers le reste de 
+l'étoile~\cite{Anderson1975}.
+%
+L'un des principaux problèmes exposés dans la section~\ref{sec:tov} est la 
+sensibilité des résultats à l'équation d'état, et plus particulièrement aux
+paramètres empiriques du secteur isovecteur. Nous avons montré que toutes les 
+équations d'état considérées ne réussissent pas à dépasser la contrainte de 
+masse maximale, $M_{max} \gtrsim 
+2M_\odot$ \cite{Demorest2010,Antoniadis2013,Cromartie2020}, en faveur d'une
+équation d'état \textit{stiff}. 
+De plus, nos résultats tendent à indiquer que le phénomène de glitch ne peut 
+pas uniquement tirer son origine de la physique de la croûte compte tenu des 
+estimations actuelles de l'effet 
+d'entrainement~\cite{Andersson2012,Piekarewicz2014}.
+Inversement, la récente contrainte sur le paramètre de déformabilité due aux
+effets de marée $\Lambda_{1.4}$ déduit de GW170817~\cite{GW1} tend à favoriser 
+les équations d'état \textit{soft}.
+
+Nous avons rappelé le principe de l'inférence bayésienne avant d'effectuer la  
+détermination bayésienne des paramètres de l'équation d'état en utilisant 
+technique de métamodélisation~\cite{Margueron2018a}. Nous avons utilisé une 
+distribution \textit{prior} uniforme pour les paramètres qui tient compte tenu 
+des contraintes empiriques actuelles. 
+%
+Les résultats et les analyses présentés dans ce chapitre sont proches, mais ne 
+sont pas identiques, à nos résultats 
+publiés~\cite{Carreau2019cc,Carreau2019moi}. 
+En effet, une analyse bayésienne dépend de façon cruciale à la fois du
+\textit{prior} et de la modélisation de le fonction de vraisemblance. 
+Dans ce travail de thèse, nous avons fait varier à la fois la distribution
+\textit{prior} des paramètres de surface, en adoptant un protocole de fit 
+différent de celui de~\cite{Carreau2019cc,Carreau2019moi} et en introduisant 
+des termes de courbure qui ont été négligées dans l'étude précédente, et les 
+filtres, en explorant les effet de l'inclusion ou non des prédictions de la 
+théorie des perturbations chirales concernant la pression de la matière 
+nucléaire symétrique et la matière pure de neutrons.
+Les différents résultats sont compatibles à l'intérieur des barres d'erreur, 
+mais différentes corrélations sont observées. Nous avons analysé ces
+différences, ce qui nous a permis de mieux comprendre l'effet des différentes 
+conditions.
+%
+Une analyse de sensitivité sur le point de transition croûte-coeur a révélé que 
+les paramètres empiriques du secteur isovecteur sont les plus important pour 
+la déterminer précisément la densité $n_t$ et pression $P_t$ de transition. 
+Nous avons calculé la fonction de vraisemblance en tenant compte de 
+contraintes sur les observables de physique nucléaire (contraintes de basse
+densité), à savoir les masses expérimentales~\cite{Huang2017} 
+et les calculs en théorie des perturbations chirales pour la matière nucléaire
+symétrique et la matière pure de neutrons~\cite{Drischler2016}, et sur les 
+observables des étoiles à neutrons ainsi que des exigences de base en physique
+(contraintes de haute densité). 
+La distribution \textit{posterior} des paramètres empiriques a été analysée. 
+Nous avons observé que le filtre de basse densité est très efficace pour 
+contraindre les paramètres dans le secteur isovecteur, en particulier si l'on 
+impose la compatibilité avec les prédictions de la théorie des perturbations
+chirales pour la pression de la matière nucléaire. 
+Nous avons montré que seules les contraintes en physique nucléaire donnent lieu 
+à des corrélations entre les paramètres empiriques. 
+Dans le secteur isovecteur, la corrélation entre $E_{sym}$ et $L_{sym}$ est 
+retrouvée, et nous avons constaté que le paramètre $L_{sym}$ est corrélé avec 
+$K_{sym}$. Nous avons trouvé des nouvelles corrélations intéressantes lors de 
+l'ajout du filtre sur la pression : $r(L_{sym},Q_{sym})=-0.55$ et 
+$r(K_{sym},Q_{sym})=0.52$.
+
+Enfin, nous avons fait des prédictions générales sur les propriétés statiques 
+et les observables de la croûte des étoiles à neutrons, en utilisant la 
+distribution \textit{posterior} des paramètres calculée dans la 
+section~\ref{sec:bayes}. Dans l'ensemble, nous avons constaté que nos 
+prédictions pour les observables de l'étoile sont en assez bon accord avec les
+les contraintes sur l'équation d'état, le rayon et la déformabilité due aux
+effets de marée, déduites de l'événement GW170817~\cite{De2018,GW1}. Nous avons 
+obtenu $R_{1.4}=12.88_{-0.65}^{+0.53}$ km et 
+$\Lambda_{1.4} = 634_{-190}^{+204}$ avec un intervalle de confiance de $90\%$. 
+%
+Nous avons montré que la densité et la pression de transition sont 
+corrélées avec les paramètres empiriques du secteur isovecteur, notamment avec 
+$Q_{sym}$. En considérant l'incertitude expérimentale et théorique 
+sur ces paramètres, nous avons estimé la densité et pression de transition
+respectivement à $n_t=0.068_{-0.021}^{+0.021}$ fm$^{-3}$ et
+$P_t=0.263_{-0.149}^{+0.302}$ MeV/fm$^3$ à $1\sigma$. Contrairement à nos 
+travaux publiés~\cite{Carreau2019cc}, nous n'observons pas une forte influence
+des paramètres de surface sur les quantités au point de transition 
+croûte-coeur. Cela peut s'expliquer par un contrôle plus important de l'énergie 
+de surface dans cette thèse. 
+%
+Nous avons observé que plus la croûte est épaisse, plus la quantité de moment 
+angulaire confinée dans le superfluide coexistant avec le réseau d'ions 
+dans la croûte interne est importante. 
+La grande incertitude sur la pression de transition se reflète sur le moment
+d'inertie de la croûte. En effet, pour un étoile à neutrons de $1.4M_\odot$, 
+nous avons obtainu $I_{crust,1.4}/I_{1.4}=2.89_{-1.68}^{+2.51} \%$ à $1\sigma$. 
+La distribution de probabilité pour la masse et le rayon de Vela a été calculée 
+pour deux estimations différentes de l'effet d'entraînement de la croûte. 
+Ceci nous a permis de confirmer qu'une meilleure estimation quantitative de
+l'effet d'entraînement de la croûte est le point clé pour associer le phénomène 
+de glitch à la physique de la croûte, même si l'incertitude sur l'équation
+d'état brouille les résultats. Nous nous sommes intéressés à la variation du 
+moment d'inertie de la croûte avec la masse de l'étoile et avons conclu que le 
+phénomène de glitch démontré par certains pulsars ne peut pas uniquement tirer 
+son origine de la physique de la croûte dans le cas où l'on considère la plus 
+grande estimation actuelle de l'effet d'entraînement~\cite{Delsate2016}.
+
 \section{Chapitre 3}
 
 \section{Conclusions générales et perspectives}
@@ -300,9 +419,9 @@ paramètres empiriques dans le secteur isovecteur, et que cela donne lieu à des
 corrélations entre les dérivés de l'énergie de symétrie à la densité de 
 saturation.
 Nous avons fait des prédictions générales pour les propriétés statiques en 
-utilisant la distribution posterior des paramètres empiriques et avons constaté 
-que nos résultats sont compatibles avec les contraintes des collaborations LIGO 
-et Virgo déduites de l'évènement GW170817.
+utilisant la distribution \textit{posterior} des paramètres empiriques et avons 
+constaté que nos résultats sont compatibles avec les contraintes des 
+collaborations LIGO et Virgo déduites de l'événement GW170817.
 %
 La seule hypothèse de la technique de métamodélisation étant la 
 possibilité d'étendre l'équation d'état en une série de Taylor, ce résultat 
