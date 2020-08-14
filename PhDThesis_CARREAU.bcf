@@ -2871,8 +2871,9 @@
     <bcf:citekey order="602">GW1</bcf:citekey>
     <bcf:citekey order="603">Carreau2019cc</bcf:citekey>
     <bcf:citekey order="604">Delsate2016</bcf:citekey>
-    <bcf:citekey order="605">Pons2013</bcf:citekey>
-    <bcf:citekey order="606">NSEoS</bcf:citekey>
+    <bcf:citekey order="605">Fantina2020</bcf:citekey>
+    <bcf:citekey order="606">Pons2013</bcf:citekey>
+    <bcf:citekey order="607">NSEoS</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="anyt/global/" type="entry" sortscheme="anyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

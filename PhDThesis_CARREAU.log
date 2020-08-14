@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  12 AUG 2020 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.9)  14 AUG 2020 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2092,25 +2092,28 @@ Appendix C.
 ] [152]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [153]
-Underfull \hbox (badness 10000) in paragraph at lines 349--356
-
+ [153] [154]
+Overfull \hbox (7.05116pt too wide) in paragraph at lines 389--432
+[]\T1/lmr/m/n/12 En util-isant les masses ex-péri-men-tales com-plétées par des ta-bles de masses théoriques
  []
 
-[154]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [155]
-Underfull \hbox (badness 10000) in paragraph at lines 440--469
+Underfull \hbox (badness 10000) in paragraph at lines 462--469
+
+ []
+
+[156]
+Underfull \hbox (badness 10000) in paragraph at lines 553--582
 
  []
 
 
-Underfull \vbox (badness 3815) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156]) [157] [158
-
-]
+ [157]) [158]
 Overfull \hbox (24.27333pt too wide) in paragraph at lines 53--53
 []\T1/lmr/m/n/12 B. P. Ab-bott et al. ``Prop-er-ties of the Bi-nary Neu-tron Star Merger GW170817''.
  []
@@ -2120,7 +2123,9 @@ Overfull \hbox (2.6816pt too wide) in paragraph at lines 53--53
 []\T1/lmr/m/n/12 G. Audi et al. ``The Ame2012 atomic mass eval-u-a-tion''. In: \T1/lmr/m/it/12 Chi-nese Physics
  []
 
-[159] [160]
+[159
+
+] [160]
 Overfull \hbox (13.50583pt too wide) in paragraph at lines 53--53
 []\T1/lmr/m/n/12 Carreau, Thomas, Gul-minelli, Francesca, and Mar-gueron, Jérôme. ``Bayesian
  []
@@ -2205,7 +2210,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
 Here is how much of TeX's memory you used:
  28426 strings out of 493013
  523639 string characters out of 6135682
- 1655245 words of memory out of 5000000
+ 1655293 words of memory out of 5000000
  30592 multiletter control sequences out of 15000+600000
  162486 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2222,10 +2227,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PhDThesis_CARREAU.pdf (184 pages, 3035960 bytes).
+Output written on PhDThesis_CARREAU.pdf (184 pages, 3042081 bytes).
 PDF statistics:
- 4733 PDF objects out of 5155 (max. 8388607)
- 4271 compressed objects within 43 object streams
+ 4734 PDF objects out of 5155 (max. 8388607)
+ 4272 compressed objects within 43 object streams
  753 named destinations out of 1000 (max. 500000)
  1032 words of extra memory for PDF output out of 10000 (max. 10000000)
 
