@@ -23,8 +23,8 @@ has provided a
 constraint on the tidal deformability of NS~\cite{GWtidal,GW1,GW2}. All those
 experimental data can be used to better constrain the nuclear EoS. 
 Reciprocally, there has been a lot of efforts invested recently in the 
-development of ab initio calculations, particularly based on the chiral 
-EFT~\cite{Drischler2016} with the aim of providing new 
+development of \textit{ab initio} calculations, particularly based on the 
+chiral EFT~\cite{Drischler2016} with the aim of providing new 
 constraints on the low-density EoS, which can
 ultimately be translated into theoretical constraints on NS
 observables~\cite{Carreau2019cc,Carreau2019moi}.
@@ -810,8 +810,8 @@ of macroscopic observables related to NS.
 In our case, we first generate a large number of EoS, each of them being 
 defined by a set of parameters $\bm{X}$, to numerically sample the prior 
 parameter distribution. Then, we filter those EoS through constraints, which 
-arise from physical requirements, astrophysical observations, and ab initio
-calculations of SNM and PNM. This 
+arise from physical requirements, astrophysical observations, 
+and \textit{ab initio} calculations of SNM and PNM. This 
 gives us the joint posterior distribution of model parameters, from which we 
 can finally calculate the posterior EoS and make general predictions for NS 
 observables. Those predictions are presented in Section~\ref{sec:general}.
@@ -903,7 +903,7 @@ Table~\ref{table:prior},
 %
 where the parameter $X_i$ is uniformly distributed from $X_i^{min}$ to 
 $X_i^{max}$. The use of a flat prior means that all possible values of 
-$\bm{X}$ inside the intervals are equally likely a priori.
+$\bm{X}$ inside the intervals are equally likely \textit{a priori}.
 
 The range of variation for the model parameters reflect the degree of 
 uncertainty on the EoS parameters, as measured by their variation in the 
@@ -940,22 +940,23 @@ Eur. Phys. J. A (2019) \textbf{55}: 188. With kind permission of The European
 Physical Journal (EPJ).}}\label{subsubsec:sensana}
 
 Let us recall that one of the advantages of the metamodeling approach is that 
-all the EoS model parameters, such as the empirical parameters, are a priori
-uncorrelated. 
+all the EoS model parameters, such as the empirical parameters, 
+are \textit{a priori} uncorrelated. 
 It is therefore possible to vary each one of them independently of the others, 
 which is not feasible using specific functional behaviors such as Skyrme, 
 Gogny, or the different versions of RMF, as discussed in detail
 in~\cite{Margueron2018a,Margueron2019}. 
 Indeed, common functionals describing infinite NM have a smaller number of 
-parameters compared to the metamodel, which creates a priori correlations that 
-are not fully controlled. If we take the example of Skyrme forces, the density 
-dependence of SNM is controlled by only three parameters, which are fixed 
-to reproduce the coordinates of the saturation point: $n_{sat}$, $E_{sat}$, and 
-$K_{sat}$. Thus, the isoscalar skewness $Q_{sat}$ is correlated with the 
-three other parameters, and it turns out that this correlation is not the same, 
-for instance, in Skyrme, Gogny, or in RMF functionals~\cite{Margueron2019}. A 
-similar argument applies to the symmetry energy: when the density dependence of 
-the symmetry energy is governed by a single parameter as for example often 
+parameters compared to the metamodel, which creates \textit{a priori} 
+correlations that are not fully controlled. If we take the example of Skyrme 
+forces, the density dependence of SNM is controlled by only three parameters, 
+which are fixed to reproduce the coordinates of the saturation point: 
+$n_{sat}$, $E_{sat}$, and $K_{sat}$. Thus, the isoscalar skewness $Q_{sat}$ is 
+correlated with the three other parameters, and it turns out that this 
+correlation is not the same, for instance, in Skyrme, Gogny, or in RMF 
+functionals~\cite{Margueron2019}. 
+A similar argument applies to the symmetry energy: when the density dependence 
+of the symmetry energy is governed by a single parameter as for example often 
 assumed in heavy ion 
 transport models, an isosoft behavior at suprasaturation density is necessarily 
 associated to an isostiff behavior at subsaturation density, while more 
@@ -1096,8 +1097,9 @@ and PNM are shown in Fig.~\ref{fig:drischler} (pink bands), together with
 the predictions of the popular BSk24 (solid blue lines) and DD-ME$\delta$ 
 (green dashed lines) functionals. 
 The fact that the seven different Hamiltonians lead to different predictions
-shows that the ab initio calculation is associated to a PDF exactly like an
-experimental measurement. For this reason, in principle one should not apply a
+shows that the \textit{ab initio} calculation is associated to a PDF exactly 
+like an experimental measurement. 
+For this reason, in principle one should not apply a
 strict filter but rather a likelihood one based on the PDF. The PDF being
 unknown, this is however practically not feasible, and this is why we employ a
 strict filter. 
@@ -1120,24 +1122,25 @@ constraints defining our pass-band filters $w_{LD}$. In the following, we will
 not consider this particular constraint by default, yet we will still 
 investigate how it affects the posterior distribution EoS in~\ref{sec:general}.
 In the context of the pass-band filter $w_{LD}$, the chiral ETF predicted 
-bands are widened by $5\%$ in order to account for other existing ab initio 
-calculations in an effective manner. In addition, we will not apply the filter
+bands are widened by $5\%$ in order to account for other 
+existing \textit{ab initio} calculations in an effective manner. 
+In addition, we will not apply the filter 
 in the low-density region $n < 0.10$ fm$^{-3}$ because the width of the band 
-becomes extremely small, causing numerical issues.
+becomes extremely small, causing numerical issues. 
 
 The minimum and maximum values of the prior distribution are also
 represented in Fig.~\ref{fig:drischler} (gray lines). Let us notice that one 
 can infer the posterior band graphically by the comparison with the chiral 
 ETF bands. Interestingly, the graphically inferred posterior band of the 
 prior energy per nucleon and pressure of SNM around saturation density is 
-narrower than the one corresponding to the ab initio calculation. The reason is
-that low energy nuclear physics experiments provide strong empirical
-constraints for SNM~\cite{Margueron2018a}, which have been embedded 
+narrower than the one corresponding to the \textit{ab initio} calculation. 
+The reason is that low energy nuclear physics experiments provide strong 
+empirical constraints for SNM~\cite{Margueron2018a}, which have been embedded 
 effectively in the intervals for the empirical parameters of the prior
 distribution in Table~\ref{table:prior}. The same is not true for the PNM case. 
 Indeed, the present day knowledge on the empirical parameters of the 
 isovector sector is insufficient. For this reason, we can see that the 
-corresponding ab initio bands are very thin in comparison to the prior 
+corresponding \textit{ab initio} bands are very thin in comparison to the prior 
 distribution.
 
 % pame2016
@@ -1404,9 +1407,9 @@ filter without applying the constraint on pressure arising from chiral EFT. We
 find an anticorrelation between $E_{sat}$ and $E_{sym}$, and a positive 
 correlation between $E_{sym}$ and $n_{sat}$. More interesting correlations 
 among the different isovector parameters are induced by the constraint of 
-reproducing the ab initio EFT calculations. Indeed, we recover the correlation 
-between $E_{sym}$ and $L_{sym}$, which has been already observed by many 
-authors using different models 
+reproducing the \textit{ab initio} EFT calculations. Indeed, we recover the 
+correlation between $E_{sym}$ and $L_{sym}$, which has been already observed by 
+many authors using different models 
 \cite{Lim2019tidal,Kortelainen2012,Danielewicz2014,Trippa2008,Colo2014}.
 We also observe a strong correlation between $L_{sym}$ and $K_{sym}$ and find
 that $E_{sym}$ is slightly anticorrelated to $K_{sym}$.
@@ -1424,8 +1427,8 @@ anticorrelation between $L_{sym}$ and $Q_{sym}$. We also observe that the
 isoscalar parameters $K_{sat}$ and $Q_{sat}$ are weakly correlated with the 
 corresponding isovector ones $K_{sym}$ and $Q_{sym}$. These nontrivial 
 correlations can only be revealed within the metamodeling strategy, because in 
-usual functionals, such as Skyrme ones, the high-order parameters are a priori 
-strongly correlated from the functional form. 
+usual functionals, such as Skyrme ones, the high-order parameters 
+are \textit{a priori} strongly correlated from the functional form. 
 
 In both cases studied in Fig.~\ref{fig:cm_ld}, the fourth order parameters 
 $Z_{sat}$ and $Z_{sym}$ do not show any correlation with any other parameter, 
@@ -1529,7 +1532,7 @@ domain considered in the figure. It is observed that the SLy4 EoS deviates
 below the $2\sigma$ band at suprasaturation densities.
 The two EoS based on functionals issued from relativistic mean-field theory, 
 namely PKDD and TM1, do not meet the final LD+HD predictions. The reason is 
-that the ab initio calculations considered for our LD filter 
+that the \textit{ab initio} calculations considered for our LD filter 
 \cite{Drischler2016} tend to favor soft EoS, typically based on Skyrme
 functionals, as we can see in Fig.~\ref{fig:iv_dist}. Indeed, we find $E_{sym}
 = 30.77 \pm 1.20$ MeV and $L_{sym} = 47.11 \pm 9.54$ MeV for the low-order
@@ -1544,14 +1547,14 @@ the pressure at twice nuclear saturation density, $P_{2\rho_{sat}} =
 also shown in Fig.~\ref{fig:eos_bayes}. We can see that this result is in very 
 good agreement with our analysis. Let us notice that our predicted $2\sigma$ 
 band at $2\rho_{sat}$ is very thin in comparison with the constraint 
-arising from GW170817. This is because the ab initio calculations, not 
+arising from GW170817. This is because the \textit{ab initio} calculations, not 
 considered as a filter in~\cite{GW1}, impose stringent constraints on the 
 low-density EoS.
 %
 {The excellent determination of the EoS at $2\rho_{sat}$ comes from the 
    fact that we have applied the LD constraint up to $0.20$ fm$^{-3}$. If we 
-   only trust the ab initio calculations up to $\rho_{sat}$, because of the 
-uncertainties on the three-body interactions that are still under
+   only trust the \textit{ab initio} calculations up to $\rho_{sat}$, because 
+   of the uncertainties on the three-body interactions that are still under
 debate~\cite{Tews2019}, the prediction remains good, but the band is larger and 
 compatible with the SLy4 EoS.}
 
@@ -1629,8 +1632,9 @@ $r(L_{sym},R_{1.4})=0.33$. As previously discussed in~\ref{subsubsec:sensana},
 the functional forms of Skyrme forces or relativistic models generally induce 
 artificial correlations between some of the empirical parameters, with the 
 effect of altering true correlations. The metamodeling technique prevents this 
-problem because no a priori correlation exists among the empirical parameters, 
-so the true correlation are brought by the passage through LD and HD filters. 
+problem because no \textit{a priori} correlation exists among the empirical 
+parameters, so the true correlation are brought by the passage through LD and 
+HD filters. 
 For instance, correlations in the isovector sector between $E_{sym}$ and 
 $L_{sym}$, and between $K_{sym}$ and $3E_{sym}-L_{sym}$, have been shown 
 in~\cite{Mondal2017,Margueron2019} using a larger set of characteristic EoS
@@ -1742,9 +1746,10 @@ radius $R_{1.4}$, we find a Pearson correlation coefficient of $r(R_{1.4},
 correlated with the isovector incompressibility parameter $K_{sym}$. Hence, 
 we observe that $K_{sym}$ and $\Lambda_{1.4}$ are correlated, with
 $r(K_{sym},\Lambda_{1.4}) = 0.66$. We have seen in Fig.~\ref{fig:iv_dist} that 
-the isovector empirical parameters are strongly constrained by the ab initio 
-calculations of NM, particularly when the constraint on pressure is accounted 
-for in the LD pass-band filter. More specifically, we find that the 
+the isovector empirical parameters are strongly constrained by 
+the \textit{ab initio} calculations of NM, particularly when the constraint on 
+pressure is accounted for in the LD pass-band filter. 
+More specifically, we find that the 
 isovector incompressibility is tightly determined in that case, with a 
 distribution being peaked at $K_{sym} \approx -200$ MeV, therefore favoring 
 soft EoS and in consequence smaller values of the tidal parameter 

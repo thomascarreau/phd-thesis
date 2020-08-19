@@ -87,9 +87,10 @@
 \contentsline {starchapter}{General conclusions and outlooks}{143}{chapter*.75}
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{147}{appendix.A}
 \contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{149}{appendix.B}
-\contentsline {chapter}{\numberline {C}R\IeC {\'e}sum\IeC {\'e} en fran\IeC {\c c}ais}{151}{appendix.C}
-\contentsline {section}{\numberline {C.1}Chapitre 1}{151}{section.C.1}
-\contentsline {section}{\numberline {C.2}Chapitre 2}{152}{section.C.2}
-\contentsline {section}{\numberline {C.3}Chapitre 3}{154}{section.C.3}
-\contentsline {section}{\numberline {C.4}Conclusions g\IeC {\'e}n\IeC {\'e}rales et perspectives}{156}{section.C.4}
-\contentsline {chapter}{Bibliography}{159}{appendix*.76}
+\contentsline {chapter}{\numberline {C}Partie en fran\IeC {\c c}ais}{151}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction g\IeC {\'e}n\IeC {\'e}rale}{151}{section.C.1}
+\contentsline {section}{\numberline {C.2}Structure et \IeC {\'e}quation d'\IeC {\'e}tat des \IeC {\'e}toiles \IeC {\`a} neutrons froides non accr\IeC {\'e}tantes}{157}{section.C.2}
+\contentsline {section}{\numberline {C.3}Inf\IeC {\'e}rence bay\IeC {\'e}sienne des observables des \IeC {\'e}toiles \IeC {\`a} neutrons}{158}{section.C.3}
+\contentsline {section}{\numberline {C.4}Cristallisation de la cro\IeC {\^u}te des proto\IeC {\'e}toiles \IeC {\`a} neutrons}{160}{section.C.4}
+\contentsline {section}{\numberline {C.5}Conclusions g\IeC {\'e}n\IeC {\'e}rales et perspectives}{162}{section.C.5}
+\contentsline {chapter}{Bibliography}{165}{appendix*.76}
