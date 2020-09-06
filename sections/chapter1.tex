@@ -1,7 +1,5 @@
 % *****************************************************************************
 %     sections/chapter1.tex
-%
-% Last edit: 07/07
 % *****************************************************************************
 
 \chapter{Structure and equation of state of cold nonaccreting neutron stars}
@@ -30,7 +28,9 @@ temperature, WS cells are supposed to be identical, thus the SNA, which
 considers a unique configuration for a given 
 thermodynamic condition of temperature and pressure $(P,T)$, becomes exact. The 
 ground state of the outer crust is almost entirely characterized by experimental 
-nuclear masses, which are available up to $(N-Z)/A \lesssim 0.3$. The 
+nuclear masses, which are available up to $(N-Z)/A \lesssim 0.3$, \edit{$N$
+  being the number of neutrons, $Z$ the number of protons, and $A=N+Z$ the 
+  number of nucleons constituting atomic nuclei.} The 
 determination of inner-crust ground state is however more challenging because 
 the crust is permeated by free neutrons, a situation which cannot be achieved
 in terrestrial conditions. Therefore, different treatments, from 
@@ -198,8 +198,8 @@ density yields the pressure,
 \begin{eqnarray}
   P_e &=& -\frac{\partial (V_{WS}\varepsilon_e)}{\partial V_{WS}} = n_e\frac{\partial
   \varepsilon_e}{\partial n_e} - \varepsilon_e \notag\\
-      &=& \frac{P_r}{8\pi^2}\left[x_r(1+2{x_r}^2)\gamma_r - \ln(x_r +
-      \gamma_r)\right].\label{eq:pel}
+      &=& \frac{P_r}{8\pi^2}\left[x_r\left(\frac{2}{3}x_r^2 - 1\right)\gamma_r 
+        + \ln(x_r + \gamma_r)\right].\label{eq:pel}
 \end{eqnarray}
 %
 
@@ -438,17 +438,19 @@ differ mainly by their symmetry energy $S$, defined here as the difference
 between the energy per nucleon of pure neutron matter (PNM) $e_{PNM}$ and the 
 energy per nucleon of symmetric nuclear matter (SNM) $e_{SNM}$,
 %
+
 \begin{equation}
-  S(n) = e_{PNM}(n) - e_{SNM}(n),
+  S(n_B) = e_{PNM}(n_B) - e_{SNM}(n_B).
 \end{equation}
+
 %
-with $n$ the density of nuclear matter. At the saturation density
-of nuclear matter $n = n_{sat} \approx 0.16$ fm$^{-3}$, $S(n)$ coincides with
-the so-called symmetry energy parameter $E_{sym}$. This quantity is constrained 
-to 32, 31, 30, and 29 MeV for BSk22, BSk23, BSk24, and BSk25, respectively. For
-BSk26, $E_{sym} = 30$ MeV as well but the functional is fitted to the APR EoS of
-PNM~\cite{Akmal1998}, unlike BSk22-25 that are fitted to the stiffer LS2
-EoS~\cite{Li2008}.}
+At the saturation density
+of nuclear matter $n_B = n_{sat} \approx 0.16$ fm$^{-3}$, $S(n_B)$ 
+coincides with the so-called symmetry energy parameter $E_{sym}$. This quantity 
+is constrained to 32, 31, 30, and 29 MeV for BSk22, BSk23, BSk24, and BSk25, 
+respectively. For BSk26, $E_{sym} = 30$ MeV as well but the functional is 
+fitted to the APR EoS of PNM~\cite{Akmal1998}, unlike BSk22-25 that are fitted 
+to the stiffer LS2 EoS~\cite{Li2008}.}
 
 The first layer of the outer crust consists of a crystal lattice of $^{56}$Fe,
 the mass per nucleon of which is the lowest among all nuclides. The sequence of
@@ -507,7 +509,7 @@ Eq.~(\ref{eq:eeur}),
 %
 \begin{equation}
   \mu_e = \frac{\partial \varepsilon_e}{\partial n_e} =
-  \frac{3}{4}\hbar c(3\pi^2)^{1/3}n_e^{4/3}.
+  \frac{3}{4}\hbar c(3\pi^2)^{1/3}n_e^{1/3}.
 \end{equation}
 %
 Therefore, the electron chemical potential $\mu_e$ scales as $P^{1/4}$ ($P \propto
@@ -570,7 +572,7 @@ transition to $N=82$. While this transition occurs in the vicinity of $8\times
 approximately $4\times 10^{-5}$ fm$^{-3}$ for HFB-14. Different nuclides are 
 found close to the neutron drip, depending on the model: $^{124}$Sr is found for
 HFB-24, $^{126}$Sr for HFB-26, $^{120}$Kr for HFB-14, and $^{122}$Kr for FRDM. 
-The neutron drip density $n_{ND}$ and pressure $P_{ND}$ slightly depends on 
+The neutron drip density $n_{ND}$ and pressure $P_{ND}$ slightly depend on 
 the model as well. These values are reported in Table~\ref{table:drip}.
 
 \begin{figure}[!t]
@@ -638,7 +640,7 @@ total density profile is represented in gray solid lines.}}\label{fig:clustering
 \end{figure}
 
 There is an ambiguity regarding the characterization of the cluster-gas
-interface. One should ask whether the neutron gas penetrate the cluster or not.
+interface. One should ask whether the neutron gas penetrates the cluster or not.
 Hence, two classical representations can be introduced, namely the r-cluster and
 e-cluster representations~\cite{Papakonstantinou2013}, to interpret the
 distribution
@@ -652,7 +654,7 @@ of the local density, then the cluster corresponds to the dense part and the
 gas to the dilute one. This interpretation is used in most of the calculations
 at finite temperature to model SN, see for example the renowned
 Lattimer and Swesty EoS~\cite{Lattimer1991}. In the e-cluster representation,
-the gas penetrate the cluster. This interpretation appears spontaneously in
+the gas penetrates the cluster. This interpretation appears spontaneously in
 single-particle developments. Indeed, in very neutron-rich clusters, beyond the
 neutron dripline, the bound states are occupied as well as the resonant and
 continuum states. All the unbound single-particle states that are occupied thus
@@ -716,10 +718,11 @@ then it is found that protons remain in the cluster for most models.
   %
   \begin{equation}
     Z_{WS} = A\frac{1-I}{2} \quad \text{and} \quad A_{WS} =
-    A\left(1-\frac{n_g}{n_0}\right) + n_gV_{WS}.
+    A\left(1-\frac{n_g}{n_0}\right) + n_gV_{WS},
 \end{equation}
 }
 %
+\edit{where the cluster asymmetry $I = (N-Z)/A$ has been introduced.}
 Let us notice that the number of protons inside the cell remains an
 integer number, as in the outer crust, unlike the number of neutrons that is
 noninteger because of the outside neutron gas.
@@ -1021,7 +1024,7 @@ adjusting the parameter $b$ entering the low-density correction,
 Eq.~(\ref{eq:corr}) \cite{Antic2019}. However,
 this small deviation is not expected to cause any issue for the determination
 of the inner crust ground state. Indeed, the relative error for PNM is lower 
-that $2\%$ at most, and, in the inner crust, the matter inside nuclei is very 
+than $2\%$ at most, and, in the inner crust, the matter inside nuclei is very 
 neutron rich and the ambient nucleon gas is exclusively constituted of free
 neutrons. {This ability of mimicking existing realistic functionals will 
   allow us to easily compare predictions of astrophysical observables of 
@@ -1589,7 +1592,7 @@ convergence of the algorithm. At a reasonable value of baryon density, $n_B =
 phase transition from clusterized matter to homogeneous matter. The calculation 
 is stopped once the crust-core (CC) interface is reached, approximately for $n_B
 \approx n_{sat}/2$. The CC transition from the crust side is discussed 
-in details in~\ref{subsec:ccfromc}.
+in detail in~\ref{subsec:ccfromc}.
 
 \subsubsection{Equilibrium composition}
 
@@ -2036,13 +2039,13 @@ necessary in order to evaluate the crust mass, thickness and moment of inertia,
 and so to understand phenomena involving NS, such as glitches, that are 
 irregularities in the their rotational motion~\cite{Espinoza2011}. In that 
 sense, a Bayesian analysis of the CC transition has been 
-performed~\cite{Carreau2019cc} and is presented in details in Chapter 2. 
+performed~\cite{Carreau2019cc} and is presented in detail in Chapter 2. 
 
 The simplest approach for computing the phase transition is from the core side, 
 in which the transition is defined as the density point where homogeneous 
 NM at beta equilibrium becomes unstable with respect to 
 density fluctuations. Two versions of this technique can be distinguished: the 
-so-called thermodynamical \cite{Gonzalez2017} and 
+so-called thermodynamical \cite{Kubis2004,Kubis2007,Gonzalez2017} and 
 dynamical \cite{Pethick1995cc,Antic2019} methods. 
 The former method consists in evaluating the thermodynamical spinodal, that is 
 the instability point of NM with respect to the liquid-gas (LG) phase 

@@ -12,7 +12,7 @@ to be fixed at the finite temperature where nuclear reactions fall out of
 equilibrium. A lower estimate for this temperature is given by the 
 crystallization temperature, which can be as high as $\approx 9\times 10^9$ K
 in the crust, potentially leading to sizable differences with respect to
-the simplifying CCM hypothesis.
+the simplifying cold catalyzed matter (CCM) hypothesis.
 
 NSE approaches have been recently developed 
 to account for the full distribution of nuclei at finite 
@@ -33,8 +33,8 @@ functional is required. Given its simplicity and because it is not expensive
 from the computational point of view, the CLD approach is very appealing, and 
 has been already used in the past~\cite{Gulminelli2015,Grams2018}. However,
 within this approach, the problem of the temperature dependence of shell 
-corrections needs to be adressed in order to make realistic predictions for the 
-crystallization temperature and associated composition in the inner crust.
+corrections needs to be addressed in order to make realistic predictions for 
+the crystallization temperature and associated composition in the inner crust.
 
 This chapter is organized as follows. In Section~\ref{sec:modelcrusttemp}, we
 introduce the model of the crust at finite temperature. The OCP approximation 
@@ -445,7 +445,7 @@ equal to the electron density,
 %
 \begin{equation}
   n_e = n_p = \sum_j n_N^{(j)} Z^{(j)} =
-  \frac{Z^{(j)}}{V^{(j)}}.\label{eq:chargeneut}
+  \frac{Z^{(j)}}{V_{WS}^{(j)}}.\label{eq:chargeneut}
 \end{equation}
 
 % energetics
@@ -511,7 +511,7 @@ of the normalization of probabilities, and the baryon number and charge
 conservation laws:
 %
 \begin{eqnarray}
-  \frac{1}{\langle V\rangle} &=& \sum_j n_N^{(j)},\label{eq:normp}\\
+  \frac{1}{\langle V_{WS}\rangle} &=& \sum_j n_N^{(j)},\label{eq:normp}\\
   n_B - n_g &=& 
   \sum_j n_N^{(j)} A^{(j)}
   \left(1-\frac{n_g}{n_0^{(j)}}\right),\label{eq:barcons}\\
@@ -610,8 +610,8 @@ NSE formalism therefore requires to solve a complex nonlinear system of coupled
 equations, which is obviously numerically costly. The implementation of 
 the complete NSE was carried out in different studies in recent
 years~\cite{Oertel2017,Burgio2018}, but in those studies simplified nuclear 
-functionals were adopted, density was imposed instead of the pressure, and the 
-rearrangement term was neglected.
+functionals were adopted, \edit{baryon density} was imposed instead of the 
+pressure, and the rearrangement term was neglected.
 
 % perturbative implementation of NSE (update the chemical potentials)
 We choose here to implement the NSE perturbatively, as proposed 
@@ -1577,9 +1577,9 @@ the BSk14 functional~\cite{Onsi2008} (see their Tables III and IV),
 represented in Fig.~\ref{fig:bsk14compo_vs_nb}, along with the results obtained 
 with our CLD modeling for the same interaction.
 As expected, it is seen that shell effects decrease as temperature is
-increased, and that the discontinuous behavior of $Z$ persists until $T\approx
-1$ MeV, when the TETFSI results follow the same smooth trend as the TETF and 
-CLDM predictions.
+increased, and that the discontinuous behavior of $Z$ persists 
+until \edit{$T\approx 1$~{MeV} $\approx 1.2\times 10^{10}$~K}, when the TETFSI 
+results follow the same smooth trend as the TETF and CLDM predictions.
 Based on these considerations, we fix the two parameters to $T_0 = 1$ MeV and 
 $\xi_0 = 0.02$.
 An excellent agreement is observed between the CLDM and
