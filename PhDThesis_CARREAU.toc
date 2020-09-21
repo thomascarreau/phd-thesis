@@ -12,14 +12,14 @@
 \contentsline {subsection}{\numberline {1.1.2}The BPS model}{13}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Equilibrium composition and equation of state}{15}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Ground state of the inner crust}{18}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Modeling the nuclear energy}{19}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Modeling the nuclear energy}{20}{subsection.1.2.1}
 \contentsline {subsubsection}{\numberline {1.2.1.1}Metamodeling of homogeneous nuclear matter}{22}{subsubsection.1.2.1.1}
-\contentsline {subsubsection}{\numberline {1.2.1.2}From homogeneous nuclear matter to finite nuclei in the CLD approximation}{26}{subsubsection.1.2.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1.2}From homogeneous nuclear matter to finite nuclei in the CLD approximation}{27}{subsubsection.1.2.1.2}
 \contentsline {subsection}{\numberline {1.2.2}Variational formalism}{31}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Results}{34}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Results}{35}{subsection.1.2.3}
 \contentsline {subsubsection}{\numberline {1.2.3.1}Numerical code}{35}{subsubsection.1.2.3.1}
-\contentsline {subsubsection}{\numberline {1.2.3.2}Equilibrium composition}{35}{subsubsection.1.2.3.2}
-\contentsline {subsubsection}{\numberline {1.2.3.3}Equation of state}{37}{subsubsection.1.2.3.3}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Equilibrium composition}{36}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Equation of state}{38}{subsubsection.1.2.3.3}
 \contentsline {subsection}{\numberline {1.2.4}Strutinsky shell corrections to the CLD energy}{39}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {1.2.5}Nonspherical pasta phases}{42}{subsection.1.2.5}
 \contentsline {subsection}{\numberline {1.2.6}Crust-core transition from the crust side}{44}{subsection.1.2.6}
@@ -38,17 +38,17 @@
 \contentsline {subsection}{\numberline {2.1.2}Moment of inertia within the slow rotation approximation}{63}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.2.1}Total moment of inertia and fraction contained in the crust}{64}{subsubsection.2.1.2.1}
 \contentsline {subsubsection}{\numberline {2.1.2.2}Connection to pulsar glitches}{66}{subsubsection.2.1.2.2}
-\contentsline {subsection}{\numberline {2.1.3}Tidal deformability}{67}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Tidal deformability}{68}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Bayesian determination of the equation of state parameters}{70}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Principle of Bayesian inference}{70}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Prior distribution of equation of state parameters}{72}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Flat prior compatible with empirical constraints}{73}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188. With kind permission of The European Physical Journal (EPJ).}}{73}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Flat prior compatible with empirical constraints}{72}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Sensitivity analysis of the crust-core transition point\FN@sf@gobble@opt {Partial results of the presented work have been published in Eur. Phys. J. A (2019) \textbf {55}: 188.}}{73}{subsubsection.2.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Determination of the likelihood function}{76}{subsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.3.1}Constraints on nuclear physics observables}{76}{subsubsection.2.2.3.1}
 \contentsline {subsubsection}{\numberline {2.2.3.2}Physical requirements and constraints on neutron star observables}{78}{subsubsection.2.2.3.2}
 \contentsline {subsection}{\numberline {2.2.4}Posterior distribution of equation of state parameters}{78}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{78}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Marginalized one-parameter posterior distributions of empirical parameters}{79}{subsubsection.2.2.4.1}
 \contentsline {subsubsection}{\numberline {2.2.4.2}Correlations among empirical parameters}{82}{subsubsection.2.2.4.2}
 \contentsline {section}{\numberline {2.3}General predictions for neutron star observables}{84}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Global properties: confrontation with popular models and the GW170817 event}{84}{subsection.2.3.1}
@@ -84,7 +84,7 @@
 \contentsline {subsubsection}{\numberline {3.3.2.1}Equilibrium composition of the MCP}{137}{subsubsection.3.3.2.1}
 \contentsline {subsubsection}{\numberline {3.3.2.2}Impurity parameter}{139}{subsubsection.3.3.2.2}
 \contentsline {section}{\numberline {3.4}Conclusions}{140}{section.3.4}
-\contentsline {starchapter}{General conclusions and outlooks}{143}{chapter*.75}
+\contentsline {starchapter}{General conclusions and outlooks}{143}{chapter*.76}
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{147}{appendix.A}
 \contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{149}{appendix.B}
 \contentsline {chapter}{\numberline {C}Partie en fran\IeC {\c c}ais}{151}{appendix.C}
@@ -93,4 +93,4 @@
 \contentsline {section}{\numberline {C.3}Inf\IeC {\'e}rence bay\IeC {\'e}sienne des observables des \IeC {\'e}toiles \IeC {\`a} neutrons}{158}{section.C.3}
 \contentsline {section}{\numberline {C.4}Cristallisation de la cro\IeC {\^u}te des proto\IeC {\'e}toiles \IeC {\`a} neutrons}{160}{section.C.4}
 \contentsline {section}{\numberline {C.5}Conclusions g\IeC {\'e}n\IeC {\'e}rales et perspectives}{162}{section.C.5}
-\contentsline {chapter}{Bibliography}{165}{appendix*.76}
+\contentsline {chapter}{Bibliography}{165}{appendix*.77}

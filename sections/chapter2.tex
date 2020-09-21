@@ -11,8 +11,9 @@ framework.
 
 Pulsars were identified to rotating NS which produce pulsed emission, soon 
 after their chance discovery in 1967 by Jocelyn Bell~\cite{Hewish1968}. Five
-decades later, we have now observed about 2000 of them, and numerous techniques
-have been developed to measure their characteristic observables. For instance, 
+decades later, we have now observed about \edit{3000} of them, and numerous 
+techniques have been developed to measure their characteristic observables. 
+For instance, 
 precise measurements of NS masses can be performed using the relativistic 
 Shapiro delay effect~\cite{Demorest2010,Cromartie2020}, the
 ambitious NICER program {is giving more and more constraining information 
@@ -21,7 +22,7 @@ ambitious NICER program {is giving more and more constraining information
 the first detection of GW from the coalescence of two NS, the GW170817 event, 
 has provided a
 constraint on the tidal deformability of NS~\cite{GWtidal,GW1,GW2}. All those
-experimental data can be used to better constrain the nuclear EoS. 
+\edit{observational} data can be used to better constrain the nuclear EoS. 
 Reciprocally, there has been a lot of efforts invested recently in the 
 development of \textit{ab initio} calculations, particularly based on the 
 chiral EFT~\cite{Drischler2016} with the aim of providing new 
@@ -73,33 +74,6 @@ forces, arising, for instance, in the final approach phase of two merging NS.
 
 \subsection{Masses and radii}\label{subsec:masses}
 
-% observations
-% From the observational point of view, it is easier for astronomers to measure 
-% the mass of a NS belonging to a binary system. There are several types of
-% binaries: x-ray binaries, double NS binaries, radio pulsar--white dwarf 
-% binaries, and radio pulsar--nondegenerate star binaries. Depending on the type 
-% of binary, different techniques are used to infer the NS 
-% mass~\cite{Haensel2007}.
-% % Shapiro delay effect - MSP
-% For example, in a pulsar binary system, various phenomena, such as the 
-% relativistic Shapiro delay~\cite{Shapiro1964}, can be exploited for the aim of
-% mass measurement via pulsar 
-% timing, which consists in the regular monitoring of the rotation of a pulsar 
-% over long periods (years to decades). The relativistic Shapiro delay is a 
-% phenomenon from which precise masses for both a millisecond pulsar and its 
-% companion can be inferred~\cite{Demorest2010,Cromartie2020}. Let us notice 
-% however that it is only observed in a small subset of high-precision, highly 
-% inclined binary pulsar systems. 
-% % Measuring NS radii is less straightforward
-% Measuring NS radii with high precision is a more challenging task, and reliable
-% constraints have started to be available only in a very recent 
-% past \cite{Bogdanov2019a,Bogdanov2019b,Miller2019,Raaijmakers2019,Riley2019}. 
-% This observable can be extracted from the analysis of thermal emission from 
-% neutron star surfaces -- even if complications in the interpretation of the data
-% arise due to the nonuniformity of the temperature over the surface (hot
-% spots) \cite{Bogdanov2019a,Bogdanov2019b,Miller2019,Raaijmakers2019,Riley2019}
-% --, or x-ray emission from accreting neutron stars in binaries.
-
 In the following, we turn to the theoretical prediction of NS masses and radii. 
 The hydrostatic equilibrium equations in general relativity are first solved in 
 order to represent the mass-radius relation for several popular EoS, which are
@@ -115,21 +89,22 @@ relativity for spherical and nonrotating
 stars, given by~\cite{Tolman1939,Oppenheimer1939}
 %
 \begin{eqnarray}
-  \frac{dP}{dr} &=& -\frac{G\rho_B m}{r^2}\left(1 + \frac{P}{\rho_B
+  \frac{dP}{dr} &=& -\frac{G\rho m}{r^2}\left(1 + \frac{P}{\rho
   c^2}\right)\left(1+\frac{4\pi
   Pr^3}{mc^2}\right)\left(1-\frac{2Gm}{rc^2}\right)^{-1},\label{eq:tov}\\
-      \frac{dm}{dr} &=& 4\pi r^2\rho_B,\label{eq:massbal}\\
-  \frac{d\Phi}{dr} &=& -\frac{1}{\rho_B
-    c^2}\frac{dP}{dr}\left(1+\frac{P}{\rho_B
+      \frac{dm}{dr} &=& 4\pi r^2\rho,\label{eq:massbal}\\
+  \frac{d\Phi}{dr} &=& -\frac{1}{\rho
+    c^2}\frac{dP}{dr}\left(1+\frac{P}{\rho
   c^2}\right)^{-1}\label{eq:metric},
 \end{eqnarray}
 %
-where $G$ is the gravitational constant, $P$ the pressure, $\rho_B c^2$ the
-energy density, and $m(r)$ the is the gravitational mass inside the sphere of
+where $G$ is the gravitational constant, $P$ the pressure, \edit{$\varepsilon = 
+  \rho c^2$ the total energy density}, 
+and $m(r)$ the is the gravitational mass inside the sphere of
 radius $r$, defined within the Schwarzschild metric $ds^2 = c^2dt^2e^{2\Phi} 
 - e^{2\lambda}dr^2 - r^2(d\theta^2 + \sin^2\theta d\phi^2)$. The function 
-$\Phi(r)$ corresponds to the gravitational potential, and $\lambda(r)$ is 
-related to the enclosed mass $m(r)$ through
+$\Phi(r)$ corresponds to the gravitational potential \edit{in the Newtonian 
+limit}, and $\lambda(r)$ is related to the enclosed mass $m(r)$ through
 %
 \begin{equation}
   e^{-\lambda} = \sqrt{1-\frac{2Gm}{rc^2}}.
@@ -143,26 +118,26 @@ gravitational mass $M=m(R)$ of the star. Eq.~(\ref{eq:metric}) is a
 relativistic equation for the metric function $\Phi(r)$. This equation will be
 needed for the computation of the moment of inertia in~\ref{subsec:moi}. Here, 
 we focus on solving Eqs.~(\ref{eq:tov}) and 
-(\ref{eq:massbal}), which gives the profiles $P(r)$, $\rho_B(r)$, and $m(r)$ 
-for a given EoS, $P(\rho_B)$, the determination of which was discussed in 
-detail in Chapter 1.
+(\ref{eq:massbal}), which gives the profiles $P(r)$, \edit{$\rho(r)$}, and 
+$m(r)$ for a given EoS, $P(\rho_B)$, the determination of which was discussed 
+in detail in Chapter 1.
 
 % explain numerical method for a central density nc (CGS, Euler method, 
 %   lagrangian interpolation)
 In view of solving the hydrostatic equilibrium equations for a given tabulated 
-EoS, one first has to choose an arbitrary value for the central density 
-$\rho_{B,c}$ and 
+EoS, one first has to choose an arbitrary value for the \edit{central mass 
+density $\rho_{c}$} and 
 interpolate the central pressure $P_c = P(\rho_{B,c})$, corresponding to $r=0$, 
 with the associated boundary condition $m(r=0) = 0$. Then, using a Runge-Kutta 
 method, we integrate up to $r=R$, defined as $P(r=R) = 0$ (our numerical 
 condition is $P < 5\times 10^{-4}$ MeV/fm$^{3}$, which is a sufficiently low 
 value of the pressure to get convergent values for the total mass). At each new 
 step of pressure, one has to interpolate 
-the mass density $\rho_B$ in the table. In the end, for a given value of 
-central density $\rho_{B,c}$, one obtains the profiles $P(r)$, $\rho_B(r)$, 
-and $m(r)$, and therefore a value for the NS mass $M$ and radius $R$. The 
-typical canonical value of the NS mass is $M=1.4M_\odot$, with a corresponding
-radius $R=10-14$ km~\cite{Haensel2007}. 
+the mass density \edit{$\rho$} in the table. In the end, for a given value of 
+\edit{central mass density $\rho_{c}$}, one obtains the profiles $P(r)$, 
+\edit{$\rho(r)$}, and $m(r)$, and therefore a value for the NS mass $M$ and 
+radius $R$. The typical canonical value of the NS mass is $M=1.4M_\odot$, with 
+a corresponding radius $R=10-14$ km~\cite{Haensel2007}. 
 % The problem is that the central density inside a NS is not known... thats why 
 %   we are interested in the Mass radius relation
 In fact, the central density inside a specific NS is not known, and is expected
@@ -241,20 +216,23 @@ analysis is presented in Section~\ref{sec:general}. The value of the empirical
 parameters associated to BSk14, TM1, and PKDD are reported in 
 Table~\ref{table:newemppar}, 
 whereas those of BSk24 and SLy4 can be found in Table~\ref{table:emp_params}.
-The bands correspond to the measured masses of the two most massive
-pulsars observed to the present day. The mass of PSR J0348+0432 was precisely 
+\edit{The bands correspond to the measured masses of two massive
+pulsars, which are traditionally used as viable constraints due to the 
+limited model dependence of the determinations.} 
+The mass of PSR J0348+0432 was precisely 
 estimated to $(2.01\pm 0.04)M_\odot$~\cite{Antoniadis2013}, and the very recent
 relativistic Shapiro delay measurements of PSR J0740+6620 led to 
 $2.14_{-0.09}^{0.10}M_\odot$ ($68.3\%$ credibility
 interval)~\cite{Cromartie2020}. Naturally, if an
-EoS cannot insure such high masses, it should not be considered as reliable, 
+EoS cannot allow such high masses, it should not be considered as reliable, 
 in particular at high density, since the maximum mass is determined by the 
 stellar core EoS. In particular, it is seen that the maximum mass corresponding
 to the BSk14 functional, $1.8M_\odot$, is lower than the measured mass
-of PSR J0348+0432. Also, while the SLy4 EoS satisfy this constraint, the maximum 
-mass for this EoS, $2.05M_\odot$, is lower than that of PSR J0740+6620. This 
-outlines the fact that measuring the mass of pulsars is important, because it 
-provides a strong constraint on the stellar matter EoS. Similarly, the NICER
+of PSR J0348+0432. Also, while the SLy4 EoS satisfies this constraint, the 
+maximum mass for this EoS, $2.05M_\odot$, is \edit{marginally compatible 
+with the mass of PSR J0740+6620 at $68.3\%$}. 
+This outlines the fact that measuring the mass of pulsars is important, because 
+it provides a strong constraint on the stellar matter EoS. Similarly, the NICER
 telescope is expected to provide, for years to come, a constraint on the NS
 radii with a precision of $5\%$. Ultimately, in the ideal case where one could 
 accurately measure the mass and radius of one neutron star, it would be 
@@ -278,8 +256,9 @@ radii~\cite{Perot2020}.
 However, we can see that the NS maximum mass is entirely determined by the 
 stellar core EoS.
 The black point marks the maximum mass for the SLy4 EoS, $M_{max} = 
-2.05M_\odot$. Let us notice that the branch left to the point is unstable, 
-because from this point the mass decreases with increasing central density.
+2.05M_\odot$. \edit{One can show that the branch left to the point is 
+unstable, because from this point the mass decreases with increasing central 
+density~\cite{Harrison1965}}.
 
 \subsubsection{Crust thickness and mass}\label{subsubsec:crustthickmass}
 % crust thickness and mass
@@ -308,12 +287,12 @@ popular equations of state]{Crust
 Fig.~\ref{fig:crustmassthick} shows the variation with NS mass of crust 
 thickness $l_{crust}$ and mass $M_{crust}$ for the same EoS as in 
 Fig.~\ref{fig:mr_popular}. As explained in~\ref{subsec:icore}, for each
-functional, when we integrate the TOV equation, the high-order empirical 
-parameters are redefined such as to optimize the reproduction of the
-high density EoS. 
+functional, when we integrate the TOV equation, \edit{we redefine the 
+  high-order empirical parameters such to fasten the series convergence at 
+  high density.}
 However, the transition pressure is calculated using the values of 
 $Q_{sat(sym)}$ and $Z_{sat(sym)}$ derived from the Taylor expansion at 
-saturation. The reason is that, as showed in Fig.~\ref{fig:sly4_nt}, the 
+saturation. The reason is that, as shown in Fig.~\ref{fig:sly4_nt}, the 
 determination of CC transition point is sensitive to orders $N>2$, and the
 Taylor expansion around saturation is reliable in the subsaturation regime. 
 We find the interesting result that the crust is thicker for low-mass neutron 
@@ -338,10 +317,14 @@ fact, this approximation is not only applicable to slowly rotating pulsars but
 it is also reliable for most of them. Indeed, while many observed pulsars show  
 rapid rotation~\cite{Stovall2013}, their structure is almost not altered by it 
 since centrifugal forces are small in comparison to the gravity, 
-$R^3\Omega^2/(GM) \ll 1$, $\Omega$ being the angular frequency. For instance, 
-let us consider a rapidly rotating pulsar with $\Omega = 1000$ s$^{-1}$ and 
-canonical values for its mass and radius, $M=1.4M_\odot$ and $R=10$ km. In that 
-case, we find $R^3\Omega^2/(GM) \approx 0.025$.
+$R^3\Omega^2/(GM) \ll 1$, $\Omega$ being the angular frequency. \edit{For
+  instance, assuming canonical values $M=1.4M_\odot$ and $R=10$ km for the 
+  fastest-spinning pulsar known, PSR J1748-2446ad, at $\Omega = 716$
+  s$^{-1}$~\cite{Hessels2006}, we find $R^3\Omega^2/(GM) \approx 0.0028$. 
+  However, there are limitations of the slow rotation approximation, namely the
+fact that it cannot accurately reproduce the mass-shedding limit, and that the
+definition of the gravitational mass and angular momentum are not accurate
+enough to robustly indicate an instability~\cite{Haensel2016}.}
 
 In the following, we first calculate the total moment of inertia and the 
 fraction of it contained in the NS crust for several popular EoS. Then, we 
@@ -354,7 +337,7 @@ In a slowly rotating NS, the total moment of inertia is given
 by~\cite{Hartle1967}
 %
 \begin{equation}
-  I = \frac{8\pi}{3}\int_0^R dr r^4\left(\rho_B +
+  I = \frac{8\pi}{3}\int_0^R dr r^4\left(\rho +
   \frac{P}{c^2}\right)
   \frac{\bar{\omega}}{\Omega}e^{-\lambda-\Phi}\label{eq:moi}.
 \end{equation}
@@ -383,7 +366,7 @@ One can translate Eq.~(\ref{eq:rotdrag}) into a first-order differential
 equation by introducing $w = (1/\Omega)d\ln\bar{\omega}/d\ln r$, yielding
 %
 \begin{equation}
-  \frac{dw}{dr} = \frac{4\pi G}{c^2}\frac{(P+\rho_Bc^2)(4+w)r^2}{rc^2-2Gm} -
+  \frac{dw}{dr} = \frac{4\pi G}{c^2}\frac{(P+\rho c^2)(4+w)r^2}{rc^2-2Gm} -
   \frac{w}{r}(3+w)\label{eq:rotdrag2},
 \end{equation}
 %
@@ -538,14 +521,17 @@ then becomes~\cite{Carter2005,Andersson2012}
 \end{equation}
 %
 with $\langle m_n^* \rangle$ the average neutron effective
-mass\footnote{{It is important to stress that this effective mass differs 
+mass\footnote{It is important to stress that this effective mass differs 
     from the definition Eq.~(\ref{eq:effm}), which corresponds to the $k$-mass 
-    $m_{n,k}$ arising from the spatial nonlocality of the mean field. For
+    $m_{k}$ arising from the spatial nonlocality of the mean field. For
     transport properties, which correspond to a dynamical phenomemon, the full
     nonlocality of the interaction in space and time must be considered,
-    leading to the definition of the $\omega$-mass. In this context,  the 
-    neutron effective mass reads $m_n^* = m_{n,k} m_{n,\omega}/m_n$, where 
-    $m_{n,\omega}$ is the $\omega$-mass.}}.
+    leading to the definition of the $\omega$-mass, \edit{$\omega$ being the
+    frequency}. In this context, the effective mass reads 
+    $m^* = m_{k} m_{\omega}/m$, where \edit{$m_{\omega} = 
+      1-\partial U(k,\omega)/\partial \omega$ is the $\omega$-mass. In the
+  latter expression, $U(k,\omega)$ corresponds to the momentum and frequency
+  dependent average potential.}}.
 It should be stressed that systematic calculations of $m_n^*$ throughout 
 the NS crust are very costly from the computational point of view. To get an 
 order of magnitude of the effect, 
@@ -560,7 +546,7 @@ currently under debate~\cite{Martin2016,Watanabe2017}.
 
 The Vela pulsar (PSR B0833-45) is one of the most active glitchers known, with
 glitches occurring four times per decade on average. Since the beginning of its 
-monitoring, almost than 50 years ago, it has exhibited 20 glitches in
+monitoring, almost 50 years ago, it has exhibited 20 glitches in
 total~\cite{Glitches}, allowing for a precise estimation of the corresponding 
 coupling parameter, $\mathcal{G}_{\text{Vela}} = (1.62 \pm 0.03) \times
 10^{-2}$~\cite{Ho2015}. This can be translated into a constraint for 
@@ -587,7 +573,7 @@ whether the superfluid neutron in the crust can carry enough angular momentum
 to explain Vela glitches. For the three nonrelativistic Skyrme-based EoS that 
 we consider, we see that the constraint is unlikely to be satisfied, because it
 would require Vela mass to be very low, $M_{\text{Vela}} \lesssim 0.9M_\odot$.
-While theoretically plausible~\cite{Haensel2007}, such low-mass NS have never 
+While theoretically possible~\cite{Haensel2007}, such low-mass NS have never 
 been observed to this day. On the other hand, it is observed that very stiff 
 EoS such as TM1 can be consistent with the constraint~\cite{Piekarewicz2014}.
 Finally, given the constraint on the fractional moment of inertia calculated 
@@ -601,9 +587,8 @@ complete statistical analysis~\cite{Carreau2019moi}.
 
 \subsection{Tidal deformability}\label{subsec:tidal} % 2
 
-Theoretically, the tidal deformability parameter is the 
-observable which makes the link between the EoS and the gravitational signal
-associated to the coalescence of two NS.
+\edit{Theoretically, for the gravitational signal observed before merger, the 
+  tidal deformability is the part which is sensitive to the EoS.}
 In that sense, GW observations can ultimately provide new constraints on the 
 EoS. 
 In particular, the first detection of GW from the coalescence of two NS, 
@@ -638,15 +623,15 @@ equation~\cite{Hinderer2010},
 %
 \begin{eqnarray}
   \frac{dy}{dr} &=& -\frac{y^2}{r} - \frac{y-6}{r-2Gm/c^2} \notag\\
-                &&- \frac{4\pi G}{c^2}r^2\frac{(5-y)\rho_B + (9+y)P/c^2 
-                + (P+\rho_Bc^2)/c_s^2}{r-2Gm/c^2} \notag\\
+                &&- \frac{4\pi G}{c^2}r^2\frac{(5-y)\rho + (9+y)P/c^2 
+                + (P+\rho c^2)/c_s^2}{r-2Gm/c^2} \notag\\
                 &&+ \frac{1}{r}\left[\frac{2G}{c^2}\frac{(m+4\pi p r^3/c^2)}{r 
                 - 2Gm/c^2}\right]^2\label{eq:dy},
 \end{eqnarray}
 %
 where we have introduced the speed of sound $c_s = \sqrt{\partial P/\partial 
-\rho_B}$, and that must satisfy the boundary condition $y(r=0)=2$. This
-equation together with the hydrostatic equilibrium equations, 
+\rho}$. The function $y=y(r)$ must satisfy the boundary condition $y(r=0)=2$. 
+Eq.~(\ref{eq:dy}) together with the hydrostatic equilibrium equations, 
 Eqs.~(\ref{eq:tov}) and~(\ref{eq:massbal}), are solved simultaneously. The 
 tidal Love number reads
 %
@@ -713,7 +698,8 @@ providing new constraints on the low-density EoS. As we have already discussed,
 the maximum observed mass of NS~\cite{Antoniadis2013,Cromartie2020} establishes 
 a stringent constraint on the EoS. Furthermore, and for the same
 reason, future observations of GW signatures associated to binary NS mergers 
-with LIGO and Virgo, and radius measurements from NICER will beneficial.
+with LIGO and Virgo, and radius measurements \edit{from observatories such as 
+NICER and Chandra} will be beneficial.
 Bayesian inference is a statistical method which allows to account both for the 
 present day knowledge on nuclear physics and NS observables for predicting the 
 stellar matter EoS.
@@ -731,7 +717,7 @@ attention is paid to the correlations among parameters.
 
 \subsection{Principle of Bayesian inference}\label{subsec:bayes}
 
-The core of Bayesian inference is based on well-known Bayes' theorem, 
+The core of Bayesian inference is based on Bayes' theorem, 
 which provides an expression for the conditional probability (or posterior
 probability) of a set of values for an ensemble of random variables $A$ given a
 second set $B$,
@@ -773,7 +759,7 @@ therefore often written as
 \end{equation}
 %
 The marginal one- and two-parameter posterior distributions can be extracted
-from the posterior distribution. Then are defined respectively as
+from the posterior distribution. They are defined respectively as
 %
 \begin{eqnarray}
   p(X_j|\text{data}) &=& \left\{\prod_{i \neq j} \int
@@ -827,7 +813,7 @@ and isovector sectors -- therefore
 enter into the parameter set. The parameter $b$ is also added in order 
 to explore different functional behaviors close to the $n\rightarrow 0$ limit. 
 {This is motivated by the fact that the behavior of Skyrme-type 
-functionals is not correct at extreme low densities~\cite{Grasso2017}.}
+functionals is not correct at extremely low densities~\cite{Grasso2017}.}
 The parameter $b$, together with the isoscalar effective mass $m_{sat}^*/m$ and 
 isospin splitting $\Delta m_{sat}^*/m$, completes the parameter space, 
 associated to the description of bulk matter.
@@ -849,17 +835,17 @@ space is explored for the surface energy because of the large variation of the
 bulk properties and the physical correlation between surface and bulk due to 
 the fit to experimental data.
 We consider two choices for the value of the parameter $p$, which determines 
-the behavior of the surface tension for extreme isospin values. Either it is 
-fixed to the educated value $p=3$, or $p=\{2.5,3,3.5\}$ is selected for each
-set of empirical parameters. The latter option is considered for the
-determination of observables that are sensitive to the CC transition point, 
-which we have seen is strongly correlated to the isovector properties of the 
-surface tension.
+the behavior of the surface tension for extreme isospin values \edit{for a 
+given set of empirical parameter}. Either it is fixed to the educated value 
+$p=3$, or \edit{the range $p=\{2.5,3,3.5\}$ is explored}. The latter option is 
+considered for the determination of observables that are sensitive to the CC 
+transition point, which we have seen is strongly correlated to the isovector 
+properties of the surface tension.
 
 \subsection{Prior distribution of equation of state parameters}\label{subsec:prior}
 
 We now discuss the prior distribution of empirical parameters. We first give 
-insights concerning the selected intervals for the flat prior. A sensitivity 
+insights concerning the selected intervals for the prior. A sensitivity 
 analysis of the CC transition point is performed afterwards.
 
 \subsubsection{Flat prior compatible with empirical constraints}\label{subsubsec:prior}
@@ -906,7 +892,7 @@ where the parameter $X_i$ is uniformly distributed from $X_i^{min}$ to
 $X_i^{max}$. The use of a flat prior means that all possible values of 
 $\bm{X}$ inside the intervals are equally likely \textit{a priori}.
 
-The range of variation for the model parameters reflect the degree of 
+The range of variation for the model parameters reflects the degree of 
 uncertainty on the EoS parameters, as measured by their variation in the 
 functionals which reproduce successfully low energy nuclear physics
 data~\cite{Margueron2018a}. We can distinguish three groups of empirical  
@@ -937,11 +923,10 @@ the most significant correlations with the transition density and pressure.}
 
 \subsubsection{Sensitivity analysis of the crust-core transition
 point\footnote{Partial results of the presented work have been published in 
-Eur. Phys. J. A (2019) \textbf{55}: 188. With kind permission of The European
-Physical Journal (EPJ).}}\label{subsubsec:sensana}
+Eur. Phys. J. A (2019) \textbf{55}: 188.}}\label{subsubsec:sensana}
 
 Let us recall that one of the advantages of the metamodeling approach is that 
-all the EoS model parameters, such as the empirical parameters, 
+all the EoS model parameters, \edit{that is} the empirical parameters, 
 are \textit{a priori} uncorrelated. 
 It is therefore possible to vary each one of them independently of the others, 
 which is not feasible using specific functional behaviors such as Skyrme, 
@@ -975,10 +960,11 @@ panel) and transition pressure $P_t$ (lower panel) with respect to EoS
 parameters. $p=3$ is fixed and two different reference point are chosen:
 BSk24 parameters (solid blue lines) and BSk22 parameters (orange 
 dashed lines). For each parameter, the symbols on left (blue) correspond to 
-BSk24 and those on right (orange) to BSk22. Circles and squares are
-respectively associated to the minimum value $X_i^{min}$ and maximum value
-$X_i^{max}$ of the parameter, which are listed in 
-Table~\ref{table:prior}.}\label{fig:sensana}
+BSk24 and those on right (orange) to BSk22. \edit{The parameters are 
+  varied one by one around the two different reference parameters sets.} 
+Circles and squares are respectively associated to the minimum value 
+$X_i^{min}$ and maximum value $X_i^{max}$ of the parameter, which are listed in 
+Table~\ref{table:prior}. }\label{fig:sensana}
 \end{figure}
  
 Such a sensitivity analysis is presented in Fig.~\ref{fig:sensana} for the 
@@ -990,7 +976,7 @@ the parameter set corresponding to the BSk24 functional (solid blue lines), and
 the one corresponding to the BSk22 functional 
 (dashed orange lines)\footnote{Other choices can be found 
   in~\cite{Carreau2019cc}, leading to same qualitative results.}.
-For both of sets of parameter, we fix $p=3$ as well as $b=10\ln(2)$.
+For both sets of parameter, we fix $p=3$ as well as $b=10\ln(2)$.
 
 The range of variation for each of the EoS parameters corresponds to the 
 intervals for the prior distribution $p(\bm{X})$ specified in 
@@ -1025,7 +1011,7 @@ parameter as far as the transition density is concerned. This result is in
 agreement with previous findings by many authors~\cite{Ducoin2011} and was
 already anticipated in~\ref{subsec:ccfromc}.
 The symmetry energy at saturation $E_{sym}$ and the effective mass splitting
-$\Delta m_{sat}^*/m$ do not play any role on the transition. 
+$\Delta m_{sat}^*/m$ do not play any role in the transition. 
 {This can be understood from the fact that the symmetry energy at
 saturation is already relatively well constrained, and that the effective mass 
 enters the kinetic energy, thus at equilibrium variations of 
@@ -1038,10 +1024,10 @@ different functionals considered in the literature have very different values
 of $K_{sym}$, which blurs the correlation with $L_{sym}$. This effect is also 
 amplified by the fact that, depending on the reference point, the dependence of 
 $P_t$ with $L_{sym}$ is not monotonic. Finally, we can notice that the 
-influence of the fully unknown high-order derivatives $Q_{sym}$ and $Z_{sym}$, 
-though less important than the one of $L_{sym}$, is not negligible and 
-comparable to the one of the isovector surface energy parameter $p$ that can be 
-inferred from Fig.~\ref{fig:cctp_lsym}. We have checked that similar 
+influence of the fully unknown high-order derivatives $Q_{sym}$ and 
+$Z_{sym}$, though less important than the one of $L_{sym}$, is not negligible 
+and comparable to the one of the isovector surface energy parameter $p$ that 
+can be inferred from Fig.~\ref{fig:cctp_lsym}. We have checked that similar 
 conclusions can be drawn if the sensitivity analysis is performed using the 
 definition of the transition point from the dynamical 
 spinodal~\cite{Antic2019}.
@@ -1072,7 +1058,7 @@ observables}\label{subsubsec:ldconst}
 
 Let us concentrate first on the strict filter $w_{LD}$, hereafter referred to 
 as low-density (LD) filter. It is introduced to verify whether the metamodel 
-associated to a set of parameter $\bm{X}$ is compatible with the recent chiral
+associated to a set of parameters $\bm{X}$ is compatible with the recent chiral 
 EFT calculations for SNM and PNM by Drischler 
 \textit{et al.}~\cite{Drischler2016}. The authors have calculated the energy
 per particle for several values of isospin at low density within the many-body
@@ -1165,10 +1151,10 @@ applied subsequently to the LD filter $w_{LD}$. It imposes general physical
 constraints to the global density behavior of the functional, as follows:
 %
 \begin{itemize}
-  \item the positiveness of the symmetry energy at all densities,
-  \item the stability of the EoS,
-  \item the causality condition, $0 < c_s/c < 1$,
+  \item the causality condition, $c_s/c < 1$,
+  \item the \edit{thermodynamic} stability of the EoS, \edit{$dP/d\rho > 0$},
   \item the maximum observed NS mass, $M_{max}(\bm{X}) \geq M_{max}^{obs}$,
+  \item the positiveness of the symmetry energy at all densities,
 \end{itemize}
 %
 where $M_{max}(\bm{X})$ is the maximum mass supported by the EoS calculated for 
@@ -1206,8 +1192,8 @@ filter as in Eq.~(\ref{eq:pame}).
 The possibility of a negative symmetry energy at high density was sometimes 
 mentioned in the literature~\cite{Li2017,Wiringa1988}. 
 However, extremely soft functionals are generally incompatible with the maximum 
-mass constraint, thus relaxing the condition of the positiveness of the 
-symmetry energy would not alter our results.
+mass constraint, \edit{and} relaxing the condition of the positiveness of the 
+symmetry energy \edit{does not alter} our results.
 
 Finally, let us notice that we do not include the constraint on the tidal
 deformability inferred from the GW170817 event~\cite{GWtidal} in the $w_{HD}$ 
@@ -1342,7 +1328,7 @@ by the passage through the $w_{HD}$ filter. On the other hand, it has an
 important effect on the PDF of $Q_{sat}$, with large values being favored. In
 the isovector sector, the HD filter has a significant impact on the PDF of
 $E_{sym}$, $L_{sym}$ and $K_{sym}$, yet less effective than that of the LD 
-filter, except for the $K_{sym}$. Concerning the isovector skewness parameter
+filter, except for $K_{sym}$. Concerning the isovector skewness parameter
 $Q_{sym}$, which we recall is not affected by the LD filter, we find negative 
 values to be very unlikely. 
 Overall, we can see that HD constraints favor stiff EoS with respect to the LD 
@@ -1586,9 +1572,11 @@ Skyrme-based BSk24 and SLy4 EoS, and relativistic PKDD and TM1 EoS, are
 represented. As we can see, only the BSk24 result (solid orange line) is 
 compatible with our prediction at $95\%$ credible level in the whole mass 
 domain considered. The two relativistic models predict large radii compared to 
-our prediction. The soft SLy4 EoS, while similar to BSk24 EoS at low density, 
-predict too small radii by $\approx 1$ km to meet the LD+HD prediction at 
-$M = 2M_\odot$. Given the results presented in this figure and in
+our prediction. 
+% The soft SLy4 EoS, while similar to BSk24 EoS at low density, 
+% predict too small radii by $\approx 1$ km to meet the LD+HD prediction at 
+% $M = 2M_\odot$. 
+Given the results presented in this figure and in
 Fig.~\ref{fig:eos_bayes}, we therefore find that all known models considered 
 would have been rejected by the filters except BSk24, which satisfy both LD and
 HD constraints.
@@ -1611,12 +1599,18 @@ further constrain $R_{1.4} \approx R_1 = 11.9_{-1.4}^{+1.4}$ km ($90\%$
 credible interval). In all analyses, a uniform prior was used on the component 
 masses. 
 We find that our estimation of the canonical radius $R_{1.4}$ is 
-compatible with these three analyses, even though we can notice that the our
+compatible with these three analyses, even though we can notice that our 
 value for the median is larger, and the $90\%$ confidence interval is 
 tighter. This outlines the importance of the LD filter in our calculation, 
 which ensure that our posterior is compatible with chiral EFT predicted bands 
 for the energy per nucleon of SNM and PNM. Moreover, our prior distribution of 
 EoS parameters contains information arising from nuclear experiments.
+%
+\edit{This feature, and the fact that, for each set of empirical parameters, we
+  fix the surface and curvature parameters to the optimized values, explain why 
+  the likelihood probability $p_{\text{AME2016}}$ has a negligible impact on 
+  the distribution.} 
+%
 In~\cite{De2018,GW1}, constraints on nuclear physics observables were not 
 considered.
 
@@ -1709,10 +1703,8 @@ The dimensionless tidal deformabilities are also calculated for the same four
 popular EoS as in Figs.~\ref{fig:eos_bayes} and~\ref{fig:mr_bayes}.
 We observe that the soft SLy4 and BSk24 EoS are in a rather good agreement with 
 the analysis of the LIGO and Virgo collaborations, whereas the relativistic
-models PKDD and TM1 seems very unlikely. Let us recall that yet such stiff EoS
-are required in order to explain the large glitches occurring in the Vela
-pulsar. Among the four popular EoS, only the one based on BSk24 functional is
-compatible with the LD+HD prediction.
+models PKDD and TM1 seems very unlikely. Among the four popular EoS, only the 
+one based on BSk24 functional is compatible with the LD+HD prediction.
 
 \begin{figure}[!t]
   \begin{center}
@@ -1763,22 +1755,22 @@ $\Lambda_{1.4}$.
   phase transition, notably to quark-gluon plasma.
 Hence, a discrepancy between our posterior and that of the
 LIGO and Virgo collaborations would be a smoking gun for the existence of
-quarks in the core of NS. We do not observe such evidence in the our results, 
+quarks in the core of NS. We do not observe such evidence in our results, 
 thus the hypothesis of a purely nucleonic EoS cannot be excluded.}
 
 \subsection{Bayesian analysis of the crust-core
 transition}\label{subsec:cc_bayes}
 
-The precise estimation of the CC transition point location, defined by
-Eq.~(\ref{eq:cctp}), is important for the theoretical determination of NS 
-static properties, such as the radius~\cite{Fortin2016}, for which accurate 
-measurements will hopefully be available in the near future using hard x-ray 
-timing techniques~\cite{Watts2016}. 
-Furthermore, the computation of the crustal observables with the hydrostatic 
+% The precise estimation of the CC transition point location, defined by
+% Eq.~(\ref{eq:cctp}), is important for the theoretical determination of NS 
+% static properties, such as the radius~\cite{Fortin2016}, for which accurate 
+% measurements will hopefully be available in the near future using hard x-ray 
+% timing techniques~\cite{Watts2016}. 
+The computation of the crustal observables with the hydrostatic 
 equilibrium equations requires the knowledge of the CC transition pressure 
 $P_t$ in addition to the EoS. 
 In the following, we make quantitative predictions on the density and
-pressure of the CC transition point from the joint posterior distribution, and 
+pressure at the CC transition point from the joint posterior distribution, and 
 examine in detail the influence of the different EoS parameters, as well as 
 the effectiveness of the different filters entering the likelihood 
 probability, Eq.~(\ref{eq:likelihood}).
@@ -1829,10 +1821,10 @@ $p=3$ case, along the isobaric chain $A=200$.
 %
 The variation with $I$ of $(E_{surf} + E_{nuc})/A^{2/3}$ is also shown for 
 four popular models. All of them are compatible with the $1\sigma$ band 
-for to prior distribution.
+for the prior distribution.
 It is seen that the LD+HD distribution predicts a lower surface energy for 
 nearly symmetric nuclei with respect to the prior distribution and the 
-selected popular functionals. This is not surprising because we known that the 
+selected popular functionals. This is not surprising because we know that the 
 surface parameter $\sigma_0=\sigma(I=0)$ is strongly anticorrelated with the 
 energy per nucleon of SNM at saturation $E_{sat}$~\cite{Carreau2019cc}, for 
 which large values are favored by the LD filter, see Fig.~\ref{fig:is_dist}.
@@ -2016,7 +2008,7 @@ columns~\cite{Carreau2019cc}, though not identical due to
 a different treatment of the surface energy. Indeed, a limited pool of nine 
 magic and semimagic nuclei were used to fit the surface parameters
 in~\cite{Carreau2019cc}, whereas the surface and curvature parameters are
-fitted to all experimental masses from AME2016 (2353 nuclei) in the present 
+fitted to all experimental masses from AME2016 (2498 nuclei) in the present 
 study. Both options have limitations. On the one hand, fitting all presently
 measured masses and considering a curvature term allows a better reproduction
 of experimental masses and a tighter determination of the surface parameters.
@@ -2110,8 +2102,11 @@ employed in the present study.
 Interestingly, as observed in Fig.~\ref{fig:corr_ntpt_pars} for 
 the CC transition density and pressure, we can see that the correlations with 
 the surface and curvature parameters that we observed in~\cite{Carreau2019moi} 
-disappear when a refined control of the surface energy is considered.
-}
+disappear when a refined control of the surface energy is considered. 
+\edit{Indeed, in the present study we consider a curvature term, and we 
+  fit the surface parameters to the 2498 experimental masses of the AME2016, 
+  while they were fitted to the experimental masses of only 9 spherical nuclei 
+  in~\cite{Carreau2019moi}.}} 
 
 \begin{table}[!t]
 \begin{center}
@@ -2263,8 +2258,10 @@ at the $1\sigma$ confidence level. This shows that a proper treatment of
 crustal entrainment is more important than the EoS uncertainty and the
 experimental uncertainty on the glitch amplitude.
 Let us notice that an innovative method was recently proposed to determine the 
-mass and radius using observations of the maximum observed
-glitches~\cite{Pizzochero2017}.
+mass using observations of the maximum observed glitches: 
+\edit{providing the pinning and effective mass density profiles as well as the 
+EoS of stellar matter, the maximum glitch size only depends on the NS mass,
+$\Delta\Omega_{max} = \Delta\Omega_{max}(M)$~\cite{Pizzochero2017}.}
 
 \begin{figure}[!t]
   \begin{center}
@@ -2329,9 +2326,9 @@ glitch phenomenon in the standard picture, that is where a glitch is observed
 superfluid in the inner crust to the rest of the star~\cite{Anderson1975}. 
 A major issue exhibited in Section~\ref{sec:tov} is the sensitivity of
 the results on the EoS, and more specifically on the isovector empirical
-parameters. We have shown that not every EoS successfully pass the maximum mass
-constraint of $M_{max} \gtrsim
-2M_\odot$~\cite{Demorest2010,Antoniadis2013,Cromartie2020} favoring a stiff 
+parameters. We have shown that not every EoS successfully passes the maximum 
+mass constraint of $M_{max} \gtrsim 
+2M_\odot$ \cite{Demorest2010,Antoniadis2013,Cromartie2020} favoring a stiff 
 EoS. 
 Moreover, a full crustal origin for the glitch phenomenon can only be accepted 
 with very stiff EoS, given the present estimations of crustal 

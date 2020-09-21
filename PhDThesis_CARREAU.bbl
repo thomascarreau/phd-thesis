@@ -19591,6 +19591,39 @@
       \endverb
       \keyw{Astrophysics - High Energy Astrophysical Phenomena}
     \endentry
+    \entry{Chatterjee2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=be7f1810f19cae27844b467c870187dc}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Debarati},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3ab5fcccf13c591c4d57b9da3da2efa5}{%
+           family={Vidana},
+           familyi={V\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e58c75b447671d8ad677dda29ae983d4}
+      \strng{fullhash}{e58c75b447671d8ad677dda29ae983d4}
+      \strng{authornamehash}{e58c75b447671d8ad677dda29ae983d4}
+      \strng{authorfullhash}{e58c75b447671d8ad677dda29ae983d4}
+      \field{labelalpha}{CV16}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal A}
+      \field{number}{2}
+      \field{title}{Do hyperons exist in the interior of neutron stars?}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{pages}{29}
+      \range{pages}{1}
+    \endentry
     \entry{Ducoin2007a}{article}{}
       \name{author}{3}{}{%
         {{hash=660203a845880c8f8d7876b0f9bef776}{%
@@ -20401,6 +20434,35 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevE.47.4330
       \endverb
     \endentry
+    \entry{Flowers1976}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e81834f4454bdc942624c7f48824c7ee}{%
+           family={Flowers},
+           familyi={F\bibinitperiod},
+           given={Elliott},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5e366fe9035c7eb9796b2ecd3213a58c}{%
+           family={Itoh},
+           familyi={I\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8eb9abb22285763ffda6522af0ca74f}
+      \strng{fullhash}{e8eb9abb22285763ffda6522af0ca74f}
+      \strng{authornamehash}{e8eb9abb22285763ffda6522af0ca74f}
+      \strng{authorfullhash}{e8eb9abb22285763ffda6522af0ca74f}
+      \field{labelalpha}{FI76}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{title}{Transport properties of dense matter}
+      \field{volume}{206}
+      \field{year}{1976}
+      \field{pages}{218\bibrangedash 242}
+      \range{pages}{25}
+    \endentry
     \entry{Feynman1949}{article}{}
       \name{author}{3}{}{%
         {{hash=5883179adbb0c28bccda6525d1d7f983}{%
@@ -20445,6 +20507,41 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.75.1561
       \endverb
+    \endentry
+    \entry{Fortin2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e12adf72c6e6daeac2fe5a296ca3eed4}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e31ce45fcab4d13c8bcabc63191f5d8}{%
+           family={Oertel},
+           familyi={O\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d4226d8c33ceed63b31e19ad6b3faeaa}{%
+           family={Providência},
+           familyi={P\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3ca70c83de9ecdf52b0c60bf8d28cc70}
+      \strng{fullhash}{3ca70c83de9ecdf52b0c60bf8d28cc70}
+      \strng{authornamehash}{3ca70c83de9ecdf52b0c60bf8d28cc70}
+      \strng{authorfullhash}{3ca70c83de9ecdf52b0c60bf8d28cc70}
+      \field{labelalpha}{FOP18}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of Australia}
+      \field{title}{Hyperons in hot dense matter: what do the constraints tell us for equation of state?}
+      \field{volume}{35}
+      \field{year}{2018}
     \endentry
     \entry{Fortin2010}{article}{}
       \name{author}{5}{}{%
@@ -21226,6 +21323,85 @@
       \field{pages}{7}
       \range{pages}{1}
     \endentry
+    \entry{Haensel2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3cfbb992af39dc74b737df95b38ad3dd}{%
+           family={Haensel},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=caf3cfa017eb8c03592c44ee02ab812b}{%
+           family={Bejger},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e12adf72c6e6daeac2fe5a296ca3eed4}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=441387dd6d1e1d67af3cd45df42f48b7}{%
+           family={Zdunik},
+           familyi={Z\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{02b5396c40657d3ed00e7e9e2b871617}
+      \strng{fullhash}{236d08d2438dd03647d1ccbba75826bf}
+      \strng{authornamehash}{02b5396c40657d3ed00e7e9e2b871617}
+      \strng{authorfullhash}{236d08d2438dd03647d1ccbba75826bf}
+      \field{labelalpha}{Hae+16}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal A}
+      \field{number}{3}
+      \field{title}{Rotating neutron stars with exotic cores: masses, radii, stability}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{pages}{59}
+      \range{pages}{1}
+    \endentry
+    \entry{Harrison1965}{article}{}
+      \name{author}{4}{}{%
+        {{hash=49a8d0a194fc71c8a3a350c8db24fd0b}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={B\bibnamedelima Kent},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=421b4914e3435e6713bd901642639d7b}{%
+           family={Thorne},
+           familyi={T\bibinitperiod},
+           given={Kip\bibnamedelima S},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=37e2665b4368697ec693d1ab379012a3}{%
+           family={Wakano},
+           familyi={W\bibinitperiod},
+           given={Masami},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e0dd396adbc231a724a96d63572c9b03}{%
+           family={Wheeler},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima Archibald},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ca3b591a71a81dfeab8d90663bc133}
+      \strng{fullhash}{c7a1f2e3c310ee4d1ffb390f37beb424}
+      \strng{authornamehash}{71ca3b591a71a81dfeab8d90663bc133}
+      \strng{authorfullhash}{c7a1f2e3c310ee4d1ffb390f37beb424}
+      \field{labelalpha}{Har+65}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{gtgc}
+      \field{title}{Gravitation theory and gravitational collapse}
+      \field{year}{1965}
+    \endentry
     \entry{Hartle1967}{article}{}
       \name{author}{1}{}{%
         {{hash=28fb46dde3fe84efd0bbafc925294c23}{%
@@ -21328,6 +21504,70 @@
       \field{year}{2014}
       \field{pages}{443\bibrangedash 456}
       \range{pages}{14}
+    \endentry
+    \entry{Hessels2006}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6fb8e55036dd1748d4a9b8fa041200aa}{%
+           family={Hessels},
+           familyi={H\bibinitperiod},
+           given={Jason\bibnamedelimb W.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9c1bdbbca9c01d186f145532a1d247e5}{%
+           family={Ransom},
+           familyi={R\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dd584d4b9622fa01eb07716d149a184e}{%
+           family={Stairs},
+           familyi={S\bibinitperiod},
+           given={Ingrid\bibnamedelima H.},
+           giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=185d5735c01e1874d10883e2d99a4a74}{%
+           family={Freire},
+           familyi={F\bibinitperiod},
+           given={Paulo\bibnamedelimb C.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=083fcdc78b23bcfa20e44f6bc5376605}{%
+           family={Kaspi},
+           familyi={K\bibinitperiod},
+           given={Victoria\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0a51c032e413283cd9922971279a9262}{%
+           family={Camilo},
+           familyi={C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{a35c150d5a539d9745156a08f0f471dd}
+      \strng{fullhash}{a9ea75ec271f0c854f59de76b242bfea}
+      \strng{authornamehash}{a35c150d5a539d9745156a08f0f471dd}
+      \strng{authorfullhash}{a9ea75ec271f0c854f59de76b242bfea}
+      \field{labelalpha}{Hes+06}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have discovered a 716-hertz eclipsing binary radio pulsar in the globular cluster Terzan 5 using the Green Bank Telescope. It is the fastest spinning neutron star found to date, breaking the 24-year record held by the 642-hertz pulsar B1937+21. The difficulty in detecting this pulsar, because of its very low flux density and high eclipse fraction (\~{}40\% of the orbit), suggests that even faster spinning neutron stars exist. If the pulsar has a mass less than twice the mass of the Sun, then its radius must be constrained by the spin rate to be \&lt;16 kilometers. The short period of this pulsar also constrains models that suggest that gravitational radiation, through an r-mode (Rossby wave) instability, limits the maximum spin frequency of neutron stars.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{5769}
+      \field{title}{A Radio Pulsar Spinning at 716 Hz}
+      \field{volume}{311}
+      \field{year}{2006}
+      \field{pages}{1901\bibrangedash 1904}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1123430
+      \endverb
+      \verb{eprint}
+      \verb https://science.sciencemag.org/content/311/5769/1901.full.pdf
+      \endverb
+      \verb{url}
+      \verb https://science.sciencemag.org/content/311/5769/1901
+      \endverb
     \endentry
     \entry{Hewish1968}{article}{}
       \name{author}{5}{}{%
@@ -21811,6 +22051,56 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://www.jb.man.ac.uk/pulsar/glitches.html}}
       \field{title}{Glitch Catalogue}
+    \endentry
+    \entry{Kojo2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bf45a1f519c3e1c13a4fa9d681ec4de2}{%
+           family={Kojo},
+           familyi={K\bibinitperiod},
+           given={Toru},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e6f70be57b75ffdda56f443c2b9e7e65}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Philip\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d68fd1271e0d323e67e41f024ee405d9}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dd73b913b674eceb3652645d7b26656a}{%
+           family={Baym},
+           familyi={B\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{00fa9c09a58fb2b2e00e8da036d15dfa}
+      \strng{fullhash}{6a3bfc3227e4a3160c98842401c1cb2a}
+      \strng{authornamehash}{00fa9c09a58fb2b2e00e8da036d15dfa}
+      \strng{authorfullhash}{6a3bfc3227e4a3160c98842401c1cb2a}
+      \field{labelalpha}{Koj+15}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{2}
+      \field{title}{Phenomenological QCD equation of state for massive neutron stars}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{pages}{045003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.91.045003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.91.045003
+      \endverb
     \endentry
     \entry{Kortelainen2012}{article}{}
       \name{author}{8}{}{%
@@ -22642,6 +22932,44 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.97.025806
       \endverb
     \endentry
+    \entry{Masuda2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2d47fa7b2e61cd24754355d0481cdc1e}{%
+           family={Masuda},
+           familyi={M\bibinitperiod},
+           given={Kota},
+           giveni={K\bibinitperiod}}}%
+        {{hash=56b3ed90d99d0c3f614914aa6903b2bb}{%
+           family={Hatsuda},
+           familyi={H\bibinitperiod},
+           given={Tetsuo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3ac1247092b50f18a34fadf7dd222a46}{%
+           family={Takatsuka},
+           familyi={T\bibinitperiod},
+           given={Tatsuyuki},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8e1be35be1b083610676794b43e42386}
+      \strng{fullhash}{8e1be35be1b083610676794b43e42386}
+      \strng{authornamehash}{8e1be35be1b083610676794b43e42386}
+      \strng{authorfullhash}{8e1be35be1b083610676794b43e42386}
+      \field{labelalpha}{MHT13}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{1}
+      \field{title}{Hadron-quark crossover and massive hybrid stars with strangeness}
+      \field{volume}{764}
+      \field{year}{2013}
+      \field{pages}{12}
+      \range{pages}{1}
+    \endentry
     \entry{Miller2019}{article}{}
       \name{author}{21}{}{%
         {{hash=beb87ef0b0ddd9420b47d5273d329f1f}{%
@@ -23195,6 +23523,57 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/0375947473903497
+      \endverb
+    \endentry
+    \entry{Oertel2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7e31ce45fcab4d13c8bcabc63191f5d8}{%
+           family={Oertel},
+           familyi={O\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d4226d8c33ceed63b31e19ad6b3faeaa}{%
+           family={Providência},
+           familyi={P\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c73999b5499c1bb1e2b4aeb7477fce03}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7625fd937b099356261173d8b7253b45}{%
+           family={Raduta},
+           familyi={R\bibinitperiod},
+           given={Ad\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{0c5497597923abfc0d8bdaf8f690ebbc}
+      \strng{fullhash}{41a18673d48635763f52ef312c0bedeb}
+      \strng{authornamehash}{0c5497597923abfc0d8bdaf8f690ebbc}
+      \strng{authorfullhash}{41a18673d48635763f52ef312c0bedeb}
+      \field{labelalpha}{Oer+15}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since the discovery of neutron stars with masses around the composition of matter in the central part of these massive stars has been intensively discussed. Within this paper we will (re)investigate the question of the appearance of hyperons. To that end we will perform an extensive parameter study within relativistic mean field models. We will show that it is possible to obtain high mass neutron stars with (i) a substantial amount of hyperons, (ii) radii of 12–13 km for the canonical mass of , and (iii) a spinodal instability at the onset of hyperons. The results depend strongly on the interaction in the hyperon–hyperon channels, on which only very little information is available from terrestrial experiments up to now.}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{month}{6}
+      \field{number}{7}
+      \field{title}{Hyperons in neutron star matter within relativistic mean-field models}
+      \field{volume}{42}
+      \field{year}{2015}
+      \field{pages}{075202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0954-3899/42/7/075202
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F0954-3899%2F42%2F7%2F075202
       \endverb
     \endentry
     \entry{Oertel2017}{article}{}
@@ -25195,128 +25574,6 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.68.035806
       \endverb
     \endentry
-    \entry{Watts2016}{article}{}
-      \name{author}{18}{}{%
-        {{hash=4e13ef97bd0ffdc455da24fce95714c5}{%
-           family={Watts},
-           familyi={W\bibinitperiod},
-           given={Anna\bibnamedelima L.},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=22234c254d5d500fabaa0b3fc750e25b}{%
-           family={Andersson},
-           familyi={A\bibinitperiod},
-           given={Nils},
-           giveni={N\bibinitperiod}}}%
-        {{hash=772338c1bc75c352f2fed430160e318c}{%
-           family={Chakrabarty},
-           familyi={C\bibinitperiod},
-           given={Deepto},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e995d202fed81ed544addbfa948dde33}{%
-           family={Feroci},
-           familyi={F\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ab1608681bbd2d780bf450cc42ffbd5a}{%
-           family={Hebeler},
-           familyi={H\bibinitperiod},
-           given={Kai},
-           giveni={K\bibinitperiod}}}%
-        {{hash=b096c4a9ed49179e77f7e79866691171}{%
-           family={Israel},
-           familyi={I\bibinitperiod},
-           given={Gianluca},
-           giveni={G\bibinitperiod}}}%
-        {{hash=b00eed58a584a4fcd271bd93e0b367b6}{%
-           family={Lamb},
-           familyi={L\bibinitperiod},
-           given={Frederick\bibnamedelima K.},
-           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=c0753d276e12db8d24044ac2afa3091b}{%
-           family={Miller},
-           familyi={M\bibinitperiod},
-           given={M.\bibnamedelimi Coleman},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=3c5899703391d2773cb334bf1bc51582}{%
-           family={Morsink},
-           familyi={M\bibinitperiod},
-           given={Sharon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b4a4fb5a15626d8dd1a0f0db3afd0746}{%
-           family={Özel},
-           familyi={Ö\bibinitperiod},
-           given={Feryal},
-           giveni={F\bibinitperiod}}}%
-        {{hash=19c850b382e7e66fdd1ca6d0e9d6f363}{%
-           family={Patruno},
-           familyi={P\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=af9e5597f28653025384db64f50aac7e}{%
-           family={Poutanen},
-           familyi={P\bibinitperiod},
-           given={Juri},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ec95b947b1450acd1a7af538531a7674}{%
-           family={Psaltis},
-           familyi={P\bibinitperiod},
-           given={Dimitrios},
-           giveni={D\bibinitperiod}}}%
-        {{hash=00c99387d6c88eae7f434b1004ee958f}{%
-           family={Schwenk},
-           familyi={S\bibinitperiod},
-           given={Achim},
-           giveni={A\bibinitperiod}}}%
-        {{hash=951067b10036ecbc6f49d0387e27a936}{%
-           family={Steiner},
-           familyi={S\bibinitperiod},
-           given={Andrew\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=371c1e161016a931a8ece13dacc958b3}{%
-           family={Stella},
-           familyi={S\bibinitperiod},
-           given={Luigi},
-           giveni={L\bibinitperiod}}}%
-        {{hash=5aeaeb758001e117f55c149aef1a4ebc}{%
-           family={Tolos},
-           familyi={T\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod}}}%
-        {{hash=67d4f488c67efd7ce386679b3144ce86}{%
-           family={Klis},
-           familyi={K\bibinitperiod},
-           given={Michiel},
-           giveni={M\bibinitperiod},
-           prefix={van\bibnamedelima der},
-           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{22a22f3093e4b093b378841dce704031}
-      \strng{fullhash}{4217a09772752eb70e973aece557df09}
-      \strng{authornamehash}{22a22f3093e4b093b378841dce704031}
-      \strng{authorfullhash}{4217a09772752eb70e973aece557df09}
-      \field{labelalpha}{Wat+16}
-      \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{Rev. Mod. Phys.}
-      \field{month}{4}
-      \field{title}{Colloquium: Measuring the neutron star equation of state using x-ray timing}
-      \field{volume}{88}
-      \field{year}{2016}
-      \field{pages}{021001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/RevModPhys.88.021001
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/RevModPhys.88.021001
-      \endverb
-    \endentry
     \entry{Welker2017}{article}{}
       \name{author}{18}{}{%
         {{hash=7c4c92f2225908e8caee2bf7ecf1e86e}{%
@@ -25525,6 +25782,46 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/RevModPhys.74.1015
+      \endverb
+    \endentry
+    \entry{Watanabe2003elec}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f98314410670baff9c0827229835d1c}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Gentaro},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e37dbefa1083c9240219c0895bfe4196}{%
+           family={Iida},
+           familyi={I\bibinitperiod},
+           given={Kei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e4782ed4d09c1d315ff05327d5f5a473}
+      \strng{fullhash}{e4782ed4d09c1d315ff05327d5f5a473}
+      \strng{authornamehash}{e4782ed4d09c1d315ff05327d5f5a473}
+      \strng{authorfullhash}{e4782ed4d09c1d315ff05327d5f5a473}
+      \field{labelalpha}{WI03}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{10}
+      \field{title}{Electron screening in the liquid-gas mixed phases of nuclear matter}
+      \field{volume}{68}
+      \field{year}{2003}
+      \field{pages}{045801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.68.045801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.68.045801
       \endverb
     \endentry
     \entry{Watanabe2011}{misc}{}

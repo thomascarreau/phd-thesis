@@ -153,8 +153,8 @@ be calculated as
 \end{equation}
 %
 with $M(A,Z)c^2 = \Delta \epsilon + Am_uc^2$ the atomic mass ($\Delta \epsilon$
-is the mass excess, $m_u$ is atomic mass unit), $m_e$ the electron mass, and 
-$B_e$ the binding energy of atomic electrons depending solely on the 
+is the mass excess and $m_u$ is the atomic mass unit), $m_e$ the electron mass, 
+and $B_e$ the binding energy of atomic electrons depending solely on the 
 number of protons $Z$ according to the approximation proposed
 in~\cite{Lunney2003} (see their Eq.~(A4)),
 %
@@ -164,8 +164,11 @@ in~\cite{Lunney2003} (see their Eq.~(A4)),
 
 \subsubsection{Relativistic electron gas}\label{subsubsec:elgas}
 
-In the outer crust, the mass densities are above $\sim 10^4$ g/cm$^3$ therefore 
-the electrons are essentially free. 
+In the cold outer crust, the mass densities are above $\sim 10^4$ g/cm$^3$ therefore the electrons are essentially free. 
+\edit{In this regime, it was shown in~\cite{Watanabe2003elec} that 
+  electron-charge screening effects are negligible and that the electron 
+density is essentially homogeneous. This is explained from the fact that the 
+electron Thomas-Fermi screening length is larger than the lattice spacing.} 
 The expression of the energy density of a relativistic electron gas, with rest
 mass energy, at zero temperature can be calculated as
 %
@@ -203,10 +206,14 @@ density yields the pressure,
 \end{eqnarray}
 %
 
-The exchanges and correlation corrections are neglected since they are known 
-to be small in comparison to the kinetic energy of relativistic electrons. The 
-expression of the exchange correction to the free energy density for a strongly 
-degenerate electron gas is given in~\cite{Haensel2007} (see their Eq.~(2.151)).
+\edit{The electron exchange energy, which is a direct consequence of the Pauli
+exclusion principle, and the electron correlation energy, which is due to the
+fact that the motion of each electron is affected by the motion and position of 
+the other electrons, are neglected since they are known to be small in 
+comparison with the kinetic energy of relativistic electrons.} 
+The expression of the electron exchange correction to the free energy density 
+for a strongly degenerate electron gas is given in~\cite{Haensel2007} (see 
+their Eq.~(2.151)).
 We have checked that the inclusion of these corrections does not modify the
 results presented in this chapter.
 
@@ -216,11 +223,11 @@ The variational technique which is currently used to calculate the ground state
 of the outer crust was introduced by Baym, Pethick, and Sutherland 
 in~\cite{BPS}.
 
-The zero-temperature Gibbs free energy per nucleon is the quantity to be minimized at fixed 
-pressure $P$ under the condition of charge neutrality $n_e = Zn_N$, until the 
-neutron drip sets in, the condition for which is $\mu_n =
-m_n c^2$, with $\mu_n$ the neutron chemical potential, and $m_n$ the neutron
-mass.
+\edit{The thermodynamic potential to be minimized is} the zero-temperature 
+Gibbs free energy per nucleon at fixed pressure $P$ under the condition of 
+charge neutrality $n_e = Zn_N$, until the neutron drip sets in, the condition 
+for which is $\mu_n = m_n c^2$, with $\mu_n$ the neutron chemical potential, 
+and $m_n$ the neutron mass. 
 
 The definition of the zero-temperature Gibbs free energy per nucleon is
 %
@@ -283,7 +290,7 @@ together with the charge neutrality condition $n_e = n_p$, we obtain
 %
 where $\mathcal{G}$ is the zero-temperature Gibbs free energy density, and
 $\mu_p$ the proton chemical potential. In the case where 
-the chemical equilibrium is established, that is if weak processes are at the 
+the chemical equilibrium is established, that is if weak processes are at 
 equilibrium, we finally get
 %
 \begin{equation}
@@ -314,13 +321,13 @@ and the fractional change in the baryon mass density results
   \simeq \frac{Z/A}{Z'/A'} - 1.
 \end{equation}
 %
-For this reason, it is more convenient to have the pressure as the 
+For this reason, it is more convenient to choose the pressure as the 
 independent variable. In this way we avoid to make a Maxwell construction to 
 estimate the pressure at which the transition from $(A,Z)$ to $(A',Z')$ occurs.
 
 The BPS model is still widely used to determine the ground state of the outer 
 crust. However, at that time the authors took the values of nuclear binding 
-energy from the outdated phenomenological macroscopic model of Myers and 
+energies from the outdated phenomenological macroscopic model of Myers and 
 Swiatecki~\cite{Myers1965}. Moreover, they did not take
 into account the zero-point vibration energy, Eq.~(\ref{eq:ezp}). In the last decades,
 considerable efforts have been made to measure nuclear masses near the neutron
@@ -605,11 +612,11 @@ inner crust are fully model dependent.
 
 This section deals with the determination of the ground state of the inner
 crust. In~\ref{subsec:nucenergy}, we present the metamodeling of the
-infinite nuclear matter EoS here used to calculate the energy of the neutron 
+infinite nuclear matter EoS used to calculate the energy of the neutron 
 gas, and extended to finite nuclei within the so-called compressible liquid 
-drop (CLD) approximation so as to describe the cluster energetics. The derivation of the 
-system of equilibrium equations for the determination of inner-crust ground state 
-is detailed in~\ref{subsec:formalism}. The numerical
+drop (CLD) approximation so as to describe the cluster energetics. The 
+derivation of the system of equilibrium equations for the determination of the 
+inner-crust ground state is detailed in~\ref{subsec:formalism}. The numerical
 method as well as results are presented afterwards, 
 in~\ref{subsec:results_icrust}. In~\ref{subsec:strutinsky} we add Strutinsky
 shell corrections on top of the CLD energy as an attempt to recover magic
@@ -621,7 +628,7 @@ in~\ref{subsec:ccfromc}.
 \subsection{Modeling the nuclear energy}\label{subsec:nucenergy}
 
 % composition ws cell:
-Once the neutron dripline is reached, neutron start to drip out of nuclei but
+Once the neutron dripline is reached, neutrons start to drip out of nuclei but
 stay confined in the WS cell because of the gravitational pressure,
 whereas they would have been emitted in the laboratory. In the regime of the inner
 crust, we thus have, in each unit cell, a cluster immersed in an electron sea, 
@@ -632,9 +639,9 @@ and an ambient neutron gas.
   \includegraphics[width=0.9\linewidth]{figures/clustering.pdf}
 \end{center}
 \caption[{r-cluster and e-cluster representations}]{{Wood-Saxon 
-    density profiles, for arbitrary values, within a WS cell in the free 
-neutron regime. Blue dashed lines correspond to the cluster density with
-different decompositions between cluster and gas (left,
+    density profiles, for arbitrary values, within a WS cell in \edit{the 
+    regime of the inner crust}. Blue dashed lines correspond to the cluster 
+    density with different decompositions between cluster and gas (left,
 r-cluster; right, e-cluster), and orange dotted lines to the gas density. The
 total density profile is represented in gray solid lines.}}\label{fig:clustering}
 \end{figure}
@@ -644,8 +651,8 @@ interface. One should ask whether the neutron gas penetrates the cluster or not.
 Hence, two classical representations can be introduced, namely the r-cluster and
 e-cluster representations~\cite{Papakonstantinou2013}, to interpret the
 distribution
-of the $N_{WS}$ neutrons and $Z_{WS}$ protons in the unit cell. In the former, the
-cluster occupy a volume at the center of the cell and is surrounded
+of the $N_{WS}$ neutrons and $Z_{WS}$ protons in the unit cell. In the former, 
+the cluster occupies a volume at the center of the cell and is surrounded
 by the neutron gas. Evidently, there is a thin region where cluster and gas
 overlap given the fact that a sharp interface would be unrealistic. The
 r-cluster representation naturally emerges in the local density approximation
@@ -658,7 +665,7 @@ the gas penetrates the cluster. This interpretation appears spontaneously in
 single-particle developments. Indeed, in very neutron-rich clusters, beyond the
 neutron dripline, the bound states are occupied as well as the resonant and
 continuum states. All the unbound single-particle states that are occupied thus
-represents the neutron gas, characterized by a quasihomogeneous spatial 
+represent the neutron gas, characterized by a quasihomogeneous spatial 
 distribution, the continuum wave functions being very similar to plane waves.
 {The difference between the two representations is illustrated in 
 Fig.~\ref{fig:clustering}. The cluster and gas density profiles, described by
@@ -670,8 +677,8 @@ Thomas-Fermi (TF) and extended Thomas-Fermi (ETF)
 calculations \cite{Onsi2008,Pearson2018}. In both representations, the total
 density profile (solid gray line) is the same, and so must therefore be the
 total energy in a TF or ETF framework.} 
-One can benefit from the advantage of both representations through the simple
-geometric relations
+\edit{One can switch between the two representations using the simple 
+geometric relations}
 %
 \begin{equation}
   A_e = A\left(1-\frac{n_g}{n_0}\right), \quad 
@@ -686,11 +693,10 @@ drip in the inner crust, we have $n_{g,p} = 0$, yielding $Z_e = Z$ and implying
 that the total gas density is equal to that of the neutron gas. Indeed, 
 while free protons are expected at non-zero temperature, their presence at zero 
 temperature remains uncertain~\cite{BBP} and depends on the nuclear model. For 
-some models, the proton drip could set in the very bottom layers of the crust, 
-the classical condition for which is $\mu_p = U_p + m_pc^2$, where $U_p$ 
-corresponds to the proton single-particle field at the cell 
-surface~\cite{Pearson2018}. However, if nonspherical shapes are considered 
-then it is found that protons remain in the cluster for most models.
+some models, the proton drip could set in the very bottom layers of the
+crust~\cite{Pearson2018}. 
+However, if nonspherical shapes are considered then it is found that protons 
+remain in the cluster for most models.
 
 {
   At zero temperature, we define the mass of the cluster in the e-cluster 
@@ -743,7 +749,7 @@ In this limit, a large number of nucleons $A\longrightarrow \infty$ is
 contained in a large box. The system is entirely characterized by the neutron 
 density $n_n$ and the proton density $n_p$. Let us also introduce the total 
 density $n = n_n + n_p$ and the asymmetry $\delta = (n_n - n_p)/n$.
-Two limit cases can be distinguished: pure neutron matter, where $n_p=0$,
+Two limit cases can be distinguished: pure neutron matter, where $n=n_p$,
 and symmetric nuclear matter, where $n_n = n_p$. Beta-equilibrated 
 matter corresponds to the matter inside the core of neutron stars and is 
 treated in Section~\ref{sec:core}. Different methods have been proposed in
@@ -753,12 +759,12 @@ approaches in the recent years~\cite{Gandolfi2014}, these calculations might
 become unreliable at suprasaturation densities. Also, the treatment of 
 three-body forces, which are known to play a major role in the determination of 
 the saturation properties of nuclear matter, remains a
-challenge~\cite{Drischler2016}. Another possibility is to derive the nuclear 
-EoS from effective forces~\cite{Chabanat1998}. This second approach is very 
-practical because of translational invariance but suffers from the possible 
-introduction of artificial correlations among the parameter space. In the 
-following we present the metamodeling 
-technique~\cite{Margueron2018a,Margueron2018b}. As we will see, this technique
+challenge~\cite{Drischler2016}. \edit{Another possibility is to derive the 
+  nuclear EoS from phenomenological forces~\cite{Chabanat1998}. This
+approach however} suffers from the possible introduction of artificial 
+correlations among the parameter space. In the following we present the 
+metamodeling technique~\cite{Margueron2018a,Margueron2018b}. 
+As we will see, this technique
 allows to parametrize in a simple analytical way the energy per nucleon
 obtained in the different \textit{ab initio} or effective approaches, as well as
 interpolate continuously between them. By largely exploring the parameter space
@@ -768,8 +774,8 @@ knowledge on the properties of nuclear
 matter around the saturation density of symmetric nuclear matter $n_{sat}$,
 which is roughly the density of laboratory nuclei. For
 instance, the isoscalar Giant Monopole Resonance energy is correlated
-with the empirical parameter $K_{sat}$, which corresponds to the isoscalar
-modulus.
+with the empirical parameter $K_{sat}$, which corresponds to the
+\edit{compression modulus of SNM}.
 %
 \begin{table}
 \begin{center}
@@ -815,16 +821,16 @@ The symmetry energy is generally defined as
   \delta^2}\bigg|_{\delta=0},\label{eq:esym}
 \end{equation}
 %
-where $e_{HM}$ is the nuclear matter energy per nucleon in nuclear matter. In
+where $e_{HM}$ is the energy per nucleon in nuclear matter. In
 Table~\ref{table:emp_params} are listed the value of each empirical parameter
-for the Skyrme-like SLy4~\cite{Chabanat1998}, BSk22, and
+for the \edit{Skyrme-type} SLy4~\cite{Chabanat1998}, BSk22, and
 BSk24~\cite{Goriely2013}, and relativistic
 DD-ME$\delta$~\cite{RocaMaza2011} functionals. Average values and associated
 uncertainties extracted from experimental analysis are also provided. It can be
-seen that the isovector parameters are in general less known with respect to
+seen that the isovector parameters are in general less known \edit{than} 
 the isoscalar ones for the same derivative order. For instance, the relative
 uncertainty on $K_{sym}$ is about $100\%$ while that of $K_{sat}$ is less than
-$10\%$. It should also be stressed that high-order parameters $Q_{sat(sym)}$
+$10\%$. It should also be stressed that the high-order parameters $Q_{sat(sym)}$
 and $Z_{sat(sym)}$ are poorly constrained by nuclear experiments.
 
 The empirical parameters can be used in a Taylor expansion to estimate the
@@ -840,7 +846,7 @@ derivative order $N=2$, we obtain
 with $x = (n-n_{sat})/(3n_{sat})$ a function of the density. {However, we 
   should stress already that $N=2$ is not sufficient for describing the EoS at 
   subsaturation densities, and even less for suprasaturation densities. 
-  High-order parameters $Q_{sat(sym)}$ and $Z_{sat(sym)}$ are essential and 
+  The high-order parameters $Q_{sat(sym)}$ and $Z_{sat(sym)}$ are essential and 
   carry the largest uncertainty as far as the bulk part of the EoS is 
 concerned.}
 
@@ -858,7 +864,7 @@ is
 where $t_{sat}^{FG} = 3\hbar^2/(10m)(3\pi^2/2)^{2/3}n_{sat}^{2/3}$ is the
 kinetic energy of SNM at the saturation density, $m = (m_n + m_p)/2$ is the
 mean nucleon mass, and $m_n^*$ ($m_p^*$) is the neutron (proton) effective
-mass. The Landau effective mass is introduced in order to take into account for 
+mass. The Landau effective mass is introduced in order to take into account 
 the in-medium nuclear interaction that alters the mass of nucleons. It can be
 parametrized as ($q=n,p$)
 %
@@ -1012,7 +1018,7 @@ In Fig.~\ref{fig:mm_accuracy} is demonstrated the accuracy of the metamodeling
 technique for the SLy4~\cite{Chabanat1998} functional with a Taylor expansion 
 order $N=4$. In the upper panel, the energy per nucleon is calculated 
 using the metamodeling technique (dashed lines) and the exact functional (black
-solid lines). A tiny deviation is observed at low density for the SNM, but 
+solid lines). A tiny deviation is observed at low density for SNM, but 
 overall a very good agreement is observed between the metamodel (labeled
 ``SLy4-MM'') and the exact functional (labeled ``SLy4''). In the lower panel 
 the relative error is represented for
@@ -1049,14 +1055,12 @@ approximation}\label{subsubsec:cld}
 We now turn to the modeling of the energy of clusters present in the inner crust
 of cold neutron stars. We propose to extend the metamodeling of infinite nuclear 
 matter to nuclei in order to take into account their surface properties, within 
-the CLD approximation, originally
-introduced in~\cite{BBP}. This approach is 
-expected to be less accurate than microscopic Hartree-Fock
-(HF)~\cite{Negele1973} or ETF~\cite{Onsi2008} 
-calculations since quantum effects are neglected, 
-though it proved its quality in the past by giving surprisingly good
-results, see for example~\cite{BBP,Lattimer1991,Douchin2000a,Douchin2001}. 
-In particular, it
+the compressible liquid drop approximation, originally introduced 
+in~\cite{BBP}. This approach is expected to be less accurate than microscopic 
+Hartree-Fock (HF)~\cite{Negele1973} or ETF~\cite{Onsi2008} calculations since 
+quantum effects are neglected, though it proved its quality in the past by 
+giving surprisingly good results, see for 
+example \cite{BBP,Lattimer1991,Douchin2000a,Douchin2001}. In particular, it
 appears that most of the macroscopic observables related to neutron stars, such 
 as masses and radii, are not very sensitive to the crust composition, thus a 
 qualitative evaluation of it is sufficient in that case.
@@ -1097,7 +1101,7 @@ with
 \end{equation}
 %
 a function of the volume fraction $u = n_e/n_{0,p}$, with $n_{0,p} =
-n_0(1-I)/2$ the average proton density inside cluster. Let us notice that, 
+n_0(1-I)/2$ the average proton density inside cluster. Let us note that 
 the factor $3/5 \times 3/2 = 9/10$ entering the lattice term can be
 replaced by the Mandelung constant for a body-centered cubic lattice, $C_M =
 0.895929255682$ (see Table 2.4 of~\cite{Haensel2007}). 
@@ -1273,14 +1277,15 @@ calculations of Douchin and Haensel (DH)~\cite{Douchin2000a, Douchin2000b} with
 the SLy4 effective force~\cite{Chabanat1998}. Following those works, we use the 
 same variational method as BBP, and we present it in the following.
 
-Using the Lagrange multipliers method, the ground state of the inner crust is
-obtained by minimizing the zero-temperature free
+Using the method of Lagrange multipliers, the ground state of the inner crust 
+is obtained by minimizing the zero-temperature free
 energy density of the WS cell at fixed baryon density $n_B$ under the condition 
 of charge neutrality, $n_e = n_p$. The minimization is carried out with 
 respect to the set of variables $A$, $I$, $n_0$, $n_p$, and $n_g$.
 Let us notice that, in principle, one should minimize the Gibbs free energy at 
 constant pressure, as for the outer crust. However, it would be very heavy from 
-the computational point of view to do so in the free neutron regime.
+the computational point of view to do so in the \edit{regime of the inner
+crust, where nuclei are immersed in a gas of dripped neutrons}.
 Fortunately, it is demonstrated that the error introduced by minimizing at
 constant baryon density instead of pressure is negligible~\cite{Pearson2012}.
 The auxiliary function to be minimized is defined as
@@ -1443,7 +1448,7 @@ chemical potential of the cluster as
 %
 where the derivatives are taken at constant $n_0$, $n_p$, and $n_g$.
 Consequently, we can work out Eq.~(\ref{eq:nchemeq}) to find a chemical
-equilibrium conditions between the neutrons of the cluster and those of the
+equilibrium condition between the neutrons of the cluster and those of the
 gas,
 %
 \begin{equation}
@@ -1613,8 +1618,8 @@ parameter $p$ are selected: $p=2.5$, $p=3$, and $p=3.5$.}\label{fig:compo_icrust
 Fig.~\ref{fig:compo_icrust_bsk24} shows the evolution with baryon density $n_B$ 
 of the equilibrium composition of the inner crust. The empirical parameters 
 entering the bulk part of the CLDM energy correspond to the BSk24 effective 
-force~\cite{Goriely2013}, and the surface parameter $p$ is fixed at the
-educated value $p=3$, which appears to be a reasonable value for Skyrme-type 
+force~\cite{Goriely2013}, and the surface parameter $p$ is fixed to the value 
+$p=3$, which appears to be a reasonable value for Skyrme-type 
 functionals, as we will discuss in~\ref{subsec:ccfromc}.
  
 It is found that the number of nucleons inside the cluster $A$ as well as inside 
@@ -1660,13 +1665,14 @@ heavier clusters.
 As in the outer crust, we find that the proton fraction inside the cell $Y_p$ 
 continuously decreases in the free neutron regime, dropping from $\approx 0.3$ 
 at the neutron drip point to $\approx 0.03$ at the edge of the crust. With
-increasing density, clusters also becomes more and more asymmetric, $I$ going
+increasing density, clusters also become more and more asymmetric, $I$ going
 up to $\approx 0.85$ in the bottom layers.
 
-Clusters are found to be more and more dilute with $n_B$ increasing. At the
-neutron drip density, we get $n_0 \approx 0.145$ fm$^{-3}$, which is close to the
-saturation density of SNM of the BSk24 functional, $n_{sat} = 0.1578$ 
-fm$^{-3}$. At the CC interface, the cluster density is as low as $n_0
+Clusters are found to be more and more dilute with increasing baryon density. 
+At the neutron drip density, we get $n_0 \approx 0.145$ fm$^{-3}$, which is 
+close to the saturation density of SNM of the BSk24 functional, 
+$n_{sat} = 0.1578$ fm$^{-3}$. 
+At the CC interface, the cluster density is as low as $n_0
 \approx 0.07$ fm$^{-3}$, which is comparable to the neutron gas density, 
 represented is the lower-mid panel. It is seen that the ratio $n_g/n_B$ rapidly
 reaches $\approx 75\%$ at $n_B =2\times 10^{-3}$ fm$^{-3}$ then stays
@@ -1675,10 +1681,10 @@ approximately constant at higher densities.
 The equilibrium radius of the spherical WS cell $R_{WS}$ and of the spherical 
 cluster $R_{cl}$ are also displayed in Fig.~\ref{fig:compo_icrust_bsk24}. As
 DH, we observe that $R_{WS}$ monotonically decreases unlike $R_{cl}$ that
-slowly increases with increasing depth. Therefore, nuclei becomes closer and closer,
-eventually becoming close enough to touch each other at some point, creating a
-very large cluster, ultimately leading to homogeneous matter. We can also
-understand this by calculating the volume fraction
+slowly increases with increasing depth. Therefore, nuclei become closer and 
+closer, eventually becoming close enough to touch each other at some point, 
+creating a very large cluster, ultimately leading to homogeneous matter. We 
+can also understand this by calculating the volume fraction 
 $u=(R_{cl}/R_{WS})^3 = 2n_p/(n_0(1-I))$ (orange dashed line). We find that the 
 cluster fills up to $60\%$ of the WS cell volume at the CC interface. This 
 feature combined with the virial theorem, Eq.~(\ref{eq:virial}), outlines the 
@@ -1724,12 +1730,12 @@ crust. The total pressure, defined by the first law of thermodynamics as
 can be expressed as~\cite{BBP}
 %
 \begin{equation}
-  P = P_g + P_e + P_L,
+  P = P_g + P_e + P_L,\label{eq:eos_bbp}
 \end{equation}
 %
 at the equilibrium composition,
-where $P_L$ is the lattice contribution to the total pressure. Using this
-expression rather than finite differences to estimate the derivative,
+where $P_L$ is the lattice contribution to the total pressure. \edit{Using
+Eq.~(\ref{eq:eos_bbp})} rather than finite differences to estimate the derivative,
 Eq.~(\ref{eq:icpres}), is more reliable and has the advantage to be faster from the
 computational point of view. In addition, it allows identifying the different
 contributions to the pressure. In the inner crust, the pressure is no longer 
@@ -1770,8 +1776,8 @@ energy for the corresponding models.
 We now turn to the numerical method, proceeding as follows. The energy density
 is the quantity to be minimized at constant baryon density for a fixed number 
 of protons inside the WS cell. We derive the system of equilibrium 
-equations using the Lagrange multipliers method, as in \ref{subsec:formalism}, 
-yielding
+equations using the method of Lagrange multipliers, as 
+in \ref{subsec:formalism}, yielding
 %
 \begin{equation}
   \frac{\partial E_{cl}}{\partial A} - \frac{E_{cl}}{A} = \frac{1-I}{2}
@@ -1965,7 +1971,7 @@ the cluster (hole) radius/half-width,
 %
 which has to be solved numerically. Let us notice that, neglecting the 
 curvature term, the virial theorem reduces 
-to $\varepsilon_{surf} = 2\varepsilon_{Coul}$, thus the expression of the 
+to $\varepsilon_{surf} = 2\varepsilon_{Coul}$, thus the expression of 
 $r$ is analytical,
 %
 \begin{equation}
@@ -1978,7 +1984,8 @@ follows.
 The composition is first calculated at a given $n_B$ in the spherical nuclei 
 case ($d=3$) following \ref{subsec:formalism}. Then, keeping the same 
 composition, the radius/half-width $r$ is evaluated for the five different 
-phases by solving numerically Eq.~(\ref{eq:rpasta}). Finally, since the bulk
+phases \edit{(spheres, cylinders, plates, tubes, and bubbles)} by solving 
+numerically Eq.~(\ref{eq:rpasta}). Finally, since the bulk 
 and electron contributions to the WS cell are independent of the 
 dimensionality, the equilibrium phase is the one that minimizes 
 $\varepsilon_{surf} + \varepsilon_{curv} 
@@ -2050,7 +2057,7 @@ dynamical \cite{Pethick1995cc,Antic2019} methods.
 The former method consists in evaluating the thermodynamical spinodal, that is 
 the instability point of NM with respect to the liquid-gas (LG) phase 
 transition. The only necessary nuclear physics input for this method is the 
-energy functional of homogeneous NM, which can is well constrained through
+energy functional of homogeneous NM, which is well constrained through
 nuclear experiments and/or \textit{ab initio} calculations in the vicinity of 
 the nuclear saturation density $n_{sat}$. While it appears as a substantial 
 advantage, it is known that the dynamics of the CC transition is very different 
@@ -2064,8 +2071,7 @@ composition in the inner crust, vanish in homogeneous NM, they no not
 contribute to the determination of the LG thermodynamical spinodal. 
 In the dynamical method, finite-size density fluctuations are added, thus 
 it is expected to give a better estimation of the CC transition and pressure. 
-It should be stressed that the isovector gradient terms, which are needed in
-addition to the EoS with respect to the thermodynamical method, play a 
+\edit{The isovector gradient terms, needed in addition to the EoS}, play a 
 nonnegligible role for the determination of the dynamical spinodal, the
 location of which also depends on the many-body formalism 
 adopted~\cite{Ducoin2008}.
@@ -2125,23 +2131,25 @@ values of the truncation order $N$ in the density development,
 Eq.~(\ref{eq:mm}). A convergence feature is observed from $N=2$ to $N=4$,
 almost achieved at $N=3$. We can see that truncating at $N=2$ leads to a 
 substantial underestimation of about $\approx 20\%$ of the transition density. 
-This observation highlights the importance of keeping high-order 
-parameters beyond $(Q_{sat},Q_{sym})$ ($N=3$), and $(Z_{sat},Z_{sym})$ ($N=4$)
-in the Taylor expansion. 
+This observation highlights the importance of keeping the high-order 
+parameters $Q_{sat}$ and $Q_{sym}$ ($N=3$) as well as $Z_{sat}$ and $Z_{sym}$ 
+($N=4$) in the Taylor expansion. 
 A positive correlation is seen between the isovector surface parameter $p$ and 
 $n_t$: the higher the value of $p$ the higher the transition density. This can 
 be understood from the fact that a low value of $p$ leads to a higher surface 
 tension at extreme isospin values, thus it makes the cluster less bound and
 consequently the uniform \textit{npe} matter becomes the favorable phase at 
 lower density. 
-The effect of the varying the low-density parameter $b$ on $n_t$ is also 
+The effect of varying the low-density parameter $b$ on $n_t$ is also 
 evaluated in \cite{Carreau2019cc}. It is found that while it does not 
 significantly affect the transition density in comparison with $N$ and $p$, it 
 should be kept as an additional EoS parameter in any statistical analysis in
 order to make a quantitative prediction of the CC transition point.
-{The introduction of the parameter $b$ in the parameter space is, in fact, 
-  an effective manner to account for the effect of orders $N>4$, which are not
-explicitly included.}
+The introduction of the parameter $b$ in the parameter space is, in fact, 
+an effective manner to account for the effect of orders $N>4$, which are not
+explicitly included. \edit{For $p \approx 4$, the treatment of the surface 
+  tension at extreme isospin is marginal, resulting in numerical instabilities 
+  that can be observed in the figure.}
 
 Different estimations of the CC transition density for the SLy4 functional
 found in the literature are reported in Fig.~\ref{fig:sly4_nt} (black lines), 
@@ -2180,15 +2188,16 @@ As in~\cite{Vinas2017}, an anticorrelation is observed between $L_{sym}$ and
 $n_t$. Using a linear regression to model the relationship between $L_{sym}$
 and our estimation of $n_t$ with $p=3$, we find $n_t = -3.807\times
 10^{-4}L_{sym} + 0.098$ fm$^{-3}$, for a root mean square error of 
-$3.094\times 10^{-3}$ fm$^{-3}$. This is linear equation for $n_t$ is in very
+$3.094\times 10^{-3}$ fm$^{-3}$. This linear equation for $n_t$ is in very
 good agreement with Eq.~(17) of \cite{Ducoin2011}.
 This downwards tendency with increasing values of $L_{sym}$ is not clearly 
 observed for the transition pressure. {We will see in Chapter 2 that the 
   relation between those two quantities is more complicated than what is
 suggested by the selection of a limited number of models in
-Fig.~\ref{fig:cctp_lsym}. Indeed, a full statistical analysis reveals that the
-transition point is correlated with the higher-order empirical parameters,
-which blurs the effective correlation with $L_{sym}$.}
+Fig.~\ref{fig:cctp_lsym}. Indeed, a full statistical analysis reveals that
+\edit{the density and pressure at the transition point to homogeneous matter} 
+are correlated with the high-order empirical parameters, which blurs the 
+effective correlation with $L_{sym}$.}
 
 % -----------------------------------------------------------------------------
 
@@ -2231,9 +2240,9 @@ of the relativistic electron gas, and it is derived in Appendix \ref{appendix:ep
 
 \subsubsection{Variational equations}
 
-Following~\ref{subsec:formalism}, the system of differential equations
-determining the equilibrium composition and EoS in the outer core is
-determined by minimizing the energy density of matter, Eq.~(\ref{eq:epscore}), 
+Following~\ref{subsec:formalism}, the system of \edit{equilibrium equations
+determining the composition and EoS of the outer core is
+obtained} by minimizing the energy density of matter, Eq.~(\ref{eq:epscore}), 
 at constant baryon density under the condition of overall charge neutrality, 
 which now reads
 %
@@ -2273,7 +2282,11 @@ We now turn to minimization with respect to the muon density,
 where we have introduced the muon chemical potential $\mu_\mu = \partial
 \varepsilon_\mu/\partial n_\mu$. This equation corresponds to the chemical 
 equilibrium between muons and electrons, and has to be satisfied if muons are 
-present. These two equations, Eq.~(\ref{eq:betaeqcore}) and~(\ref{eq:muemumu}), 
+present. \edit{Here, we consider that the core is transparent for neutrinos, 
+  which occurs as soon as the temperature falls below $10^9
+  - 10^{10}$~K~\cite{Haensel2007}. In this case we can put 
+$\mu_{\nu_e} = \mu_{\bar{\nu}_e} = \mu_{\nu_\mu} = \mu_{\bar{\nu}_\mu} = 0$.} 
+These two equations, Eq.~(\ref{eq:betaeqcore}) and~(\ref{eq:muemumu}), 
 express the equilibrium with respect to the weak interaction processes. 
 {Let us remark that each time we mention electrons and muons, we are always 
   referring to their net number, that is particles minus antiparticles.}
@@ -2378,15 +2391,21 @@ evaluated \cite{Bednarek2012,Fortin2015}. In particular, the
 presence of hyperons softens the high-density EoS and thus lowers the maximum 
 mass of neutron stars. As a consequence, many models fail to satisfy the NS 
 mass constraint of $\approx 2M_\odot$~\cite{Demorest2010,Antoniadis2013}, 
-leading to the so-called ``hyperon puzzle''~\cite{Zdunik2013}. In fact, the 
-measurement of $\approx 2M_\odot$ NS also rules out most of the models that 
+leading to the so-called ``hyperon puzzle''~\cite{Zdunik2013}. 
+\edit{Nevertheless, several existing hyperonic models can fulfill the
+constraint~\cite{Oertel2015,Chatterjee2016,Fortin2018}.}
+%
+In fact, the 
+measurement of $\approx 2M_\odot$ NS also rules out \edit{several} models that 
 include a phase transition to quark matter or a boson condensate in the inner 
 core, because the EoS is softened
 by the introduction of any additional degree of freedom without an 
-interaction. Let us however mention a recently proposed EoS with a 
-quark-hadron crossover at high density that allows a maximum mass of 
-$2.35M_\odot$ \cite{Baym2019} and agrees with the constraints on NS
-properties inferred from the GW170817 event \cite{GW1,GW2}.
+interaction. \edit{Let us however mention that several EoS with a quark-hadron
+crossover at high density are stiff enough to support NS of masses greater
+thatn $2M_\odot$~\cite{Masuda2013,Kojo2015,Baym2019}. In particular, the 
+recently proposed QHC19 EoS~\cite{Baym2019}} allows a maximum mass of 
+$2.35M_\odot$ and agrees with the constraints on NS properties inferred from 
+the GW170817 event \cite{GW1,GW2}.
 
 We propose here to extrapolate the \textit{npe$\mu$} matter at higher
 densities, in the inner core. {The different studies that consider 
@@ -2414,7 +2433,7 @@ existing nuclear models up to $\approx 2-3 n_{sat}$ (metamodeling ELFc
 in \cite{Margueron2018a}), as we have verified in Fig.~\ref{fig:mm_accuracy}.
 A solution for achieving faster convergence at high density, the 
 metamodeling ELFd, is proposed in \cite{Margueron2018a}. It is based on a
-reevaluation of the high-order empirical parameters parameters $Q_{sat}$,
+reevaluation of the high-order empirical parameters $Q_{sat}$,
 $Q_{sym}$, and $Z_{sat}$, $Z_{sym}$, by imposing a high-density point at which
 the energy per nucleon and the pressure are known for a given functional. This
 is encouraged by the fact that the impact of these parameters is very small in
@@ -2473,9 +2492,10 @@ More recently, a series of unified EoS based on modern BSk
 functionals~\cite{Goriely2013} has been proposed~\cite{Pearson2018}. In this
 work, the ground state of the outer crust is determined by application of the
 microscopic HFB method~\cite{Samyn2002}, and the ground state of the inner 
-crust is calculated within the ETFSI approximation~\cite{Onsi2008}. {Also, 
-  a set of unified EoS were built within a relativistic mean-field approach 
-(RMF) in \cite{Fortin2016}.}
+crust is calculated within the ETFSI approximation~\cite{Onsi2008}. Also, 
+  a set of unified EoS built within a relativistic mean-field approach 
+  (RMF) was proposed in \cite{Fortin2016} \edit{and another one based on Skyrme 
+    functionals in~\cite{Gulminelli2015}.} 
 
 One obvious reason explaining why crust and core matter are not consistently 
 treated using the same microscopic interaction is that it is less trivial to 
@@ -2483,13 +2503,13 @@ evaluate the ground state of the inner crust in comparison to the ground state
 of matter in the core. Indeed, one can evaluate the inner-crust ground state
 within different many-body approaches, either using the CLDM, the
 semiclassical ETFSI method, or full HF calculations. While 
-the two last methods are expected to be more precise with respect to the CLD 
+the two last methods are expected to be more precise than the CLD 
 approximation as far as the composition is concerned, they can become 
 computationally heavy if one wants to compute the EoS for many nuclear 
 models. {In addition, these more microscopic methods can only be extended 
   to finite temperature in the SNA, whereas the CLD approximation allows 
-distributions of clusters, that exist at $T > 0$, to be considered (see Chapter 
-3 of this thesis).} 
+  distributions of clusters, that exist at finite temperature, to be 
+  considered (see Chapter 3 of this thesis).} 
 
 In view to provide a unified and thermodynamically consistent treatment of the
 crust and core of cold nonaccreting NS, we propose to compute the EoS within 
@@ -2497,9 +2517,10 @@ the metamodeling approach that we have presented throughout this chapter. For
 a given nuclear model, in other words a given set of empirical parameters
 $\bm{P_\alpha}$, we proceed as follows. The EoS in the outer crust is
 evaluated by application of the BPS method presented in \ref{subsec:bps}, using 
-the present day knowledge on experimental masses~\cite{Huang2017} supplemented 
-by state-of-the-art microscopic HFB theoretical mass tables~\cite{Goriely2013} 
-up to the neutron-drip point. The EoS in the inner crust is then calculated
+the present day knowledge on experimental masses~\cite{Huang2017,Welker2017} 
+supplemented by state-of-the-art microscopic HFB theoretical mass 
+tables~\cite{Goriely2013} up to the neutron-drip point. 
+The EoS in the inner crust is then calculated
 by solving the system of four differential equations, Eqs.~(\ref{eq:ic1}),
 (\ref{eq:ic2}), (\ref{eq:ic3}), and (\ref{eq:ic4}). The metamodeling technique,
 discussed in ~\ref{subsubsec:hnm}, is used to calculate the neutron gas energy.
