@@ -170,9 +170,10 @@ Gold~\cite{Gold1968}, ouvrant alors la voie à des développements théoriques
 majeurs et à de nombreuses observations dans les décennies suivantes.
 \\
 
-Au cours de leur vie, les étoiles de masse supérieure à 8$M_\odot$ ($M_\odot$ 
-étant la masse du Soleil) peuvent fusionner les éléments du c\oe ur jusqu'au 
-silicium brûlant en fer. La fusion des éléments n'est alors plus possible 
+Au cours de leur vie, les étoiles de masse supérieure à $\sim 10 M_\odot$ 
+($M_\odot$ étant la masse du Soleil) peuvent fusionner les éléments du c\oe ur 
+jusqu'au silicium brûlant en fer. 
+La fusion des éléments n'est alors plus possible 
 dans la mesure où le fer est le nucléide le plus stable présent dans la nature. 
 Dès lors, la chaîne de réactions dans le c\oe ur se termine, et dans leur stade 
 final les étoiles présentent une structure en forme d'oignon : leur c\oe ur est 
@@ -191,11 +192,10 @@ Le résidu de l'explosion est une protoétoile à neutrons chaude
 ($\sim 10^{10}$~K) et deux finalités sont envisageables : soit la protoétoile à 
 neutrons finira par évoluer en étoile à neutrons, soit en trou noir si sa 
 masse est plus importante que la masse maximale des étoiles à neutrons, qui est 
-encore incertaine à ce jour. 
-L'évolution vers une étoile à neutrons froide prend environ cent ans, en 
-passant par différentes étapes plus ou moins longues~\cite{Prakash1997}. 
+encore incertaine à ce jour. Quelques minutes après la formation de la
+protoétoile à neutrons chaude, elle devient transparente aux neutrinos. 
 
-L'étoile se refroidit en émettant des photons et des neutrinos. À environ 
+L'étoile se refroidit en émettant des neutrinos et des photons. À environ 
 $10^8$~K, la matière est catalysée, c'est-à-dire dans son état fondamental. 
 Une représentation schématique de la structure interne d'une étoile à neutrons 
 froide est donnée en fig.~\ref{fig:NStarInt}. 
@@ -220,7 +220,11 @@ De part la capture électronique, la matière s'enrichit en neutrons avec
 l'augmentation de la densité, c'est-à-dire lorsque l'on se rapproche du centre 
 de l'étoile. 
 Dans les couches profondes de la croûte interne, il est supposé que les noyaux 
-présentent des formes non sphériques. 
+présentent des formes non sphériques. Lorsque la température de la croûte 
+interne devient inférieure à la température critique $T_c \sim 10^{10}$~K, les 
+neutrons libres ayant des spins anti-alignés et un moment angulaire orbital nul 
+forment des paires de Cooper et sont dans un état superfluide, caractérisé par 
+l'absence de viscosité. 
 %
 À environ la moitié de la densité de saturation $n_{sat}$, correspondant à la 
 la densité d'équilibre de la matière nucléaire homogène et symétrique, 
@@ -239,7 +243,7 @@ une transition de phase vers les quarks.
 Les pulsars ont été identifiés comme des étoiles à neutrons en rotation 
 produisant des émissions pulsées, peu de temps après leur découverte fortuite 
 en 1967 par Jocelyn Bell~\cite{Hewish1968}. Cinq décennies plus tard, nous en 
-avons observé environ 2000 et de nombreuses techniques ont été développées pour 
+avons observé environ 3000 et de nombreuses techniques ont été développées pour 
 mesurer leurs observables caractéristiques.
 
 Il est plus facile pour les astronomes de mesurer la masse d'une étoile à 
@@ -250,7 +254,7 @@ pour déduire la masse de l'étoile~\cite{Haensel2007}.
 Par exemple, dans un pulsar binaire, divers phénomènes tels que
 l'effet Shapiro~\cite{Shapiro1964} peuvent être exploités dans le but de 
 mesurer la masse en surveillant régulièrement la rotation d'un pulsar sur de 
-longues périodes (années à décennies). L'effet Shapiro est un phénomène à
+longues périodes. L'effet Shapiro est un phénomène à
 partir duquel des masses précises, tant pour un pulsar milliseconde que pour 
 son compagnon, peuvent être déduites~\cite{Demorest2010,Cromartie2020}. 
 Les masses mesurées des étoiles à neutrons par le \textit{timing} de pulsar 
@@ -279,8 +283,8 @@ mission NICER, dont les premiers résultats commencent à être disponibles
 même si des complications dans l'interprétation des données interviennent à
 cause du manque d'uniformité de la température à la surface 
 \cite{Bogdanov2019a,Bogdanov2019b,Miller2019,Raaijmakers2019,Riley2019}. 
-Les valeurs canoniques typiques pour les masses et rayons des étoiles à 
-neutrons sont $M = 1.4M_\odot$ et $R = 10-14$~km. 
+Les valeurs typiques pour les masses et rayons des étoiles à 
+neutrons sont respectivement $M = 1.4M_\odot$ et $R = 10-14$~km. 
 
 Très récemment, la première détection d'ondes gravitationnelles à partir de la 
 coalescence de deux étoiles à neutrons, l'événement GW170817, a donné des 
@@ -341,9 +345,9 @@ nécessite la modélisation de la matière baryonique dense, en particulier de
 l'équation d'état nucléaire. 
 %
 L'équation d'état relie, dans des conditions connues de température et 
-de densité, les quantités macroscopiques de l'étoile telles que la densité
-massique et la pression. Elle permet notamment de déterminer la relation 
-masse-rayon des étoiles à neutrons, obtenue en résolvant l'équation 
+de densité, les propriétés thermodynamiques du système, telles que la densité 
+massique et la pression, à l'équilbre. Elle permet notamment de déterminer la 
+relation masse-rayon des étoiles à neutrons, obtenue en résolvant l'équation 
 d'équilibre hydrostatique en relativité 
 générale~\cite{Tolman1939,Oppenheimer1939}.
 %
@@ -471,9 +475,13 @@ de la structure de la croûte à la température de cristallisation.
 La présence éventuelle de phases amorphes et hétérogènes dans la croûte 
 interne d'une étoile à neutrons devrait réduire la conductivité électrique de 
 la croûte, avec des conséquences potentiellement importantes sur l'évolution 
-magnéto-thermique de l'étoile. Dans les simulations de refroidissement, le 
+magnéto-thermique de l'étoile. L'étude des processus de refroidissement est
+importante pour comparer les calculs théoriques et la température de 
+surface mesurée par les satellites. Dans les simulations de refroidissement, le 
 désordre est quantifié par un paramètre d'impureté, souvent considéré comme un 
-paramètre libre. 
+paramètre libre. Ce paramètre est directement relié à la conductivité
+électron-impureté, qui contribue à la conductivité thermique
+totale~\cite{Flowers1976}. 
 \\
 
 La thèse est divisée en trois chapitres. 
@@ -935,8 +943,7 @@ prédiction quantitative des propriétés de la croûte interne étant la tensio
 superface à des ratios d'isospins extrêmes. 
 %
 Des déviations par rapport à la matière froide catalysée ont été observées à 
-faible densité au point de cristallisation, ce qui pourrait avoir un 
-impact sur les simulations du processus $r$. 
+faible densité au point de cristallisation. 
 Enfin, nous avons calculé le paramètre d'impureté de manière systématique dans
 la croûte interne à la température de cristallisation pour quatre 
 fonctionnelles BSk récentes qui tiennent compte des incertitudes actuelles sur 
@@ -982,3 +989,5 @@ produire tous les résultats présentés dans cette thèse.
 En outre, elle a été utilisée par différents étudiants pendant leur stage 
 sous la supervision conjointe de ma directrice de thèse et de moi-même et 
 nous pensons qu'elle peut servir de base à de futures études.
+
+\clearpage\thispagestyle{empty}

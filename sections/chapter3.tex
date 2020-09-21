@@ -14,9 +14,10 @@ crystallization temperature, which can be as high as $\approx 9\times 10^9$ K
 in the crust, potentially leading to sizable differences with respect to
 the simplifying cold catalyzed matter (CCM) hypothesis.
 
-NSE approaches have been recently developed 
+NSE approaches have been developed 
 to account for the full distribution of nuclei at finite 
-temperature~\cite{Gulminelli2015}, in contrast with the SNA, or one-component
+temperature \cite{El1980,Hempel2010,Raduta2014,Gulminelli2015}, in contrast 
+with the SNA, or one-component
 plasma (OCP) approximation, which considers a unique 
 configuration for a given thermodynamic condition. NSE approaches, also 
 referred to as multicomponent plasma (MCP) approaches, allow properly 
@@ -25,9 +26,10 @@ generally taken as free parameter directly fitted to cooling data.
 Another quantity of interest that can be evaluated in an MCP approach is the 
 fraction of odd-mass and odd-charge nuclei in the outer crust. Their presence 
 at low temperature might be the sign of ferromagnetic phase transitions, which 
-could alter the relativistic electron gas.
+could alter the relativistic electron gas. \edit{The importance of these
+effects depends partly on the spin of odd nuclei.}
 
-As in the zero-temperature limit, results in the free neutron regime at
+As in the zero-temperature limit, results in the \edit{inner-crust regime} at
 finite temperature are model dependent, and a nuclear free energy
 functional is required. Given its simplicity and because it is not expensive
 from the computational point of view, the CLD approach is very appealing, and 
@@ -55,8 +57,7 @@ This section deals with the modeling of the crust at finite temperature.
 Since the possible contribution of a free proton gas is expected to be small at 
 the temperatures considered, we neglect it. This working hypothesis 
 is \textit{a posteriori} confirmed by the calculation of the proton fugacity, 
-$z_p = \exp[(\mu_p-m_pc^2)/(k_B T)]$, which never exceeds $-20$ MeV in 
-the density and temperature domain of interest. 
+$z_p = \exp[(\mu_p-m_pc^2)/(k_B T)]$. 
 The existence of nonspherical pasta phases expected in the deeper layers of the 
 inner crust ($n_B \gtrsim 0.05$ fm$^{-3}$~\cite{Pearson2020}) is difficult to 
 account for within the MCP approach~\cite{Barros2020}, and 
@@ -251,8 +252,9 @@ $F_{ii,\text{sol}}$ is the Coulomb interaction term that can be decomposed as
 \end{equation}
 %
 In the latter expression, $E_L$ represents the temperature-independent static 
-lattice term, given by Eq.~(\ref{eq:eL}). The last term in~\ref{eq:fiisol} is
-the spin entropy. As previously, we fix $g_s=1$ for nuclei whose spin 
+lattice term, given by Eq.~(\ref{eq:eL}). The last term in 
+Eq.~(\ref{eq:fiisol}) is the spin entropy. 
+As previously, we fix $g_s=1$ for nuclei whose spin 
 degeneracy is unknown, yet the inclusion of this term has no effect on the 
 determination of the crystallization temperature because it is the same for 
 both liquid and solid OCP.
@@ -296,11 +298,11 @@ is~\cite{Potekhin2010}
 where
 %
 \begin{equation}
-  F_{\text{ah}}^{(0)} = k_B T\sum_{n \geq 1}\frac{f_n}{n\Gamma^n}
+  F_{\text{ah}}^{(0)} = k_B T\sum_{n \geq 1}\frac{f_n}{n\Gamma^n},
 \end{equation}
 %
 with $c_1$, $d_1$, and $f_n$ numerical constants. One should stress that
-the latter expression is modified with respect to that proposed by Farouki \&
+Eq.~(\ref{eq:ah}) is modified with respect to that proposed by Farouki \&
 Hamaguchi, $F_{\text{ah}}^{(0)}$, based on numerical simulations of 
 the solid OCP for $170 \leq \Gamma \leq 2000$~\cite{Farouki1993}, so as to
 reproduce the zero-temperature and classical limits.
@@ -349,8 +351,8 @@ The latter equation is equivalent to
 which shows that the Coulomb coupling parameter at melting
 temperature $\Gamma_m$ does not depend on leading mass terms, but is fully
 determined by the corrections that step in at 
-finite temperature. Furthermore, those corrections are small in the vicinity
-the crystallization temperature, making it difficult to estimate $\Gamma_m$
+finite temperature. Furthermore, those corrections are small in the vicinity of
+the the crystallization temperature, making it difficult to estimate $\Gamma_m$ 
 with precision. Still, several works estimate the Coulomb parameter to 
 a constant $\Gamma_m \approx 175$~\cite{VanHorn1969,Haensel2007}. 
 The crystallization temperature of a OCP at a given baryon density $n_B$ 
@@ -609,9 +611,9 @@ The determination of the equilibrium probabilities $p_j$ within the complete
 NSE formalism therefore requires to solve a complex nonlinear system of coupled 
 equations, which is obviously numerically costly. The implementation of 
 the complete NSE was carried out in different studies in recent
-years~\cite{Oertel2017,Burgio2018}, but in those studies simplified nuclear 
-functionals were adopted, \edit{baryon density} was imposed instead of the 
-pressure, and the rearrangement term was neglected.
+years \edit{(see for example~\cite{Oertel2017,Burgio2018})}, but in those 
+studies simplified nuclear functionals were adopted, \edit{baryon density} was 
+imposed instead of the pressure, and the rearrangement term was neglected.
 
 % perturbative implementation of NSE (update the chemical potentials)
 We choose here to implement the NSE perturbatively, as proposed 
@@ -799,7 +801,7 @@ occupation rate of state of given energy $e$ is introduced,
   = \left[1+\exp\left(\frac{e-\mu}{k_B T}\right)\right]^{-1}.\label{eq:fFD}
 \end{equation}
 %
-When replacing the sum by an integral, one need to introduce the density of
+When replacing the sum by an integral, one needs to introduce the density of
 energy states $\rho(e)$. For a spinless free particle of energy $e=\hbar^2 
 k^2/(2m)$, the density of states is given by $\rho(\vec{k}) =
 \frac{V}{(2\pi)^3}$, with $k$ the wave vector and $V$ the volume. Using the 
@@ -810,7 +812,7 @@ relation $\rho(\vec{k})d^3k = \rho(e)de$, one obtains
 \end{equation}
 %
 where the spin degeneracy $g=2s+1$ (for fermions, $s=1/2$) has been introduced, 
-and mass $m$ is the mass of a particle.
+and $m$ is the mass of a particle.
 At the thermodynamic limit, that is if we consider a huge number of particles
 at a given temperature $T$ so that a large number of states are occupied, all
 ensembles are equivalent. This means that we can use the expressions of 
@@ -1083,7 +1085,7 @@ solid OCP, already investigated in Fig.~\ref{fig:fliqsol}, can be appreciated
 in the left panel of Fig.~\ref{fig:tm_ocrust} by comparing the solid and 
 dashdotted blue lines. We recover the result of~\cite{Fantina2020} that the 
 crystallization temperature is quite sensitive to the anharmonic contribution.
-We find that not accounting for this thermal correction induce an error on 
+We find that not accounting for this thermal correction induces an error on 
 $T_m$ of the order of $10\%$ in the range of pressure corresponding to the 
 outer crust.
 The dotted blue line shows the result of the approximation 
@@ -1285,7 +1287,7 @@ In Fig.~\ref{fig:qimp_ocrust}, the impurity parameter $Q_{\text{imp}}$ is
 plotted as a function of the pressure in the regime of the outer crust. As
 previously, we make use of the microscopic HFB-24 theoretical mass
 table~\cite{Goriely2013} to complement the present day experimental
-information nuclear masses~\cite{Huang2017,Welker2017}.
+information on nuclear masses~\cite{Huang2017,Welker2017}.
 % we assume different values at which the composition is frozen
 We recall that, considering the present uncertainties on timescales relative to 
 NS cooling~\cite{Goriely2011}, the ion distribution could be frozen at some
@@ -1566,8 +1568,8 @@ $\xi_0 = \xi(T_0)$, such that
 This is obviously a very rough treatment of the temperature dependence of shell 
 effects, but we will show in~\ref{subsubsec:cryst_bsk} that the difference in 
 the results obtained with or without this temperature dependence is smaller 
-than the uncertainty due to our imperfect knowledge of the smooth part of the 
-nuclear functional.
+than the uncertainty due to our imperfect knowledge of the \edit{CLD} part of 
+the nuclear functional.
  
 A reasonable choice consists in adjusting $T_0$, corresponding to the 
 temperature at which shell effects are wiped out, and $\xi_0$, which governs
@@ -1680,8 +1682,8 @@ composition and crystallization temperature.
 %
 Given the present CLD calculations, we find that the crystallization 
 temperature of a OCP in the inner crust ranges from $\approx 3\times 10^9$ K at 
-the neutron-drip point to $\approx 9\times 10^9$ K at high density close the CC 
-transition point.
+the neutron-drip point to $\approx 9\times 10^9$ K at high density close to the 
+CC transition point.
 The different functionals lead to predictions that progressively diverge 
 with increasing depth, the crystallization temperature differing by up to 
 $40\%$ at the highest density considered.
@@ -1795,9 +1797,9 @@ of the nuclear model, the equilibrium proton fraction as obtained within the
 CCM hypothesis would be overestimated, and as a consequence the latter 
 hypothesis would be challenged.
 %
-The increased $Q$ value for neutron capture could alter the $r$-process that 
-is expected to take place in binary NS mergers. Further investigations are 
-desirable.
+% The increased $Q$ value for neutron capture could alter the $r$-process that 
+% is expected to take place in binary NS mergers. Further investigations are 
+% desirable.
 
 \subsection{MCP results}\label{subsec:mcp_results}
 

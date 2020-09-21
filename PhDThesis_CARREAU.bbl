@@ -20234,6 +20234,35 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.83.045810
       \endverb
     \endentry
+    \entry{El1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=041bb9510aaa1eae331960934c315ef0}{%
+           family={El\bibnamedelima Eid},
+           familyi={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Mounib\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0b56f2fe83f8a9b00f2294ba2ce510f3}{%
+           family={Hillebrandt},
+           familyi={H\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5834cff56343e86c9252228443bef786}
+      \strng{fullhash}{5834cff56343e86c9252228443bef786}
+      \strng{authornamehash}{5834cff56343e86c9252228443bef786}
+      \strng{authorfullhash}{5834cff56343e86c9252228443bef786}
+      \field{labelalpha}{EH80}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy and Astrophysics Supplement Series}
+      \field{title}{A new equation of state of supernova matter}
+      \field{volume}{42}
+      \field{year}{1980}
+      \field{pages}{215\bibrangedash 226}
+      \range{pages}{12}
+    \endentry
     \entry{Espinoza2011}{article}{}
       \name{author}{4}{}{%
         {{hash=e8e3ffea386f195d97fb0abeef7bca9e}{%
@@ -21820,6 +21849,39 @@
       \verb{doi}
       \verb 10.1007/978-0-387-47301-7
       \endverb
+    \endentry
+    \entry{Hempel2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ee3cb5483a7390aa4ba7a549cb9aa338}{%
+           family={Hempel},
+           familyi={H\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7591536ec284548c93f49dec7d7c9df4}{%
+           family={Schaffner-Bielich},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{92dfd87615af22cde22e4f71e9473d84}
+      \strng{fullhash}{92dfd87615af22cde22e4f71e9473d84}
+      \strng{authornamehash}{92dfd87615af22cde22e4f71e9473d84}
+      \strng{authorfullhash}{92dfd87615af22cde22e4f71e9473d84}
+      \field{labelalpha}{HS10}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{number}{3-4}
+      \field{title}{A statistical model for a complete supernova equation of state}
+      \field{volume}{837}
+      \field{year}{2010}
+      \field{pages}{210\bibrangedash 254}
+      \range{pages}{45}
     \endentry
     \entry{Hu2020}{misc}{}
       \name{author}{6}{}{%
@@ -24435,59 +24497,6 @@
       \verb 10.1146/annurev.ns.45.120195.002241
       \endverb
     \endentry
-    \entry{Prakash1997}{article}{}
-      \name{author}{6}{}{%
-        {{hash=5f33c1a330358f24da0092ca80371ea9}{%
-           family={Prakash},
-           familyi={P\bibinitperiod},
-           given={Madappa},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5aadb4e532c0ce51befc05ea886269c0}{%
-           family={Bombaci},
-           familyi={B\bibinitperiod},
-           given={Ignazio},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b3288c2f7e94cefca49cc216530128bc}{%
-           family={Prakash},
-           familyi={P\bibinitperiod},
-           given={Manju},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ae7cd026e50f1f001a507fb19964d070}{%
-           family={Ellis},
-           familyi={E\bibinitperiod},
-           given={Paul\bibnamedelima J},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=40b979e26b1b331ba0da80658a68981f}{%
-           family={Lattimer},
-           familyi={L\bibinitperiod},
-           given={James\bibnamedelima M},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=560d693814ddf08e868ef868b7a71647}{%
-           family={Knorren},
-           familyi={K\bibinitperiod},
-           given={Roland},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{68b24c8018883f577286c3f901df4a85}
-      \strng{fullhash}{6f5b4d35f08d6fa91c5e8e09b7f6685e}
-      \strng{authornamehash}{68b24c8018883f577286c3f901df4a85}
-      \strng{authorfullhash}{6f5b4d35f08d6fa91c5e8e09b7f6685e}
-      \field{labelalpha}{Pra+97}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physics Reports}
-      \field{number}{1}
-      \field{title}{Composition and structure of protoneutron stars}
-      \field{volume}{280}
-      \field{year}{1997}
-      \field{pages}{1\bibrangedash 77}
-      \range{pages}{77}
-    \endentry
     \entry{Pethick1995cc}{article}{}
       \name{author}{3}{}{%
         {{hash=c00632b738cee82f68ff0fe1c188503d}{%
@@ -24695,6 +24704,44 @@
       \verb{url}
       \verb https://doi.org/10.3847%2F2041-8213%2Fab451a
       \endverb
+    \endentry
+    \entry{Raduta2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7625fd937b099356261173d8b7253b45}{%
+           family={Raduta},
+           familyi={R\bibinitperiod},
+           given={Ad\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e29978a6fcd54be901aca04e1e076bfa}{%
+           family={Aymard},
+           familyi={A\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c73999b5499c1bb1e2b4aeb7477fce03}{%
+           family={Gulminelli},
+           familyi={G\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d33204675306fc95d5620a8541872898}
+      \strng{fullhash}{d33204675306fc95d5620a8541872898}
+      \strng{authornamehash}{d33204675306fc95d5620a8541872898}
+      \strng{authorfullhash}{d33204675306fc95d5620a8541872898}
+      \field{labelalpha}{RAG14}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal A}
+      \field{number}{2}
+      \field{title}{Clusterized nuclear matter in the (proto-) neutron star crust and the symmetry energy}
+      \field{volume}{50}
+      \field{year}{2014}
+      \field{pages}{24}
+      \range{pages}{1}
     \endentry
     \entry{Riley2019}{article}{}
       \name{author}{16}{}{%
