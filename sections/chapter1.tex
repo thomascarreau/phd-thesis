@@ -94,8 +94,8 @@ The energy of a WS cell in the outer crust can therefore be written as
   E_{WS} = E_i + V_{WS}\varepsilon_e,\label{eq:ews_ocrust}
 \end{equation}
 %
-with $E_i$ the ion energy, $V_{WS}$ the volume of the cell, and $\varepsilon_e$ the 
-energy density of the relativistic electron gas.
+with $E_i$ the ion energy, $V_{WS}$ the volume of the cell, and $\varepsilon_e$ 
+the energy density of the \edit{free electron Fermi gas}. 
 The ion energy reads
 %
 \begin{equation}
@@ -328,13 +328,15 @@ estimate the pressure at which the transition from $(A,Z)$ to $(A',Z')$ occurs.
 The BPS model is still widely used to determine the ground state of the outer 
 crust. However, at that time the authors took the values of nuclear binding 
 energies from the outdated phenomenological macroscopic model of Myers and 
-Swiatecki~\cite{Myers1965}. Moreover, they did not take
-into account the zero-point vibration energy, Eq.~(\ref{eq:ezp}). In the last decades,
-considerable efforts have been made to measure nuclear masses near the neutron
+Swiatecki~\cite{Myers1965} \edit{and considered only 150 even-even nuclei}. 
+Moreover, they did not take into account the zero-point vibration energy, 
+Eq.~(\ref{eq:ezp}). In the last decades, 
+considerable efforts have been made to measure nuclear masses near the neutron 
 drip line~\cite{Lunney2003}, as well as theoretical developments were achieved 
-to construct microscopic mass tables~\cite{Samyn2002}. It is therefore 
-important to reevaluate the ground state of the outer crust considering those 
-experimental and theoretical advances. In this line, Haensel and Pichon studied 
+to construct microscopic mass tables~\cite{Samyn2002,Goriely2013}. It is 
+therefore important to reevaluate the ground state of the outer crust 
+considering those experimental and theoretical advances. 
+In this line, Haensel and Pichon studied 
 the consequences of progress concerning the experimental determination of atomic 
 masses in 1994~\cite{Haensel1994}. The authors found that the ground state of
 the outer crust can be determined exclusively by experimental masses in a fully
@@ -350,10 +352,10 @@ state-of-the-art microscopic theoretical mass tables~\cite{Goriely2013}.
 
 \subsection{Equilibrium composition and equation of state}\label{subsec:ocrust_compo}
 
-We turn to the numerical results obtained applying the BPS method presented
-in~\ref{subsec:bps}. The ground state of the outer crust is calculated,
-beginning at $P = 3\times 10^{-11}$, corresponding approximately to 
-$n_B \approx 10^{-9}$ fm$^{-3}$, in order to ensure complete ionization and 
+We turn to the numerical results obtained applying the BPS method presented 
+in~\ref{subsec:bps}. The ground state of the outer crust is calculated, 
+beginning at $P = 3\times 10^{-11}$ MeV/fm$^{3}$, corresponding approximately 
+to $n_B \approx 10^{-9}$ fm$^{-3}$, in order to ensure complete ionization and 
 electron degeneracy. The pressure is increased from steps of $0.02P$ until the 
 neutron drip point, defined by $\mu_n - m_n c^2 = 0$, is reached.
 
@@ -480,7 +482,7 @@ odd nuclei in the ground state of the outer crust was not considered in the
 original calculation of BPS~\cite{BPS}. Also, it is reported
 in~\cite{Pearson2018} that $^{79}$Cu is favored over $^{76}$Ni, found
 for HFB-22 and HFB-25, in the case where the recent mass excess measurements
-of~\cite{Welker2017} are accounted for. This highlights the importance
+of~\cite{Welker2017} are \edit{not included}. This highlights the importance
 of measuring the mass of odd-nuclei. {Indeed, one could expect that the 
   presence of odd-nuclei in the outer crust of NS might lead to a ferromagnetic 
   phase transition at low temperature, which would generate a magnetic 
@@ -579,6 +581,8 @@ transition to $N=82$. While this transition occurs in the vicinity of $8\times
 approximately $4\times 10^{-5}$ fm$^{-3}$ for HFB-14. Different nuclides are 
 found close to the neutron drip, depending on the model: $^{124}$Sr is found for
 HFB-24, $^{126}$Sr for HFB-26, $^{120}$Kr for HFB-14, and $^{122}$Kr for FRDM. 
+\edit{Let us note that most of the mass of the outer crust is actually 
+concentrated in those densest layers.} 
 The neutron drip density $n_{ND}$ and pressure $P_{ND}$ slightly depend on 
 the model as well. These values are reported in Table~\ref{table:drip}.
 
@@ -1651,16 +1655,21 @@ particle wave functions of nucleons, using the density-matrix expansion for a
 realistic NN interaction. NV observed a predominance of $Z=40$ at low density, 
 and $Z=50$ at high density. Subsequent works within the semiclassical
 ETF~\cite{Goriely2005} and finite-temperature extended Thomas-Fermi plus
-Strutinsky integral (TETFSI)~\cite{Onsi2008,Pearson2018} also predict $Z=40$ in
-the inner crust. As far as CLD calculations are concerned, DH find that the 
+Strutinsky integral (TETFSI)~\cite{Onsi2008,Pearson2018}, \edit{as well as 
+recent calculations using Gogny D1M$^*$~\cite{Mondal2020}} also predict $Z=40$ 
+in the inner crust. As far as CLD calculations are concerned, DH find that the 
 equilibrium value of $Z$ is almost constant in the vicinity of $\approx 40$ 
-throughout the inner crust, whereas BBP find monotonically increasing values of $Z$. 
-Once again, it should be stressed that $Z$ is very sensitive to the isospin
+throughout the inner crust, whereas BBP find monotonically increasing values of 
+$Z$. Once again, it should be stressed that $Z$ is very sensitive to the isospin
 dependence of the surface tension. In particular, it is observed by varying 
 the parameter $p$ that governs the behavior of the surface tension at extreme 
 isospin values. We can see that a lower surface tension, $p=3.5$, favors smaller 
 atomic number $Z$, and in general lighter clusters, unlike $p=2.5$ that leads to 
-heavier clusters.
+heavier clusters. \edit{It is interesting to note that the influence of $p$ on 
+  the proton number is similar to that of the slope of the symmetry energy
+  $L_{sym}$. 
+  In~\cite{Oyamatsu2006}, it was shown that the charge number is larger for the 
+EoS having smaller $L_{sym}$ (see their Fig.~3).}
 
 As in the outer crust, we find that the proton fraction inside the cell $Y_p$ 
 continuously decreases in the free neutron regime, dropping from $\approx 0.3$ 
@@ -2026,13 +2035,13 @@ model dependence is observed, it is interesting to notice that the
 sequence spheres $\rightarrow$ cylinders $\rightarrow$ plates $\rightarrow$ 
 tubes is recovered for every model. Another shared feature is that the 
 transition to homogeneous matter is found before the appearance of bubbles.
-Let us remark that pasta phases are observed for SLy4 here, while previous CLD 
-and TF calculations for this functional have predicted that the sphere is 
-the most favorable shape at all densities up to the CC 
-transition point~\cite{Douchin2000a, Vinas2017}. This contradiction can be
-understood by the fact that we are dealing with very tiny differences in
-energy density (all the shapes are very close), in a region where the matter is 
-extremely neutron rich, thus
+Let us remark that, \edit{as in~\cite{Martin2015}}, we observe pasta phases for 
+SLy4, whereas several previous CLD and TF calculations for this functional have 
+predicted that the sphere is the most favorable shape at all densities up to 
+the CC transition point~\cite{Douchin2000a,Vinas2017}. 
+This contradiction can be understood by the fact that we are dealing with very 
+tiny differences in energy density (all the shapes are very close), in a region 
+where the matter is extremely neutron rich, thus
 where the nuclear surface tension is poorly constrained. In particular, we 
 observed that varying the value of the surface parameter $p$ can affect the 
 sequence of pasta phases.

@@ -23313,6 +23313,56 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevC.96.021302
       \endverb
     \endentry
+    \entry{Mondal2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a117495af333828c2e6dbbefbd49b499}{%
+           family={Mondal},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=93fbcfe384ece392768f6b4b71f16fc4}{%
+           family={Viñas},
+           familyi={V\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f93b01f5362a09fbc1308b550ca3d4a4}{%
+           family={Centelles},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9066c8234f56ec6ce0fbd5fd292eed11}{%
+           family={De},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4b42efb9b37a95be6fd168e928d73302}
+      \strng{fullhash}{2fdf2f47be1bbfa2da111d3f21fc011f}
+      \strng{authornamehash}{4b42efb9b37a95be6fd168e928d73302}
+      \strng{authorfullhash}{2fdf2f47be1bbfa2da111d3f21fc011f}
+      \field{labelalpha}{Mon+20}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{7}
+      \field{title}{Structure and composition of the inner crust of neutron stars from Gogny interactions}
+      \field{volume}{102}
+      \field{year}{2020}
+      \field{pages}{015802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.102.015802
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.102.015802
+      \endverb
+    \endentry
     \entry{Myers1965}{article}{}
       \name{author}{2}{}{%
         {{hash=30d82f8825eceb7c41be7f01545d8351}{%
@@ -23421,6 +23471,46 @@
       \endverb
       \verb{url}
       \verb https://aip.scitation.org/doi/abs/10.1063/1.3141634
+      \endverb
+    \endentry
+    \entry{Martin2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fe08e55b76139c0034e18133c1b28a21}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Noël},
+           giveni={N\bibinitperiod}}}%
+        {{hash=41cd95370c85ad69a16f4e7aead8220a}{%
+           family={Urban},
+           familyi={U\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f515141172fffb0a18eb874be17928d1}
+      \strng{fullhash}{f515141172fffb0a18eb874be17928d1}
+      \strng{authornamehash}{f515141172fffb0a18eb874be17928d1}
+      \strng{authorfullhash}{f515141172fffb0a18eb874be17928d1}
+      \field{labelalpha}{MU15}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{7}
+      \field{title}{Liquid-gas coexistence versus energy minimization with respect to the density profile in the inhomogeneous inner crust of neutron stars}
+      \field{volume}{92}
+      \field{year}{2015}
+      \field{pages}{015803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.92.015803
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.92.015803
       \endverb
     \endentry
     \entry{Martin2016}{article}{}
@@ -23686,6 +23776,42 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/RevModPhys.89.015007
+      \endverb
+    \endentry
+    \entry{Oyamatsu2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=20b03df78cd5576d47c544d5c2c5fc18}{%
+           family={Oyamatsu},
+           familyi={O\bibinitperiod},
+           given={Kazuhiro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e37dbefa1083c9240219c0895bfe4196}{%
+           family={Iida},
+           familyi={I\bibinitperiod},
+           given={Kei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac3bde48ae4e13fc1c9e48590df4dfe1}
+      \strng{fullhash}{ac3bde48ae4e13fc1c9e48590df4dfe1}
+      \strng{authornamehash}{ac3bde48ae4e13fc1c9e48590df4dfe1}
+      \strng{authorfullhash}{ac3bde48ae4e13fc1c9e48590df4dfe1}
+      \field{labelalpha}{OI07}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{title}{{The Symmetry energy at subnuclear densities and nuclei in neutron star crusts}}
+      \field{volume}{75}
+      \field{year}{2007}
+      \field{pages}{015801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.75.015801
+      \endverb
+      \verb{eprint}
+      \verb nucl-th/0609040
       \endverb
     \endentry
     \entry{Onsi2008}{article}{}
