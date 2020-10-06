@@ -1,9 +1,9 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {chapter}{List of Figures}{vii}{chapter*.3}
-\contentsline {xchapter}{}{vii}{chapter*.3}
-\contentsline {chapter}{List of Tables}{ix}{chapter*.5}
-\contentsline {xchapter}{}{ix}{chapter*.5}
-\contentsline {starchapter}{General introduction}{1}{chapter*.6}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.4}
+\contentsline {xchapter}{}{ix}{chapter*.4}
+\contentsline {chapter}{List of Tables}{xi}{chapter*.6}
+\contentsline {xchapter}{}{xi}{chapter*.6}
+\contentsline {starchapter}{General introduction}{1}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Structure and equation of state of cold nonaccreting neutron stars}{9}{chapter.1}
 \contentsline {section}{\numberline {1.1}Ground state of the outer crust}{11}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Wigner-Seitz cell energetics}{11}{subsection.1.1.1}
@@ -84,7 +84,7 @@
 \contentsline {subsubsection}{\numberline {3.3.2.1}Equilibrium composition of the MCP}{137}{subsubsection.3.3.2.1}
 \contentsline {subsubsection}{\numberline {3.3.2.2}Impurity parameter}{139}{subsubsection.3.3.2.2}
 \contentsline {section}{\numberline {3.4}Conclusions}{140}{section.3.4}
-\contentsline {starchapter}{General conclusions and outlooks}{143}{chapter*.75}
+\contentsline {starchapter}{General conclusions and outlooks}{143}{chapter*.76}
 \contentsline {chapter}{\numberline {A}Energy density of a relativistic electron gas}{147}{appendix.A}
 \contentsline {chapter}{\numberline {B}Neutron and proton chemical potentials in the metamodel}{149}{appendix.B}
 \contentsline {chapter}{\numberline {C}Partie en fran\IeC {\c c}ais}{151}{appendix.C}
@@ -93,4 +93,4 @@
 \contentsline {section}{\numberline {C.3}Inf\IeC {\'e}rence bay\IeC {\'e}sienne des observables des \IeC {\'e}toiles \IeC {\`a} neutrons}{158}{section.C.3}
 \contentsline {section}{\numberline {C.4}Cristallisation de la cro\IeC {\^u}te des proto\IeC {\'e}toiles \IeC {\`a} neutrons}{160}{section.C.4}
 \contentsline {section}{\numberline {C.5}Conclusions g\IeC {\'e}n\IeC {\'e}rales et perspectives}{162}{section.C.5}
-\contentsline {chapter}{Bibliography}{167}{appendix*.76}
+\contentsline {chapter}{Bibliography}{167}{appendix*.77}
