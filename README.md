@@ -10,19 +10,19 @@ Contact: Thomas Carreau (thomascarreau@protonmail.com)
 
 Please cite using the following BibTeX entry:
 
-  @phdthesis{carreau:tel-02998330,
-    TITLE = {{Modeling the (proto)neutron star crust : toward a controlled estimation of uncertainties}},
-    AUTHOR = {Carreau, Thomas},
-    URL = {https://tel.archives-ouvertes.fr/tel-02998330},
-    NUMBER = {2020NORMC206},
-    SCHOOL = {{Normandie Universit{\'e}}},
-    YEAR = {2020},
-    MONTH = Sep,
-    KEYWORDS = {Neutron star ; Crust ; Nuclear physics ; Equation of state ; Bayesian statistics ; Pulsar glitch ; Nuclear statistical equilibrium ; Crystallization ; Cro{\^u}te ; Glitch de pulsar ; Equilibre statistique nucl{\'e}aire},
-    TYPE = {Theses},
-    PDF = {https://tel.archives-ouvertes.fr/tel-02998330/file/sygal_fusion_28550-carreau-thomas.pdf},
-    HAL_ID = {tel-02998330},
-    HAL_VERSION = {v1},
+    @phdthesis{carreau:tel-02998330,
+        TITLE = {{Modeling the (proto)neutron star crust : toward a controlled estimation of uncertainties}},
+        AUTHOR = {Carreau, Thomas},
+        URL = {https://tel.archives-ouvertes.fr/tel-02998330},
+        NUMBER = {2020NORMC206},
+        SCHOOL = {{Normandie Universit{\'e}}},
+        YEAR = {2020},
+        MONTH = Sep,
+        KEYWORDS = {Neutron star ; Crust ; Nuclear physics ; Equation of state ; Bayesian statistics ; Pulsar glitch ; Nuclear statistical equilibrium ; Crystallization ; Cro{\^u}te ; Glitch de pulsar ; Equilibre statistique nucl{\'e}aire},
+        TYPE = {Theses},
+        PDF = {https://tel.archives-ouvertes.fr/tel-02998330/file/sygal_fusion_28550-carreau-thomas.pdf},
+        HAL_ID = {tel-02998330},
+        HAL_VERSION = {v1},
     }
 
 Abstract
